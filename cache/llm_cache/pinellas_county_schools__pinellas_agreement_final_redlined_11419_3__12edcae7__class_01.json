@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "Student enrollment will be capped at forty-five (45) for each semester course, with the goal of obtaining thirty (30) successful completions per teacher per semester.",
+    "page": "63",
+    "confidence": "high",
+    "coder_notes": "Evidence directly supports the coded answer. Note: The provided document excerpt ends at page 38, so this passage was not present in the attached text. Answer and evidence preserved as they explicitly state a specific limit and goal."
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_secondary_max_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

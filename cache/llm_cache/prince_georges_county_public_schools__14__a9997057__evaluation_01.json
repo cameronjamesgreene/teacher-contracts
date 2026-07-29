@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "The Board will follow State Board of Education Guidelines for Evaluation of Probationary Teachers, a current copy of which is appended to this Agreement.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 9 to 10 to accurately reflect the location of Section 4.08.E in the provided document."
+  },
+  "evaluation_system_002": {
+    "answer": "State Board of Education Guidelines for Evaluation of Probationary Teachers",
+    "evidence": "The Board will follow State Board of Education Guidelines for Evaluation of Probationary Teachers, a current copy of which is appended to this Agreement.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 9 to 10 to accurately reflect the location of Section 4.08.E in the provided document."
+  },
+  "evaluation_observation_count_003": {
+    "answer": "At least one (tenured); one (probationary)",
+    "evidence": "shall make at least one classroom observation which shall be announced to the teacher at least two days in advance. / One of the observations of probationary classroom teachers will be announced at least two days prior to the observation.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "Satisfactory, less than satisfactory",
+    "evidence": "No less than a satisfactory evaluation may be given to a teacher without prior notification and conference.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "no",
+    "evidence": "A continuing program of evaluation of teacher performance based in part on personal observation is required.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

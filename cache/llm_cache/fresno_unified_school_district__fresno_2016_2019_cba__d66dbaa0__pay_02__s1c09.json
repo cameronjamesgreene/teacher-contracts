@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "Designated Schools Factor Placement Schedule below... 10 Days 11.993% 1.11993 195... 9 Days 11.419% 1.11419 194... 8 Days 10.845% 1.10845 193... 7 Days 10.270% 1.10270 192",
+    "page": "100",
+    "confidence": "high"
+  }
+}

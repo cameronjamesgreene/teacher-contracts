@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes; Recall period: 3 years. Order: Priority consideration. Notice: Information sessions & preference form. Response deadline: Not specified. Benefit restoration: Health benefits continued at own cost for 6 months.",
+    "evidence": "Any unit member whose service has been terminated because of the elimination of a position or a reduction in professional staff shall for a period of three years receive priority consideration for reemployment if he/she so desires and if appropriate vacancies develop. ... Information sessions to discuss two-year priority consideration for reemployment and other fringe benefits due terminated unit members will be arranged ... A Preference for Reassignment form will be completed ... may choose to continue membership in the health benefit plans offered by the Board of Education by paying the full cost of membership in these plans during those six months.",
+    "page": "66",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "Unit members holding Class II certificates",
+    "evidence": "In any reduction in personnel within any given field of instruction, the determination of those who are to be released will be in the following order: 1. Unit members holding Class II certificates",
+    "page": "65",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "one or two years",
+    "evidence": "Evaluation of unit members during their probationary period of employment is of high importance to the unit member and the school system. Cooperative efforts will be made to work for his/her success but if, after one or two years, success does not seem possible, he/she will not be continued in employment.",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "A unit member who is on tenure at the time he/she is granted leave because of personal illness or illness in his/her immediate family shall remain on tenure. ... A unit member who has completed two consecutive years of successful experience with the Montgomery County Public Schools on a Regular Contract and has been recommended for tenure at the time leave is granted shall go on tenure at the time he/she returns from leave and is reassigned.",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "In order to receive this supplement, the national certification and First Class Maryland certification or Maryland State Board of Examiners license in the field must be maintained.",
+    "page": "47",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

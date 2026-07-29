@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "An employee may request and shall be entitled to a leave of absence without pay for child care reasons.",
+    "page": "102",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "4. Child Care Leave - An employee may request and shall be entitled to a leave of absence without pay for child care reasons. This will include an employee's natural children, foster children, adopted children or children who are otherwise in the legal custody of the employee, for a period not to exceed eighteen (18) months.",
+    "page": "102",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "8. Family Medical Leave (FML) – Uncompensated, with continued Board paid health insurance, family medical leave (FML) shall be granted to any eligible employee in keeping with the provisions set forth in Appendix H.",
+    "page": "103",
+    "confidence": "high"
+  }
+}

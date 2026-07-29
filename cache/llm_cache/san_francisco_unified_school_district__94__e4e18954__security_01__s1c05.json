@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "\"District-wide seniority\" (Sec. 15.3.7.5); \"District seniority\" (Sec. 15.5.2, 15.6)",
+    "page": "47",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Vacancies posted for 10-15 working days; all applicants interviewed. Notice of acceptance/denial by June 5th (regular cycle) or within 10 days (off-cycle). Principal recommends; dept heads/UBC involved in secondary. Criteria (in order): 1) District needs (won't deny if served >3 yrs consecutively), 2) affirmative action, 3) opportunity for different environment evaluation, 4) qualifications vs. others, 5) tie-breaker is District-wide seniority. Denied requests entitle teacher to written reasons.",
+    "evidence": "\"Interviews begin on the date of posting and continue for fifteen (15) working days... Notice — Each applicant shall be notified in writing of acceptance or denial no later than June 5th.\" \"Criteria for voluntary transfer — The following criteria, in the order listed... District. However, the District will not deny a transfer request for this reason to a teacher who has served in a program more than three (3) consecutive years... Affirmative action goals... opportunity to be evaluated in a different environment... qualifications... District-wide seniority... request in writing and shall receive written reasons\"",
+    "page": "47",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes. Transfers must be non-punitive, based on legitimate educational needs. Consolidation uses District seniority, credentials, qualifications, and racial/ethnic balance. Priority for openings if notice late; cannot transfer twice consecutively without closure/elimination. Not consolidated if qualified volunteer exists. Written reasons required (listing less-senior retained teachers, program need, or balance); UBC gets copies. One day released time for prep if during school year. Priority for next open position at old school for one year. Reassignments seek volunteers first, then use seniority/credentials/skills.",
+    "evidence": "\"Involuntary transfers shall not be punitive in nature and shall be based on legitimate, educationally-related needs... Selection of tenure-track teachers to be consolidated shall be based on District seniority, credentials, and qualifications... No teacher shall be involuntarily transferred two (2) consecutive years without the existence of special circumstances equivalent to school closure or elimination of program... A teacher to be consolidated shall be given reasons in writing... provided one (1) day released time... given prior consideration for the next open position... Reassignments — In the event that program needs necessitate a reassignment... volunteers shall be sought... If no volunteer is selected the administration shall make the necessary reassignment based on District seniority, credentials, qualifications, and special skills.\"",
+    "page": "47-48",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

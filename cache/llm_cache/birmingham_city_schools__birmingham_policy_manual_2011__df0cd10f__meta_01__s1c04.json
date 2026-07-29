@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "birmingham_policy_manual_2011.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "DU",
+    "evidence": "Approved: 10/12/04; Revised: 4/13/04; beginning August 2005",
+    "page": "3095, 3102",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All district personnel/employees",
+    "evidence": "All professional Board employees, including but not limited to, administrators, directors, administrative personnel, teachers, instructional aides, secretaries, administrative staff, custodial staff, transportation, maintenance, and child nutrition workers in the Birmingham City Schools shall implement...",
+    "page": "3102",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "§ 36-26-100 to -108, Ala. Code (1975)",
+    "page": "3093",
+    "confidence": "high"
+  }
+}

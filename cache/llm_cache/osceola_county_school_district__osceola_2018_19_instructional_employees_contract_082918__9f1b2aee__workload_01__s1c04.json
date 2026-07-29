@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "99",
+    "evidence": "Ninety-nine (99) teacher workdays in any one (1) regular school year shall be considered as one (1) year of credit.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

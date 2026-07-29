@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "professional_agreement_with_gea_2020_2023.pdf",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2020-2023",
+    "evidence": "professional_agreement_with_gea_2020_2023.pdf",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff",
+    "evidence": "Article 18.7.1 'Association Leave for teachers'; Article 19.9.3 'certificated staff'",
+    "page": "35-39",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Article headings and 'agreement' terminology throughout; 'contract teachers'",
+    "page": "30-45",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable and readable",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Utah Administrative Code 53G.; Utah State Retirement Act",
+    "page": "36, 42",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "DCPS shall keep accurate records pertaining to building and system seniority for each Teacher.",
+    "page": "34",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Procedures apply to excessed permanent status Teachers. Options include early retirement (20+ years service, effective rating) or an \"Extra Year\" with full salary/benefits to secure placement. DCPS provides hiring opportunities and assigns instructional support roles. Teachers must interview at 5 schools or all vacancies. Separation occurs if no placement is found.",
+    "evidence": "4.5.5.3.2.1 Excessed permanent status Teachers with twenty (20) or more years of creditable service shall have the option of retiring with full benefits. 4.5.5.3.3.1 Excessed permanent status Teachers... shall have the right to select Option 3: An Extra Year to Secure a New Position. 4.5.5.3.5 A Member shall be deemed to have made a “substantial effort” if s/he: 4.5.5.3.5.1 Has made a good faith effort to interview at a minimum of five (5) Schools",
+    "page": "30-32",
+    "confidence": "high"
+  }
+}

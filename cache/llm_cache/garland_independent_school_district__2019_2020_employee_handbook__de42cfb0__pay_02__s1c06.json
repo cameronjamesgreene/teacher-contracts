@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "L. SALARY SUPPLEMENT SCHEDULES FOR EXTRA DUTIES The Salary Supplement Schedules are intended as pay for additional service in specified positions.",
+    "page": "90",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

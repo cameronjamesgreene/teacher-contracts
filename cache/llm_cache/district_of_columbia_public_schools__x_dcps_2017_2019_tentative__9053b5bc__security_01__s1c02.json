@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers may apply annually. Vacancy lists must be posted by April 1. Requests are subject to supervisor approval and instructional needs. Teachers may interview at transfer fairs or between April 1 and June 30. Written notification of approval or denial must be issued by July 14. After July 15, a transfer requires current supervisor consent.",
+    "evidence": "4.2.2 A Teacher shall be eligible to apply for a voluntary transfer annually. 4.2.3 Lists of vacancies, to the extent known, shall be prepared and posted on or before April 1 annually. 4.2.6 Written notification to teachers granted or denied a transfer shall be made as soon as a determination is made, but in no case later than July 14. 4.2.8 Teachers requesting a voluntary transfer may arrange to interview with school principals ... With principals between April 1 and June 30. 4.2.9 After July 15, Teachers shall have the right to execute a voluntary transfer provided the Teacher’s current Supervisor consents.",
+    "page": "25-26",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "4.3.1 Involuntary transfers shall be made only after consultation and discussion with the Teacher involved. ... A Teacher who is involuntarily transferred shall be given two (2) weeks notice ... The notice of the transfer shall contain the reasons therefore. ... 4.3.4 Involuntary transfers shall not be made for reasons of disciplinary action. ... 4.3.6 A teacher who is involuntarily transferred shall carry forward his or her building seniority.",
+    "page": "26-27",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "The document outlines a 'Performance-Based Excessing Policy' (distinguished from a formal RIF). Triggers include enrollment decline, budget cuts, school closing/consolidation, restructuring, or program changes. Decisions follow a rubric prioritizing lowest evaluation scores, unique skills, contributions, and length of service (lowest points excessed first). Notification must be provided at least 10 school days prior to the effective date. Excessed teachers have 60 days to secure a new placement; if unsuccessful, they may choose a $25,000 buyout, early retirement (20+ years), or a paid 'Extra Year' to secure placement while assigned to instructional support duties.",
+    "evidence": "4.5.1.1 An excess is an elimination of a Teacher’s position at a particular school due to a decline in student enrollment, a reduction in the local school budget, a closing or consolidation, a restructuring, or a change in the local school program ... 4.5.2.7 The Teacher in the competitive area ... with the lowest point value overall according to the rubric above shall be the first Teacher to be excessed. ... 4.5.3.1 DCPS shall provide written notification to all Teachers who are to be excessed at least (10) school days prior to the effective date of the excess. ... 4.5.5.1 Excessed permanent status Teachers shall have sixty (60) calendar days following the effective date of the excess to secure another placement in DCPS under mutual consent.",
+    "page": "27-31",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority means the greater number of years of consecutive employment as a teacher in the Minneapolis Public Schools unless herein otherwise specified.",
+    "page": "224",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "School reassignment decisions are made by the respective Special Education or Health Related Services administration (or their designee), in consultation with the staff involved.",
+    "page": "217",
+    "confidence": "medium"
+  },
+  "security_rif_006": {
+    "answer": "Teachers may be exempted from district-wide layoff for designated programs (e.g., Racially Isolated Schools, Montessori, Immersion). Laid-off teachers receive first consideration for other qualified positions. Recall involves phone/certified notice, 7 days/next business day to accept. Recall rights terminate upon refusal, non-response, or 24 months post-discharge.",
+    "evidence": "Exemption from Layoff for Designated Programs: Teachers working in the following schools and/or programs may be exempted from district-wide layoff outside of seniority order to ensure continuity of instruction to students at these sites based on the difficulty in filling vacancies at these sites with staff who are appropriately licensed, certified and bi-literate in the appropriate language:",
+    "page": "214",
+    "confidence": "medium"
+  }
+}

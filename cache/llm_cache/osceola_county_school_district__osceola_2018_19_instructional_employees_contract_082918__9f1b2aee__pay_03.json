@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of in-district experience credit found in the provided text (document cuts off before Appendix A/Salary Schedule)."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of out-of-district experience credit found in the provided text (document cuts off before Appendix A/Salary Schedule)."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of out-of-state experience credit found in the provided text (document cuts off before Appendix A/Salary Schedule)."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "(2) A teacher on military leave shall be credited with up to four (4) years’ experience on the salary schedule upon return to duty.",
+    "page": "44",
+    "confidence": "high",
+    "coder_notes": "Updated evidence and page to match the explicit statement in Section 10.09-5(2) on page 44. Stage 1 evidence page was cited as 59, which falls outside the provided text scope."
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of National Board certification or advanced certification pay found in the provided text."
+  }
+}

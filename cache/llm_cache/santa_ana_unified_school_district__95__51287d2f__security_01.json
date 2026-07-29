@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Vacancies posted at sites, HR, and Association for a minimum of five duty days. Applications filed at Personnel Services. Annual transfer requests accepted April 1–May 15, expiring September 15. Selection based on posted qualifications, educational needs, legal requirements, evaluations/files, and years of experience; ties broken by District seniority. In-school year transfers require consent of both principals.",
+    "evidence": "11.7.1.1 'closing date... minimum of five (5) duty days' 11.7.4.1 'Transfer requests shall be filed at Personnel Services.' 11.7.2.4 'Between April 1 and May 15... expire on September 15.' 11.7.3 'select the most qualified... based upon the following criteria: Posted qualifications... educationally-related needs... Legal requirements... Review of evaluations... Years of experience' 11.7.3.5.1 'If two (2) or more applicants are equally qualified, seniority in the District shall be the determining factor.' 11.7.2.3 'such transfer may occur during the school year if both principals and the transferee agree.'",
+    "page": "73, 75",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "11.6.5 'caused by declining enrollment, enrollment shifts, or budgetary considerations... seek qualified volunteers... not be made arbitrarily or capriciously.' 11.7.10.2 'least seniority... transferred first.' 11.7.10.4 'not be subject to a District-initiated transfer more than once during a school year.' 11.7.11 'caused by curricular modifications... recommended at any time.'",
+    "page": "72, 75",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

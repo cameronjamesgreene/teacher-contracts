@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "The Association shall have the right to formally request the District to enforce Board Policy and numbered memorandum when there is a violation.",
+      "subject_text": "The Association",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    }
+  ]
+}

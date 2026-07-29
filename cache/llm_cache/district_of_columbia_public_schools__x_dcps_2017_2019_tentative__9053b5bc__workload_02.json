@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "Secondary: 45-60 minutes; Elementary: minimum 45 minutes daily or 225 minutes weekly (with a 30-minute daily minimum if using weekly total)",
+    "evidence": "In secondary schools, each Teacher shall have a duty-free lunch period equal in length to a full teaching period. However, in no case shall a Teacher’s lunch period be less than 45 minutes or exceed 60 minutes. In the elementary schools... minimum forty-five (45) minute, duty-free, uninterrupted lunch period each day... minimum of 225 minutes of duty free lunch per week... no less than a thirty minute, duty free, uninterrupted lunch period daily.",
+    "page": "73",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "23.11.2 The Supervisor shall have the right to call one (1) required general faculty meeting per month. ... 23.11.7 No faculty meeting shall exceed one (1) hour in duration, nor extend beyond 4:30 PM, unless mutually agreed to by the Supervisor and the Building Representative.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Teachers shall not be required to perform any of the following: ... Duty on buses carrying children between home and school. ... Regularly scheduled lavatory duties ... Clerical duties ... Teachers, Teacher-aides, and school assistants shall be rotated for lunch duty on an equitable basis throughout the school year.",
+    "page": "65",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

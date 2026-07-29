@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "The Board will grant supplemental pay to those who are selected and who perform the following coaching or extracurricular assignments beyond the routine school day.",
+    "page": "20",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

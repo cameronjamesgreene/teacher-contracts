@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "All Contractors shall take all necessary and reasonable steps to ensure that minority owned businesses have the maximum opportunity to compete for and perform Board contracts.",
+      "subject_text": "All Contractors",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Relates to third-party contractor procurement obligations rather than direct employment terms."
+    },
+    {
+      "quote": "construction contracts shall be awarded to the lowest responsive and responsible bidder",
+      "subject_text": "construction contracts",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "District procurement rule mandating award to lowest compliant bidder."
+    },
+    {
+      "quote": "25% of the total dollar amount available each fiscal year to the Board for contracts covered by this Policy shall be spent with minority andlor disadvantaged businesses.",
+      "subject_text": "25% of the total dollar amount available each fiscal year to the Board for contracts covered by this Policy",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "District spending target for minority and disadvantaged business contracts."
+    }
+  ]
+}

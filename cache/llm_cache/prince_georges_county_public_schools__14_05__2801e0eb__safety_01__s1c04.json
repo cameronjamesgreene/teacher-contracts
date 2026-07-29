@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "The Board shall cooperate with the prosecution to the fullest extent of the law, of any individual who physically or verbally abuses, intimidates or interferes with a unit member performing his/her duties. The Board of Education shall provide legal counsel or at the Board’s discretion may provide reimbursement for the reasonable expenses of the legal defense... Each professional employee is to be reimbursed in the sum of not more than a total of $300.00 per occurrence, for proven destruction of clothing, including eyeglasses and watches",
+    "page": "14-15",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The maintenance of normal school classroom discipline is the responsibility of the teacher. Procedures for handling disruptive students both within and without the classroom will be developed in accordance with County educational policy in each school by the Principal or duly appointed designee and the faculty.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "When in the judgement of the teacher a student’s behavior makes operation of the class impossible, the teacher shall complete the appropriate Discipline Referral Form and the student may be excluded from the class until the teacher and Principal or the Principal’s designee have held a conference. The Principal will decide if and when the student is to be returned to class. ... review by the Regional Executive Director which is to be completed within seven (7) student days",
+    "page": "14",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "A furnished air-conditioned room ... The rest room is to be kept clean and adequately supplied. ... common facilities used by the staff must be maintained in an orderly condition ... A smoke free environment",
+    "page": "14",
+    "confidence": "high"
+  }
+}

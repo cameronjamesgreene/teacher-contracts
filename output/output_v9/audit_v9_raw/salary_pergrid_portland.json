@@ -1,0 +1,154 @@
+[
+  {
+    "file": "experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv",
+    "source_page": 47,
+    "cells_checked": 120,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "A-1 183-day exp; steps 1-30 B/M/MI/D all match truth; dropped step 31 (62746/67829/70808/72561 present in truth)."
+  },
+  {
+    "file": "experience_based_salary_schedule__pea_contract_2019_2022_teachers__p47-47.csv",
+    "source_page": 47,
+    "cells_checked": 120,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Byte-identical duplicate of experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv (2019_2020); same dropped step 31."
+  },
+  {
+    "file": "professional_learning_based_salary_schedule__pea_contract_2019_2022_teachers.csv",
+    "source_page": 47,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A-1 183-day PL table; all 10 steps x Lane I-V match truth exactly; complete (truth has only 10 PL steps)."
+  },
+  {
+    "file": "professional_learning_based_salary_schedule__pea_contract_2019_2022_teachers__p47-47.csv",
+    "source_page": 47,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Byte-identical duplicate of professional_learning_based_salary_schedule__pea_contract_2019_2022_teachers.csv (2019_2020); all correct."
+  },
+  {
+    "file": "schedule_193_day_experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv",
+    "source_page": 48,
+    "cells_checked": 124,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A-2 193-day exp; all 31 steps x B/M/MI/D match truth incl step 31. Flagged as page-image extract but values correct."
+  },
+  {
+    "file": "schedule_193_day_experience_based_salary_schedule__pea_contract_2019_2022_teachers__p48-48.csv",
+    "source_page": 48,
+    "cells_checked": 124,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Byte-identical duplicate of schedule_193_day_experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv (2019_2020); all correct."
+  },
+  {
+    "file": "schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv",
+    "source_page": 48,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A-2 193-day PL table; all 10 steps x Lane I-V match truth. Flagged as page-image extract but values correct; complete."
+  },
+  {
+    "file": "schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p48-48.csv",
+    "source_page": 48,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Byte-identical duplicate of schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv (2019_2020); all correct."
+  },
+  {
+    "file": "experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv",
+    "source_page": 49,
+    "cells_checked": 120,
+    "cells_wrong": 1,
+    "status": "PARTIAL",
+    "audit_note": "A-3 2020-21 183-day exp; steps 1-30 match except step 30 D blank (should be 73298); dropped step 31 (64315/69524/72578/74375)."
+  },
+  {
+    "file": "experience_based_salary_schedule__pea_contract_2019_2022_teachers__p49-49.csv",
+    "source_page": 49,
+    "cells_checked": 120,
+    "cells_wrong": 1,
+    "status": "PARTIAL",
+    "audit_note": "Byte-identical duplicate of experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv (2020_2021); same step 30 D blank + dropped step 31."
+  },
+  {
+    "file": "experience_based_salary_schedule__pea_contract_2019_2022_teachers__p50-50.csv",
+    "source_page": 50,
+    "cells_checked": 120,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Values match truth A-4 193-day exp steps 1-30; header mislabeled generic '(2020-2021)' missing '193 Day' tag; dropped step 31 (67830/73325/76544/78440)."
+  },
+  {
+    "file": "schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv",
+    "source_page": 49,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A-3 2020-21 183-day PL table; all 10 steps x Lane I-V match truth; complete."
+  },
+  {
+    "file": "schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p49-49.csv",
+    "source_page": 49,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Byte-identical duplicate of schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv (2020_2021); all correct."
+  },
+  {
+    "file": "schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv",
+    "source_page": 50,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A-4 2020-21 193-day PL table; all 10 steps x Lane I-V match truth; complete."
+  },
+  {
+    "file": "schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p50-50.csv",
+    "source_page": 50,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Byte-identical duplicate of schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv (2020_2021); all correct."
+  },
+  {
+    "file": "experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv",
+    "source_page": 51,
+    "cells_checked": 120,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "A-5 2021-22 183-day exp; steps 1-30 B/M/MI/D all match truth; dropped step 31 (65923/71262/74393/76235 present in truth)."
+  },
+  {
+    "file": "experience_based_salary_schedule__pea_contract_2019_2022_teachers__p51-51.csv",
+    "source_page": 51,
+    "cells_checked": 120,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Byte-identical duplicate of experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv (2021_2022); same dropped step 31."
+  },
+  {
+    "file": "schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv",
+    "source_page": 51,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A-5 2021-22 183-day PL table; all 10 steps x Lane I-V match truth; complete."
+  },
+  {
+    "file": "schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p51-51.csv",
+    "source_page": 51,
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Byte-identical duplicate of schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv (2021_2022); all correct."
+  }
+]

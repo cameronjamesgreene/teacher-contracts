@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "Therefore, the parties agree to work cooperatively to develop well-articulated programs of instruction aligned to DCPS’s Teaching and Learning Framework for each grade level that will guide and support teachers in aligning classroom instruction with the standards, curriculum and assessment system in order to support improved student achievement.",
+      "subject_text": "the parties",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "The programs of instruction will outline for teachers and parents as what students should know and be able to do",
+      "subject_text": "The programs of instruction",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "and incorporate relevant research-based developments in the areas of teaching and learning and effective practice.",
+      "subject_text": "[implied: The programs of instruction]",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Elliptical continuation of preceding clause."
+    },
+    {
+      "quote": "National and local curriculum programs, models and materials will be reviewed on an ongoing basis to determine their value for alignment with the framework",
+      "subject_text": "National and local curriculum programs, models and materials",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Implicit agent is management."
+    },
+    {
+      "quote": "and where deemed appropriate will be incorporated into the programs of instruction.",
+      "subject_text": "[implied: National and local curriculum programs, models and materials]",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Elliptical continuation of preceding clause."
+    },
+    {
+      "quote": "Professional development aligned to the framework, standards, curriculum and assessments will support teachers in the continuing enhancement of their content knowledge and classroom practice.",
+      "subject_text": "Professional development aligned to the framework, standards, curriculum and assessments",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "The parties agree that Teachers must be allowed to participate in the various stages of staff and curriculum development.",
+      "subject_text": "The parties",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Contains embedded permission clause for teachers."
+    }
+  ]
+}

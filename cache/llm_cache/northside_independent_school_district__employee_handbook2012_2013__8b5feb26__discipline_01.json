@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Contract employees dismissed during the school year, suspended without pay, or subject to a reduction in force are entitled to receive notice of the recommended action, an explanation of the charges against them, and an opportunity for a hearing. Noncontract employees are employed at will and may be dismissed without notice, a description of the reasons for dismissal, or a hearing.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

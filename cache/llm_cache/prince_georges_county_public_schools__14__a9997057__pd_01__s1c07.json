@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Teachers designated through written correspondence by the division of Human Resources as Mentor Teachers, in addition to their normal teaching assignment, will receive a stipend of $500.00 per teacher mentored during the school year. Assignment, training, and responsibilities will be coordinated through the Department of Staff Development.",
+    "page": "29",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "8.03 School Instruction Chairperson: '...as a liaison between the teachers and the administrators of the school... relieved by the Principal of all special non-teaching assignments... 2-4 $700.00, 5-7 $750.00, 8-above $800.00.' Compensatory Emoluments table lists 'Academic Coach ($2,494)' and 'Technology coordinator ($1,000-$1,748)'.",
+    "page": "28, 37",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

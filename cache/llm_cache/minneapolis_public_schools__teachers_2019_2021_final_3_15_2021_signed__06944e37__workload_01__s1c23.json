@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "480 minutes (8 hours)",
+    "evidence": "\"8 HOUR DUTY DAY (Min.)\" / \"480.0\"",
+    "page": "216",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "\"PREP TIME\" listed in ADDENDUM 1 scheduling parameters table",
+    "page": "216",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "55 minutes per day (275 minutes per week) for 1.0 FTE",
+    "evidence": "\"PREP\" column shows \"55.0\" daily and \"275.0\" weekly for 1.0 FTE",
+    "page": "216",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

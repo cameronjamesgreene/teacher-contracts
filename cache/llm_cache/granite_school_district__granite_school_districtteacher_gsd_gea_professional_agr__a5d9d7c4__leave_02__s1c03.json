@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3",
+    "evidence": "Up to three (3) days of special use of sick leave will be granted by the principal in the event of a death in the immediate family as defined above.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Leaves of absence without pay shall be granted for reasons of newborn care or adoption.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Employees who legally adopt a child who has not previously been a member of the immediate household may take up to ten days of accumulated sick leave.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

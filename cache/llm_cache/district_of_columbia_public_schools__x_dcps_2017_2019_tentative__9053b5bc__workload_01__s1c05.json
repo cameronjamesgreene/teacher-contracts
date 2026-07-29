@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "192 days for 10-month ET-15 Teachers; 210 days for 11-month ET-15/11 Teachers; 228 days for 12-month ET-15/12 Teachers.",
+    "evidence": "The work year for 10-month ET-15 Teachers shall be one hundred ninety-two (192) days... The work year for eleven-month Teachers shall be two hundred ten (210) days. The work year for twelve-month Teachers shall be 228 days.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 consecutive hours (7:30 AM to 4:30 PM) for ET-15 and ET-15/12 Teachers; 40-hour workweek for EG-09 Teachers.",
+    "evidence": "The work day for ET-15 and ET-15/12 Teachers shall be seven-and-one-half (7.5) consecutive hours beginning no earlier than 7:30 AM and ending no later than 4:30 PM... The workweek for EG-09 Teachers shall be forty (40) hours.",
+    "page": "69",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The Parties agree that planning periods shall be used for instructional purposes: planning lessons, reviewing student work, maintaining student records, holding conferences, and other similar activities.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "225 minutes per week for elementary teachers; at least 5 daily planning periods per week equal to a class period for secondary teachers.",
+    "evidence": "All Teachers serving in elementary schools shall receive two hundred twenty-five (225) minutes per week for planning periods. / All secondary school teachers shall be given at least five (5) daily planning periods per week that are equal in length to a class period...",
+    "page": "70, 72",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "planning periods shall be used for instructional purposes: planning lessons, reviewing student work, maintaining student records, holding conferences, and other similar activities. / In instances where a special subject Teacher is not available to provide coverage for a Teacher’s scheduled planning period, the building Supervisor shall: Seek a substitute; Utilize an alternative planning schedule...",
+    "page": "70, 72",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "each Teacher shall have a duty-free lunch period equal in length to a full teaching period... A duty-free lunch period shall not include the supervision of students. / each Teacher shall have a minimum forty-five (45) minute, duty-free, uninterrupted lunch period each day... During the duty-free lunch period, a Teacher shall not be required to monitor students...",
+    "page": "72",
+    "confidence": "high"
+  }
+}

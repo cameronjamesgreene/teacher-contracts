@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "Teachers, who are fully hired to Pinellas County Schools having previous verifiable instructional experience outside of the district, will be placed on the performance salary schedule at a salary level equal to the stop on the most current grandfathered schedule for such years of experience.",
+    "page": "77",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

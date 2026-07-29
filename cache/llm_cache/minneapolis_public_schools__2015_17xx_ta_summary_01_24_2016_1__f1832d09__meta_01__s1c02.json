@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "salary schedule",
+    "evidence": "2016-2017 SALARY SCHEDULE “A” – EFFECTIVE JULY 1, 2016",
+    "page": "10",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2017 school year; effective July 1, 2016",
+    "evidence": "2016-2017 SALARY SCHEDULE “A” – EFFECTIVE JULY 1, 2016",
+    "page": "10",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "1    43,172   44,270   45,369   46,468   47,566   48,665   49,762   50,863   51,960   53,059   54,157   55,256   56,355   57,454   58,553",
+    "page": "10",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

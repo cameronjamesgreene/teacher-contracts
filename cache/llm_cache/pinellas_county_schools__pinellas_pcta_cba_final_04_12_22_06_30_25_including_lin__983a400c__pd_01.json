@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "A mentor teacher shall be assigned, except in rare circumstances where it is not practical to do so.",
+    "page": "38",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Selection of positions, such as department head, pro-ed facilitator, site-based coach and any other position for which a stipend is paid, shall be based upon criteria and a time frame established at the school level between the principal and the faculty, department or team affected.",
+    "page": "35",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

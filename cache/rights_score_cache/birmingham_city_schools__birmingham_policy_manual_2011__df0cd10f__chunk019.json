@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "Meetings may be called on shorter notice with the concurrence of a maj ority of the Board.",
+      "subject_text": "Meetings",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In such cases, every effort shall be made to notify all organizations representing the staff.",
+      "subject_text": "every effort",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The superintendent shall prepare the agenda for board meetings.",
+      "subject_text": "The superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Board members may place items on the agenda.",
+      "subject_text": "Board members",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The superintendent shall supply adequate infor.mation necessary for the exercise of sound judgment in consideration of agenda items.",
+      "subject_text": "The superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Board members should contact the superintendent prior to the meeting for other infor.mationdeemed necessary for assistance in proper decision-making responsibilities.",
+      "subject_text": "Board members",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "should",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

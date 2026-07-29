@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "aft_cert_cba_7_14_17_final_for_posting_on_web.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2017-2020",
+    "evidence": "Supplemental School Pay 2017-2020",
+    "page": "43",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers' Unit",
+    "evidence": "Employees in the Teachers’ Unit",
+    "page": "36",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family and Medical Leave Act of 1993 (FMLA), No Child Left Behind Act of 2001",
+    "evidence": "Family and Medical Leave Act of 1993 (FMLA), 68, 70, 77 / No Child Left Behind Act of 2001",
+    "page": "102, 105",
+    "confidence": "high"
+  }
+}

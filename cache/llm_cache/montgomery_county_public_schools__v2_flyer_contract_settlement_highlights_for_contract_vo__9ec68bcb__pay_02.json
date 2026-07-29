@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "1% General Wage Increase, effective July 1, 2017",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "no",
+    "evidence": "The document does not include an extra-duty or supplemental pay schedule.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to directly confirm absence rather than citing an unrelated $15 stipend rate."
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "no",
+    "evidence": "The parties agree to examine and make recommendations as to how to best recruit and retain highly qualified teachers at high need schools. The Board commits $1.7 million for piloting the recommendations agreed to by the parties.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "no",
+    "evidence": "The parties agree to examine and make recommendations as to how to best recruit and retain highly qualified teachers at high need schools. The Board commits $1.7 million for piloting the recommendations agreed to by the parties.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

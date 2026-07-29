@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "A teacher whose services are terminated on account of discontinuance of position or lack of pupils must receive first consideration for other positions in the district for which that teacher is qualified.",
+    "page": "251",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "seniority",
+    "evidence": "teachers must be discontinued in any department in the inverse order in which they were employed, unless a board and the exclusive representative of teachers in the district negotiate a plan providing otherwise.",
+    "page": "251",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "The tenure, pension, and retirement provisions of any law applicable to employees of the special school district of Minneapolis before April 24, 1959, shall continue to be applicable in the same manner and to the same extent to employees of the special independent school district after April 24, 1959, except as otherwise provided in law.",
+    "page": "253",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "...provide the Board of Teaching and the licensing division at the department with the necessary and relevant information to enable the Board of Teaching and the department's licensing division to fulfill their statutory and administrative duties related to issuing, renewing, suspending, or revoking a teacher's license.",
+    "page": "249",
+    "confidence": "medium"
+  }
+}

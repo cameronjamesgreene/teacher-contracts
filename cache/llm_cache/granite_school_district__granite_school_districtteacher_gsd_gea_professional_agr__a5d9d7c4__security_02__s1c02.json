@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Program and staffing needs, and relative qualifications; least seniority as tie-breaker",
+    "evidence": "decisions as to which teachers will be declared surplus shall be based on the program and staffing needs of the school, and the relative qualifications of the teaching staff to fill the available positions.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "Three years (Specially Funded Program); specified period defined in contract (Provisional contract)",
+    "evidence": "Specially Funded Program teachers doing satisfactory work, who have completed their three-year provisional period, may expect continued employment in successive years.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

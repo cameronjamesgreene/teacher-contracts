@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "Contract definitions are specified in DCA (legal) and DCA (local) for probationary contracts, DCB (legal) and DCB (local) for term contracts, and DCC (legal) and DCC (local) for continuing contracts.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Board shall give written notice whether the Board proposes to renew or not to renew the contract not later than the 10th day before the last day of instruction in a school year.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority: Length of continuous active service in the District. An authorized leave of absence shall not be considered as an interruption in continuous active service.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "Applies to contractual employees; triggered by Board-determined financial exigency or Superintendent-determined reorganization/program change. Implementation order: 1. Performance, 2. Certification/Licensure, 3. Reorganization/Program Change, 4. Seniority.",
+    "evidence": "A reduction in force may take place when the Board determines that financial exigency exists or the Superintendent determines that a reorganization or program change is required. In order of implementation, the criteria are: a. Performance... b. Certification/Licensure... c. Reorganization or Program Change; then, d. Seniority",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

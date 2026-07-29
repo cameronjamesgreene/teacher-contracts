@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "not_discussed",
+    "evidence": "The employee shall select an insurance plan from options provided by the District.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 evidence cites page 37, but the provided document text is truncated before page 37. The insurance provisions (Article XII.I) are missing, so the claim cannot be verified."
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "The District shall cover the cost of any premium increase over the current contribution up to a maximum of $750.00 per month.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 evidence cites page 37, which is not included in the provided document. The contribution details cannot be verified."
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "Should the amount of money provided by the District not cover the current premium of the plan selected by the employee, the employee will be required to pay the premium difference.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 evidence cites page 37, which is missing from the provided text. Unable to verify employee premium responsibility."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No changes made. No dependent coverage is mentioned in the available text."
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No changes made. Plan types are not mentioned in the available text."
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "Hospitalization, and Dental Benefits",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 evidence cites page 37, which is not included in the provided document. Dental insurance availability cannot be verified."
+  }
+}

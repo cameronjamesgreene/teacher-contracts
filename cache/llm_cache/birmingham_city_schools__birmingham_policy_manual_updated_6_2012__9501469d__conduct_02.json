@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document contains only form feeds and no text. The 'not_discussed' classification is correct."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document contains only form feeds and no text. The 'not_discussed' classification is correct."
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document contains only form feeds and no text. The 'not_discussed' classification is correct."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document contains only form feeds and no text. The 'not_discussed' classification is correct."
+  }
+}

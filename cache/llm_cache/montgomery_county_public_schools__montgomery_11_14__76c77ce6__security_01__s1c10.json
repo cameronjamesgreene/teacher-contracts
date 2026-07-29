@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Seniority in MCPS will be considered a factor in the transfer process; however, the balanced staffing policy of the school system will take precedence over the consideration of seniority",
+    "page": "60",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Open, cluster Job Fairs are held in spring; unit members apply via MCPS Careers and interview. Seniority is a factor but balanced staffing policy takes precedence. Vacancies posted on MCPS Careers. Process closes 5 weeks after last Job Fair. Transfers restricted for tenure evaluators, non-highly qualified, PAR program, or those in 4th semester with all effective ratings. Effective date is first full pay period after assignment. Deadline July 20.",
+    "evidence": "Open, cluster Job Fairs will be held in the spring of each year. At this time, the unit members will be provided access to interview appointments with the school staff where they are seeking a transfer.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Yes. Unit members receive notice ASAP and indicate assignment preferences. Factors include length of service, competence, experience, NCLB status, and diversity; length of service prevails if others are equal. Members may grieve arbitrary/capricious transfers. Priority placement meetings occur post-voluntary season. Closing school transfers follow separate procedures.",
+    "evidence": "A unit member’s length of MCPS service, area of competence and experience, major or minor field of study, and highly qualified status as defined by NCLB requirements will be considered significant factors in the involuntary transfer process.",
+    "page": "62",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Board retains right to reduce force; decision not grievable, but actions under B-D are. Reduction triggered by enrollment decrease, curriculum changes, budget limitations, or subject/grade decline. Release order begins with unit members holding Class II certificates.",
+    "evidence": "The Board of Education of Montgomery County retains the right to reduce its force, and its decision on such reduction is not subject to the grievance procedure.",
+    "page": "65",
+    "confidence": "high"
+  }
+}

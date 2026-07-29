@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "This Contract shall become effective when ratified by the teachers, approved by the Board, and signed by the parties.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2021-22 through 2022-23; effective upon ratification until June 30, 2023",
+    "evidence": "This Contract shall be firm until and including June 30, 2023.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees",
+    "evidence": "teachers in the bargaining unit",
+    "page": "63",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This agreement shall constitute the full and complete commitments between both parties",
+    "page": "67",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Pursuant to Section 1012.22(1)(c)4.b., Florida Statutes",
+    "page": "87",
+    "confidence": "high"
+  }
+}

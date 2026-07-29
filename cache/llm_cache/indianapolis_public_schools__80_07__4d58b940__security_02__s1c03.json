@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "5 years total (structured as 1-2 years 'non-permanent' and 3-5 years 'semi-permanent')",
+    "evidence": "non-permanent (1 or 2 years of teaching experiences in IPS) and semi-permanent teachers (3 to 5 years of continuous IPS employment) ... Permanent teachers (with more than five (5) years experience in IPS)",
+    "page": "-42-",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

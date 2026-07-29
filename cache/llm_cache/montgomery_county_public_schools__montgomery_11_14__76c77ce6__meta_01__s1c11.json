@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "FY 2011–FY 2014",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "MCEA (Montgomery County Education Association) unit members, including teachers and professional staff",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Family and Medical Leave Act of 1993 (FMLA)",
+    "page": "68",
+    "confidence": "high"
+  }
+}

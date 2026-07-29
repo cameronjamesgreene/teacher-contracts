@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "However, the Teacher shall have the right to request that the student not return to his/her class prior to a parent conference if the student ‘s behavior is so severe as to interfere with the Teacher’s ability to provide instruction.",
+      "subject_text": "the Teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "The Teacher shall have the right to be accompanied by a representative of his/her choice in all phases of any follow up procedures following the disciplining of a student.",
+      "subject_text": "The Teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "Appropriate legal assistance and support will be provided to the Teacher in cases where the Office of the Attorney General of the District of Columbia so determines.",
+      "subject_text": "Appropriate legal assistance and support",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "A Teacher who is the victim of an act of violence and who sustains disability on the job and acting within the course and scope of his/her duties shall be allowed leave with pay in accordance with workers compensation law and provisions, for such reasonable time as determined by the employee’s physician(s).",
+      "subject_text": "A Teacher who is the victim of an act of violence and who sustains disability on the job and acting within the course and scope of his/her duties",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "A reasonable loss of time, not to exceed ten (10) days, resulting from an assault on a Teacher shall not be deducted from the Teacher’s unused sick leave, provided that the Teacher has filed with the District the details of the assault and has filed a written report of the assaul",
+      "subject_text": "A reasonable loss of time, not to exceed ten (10) days, resulting from an assault on a Teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": "Clause is truncated at the end of the provided chunk."
+    }
+  ]
+}

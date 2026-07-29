@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "The teacher applicant shall hold a valid teacher's certificate appropriate for his/her assignment and be a graduate of an approved college or university.",
+    "page": "1",
+    "confidence": "high"
+  }
+}

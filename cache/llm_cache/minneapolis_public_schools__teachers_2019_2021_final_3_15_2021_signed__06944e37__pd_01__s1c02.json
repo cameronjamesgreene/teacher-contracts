@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "District Staff Development Advisory and Site Staff Development Committee. Duties: research/explore PD time, support teachers/teams, recommend to departments, facilitate site PD plans. Committee composition: majority teachers.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

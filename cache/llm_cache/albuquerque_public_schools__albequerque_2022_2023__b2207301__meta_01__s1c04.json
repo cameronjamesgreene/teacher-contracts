@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Negotiated Agreements",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated Staff",
+    "evidence": "teachers elected by teachers",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The District and the Federation agree to support the work of each school’s Instructional Council (IC).",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "New Mexico laws and regulations",
+    "page": "39",
+    "confidence": "high"
+  }
+}

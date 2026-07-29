@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "District employees retain any sick leave accumulated as state minimum sick leave under former Section 13.904(a) of the Education Code.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "Local leave shall accumulate without limit.",
+    "page": "3",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Accumulated state sick leave shall be used only for the following: ... 2. Illness of a member of the employee’s immediate family.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "7 total (5 state personal leave days + 2 local leave days per school year)",
+    "evidence": "A district shall provide employees with five days per year of state personal leave... All employees shall receive two paid local leave days per school year",
+    "page": "1",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires written advance request; supervisor considers effect on educational program and substitute availability; restricted on state-mandated assessment days and other days as communicated by supervisors.",
+    "evidence": "No employee shall be granted discretionary use of state personal leave on days scheduled for state-mandated assessments. Individual supervisors may also restrict the use of state personal leave for discretionary purposes on other days.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "No conversion to sick leave during employment; reimbursed as cash upon voluntary retirement (max 20 days, 10 years service required).",
+    "evidence": "The employee shall be reimbursed for each day of unused state and local leave, to a maximum of 20 days, at the employee’s daily rate of pay immediately preceding retirement.",
+    "page": "6",
+    "confidence": "high"
+  }
+}

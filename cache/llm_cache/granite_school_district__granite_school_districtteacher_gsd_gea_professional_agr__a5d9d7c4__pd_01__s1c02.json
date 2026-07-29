@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Except for special orientation meetings for new teachers, teachers who are required to work extra days before or after the dates specified in the official calendar shall receive additional compensation at their appropriate daily rate.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

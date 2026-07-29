@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "Provisional Contract Teacher shall mean all regularly assigned teachers working half-time or more each day who have not yet completed three continuous years of contract employment as a teacher in Granite School District.",
+    "page": "3",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall mean length of continuous and current employment as a teacher under contract in the District.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

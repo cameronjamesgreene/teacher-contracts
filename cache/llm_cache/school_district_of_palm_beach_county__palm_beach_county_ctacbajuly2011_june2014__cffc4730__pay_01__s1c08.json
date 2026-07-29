@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "...this increase is reflected in Appendix A of this Agreement that contains this new Teachers’ Salary Schedule to be effective May 1, 2011...",
+    "page": "100",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2010-2011 and 2011-2012 school years",
+    "evidence": "...effective May 1, 2011 and will remain in effect for the balance of FY11 and all of FY12.",
+    "page": "100",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "The parties agree that employees will be eligible for a step increment at the beginning of the school year; however, the step increment will not be implemented until the value of the step has been determined through negotiations.",
+    "page": "100",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "...all new employees will be granted all verified prior years of public and/or private school successful teaching experience not to exceed 25 years.",
+    "page": "101",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

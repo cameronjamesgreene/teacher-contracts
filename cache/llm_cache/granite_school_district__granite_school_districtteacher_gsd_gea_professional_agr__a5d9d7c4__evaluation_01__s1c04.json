@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX E UTAH CODE 53A CHAPTER 10 EDUCATOR EVALUATION",
+    "page": "50",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Utah Code 53A Chapter 10 state statutory program",
+    "evidence": "APPENDIX E UTAH CODE 53A CHAPTER 10 EDUCATOR EVALUATION",
+    "page": "50",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "At least twice annually for provisional/probationary; annual for career educators",
+    "evidence": "53A-10-106(2)(a) the evaluation of provisional and probationary educators at least twice each school year; and (b) the annual evaluation of all career educators;",
+    "page": "51",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "53A-10-106(4)(f) student achievement data",
+    "page": "51",
+    "confidence": "high"
+  }
+}

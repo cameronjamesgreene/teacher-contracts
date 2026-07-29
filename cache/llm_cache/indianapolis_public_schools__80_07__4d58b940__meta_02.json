@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "This recognition shall continue until successfully challenged by members of the Negotiating Unit under provisions of Indiana Public Law 217, and rules and regulations of the Indiana Education Employment Relations Board.",
+    "evidence": "This recognition shall continue until successfully challenged by members of the Negotiating Unit under provisions of Indiana Public Law 217, and rules and regulations of the Indiana Education Employment Relations Board.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Members of the Negotiating Unit may participate in tax-deferred annuities/tax-deferred mutual funds, under IRS Code 403(b)(7) under provisions developed by the parties in 1983.\nTeachers should be aware that they also may qualify for leave under the terms of the Family and Medical Leave Act (FMLA).\nSuch leaves are provided for, and governed by, federal law.\nEach teacher shall have the option to make contributions to the 403(b) Retirement Savings Plan by payroll deduction up to the maximum allowable by federal law, and IPS shall match the teacher's contribution dollar-for-dollar not to exceed 0.5% of the teacher's base salary or $105, whichever is less.\nTeachers shall have the option of rolling into the Plan assets from other Tax Sheltered Annuities, as permitted by federal law.\nIn the event a teacher's employment is terminated, the teacher may choose to receive a distribution of the vested balance of his or her Plan accounts, at any time and in any form permitted by the selected investment provider and federal tax law, or to transfer that vested balance under applicable federal law.\nThe Association and the Board agree to continue the current Section 125 plan, which allows for funding of certain insurance, health care, non-reimbursed medical and dependent care expenses as permitted by Section 125 of the Internal Revenue Code.",
+    "evidence": "Members of the Negotiating Unit may participate in tax-deferred annuities/tax-deferred mutual funds, under IRS Code 403(b)(7) under provisions developed by the parties in 1983.\nTeachers should be aware that they also may qualify for leave under the terms of the Family and Medical Leave Act (FMLA).\nSuch leaves are provided for, and governed by, federal law.\nEach teacher shall have the option to make contributions to the 403(b) Retirement Savings Plan by payroll deduction up to the maximum allowable by federal law, and IPS shall match the teacher's contribution dollar-for-dollar not to exceed 0.5% of the teacher's base salary or $105, whichever is less.\nTeachers shall have the option of rolling into the Plan assets from other Tax Sheltered Annuities, as permitted by federal law.\nIn the event a teacher's employment is terminated, the teacher may choose to receive a distribution of the vested balance of his or her Plan accounts, at any time and in any form permitted by the selected investment provider and federal tax law, or to transfer that vested balance under applicable federal law.\nThe Association and the Board agree to continue the current Section 125 plan, which allows for funding of certain insurance, health care, non-reimbursed medical and dependent care expenses as permitted by Section 125 of the Internal Revenue Code.",
+    "page": "4, 7, 14, 23",
+    "confidence": "high",
+    "coder_notes": "Added missing citation from Article XI, Section 10 regarding Section 125 of the Internal Revenue Code. Corrected page numbers to reflect actual document pagination."
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "IRS Code 403(b)(7), Family and Medical Leave Act (FMLA), federal law, federal tax law, applicable federal law, Section 125 of the Internal Revenue Code",
+    "evidence": "IRS Code 403(b)(7); Family and Medical Leave Act (FMLA); federal law; federal tax law; Section 125 of the Internal Revenue Code",
+    "page": "4, 7, 14, 23",
+    "confidence": "high",
+    "coder_notes": "Updated answer and evidence to include Section 125 of the Internal Revenue Code. Corrected page numbers."
+  }
+}

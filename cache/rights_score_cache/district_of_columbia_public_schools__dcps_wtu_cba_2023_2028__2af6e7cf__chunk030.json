@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Excessed permanent status Teachers with twenty (20) or more years of creditable service shall have the option of retiring with full benefits.",
+      "subject_text": "Excessed permanent status Teachers with twenty (20) or more years of creditable service",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "Excessed permanent status Teachers who have been unable to secure a new placement during the sixty (60) calendar days following the effective date of the excess, and who have not selected Option 1 or Option 2 above, shall have the right to select Option 3: An Extra Year to Secure a New Position (hereafter referred to as the “Extra Year.”)",
+      "subject_text": "Excessed permanent status Teachers who have been unable to secure a new placement during the sixty (60) calendar days following the effective date of the excess, and who have not selected Option 1 or Option 2 above",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "In making the assignment referenced above, DCPS shall consider the teacher’s preference and the best interests of the school system.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall have the right, at the conclusion of the Extra Year, to separate from DCPS all excessed permanent status Teachers who are unable to secure a new placement within the school system under mutual consent during the year.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "layoffs",
+      "notes": ""
+    }
+  ]
+}

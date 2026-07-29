@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "The Work Day includes a 30 minute duty free lunch.",
+    "page": "2",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Attending faculty, departmental or staff development meetings called or approved by the site administration during regular school days shall not exceed four (4) hours per month.",
+    "page": "2",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

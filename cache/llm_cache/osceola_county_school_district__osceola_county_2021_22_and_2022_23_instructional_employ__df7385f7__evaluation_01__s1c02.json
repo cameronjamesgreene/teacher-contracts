@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "When this is done, the teaching evaluation will note that the teacher is assigned out of field if the evaluation is done on that assignment. When teachers are given split assignments, evaluations shall be done only in their certified areas.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

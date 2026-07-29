@@ -1,0 +1,14 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "yes",
+    "evidence": "\"The person responsible for administering an educator's evaluation shall give an educator whose performance is inadequate or in need of improvement a written document clearly identifying: (a) deficiencies; (b) the available resources for improvement; and (c) a recommended course of action that will improve the educator's performance.\"",
+    "page": "52",
+    "confidence": "high"
+  },
+  "evaluation_consequences_008": {
+    "answer": "yes",
+    "evidence": "\"A school district may consider the following factors when terminating a school district employee: (a) the results of an employee's performance evaluation; and (b) a school's personnel needs.\" / \"If an employee who is under an order of probation or remediation in one assignment in a school district is transferred or given a new assignment in the district, the order shall stand until its provisions are satisfied.\"",
+    "page": "59, 58",
+    "confidence": "high"
+  }
+}

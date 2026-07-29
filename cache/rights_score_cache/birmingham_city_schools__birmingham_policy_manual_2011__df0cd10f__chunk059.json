@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "No teacher, volunteer, or other employee of shall condone, or tolerate bullying.",
+      "subject_text": "teacher, volunteer, or other employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "OCR artifacts in original text omitted for readability; clause restricts worker conduct to protect district order."
+    },
+    {
+      "quote": "Retaliation against a victim, good faith reporter, or a witness of bullying is prohibited.",
+      "subject_text": "Retaliation against a victim, good faith reporter, or a witness of bullying",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": "Passive construction; district acts as enforcer to protect workers from retaliation."
+    },
+    {
+      "quote": "Consequences for employees who engage in prohibited acts of bullying or who permit, condone, or tolerate bullying or engage in an act of reprisal or intentional false reporting of bullying may result in disciplinary action up to and including termination.",
+      "subject_text": "Consequences for employees who engage in prohibited acts of bullying or who permit, condone, or tolerate bullying or engage in an act of reprisal or intentional false reporting of bullying",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": "Describes discretionary disciplinary authority of the district over employees."
+    },
+    {
+      "quote": "Upon completion of the investigation, the school district will take appropriate action.",
+      "subject_text": "the school district",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Mandates district action following a bullying investigation."
+    },
+    {
+      "quote": "School district action taken for violation of this policy will be consistent with the requirements of the all relevant federal and state laws, including Alabama Tenure Act, Alabama Code § 16-24-1 et seq. and the Fair Dismissal Act, Alabama Code § 36-26-100 et seq.",
+      "subject_text": "School district action taken for violation of this policy",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Legal compliance constraint on disciplinary actions; grammatically passive participial phrase but active main clause."
+    },
+    {
+      "quote": "The school district is not authorized to disclose to a victim private personnel data regarding an alleged perpetrator who is an employee of the school district.",
+      "subject_text": "The school district",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Confidentiality restriction; negative authorization functions as a prohibition."
+    },
+    {
+      "quote": "The school district will take immediate steps, at its discretion, to notify the complainant, reporter, student, or others pending completion of an investigation of bullying, consistent with applicable law.",
+      "subject_text": "The school district",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "District duty to notify stakeholders; discretion noted but action is mandatory."
+    }
+  ]
+}

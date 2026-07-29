@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "the terms of this Agreement shall prevail.",
+      "subject_text": "the terms of this Agreement",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Conflict resolution rule establishing CBA precedence over Board policies."
+    },
+    {
+      "quote": "the law shall prevail.",
+      "subject_text": "the law",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Conflict resolution rule establishing statutory/Code precedence over CBA."
+    },
+    {
+      "quote": "The District and the Association shall apply the provisions of this Agreement (CBA) to all unit members without regard to race, color, creed, age, national origin, gender, disability, sexual orientation, political affiliation, marital status, primary language, exercise of rights provided by this Agreement, and/or membership and/or participation in activities of the Association unless authorized by a provision of this Agreement (CBA).",
+      "subject_text": "The District and the Association",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Joint obligation to apply CBA non-discriminatorily to all unit members."
+    },
+    {
+      "quote": "Alleged violations of 22.5.1 may be challenged pursuant to the Grievance Procedure (Article VI) or pursuant to the complaint procedures established by State and Federal agencies, such as DFEH or EEOC.",
+      "subject_text": "Alleged violations of 22.5.1",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": "Passive construction granting union/workers discretion to pursue internal or external complaint channels."
+    },
+    {
+      "quote": "Unit members alleging violations under 22.5.1 above must elect to pursue their claim(s) pursuant to the Arbitration procedures outlined in the CBA or pursuant to the complaint procedures established by State and Federal agencies, such as DFEH or EEOC, but not both.",
+      "subject_text": "Unit members alleging violations under 22.5.1 above",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Mandatory forum election prevents double-dipping; restricts workers to one dispute resolution path."
+    },
+    {
+      "quote": "Salary shall be based on Class III, Step 5.",
+      "subject_text": "Salary",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Stative/passive form mandating specific wage placement for retired teachers under this article."
+    },
+    {
+      "quote": "Retirees employed pursuant to this Article may purchase all or part of the District-offered benefit programs at an annual cost of the District's benefits package, except where IN6.2 applies.",
+      "subject_text": "Retirees employed pursuant to this Article",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "benefits",
+      "notes": "Grants discretion to retirees to opt into district health packages at their own expense."
+    },
+    {
+      "quote": "Each year of service under the 20-to-1 Class Size Reduction Program shall be added to years of prior Santa Ana Unified School District service to determine eligibility for continued District retiree health benefits as provided in Administrative Regulation (AR) 4117.15/4217.15/4317/15, Retirement Procedures/Qualifications.",
+      "subject_text": "Each year of service under the 20-to-1 Class Size Reduction Program",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": "Mandates administrative credit calculation for benefit eligibility determination."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2011-2014",
+    "evidence": "Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "T-Bargaining Unit",
+    "evidence": "\"T-Bargaining Unit Positions\"",
+    "page": "68",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "\"the Parties agree to modify the substitute program\"",
+    "page": "60",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable with clear formatting and page numbers.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "\"In keeping with Florida Law and School Board Policy 7.19\"",
+    "page": "75",
+    "confidence": "high"
+  }
+}

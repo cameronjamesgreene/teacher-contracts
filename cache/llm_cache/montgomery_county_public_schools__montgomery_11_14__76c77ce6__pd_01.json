@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "A unit member who is assigned by the Board to serve as a mentor for a new teacher shall receive an annual stipend of $600 for each new teacher mentored. A unit member who has completed MCPS mentor training shall receive $700 per year, and $800 per year effective July 1, 2009.",
+    "page": "47",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "The Councils on Teaching and Learning (CTL) continue to provide school-based unit members an opportunity to discuss, collaborate with MCPS staff and communicate about MCPS initiatives related to curriculum, assessment, instruction, and staff development.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "There are three developmental stages in a teaching career, which include induction, skillful teaching, and leadership in teaching (referred to as the lead teacher). The Career Lattice is a framework that includes definitions of leadership responsibilities; processes for application, identification, and evaluation of teacher leaders; and a compensation structure that is aligned to the leadership responsibilities.",
+    "page": "31",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "MCPS and MCEA shall engage in discussion about any ESSA implementation matters that impact our working conditions.",
+    "evidence": "MCPS and MCEA shall engage in discussion about any ESSA implementation matters that impact our working conditions.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "ESSA",
+    "evidence": "MCPS and MCEA shall engage in discussion about any ESSA implementation matters that impact our working conditions.",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

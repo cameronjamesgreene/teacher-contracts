@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "The Association shall have the right to make use of school buildings and facilities at all reasonable hours when not otherwise being utilized as determined by the site administrator.",
+      "subject_text": "The Association",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Association must obtain permission from the site administrator prior to the use of any equipment for any Association business.",
+      "subject_text": "The Association",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Association shall have the right to post notices of activities and matters of Association concern on designated bulletin boards, at least one of which shall be provided at each school site in an area frequented by unit members.",
+      "subject_text": "The Association",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Association may use the District mail service in a manner acceptable to the United States Postal Service and unit member mailboxes for communications to unit members.",
+      "subject_text": "The Association",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "All posted material and material placed in mailboxes shall be identified as Association material.",
+      "subject_text": "All posted material and material placed in mailboxes",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "A copy shall be provided the site administrator or placed in his/her office prior to posting or placing in mailboxes for information purposes.",
+      "subject_text": "A copy",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "A copy shall be sent to the Associate Superintendent, Human Resources.",
+      "subject_text": "A copy",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "When notices of activities and matters of concern originate with CTA or NEA, a cover letter shall be provided by SAEA to the site principal or his/her designee authorizing the posting and/or distribution to the mail boxes, along with a copy of the materials to be posted and/or entered into the mailbox",
+      "subject_text": "a cover letter",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Text truncated at the end in source chunk."
+    }
+  ]
+}

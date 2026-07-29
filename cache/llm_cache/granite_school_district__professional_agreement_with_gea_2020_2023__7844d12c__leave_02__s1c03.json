@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "5",
+    "evidence": "Up to five (5) days of special use of sick leave will be granted by the principal in the event of a death in the immediate family as defined above.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "husband, wife, father, father-in-law, stepfather, mother, mother-in-law, stepmother, daughter, daughter-in-law, stepdaughter, son, son-in-law, stepson, brother, brother-in-law, step brother, sister, sister-in-law, step sister, aunt, uncle, grandchildren, grandchildren-in-law, step grandchildren, grandparent, grandparent-in-law, step grandparent, or any other person who is a permanent member of the same household as the employee",
+    "evidence": "The immediate family is defined as husband, wife, father, father- in-law, stepfather, mother, mother-in-law, stepmother, daughter, daughter-in-law, stepdaughter, son, son-in-law, stepson, brother, brother-in-law, step brother, sister, sister-in-law, step sister, aunt, uncle, grandchildren, grandchildren-in-law, step grandchildren, grandparent, grandparent–in-law, step grandparent, or any other person who is a permanent member of the same household as the employee.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "One-year leaves of absence without pay shall be granted for reasons of newborn care or adoption.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "One-year leaves of absence without pay shall be granted for reasons of newborn care or adoption. Employees who legally adopt a child who has not previously been a member of the immediate household may take up to ten days of accumulated sick leave.",
+    "page": "34, 36",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

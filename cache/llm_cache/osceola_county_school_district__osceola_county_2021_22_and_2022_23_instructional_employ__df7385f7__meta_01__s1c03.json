@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2021-22 and 2022-23",
+    "evidence": "Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees / teachers",
+    "evidence": "Any absence of a member of the bargaining unit from duty shall be covered by leave duly authorized and granted.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "The decision of the arbitrator shall be final and binding as set forth in Florida Statutes Chapter 447.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Florida Statutes Chapter 447",
+    "page": "32",
+    "confidence": "high"
+  }
+}

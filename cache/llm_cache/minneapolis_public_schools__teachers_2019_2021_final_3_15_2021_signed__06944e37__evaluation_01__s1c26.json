@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "may develop an annual teacher evaluation and peer review process for probationary and nonprobationary teachers through joint agreement.",
+    "page": "248",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "State teacher evaluation plan / professional teaching standards",
+    "evidence": "state teacher evaluation plan developed under paragraph (c)",
+    "page": "248",
+    "confidence": "medium"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "At least one summative evaluation per three-year cycle",
+    "evidence": "must establish a three-year professional review cycle for each teacher that includes an individual growth and development plan, a peer review process, and at least one summative evaluation performed by a qualified and trained evaluator such as a school administrator;",
+    "page": "248",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "must use state and local measures of student growth and literacy that may include value-added models or student learning goals to determine 35 percent of teacher evaluation results;",
+    "page": "248",
+    "confidence": "high"
+  }
+}

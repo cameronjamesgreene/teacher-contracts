@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "1 to 4 school years",
+    "evidence": "The probationary period for those who have been employed as a teacher in public education for at least five of the eight years preceding employment with the district may not exceed one school year. For those with less experience, the probationary period will be three school years (i.e., three one-year contracts) with an optional fourth school year if the board determines it is doubtful whether a term or continuing contract should be given.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Full-time professionals employed in positions requiring certification and nurses will be employed by term or continuing contracts after they have successfully completed the probationary period.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Individuals holding renewable SBEC certificates are responsible for obtaining the required training hours and maintaining appropriate documentation.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

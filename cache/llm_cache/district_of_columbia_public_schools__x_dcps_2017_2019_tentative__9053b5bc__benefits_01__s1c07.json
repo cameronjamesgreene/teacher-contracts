@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "DCPS agrees to contribute the following amounts per month, per Teacher, towards a dental insurance plan to be contracted by the WTU: Self $30.00* $34.58 $36.30; Family $60.00* $69.16 $72.60",
+    "page": "99",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": ""
+  }
+}

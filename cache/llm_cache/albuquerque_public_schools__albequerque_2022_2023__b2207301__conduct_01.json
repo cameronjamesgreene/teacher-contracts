@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "The parties have a mutual interest in developing a reasonable suspicion protocol that not only ensures the safety of the students and APS employees, but also protects the rights of the employee involved. ... trained to determine reasonable suspicion of impairment due to alcohol or drug use. ... employee will be transported to a drug testing location.",
+    "page": "93",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Employees shall use APS email for any business-related communication pursuant to the APS Employee Technology Acceptable Use Policy.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "e. Freedom to teach is essential to the accomplishment of the District’s goals. Therefore, educators have the right and responsibility to exercise their professional judgement, within the limits of the above guidelines, in initiating and actively pursuing consideration of academic issues.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

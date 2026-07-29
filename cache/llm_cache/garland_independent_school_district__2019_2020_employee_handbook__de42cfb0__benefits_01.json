@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Group health insurance is provided through TRS-ActiveCare, the statewide public school employee health insurance program. Employees eligible for health insurance coverage include the following: • Employees who are active, contributing TRS members • Employees who are not contributing TRS members and who are employed for 10 or more regularly scheduled hours per week.",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "As of January 1, 2014, the Affordable Care Act (ACA) requires you to have health insurance for yourself and your dependents.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to a direct statement confirming dependent coverage, replacing the previous indirect reference to qualifying events."
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "TRS-ActiveCare (statewide public school employee health insurance program)",
+    "evidence": "Group health insurance is provided through TRS-ActiveCare, the statewide public school employee health insurance program.",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "Dental Plans (DHMO and Indemnity). Other payroll deductions employees may elect include deductions for the employee’s share of premiums for health, dental, life, and vision insurance;",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

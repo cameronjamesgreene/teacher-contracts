@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick leave may be used for the following reasons only: • Employee illness • Illness in the employee’s immediate family",
+    "page": "39",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "5 days state personal leave + 2 days local leave",
+    "evidence": "State law entitles all employees to five days of paid state personal leave per year.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires written request and principal/supervisor approval; prohibited on state-mandated assessment days; supervisor considers substitute availability and program impact.",
+    "evidence": "An employee wishing to take discretionary leave shall submit a written request to his or her principal or supervisor... No employee shall be granted discretionary use of state personal leave on days scheduled for state-mandated assessments at his or her campus... availability of substitutes, will be considered by the principal or supervisor.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

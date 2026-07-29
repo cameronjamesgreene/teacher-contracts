@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "The Board shall continue an employee's group health insurance in full effect as when the employee was not on leave. The employee shall be responsible for his/her share of insurance cost, where applicable.",
+    "page": "141",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

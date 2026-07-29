@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "The Board and the Federation recognize that it is not permissible for the Federation and/or the employees represented by the Federation to access District communications systems (e.g. fax, internet, intranet) to distribute or use materials not considered appropriate by District policy.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Freedom to teach is essential to the accomplishment of the District's goals. Therefore, teachers have the right and responsibility to exercise their professional judgment, within the limits of the above guidelines, in initiating and actively pursuing consideration of academic issues.",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

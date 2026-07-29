@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "All Eligible Active Employees and Eligible pre 65 Year eld Retirees... All Eligible Active Employees and Eligible Retirees Up to Age 75",
+    "page": "24",
+    "confidence": "high"
+  }
+}

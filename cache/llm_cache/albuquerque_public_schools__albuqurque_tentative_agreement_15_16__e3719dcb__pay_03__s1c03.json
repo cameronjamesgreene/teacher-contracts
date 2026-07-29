@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "Credit on the salary schedule within job classifications shall be given for all years of qualified in-district experience and up to ten (10) years credit for qualified out-of-district experience.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "Credit on the salary schedule within job classifications shall be given for all years of qualified in-district experience and up to ten (10) years credit for qualified out-of-district experience.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "yes",
+    "evidence": "For school year 2013-14 2015-2016, the differential value is $5,839 $6,041.63",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

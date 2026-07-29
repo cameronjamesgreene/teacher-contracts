@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "Four (4) days upfront, plus one (1) day per month thereafter.",
+    "evidence": "An employee employed on a full-time basis shall be entitled to four (4) days of sick leave as of the first day of permanent employment of each appointive year, and shall thereafter earn one (1) day of sick leave at the end of each calendar month",
+    "page": "91",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Sick leave accumulates/carries over with no cap.",
+    "evidence": "Sick leave shall be cumulative from year to year, and there shall be no limit on the number of days of sick leave an employee may accrue.",
+    "page": "92",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick leave claims shall be honored as submitted by the employee for his/her own personal illness, as well as illness or death of father, mother, brother, sister, husband, wife, child, other close relative, or member of the employee's own household.",
+    "page": "91",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "Six (6) days (charged against accrued sick leave).",
+    "evidence": "six (6) days paid leave shall be allowed for personal reasons each year to be charged against accrued sick leave",
+    "page": "92",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires forty-eight (48) hours advance notice (unless extenuating circumstances); cannot be used immediately before or after holidays (with specific exceptions); subject to verification if misuse is suspected.",
+    "evidence": "Except in extenuating circumstances, employees shall request leave for personal reasons forty-eight (48) hours in advance to the Principal. Personal leave requests shall not be approved for any day immediately preceding or following a holiday. [...] If the Principal suspects abuse of this leave, the Principal shall require verification of the illness from the employee's attending physician.",
+    "page": "92",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the physician verification requirement for suspected abuse, which explicitly supports the coded answer."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "Six (6) days paid leave shall be allowed for personal reasons each year to be charged against accrued sick leave, provided that such leave be noncumulative.",
+    "page": "92",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "An employee who has held an annual contract, a continuing contract or professional service contract in any Florida district or who has held a teaching contract elsewhere shall be placed on the single column of the Teachers’ Salary Schedule... Such employees shall be issued a one-year probationary annual contract. A full time eligible employee is defined as a non-temporary employee who is in a regular established position and works six (6) or more hours per day.",
+    "page": "103, 105",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

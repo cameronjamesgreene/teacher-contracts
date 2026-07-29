@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "The NM Board of Nursing Nurse Practice Act requires that nurses be supervised and evaluated by a nurse, a dentist, or a physician.; The state may waive the individual school class load requirements (see Appendix B) as established in provisions of state statute.; The Public Education Department (PED) may waive the individual class load and teaching load requirements established in state statute upon demonstration of a viable alternative curricular plan (i.e., Block Scheduling) and a finding by the PED that the plan is in the best interest of the school district and that, on an annual basis, the plan has been presented to and is supported by the affected teaching staff.",
+    "evidence": "The NM Board of Nursing Nurse Practice Act requires that nurses be supervised and evaluated by a nurse, a dentist, or a physician.",
+    "page": "68, 73",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The Individuals with Disabilities Education Act (IDEA) requires that a school provide a continuum of service delivery options to meet the varied individual needs of students who are eligible to receive special education services.; The intent of the IDEA is to serve all children within the general education setting (whenever appropriate) with the use of supplemental aids and services.; The following terms have a basis in state and federal regulations.; The IDEA guarantees that students with disabilities will have “a free appropriate public education (FAPE) that emphasizes special education and related services designed to meet their unique needs.”; A term referred to in IDEA that requires:",
+    "evidence": "The Individuals with Disabilities Education Act (IDEA) requires that a school provide a continuum of service delivery options to meet the varied individual needs of students who are eligible to receive special education services.",
+    "page": "65, 66",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Individuals with Disabilities Education Act (IDEA)",
+    "evidence": "The Individuals with Disabilities Education Act (IDEA) requires that a school provide a continuum of service delivery options to meet the varied individual needs of students who are eligible to receive special education services.",
+    "page": "65",
+    "confidence": "high"
+  }
+}

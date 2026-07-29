@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Mentor As determined after state allocation; Beginning Teacher Program Coordinator 11.6%; orientation days (three (3) for traditional, One (1) for modified)",
+    "page": "15, 24",
+    "confidence": "high",
+    "coder_notes": "Confidence upgraded to high. The contract explicitly specifies orientation days for new hires in Article XVII and lists mentor/coordination roles with supplemental pay on page 15."
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Department Chair Maximum of 8 per school $1,257.00; Professional Development Committee 3.7%",
+    "page": "14, 15",
+    "confidence": "high",
+    "coder_notes": "Confidence upgraded to high. The document explicitly creates Department Chair roles and a Professional Development Committee with attached supplemental compensation, directly answering the question."
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Confidence retained as high. The document details standard step-and-lane salary progression based on credits and years of experience, but does not establish a formal career ladder, teacher advancement pathway, or differentiated career roles."
+  }
+}

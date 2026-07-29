@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "system-wide seniority, as defined in the Definitions section",
+    "page": "92",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Exempt from RIF: Fall Equalization and Spring Excessing (uses performance-based excessing/mutual consent instead). Notice/Process: Written notice to WTU with reasons/timelines required before furlough; must discuss options and consult on implementation before/after RIF decision.",
+    "evidence": "DCPS intends not to use the reduction in force (RIF) or abolishment procedures in cases commonly known as “Fall Equalization,” “Spring Excessing,”... DCPS shall notify the WTU in writing prior to any Furlough. This notice shall include the reasons for the Furlough and all timelines. Prior to the decision to implement a reduction in force and/or abolishment, DCPS shall discuss other possible options with the WTU. After DCPS has made a decision to effectuate any reduction in force, abolishment, or furlough, DCPS shall consult with the WTU regarding implementation.",
+    "page": "101",
+    "confidence": "high"
+  }
+}

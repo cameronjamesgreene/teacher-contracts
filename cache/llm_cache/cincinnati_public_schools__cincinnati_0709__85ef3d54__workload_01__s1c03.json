@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "120 days (minimum required for a year of service)",
+    "evidence": "A year of service for regular, full-time contract teachers shall be a minimum of 120 days of full-time employment within a given school year.",
+    "page": "17",
+    "confidence": "medium"
+  },
+  "workload_workday_length_002": {
+    "answer": "Seven hours (minimum required for a day of service)",
+    "evidence": "A day of service for regular, full-time contract teachers shall be a minimum of seven hours.",
+    "page": "17",
+    "confidence": "medium"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Supplemental Salary Schedule for Middle School Activities 2007-2008 ... Activities Coordinator Director 10.00% $2,740.10 ... Band Advisor 4.00% $1,096.04",
+    "page": "12-13",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

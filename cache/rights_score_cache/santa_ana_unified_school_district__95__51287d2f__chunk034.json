@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "*The weekly pay for band instructor during CIF play-offs in football or basketball shall equal that determined by 5% factor (same as assistant football coach).",
+      "subject_text": "The weekly pay for band instructor during CIF play-offs in football or basketball",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "**The weekly pay for Drill Team during CIF play-offs in football or basketball shall equal that determined by 4% factor (same as assistant coach in other sports).",
+      "subject_text": "The weekly pay for Drill Team during CIF play-offs in football or basketball",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "#The weekly pay for Pep Squad for CIF play-offs in football or basketball shall equal that determined by 5% factor (same as assistant coach in football unless the Pep Squad and Drill Team are assigned for the same unit member, then only the larger stipend will be given).",
+      "subject_text": "The weekly pay for Pep Squad for CIF play-offs in football or basketball",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "has_table": false,
+  "schedule_label": "",
+  "school_year_or_effective_date": "",
+  "lane_labels": [],
+  "step_labels": [],
+  "cells": [],
+  "notes": "Page contains narrative provisions (administrator personnel list, agreement assignment clause) and a cross-reference to 'Salary Table 1' for administrators, not an actual salary table.",
+  "confidence": "high",
+  "extraction_method": "vision",
+  "page_start": 3,
+  "page_end": 3
+}

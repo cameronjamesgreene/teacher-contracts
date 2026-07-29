@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS will consult with the WTU on the development of professional development opportunities that will be made available to teachers rated as Minimally Effective.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall provide a minimum of ten (10) non-instructional days for professional development during the 2009-2010 school year.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall continue to provide a minimum of ten (10) non-instructional days for professional development during the 2010-2011 and 2011-2012 school years, in a manner determined by DCPS, but in consultation with the WTU.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "Every year, DCPS shall, in consultation with the WTU, develop and implement a professional development program and calendar for all Teachers on the most relevant issues facing Teachers including, but not limited to, the new Teaching and Learning Framework which is the basis of the new Educator Evaluation System.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "The professional development program will be developed and begin implementation by September 15th of each school year.",
+      "subject_text": "The professional development program",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Passive construction; implicit actor is DCPS."
+    },
+    {
+      "quote": "The Parties shall jointly develop and conduct two mandatory trainings on the content of this Agreement.",
+      "subject_text": "The Parties",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Joint obligation; binary protected_party assigned to management."
+    },
+    {
+      "quote": "Representatives of the WTU and DCPS shall conduct the trainings.",
+      "subject_text": "Representatives of the WTU and DCPS",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Joint duty."
+    },
+    {
+      "quote": "The DCPS representatives may include individuals from the Office of the Chancellor, the Office of the General Counsel, Labor Management Employee Relations, and the Office of Human Resources.",
+      "subject_text": "The DCPS representatives",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Grants discretionary authority to management regarding training delegation."
+    }
+  ]
+}

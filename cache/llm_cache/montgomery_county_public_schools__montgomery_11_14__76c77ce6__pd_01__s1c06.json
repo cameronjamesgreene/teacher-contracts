@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Middle school content specialists and team leaders will have a reduced teaching schedule, when possible, except in no case will they be required to teach more than four classes.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

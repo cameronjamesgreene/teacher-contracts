@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020 school year",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees",
+    "evidence": "Garland ISD staff should report the incident to the Office of Guidance and Counseling",
+    "page": "58",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "advisory/general guidance",
+    "evidence": "This document provides general guidance.",
+    "page": "56",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Texas law says anyone who thinks a child is or has been abused, neglected or exploited MUST report the incident within 48 hours to:",
+    "page": "58",
+    "confidence": "high"
+  }
+}

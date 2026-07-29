@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "State-funded differential is $8,176.38 (2021-2022); if state funding is discontinued, $2,000.00.",
+    "evidence": "The State of New Mexico provides funding for a differential for board-certified teachers based on the state’s unit value multiplied by a factor of 1.5. • For school year 2021-2022, the differential value is $8176.38 Should the state discontinue funding this differential, board-certified teachers shall receive a differential of $2,000.00.",
+    "page": "111",
+    "confidence": "high"
+  }
+}

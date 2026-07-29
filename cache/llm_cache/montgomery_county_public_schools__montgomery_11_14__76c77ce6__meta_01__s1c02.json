@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "FY 2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "FY 2011–FY 2014",
+    "evidence": "FY 2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "MCEA unit members (Montgomery County Education Association), including all full-time and part-time employees occupying positions listed in Appendix A.",
+    "evidence": "This unit shall include all full-time and part-time employees occupying positions listed in Appendix A of this Agreement, and all other similarly situated positions now and in the future excluding—",
+    "page": "7",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding",
+    "evidence": "The recommendation of the arbitrator shall be binding upon both parties.",
+    "page": "5",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Negotiations Law – Section 6-408 of the Education Article of the Annotated Code of Maryland.",
+    "page": "7",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "yes",
+    "evidence": "After all available state and local leave days have been exhausted, an employee shall be granted, for the duration of his or her employment with the District, a maximum of 30 leave days of extended leave to be used according to the terms and conditions of state sick leave... or for absences related to the birth or placement of a child when leave is taken within the first year after the child’s birth, adoption, or foster placement.",
+    "page": "127",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Any full-time employee whose position requires educator certification by the State Board for Educator Certification or by the District shall be eligible for temporary disability leave. The maximum length of temporary disability leave shall be 180 calendar days.",
+    "page": "128",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "...for absences related to the birth or placement of a child when leave is taken within the first year after the child’s birth, adoption, or foster placement.",
+    "page": "127",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "When an absent employee is eligible for FMLA leave, the District shall designate the absence as FMLA leave. The District shall require the employee to use temporary disability leave and paid leave, including compensatory time, concurrently with FMLA leave.",
+    "page": "125",
+    "confidence": "high"
+  }
+}

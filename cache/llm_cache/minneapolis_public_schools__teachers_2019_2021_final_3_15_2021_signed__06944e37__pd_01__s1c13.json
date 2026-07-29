@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "A resident teacher... engage in a high quality, intensive, on-site induction process. | Release time for mentors (.2) | serve for up to five years | facilitating New Teacher PSP meetings, coaching, co-teaching and observing teachers. | stipends directly from the contracting institution of a minimum of $200... $250... $300",
+    "page": "118, 124, 125",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Instructional Coach/Content Lead | PDC Coordinator... selected through criteria determined jointly by a labor-management process | Demonstration Teachers... identified through a labor-management process | District Professional Development Center Steering Committee is a representative labor-management committee",
+    "page": "121, 123, 125",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "twenty-one categories in the Professional Career Continuum | advance one (1) lane on the teacher salary schedule | eligible for a $1,000 stipend",
+    "page": "122, 123",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Tentative agreement / settlement summary",
+    "evidence": "Proposed Settlement Agreement with Montgomery County Public Schools",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "School Years 2018–2020; increases effective July 1, 2017",
+    "evidence": "for the School Years 2018 – 2020... 1% General Wage Increase, effective July 1, 2017",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly include the July 1, 2017 effective date to fully support the coded answer."
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "MCEA members (teachers/certificated staff), substitutes, home and hospital teachers",
+    "evidence": "MCEA bargaining team... For Substitutes:... For Home and Hospital Teachers:",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "Tentative/proposed (requires membership and Board approval to become final)",
+    "evidence": "To become final, the proposed agreement requires: approval by MCEA membership, approval by the Montgomery County Board of Education",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Proposed Settlement Agreement with Montgomery County Public Schools",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Text is cleanly formatted and fully extractable; updated evidence to satisfy quoting requirement for meta assessment."
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Document discusses a proposed settlement and mentions ESSA (federal) but contains no citations to state statutes or administrative codes. Preserved 'no' answer per guidelines."
+  }
+}

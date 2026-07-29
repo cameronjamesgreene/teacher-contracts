@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "The standard for separation under the evaluation process shall be “just cause,” which shall be defined as adherence to the evaluation process only.",
+    "page": "50",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

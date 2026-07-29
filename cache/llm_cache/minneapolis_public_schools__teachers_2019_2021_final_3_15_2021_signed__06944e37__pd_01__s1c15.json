@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Mentor extended time, includes responsibilities for coordination, staffing and instruction for the new teacher orientation and training, call-a-colleague, new teacher network meetings, Achievement of Tenure, District PSP, District PDP, and new teacher support sessions. Mentor teachers, and others similarly engaged with teachers district-wide, shall receive a professional account stipend of $5000 per year during the appointment only",
+    "page": "142",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "Teachers are encouraged to continuously improve their professional skills and knowledge through coursework and other professional development activities which enhance their instructional skills and help them meet the needs of the students they teach. Lane advancement based on ProPay credits shall be granted up to Lane U.",
+    "page": "139",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Except in emergencies there shall be no more than two general faculty meetings per month excluding the months of August and June when three general faculty meetings may be held each month. Teachers will not be required to attend more than two meetings per month that extend beyond the normal duty day including the general faculty meetings nor will elementary teachers be required to attend more than four meetings per month during the teacher duty day unless there are unforeseen circumstances.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Teachers shall not be expected to perform custodial duties. However, the teacher shall be responsible for maintaining reasonable order and cleanliness in the classroom, and for performing such functions as are a normal part of the teaching assignments.",
+    "page": "9",
+    "confidence": "high"
+  }
+}

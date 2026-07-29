@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Each school year a teacher may use up to five (5) days each school year of sick leave allowance for immediate family illness. In no event shall said utilization, when combined with immediate family illness provisions of Section 10.2.2.2, above, result in the utilization of more than seven (7) days per year of paid leave for immediate family illness.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

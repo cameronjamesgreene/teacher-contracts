@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Evaluation shall be a continuous process",
+      "subject_text": "Evaluation",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "Policy directive establishing continuous evaluation requirement."
+    },
+    {
+      "quote": "Evaluation is conducted by the Superintendent or his designee",
+      "subject_text": "Evaluation",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "evaluation",
+      "notes": "Procedural assignment of evaluation responsibility."
+    },
+    {
+      "quote": "will be related to the employee's duties and performance of the job.",
+      "subject_text": "Evaluation",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "evaluation",
+      "notes": "Elliptical clause; descriptive linkage to job duties."
+    },
+    {
+      "quote": "The process of evaluation may involve assembling documentation from a variety of sources.",
+      "subject_text": "The process of evaluation",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": "Grants discretion regarding sources of evaluation documentation."
+    }
+  ]
+}

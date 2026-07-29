@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "All teachers shall receive full credit on the salary schedule for full-time outside school-teaching experience in pre-K to 12 accredited schools completed after the teacher received a Bachelor's degree.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "Credit shall be given for each year of military service or Teacher Corp service up to a maximum of four (4) years. A minimum of six (6) months' military service or Teacher Corp service is necessary to qualify for a year of service.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "$1,000 per year",
+    "evidence": "If a teacher receives his/her National Board Certification, then the teacher will be paid an additional $1,000 per year as long as the teacher maintains that certification and remains a teacher in IPS.",
+    "page": "37",
+    "confidence": "high"
+  }
+}

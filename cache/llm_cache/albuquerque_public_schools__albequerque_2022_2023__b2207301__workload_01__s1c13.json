@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "contracted by Albuquerque Public Schools to work 6.5 hours per day for 184 days per school year.",
+    "page": "137",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "6.5 hours",
+    "evidence": "work 6.5 hours per day for 184 days per school year.",
+    "page": "137",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "One day a week for Planning and Preparing Time.",
+    "page": "130",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "One day a week",
+    "evidence": "One day a week for Planning and Preparing Time.",
+    "page": "130",
+    "confidence": "medium"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

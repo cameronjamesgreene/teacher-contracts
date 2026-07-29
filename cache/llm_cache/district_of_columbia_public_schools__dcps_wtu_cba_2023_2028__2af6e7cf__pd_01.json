@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Require the participation of all teachers within their first three years of service in DCPS. Recruit, develop, and assign mentor teachers with the newest staff to ensure that each new Teacher is assigned a mentor. Provide ongoing support and mentoring for all new teachers throughout the 3-year induction program. Include a specific allocation within the DCPS budget to cover costs required for implementation and maintenance of the program for a minimum of 3 consecutive years.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "DCPS shall, in collaboration with the WTU, implement an Instructional Coach Model, through which every DCPS School shall be provided with a full-time Instructional Coach, whose sole responsibility shall be to provide professional development in a job-embedded manner. Instructional Coaches shall be formally trained and certified on the new DCPS Teaching and Learning Framework and shall have no evaluative duties and play no role in any Teacher’s evaluation.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends on page 41. Article 13 (Teacher Promotion Policies), which begins on page 43 and would address career advancement or ladders, is not included in the supplied text. Therefore, the topic is not discussed within the provided excerpt."
+  }
+}

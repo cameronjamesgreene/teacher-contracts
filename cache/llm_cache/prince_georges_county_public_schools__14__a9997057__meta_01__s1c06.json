@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "The process for implementing this section will begin upon ratification of this Negotiated Agreement",
+    "page": "25",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2007; Fiscal Year 2008",
+    "evidence": "effective July 1, 2007 or on their anniversary date. / The Fiscal Year 2008 budget includes",
+    "page": "26, 28",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Professional employees (Unit I)",
+    "evidence": "All professional employees will have free term life insurance. / Unit I members",
+    "page": "23",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "unless they are recognized by the State of Maryland for certification. / requirements of State Board of Education Bylaw",
+    "page": "26",
+    "confidence": "high"
+  }
+}

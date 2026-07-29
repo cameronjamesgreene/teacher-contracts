@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "64",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Employees on probationary, term, and continuing contracts can be dismissed during the school year according to the procedures outlined in district policies. ... Contract employees dismissed during the school year, suspended without pay, or subject to a reduction in force are entitled to receive notice of the recommended action, an explanation of the charges against them, and an opportunity for a hearing. The timelines and procedures to be followed when a suspension, termination, or nonrenewal occurs will be provided when a written notice is given to an employee. Advance notification requirements do not apply when a contract employee is dismissed for failing to obtain or maintain appropriate certification or when the employee’s certification is revoked for misconduct. ... Noncontract employees are employed at will and may be dismissed without notice, a description of the reasons for dismissal, or a hearing.",
+    "page": "64",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The board adopts policy number 8111, Birmingham City Schools' Code of Student Conduct, as its policy on student discipline and behavior. The teacher in each classroom is expected to maintain order and discipline. Students who believe they have been bullied, harassed, or have been involved in an act of violence on campus... are encouraged to promptly report such incidents to the campus principal, counselor, or other campus professional.",
+    "page": "8110, 8130, 8207",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

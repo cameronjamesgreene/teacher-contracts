@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "The Superintendent is authorised to seek funds for purposes consistent with the substance of this policy and to report the availability of funds to the Board for approval.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Administrative discretion to solicit external funding and report to governing board."
+    },
+    {
+      "quote": "the Board shall annually appoint an independent, firm of certified public accountants (with any single firm's consecutive service being limited to five years)",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Mandatory annual procurement duty for external audit services."
+    },
+    {
+      "quote": "who, on a continuing basis, will assist in the improvement of procedures of accounting and internal control and will be available as needed by the Board or Administration.",
+      "subject_text": "who [independent firm/accountants]",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Continuity and availability duty for external auditor."
+    },
+    {
+      "quote": "the firm will conduct audits deemed necessary to form an opinion as to the fairness and accuracy of presentation of the Board's financial statements and shall provide evidence of the fiscal soundness of Board operations.",
+      "subject_text": "the firm",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Combined audit execution and fiscal soundness reporting duty."
+    },
+    {
+      "quote": "The auditing firm will submit a written report annually to the Superintendent and Board as early as practicable after its annual audits.",
+      "subject_text": "The auditing firm",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Annual reporting mandate to district leadership."
+    },
+    {
+      "quote": "Additional written reports will be submitted as early as practicable after any other audits by the firm.",
+      "subject_text": "Additional written reports",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive reporting mandate for interim audits."
+    },
+    {
+      "quote": "Copies of this audit will be distributed and published in accordance with State requirements.",
+      "subject_text": "Copies of this audit",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Compliance mandate for public release of audit records."
+    }
+  ]
+}

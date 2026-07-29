@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "Yes. Schedule titles: '2015-16 SALARY SCHEDULE “A” – EFFECTIVE JANUARY 1, 2016 (2.5%)' and '2016-2017 SALARY SCHEDULE “A” – EFFECTIVE JULY 1, 2016 (2%)'. Covered years: 2015-2016 and 2016-2017. Covered employee group: All teachers (Lanes A-U, Steps 1-40). Pages: 9, 10, 11.",
+    "evidence": "2015-16 SALARY SCHEDULE “A” – EFFECTIVE JANUARY 1, 2016 (2.5%); 2016-2017 SALARY SCHEDULE “A” – EFFECTIVE JULY 1, 2016 (2%)",
+    "page": "9, 10, 11",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2015-2016 and 2016-2017",
+    "evidence": "2015-16 SALARY SCHEDULE “A” – EFFECTIVE JANUARY 1, 2016 (2.5%); 2016-2017 SALARY SCHEDULE “A” – EFFECTIVE JULY 1, 2016 (2%)",
+    "page": "9, 11",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "Stipends for Q-Comp position - participants will be paid for each full semester of participation.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

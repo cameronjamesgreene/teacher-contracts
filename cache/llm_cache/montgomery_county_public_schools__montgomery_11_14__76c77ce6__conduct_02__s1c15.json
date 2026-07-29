@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "discussed_unclear",
+    "evidence": "new curriculum implementation of, 25–26 | instructional materials and supplies, provision for, 25–26",
+    "page": "105",
+    "confidence": "medium"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "discussed_unclear",
+    "evidence": "lesson planning, 36, 37, 40",
+    "page": "104",
+    "confidence": "medium"
+  },
+  "conduct_political_activity_010": {
+    "answer": "discussed_unclear",
+    "evidence": "political activity, leave for, 79",
+    "page": "106",
+    "confidence": "medium"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

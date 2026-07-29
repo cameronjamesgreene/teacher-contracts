@@ -1,0 +1,17 @@
+# Palm_Beach_CTA-July-2017-June-2020-CBA-Successor.pdf — APPENDIX B - SUPPLEMENTS ()
+# population: Employees receiving supplements | is_teacher_schedule: False
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit corrected this table"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+CATEGORY 1,5460
+CATEGORY 2,4915
+CATEGORY 3,4110
+CATEGORY 4,3275
+CATEGORY 5,3015
+CATEGORY 6,2500
+CATEGORY 7,2185
+CATEGORY 8,1925
+CATEGORY 9,1640
+CATEGORY 10,1145
+CATEGORY 11,835
+CATEGORY 12,575

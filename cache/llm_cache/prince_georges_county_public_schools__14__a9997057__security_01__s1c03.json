@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "Evaluation of Probationary Teachers, a current copy of which is appended to this Agreement. Tenure status; i.e., except in unusual circumstances, only tenured teachers will be considered for voluntary transfers.",
+    "page": "9, 10",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "The Board of Education will accept the resignation of any non-tenured Unit I employee submitted prior to May 1 without prejudice, provided that the said employee has not been recommended by the Superintendent for Termination or non-renewal due to cause.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "on system-wide seniority as defined in Article 4.01.10.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Requests submitted electronically between Jan 15 and Mar 15. Criteria include certification, tenure, seniority, evaluation, qualifications, proximity, and racial balance. Receiving Principal must accept and offer interview (Apr 1–Jul 15). Written acceptance required within 1 week. HR lists top 5 most senior accepted applicants; lists valid until Jul 15. Post-Mar 15 requests require extenuating circumstances & 5+ years service. Applicants may withdraw before HR approval. Ineligible for voluntary transfer until year-end after notification.",
+    "evidence": "Between January 15 and March 15, teachers will have the opportunity to submit an electronic application... The transfer applicant must be offered an interview by the receiving Principal or designee between April 1 and July 15. The Division of Human Resources will establish lists for each subject field assignment... maximum of the five (5) most senior transfer applicants... valid until July 15.",
+    "page": "10-11",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "The Board and PGCEA recognize that valid educational principles compel the staffing of each public school to be predicated upon such considerations as school enrollment factors and ratios related to race and/or sex... involuntary transfers may need to be effected... Principal shall submit to the Division of Human Resources no later than June 1... 1. Volunteer(s) shall first be sought... 2. Persons holding less than a standard certificate... 3. least senior person in the County in that school within the category affected... notify a teacher in a private conference by June 1 that the teacher will be a staff reduction. Final notification will be given in writing by the Division of Human Resources after notification by the Principal.",
+    "page": "11-12",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Triggered by budgetary actions, declining enrollment, or administrative reorganization. Laid off based on subject certification and system-wide seniority. Board must first attempt reassignment to another field with provisional certification. If lay-off is necessary, order by least seniority within: 1) provisional holders, 2) non-tenured, 3) tenured Class II, 4) tenured first class. No new hires while on lay-off unless no qualified candidates. Notice by phone/mail at least 4 working days before recall. Recall rights last 3 years, must be available within 30 days. Option to pay 100% insurance premiums during recall period.",
+    "evidence": "reduction of professional personnel necessitated as a result of budgetary actions, declining enrollment or curriculum and/or administrative reorganization, professional personnel shall be laid off solely on the basis of certification in the subject field assignment and system-wide seniority... lay-offs shall be effected within the following categories in the order noted: First: ... provisional certificate. Second: ... non-tenured employees. Third: ... tenured employees holding a Class II certificate. Fourth: ... tenured employees holding first class certificates. receive official notice by phone or registered mail at least four (4) working days in advance... retain recall rights for a period of three (3) years",
+    "page": "12",
+    "confidence": "high"
+  }
+}

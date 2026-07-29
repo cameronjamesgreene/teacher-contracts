@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "7.3 The standard for disciplining permanent employees shall be just cause. The standard for disciplining probationary employees shall be not arbitrary or capricious, as opposed to at will.",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "7.8.1 In the case of suspensions or disciplinary discharges, the official taking the action shall provide the employee with advance written notice of the charge[s], which shall include a specific statement of the evidence supporting such charge[s], no later than ten (10) school days prior to the effective date of the discipline. 7.8.2 Within five (5) school days of the receipt of the notice, the WTU and/or employee has the right to review all documents related to the charges, meet with representatives from the Office of the Chancellor before implementation of the proposed suspension or disciplinary discharge, and to provide a written reply along with supporting documents against the charges.",
+    "page": "42",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 41 to 42 to align with actual document pagination."
+  }
+}

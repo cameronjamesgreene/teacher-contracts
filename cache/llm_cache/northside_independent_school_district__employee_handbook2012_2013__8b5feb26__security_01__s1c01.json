@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "Probationary contracts are one-year contracts. The probationary period for those who have been employed as a teacher in public education for at least five of the eight years preceding employment with the district may not exceed one school year. For those with less experience, the probationary period will be three school years (i.e., three one-year contracts) with an optional fourth school year if the board determines it is doubtful whether a term or continuing contract should be given. Term and continuing contracts. Full-time professionals employed in positions requiring certification and nurses will be employed by term or continuing contracts after they have successfully completed the probationary period.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Written request signed by employee and supervisor required. Deadline is March 30 for transfers before the school year. During-year transfers require a replacement to be found and no adverse student impact. Requests coordinated by central administration and approved by receiving supervisor.",
+    "evidence": "A written request for transfer must be completed and signed by the employee and the employee’s supervisor. A teacher requesting a transfer to another campus before the school year begins must submit their request by March 30th. Requests for transfer during the school year will be considered only when the change will not adversely affect students and after a replacement has been found. All transfer requests will be coordinated by the central administration office and must be approved by the receiving supervisor.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "All personnel are subject to assignment and reassignment by the superintendent or designee when the superintendent or designee determines that the assignment or reassignment is in the best interest of the district. Reassignment is a transfer to another position, department, or facility that does not necessitate a change in the employment contract. Campus reassignments must be approved by the principal at the receiving campus except when reassignments are due to enrollment shifts or program changes. Extracurricular or supplemental duty assignments may be reassigned at any time... Employees who object to a reassignment may follow the district process for employee complaints...",
+    "page": "11",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

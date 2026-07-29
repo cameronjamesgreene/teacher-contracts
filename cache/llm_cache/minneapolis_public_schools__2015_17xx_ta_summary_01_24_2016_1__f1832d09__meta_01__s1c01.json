@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "Tentative Agreement 2015-17 Teachers Contract",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2015-2017",
+    "evidence": "2015-17 Teachers Contract",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "2015-17 Teachers Contract",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "tentative",
+    "evidence": "Tentative Agreement",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

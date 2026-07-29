@@ -1,0 +1,122 @@
+[
+  {
+    "file": "12_month_250_day_work_year_u0__utd_2017_2020_agreement.csv",
+    "source_page": 107,
+    "cells_checked": 126,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "12-Month 250 Day U0 office schedule, GRD 17-27, lanes STEP02-14. All 126 value cells match truth p107 exactly. Clean headers, no dropped rows."
+  },
+  {
+    "file": "12_month_250_day_work_year_u1_effective_07_01_2017__utd_2017_2020_agreement.csv",
+    "source_page": 87,
+    "cells_checked": 91,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "12-Month 250 Day U1 para/support schedule, GRD 07-23, lanes STEP02-15. All 91 values match truth p87 exactly."
+  },
+  {
+    "file": "article_xvii_paraprofessionals_associate_educators__utd_2017_2020_agreement.csv",
+    "source_page": 86,
+    "cells_checked": 93,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Art XVII 10-Month U1 para/support schedule, GRD 07-23. All 93 values match truth p86 exactly."
+  },
+  {
+    "file": "miami_dade_county_public_schools_article_xviii_off__utd_2017_2020_agreement.csv",
+    "source_page": 106,
+    "cells_checked": 128,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Art XVIII 10-Month U0 office schedule, GRD 17-27. All 128 values match truth p106 exactly."
+  },
+  {
+    "file": "a0_salary_schedule__utd_2017_2020_agreement.csv",
+    "source_page": 216,
+    "cells_checked": 6,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A0 Salary Schedule Min/Max x (10mo/12mo/Adult-Voc). All 6 values match truth p216. Primary/clean copy of this single table."
+  },
+  {
+    "file": "section_3_salary_schedule__utd_2017_2020_agreement.csv",
+    "source_page": 216,
+    "cells_checked": 6,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Duplicate of a0_salary_schedule.csv (same single A0 table, truth p216); values correct but '12 Month' header garbled to 'A0 Salary Schedule 12 Month'."
+  },
+  {
+    "file": "alternative_education_stipend__utd_2017_2020_agreement.csv",
+    "source_page": 153,
+    "cells_checked": 3,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Alternative Education Stipend Teacher/Para/Office = 1217/401/305. Matches truth p153 (Art XXV Sec 2)."
+  },
+  {
+    "file": "fair_labor_standards_act_flsa_provisions__utd_2017_2020_agreement.csv",
+    "source_page": 229,
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "FLSA part-time asst-coach: 1473/182 and Football 2nd-sem 691/85. All 4 values match truth p229. Blank first-row label matches source."
+  },
+  {
+    "file": "salary_schedule_at__utd_2017_2020_agreement.csv",
+    "source_page": 217,
+    "cells_checked": 12,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Salary Schedule AT hourly rates, 3 hour-bands x 4 degrees. All 12 values match truth p217 exactly."
+  },
+  {
+    "file": "salary_schedule_au__utd_2017_2020_agreement.csv",
+    "source_page": 217,
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Salary Schedule AU regular K-12 hourly 34.41/36.85/38.48/40.11. All 4 match truth p217."
+  },
+  {
+    "file": "salary_schedule_co_credential_payments__utd_2017_2020_agreement.csv",
+    "source_page": 217,
+    "cells_checked": 3,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Salary Schedule CO credential payments Master/Specialist/Doctorate = 3100/5150/7200. Matches truth p217."
+  },
+  {
+    "file": "section_20_d_annual_supplement__utd_2017_2020_agreement.csv",
+    "source_page": 104,
+    "cells_checked": 8,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Section 20.D annual supplement (Art XVIII). 8 supplement values match truth p104; two section-label rows correctly blank."
+  },
+  {
+    "file": "section_g_community_school_program_supplement__utd_2017_2020_agreement.csv",
+    "source_page": 105,
+    "cells_checked": 2,
+    "cells_wrong": 2,
+    "status": "INCORRECT",
+    "audit_note": "Section G community-school supplement: header only, DATA ROW DROPPED - missing 600/840 for <=$25k / >$25k (truth p105)."
+  },
+  {
+    "file": "temporary_instructors_salary_schedule_as__utd_2017_2020_agreement.csv",
+    "source_page": 115,
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Temp Instructors AS schedule Pool/Degreed/AssocDeg/Para = 123/97/71/62. All 4 match truth p115 (single occurrence)."
+  },
+  {
+    "file": "temporary_instructors_salary_schedule_as__utd_2017_2020_agreement__p122-122.csv",
+    "source_page": 115,
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Duplicate of temporary_instructors_salary_schedule_as.csv - same AS table (truth p115 appears once); values correct but grid is a redundant copy."
+  }
+]

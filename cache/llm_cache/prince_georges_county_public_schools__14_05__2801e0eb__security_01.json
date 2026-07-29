@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "Tenure status; i.e., except in unusual circumstances, only tenured teachers will be considered for voluntary transfers. / permanent employee will lose employment / persons holding a provisional certificate.",
+    "page": "10, 12",
+    "confidence": "high",
+    "coder_notes": "Evidence shows the terms are used but never explicitly defined. Supports the 'no' answer."
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "The Board of Education will accept the resignation of any non-tenured Unit I employee submitted prior to May 1 without prejudice, provided that the said employee has not been recommended by the Superintendent for Termination or non-renewal due to cause.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "10. Seniority: Seniority shall be defined as the length of a unit member’s continuous service from the most recent date of permanent employment. Seniority shall begin on the first contract day on which the employee reports for duty.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Requests must be submitted on a “Transfer Form” no later than March 1 to the Chief Administrator of the Division of Human Resources, with a copy to the current Principal. All voluntary transfers require receiving Principal acceptance. Requests after March 1 are considered only for extenuating or unusual circumstances and require five or more years of service, routed through the current Principal with their recommendation. Priority consideration applies to full-time vacancies for reassigned itinerant teachers.",
+    "evidence": "This form, with any supplemental information in support of the transfer request, must be submitted by the teacher no later than March 1 to the Chief Administrator of the Division of Human Resources. A copy of the transfer request is to be given by the teacher to the teacher’s current Principal at the time it is submitted to the Office of Human Resources. ... All voluntary transfers shall be acceptable to the receiving Principal. ... Requests for voluntary transfers to known vacancies may be submitted after March 1, but will be considered only in extenuating or unusual circumstances and only from teachers with five or more years of service in the Prince George’s County Public Schools System.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Updated page reference to 10 to align with document pagination for Section 4.10."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Yes. Procedures use a sequential selection order: volunteers first, then those with less than a standard certificate, then the least senior person in the county within the affected school/category. Teachers are offered up to two interviews with two workdays to decide. Transferred teachers are prioritized over new hires and those returning from leave, and ahead of voluntary requests after August 1. A three-year moratorium applies after a first-day transfer.",
+    "evidence": "1. Volunteer(s) shall first be sought... 2. Persons holding less than a standard certificate in the subject or teaching level to which they are assigned shall then be selected and 3. Should the previous two steps not satisfy the required transfer, the decision shall be made according to: a. The least senior person in the County in that school within the category affected. / A maximum of two interviews to Principals of schools where there are appropriate vacancies... A maximum of two (2) work days after the referral will be permitted for the teacher to advise the Division of Human Resources regarding the acceptance or non-acceptance of the position. / Teachers to be involuntarily transferred will be reassigned ahead of teachers returning from an approved leave of absence and new hires. After August 1, teachers to be involuntarily transferred will be reassigned ahead of teachers requesting voluntary transfers.",
+    "page": "11-12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "RIF is triggered by budget cuts, declining enrollment, or reorganization, prioritizing reassignment with 6 credits/year for new certification. If layoffs are necessary, they follow a strict order: first provisional certificate holders (least senior), second non-tenured employees, third tenured Class II, and fourth tenured first-class certificate holders (all least senior in field). Laid-off staff receive 4 days' notice, retain recall rights for 3 years, and may pay insurance premiums.",
+    "evidence": "professional personnel shall be laid off solely on the basis of certification in the subject field assignment and on system-wide seniority as defined in Article 4.01.10. / First: In continuing order of least system-wide seniority in the subject field taught, severance shall be restricted to persons holding a provisional certificate. Second: Thereafter, in continuing order of least system-wide seniority in the subject field taught, severance shall be restricted to non-tenured employees. Third: Thereafter, in continuing order of least system-wide seniority, tenured employees holding a Class II certificate. Fourth: Thereafter, in continuing order of least system-wide seniority, tenured employees holding first class certificates. / Professional Personnel shall (a) receive official notice by phone or registered mail at least four (4) working days in advance of their deadline for determining whether to exercise recall rights, (b) shall be available to begin within thirty (30) days, (c) retain recall rights for a period of three (3) years",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

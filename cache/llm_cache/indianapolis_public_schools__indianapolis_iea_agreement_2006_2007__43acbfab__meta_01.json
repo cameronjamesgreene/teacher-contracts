@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA/Amendment",
+    "evidence": "APPROVAL OF AN AMENDMENT TO THE AGREEMENT BETWEEN THE BOARD OF SCHOOL COMMISSIONERS AND THE INDIANAPOLIS EDUCATION ASSOCIATION",
+    "page": "M-1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2006-2007 school year",
+    "evidence": "FOR THE 2006-2007 SCHOOL YEAR.",
+    "page": "M-1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certified staff (Indianapolis Education Association)",
+    "evidence": "INDIANAPOLIS EDUCATION ASSOCIATION",
+    "page": "M-1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "APPROVAL OF AN AMENDMENT TO THE AGREEMENT BETWEEN THE BOARD OF SCHOOL COMMISSIONERS AND THE INDIANAPOLIS EDUCATION ASSOCIATION",
+    "page": "M-1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "because of changes in I.C. 20-3.1, there no longer is a requirement for evaluating all teachers",
+    "page": "M-10",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

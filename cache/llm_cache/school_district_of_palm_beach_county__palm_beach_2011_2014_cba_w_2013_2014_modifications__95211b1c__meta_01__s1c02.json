@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "The evaluation process will comply with the Collective Bargaining Agreement and follow the agreed to Classroom Teachers Evaluation System (CTES) which is incorporated in and made a part of this Agreement by reference.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2011-2014",
+    "evidence": "The Parties agree that no data collected prior to the school year 2011 -2012 will be used in this process.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "CTA bargaining unit",
+    "evidence": "No CTA bargaining unit member shall evaluate another member of the CTA bargaining unit.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The evaluation process will comply with the Collective Bargaining Agreement and follow the agreed to Classroom Teachers Evaluation System (CTES) which is incorporated in and made a part of this Agreement by reference.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "17",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Fla. Sta. §1012.53",
+    "page": "18",
+    "confidence": "high"
+  }
+}

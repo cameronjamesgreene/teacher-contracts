@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Certified employees will follow approved curriculum guidelines. Certified employees shall be allowed freedom in classroom presentations and discussions to introduce political, religious or otherwise controversial material, provided that said material is directly relevant to the course content.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "Certified employees shall be allowed freedom in classroom presentations and discussions to introduce political, religious or otherwise controversial material, provided that said material is directly relevant to the course content.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

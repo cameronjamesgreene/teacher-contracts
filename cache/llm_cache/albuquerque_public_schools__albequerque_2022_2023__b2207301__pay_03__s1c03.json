@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "Credit on the salary matrix within job classifications shall be given for all years of qualified in-district experience, and all years of qualified out-of-district experience in a licensed educational role shall be credited.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "Credit on the salary matrix within job classifications shall be given for all years of qualified in-district experience, and all years of qualified out-of-district experience in a licensed educational role shall be credited.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "discussed_unclear",
+    "evidence": "Educators may claim eligibility for salary increments, National Board Certification, and bilingual and ESL endorsements by submitting a letter on or before September 15 followed by an official transcript as provided below.",
+    "page": "28",
+    "confidence": "medium"
+  }
+}

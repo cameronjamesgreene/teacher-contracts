@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "yes",
+    "evidence": "Paid parental leave is a benefit that provides paid leave for an eligible employee to bond with his or her newborn, adopted child, or foster child. ... A parental leave of absence for up to thirty (30) workdays shall be granted upon request for the purpose of childbearing and/or child rearing.",
+    "page": "108",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "any portion of an educator's absence from work because of a medical disability connected with or resulting from her pregnancy may be charged to her available sick leave.",
+    "page": "107",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "The Parental Leave Benefit begins with any of the following qualified events: ... On the date of placement for adoption or prior to receiving custody if necessary in order to fulfill the requirement of adoption of a child age eighteen (18) years or younger;",
+    "page": "108",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

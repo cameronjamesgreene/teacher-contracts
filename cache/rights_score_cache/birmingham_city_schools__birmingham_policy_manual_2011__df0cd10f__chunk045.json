@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Any employee terminated or demoted pursuant to this policy shall have the following recall rights to a position for which he or she is certified, for one (1) calendar year from the effective date of his or her termination or demotion:",
+      "subject_text": "Any employee terminated or demoted pursuant to this policy",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "Tenured employees dismissed through staff reductions will, for a period of one year. be given priority consideration for re-employment if qualified by certificate and competency in the area of need, and if the employee has re-applied to the system for employment, in reverse order of dismissal before nontenured employees in the same area are added to the staff.",
+      "subject_text": "Tenured employees dismissed through staff reductions",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "Nontenured employees who have been dismissed through staff reduction and are qualified by certificate and competency in the area of need will, for a period of one year, be given priority consideration for re-employment in reverse order of dismissal before licensed employees in the same area are added to the staff.",
+      "subject_text": "Nontenured employees who have been dismissed through staff reduction and are qualified by certificate and competency in the area of need",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "If a former employee refuses an offer of employment pursuant to this policy, his or her rights of recall are forfeited.",
+      "subject_text": "his or her rights of recall",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "job_security",
+      "notes": "Condition detailing when a previously granted recall right is lost."
+    }
+  ]
+}

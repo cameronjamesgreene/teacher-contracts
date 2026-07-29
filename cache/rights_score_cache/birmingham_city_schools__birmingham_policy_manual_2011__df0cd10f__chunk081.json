@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "All organization which intends to offer a gift to the School Board, and intends to participate in activities, for the purpose of securing financial or other thing of value With the stated purpose of contributing such to the School Board, shall seek prior approval of the Board before giving in such activities.",
+      "subject_text": "All organization which intends to offer a gift to the School Board, and intends to participate in activities, for the purpose of securing financial or other thing of value With the stated purpose of contributing such to the School Board",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Any trust fund established under this policy may be required to pay the costs of administering the trust fund.",
+      "subject_text": "Any trust fund established under this policy",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Acceptance of such items as books, clothing, health supplies, educational materials and accessories may be approved by the Superintendent.",
+      "subject_text": "Acceptance of such items as books, clothing, health supplies, educational materials and accessories",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Any other gift with a value of less than $1,000 may be approved by the Superintendent: or his designee if consistent With this policy.",
+      "subject_text": "Any other gift with a value of less than $1,000",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Any cash gift, equivalent or property with value of $1,000 or more shall be approved by the Board.",
+      "subject_text": "Any cash gift, equivalent or property with value of $1,000 or more",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "An offer of equipment or services that may involve greater costs of maintenance, installation or initial or continuing financial commitments from public tax money will be evaluated and considered in the light of those costs which may determine whether a gift is accepted.",
+      "subject_text": "An offer of equipment or services that may involve greater costs of maintenance, installation or initial or continuing financial commitments from public tax money",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In the interest of providing equitable resources to all children and to minimize differences in the facilities, equipment and other resources between the various schools supported by public tax monies, gifts that require a matching contribution from public tax money may not be accepted if such a gift is likely to foster inequity.",
+      "subject_text": "gifts that require a matching contribution from public tax money",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "All funds accepted shall be accounted for and audited in accordance with appropriate statutes, State Board policies and regulations and school system policies and procedures.",
+      "subject_text": "All funds accepted",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

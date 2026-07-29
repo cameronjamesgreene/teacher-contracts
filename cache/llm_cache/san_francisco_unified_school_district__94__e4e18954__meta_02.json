@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "In accordance with and pursuant to the Rules and Regulations of the Public Employment Relations Board of the State of California, the San Francisco Unified School District recognizes the United Educators of San Francisco, AFT Local 61, AFL-CIO, NEA/CTA, as the exclusive representative as defined in Government Code, Sections 3540 through 3549.3, also known as the Educational Employment Relations Act.\n\nIn the event that a unit member shall not pay such fee directly to the Union, or authorized payment through payroll deduction as provided in Section 5.11 the Union shall so inform the District and the District shall immediately begin automatic payroll deduction as provided in Education Code Section 45168.\n\nThe 184 day work calendar is dependent upon the funding provisions of Education Code Section 44579.1.",
+    "evidence": "Government Code, Sections 3540 through 3549.3; Education Code Section 45168; Education Code Section 44579.1",
+    "page": "1, 5, 8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Teachers shall have all rights granted under the U.S. Military and Veteran’s Code relating to military leaves.",
+    "evidence": "Teachers shall have all rights granted under the U.S. Military and Veteran’s Code relating to military leaves.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "U.S. Military and Veteran’s Code",
+    "evidence": "Teachers shall have all rights granted under the U.S. Military and Veteran’s Code relating to military leaves.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

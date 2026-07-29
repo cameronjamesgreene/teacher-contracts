@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Laid-off employees are recalled first to positions matching their certification, in descending order of seniority (continuing/PSC contract employees first, then fully certificated annual contract employees). Recall rights last up to two years. Recalled employees receive certified mail notification with a 15-day response window.",
+    "evidence": "Employees who have been laid-off shall be considered first for positions for which they hold certification as defined in Section 4 above. Such employees shall be recalled in descending order of seniority, with continuing/PSC contract employees being recalled first and then fully certificated annual contract employees. Such recall rights shall not extend beyond two (2) years after the actual layoff occurs. Employees being recalled shall be notified by certified mail and shall have fifteen (15) calendar days from the date of receipt to respond affirmatively.",
+    "page": "88, 89",
+    "confidence": "high"
+  }
+}

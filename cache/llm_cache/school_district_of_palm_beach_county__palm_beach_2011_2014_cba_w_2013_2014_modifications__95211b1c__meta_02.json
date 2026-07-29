@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "8. \"PUBLIC EMPLOYEES RELATIONS ACT (PERA)\" - Chapter 447, Part II, Florida Statutes.\n9. \"PUBLIC EMPLOYEES RELATIONS COMMISSION (PERC)\" - The PERC Commission created under Fla. Stat. §447.205.\n13. \"AGREEMENT\" - A Collective Bargaining Agreement or Contract as provided in F. S. 447.\nThe Parties agree that should Fla. Stat. §1012.34(2)(e) be repealed or found void by a court of competent jurisdiction, this definition will be void and considered repealed unless both Parties agree to continue to use this definition.\nIf the Parties are unable to resolve the invalidated Section within twenty (20) days of the commencement of negotiations and such Section is a mandatory subject for bargaining, the Parties agree to abide by the provisions of Chapter 447, F. S., concerning said invalidated Section, unless the Parties mutually agree to an alternative dispute resolution procedure.\nHolds an active professional certificate issued pursuant to Florida Statute §1012.56 and rules out the State Board of Education;\nEmployees are expected to serve on school committees, self-evaluation and accreditation committees, attend meetings, workshops, open houses and teacher-parent conferences and to otherwise assist in the smooth functioning of a school center in compliance with Fla. Sta. §1012.53 dealing with the duties of instructional personnel.",
+    "evidence": "\"The Parties agree that should Fla. Stat. §1012.34(2)(e) be repealed or found void by a court of competent jurisdiction, this definition will be void and considered repealed unless both Parties agree to continue to use this definition.\"",
+    "page": "11, 12, 15, 17, 18",
+    "confidence": "high",
+    "coder_notes": "Updated page range to include page 12, which contains the citation to Fla. Stat. §1012.34(2)(e) explicitly quoted in the answer. The answer accurately compiles multiple state law citations from the document."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Employees shall be entitled to full rights of citizenship, and no religious or political activities of any employee or the lack thereof, or personal life style (including sexual orientation) of an employee shall be grounds for any discipline or discrimination with respect to the professional employment of such employee, providing said activities do not violate any local, state or federal law.",
+    "evidence": "Employees shall be entitled to full rights of citizenship, and no religious or political activities of any employee or the lack thereof, or personal life style (including sexual orientation) of an employee shall be grounds for any discipline or discrimination with respect to the professional employment of such employee, providing said activities do not violate any local, state or federal law.",
+    "page": "38",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal law",
+    "evidence": "providing said activities do not violate any local, state or federal law.",
+    "page": "38",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

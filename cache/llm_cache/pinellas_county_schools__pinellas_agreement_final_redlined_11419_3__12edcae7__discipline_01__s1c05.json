@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Discipline of teachers including but not necessarily limited to dismissal, reprimand, or suspension, shall be for just cause.",
+    "page": "50",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The procedure for suspension, dismissal and return to annual contract status for Continuing Contract teachers shall be governed by Sec. 1012.33(4), F.S. Professional Service Contract teachers may be suspended or dismissed at any time during the term of the contract for just cause as provided above. The Board must notify the employee in writing whenever charges are made against the employee and may suspend such person without pay; but, if the charges are not sustained, the employee shall be immediately reinstated, and his or her back salary shall be paid. If the employee wishes to contest the charges, the employee must, within fifteen (15) days after receipt of the written notice, submit a written request for a hearing.",
+    "page": "50-51",
+    "confidence": "high"
+  }
+}

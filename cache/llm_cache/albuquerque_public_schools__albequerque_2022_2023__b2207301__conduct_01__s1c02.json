@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "e. Freedom to teach is essential to the accomplishment of the District’s goals. Therefore, educators have the right and responsibility to exercise their professional judgement, within the limits of the above guidelines, in initiating and actively pursuing consideration of academic issues.",
+    "page": "19",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "1 to 3 school years (up to 4 if board determines doubtful)",
+    "evidence": "The probationary period for those who have been employed in public schools for at least five of the eight years preceding employment with the district may not exceed one school year. For those with less experience, the probationary period will be three school years (i.e. three one-year contracts) with an optional fourth school year if the board determines it is doubtful whether a term should be given.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Professional employees whose positions require SBEC certification or professional license are responsible for taking actions to ensure their credentials do not lapse. Employees must submit documentation that they have passed the required certification exam and/or obtained or renewed their credentials to the Human Resources Certification Office in a timely manner. ... A certified employee’s contract may be voided without due process and employment terminated if the individual does not hold a valid certificate or fails to fulfill the requirements necessary to renew or extend a temporary certificate, emergency certificate, probationary certificate, or permit.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

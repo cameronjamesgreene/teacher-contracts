@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "The principaI·on occaaian will allow a -casual, dress down- or special day of attire due to a apeciaI program or activity whent students may wear clothing other 1han the preacribed U'IIform.",
+      "subject_text": "The principaI·on occaaian",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "OCR garbling in source text; grants discretionary authority to the principal."
+    },
+    {
+      "quote": "If the cuniculum suggests special attn, the teacta must notify the adminiItnItion in advance of the activity to nIqI_ approval.",
+      "subject_text": "the teacta",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "OCR garbling; conditional clause followed by teacher's duty to notify administration."
+    },
+    {
+      "quote": "Students and parents wiD be notified In advance of 1ChooI-wide, system-wide.or indlvklual cIua actMties.",
+      "subject_text": "Students and parents",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Passive construction; implicit agent is administration fulfilling notification duty."
+    }
+  ]
+}

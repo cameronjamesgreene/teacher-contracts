@@ -1,0 +1,7 @@
+"# Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf — APPENDIX D - GLADES SUPPLEMENT (January 1, 2006)"
+# population: employees assigned to a Glades Area school/facility | is_teacher_schedule: False
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+step,Annual Glades Supplement
+0-2,3000
+3-8,4500
+9+,5500

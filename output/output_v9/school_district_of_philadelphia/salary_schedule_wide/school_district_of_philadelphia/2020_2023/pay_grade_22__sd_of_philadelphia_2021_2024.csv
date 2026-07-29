@@ -1,0 +1,10 @@
+# SD_of_Philadelphia_2021-2024.pdf — Pay Grade 22 (2020-2023)
+# population: Professional/Technical staff | is_teacher_schedule: False
+"# validation_warnings: cross_grid_duplicate: cell values are ~identical to a different schedule (Pay Grade 22 - Budget Technician, Data Processing Specialist, Lead Retirement Clerk p148) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_duplicate: cell values are ~identical to a different schedule (Professional/Technical Salaries p156) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_contamination: a value column matches a column in a different schedule (p148) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p156) — one grid's data may be contaminated from another; verify | audit confirmed"
+step,9/1/20,9/1/21,9/1/22,9/1/23
+01,33311,34228,35340,36400
+02,35048,36012,37183,38298
+03,42596,43768,45190,46546
+04,45543,46795,48316,49766
+05,48233,49559,51170,52705
+06,58903,60523,62490,64365

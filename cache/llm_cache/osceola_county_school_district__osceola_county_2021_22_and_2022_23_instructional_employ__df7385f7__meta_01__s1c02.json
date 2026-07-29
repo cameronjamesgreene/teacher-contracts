@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Instructional Employees Contract",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2021-22 and 2022-23",
+    "evidence": "Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees",
+    "evidence": "teacher bargaining unit",
+    "page": "26",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Any claim by a teacher or a group of teachers that there has been a violation, misinterpretation, or misapplication of a provision of this Agreement.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Florida Statutes",
+    "page": "21",
+    "confidence": "high"
+  }
+}

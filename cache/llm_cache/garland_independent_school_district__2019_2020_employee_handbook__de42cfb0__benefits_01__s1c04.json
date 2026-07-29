@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "\"Health insurance benefits for employees on paid leave and leave designated under the Family and Medical Leave Act will be paid by the district as they were prior to the leave.\"",
+    "page": "37",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "TRS-Active Care",
+    "evidence": "\"Under TRS-Active Care rules, an employee is no longer eligible for insurance through the district after six months of unpaid leave other than FML.\"",
+    "page": "37",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

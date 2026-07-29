@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "All school schedules must provide for at least a two-week winter recess and at least a one-week summer recess.",
+      "subject_text": "All school schedules",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Work days in 2006-2007 shall increase for all employees by one non-instructional duty day.",
+      "subject_text": "Work days",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Three days must be utilized as regular work days or staff development as arranged between the unit member and his/her principal/supervisor (applies to 8.1.1.1.2; 8.1.1.1.3; 8.1.1.1.4; and 8.1.1.1.5).",
+      "subject_text": "Three days",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Additional days at their daily rate of pay may be agreed upon between the unit member and his/her supervisor with a written memo to that effect.",
+      "subject_text": "Additional days at their daily rate of pay",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "When additional days beyond those stated above are assigned and compensatory time off is to be provided, such assignments and compensatory time off shall be by mutual agreement of the unit member and administrator with a written memo to that effect.",
+      "subject_text": "such assignments and compensatory time off",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members on support staff calendar prior to July 1, 1997 will receive a four (4) day extension each year they remain on support staff calendar.",
+      "subject_text": "Unit members on support staff calendar prior to July 1, 1997",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The handbook does not define 'immediate family' or list covered relatives. It references 'family illness' and 'death in the immediate family' under various leave types but provides no specific eligibility list or separate bereavement leave policy."
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave to eligible employees for the following reasons:",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to exact handbook text. Answer remains 'no' as the document only specifies unpaid FMLA for bonding/adoption and relies on standard accrued paid leave for any paid time off, with no separate paid parental leave policy."
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "When an absent employee is eligible for FMLA leave, the District shall require the employee to use temporary disability leave and paid leave, including compensatory time, concurrently with FMLA leave.",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "To care for the employee’s child after birth, or placement for adoption or foster care;",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to exact handbook wording. Document explicitly includes adoption and newborn care in FMLA leave reasons."
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave to eligible employees for the following reasons:",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contracts. Probationary Contracts... Term Contracts...",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Contract employees dismissed during the school year, suspended without pay, or subject to a reduction in force are entitled to receive notice of the recommended action, an explanation of the charges against them, and an opportunity for a hearing. The timelines and procedures to be followed when a suspension, termination, or nonrenewal occurs will be provided when a written notice is given to an employee.",
+    "page": "64",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "A written request for transfer must be completed and signed by the employee and the employee’s supervisor. Requests for transfer during the school year will be considered only when the change will not adversely affect students and after a replacement has been found. All transfer requests will be coordinated by the Superintendent’s office and must be approved by the receiving supervisor.",
+    "evidence": "An employee with the required qualifications for a position may request a transfer to another department. A written request for transfer must be completed and signed by the employee and the employee’s supervisor. Requests for transfer during the school year will be considered only when the change will not adversely affect students and after a replacement has been found. All transfer requests will be coordinated by the Superintendent’s office and must be approved by the receiving supervisor.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "All personnel are subject to assignment and reassignment by the superintendent or designee when the superintendent or designee determines that the assignment or reassignment is in the best interest of the district.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "Employees subject to a reduction in force are entitled to notice of the recommended action, an explanation of the charges, and an opportunity for a hearing. Timelines and procedures are provided in the written notice or referenced DF series policies. Advance notification is waived if certification is revoked or not maintained.",
+    "evidence": "subject to a reduction in force are entitled to receive notice of the recommended action, an explanation of the charges against them, and an opportunity for a hearing. The timelines and procedures to be followed when a suspension, termination, or nonrenewal occurs will be provided when a written notice is given to an employee.",
+    "page": "64",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

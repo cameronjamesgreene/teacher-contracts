@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "Yes. Probationary annual contracts are issued to new hires or employees returning after an unauthorized break in service and may be dismissed without cause. Continuing Contracts (CC) cover employees hired before July 1, 1984 without a break in employment. Professional Service Contracts (PSC) cover employees hired between July 1, 1984 and June 30, 2011, and may only be terminated for just cause.",
+    "evidence": "A probationary annual contract will be issued by the District regardless of previous employment... District may issue a probationary annual contract if it elects to employ a previous employee of the District who has had a break in service... A Continuing Contract (CC) is subject to termination pursuant to applicable Florida Statutes. A Professional Service Contract (PSC) will be renewed each year unless... just cause to terminate",
+    "page": "195-196",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "Yes. Annual contracts may be non-reappointed without cause. Employees may request a hearing before the School Board within 15 calendar days of receiving written notice of suspension, termination, or non-reappointment.",
+    "evidence": "District may elect to non-reappoint the employee (i.e. not offer the employee another annual contract which may be done without cause)... submit a written request for a hearing before the School Board... within fifteen (15) calendar days of receipt of the District’s written notice",
+    "page": "195",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Procedures are referenced in Article IV, Section C of the CBA. Employees may voluntarily transfer to posted Virtual School vacancies. Those receiving recruitment sign-on incentives are barred from voluntary transfers during their four-year commitment period.",
+    "evidence": "seek a Voluntary Transfer to posted vacancies at the Virtual School pursuant to Article IV, Section C... neither eligible to seek a voluntary transfer nor to volunteer for the Unit Adjustment Transfer (UAT) procedure during his/her four school-year commitment period.",
+    "page": "189, 192",
+    "confidence": "medium"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Yes. The document references Article IV, Section E for Unit Adjustment Transfer (UAT) procedures. It specifies that reassignment from the Virtual School within the first 90 days triggers UAT status and placement per the CBA process.",
+    "evidence": "reassign a selected teacher from the School to another assignment anytime during the first ninety (90) work days... notify the teacher in writing that he/she will be considered a UAT and the teacher will be UAT'd from the Virtual School assignment and placed in another assignment as soon as possible using the provisions of Article IV, Section E of the CBA.",
+    "page": "188-189",
+    "confidence": "medium"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

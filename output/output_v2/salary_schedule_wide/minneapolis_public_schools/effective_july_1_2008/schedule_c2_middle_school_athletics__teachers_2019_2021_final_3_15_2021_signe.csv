@@ -1,0 +1,12 @@
+"# teachers_2019-2021_final_3-15-2021_signed.pdf — SCHEDULE C2 MIDDLE SCHOOL ATHLETICS (Effective July 1, 2008)"
+# population: middle school athletics staff | is_teacher_schedule: False
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+step,value
+"Middle School Athletic Directors, per year",2210
+"Middle School Athletic Directors, per sport",368
+"K-8 Athletic Directors, per year",1891
+"K-8 Athletic Directors, per sport",315
+Middle School Coaches,1576
+Middle School Coordinator,1869
+Middle School Assistants Football Coaches,1051
+K-8 Coaches,1156

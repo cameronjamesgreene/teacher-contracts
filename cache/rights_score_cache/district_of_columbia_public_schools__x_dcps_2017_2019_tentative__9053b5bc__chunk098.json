@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "The Chancellor and President of the WTU shall appoint a Joint Committee to develop uniform standards for classroom resources.",
+      "subject_text": "The Chancellor and President of the WTU",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint subject directive to form committee."
+    },
+    {
+      "quote": "The Joint Committee shall provide opportunities for teachers and other educational stakeholders to give input during the process",
+      "subject_text": "The Joint Committee",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Second independent clause from split sentence."
+    },
+    {
+      "quote": "shall make its final recommendations to the Chancellor and WTU President no later than March 31, 2010.",
+      "subject_text": "The Joint Committee (implied)",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Second independent clause from split sentence."
+    },
+    {
+      "quote": "DCPS agrees to fund the “Certified Classroom” standards of resources annually to the extent possible.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Funding obligation qualified by discretionary language."
+    },
+    {
+      "quote": "DCPS and the WTU shall mutually develop and agree on a process for monitoring the implementation of “Certified Classroom’ resource standards in all DCPS classrooms.",
+      "subject_text": "DCPS and the WTU",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint procedural obligation."
+    },
+    {
+      "quote": "Teachers shall have the right to know the names, titles, and reporting relationships of all personnel exercising direct, indirect, technical or administrative supervision over them.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "The Supervisor shall furnish Teachers with this information upon request.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    }
+  ]
+}

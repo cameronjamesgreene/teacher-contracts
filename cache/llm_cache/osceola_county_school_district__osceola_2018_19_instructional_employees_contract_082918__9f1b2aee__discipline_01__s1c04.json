@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "\"take disciplinary action for proper cause\"",
+    "page": "62",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

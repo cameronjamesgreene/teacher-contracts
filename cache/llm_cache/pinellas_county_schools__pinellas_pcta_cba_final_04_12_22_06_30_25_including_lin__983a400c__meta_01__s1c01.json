@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "AGREEMENT Between THE SCHOOL BOARD OF PINELLAS COUNTY, FLORIDA And THE PINELLAS CLASSROOM TEACHERS ASSOCIATION, INCORPORATED 2022 – 2025 AGREEMENT",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "April 12, 2022 to June 30, 2025",
+    "evidence": "This Agreement shall become effective on the 12th day of April 2022 and shall continue in full force and effect until the 30th day of June, 2025",
+    "page": "8",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (all full-time certified instructional personnel)",
+    "evidence": "The Board recognizes the Union as the exclusive bargaining agent for salaries, working conditions, and other terms and conditions of employment for teachers who are employed by the School Board of Pinellas County, Florida. The term “teachers” includes all full-time certified instructional personnel",
+    "page": "5",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "This Agreement constitutes the official position of the Board for the term of said Agreement... The provisions of this Agreement shall be incorporated by reference into each teacher's individual contract",
+    "page": "4",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Part II of Chapter 447, Florida Statutes... F.S. 447... s. 250.48, F.S... s. 1012.63, F.S.",
+    "page": "4, 6, 15",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "A 30-minute duty-free lunch will be provided to teachers and librarians during the school day.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "In the case of an emergency as defined by the Commissioner of Education, one day of lunch duty per week may be required.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

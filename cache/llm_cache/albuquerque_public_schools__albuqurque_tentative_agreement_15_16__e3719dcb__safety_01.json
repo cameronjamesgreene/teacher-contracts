@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "A teacher shall not be charged for time lost, up to twenty (20) duty days, resulting from physical injuries caused by an assault while carrying on the duties and responsibilities as a teacher. Assault shall mean an intentional act which causes an injury Any teacher assaulted shall submit a “first report of injury” to the principal, Risk Management, and school police.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Evidence explicitly supports 'yes', but the quoted passage was not found in the provided document excerpt. Preserving the specific answer, but downgrading confidence to medium due to verification gap."
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "routine maintenance and repair work which will interfere with effective teaching shall be accomplished outside the instructional time.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Confirmed in Article 5.I.1. Evidence directly and unambiguously addresses construction/maintenance disruption during instructional time, supporting the 'yes' answer."
+  }
+}

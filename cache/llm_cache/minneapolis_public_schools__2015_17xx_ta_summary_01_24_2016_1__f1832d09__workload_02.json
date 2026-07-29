@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Meetings convened by site administrators or other instructional site leaders (including Professional Development) will be limited to one (1) per week to ensure there is time to prepare for instruction and student support.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

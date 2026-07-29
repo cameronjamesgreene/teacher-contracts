@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "The Board will make a conscientious effort to guarantee that no self-contained elementary class will exceed the number of students per classroom proposed in the current budget... In the event of a dispute over this Article, the parties will meet in a good faith effort to resolve it.",
+    "page": "43",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_secondary_max_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "If any class exceeds these numbers, every effort will be made to provide a paraeducator for that teacher.",
+    "page": "43",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

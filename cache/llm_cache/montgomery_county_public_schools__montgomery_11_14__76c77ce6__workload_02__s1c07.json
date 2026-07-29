@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Unit members may be required to do certain student supervision duties during their workday. These may include bus duty and hall duty during passing time. Unit members will not be required to perform breakfast, lunch, or lunchtime recess duties.",
+    "page": "41",
+    "confidence": "high"
+  }
+}

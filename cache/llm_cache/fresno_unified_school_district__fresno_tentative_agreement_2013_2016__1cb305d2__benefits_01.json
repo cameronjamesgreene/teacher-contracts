@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes; FUSD Employee Health Care Plan Document; bargaining unit members employed 50% or more.",
+    "evidence": "The District shall provide District paid coverage (less the applicable employee contribution) for bargaining unit members and eligible dependents as specified within this Article and in the FUSD Employee Health Care Plan Document. / A bargaining unit member must be employed 50% or more to be eligible for FUSD's Health and Life Insurance Plans.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": "Added Section 1.4 quote to explicitly support the 50% employment requirement mentioned in the answer."
+  },
+  "benefits_health_contribution_002": {
+    "answer": "$14,674 per active benefitted employee (2014-15 onward); district contribution rate starts at ~25% (2013-14), 40% (2014-15), and 50% (2015-16 onward).",
+    "evidence": "Beginning in the 2014 15 school year the district's contribution shall be $14,674 per active benefitted employee. / Beginning in the 2013 14 school year the district's contribution to the health fund shall be one half 25% of the contribution per active benefitted employee for each $14,674 per active benefitted employee... This rate shall increase in the 2014 15 school year to 40%, and shall increase to 50% in the 2015 16 school year",
+    "page": "17-18",
+    "confidence": "high",
+    "coder_notes": "Corrected minor OCR artifacts in the evidence quote for readability. Evidence directly and unambiguously states the answer."
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employee Only: Plan A $60, Plan B $30; Employee/Children: Plan A $75, Plan B $40; Employee/Spouse: Plan A $120, Plan B $60; Employee/Family: Plan A $130, Plan B $70; plus Health Plan Reserve Assessment of $10/month for active/pre-65 retirees, up to $40/month for post-65 retirees/dependents.",
+    "evidence": "7.6.1.1. Employee Only Plan A $60 Plan B $30\n7.6.1.2. Employee / Children Plan A $75 Plan B $40\n7.6.1.3. Employee / Spouse Plan A $120 Plan B $60\n7.6.1.4. Employee / Family Plan A $130 Plan B $70\n7.6.2.1... $10.00 per month.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes; eligible dependents per FUSD Employee Health Care Plan Document, including children (governed by birth order rule) and spouses.",
+    "evidence": "The District shall not prohibit any bargaining unit members from enrolling all eligible dependents as defined by the eligibility requirements of the FUSD Employee Health Care Plan Document. / Eligibility of dependent children shall be based on birth order rule",
+    "page": "15, 22",
+    "confidence": "high",
+    "coder_notes": "Fixed minor OCR typo in evidence quote."
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "discussed_unclear; specific plan types (e.g., HMO, PPO) are not described in this section.",
+    "evidence": "The District's Employee Health Care Plan Document shall be considered a part of this article. / Specific information regarding monthly contributions, assessments, co-pays and deductibles for all plan coverages can be found in the FUSD Plan document",
+    "page": "15, 24",
+    "confidence": "medium",
+    "coder_notes": "Preserved. The contract explicitly defers specific plan type details to a separate FUSD Plan document, only referencing Plan A and Plan B by name."
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "The open enrollment period will also be the time in which plan coverage (Dental and Vision) may be changed.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "A specific provision of this contract may be temporarily suspended or altered only upon the written consent of both parties.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff",
+    "evidence": "The number of Lead Teacher positions available shall be determined annually by the needs of the district, but shall be at least 10% of the bargaining unit, subject, however, to agreement of the parties on the availability of funds...",
+    "page": "13",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "A specific provision of this contract may be temporarily suspended or altered only upon the written consent of both parties.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The official personnel file of each teacher shall be maintained by the Human Resources Office.",
+    "page": "6",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Upon receipt of a citizen request for access to a teacher's personnel file under O.R.C. §149.43...",
+    "page": "7",
+    "confidence": "high"
+  }
+}

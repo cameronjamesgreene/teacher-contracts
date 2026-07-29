@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Osceola_2018-19_INSTRUCTIONAL_EMPLOYEES__CONTRACT_082918.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2018-19 school year",
+    "evidence": "Revised: August 29, 2018",
+    "page": "17",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Instructional Employees",
+    "evidence": "Teachers shall not be restricted to a particular work location for their preparation period",
+    "page": "17",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Both parties agree that arranging work schedules is a function of the administration.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "The Board will follow the provisions of granting a professional services contract to teachers as covered in Florida Statutes.",
+    "page": "20",
+    "confidence": "high"
+  }
+}

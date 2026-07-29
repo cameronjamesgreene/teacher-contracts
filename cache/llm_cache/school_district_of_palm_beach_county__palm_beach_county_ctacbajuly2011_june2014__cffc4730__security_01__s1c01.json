@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "“SENIORITY” - The beginning date of continuous employment with the District in this bargaining unit, including approved leaves. If an employee leaves the unit for another position in the District and returns to a position in this bargaining unit within twelve (12) months, his/her seniority will be the original date of employment in this bargaining unit upon returning. If ties occur in the determination of seniority, they will be broken by the date on which employment was offered by the Division of Human Resources or the date of the Principal’s recommendation, whichever is earlier. If a tie remains, the determination of who has greater seniority shall be a coin toss and witnessed by an Association representative.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

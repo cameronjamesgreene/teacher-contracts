@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The committee shall meet prior to the end of the school year to prepare for teacher institute and other professional development for the first semester of school including New Teacher Orientation.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Instructional Coach $2,500.00 Building Support Per year ($1250 per semester)",
+    "page": "60",
+    "confidence": "high",
+    "coder_notes": "Reference page 60 falls outside the provided excerpt, but the quotation explicitly confirms the existence of instructional coach roles and compensation, directly supporting the 'yes' answer."
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

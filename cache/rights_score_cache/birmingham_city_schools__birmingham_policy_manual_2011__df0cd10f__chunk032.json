@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "A formal evaluation in which the employee is apprised in writing of his or her progress shall be conducted at least annually and entered along with employee comments int,o the personnel record.",
+      "subject_text": "A formal evaluation in which the employee is apprised in writing of his or her progress",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "Compound predicate (conducted/entered); typographical error in source text retained verbatim."
+    },
+    {
+      "quote": "the employee may request and obtain a conference concerning the evaluation with the evaluator's supervisor.",
+      "subject_text": "the employee",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": "Extracted as the independent clause following the conditional introductory phrase."
+    },
+    {
+      "quote": "The evaluator's supervisor will schedule a meeting within 10 working days of receipt of the employee's request.",
+      "subject_text": "The evaluator's supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "None."
+    },
+    {
+      "quote": "The employee may offer any written comments desired which will be attached to the evaluation.",
+      "subject_text": "The employee",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": "Contains a dependent relative clause assigning a separate management duty."
+    },
+    {
+      "quote": "Thereafter, the summative component will be used for all teachers.",
+      "subject_text": "the summative component",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "Policy implementation directive establishing standardized evaluation methodology."
+    },
+    {
+      "quote": "The for.mative component is to be used for counselors, librarians, special education II, school psychometrists, school psychologists, assistant principals, principals and central office personnel during the 2002-2003 school year and the 2003-2004 school year.",
+      "subject_text": "The for.mative component",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "is to be functions as a binding obligation equivalent to shall/have to."
+    },
+    {
+      "quote": "Beginning with the 2004-2005. school year and continuing thereafter, the summative component will be used for this class of employees.",
+      "subject_text": "the summative component",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "None."
+    }
+  ]
+}

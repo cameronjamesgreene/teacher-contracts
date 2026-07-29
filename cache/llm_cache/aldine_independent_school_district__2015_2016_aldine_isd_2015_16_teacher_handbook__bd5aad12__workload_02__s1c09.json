@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Office Personnel 8½ hours including 30 minute lunch / Additionally, non-professional staff should clock out and back in when taking their 30 minute lunch break.",
+    "page": "67",
+    "confidence": "medium"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "no",
+    "evidence": "During the planning time, teachers are required to use this period daily to meet with the subject team or interdisciplinary team to plan lessons... any other activities as directed by the building principal or his/her designee.",
+    "page": "66",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Teacher and paraprofessional duty time will be determined by the building principal. A duty roster will be given to each teacher and one will be posted in the office.",
+    "page": "67",
+    "confidence": "high"
+  }
+}

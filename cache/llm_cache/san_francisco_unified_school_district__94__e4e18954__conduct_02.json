@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "discussed_unclear",
+    "evidence": "Within a reasonable time of written request from the Union, the District shall consult with the Union on the definition of educational objectives, the determination of the content of courses and curriculum, the standards and criteria for academic freedom, revisions to Board policies regarding student discipline, the improvement of counseling and library services, and the selection of textbooks to the extent such matters are within the discretion of the public school employer under the law.",
+    "page": "74",
+    "confidence": "medium",
+    "coder_notes": "The quoted evidence addresses Union consultation with the District on curriculum and textbook selection, not teacher discretion over these matters. Evidence is tangentially related to the specific question, so answer revised to discussed_unclear."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "With respect to professional employment, the religious, political, and private life of any member of the bargaining unit shall not be grounds for disciplinary action except as it may directly prevent him/her from effectively performing properly assigned functions during the work day.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "With respect to professional employment, the religious, political, and private life of any member of the bargaining unit shall not be grounds for disciplinary action except as it may directly prevent him/her from effectively performing properly assigned functions during the work day.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

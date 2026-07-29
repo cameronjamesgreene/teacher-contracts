@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "A teacher who is laid off shall retain recall rights for eighteen months from the last day of regular employment. Laid off employees shall have the right to purchase employee benefits as provided through COBRA. A teacher who is being recalled shall have twelve (12) calendar days from the postmarked date of the recall certified letter in which to reply to the Superintendent whether he/she will accept recall. Failure to respond or to accept the offer of recall within the foregoing time limit results in automatic forfeiture of recall rights. Teachers on layoff shall be recalled prior to the hiring of new teachers in their area of certification and in the reverse order of layoff...",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "Seniority (years of certificated service)",
+    "evidence": "In making involuntary transfers or reductions in force, teachers with the least certificated service in the School District shall be transferred or laid off first... Least certificated service shall be determined initially by years of service to the School District, and if a tie occurs then shall be determined in the following manner: (1) by consecutive years of School District service then (2) by specific hire date.",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": "Updated page reference from 28 to 27 to match exact document pagination."
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "The Board will follow the provisions of granting a professional services contract to teachers as covered in Florida Statutes. Teachers who have previously held a continuing contract or professional services contract in Florida within the last five years shall be eligible for a professional services contract provided they have completed one (1) year of service in Osceola County and have been recommended by their principal and approved by the Board. ... A continuing contract teacher or professional services contract who is within two (2) years of normal retirement shall not be laid off because of reduction in force...",
+    "page": "21, 29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "It shall be the teacher's responsibility to maintain current certification. ... The School District will offer ESOL classes during the Wednesday early release days and/ or in-service days, and other times as agreed to at individual worksites.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

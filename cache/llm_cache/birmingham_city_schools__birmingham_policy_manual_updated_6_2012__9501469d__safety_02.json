@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document consists solely of page breaks with no textual content. It definitively does not mention security staff, access controls, or related measures."
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document consists solely of page breaks with no textual content. It definitively does not state any employee obligations or restrictions regarding weapons."
+  }
+}

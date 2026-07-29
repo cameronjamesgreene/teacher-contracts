@@ -1,0 +1,8 @@
+"# FTA-Fresno-Teachers-Association_CBA_2010-2012.pdf — REGULAR SUMMER SCHOOL SALARY SCHEDULE (July 1, 2007)"
+# population: Teachers | is_teacher_schedule: True
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Elementary School/Middle/High School
+4hrs @ 27 days,3240.00
+4hrs @ 31 days,3720.00
+5hrs @ 31 days,4650.00

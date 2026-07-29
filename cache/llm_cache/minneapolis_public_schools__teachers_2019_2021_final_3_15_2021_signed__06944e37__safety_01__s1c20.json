@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "12.4.2 Proper Conditions: The classrooms shall include proper conditions, appropriate lighting, ventilation, acoustical treatment, heating, adequate supplies, and storage of materials to ensure a barrier-free learning environment.",
+    "page": "185",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "12.1.8 Reporting a Work Injury/Illness... Events Requiring Reporting: A form must be filed for an injury or illness incurred at the work site or during a work-related activity, including but not limited to, physical accidents and assaults...",
+    "page": "183",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "12.4.2 Proper Conditions: The classrooms shall include proper conditions, appropriate lighting, ventilation, acoustical treatment, heating, adequate supplies, and storage of materials to ensure a barrier-free learning environment.",
+    "page": "185",
+    "confidence": "high"
+  }
+}

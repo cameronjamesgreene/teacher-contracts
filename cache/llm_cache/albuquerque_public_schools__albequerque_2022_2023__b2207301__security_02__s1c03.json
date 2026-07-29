@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "14. Educators may claim eligibility for salary increments, National Board Certification, and bilingual and ESL endorsements by submitting a letter on or before September 15 followed by an official transcript... All degrees and course work must be taken in regionally accredited universities... 16. For compensation related to licensure advancement... The New Mexico 3-Tiered Licensure System... The license issued by NMPED as a result of passing the dossier must take effect the current year...",
+    "page": "29",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "Any act of bullying by any school personnel, either toward other school employees, students or third parties is expressly prohibited on school district property Or at school-related functions.",
+      "subject_text": "Any act of bullying by any school personnel, either toward other school employees, students or third parties",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    }
+  ]
+}

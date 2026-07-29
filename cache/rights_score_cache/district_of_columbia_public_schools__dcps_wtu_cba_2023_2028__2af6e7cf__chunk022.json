@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS is prohibited from substantially changing the working conditions at any Collaborative School during any school year.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "If DCPS desires to implement working conditions or compensation at any Collaborative that are different than those found in this Agreement, DCPS must first negotiate such terms with the WTU.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "the working condition or compensation at the Collaborative shall remain the same as define in this Agreement.",
+      "subject_text": "the working condition or compensation at the Collaborative",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Grammatical subject is inanimate; functions as a management duty to maintain status quo."
+    },
+    {
+      "quote": "The evaluation process in Collaborative shall be the same as other DCPS schools.",
+      "subject_text": "The evaluation process in Collaborative",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Beginning in the fall of 2010, the WTU will facilitate obtaining high-level, research based, national-level professional development for teams of teachers and building principals on school turnaround.",
+      "subject_text": "the WTU",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "The LSAT shall apply to the WTU for participation in the professional development on school turnaround.",
+      "subject_text": "The LSAT",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Applies an external standard/policy (LSAT) to union participation."
+    }
+  ]
+}

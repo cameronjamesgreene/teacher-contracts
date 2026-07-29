@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"In all cases. naming shall be in cGldond£y with ~tace Law.\" | \"The lenqth of the school'day and of the school year for students will be in keeping with the intent of State laws which prescribe minimum instruction time for students as interpreted by the State Board and Superintendent of Instruction.\" | \"In compliance with both state and federal laws, the Board declares all buildings and all spaces within them to be officially designated gun-free environments.\" | \"Note: Possession of a firearm on school property violates both federal and state laws. Such laws apply to all persons while on school property.\" | \"Textbook administration shall be in conformity with provisions of the State Textbook Law, policies of the State Department of Education and requirements of the local Board.\"",
+    "evidence": "\"In all cases. naming shall be in cGldond£y with ~tace Law.\"",
+    "page": "6150, 7012, 7110",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"In compliance with both state and federal laws, the Board declares all buildings and all spaces within them to be officially designated gun-free environments.\" | \"Note: Possession of a firearm on school property violates both federal and state laws. Such laws apply to all persons while on school property.\" | \"It is the intent of the Birmingham City Schools to adhere to the provisions of copyright laws(PL 94-553; Title 17; Sections 106-118) in the areas of print and nonprint materials, includingmicrocomputer programs and off-air recordings.\" | \"Legal Ref: Sec. 1702, Gun-free School Zone Act of 1990,18 U.S. Code 921; Public Law 103-382; \"Improving America's Schools Act of 1994,\" Part F, Semon 14601, Gun-Free Requirements: Legislative Act 94-820, 94-817. Title IV, Part A, Sec. 4114-B.2.d.\"",
+    "evidence": "\"In compliance with both state and federal laws, the Board declares all buildings and all spaces within them to be officially designated gun-free environments.\"",
+    "page": "6176, 7112",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Gun-free School Zone Act of 1990, 18 U.S. Code 921; Public Law 103-382; \"Improving America's Schools Act of 1994,\" Part F, Semon 14601; PL 94-553; Title 17; Sections 106-118.",
+    "evidence": "\"Legal Ref: Sec. 1702, Gun-free School Zone Act of 1990,18 U.S. Code 921; Public Law 103-382; \"Improving America's Schools Act of 1994,\" Part F, Semon 14601, Gun-Free Requirements: Legislative Act 94-820, 94-817. Title IV, Part A, Sec. 4114-B.2.d.\"",
+    "page": "6176, 7112",
+    "confidence": "high"
+  }
+}

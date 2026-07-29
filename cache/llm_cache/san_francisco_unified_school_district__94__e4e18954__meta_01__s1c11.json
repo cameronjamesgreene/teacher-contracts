@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "126",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007",
+    "evidence": "Effective 7/1/2005                          2006-2007*",
+    "page": "126",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (UESF)",
+    "evidence": "UESF = United Educators of San Francisco",
+    "page": "140",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "126",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code Sections 52012, 52852, and 54724 require that a school site council be established at each school",
+    "page": "136",
+    "confidence": "high"
+  }
+}

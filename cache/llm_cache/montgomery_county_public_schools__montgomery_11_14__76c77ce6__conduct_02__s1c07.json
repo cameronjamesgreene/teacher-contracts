@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "b. Collaboratively preparing lesson plans ... f. Reviewing, discussing and planning related to curricula and assessments",
+    "page": "40",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "40",
+    "confidence": "high"
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

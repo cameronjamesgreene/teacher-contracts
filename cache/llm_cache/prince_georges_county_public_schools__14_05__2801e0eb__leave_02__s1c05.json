@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "There shall be no entitlement to any employee on maternity leave to receive paid sick leave benefits during that period of time.",
+    "page": "19",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Pregnancy leave shall be defined as that leave given to an employee during that period of continuing temporary disability causing such employee to be unable to perform her regular duties for reasons of child birth",
+    "page": "19",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "A tenured employee in the case of the adoption of a child may apply for and receive an adoption leave without pay for a period not to exceed a total of twelve (12) months",
+    "page": "19",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  }
+}

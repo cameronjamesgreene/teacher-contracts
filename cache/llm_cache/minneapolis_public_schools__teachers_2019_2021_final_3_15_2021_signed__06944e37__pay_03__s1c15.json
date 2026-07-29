@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear - Document does not distinguish in-district experience; applies a uniform rule to all prior teaching experience (1:1 credit for up to 10 years, 1:2 thereafter).",
+    "evidence": "Experience earned in the ten (10) year period prior to employment shall be credited at the rate of one (1) year of credit for each year of teaching experience... Beyond Ten (10) Years: Experience earned before the ten-year period prior to employment shall be credited at the rate of one (1) year of credit for each two full years of teaching experience.",
+    "page": "139",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear - Document does not distinguish out-of-district experience; applies a uniform rule to all prior teaching experience (1:1 credit for up to 10 years, 1:2 thereafter).",
+    "evidence": "Experience earned in the ten (10) year period prior to employment shall be credited at the rate of one (1) year of credit for each year of teaching experience... Beyond Ten (10) Years: Experience earned before the ten-year period prior to employment shall be credited at the rate of one (1) year of credit for each two full years of teaching experience.",
+    "page": "139",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes - Military service credited up to 4 years (>=8 months counts as full year) if teacher training/MN requirements met before service. Peace Corps credited same rate as teaching experience.",
+    "evidence": "Military service prior to hiring shall be credited in lieu of teaching experience if the teacher completed her/his teacher training and met the Minnesota requirements for teaching before entering military service. The total amount of military service for which credit will be given shall not exceed four (4) years. Teaching experience in the Peace Corps shall be given credit at the same rate as other teaching experience.",
+    "page": "140",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "next lane on the standard salary schedule",
+    "evidence": "Any professionally licensed teacher in the Minneapolis Public Schools who achieves National Board Certification (NBC) or a recognized equivalent national certification as agreed upon by the Union and the District will qualify for the next lane on the teacher standard salary schedule.",
+    "page": "142",
+    "confidence": "high"
+  }
+}

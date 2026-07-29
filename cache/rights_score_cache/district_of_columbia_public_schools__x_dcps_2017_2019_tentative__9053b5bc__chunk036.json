@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS shall consider all such requests unless it can demonstrate that the removal of such material will compromise the interests of the school system.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "If approved, the removal shall take place within thirty (30) School Days of the request.",
+      "subject_text": "the removal",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Materials of an adverse nature that become the subject of a grievance shall be removed from a Teacher’s official personnel file if so stipulated by the resolution of the grievance.",
+      "subject_text": "Materials of an adverse nature that become the subject of a grievance",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Lost files shall, within reason and if possible, be retrieved, reconstructed, or restored at DCPS’s expense.",
+      "subject_text": "Lost files",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "If the retrieval, reconstruction, or restoration of a Teacher’s official personnel file indicates that additional compensation or benefits are due to the Teacher, DCPS shall provide such compensation or benefits as soon as possible.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    }
+  ]
+}

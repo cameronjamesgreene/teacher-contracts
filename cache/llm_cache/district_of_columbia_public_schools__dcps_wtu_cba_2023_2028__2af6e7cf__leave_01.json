@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "12 days for 10-month, 13.5 days for 11-month, and 15 days for 12-month teachers.",
+    "evidence": "Twelve (12) days (96 hours) of sick leave are posted at the beginning of each school year for ten (10) month teachers. ... Fifteen days (15) days (120 hours) of sick leave are posted at the beginning of each school year for twelve (12) month Teachers (ET 15/12 and EG-09). ... Thirteen and one half (13.5) days (108 hours) of sick leave are posted at the beginning of each school year for eleven (11) month teachers (ET 15/11).",
+    "page": "49",
+    "confidence": "medium",
+    "coder_notes": "Original document provided ends on page 42; Article 17 (Leave Policies) is not included. Stage 1 evidence appears accurate but could not be fully verified against the provided text."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Carries over year to year; no cap stated.",
+    "evidence": "Unused sick leave shall be carried forward from year to year.",
+    "page": "49",
+    "confidence": "medium",
+    "coder_notes": "Original document provided ends on page 42; Article 17 (Leave Policies) is not included. Stage 1 evidence appears accurate but could not be fully verified against the provided text."
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Original document provided ends on page 42; Article 17 (Leave Policies) is not included. Cannot verify if family illness leave is addressed."
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Original document provided ends on page 42; Article 17 (Leave Policies) is not included. Cannot verify if personal leave is addressed."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Original document provided ends on page 42; Article 17 (Leave Policies) is not included. Cannot verify restrictions."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Original document provided ends on page 42; Article 17 (Leave Policies) is not included. Cannot verify conversion policy."
+  }
+}

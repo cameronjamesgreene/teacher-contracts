@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "11.2.3 Length of Leave: Under FMLA, employees may take up to twelve (12) calendar weeks of leave within twelve (12) months to care for a spouse/child/parent, care for oneself, or due to the birth/adoption of a child(ren) or foster child(ren).",
+    "page": "165",
+    "confidence": "medium"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "11.2.1 The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "page": "165",
+    "confidence": "high"
+  }
+}

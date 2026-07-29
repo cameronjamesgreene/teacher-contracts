@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Reduction triggers: enrollment decrease, curriculum changes, budget limits. Order of layoff: Class II certs, non-tenured provisional, non-tenured regular, tenured. Factors: service length, performance, competency (extra weight for 6+ yrs). Recall: 3-year priority. Severance: tenured <12 yrs get 1 mo/yr up to 6; 12+ yrs get 1 mo/yr up to 12. 6-mo LWOP option with health continuation. Retraining for tenured.",
+    "evidence": "Reduction of professional staff shall mean that the termination of a unit member(s) will occur because of one or more of the following reasons: 1. Decrease in student enrollment 2. Changes in curriculum 3. Decline in subject or grade level enrollment 4. Budget limitations... In any reduction in personnel... release will be in the following order: 1. Unit members holding Class II certificates 2. Non-tenured unit members holding provisional certificates 3. Non-tenured unit members holding regular certificates 4. Tenured unit members... Any unit member whose service has been terminated because of the elimination of a position or a reduction in professional staff shall for a period of three years receive priority consideration for reemployment",
+    "page": "66",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Teachers and librarians are entitled to a duty-free lunch period of at least 30 minutes.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "The district may require teachers to supervise students during lunch one day a week when no other personnel are available.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

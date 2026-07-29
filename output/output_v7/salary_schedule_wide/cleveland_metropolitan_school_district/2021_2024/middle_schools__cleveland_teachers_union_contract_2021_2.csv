@@ -1,0 +1,22 @@
+# Cleveland_Teachers_Union_Contract_2021-2024.pdf — Middle Schools (2021-2024)
+"# population: Middle school athletic directors, coaches, intramural directors, and advisors | is_teacher_schedule: False"
+"# validation_warnings: label_not_in_source: '2021-2022 Effective July 1, 2021' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 Effective July 1, 2022' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 Effective July 1, 2023' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Payment Quarter' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed"
+step,"2021-2022 Effective July 1, 2021","2022-2023 Effective July 1, 2022","2023-2024 Effective July 1, 2023",Payment Quarter
+"840620 Athletic Director, Intermediate (Must have responsibilities for 5+ sports)",1993,,,"1, 2, 4"
+"840370 Coach, Basketball, Boys, Intermediate**",,,,"1,2,3,4**"
+"840590 Coach, Basketball, Girls, Intermediate**",,,,"1,2,3,4**"
+"840545 Coach, Fencing, Middle",,,,3
+"840185 Coach, Golf, Middle",1693,,,4
+"840380 Coach, Soccer, Intermediate",1693,,,1
+"840390 Coach, Track, Boys, Intermediate",,,,4
+"840600 Coach, Track, Girls, Intermediate",,,,4
+"840610 Coach, Volleyball, Girls, Intermediate",1693,,,1
+"840730 Coach, Wrestling, Intermediate",,,,1
+"840640 Asst Coach, Track, Boys, Intermediate",,,,4
+"840770 Asst Coach, Track, Girls, Intermediate",,,,4
+"840630 Asst Coach, Soccer, Intermediate",856,,,1
+"840400 Intramural Director, Boys, Intermediate",1597,1644,1677,"1, 2, 3, 4"
+"840410 Intramural Director, Girls, Intermediate",1597,1644,1677,"1, 2, 3, 4"
+"840830 Intramural Director, Coed, Intermediate",1597,1644,1677,"1, 2, 3, 4"
+"840710 Dramatics Director, Intermediate",1195,1231,1255,"1, 2, 3, 4"
+"840430 Newspaper Advisor, Intermediate",,,,"1, 2, 3, 4"

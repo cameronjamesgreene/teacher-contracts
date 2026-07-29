@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Searches and Alcohol and Drug Testing Policy CQ, DHE... Alcohol and drug tests will be conducted when reasonable suspicion exists, at random, when an employee returns to duty after engaging in prohibited conduct, and as a follow-up measure.",
+    "page": "19",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

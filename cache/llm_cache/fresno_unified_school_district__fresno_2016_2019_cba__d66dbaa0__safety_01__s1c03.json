@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "In the event of an extreme emergency, within a given school, the following procedures are to be initiated: 5.1 The principal or principal's designee will immediately call the appropriate District Office emergency telephone number... 5.2 The District Office person receiving the call is to immediately notify all necessary District personnel and, if necessary, dispatch an emergency \"observation team” to the school... 6. Principals should not commit bargaining unit members to a physical confrontation or hazard during a situation of extreme emergency... 7. Evacuation and Release of Students: If, in the principal's judgment, an extreme emergency exists, and there is greater danger to life and limb of bargaining unit members if held on campus as opposed to being released, the principal shall immediately release all bargaining unit members from the authority of the institution... 8. Drills: All schools in the District shall comply with the two annual drills, as required by Title V, in order to test each school's emergency plan",
+    "page": "20",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

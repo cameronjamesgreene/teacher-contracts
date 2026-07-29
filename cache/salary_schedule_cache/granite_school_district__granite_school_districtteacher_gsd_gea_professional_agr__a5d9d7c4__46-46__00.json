@@ -1,0 +1,161 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Schedule",
+      "population": "Teachers",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "",
+      "lane_labels": [
+        "LANE A",
+        "LANE B",
+        "LANE C",
+        "LANE D",
+        "LANE E",
+        "LANE F",
+        "LANE G"
+      ],
+      "step_labels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "cells": [
+        {
+          "step": "1",
+          "lane": "LANE A",
+          "value": "31120 + 1884",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "LANE B",
+          "value": "32735 + 1346",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "LANE C",
+          "value": "34620 + 1346",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "LANE D",
+          "value": "35158 + 1346",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "LANE E",
+          "value": "36504 + 1346",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "LANE F",
+          "value": "37850 + 1346",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "LANE G",
+          "value": "39196 + 1346",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "LANE A",
+          "value": "32197 + 807",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "LANE B",
+          "value": "33274 + 807",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "LANE C",
+          "value": "35158 + 808",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "LANE D",
+          "value": "35696 + 808",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "LANE E",
+          "value": "37042 + 808",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "LANE F",
+          "value": "38388 + 808",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "LANE G",
+          "value": "39734 + 808",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "LANE A",
+          "value": "33004",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "LANE B",
+          "value": "34081",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "LANE C",
+          "value": "35966",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "LANE D",
+          "value": "36504",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "LANE E",
+          "value": "37850",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "LANE F",
+          "value": "39196",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "LANE G",
+          "value": "40542",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Values include an additive component (e.g., '+ 1884') for steps 1 and 2, representing a bonus or stipend, but step 3 contains only the base amount. Lane degree requirements are listed in the header but condensed to LANE A-G identifiers for clarity.",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

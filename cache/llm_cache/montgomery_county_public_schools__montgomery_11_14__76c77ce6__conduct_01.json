@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "During both such leaves, the unit member may not be employed full-time elsewhere or contracted as a teacher in a public or private school during the period of the leave, except as an intermittent substitute teacher.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "The Board and the Association, believing that academic freedom is basic to the attainment of the educational goals of the Montgomery County Public Schools, agree that: 1. Unit members shall be responsible for providing students with the opportunity to investigate various sides of the topics presented in their courses, particularly in relation to controversial subjects, within such limits as may be imposed by relevance to the course, the level of maturity and the intellectual ability of the students, and the time available.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

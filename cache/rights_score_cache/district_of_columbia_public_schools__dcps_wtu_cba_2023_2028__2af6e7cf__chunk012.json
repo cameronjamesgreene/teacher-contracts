@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS agrees to release, during normal school hours, a reasonable number of Teachers, upon request of the WTU President, for the purpose of serving on mutually agreed upon committees and participating in mutually agreed upon activities.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Whenever Teachers are mutually scheduled by the parties to participate during working hours in conferences or meetings or in negotiations respecting the collective bargaining agreement, they shall suffer no loss in pay.",
+      "subject_text": "they",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "To plan for, study and to participate in mutually established committees relating to the collective bargaining agreement and educational reform as proposed by DCPS, DCPS agrees to release during the year and during working hours a reasonable number of Teachers upon request of the WTU President.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The President shall submit to the Chancellor for approval the names of WTU Teachers proposed for release in accordance with a predetermined schedule at least three (3) days prior to any meeting.",
+      "subject_text": "The President",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "All schools shall establish a Local School Advisory Team (LSAT)",
+      "subject_text": "All schools",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "the Team shall operate under guidelines established in the Planning Guide for LSATs to be mutually developed by DCPS and the WTU.",
+      "subject_text": "the Team",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Decisions reached by the LSAT shall not change or supersede any contractual agreement, city regulations, or DCPS policies or procedures.",
+      "subject_text": "Decisions reached by the LSAT",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The LSAT and the principal shall collaborate to determine the composition of the School Improvement Team (SIT).",
+      "subject_text": "The LSAT and the principal",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

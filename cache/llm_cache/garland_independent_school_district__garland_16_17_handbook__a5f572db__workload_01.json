@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "175–197 (10-month), 198–214 (11-month), or 215–233 (12-month)",
+    "evidence": "175 – 197 Day Contract “10 Month Employee” / 198 – 214 Day Contract “11 Month Employee” / 215 – 233 Day Contract “12 Month Employee”",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": "Updated to reflect all contract length options listed in the handbook, as the document provides ranges depending on the teacher's contract type rather than a single fixed number."
+  },
+  "workload_workday_length_002": {
+    "answer": "Varies by school level: Elementary 7:50 a.m.–3:50 p.m., Middle 8:00 a.m.–4:00 p.m., High School 7:15 a.m.–3:15 p.m.",
+    "evidence": "NORMAL WORK SCHEDULES: Elementary Teacher and staff work hours (grades PK-5) 7:50 a.m. - 3:50 p.m. ... Middle School Teacher and staff work hours 8:00 a.m. - 4:00 p.m. ... High School Teacher and staff work hours 7:15 a.m. - 3:15 p.m.",
+    "page": "17-18",
+    "confidence": "high",
+    "coder_notes": "Revised to specify varying schedules by school level as stated in the document. Stage 1 only cited High School hours."
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two-week period for instructional preparation, including parent-teacher conferences, evaluating students' work, and planning.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "450 minutes per two-week period (in blocks of at least 45 minutes)",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two-week period for instructional preparation... A planning and preparation period under this section may not be less than 45 minutes within the instructional day.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "During a planning and preparation period, a classroom teacher may not be required to participate in any other activity.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": "Stage 1 coded as not_discussed, but text explicitly restricts other activities during planning time."
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "A 30-minute duty-free lunch will be provided to teachers and librarians during the school day.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

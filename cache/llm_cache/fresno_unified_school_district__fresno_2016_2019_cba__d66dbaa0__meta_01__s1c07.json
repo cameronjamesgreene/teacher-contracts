@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Collective Bargaining Agreement as extended herein through June 30, 2016 shall remain status quo and are hereby incorporated into this 2016-2019 successor contract.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2016 through June 30, 2019",
+    "evidence": "This Agreement shall remain in full force and effect from July 1, 2016 through June 30, 2019.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff (unit members)",
+    "evidence": "Bargaining unit members on the Teachers Basic Salary Schedule A who voluntarily accept District assigned work during non-duty time...",
+    "page": "74",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This Agreement shall remain in full force and effect from July 1, 2016 through June 30, 2019.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code sections 44579 through 44579.4",
+    "page": "66",
+    "confidence": "high"
+  }
+}

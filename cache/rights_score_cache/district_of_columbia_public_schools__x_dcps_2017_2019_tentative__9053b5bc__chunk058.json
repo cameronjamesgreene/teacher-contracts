@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "The WTU Building Representative shall ensure the election of the bargaining unit members on the Personnel Committee",
+      "subject_text": "The WTU Building Representative",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "call and conduct the meetings of the Personnel Committee.",
+      "subject_text": "The WTU Building Representative",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Principal shall be responsible for reviewing the recommendations of the Personnel Committee",
+      "subject_text": "The Principal",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "providing any required documentation of the Principal’s decision.",
+      "subject_text": "The Principal",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Four (4) sick leave days may be used for general leave.",
+      "subject_text": "Four (4) sick leave days",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Unused sick leave shall be carried forward from year to year.",
+      "subject_text": "Unused sick leave",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "unused \"individual professional development leave\" shall be carried over from year to year as part of the cumulative sick leave.",
+      "subject_text": "unused \"individual professional development leave\"",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The Chancellor and the President of the WTU shall mutually agree on the parameters associated with the use of \"individual professional development leave.\"",
+      "subject_text": "The Chancellor and the President of the WTU",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": "Joint duty between district and union leadership."
+    }
+  ]
+}

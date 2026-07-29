@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "First year employees who participate in the Employee Support Program (ESP) will be assessed to verify competency according to the ESP guidelines and the CTAS evaluation criteria.",
+    "page": 27,
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "The Association shall have representatives on District Curriculum committees that plan and design school-wide initiatives including instructional strategies.",
+    "page": 41,
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

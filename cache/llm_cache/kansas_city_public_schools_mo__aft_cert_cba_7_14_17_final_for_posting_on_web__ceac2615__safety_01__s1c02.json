@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Employees shall report unsafe or hazardous conditions to their Building Administrator or immediate supervisor. The concern will be assessed by appropriate District staff to identify the source and/or extent of the condition. Employees shall not be required to work under unsafe or hazardous conditions, or to perform tasks that endanger their safety.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The Student Behavior Plan and the Code of Student Conduct will be enforced in every school. In schools where student behavior indicates that there are serious behavior problems school-wide, a special committee comprised of individuals listed below will meet to discuss and resolve issues:",
+    "page": "12",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

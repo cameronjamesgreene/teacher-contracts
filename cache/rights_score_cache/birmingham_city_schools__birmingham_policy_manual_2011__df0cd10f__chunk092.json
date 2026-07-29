@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Staff shall be given the opportunity to submit suggestions for possible inclusion in the educational specifications.",
+      "subject_text": "Staff",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Preliminary cost estimates based on prevailing unit costs with projected increases to proposed construction date(s) as perceived by the Project architect will be presented to the Board by the Superintendent for the purpose of setting tentative budget figures for each project.",
+      "subject_text": "Preliminary cost estimates based on prevailing unit costs with projected increases to proposed construction date(s) as perceived by the Project architect",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Equipment which can be best purchased and installed by the contractor will be specified by the administrative staff.",
+      "subject_text": "Equipment which can be best purchased and installed by the contractor",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Other equipment will be purchased in accordance with the best interests of the Board.",
+      "subject_text": "Other equipment",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

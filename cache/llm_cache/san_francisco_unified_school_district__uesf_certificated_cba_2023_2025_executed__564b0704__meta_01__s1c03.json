@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1st, 2023 thru June 30th, 2025",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated staff",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "under the provisions of this contract.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Ed. Code 44801",
+    "page": "26",
+    "confidence": "high"
+  }
+}

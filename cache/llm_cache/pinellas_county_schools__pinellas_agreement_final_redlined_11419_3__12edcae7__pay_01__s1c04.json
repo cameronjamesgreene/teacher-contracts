@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "It shall be the responsibility of the principal or other designated agent of the Board to recommend, on an annual basis, those individuals who are to receive salary supplements... The supplemental compensation is available for additional responsibilities related to academics, athletics, fine arts and other activities",
+    "page": "45",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "District contributes to STRS as if the teachers were full-time.",
+    "evidence": "Participating teachers and the District shall contribute to STRS as if the teachers were full-time.",
+    "page": "98",
+    "confidence": "medium"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Employees hired before July 1, 2004, shall be required to be employed full-time (1.0 FTE) for the final seven (7) consecutive years with SFUSD prior to retirement in order to receive paid retiree health benefits. ... Teachers in the ERIP may continue welfare benefits in addition to the health plan benefits. The expenses for such benefits shall be borne by the teacher.",
+    "page": "99-100",
+    "confidence": "high"
+  }
+}

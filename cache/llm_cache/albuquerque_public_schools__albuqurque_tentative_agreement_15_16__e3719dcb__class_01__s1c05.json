@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "After the first twenty (20) days of school, enrollment figures for all classes in each school shall be available for Federation review within five (5) school days after such request. The daily teaching load per teacher for grades seven through twelve shall not exceed one hundred sixty (160) students...",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "Refer to Appendix B Class Size Requirements on page 71. See Appendix B on page 71 for additional information on class loads including individual and average per/class limits.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "Grades 7-12 daily cap: 160 students (150/day for grades 9-12 English; 135/day for grades 6-8 English). Weekly block schedule cap: 160 students (30/class for grades 9-12 English; 27/class for grades 6-8 English).",
+    "evidence": "The daily teaching load per teacher for grades seven through twelve shall not exceed one hundred sixty (160) students except for required English classes which are limited to 150 students per day in grades 9-12 and 135 students per day in grades 6-8. ...maximum class load of 160 students seen in any given week by any individual teacher except for required English classes which are limited to 150 students per day/30 per class in grades 9-12 and 135 students per day/27 per class in grades 6-8.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "A waiver to the 160 student per day limit may be requested by the District and granted by the Public Education Department (PED).",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

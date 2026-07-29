@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "In the event ofan involuntary transfer,               employee maintains  rights to\nto a hearinggrantf'A to that employee under either the Alabama Tenure Act (Ala. Code §§ 1\n 1, et seq.) or the Fair Dismissal Act {Ala; Code §§ 36-26-100, et seq.),",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

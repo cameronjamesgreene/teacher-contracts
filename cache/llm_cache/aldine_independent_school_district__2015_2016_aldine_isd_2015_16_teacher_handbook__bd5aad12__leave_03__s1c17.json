@@ -1,0 +1,8 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "yes",
+    "evidence": "AESOP (Automated Educational Substitute Operator) is the automated service used for recording absences and finding substitutes.",
+    "page": "154",
+    "confidence": "high"
+  }
+}

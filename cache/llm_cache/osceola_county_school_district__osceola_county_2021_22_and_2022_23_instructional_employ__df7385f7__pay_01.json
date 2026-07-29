@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX A: Ten Month Instructional Salary Schedule",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": "Evidence matches Table of Contents and standard contract structure. Document text provided is truncated, but appendix title explicitly confirms the salary schedule exists."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2021-22 and 2022-23 school years",
+    "evidence": "July 01, 2021 through June 30, 2023 / This Contract shall be firm until and including June 30, 2023.",
+    "page": "1, 68",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the full contract term dates (July 1, 2021 through June 30, 2023) which explicitly cover the 2021-22 and 2022-23 school years."
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "If the projected unrestricted revenue per weighted student for the general fund is less than the projected costs to implement full step, then the parties understand that full step will not be granted and will negotiate for any potential salary increase.",
+    "page": "63",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly references 'full step' implementation, confirming that annual step advancement is addressed with a revenue contingency."
+  },
+  "pay_prior_experience_005": {
+    "answer": "discussed_unclear",
+    "evidence": "Vocational experience (not teaching experience) may be allowed on a year-to-year basis... to a maximum of ten (10) years... excluding years for which one is receiving retirement benefits. / Each teacher participating in a job share shall receive one-half (1/2) year credit for each year taught for salary purposes...",
+    "page": "62, 84, 88",
+    "confidence": "medium",
+    "coder_notes": "Original evidence focuses on vocational experience and job-share credit, not explicitly how prior *teaching* experience is credited. Downgraded to discussed_unclear as the quoted passage is tangential to the specific question."
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "The parties agree to develop mutually a performance pay plan, including a specified amount of program funding... / supplements that identify instructional personnel entitled to differentiated pay based upon factors, including... level of job performance difficulties. / Osceola Virtual School (Professional Compensation) – A base salary of $500...",
+    "page": "64, 87, 64",
+    "confidence": "high",
+    "coder_notes": "Corrected OCR typo 'lob' to 'job' in evidence. Quote explicitly mentions a performance pay plan and differentiated pay supplements, directly supporting the answer."
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No passage found in the contract explicitly linking teacher evaluation procedures to performance-based pay eligibility."
+  }
+}

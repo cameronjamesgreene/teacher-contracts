@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "enrollment figures for all classes in each school shall be available for Federation review within five (5) school days after such request.",
+    "page": "72",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "160 students per day (Grades 7-12); 150 for required English in Grades 9-12; 135 for Grades 6-8",
+    "evidence": "The daily teaching load per teacher for Grades 7-12 shall not exceed one hundred sixty (160) students except for required English classes which are limited to 150 students per day in Grades 9-12 and 135 students per day in Grades 6-8.",
+    "page": "73",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

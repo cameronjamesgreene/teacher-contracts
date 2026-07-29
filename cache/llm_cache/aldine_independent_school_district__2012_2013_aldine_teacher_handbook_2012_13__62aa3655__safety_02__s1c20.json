@@ -1,0 +1,14 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "\"All teachers are responsible for closing their windows, turning off the lights, and locking the door when leaving their room.\" \"must sign out on the special register in the office of the principal before leaving.\" \"All teachers will be stationed at the door of their respective classrooms as students change classes and as students enter and leave the building.\" \"authorization will come through the office\"",
+    "page": "155-156",
+    "confidence": "high"
+  },
+  "safety_weapons_008": {
+    "answer": "yes",
+    "evidence": "\"Weapons are prohibited.\"",
+    "page": "161, 162, 163",
+    "confidence": "medium"
+  }
+}

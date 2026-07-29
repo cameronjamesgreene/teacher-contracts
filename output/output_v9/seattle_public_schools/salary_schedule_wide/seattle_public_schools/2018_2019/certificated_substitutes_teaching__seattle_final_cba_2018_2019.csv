@@ -1,0 +1,9 @@
+# Seattle_final_CBA_2018-2019.pdf — CERTIFICATED SUBSTITUTES - TEACHING (2018-2019)
+# population: Certificated Substitutes - Teaching | is_teacher_schedule: True
+# validation_warnings: none | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Salary Schedule,Grade,Days Worked,Hours Worked,Hourly Rate,Daily Rate
+1,CH1,1,0.5 - 29.5,Below 240 hours worked,26.24,209.92
+2,CH1,2,30 - 59.9 days,At least 240 hours worked,27.43,219.44
+3,CH1,3,60.0 - 89.9 days,At least 240 hours worked,28.64,229.12
+4,CH1,4,90 or more,At least 240 hours worked,30.48,243.84

@@ -1,0 +1,26 @@
+# Palm_Beach_CTA-July-2017-June-2020-CBA-Successor.pdf — NEW HIRE SALARY PLACEMENT SCHEDULE ()
+# population: full-time new hires | is_teacher_schedule: False
+"# validation_warnings: possible_dropped_row: step sequence 0-25 is missing step(s) [1, 2, 4, 6] — a row may have been lost; verify against source; no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+step,value
+0-2,41000
+3-4,41470
+5-6,41940
+7,42420
+8,42530
+9,42930
+10,43440
+11,44180
+12,44970
+13,46200
+14,47420
+15,48540
+16,49680
+17,50900
+18,51970
+19,53310
+20,55120
+21,56690
+22,58180
+23,59720
+24,61000
+25,62270

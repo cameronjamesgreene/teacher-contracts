@@ -1,0 +1,11 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — Employees Serving in place of Preparation Salary Table employees (2015-2016)
+# population: Day-to-Day Substitutes serving in place of Preparation Salary Table employees | is_teacher_schedule: False
+"# validation_warnings: duplicate step_labels: ['Base Hourly Rate (6-hour day)']; only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Rate
+Daily Base Rate,187.23
+Base Hourly Rate (6-hour day),42.11209
+Daily Incentive Plan Rate,252.67
+Base Hourly Rate (6-hour day),42.11209
+"Day-to-Day Substitute, Extended Rate",252.67
+Base Hourly Rate (6-hour day),42.11209

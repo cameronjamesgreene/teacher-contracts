@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Vision Plan (listed as voluntary benefits that employees can purchase at their discretion)",
+    "page": "28",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "$15,000 Group Life Insurance (district provided); Group Universal Life Insurance, Individual Life Insurance with Long Term Care (voluntary)",
+    "page": "28",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "Disability Insurance (listed as voluntary benefits)",
+    "page": "28",
+    "confidence": "medium"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Health insurance benefits for employees on paid leave and leave designated under the Family and Medical Leave Act will be paid by the district as they were prior to the leave. Otherwise, the district does not pay any portion of insurance premiums for employees who are on unpaid leave. Eligible employees may continue TRS-ActiveCare coverage while on leave without pay for a period not to exceed six-months.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

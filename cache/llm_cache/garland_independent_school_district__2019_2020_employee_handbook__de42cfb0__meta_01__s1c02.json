@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020",
+    "evidence": "2019-20 Garland ISD Academic Calendar",
+    "page": "15",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all employees",
+    "evidence": "All district employees will follow regular work schedules as outlined.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contracts.",
+    "page": "18",
+    "confidence": "high"
+  }
+}

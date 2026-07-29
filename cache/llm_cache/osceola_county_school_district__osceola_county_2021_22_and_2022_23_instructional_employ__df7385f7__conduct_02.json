@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "teachers shall have all reasonable freedom within the limitations imposed by law, the State Board of Education regulations, and School Board rules, in the development and implementation of the curriculum, including the right to select useful and relevant materials and determine the class needs as they relate to the curriculum.",
+    "page": "49",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Whenever practicable the teacher will ensure that lesson plans for student activities are available for the substitute for that particular day or number of days.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "Personal leave without pay may be requested for but not limited to: ... (6) Leave to run for or serve in an elected office.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "Any involvement of the School Board in the private or personal life of the teacher shall remain within the scope of the Florida Statutes.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

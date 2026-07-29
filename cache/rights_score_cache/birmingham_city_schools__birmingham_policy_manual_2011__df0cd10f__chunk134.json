@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "The Board shall encouraqe reqular student attendance through the provision of an effective and attractive instructional program, one relevant to productive and haDlOnious living.",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "contains typographical errors in the source text"
+    },
+    {
+      "quote": "Teachers shall maintain accurate records of each student's attendance.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Board authorizes the Superintendent and/or his designee(s) to make appropriate exceptions to these admission requirements as warranted for homeless, migrant, immigrant, and limited English proficient students.",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

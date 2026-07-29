@@ -1,0 +1,13 @@
+{
+  "has_table": false,
+  "schedule_label": "",
+  "school_year_or_effective_date": "",
+  "lane_labels": [],
+  "step_labels": [],
+  "cells": [],
+  "notes": "Page 58 is the document's back-of-book Index (alphabetical list of topics and page numbers, e.g. 'Credit on Salary Schedule ... 13'), not a salary table.",
+  "confidence": "high",
+  "extraction_method": "vision",
+  "page_start": 58,
+  "page_end": 58
+}

@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "preference will be given to the most senior employee based on their date of hire.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 cited a reference to 'most senior employee based on date of hire' as a tie-breaker, but the document does not provide an actual definition of seniority."
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "For Special Education Related Services positions, vacancies are posted on the APS Special Education website and employees may apply voluntarily. If two or more qualified candidates apply, preference goes to the most senior employee based on their date of hire. Vacancies are defined as indefinitely open positions.",
+    "evidence": "8. a. Once the position(s) for related service personnel is/are posted on the APS Special Education website, employees may apply for a voluntary transfer. d. If two (2) or more qualified candidates are have submitted requests for the same vacancy, preference will be given to the most senior employee based on their date of hire. e. Vacancies shall be defined as indefinitely open positions.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

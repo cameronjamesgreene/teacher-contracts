@@ -1,0 +1,9 @@
+# Seattle_final_CBA_2018-2019.pdf — CLERICAL SUBSTITUTES (2018-2019)
+# population: Clerical Substitutes | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p146) — one grid's data may be contaminated from another; verify | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Salary Schedule,Position,Days Worked,,Hourly Rate,Daily Rate
+1,SU2,,1-59 Days,$X,20.66,165.28
+2,SU2,,60-90 Days,$X*1.05,21.69,173.52
+3,SU2,,91-120 Days,$X*1.10,22.72,181.76
+4,SU2,,121+ Days,$X*1.15,23.76,190.08

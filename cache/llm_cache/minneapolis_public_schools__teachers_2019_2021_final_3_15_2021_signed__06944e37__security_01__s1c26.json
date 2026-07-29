@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "teachers must be discontinued in any department in the inverse order in which they were employed",
+    "page": "251",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Layoff procedures are incorporated by Minnesota Statute 122A.40, Subd. 14. Teachers terminated for discontinuance of position or lack of pupils must receive first consideration for other qualified district positions. Discontinuance is done in inverse order of employment unless the district and union negotiate an alternative plan.",
+    "evidence": "A teacher whose services are terminated on account of discontinuance of position or lack of pupils must receive first consideration for other positions in the district for which that teacher is qualified. ... teachers must be discontinued in any department in the inverse order in which they were employed, unless a board and the exclusive representative of teachers in the district negotiate a plan providing otherwise.",
+    "page": "251",
+    "confidence": "high"
+  }
+}

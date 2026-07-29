@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30 minutes duty-free during the regular school day; 1 hour on professional development or workdays when students are not in attendance.",
+    "evidence": "The teacher shall have a thirty (30) minute duty-free lunch period. / Teacher lunch period during professional development/workdays will be one (1) hour...",
+    "page": "16-17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes. No staff, department, or grade-level meetings during the teacher workday; faculty meetings limited to Wednesday 75-minute PD periods (can only extend beyond school day with Superintendent approval); one Wednesday/month strictly for planning with no meetings; no meetings on 2.5 prep days.",
+    "evidence": "No professional development, staff meetings or department/grade level meetings will be scheduled during the hours allotted for teacher workday. / Faculty meetings shall take place on Wednesdays during the seventy-five (75) minute period... / One Wednesday every month will be designated for teacher planning and preparation time. This one Wednesday: Will not be used for voluntary or mandatory meetings scheduled by administration / No meetings can be called by administration on workdays.",
+    "page": "16-17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes. Student supervision and cafeteria duty are described. Supervision is assigned on a rotating basis once a week; teachers not teaching sufficient periods may be asked to supervise; additional supervision beyond once a week requires stipend pay; cafeteria duty is restricted for teachers scheduled one day or less unless absolutely necessary.",
+    "evidence": "teachers will supervise on a rotating basis one time a week. / If any teacher is needed for supervision more than one (1) day a week, that teacher will receive stipend pay... / On any day in which a teacher is not teaching six (6) periods... the teacher may be asked to supervise students. / If a teacher is scheduled one day or less at a school, they cannot be assigned cafeteria duty unless absolutely necessary.",
+    "page": "15-16",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

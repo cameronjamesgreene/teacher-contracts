@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "Yes, Section §210 (Teacher Evaluation) describes full procedures.",
+    "evidence": "§210 TEACHER EVALUATION ... The Board and Federation have developed teacher evaluation standards and procedures, which will be implemented district-wide effective with the 2000-2001 school year.",
+    "page": "18",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Teacher Evaluation System (TES) / TES Manual",
+    "evidence": "The standards and procedures are described in the Teacher Evaluation System (TES) Manual.",
+    "page": "18",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "Comprehensive evaluation requires 5 observations (6 for new hires and teachers on intervention); annual assessment requires 1 observation (2 for steps 16, 21, and 26).",
+    "evidence": "have made at least five (5) observations (either individually or cumulatively) of the teacher's performance, sufficient in length to justify the conclusions; new hires and teachers on intervention must have at least six (6) observations",
+    "page": "19",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Distinguished (4), Proficient (3), Basic (2), Unsatisfactory (1)",
+    "evidence": "Teachers shall be evaluated distinguished (4), proficient (3), basic (2), or unsatisfactory (1), in each of four domains.",
+    "page": "18",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

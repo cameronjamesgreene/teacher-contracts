@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes, Article 16 describes full evaluation procedures.",
+    "evidence": "5.0 Classroom Observation Procedures and Timelines: 5.1 An observation shall include... 6.0 Formative and Summative Evaluation Procedures and Timelines",
+    "page": "11",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "CSTP (California Standards for the Teaching Profession) Continuum / Criteria for Evaluation",
+    "evidence": "Criteria for Evaluation in 3.0 above... District CSTP Continuum... six (6) CSTP's on the summative evaluation",
+    "page": "11",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "At least one (1) observation prior to the end of each November; at least 4 formal observations prior to a 'Does Not Meet Standards' rating.",
+    "evidence": "5.3 At least one (1) observation shall occur prior to the end of each November. 5.8 At least 4 formal observations shall take place prior to a \"Does Not Meet Standards\" rating",
+    "page": "11",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "At least one full teacher lesson presentation",
+    "evidence": "5.2 An observation shall include information from at least one full teacher lesson presentation",
+    "page": "11",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not meeting standards, growth expected, proficient",
+    "evidence": "rated as \"not meeting standards.\"... receives a rating on his/her summative evaluation of \"not meeting\" or \"growth expected\"... reached proficient levels of practice",
+    "page": "11",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes, covers progress towards standards, growth in student learning, and criterion reference test results.",
+    "evidence": "measuring and optimizing the progress of students towards established standards of expected pupil achievement... extent of growth in student learning... student criterion reference test results",
+    "page": "11",
+    "confidence": "high"
+  }
+}

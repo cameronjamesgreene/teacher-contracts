@@ -1,0 +1,847 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "INDIANAPOLIS PUBLIC SCHOOLS SALARY SCHEDULE 2009/2010 Base",
+      "population": "Certified Teachers",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "2009/2010",
+      "lane_labels": [
+        "BS Salary",
+        "MS Salary",
+        "MS +15 Salary",
+        "MS +30 Salary",
+        "MS +45 Salary",
+        "Doctorate Salary"
+      ],
+      "step_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21-24",
+        "25"
+      ],
+      "cells": [
+        {
+          "step": "1",
+          "lane": "BS Salary",
+          "value": "35684",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MS Salary",
+          "value": "37189",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MS +15 Salary",
+          "value": "37942",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MS +30 Salary",
+          "value": "39436",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MS +45 Salary",
+          "value": "40604",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "Doctorate Salary",
+          "value": "41513",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "BS Salary",
+          "value": "37166",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MS Salary",
+          "value": "38666",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MS +15 Salary",
+          "value": "39425",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MS +30 Salary",
+          "value": "40927",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MS +45 Salary",
+          "value": "42134",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "Doctorate Salary",
+          "value": "42989",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "BS Salary",
+          "value": "38648",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MS Salary",
+          "value": "40155",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MS +15 Salary",
+          "value": "40901",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MS +30 Salary",
+          "value": "42407",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MS +45 Salary",
+          "value": "43661",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "Doctorate Salary",
+          "value": "44471",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "BS Salary",
+          "value": "40134",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MS Salary",
+          "value": "41634",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MS +15 Salary",
+          "value": "42388",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MS +30 Salary",
+          "value": "43894",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MS +45 Salary",
+          "value": "45190",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Doctorate Salary",
+          "value": "45965",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "BS Salary",
+          "value": "41620",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MS Salary",
+          "value": "43123",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MS +15 Salary",
+          "value": "43879",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MS +30 Salary",
+          "value": "45405",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MS +45 Salary",
+          "value": "46724",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Doctorate Salary",
+          "value": "47438",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "BS Salary",
+          "value": "43106",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MS Salary",
+          "value": "44606",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MS +15 Salary",
+          "value": "45353",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MS +30 Salary",
+          "value": "46855",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MS +45 Salary",
+          "value": "48242",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Doctorate Salary",
+          "value": "48928",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "BS Salary",
+          "value": "44588",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MS Salary",
+          "value": "46089",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MS +15 Salary",
+          "value": "46845",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MS +30 Salary",
+          "value": "48339",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MS +45 Salary",
+          "value": "49772",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Doctorate Salary",
+          "value": "50406",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "BS Salary",
+          "value": "46069",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MS Salary",
+          "value": "47576",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MS +15 Salary",
+          "value": "48325",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MS +30 Salary",
+          "value": "49825",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MS +45 Salary",
+          "value": "51302",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Doctorate Salary",
+          "value": "51890",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "BS Salary",
+          "value": "47549",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MS Salary",
+          "value": "49058",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MS +15 Salary",
+          "value": "49801",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MS +30 Salary",
+          "value": "51307",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MS +45 Salary",
+          "value": "52834",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Doctorate Salary",
+          "value": "53374",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "BS Salary",
+          "value": "49036",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MS Salary",
+          "value": "50536",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MS +15 Salary",
+          "value": "51294",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MS +30 Salary",
+          "value": "52791",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MS +45 Salary",
+          "value": "54357",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Doctorate Salary",
+          "value": "54860",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "BS Salary",
+          "value": "50519",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MS Salary",
+          "value": "52023",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MS +15 Salary",
+          "value": "52777",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MS +30 Salary",
+          "value": "54280",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MS +45 Salary",
+          "value": "55886",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Doctorate Salary",
+          "value": "56338",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "BS Salary",
+          "value": "52004",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MS Salary",
+          "value": "53507",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MS +15 Salary",
+          "value": "54258",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MS +30 Salary",
+          "value": "55761",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MS +45 Salary",
+          "value": "57414",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Doctorate Salary",
+          "value": "57830",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "BS Salary",
+          "value": "53489",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MS Salary",
+          "value": "54984",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MS +15 Salary",
+          "value": "55734",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MS +30 Salary",
+          "value": "57243",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MS +45 Salary",
+          "value": "58942",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Doctorate Salary",
+          "value": "59313",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "BS Salary",
+          "value": "55339",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MS Salary",
+          "value": "56474",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MS +15 Salary",
+          "value": "57227",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MS +30 Salary",
+          "value": "58730",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MS +45 Salary",
+          "value": "60467",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Doctorate Salary",
+          "value": "60786",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "BS Salary",
+          "value": "55339",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MS Salary",
+          "value": "57962",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MS +15 Salary",
+          "value": "58703",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MS +30 Salary",
+          "value": "60209",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MS +45 Salary",
+          "value": "61998",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Doctorate Salary",
+          "value": "62279",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "BS Salary",
+          "value": "55339",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MS Salary",
+          "value": "59439",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MS +15 Salary",
+          "value": "60187",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MS +30 Salary",
+          "value": "61696",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MS +45 Salary",
+          "value": "63533",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Doctorate Salary",
+          "value": "63759",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "BS Salary",
+          "value": "55339",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MS Salary",
+          "value": "60921",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MS +15 Salary",
+          "value": "61676",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MS +30 Salary",
+          "value": "63176",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MS +45 Salary",
+          "value": "65055",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Doctorate Salary",
+          "value": "65242",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "BS Salary",
+          "value": "55339",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MS Salary",
+          "value": "62409",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MS +15 Salary",
+          "value": "63166",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MS +30 Salary",
+          "value": "64661",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MS +45 Salary",
+          "value": "66585",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Doctorate Salary",
+          "value": "66727",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "BS Salary",
+          "value": "55339",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MS Salary",
+          "value": "64253",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MS +15 Salary",
+          "value": "65011",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MS +30 Salary",
+          "value": "66511",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MS +45 Salary",
+          "value": "68491",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Doctorate Salary",
+          "value": "68572",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "BS Salary",
+          "value": "57253",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MS Salary",
+          "value": "64253",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MS +15 Salary",
+          "value": "65011",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MS +30 Salary",
+          "value": "66511",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MS +45 Salary",
+          "value": "68491",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Doctorate Salary",
+          "value": "68572",
+          "cell_code": null
+        },
+        {
+          "step": "21-24",
+          "lane": "BS Salary",
+          "value": "57253",
+          "cell_code": null
+        },
+        {
+          "step": "21-24",
+          "lane": "MS Salary",
+          "value": "64253",
+          "cell_code": null
+        },
+        {
+          "step": "21-24",
+          "lane": "MS +15 Salary",
+          "value": "65011",
+          "cell_code": null
+        },
+        {
+          "step": "21-24",
+          "lane": "MS +30 Salary",
+          "value": "66511",
+          "cell_code": null
+        },
+        {
+          "step": "21-24",
+          "lane": "MS +45 Salary",
+          "value": "68491",
+          "cell_code": null
+        },
+        {
+          "step": "21-24",
+          "lane": "Doctorate Salary",
+          "value": "68572",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "BS Salary",
+          "value": "57702",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "MS Salary",
+          "value": "66692",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "MS +15 Salary",
+          "value": "67445",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "MS +30 Salary",
+          "value": "68969",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "MS +45 Salary",
+          "value": "71014",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "Doctorate Salary",
+          "value": "71042",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "2% increase from 2007-2008 Schedule",
+      "confidence": "high",
+      "validation_warnings": [
+        "identical values across steps ['20', '21-24'] — looks like one column copied across rows instead of each row's own data"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

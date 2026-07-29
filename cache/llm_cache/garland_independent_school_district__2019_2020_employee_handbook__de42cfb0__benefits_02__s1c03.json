@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "It also includes the following voluntary benefits, which can be paid through payroll deduction, that employees can purchase at their discretion: ... Vision Plan",
+    "page": "34",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "district provided benefits: • $15,000 Group Life Insurance ... voluntary benefits ... • Group Universal Life Insurance • Individual Life Insurance",
+    "page": "34",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "voluntary benefits, which can be paid through payroll deduction, that employees can purchase at their discretion: ... • Disability Insurance",
+    "page": "34",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Health insurance benefits for employees on paid leave and leave designated under the Family and Medical Leave Act will be paid by the district as they were prior to the leave. Otherwise, the district does not pay any portion of insurance premiums for employees who are on unpaid leave.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

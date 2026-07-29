@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Employee Handbook Receipt",
+    "page": "144",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2017 school year",
+    "evidence": "DATE ISSUED: 10/7/2015",
+    "page": "8 of 8",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "District employees",
+    "evidence": "This policy shall be distributed annually to District employees.",
+    "page": "8 of 8",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

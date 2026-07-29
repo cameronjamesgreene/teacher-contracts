@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "board policy",
+    "evidence": "EMPLOYEE STANDARDS OF CONDUCT ... DATE ISSUED: 10/7/2015",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "10/7/2015",
+    "evidence": "DATE ISSUED: 10/7/2015",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all employees",
+    "evidence": "A public official commits a Class A misdemeanor if, while acting in his or her official or employment capacity...",
+    "page": "5",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Penal Code 39.03; 42 U.S.C. 2000e, et seq.; Labor Code 21.1065; Chapter 481 of the Health and Safety Code; Texas Family Code",
+    "page": "5",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,17 @@
+# Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf — APPENDIX A-1: Adjunct Hourly Pay Schedule (2021-22 and 2022-23)
+# population: Adjuncts / Hourly Paid Staff | is_teacher_schedule: False
+"# validation_warnings: duplicate step_labels: ['Bachelor Degree']; identical values across steps ['Bachelor Degree', 'Vocational 7 Certification', 'Bachelor Degree', 'Recruit Class Instructor', 'Registered Nurse'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Advanced Degree', 'Advanced/Specialized Course Instructor (Trust Funded)', 'Bachelor of Science/Nursing (BSN)'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Master/ Advanced Degree', 'Master of Science/Nursing (MSN)'] — looks like one column copied across rows instead of each row's own data; only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+step,Hourly Rate of Pay
+"Non-Certified Test Administrators (TABE, GED, CCC Lab Proctors)",15.00
+Voc. 7 / FDLE Certified,22.00
+Bachelor Degree,28.00
+Advanced Degree,28.00
+Vocational 7 Certification,26.60
+Bachelor Degree,28.00
+Master/ Advanced Degree,30.00
+Recruit Class Instructor,26.60
+Advanced/Specialized Course Instructor (Trust Funded),28.00
+Train the Trainer Courses (Trust Funded),32.00
+Registered Nurse,26.60
+Bachelor of Science/Nursing (BSN),28.00
+Master of Science/Nursing (MSN),30.00

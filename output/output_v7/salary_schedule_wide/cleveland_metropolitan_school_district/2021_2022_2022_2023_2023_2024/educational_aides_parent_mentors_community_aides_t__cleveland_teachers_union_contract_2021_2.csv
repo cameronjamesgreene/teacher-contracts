@@ -1,0 +1,21 @@
+"# Cleveland_Teachers_Union_Contract_2021-2024.pdf — EDUCATIONAL AIDES, PARENT MENTORS, COMMUNITY AIDES/TITLE I, BUILDING ADMINISTRATOR AIDES, INSTRUCTIONAL ASSISTANTS (2021-2022, 2022-2023, 2023-2024)"
+"# population: Educational Aides, Parent Mentors, Community Aides/Title I, Building Administrator Aides, Instructional Assistants | is_teacher_schedule: False"
+"# validation_warnings: label_not_in_source: '2021-2022 (Effective July 1, 2021)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 (Effective July 1, 2022)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 (Effective July 1, 2023)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed"
+step,"2021-2022 (Effective July 1, 2021)",CC48,CC96,"2022-2023 (Effective July 1, 2022)",CC48,CC96,"2023-2024 (Effective July 1, 2023)",CC48,CC96
+Level 1,26723,728,1455,27525,728,1455,28076,728,1455
+Level 2,27869,732,1461,28705,732,1461,29279,732,1461
+Level 3,29014,734,1466,29884,734,1466,30482,734,1466
+Level 4,30160,737,1472,31065,737,1472,31687,737,1472
+Level 5,31306,739,1478,32245,739,1478,32890,739,1478
+Level 6,32452,742,1484,33426,742,1484,34094,742,1484
+Level 7,33598,744,1489,34605,744,1489,35298,744,1489
+Level 8,34744,748,1495,35786,748,1495,36502,748,1495
+Level 9,35889,750,1501,36966,750,1501,37705,750,1501
+Level 10,37036,753,1506,38147,753,1506,38910,753,1506
+Level 11,38181,756,1512,39327,756,1512,40113,756,1512
+Level 12,39327,760,1517,40507,760,1517,41317,760,1517
+Level 13,40473,762,1523,41687,762,1523,42521,762,1523
+Level 14,41619,765,1528,42868,765,1528,43725,765,1528
+Level 15,42765,767,1534,44048,767,1534,44928,767,1534
+Level 16,43619,770,1540,44928,770,1540,45827,770,1540
+Level 17,44492,786,1571,45827,786,1571,46743,786,1571

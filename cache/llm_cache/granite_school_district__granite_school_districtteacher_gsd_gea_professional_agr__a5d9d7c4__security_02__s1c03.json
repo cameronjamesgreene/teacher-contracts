@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "no",
+    "evidence": "Teachers released through this process, who are not on active corrective discipline as found within their district personnel file, shall be given the first right of interview for positions for which they are qualified that become available during the six months following their release.",
+    "page": "37-38",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "endorsements and certifications",
+    "evidence": "All unplaced teachers will be reviewed by the number of their respective endorsements and certifications, according to the staffing needs of the District.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "19.5 Nonrenewal of Regular Contract Teachers. 19.7 Formal Hearing for Regular Contract Teachers",
+    "page": "35-36",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

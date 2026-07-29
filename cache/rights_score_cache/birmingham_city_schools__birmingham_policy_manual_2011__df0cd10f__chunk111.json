@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Teachers shall periodically share with parents and students an evaluation of each student's individual progress.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers must use report cards, progress reports, and every other means available to communicate with parents.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers must communicate to both parents and students the academic progress of each student in a timely and effective manner.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Mandatory progress reports for all students will be issued midpoint in each nine-week period.",
+      "subject_text": "Mandatory progress reports",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    }
+  ]
+}

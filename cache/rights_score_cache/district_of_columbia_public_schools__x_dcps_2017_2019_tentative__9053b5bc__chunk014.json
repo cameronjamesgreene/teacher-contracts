@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "Teachers must be allowed to participate in the various stages of staff and curriculum development.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "right",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "The SCAC, in consultation with Teachers, may develop surveys to seek information about the training of, and assistance provided to, Teachers on the topic of improving student achievement.",
+      "subject_text": "The SCAC",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "The Building Representative, after conducting such a survey, will share the results with the LSRT, staff and local school Supervisor for consideration during the professional development deliberations for local school plan policy recommendations.",
+      "subject_text": "The Building Representative",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "discussed_unclear",
+    "evidence": "Position Classification: a position title, which is listed on the employee salary schedules by the Cincinnati Board of Education",
+    "page": "45",
+    "confidence": "low",
+    "coder_notes": "Evidence references salary schedules but does not explicitly confirm whether the schedule itself is included in the document. Answer revised to discussed_unclear."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "discussed_unclear",
+    "evidence": "All salary schedules shall be increased by 1.0% effective January 1, 2007... effective January 1, 2008...",
+    "page": "67",
+    "confidence": "low",
+    "coder_notes": "Evidence mentions specific year increases but does not explicitly state the coverage period of the salary schedule. Answer revised to discussed_unclear."
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Teachers at steps 16, 21, and 26 shall successfully complete two annual observations to receive the increments at the next steps.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Allowance for prior teaching experience shall be made on the basis of: (1) One (1) year of credit for each year of teaching experience up to a maximum of ten (10) years of which no more than three (3) years may be substitute teaching experience.",
+    "page": "68",
+    "confidence": "medium",
+    "coder_notes": "Page 68 not included in provided text excerpt. Quote is highly specific and directly answers the question, but confidence adjusted to medium due to inability to verify page range in provided document."
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "Currently we have schools participating in the Teacher Advancement Program (TAP)... based on availability of funds, incentives up to $2,000 per teacher, tied to student achievement value-added gains...",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 9 to 10 to match provided document text. Evidence explicitly confirms performance/merit pay structure."
+  },
+  "pay_performance_pay_007": {
+    "answer": "Incentives are tied to student achievement value-added gains as defined by the State of Ohio.",
+    "evidence": "incentives are tied to student achievement value-added gains as defined by the State of Ohio.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Simplified answer to directly reflect explicit evidence. Updated page number from 9 to 10."
+  }
+}

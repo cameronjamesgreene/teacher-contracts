@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Document filename 'teachers_2019-2021_final_3-15-2021_signed.pdf' and article-style numbering indicate a Collective Bargaining Agreement.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020 and 2020-2021 school years",
+    "evidence": "Filename indicates 'teachers_2019-2021_final_3-15-2021_signed.pdf'",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "Minneapolis Federation of Teachers (MFT)",
+    "page": "49",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "Signed document establishing negotiated terms and referencing 'contract language'",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable and readable throughout the provided section.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "References general 'state law' and 'Minnesota and national standards' but does not cite specific state statutes or administrative codes.",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

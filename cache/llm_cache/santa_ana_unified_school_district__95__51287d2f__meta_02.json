@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"The Evaluation Article of the CBA is intended to comply with the requirements of the California Education Code.\"\n\"Permanent unit members with a satisfactory evaluation the preceding year, including ROP teachers and categorically funded unit members who have been employed in the district at least three (3) consecutive preceding years, shall be evaluated every other school year except per Ed. Code 44938.\"\n\"Permanent unit members with at least ten (10) years of District service who are highly qualified (pursuant to ESEA/NCLB) and whose previous evaluation meets Standards may mutually agree in writing with her/his evaluator to be evaluated at least every five (5) years. The unit member or the evaluator may rescind this agreement at any time but not during the school year the evaluation is taking place except per Ed. Code 44938.\"\n\"Special education and support staff who complete the specialized SB 1969 training shall be eligible for and receive three (3) semester units.\"\n\"Part-time Employment - Unit members employed on a part-time basis shall be paid in accordance with Education Code 45025.\"\n\"The instructional day for unit members shall conform with the required minutes provided in Education Code, Section 46201.\"\n\"(These additional minutes are contingent upon the minutes required under Ed. Code revisions set forth in 1982-1983 [Longer Day-Longer Year--SB 813].\"",
+    "evidence": "\"The Evaluation Article of the CBA is intended to comply with the requirements of the California Education Code.\"\n\"Permanent unit members with a satisfactory evaluation the preceding year, including ROP teachers and categorically funded unit members who have been employed in the district at least three (3) consecutive preceding years, shall be evaluated every other school year except per Ed. Code 44938.\"\n\"Permanent unit members with at least ten (10) years of District service who are highly qualified (pursuant to ESEA/NCLB) and whose previous evaluation meets Standards may mutually agree in writing with her/his evaluator to be evaluated at least every five (5) years. The unit member or the evaluator may rescind this agreement at any time but not during the school year the evaluation is taking place except per Ed. Code 44938.\"\n\"Special education and support staff who complete the specialized SB 1969 training shall be eligible for and receive three (3) semester units.\"\n\"Part-time Employment - Unit members employed on a part-time basis shall be paid in accordance with Education Code 45025.\"\n\"The instructional day for unit members shall conform with the required minutes provided in Education Code, Section 46201.\"\n\"(These additional minutes are contingent upon the minutes required under Ed. Code revisions set forth in 1982-1983 [Longer Day-Longer Year--SB 813].\"",
+    "page": "11, 14, 22, 25, 40",
+    "confidence": "high",
+    "coder_notes": "Updated to include all explicit state law citations found in the provided text. Stage 1 missed Ed. Code 44938 (p. 11), Education Code 46201, and SB 813 (p. 40)."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "On-site teachers shall not be given a traveling teacher assignment if a physician verifies in writing that a reasonable accommodation under the Americans with Disabilities Act is recommended or that the teacher's health would be detrimentally affected.",
+    "evidence": "On-site teachers shall not be given a traveling teacher assignment if a physician verifies in writing that a reasonable accommodation under the Americans with Disabilities Act is recommended or that the teacher's health would be detrimentally affected.",
+    "page": "82",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Americans with Disabilities Act; ESEA/NCLB",
+    "evidence": "Americans with Disabilities Act; ESEA/NCLB",
+    "page": "10, 82",
+    "confidence": "high",
+    "coder_notes": "Added ESEA/NCLB citation from page 10, which Stage 1 missed. ADA citation from page 82 retained."
+  }
+}

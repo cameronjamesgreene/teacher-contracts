@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "The Board of Education may grant a maternity leave of absence without sick leave benefits to an employee upon recommendation of the Superintendent of Schools.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "\"Temporary disability\" is defined as any physical or mental condition of the employee, which would prevent the employee from performing assigned duties. Pregnancy is considered a temporary disability.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "The maximum period for maternity leave is one full year from the birth or adoption of the child.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "An employee who has been employed for at least 12 months and has worked at least 1,250 hours during the previous twelve-month period may take an unpaid family or medical leave of absence for a total of twelve work weeks during any twelve-month period.",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

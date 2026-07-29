@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "5.0% effective July 1, 2006; covers teacher salary tables and Home and Hospital teachers",
+    "evidence": "Salary tables improved by 5.0% effective July 1, 2006. Salaries for Home and Hospital teachers improved by 5% effective July 1, 2006",
+    "page": "25",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "7.07 Attendance Stipend; 7.08 Placement Stipend; 7.09 Knowledge and Skill Based Pay; 7.10 Senior Educator Differential; 8.03 School Instruction Chairperson; 8.05 Mentor Teacher",
+    "page": "26-29",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

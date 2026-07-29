@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The district has developed and promotes a comprehensive program to ensure the safety of its employees, students, and visitors.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "The district may close schools because of bad weather or emergency conditions. When such conditions exist, the Superintendent will make the official decision concerning the closing of the district’s facilities. When it becomes necessary to open late, to release students early, or to cancel school, district officials will post a notice on the district’s Web site and notify the following radio and television stations:",
+    "page": "62",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

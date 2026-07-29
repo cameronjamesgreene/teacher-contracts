@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No formal improvement, remediation, or professional support plans are described. Section 4.08.B outlines notification and conferences to suggest improvement for unsatisfactory performance, but does not establish a formal plan."
+  },
+  "evaluation_consequences_008": {
+    "answer": "yes",
+    "evidence": "d. The official evaluation and performance for the previous year.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": "Corrected list marker from 'b.' to 'd.' to match the original document text. Explicitly listed as a decision factor for involuntary transfers in Section 4.11.A.3, directly supporting the 'yes' answer."
+  }
+}

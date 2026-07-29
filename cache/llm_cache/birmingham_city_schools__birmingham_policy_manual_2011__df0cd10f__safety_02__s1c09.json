@@ -1,0 +1,14 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "If they refuse, the school district's security officer will be contacted immediately to escort the visitor from the school premises.",
+    "page": "8011",
+    "confidence": "medium"
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "DCPS_WTU_CBA_2023-2028.pdf",
+    "page": "101",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Effective upon DC Council approval through September 30, 2028; covers FY 2025–2028 (October 2024–October 2027).",
+    "evidence": "This Agreement shall be effective as of the date of DC Council approval, and shall remain in full force and effect until the 30th day of September 2028.",
+    "page": "101",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (Washington Teachers Union/WTU)",
+    "evidence": "Washington Teachers Union (WTU) and The District of Columbia Public Schools (DCPS)",
+    "page": "102",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This Agreement shall be effective as of the date of DC Council approval, and shall remain in full force and effect until the 30th day of September 2028.",
+    "page": "101",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

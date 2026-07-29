@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 days paid, or 5 days paid if out-of-state travel is required.",
+    "evidence": "A bargaining unit member shall be allowed not to exceed three (3) days, or five (5) days if out-of-state travel is required, on account of the death of any member of his/her immediate family. ... No deduction shall be made from the salary",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Mother, father, grandmother, grandfather, grandchild, spouse, son, son-in-law, daughter, daughter-in-law, brother, sister, stepmother, stepfather, and any relative living in the immediate household.",
+    "evidence": "mother, father, grandmother, grandfather, or a grandchild of the bargaining unit member or of the spouse of the bargaining unit member, and the spouse, son, son-in-law, daughter, daughter-in-law, brother or sister of the bargaining unit member, or any relative living in the immediate household of the employee. Members of the immediate family, as used in this section, shall be extended to include stepmother, stepfather and stepchild",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "A parental leave of absence without pay shall be granted to a bargaining unit member for the purpose of childbearing and/or child rearing as follows:",
+    "page": "46",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "A pregnant bargaining unit member who has not received leave as provided under the \"Parental Leave\" article of this Agreement is entitled to utilize accrued sick leave days and/or sub-deduct days for pregnancy disability subject to the following conditions: ... disability arising from pregnancy, childbirth, miscarriage and/or recovery therefrom.",
+    "page": "50",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "A bargaining unit member, upon receipt of notification of adoption shall be allowed to utilize accrued sick leave and sub-deduct days for adoption leave for a period of adjustment within the family unit. ... Leave pursuant to this section shall not exceed 20 teaching days.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "The District will comply with State and Federal laws/regulations regarding non-discrimination, sexual harassment, Americans with Disabilities Act, and Family Care and Medical Leave Act.",
+    "page": "57",
+    "confidence": "medium",
+    "coder_notes": "Answer preserved. The document explicitly names the act in Article 38, though it is a general compliance clause rather than a detailed policy, justifying medium confidence."
+  }
+}

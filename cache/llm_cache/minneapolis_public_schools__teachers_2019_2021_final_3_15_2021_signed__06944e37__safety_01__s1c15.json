@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "6.7.1 Physical Assault: In the event a teacher is physically assaulted by a student, parent, or other individual while in the performance of their duties, the teacher should inform the supervisor as soon as possible and the following procedure shall occur:",
+    "page": "136",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "6.6.2 Behavior Intervention: Students subject to discipline for defiance, disrespect and or verbal abuse of staff shall upon a third offense participate in an intervention for anger and/or behavior management.",
+    "page": "136",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

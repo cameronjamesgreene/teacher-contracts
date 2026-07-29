@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Family leave under this section shall be unpaid unless it is taken pursuant to 10.3.1 (pregnancy disability), 10.3.2 (child bonding [if the employee elects to exhaust his/her earned and accumulated sick leave]), above or is taken due to the employee’s own serious health condition.",
+    "page": "40",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "The District shall provide for leave of absence from duty for any teacher who is required to be absent from duties because of pregnancy, miscarriage, childbirth, and recovery therefrom.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Child Bonding Leave: During each school year, unit members may elect to utilize up to 12 weeks of child bonding leave occasioned by the birth of the employee’s child, or the placement of a child with the employee in connection with the employee’s adoption or foster care of the child as provided by Education Code section 44977.5.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Employees who have completed one year (twelve months) of service for the District and at least 1,250 hours of service during the previous one year (twelve months) period, have the right to an unpaid leave of absence for up to 12 workweeks within a rolling 12-month period for the purpose of the employee’s own serious health condition, caring for a new baby, a newly adopted child or a newly placed foster child or for a child, spouse, or parent with a serious health condition.",
+    "page": "40",
+    "confidence": "high"
+  }
+}

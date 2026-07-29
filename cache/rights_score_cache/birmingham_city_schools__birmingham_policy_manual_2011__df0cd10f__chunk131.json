@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "In collaboration with the school principal, the licensed school nurse will designate the unlicensed school personnel to assist with medication administration in the school setting.",
+      "subject_text": "the licensed school nurse",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Each delegated unlicensed person will be required to attend annual mandatory training sessions provided by the Department or Child Health.",
+      "subject_text": "Each delegated unlicensed person",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "The principal must attend medication administration training sessions.",
+      "subject_text": "The principal",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "Inservice training relative to (AIDS) shall becanducted   for scbool system employees.",
+      "subject_text": "Inservice training relative to (AIDS)",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Contains OCR typos ('becanducted', 'scbool') but captures operative duty."
+    }
+  ]
+}

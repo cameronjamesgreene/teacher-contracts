@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "All certified personnel who are not recommended for retention in accordance with these administrative procedures shall be terminated from employment and placed in an employment pool for one (1) school year for possible re-employment. ... If more than one such employee is qualified for an open position based on criteria authorized in this procedure, the most senior employee who was non-renewed shall be the first offered such position. Returning employees shall retain salary placement, service credit and accumulated sick leave. notification from the School District to such individual will be by certified or registered mail, or personal contact by the Superintendent or designee. Such individual will have ten (10) calendar days from receipt of the letter or from the date of personal contact to accept the position.",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "District affirmative action goals and seniority (years of experience) within certification categories and specialties",
+    "evidence": "Certified employees will be retained for available positions within each category or specialty on the basis of District affirmative action goals and seniority (years of experience) as a certified employee in education in the District as recorded in the District Superintendent’s office.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

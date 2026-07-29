@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "7.7.4 High School Athletics... 7.7.5 Co-Curricular Assignments... 7.7.6 Extra-Curricular Assignments... 7.7.7 Factors/Stipends... 7.7.8 Hourly Rate Factors",
+    "page": "28-35",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "The following stipends will be based on Class II, Step 5... BCLAD 5.0%... BCC 5.0%... CLAD 3.0%... Unit members holding a Bilingual or ELD certification... shall receive an annual stipend of $500.",
+    "page": "32-33",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

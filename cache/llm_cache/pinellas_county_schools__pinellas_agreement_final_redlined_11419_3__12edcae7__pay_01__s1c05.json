@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "There will be a Grandfathered Salary Schedule and a Performance Salary Schedule in accordance with s. 1012.22 F.S. The 2018-2019 salary schedule for instructional staff The annual salary for members of this bargaining unit shall be set forth in Appendices _____A through ___.A2 as follows:",
+    "page": "58",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2015-2016 and 2018-2019",
+    "evidence": "The 2018-2019 salary schedule for instructional staff... The 2015-2016 Grandfathered Salary Schedule includes one step advancement for all eligible teachers.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "incremental steps on the salary schedule are subject to renegotiations every year and are not automatically payable until such time as a new salary schedule has been ratified. The 2015-2016 Grandfathered Salary Schedule includes one step advancement for all eligible teachers. Florida Statutes prohibits salary adjustments based on experience for teachers on the Performance Salary Schedule. Therefore, there is no step advancement on the Performance Salary Schedule.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "ARTICLE 46745 CREDIT FOR PRIOR SERVICE ON SALARY SCHEDULE... Credit on the instructional salary schedule will be granted for all verified public school experience in accordance with state law.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "There will be a Grandfathered Salary Schedule and a Performance Salary Schedule in accordance with s. 1012.22 F.S.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

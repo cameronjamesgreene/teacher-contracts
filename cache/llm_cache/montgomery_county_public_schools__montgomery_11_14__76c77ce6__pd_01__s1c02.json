@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "The Councils on Teaching and Learning (CTL) continue to provide school-based unit members an opportunity to discuss, collaborate with MCPS staff and communicate about MCPS initiatives related to curriculum, assessment, instruction, and staff development.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

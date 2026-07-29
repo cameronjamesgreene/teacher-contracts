@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes; Sections A through E provide full procedures for teacher evaluation.",
+    "evidence": "Section A. Teacher Evaluation- General Provisions... Section B. Evaluation of Teachers on a Probationary Contract... Section C. Evaluation of Teachers on Annual Contract, Professional Service Contract (PSC) or Continuing Contract (CC)... Section D. Teacher's Remedy if Evaluation Process Not Followed... Section E. Provisional Remedy for the 2018-2019 Evaluation",
+    "page": "40-43",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Marzano Focused Model",
+    "evidence": "Beginning with the 2018-2019 school year, the School Board adopted the Marzano Focused Model following recommendations from the Appraisal Advisory Committee",
+    "page": "43",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "3 for probationary teachers; 2 for annual/PSC/CC teachers (one per semester)",
+    "evidence": "There will be at least two Informal Observations and three Formal Observations. must have at least two one Formal Observations, one to occur during the first semester and one to occur in the second semester.",
+    "page": "41-42",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "Formal: minimum 30 minutes; Informal: 10-20 minutes",
+    "evidence": "Formal Observation: This consists of a pre-observation conference between the administrator and the teacher, the observation, (which should be a minimum of 30 minutes) and a post observation conference with the teacher. Informal Observation: This observation is approximately 10-20 minutes with feedback.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Highly Effective, Effective, Developing or Unsatisfactory (first 3 years); Highly Effective, Effective, Needs Improvement or Unsatisfactory (subsequent years)",
+    "evidence": "teachers in their first three (3) years of employment will be rated as either Highly Effective, Effective, Developing or Unsatisfactory. All other teachers will be rated as either Highly Effective, Effective, Needs Improvement or Unsatisfactory.",
+    "page": "40",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "Yes; uses a student growth score as part of the Final Evaluation based on student achievement data.",
+    "evidence": "Final Evaluation: This includes all components of the Teacher Evaluation System. Specifically, it includes the instructional practice score... and the student growth score. The Final Evaluation shall be completed following the distribution of student achievement data results from the Florida Department of Education.",
+    "page": "40, 42",
+    "confidence": "high"
+  }
+}

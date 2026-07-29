@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "BIRMINGHAM CITY SCHOOLS... SCHOOL FACILITIES... CURRICULUM AND INSTRUCTION SERIES 7000",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Multiple policy approval dates from 1974 through 2005; specific curriculum changes effective 2001-2002 school year",
+    "evidence": "effective tJ:le 2001-2002 school year~ / APPROVED: July 6, 1974 / Revised: 8/9/05",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "not_applicable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "partially usable",
+    "evidence": "The text contains numerous OCR artifacts (e.g., 'recoaaendation', 'pre11lll1Ddravinla', 'cODtingency') but remains legible.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Legal Ref.: Code of Alabama, 1975,gl6-36-69",
+    "page": "26",
+    "confidence": "high"
+  }
+}

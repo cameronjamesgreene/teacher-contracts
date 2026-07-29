@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Teachers hired after July 1, 2000 who do not meet the credential requirements of Education Code Section 45023.1 shall be placed on the emergency and intern teachers salary schedule.\nOnly professional preparation credits as defined by California Administrative Code, Title 5, as were earned as part of the requirement for such credential, if taken prior to acquiring the credential, shall be accepted for the purpose of classification advancement.\nWhen a tenure-track teacher serves less than a full school year, the amount to be deducted is as provided in the State Education Code, Section 45041.\nThe “average daily rate” as applied to annual salaries of regularly assigned teachers is determined as provided in the State Education Code, Section 45041.\nLong-term substitute teachers shall be paid as provided in the State Education Code Section 45041.\nSubstitute teachers shall be required to participate in the State Disability Insurance Plan in accordance with elective coverage of the California Unemployment Insurance Code.\nPursuant to Section 44014 of the Education Code teachers shall promptly report cases of attack assault or menace suffered by them in connection with their employment to their principal or immediate supervisor and to the appropriate law enforcement authorities.\nThe District shall indemnify and hold harmless, in accordance with applicable Government Code sections, any unit member who performs health care services.",
+    "evidence": "Teachers hired after July 1, 2000 who do not meet the credential requirements of Education Code Section 45023.1 shall be placed on the emergency and intern teachers salary schedule.",
+    "page": "34, 35, 39, 40, 43, 44",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Harmful Chemicals – Removal and cleanup of hazardous materials, shall be handled in accordance with all applicable federal and state laws and regulations that apply to California K-12 public schools by persons specially trained in such procedures.\nThe District will comply with federal and state laws and regulations applicable to California K-12 public Schools with regard to asbestos removal.",
+    "evidence": "Harmful Chemicals – Removal and cleanup of hazardous materials, shall be handled in accordance with all applicable federal and state laws and regulations that apply to California K-12 public schools by persons specially trained in such procedures.",
+    "page": "42",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal and state laws and regulations applicable to California K-12 public schools",
+    "evidence": "Harmful Chemicals – Removal and cleanup of hazardous materials, shall be handled in accordance with all applicable federal and state laws and regulations that apply to California K-12 public schools by persons specially trained in such procedures.",
+    "page": "42",
+    "confidence": "high"
+  }
+}

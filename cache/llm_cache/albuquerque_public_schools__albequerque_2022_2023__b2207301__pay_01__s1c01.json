@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes. Title: Appendix A – SALARY MATRICES; Year: 2022-2023; Group: Licensed employees/Educators; Appendix: A (p. 97)",
+    "evidence": "APPENDIX A – SALARY MATRICES .................................................................................. 97\n  Appendix A.1 2022-2023 Salary Matrix A1....................................................................... 98",
+    "page": "5",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2022-2023",
+    "evidence": "Appendix A.1 2022-2023 Salary Matrix A1",
+    "page": "5",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

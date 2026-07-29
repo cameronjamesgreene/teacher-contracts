@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "TK-12 teachers paid either on the Credentialed Teachers or Non-Credentialed Teachers Salary Schedules have a work year of 184 days, including three (3) Staff Development buy-back days.",
+    "page": "41",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

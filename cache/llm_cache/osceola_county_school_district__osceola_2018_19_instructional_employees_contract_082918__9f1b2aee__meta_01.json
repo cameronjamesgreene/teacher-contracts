@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "INSTRUCTIONAL EMPLOYEES CONTRACT BETWEEN THE SCHOOL BOARD OF OSCEOLA COUNTY, FLORIDA (OCSB) AND THE OSCEOLA COUNTY EDUCATION ASSOCIATION (OCEA)",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 01, 2018 through June 30, 2019",
+    "evidence": "July 01, 2018 through June 30, 2019",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees / Teachers (certificated personnel)",
+    "evidence": "The term \"Teacher\" when used in this Contract shall refer to all teachers who are regularly employed certificated personnel except those specifically excluded.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "IN CONSIDERATION OF THE FOLLOWING MUTUAL COVENANTS, IT IS HEREBY AGREED as follows:",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "the impasse procedure in Chapter 447, Florida Statutes, shall apply.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

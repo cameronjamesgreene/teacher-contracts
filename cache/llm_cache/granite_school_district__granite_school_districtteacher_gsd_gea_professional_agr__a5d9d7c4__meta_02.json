@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Any discontinuance or curtailment of funds by the program's funding agency shall constitute the discontinuance of a particular service (i.e. program) within the meaning of Section 53A-8-107 Utah Code, justifying the nonrenewal of employment contracts for the teachers in that program as a necessary staff reduction. The Board, the Association, all teachers covered by this Agreement, and all provisions of this Agreement are subject to the laws and Constitution of the State of Utah and of the United States, and to the regulations and orders of state and federal governmental agencies. Pursuant to state law, the Board may enter into individual employment contracts without violating this Agreement. Except as otherwise specifically provided in this Agreement, the Board retains and reserves unto itself the sole and exclusive right to the executive management and administrative control of the school system, along with all other rights, powers, authority, duties, and responsibilities conferred upon and vested in it by the laws and Constitution of the State of Utah and the United States, including, but not limited to, the following rights and responsibilities: The Board recognizes the Association as the exclusive representative of the teachers provided, however, any individual teacher shall have the right to present grievances with or without representation by the Association, in accordance with the Grievance Procedure provided herein (see Article 6); and provided further, that nothing in this Agreement shall be so construed as to deprive any individual of his or her rights under the Utah Right to Work Law. Such non-renewals shall not be considered a violation of this Agreement and the teachers involved shall not be entitled to a formal hearing under the Utah Orderly School Termination Procedures Act.",
+    "evidence": "Any discontinuance or curtailment of funds by the program's funding agency shall constitute the discontinuance of a particular service (i.e. program) within the meaning of Section 53A-8-107 Utah Code, justifying the nonrenewal of employment contracts for the teachers in that program as a necessary staff reduction. The Board, the Association, all teachers covered by this Agreement, and all provisions of this Agreement are subject to the laws and Constitution of the State of Utah and of the United States, and to the regulations and orders of state and federal governmental agencies. Pursuant to state law, the Board may enter into individual employment contracts without violating this Agreement. Except as otherwise specifically provided in this Agreement, the Board retains and reserves unto itself the sole and exclusive right to the executive management and administrative control of the school system, along with all other rights, powers, authority, duties, and responsibilities conferred upon and vested in it by the laws and Constitution of the State of Utah and the United States... nothing in this Agreement shall be so construed as to deprive any individual of his or her rights under the Utah Right to Work Law. Such non-renewals shall not be considered a violation of this Agreement and the teachers involved shall not be entitled to a formal hearing under the Utah Orderly School Termination Procedures Act.",
+    "page": "3, 4, 5, 15",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly capture all sentences citing state statutes/laws across the cited pages. Original answer accurately compiled these references."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

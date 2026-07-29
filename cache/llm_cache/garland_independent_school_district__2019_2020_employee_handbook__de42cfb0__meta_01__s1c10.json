@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Policy Manual",
+    "evidence": "PERSONNEL-MANAGEMENT RELATIONS DGBA (LOCAL)",
+    "page": "136",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees",
+    "evidence": "Each District employee shall perform his or her duties in accordance with state and federal law, District policy, and ethical standards.",
+    "page": "143",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "relief he or she has requested, the grievance shall be deemed resolved, and a copy of the written resolution shall be provided to the employee.",
+    "page": "136",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code 21.041(8); 19 TAC 247.1(b), (c)",
+    "page": "141",
+    "confidence": "high"
+  }
+}

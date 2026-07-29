@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees are required to disclose to their supervisor any situation that creates a potential conflict of interest with proper discharge of assigned duties and responsibilities or creates a potential conflict of interest with the best interests of the district. This includes the following: A personal financial interest, A business interest, Any other obligation or relationship. An employee with a substantial interest in a business entity or interest in real property must disclose the interest to the district prior to the award of a contract or authorization of payment.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Employees shall comply with the standards of conduct set out in this policy and with any other policies, regulations, and guidelines that impose duties, requirements, or standards attendant to their status as District employees. Violation of any policies, regulations, or guidelines may result in disciplinary action, including termination of employment.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Northside ISD is committed to maintaining an alcohol- and drug-free environment and will not tolerate the use of alcohol and illegal drugs in the workplace and at school-related or school-sanctioned activities on or off school property. The District prohibits the unlawful distribution, possession, or use of illegal drugs, inhalants, and alcohol on school premises or as part of any of the District’s activities. Employees who violate this prohibition shall be subject to disciplinary sanctions.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "The district’s electronic communications systems, including its network access to the Internet, is primarily for administrative and instructional purposes. Limited personal use of the system is permitted if the use: Imposes no tangible cost to the district; Does not unduly burden the district’s computer or network resources; Has no adverse effect on job performance or on a student’s academic performance. Electronic mail transmissions and other use of the electronic communications systems are not confidential and can be monitored at any time to ensure appropriate use.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

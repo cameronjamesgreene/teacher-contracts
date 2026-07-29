@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "5 days (State Personal Leave, which replaced traditional sick leave) plus 2 days Local Leave",
+    "evidence": "each full-time employee is advanced a total of seven days of paid leave of which five are required by the state and two are provided by local policy.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, accumulates with no limit/cap",
+    "evidence": "State Personal Leave ... given to all full-time employees at the rate of five days per year with no limit on accumulation.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Family Illness is listed as an acceptable use for Old State Sick Leave, Local Leave, and Extended Leave; State Personal Leave 'may be used for any reason.'",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "7 days total advanced annually (5 State Personal Leave + 2 Local Leave)",
+    "evidence": "State Personal Leave ... is given to all full-time employees at the rate of five days per year ... Local Leave - currently given at the rate of two days per year ... Senate Bill 1 eliminated “Personal Business Days.”",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "May not be taken for discretionary reasons on days scheduled for state-mandated assessments; documentation may be required for absences over 5 consecutive days.",
+    "evidence": "This leave may not be taken for a discretionary reason on days scheduled for state-mandated assessments.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

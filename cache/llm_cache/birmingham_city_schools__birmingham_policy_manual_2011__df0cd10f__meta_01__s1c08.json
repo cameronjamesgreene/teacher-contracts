@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "birmingham_policy_manual_2011.pdf",
+    "page": "multiple",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Multiple policies with approval/revision dates ranging from 1974 to 2005/2011",
+    "evidence": "APPROVED: 8/20/74 REVISED: 4/21/81 REVISED: 8/11/87",
+    "page": "multiple",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "not_applicable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "policy",
+    "evidence": "It is the acceptable use policy of the Birmingham Public Schools to provide all students and employees with the opportunities to access a variety of technology resources.",
+    "page": "7300",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Full text is extractable, though contains minor OCR artifacts.",
+    "page": "multiple",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "The Birmingham City School Board of Education will adhere to the State of Alabama Testing Program.",
+    "page": "7182",
+    "confidence": "medium"
+  }
+}

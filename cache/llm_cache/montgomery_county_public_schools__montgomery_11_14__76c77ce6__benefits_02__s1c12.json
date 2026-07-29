@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "Board pays the balance for contribution at full salary (academic leave) or pays employee contributions (professional improvement leave).",
+    "evidence": "the Board of Education shall pay the balance for contribution at the full salary.",
+    "page": "73",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Unit members shall retain membership in the Employee Benefit Plan, for which deductions shall be made for the period of leave, and the Board shall continue to make its contributions thereto.",
+    "page": "73",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

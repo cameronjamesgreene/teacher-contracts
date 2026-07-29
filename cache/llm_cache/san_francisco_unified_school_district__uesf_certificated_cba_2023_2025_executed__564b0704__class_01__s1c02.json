@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "9.1 The Union and District agree to work together to create a process which, in consideration of limited monetary resources, produces the lowest class size possible.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "TK-Grade 3: 22 students/teacher; Grades 4-5: 30 students; Other combinations: lower of component grades. (TK goal: 1:11 ratio)",
+    "evidence": "9.5.1.1 TK – Grade 3………………………………………………22 (per section 9.3.1.1) 9.5.1.2 Grades 4-5………………………………………………………………… 30 9.5.1.3 Other combinations will have the lower class size of the component grades.",
+    "page": "20",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "Middle: English/ELD/Reading/Math Lab: 25; World Lang/Math/Science/Health Ed/Business/CTE: 30; Social Studies: 55; Art/Homemaking/Industrial Arts/Music/Core Program: 28; PE: 37. High: English/ELD/Reading/Math Lab: 25; World Lang/Science/Health Ed/Career Ed: 30; Social Studies/Drivers Ed: 30; Trade/Industry: 25; Art/Homemaking/Industrial Arts/Music/CTE: 28; PE: 37.",
+    "evidence": "9.5.2.1 English………….………………………………...….……………………. 25 9.5.2.5 Social Studies……….………………………………………………...…… 55 9.5.3.1 English……………….……….…………...……………………………….. 25 9.5.3.5 Social Studies…………………………………………...…………………. 30",
+    "page": "21-22",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "9.3.1.2.1 The teacher assigned the additional students shall receive $1,000 ($500 per semester) for the following activities: 9.3.1.2.3 Each teacher shall also receive two (2) days per semester of relief time as defined in contract section 7.2.6.1.5 for duty-free preparation.",
+    "page": "18",
+    "confidence": "high"
+  }
+}

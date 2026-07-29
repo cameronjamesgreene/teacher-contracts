@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The District agrees to provide a program of life, medical, and dental insurance benefits for educators.",
+    "page": "88",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "At least 60 percent of the premium",
+    "evidence": "the District agrees to contribute that percentage of the premium required by state law, but no less than 60 percent.",
+    "page": "87",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Medical coverage shall continue to be available for the employee and any dependents under their current group insurance policy in existence at the time of paid parental leave.",
+    "page": "108",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "PPO",
+    "evidence": "A Preferred Provider Organization (PPO) also may be offered.",
+    "page": "88",
+    "confidence": "high",
+    "coder_notes": "Revised answer to 'PPO' to strictly align with the explicit evidence quoted. The original answer included 'District medical/health plan', which is not explicitly listed as a plan type in the cited passage."
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "The District agrees to provide a program of life, medical, and dental insurance benefits for educators.",
+    "page": "88",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

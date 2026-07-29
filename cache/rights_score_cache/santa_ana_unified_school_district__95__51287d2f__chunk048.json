@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "The District shall provide the Association the names of unit members needing make-up days by March 1 of each year.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The District will make a good faith effort to provide class sizes in grades one and two that are below the average class size as stated in (a) below.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "An analysis of average class size by schools shall be made no later than the end of the third week of school to identify schools exceeding the average class size.",
+      "subject_text": "An analysis of average class size by schools",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "Class sizes for grades K-3 shall not exceed the limitations of Education Code Sections 41376 and 41378 (kindergarten=31; grades 1-3=30).",
+      "subject_text": "Class sizes for grades K-3",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "If a class is over the cap, the District will correct this as soon as possible",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "but in no event shall the time for the correction exceed three weeks.",
+      "subject_text": "the time for the correction",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "class_size",
+      "notes": "Contextually negated by 'in no event'."
+    },
+    {
+      "quote": "If the average class size increases to (or exceeds) the following, additional staffing unit(s) (equivalent of one teacher) shall be provided to be used for direct classroom assistance.",
+      "subject_text": "additional staffing unit(s) (equivalent of one teacher)",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "The unit members affected shall be given the opportunity to make recommendations concerning the utilization of the additional staffing unit(s).",
+      "subject_text": "The unit members affected",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "If any individual academic class enrollment exceeds the figures above by three (3), and fifty percent (50%) or more of the students are LEP students, serious consideration for additional assistance to the teacher will be given.",
+      "subject_text": "serious consideration for additional assistance to the teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    }
+  ]
+}

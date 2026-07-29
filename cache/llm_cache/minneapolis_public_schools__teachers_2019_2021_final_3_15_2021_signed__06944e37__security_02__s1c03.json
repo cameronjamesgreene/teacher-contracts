@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "3.6.1 Licensure: Requirement: All teachers are required to hold an active teaching license in the State of Minnesota pursuant to MN Statute §122A.18. Only teachers with valid Minnesota licenses can teach, transfer, or teach summer school. All teachers are required to furnish valid Minnesota licenses in all field(s) for which they are employed.",
+    "page": "25",
+    "confidence": "high"
+  }
+}

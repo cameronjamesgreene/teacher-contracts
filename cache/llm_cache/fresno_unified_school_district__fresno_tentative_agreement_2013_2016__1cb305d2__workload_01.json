@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "180 days for Pre-Kindergarten teachers; 183 days for PACE teachers.",
+    "evidence": "Pre-Kindergarten teachers work year shall be 180 contact days... PACE teachers shall work 183 days.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "8 hours",
+    "evidence": "The work day for all full-time Early Childhood Teachers shall be eight (8) hours.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each school schedule shall provide weekly preparation time for all elementary teachers within the duty day",
+    "page": "31",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: 480 minutes/week (at least one 45-min block/day); Elementary: 45 minutes/day for 156 days",
+    "evidence": "Secondary: Teachers shall be provided 480 minutes per week for preparation time within the work day in blocks no shorter than thirty (30) minutes with at least one block of forty-five (45) minutes per day within the work day. Elementary: Teachers will be provided a 45 minute block of time for preparation and planning during the Duty Day... The preparation time set forth herein shall be provided on at least 156 days out of the traditional 180 day schedule.",
+    "page": "30, 31",
+    "confidence": "high",
+    "coder_notes": "Combined evidence from Sections 4.2 (Secondary) and 5.2.2 (Elementary) to fully support the specific answer."
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "All preparation time allocated within the 7 hours (420 minutes) as described in 1.2 shall be utilized for duties set forth above in 2.1.1 - 2.1.12 as determined by the teacher, with the exception of being available to parents and students.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Early Childhood Teachers working in Child Development setting shall receive a thirty (30) minute duty-free lunch within their work day.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

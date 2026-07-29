@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "1.0% percent increase, effective 7-1-2019, covering Schedule A",
+    "evidence": "SCHEDULE A: 7–1–2019 TO 6–30–2020 (1.0% EFF. 7-1-2019)",
+    "page": "225",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

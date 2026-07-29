@@ -1,0 +1,132 @@
+{
+  "status_counts": {
+    "CORRECT": 17,
+    "PARTIAL": 3,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+  },
+  "items": [
+    {
+      "chunk": "1",
+      "doc": "prince_georges_county_public_schools",
+      "status": "PARTIAL",
+      "note": "Quote verbatim (right col, lines 60-62). But llm_judgment blank and protected_party blank (only item with empty judgment; beneficiaries are reps/principals). modal/voice/acting_party correct."
+    },
+    {
+      "chunk": "21",
+      "doc": "prince_georges_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (left col L548-552). acting_party/protected_party/modal(shall)/voice(passive)/obligation all right. topic='leave' dubious (clause is about the school calendar), but topic not scored."
+    },
+    {
+      "chunk": "37",
+      "doc": "prince_georges_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (right col L947-949). may/passive/permission correct; management as permission-holder consistent; topic=transfers correct."
+    },
+    {
+      "chunk": "60",
+      "doc": "prince_georges_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim in left col L1542-1544 (leave-provisions clause, not the similar sabbatical clause at L1485). shall/active/right/worker/leave all correct."
+    },
+    {
+      "chunk": "82",
+      "doc": "prince_georges_county_public_schools",
+      "status": "PARTIAL",
+      "note": "Verbatim (left col L2065-2066). Field inconsistency: statement_type='right' but llm_judgment='obligation'. will/passive/negation correct ('no cost' is a condition, not verb negation)."
+    },
+    {
+      "chunk": "8",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "PARTIAL",
+      "note": "Quote present verbatim (truncated mid-word 'servi[ce]'). voice='passive' is wrong: verbs 'who left'/'who will be returning' are active. Fragment is a coverage-definition clause, permission label a stretch."
+    },
+    {
+      "chunk": "44",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Verbatim. shall/negation=True/passive/prohibition all correct; management acts, worker protected; discipline apt."
+    },
+    {
+      "chunk": "71",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Verbatim. is invited->permission correct; passive correct. modal='will' taken from subordinate 'will be addressed' not main verb 'is invited', minor provenance quibble."
+    },
+    {
+      "chunk": "99",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Verbatim (L4112). Professional-leave accrual cap -> topic=professional_development correct; obligation/shall/active fine. protected_party=management defensible (cap serves employer's limit)."
+    },
+    {
+      "chunk": "121",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Verbatim. Superintendent(mgmt) shall meet grievant(worker); active/shall/obligation/discipline all correct."
+    },
+    {
+      "chunk": "13",
+      "doc": "school_district_of_philadelphia",
+      "status": "CORRECT",
+      "note": "Near-verbatim (L473-474; OCR hyphen 'author-ity'). No modal, active correct. statement_type/judgment 'other' for a management-rights reservation is defensible (arguably a 'right')."
+    },
+    {
+      "chunk": "39",
+      "doc": "school_district_of_philadelphia",
+      "status": "CORRECT",
+      "note": "Near-verbatim (L1580; soft-hyphen 'reten-tion'). School District shall pay->obligation; active/shall/worker/compensation all correct."
+    },
+    {
+      "chunk": "66",
+      "doc": "school_district_of_philadelphia",
+      "status": "CORRECT",
+      "note": "Verbatim. Principal may hold conference->permission; may/active correct; management as permission-holder consistent; evaluation apt."
+    },
+    {
+      "chunk": "90",
+      "doc": "school_district_of_philadelphia",
+      "status": "CORRECT",
+      "note": "Verbatim. shall be merged->passive/obligation correct; procedural seniority-list rule, protected_party=management debatable but no clear beneficiary; transfers apt."
+    },
+    {
+      "chunk": "110",
+      "doc": "school_district_of_philadelphia",
+      "status": "CORRECT",
+      "note": "Verbatim. shall be permitted->passive/permission; management grants, worker protected; leave correct."
+    },
+    {
+      "chunk": "9",
+      "doc": "seattle_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (L356). Work-preservation: shall be performed only by SEA->passive/obligation; worker/worker correct; 'only by' not a verb negation; topic=other ok."
+    },
+    {
+      "chunk": "46",
+      "doc": "seattle_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim. employee will participate->active/will/obligation; worker acts; protected_party=management (meeting convenor) acceptable; evaluation correct."
+    },
+    {
+      "chunk": "85",
+      "doc": "seattle_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (L3584). 'has a right to'->right, empty modal correct, active; worker/worker; discipline apt."
+    },
+    {
+      "chunk": "115",
+      "doc": "seattle_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim. will receive->active/will/right; worker protected. acting_party=worker (recipient) vs mgmt used for similar PG-60; topic=compensation loose (move days) but not scored."
+    },
+    {
+      "chunk": "155",
+      "doc": "seattle_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim. administrator shall contact->active/shall/obligation; management acts, grievant(worker) protected; discipline apt."
+    }
+  ],
+  "quote_fabrications": 0,
+  "notes": "20/20 quotes verbatim or near-verbatim (2 OCR de-hyphenations in Philadelphia); no fabrications; all quote_verified=True accurate. Many MISSes on first pass were multi-column-layout interleaving in PG/Philadelphia truth, not extraction errors. 3 PARTIALs: PG-1 blank llm_judgment+protected_party; PG-82 statement_type vs llm_judgment mismatch; PB-8 voice=passive should be active."
+}

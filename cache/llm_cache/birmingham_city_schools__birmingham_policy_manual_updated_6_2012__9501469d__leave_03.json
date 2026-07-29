@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided original document contains only form-feed characters and newlines with no substantive text. The 'not_discussed' answer is retained as there is no content to evaluate."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Compensated at the employee’s hourly rate for lost preparation time and/or the loss of employee’s thirty (30)-minute duty free lunch can be obtained from the APS Payroll Department.",
+    "page": "25",
+    "confidence": "high"
+  }
+}

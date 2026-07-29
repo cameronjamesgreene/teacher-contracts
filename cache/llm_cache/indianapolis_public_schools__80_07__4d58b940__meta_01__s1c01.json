@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Agreement between the BOARD OF SCHOOL COMMISSIONERS OF THE CITY OF INDIANAPOLIS and the INDIANAPOLIS EDUCATION ASSOCIATION",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2007-2008, 2008-2009, and 2009-2010",
+    "evidence": "2007-2008, 2008-2009, and 2009-2010",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All licensed contractual employees, including licensed teachers, social workers, guidance counselors, school psychologists, nurses, speech and language pathologists, teachers on special assignment, lead teachers, instructional coaches, and media specialists.",
+    "evidence": "all licensed contractual employees of the Board including licensed teachers, social workers, guidance counselors, school psychologists, nurses, speech and language pathologists, teachers on special assignment, lead teachers, instructional coaches, and media specialists",
+    "page": "2",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "This Agreement is entered into, by and between the Board of School Commissioners of the City of Indianapolis, Indiana, hereinafter called the \"Board\" or \"IPS,\" and the Indianapolis Education Association, hereinafter called the \"Association\" or \"IEA.\"",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The provided text is fully extractable and legible throughout.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "under provisions of Indiana Public Law 217, and rules and regulations of the Indiana Education Employment Relations Board.",
+    "page": "2",
+    "confidence": "high"
+  }
+}

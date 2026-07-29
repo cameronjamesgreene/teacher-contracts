@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "MOU",
+    "evidence": "MEMORANDUM OF UNDERSTANDING BETWEEN THE BOARD OF EDUCATION AND PRINCE GEORGE’S COUNTY EDUCATORS’ ASSOCIATION",
+    "page": "38",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Ratified October 25, 2007; reaffirmed in 2008.",
+    "evidence": "reaffirming the above modifications as were originally fully ratified on October 25, 2007. ... this ____________day of ________________________, 2008",
+    "page": "38",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "PGCEA unit members / teachers / certificated staff",
+    "evidence": "As professionals, PGCEA unit members work with students in ways that go beyond the classroom...",
+    "page": "38",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "These Modifications contain the final and entire agreement between the parties hereto...",
+    "page": "38",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "PUBLIC SCHOOL LAW 4-205 (c) (2) ... NEGOTIATIONS LAW Education Article, Subtitle 4 of Title 6 The Annotated Code of Maryland",
+    "page": "39",
+    "confidence": "high"
+  }
+}

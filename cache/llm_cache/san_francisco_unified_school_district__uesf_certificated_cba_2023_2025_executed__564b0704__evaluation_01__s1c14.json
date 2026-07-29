@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "develops and promotes a standards-based, growth oriented evaluation system for all teachers.",
+    "page": "203",
+    "confidence": "medium"
+  },
+  "evaluation_system_002": {
+    "answer": "standards-based, growth oriented evaluation system; Peer Assistance and Review (PAR) Program",
+    "evidence": "develops and promotes a standards-based, growth oriented evaluation system for all teachers.",
+    "page": "203",
+    "confidence": "medium"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

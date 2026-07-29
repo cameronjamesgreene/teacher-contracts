@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "All employees have the responsibility to report suspected child abuse as outlined in Idaho Code 16-1619 within twenty-four (24) hours to the proper authority.",
+    "evidence": "All employees have the responsibility to report suspected child abuse as outlined in Idaho Code 16-1619 within twenty-four (24) hours to the proper authority.",
+    "page": "6",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Certified employees will follow district policy, state and federal laws, rules and regulations.",
+    "evidence": "Certified employees will follow district policy, state and federal laws, rules and regulations.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal laws",
+    "evidence": "Certified employees will follow district policy, state and federal laws, rules and regulations.",
+    "page": "4",
+    "confidence": "high"
+  }
+}

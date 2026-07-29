@@ -1,0 +1,90 @@
+[
+  {
+    "file": "certificated_employees_factor_placement_schedule__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "103",
+    "cells_checked": 52,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "All 13 classifications match truth exactly (factors + work days); SARB 0.09/1.0386 correct. No OCR noise."
+  },
+  {
+    "file": "basic_salary_schedule_effective_july_1_2007_schedu__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "108",
+    "cells_checked": 44,
+    "cells_wrong": 6,
+    "status": "PARTIAL",
+    "audit_note": "JROTC 16-col overlapping schedule collapsed to 4 cols (Class II-IV credential subcols dropped). Levels 0-7 match truth exactly; levels 8-10 impose left-empty triangular pattern conflicting with truth's filled left cells."
+  },
+  {
+    "file": "career_increment__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "104",
+    "cells_checked": 15,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Teachers Cls IV L10 career increment; all 5 rows match truth (1.6-8.0%, 1092.12/69349.31...5460.57/73717.76). Contamination + uniform-progression warnings are FALSE POSITIVES; values genuine in source."
+  },
+  {
+    "file": "child_development_center_pace_teachers_effective_j__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "105",
+    "cells_checked": 45,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Child Dev annual salary C-1..C-9, 5 classes; every value + triangular empties match truth exactly. No OCR noise."
+  },
+  {
+    "file": "child_development_center_pace_teachers_effective_j__fta_fresno_teachers_association_cba_2010__p110-112.csv",
+    "source_page": "110-112",
+    "cells_checked": 45,
+    "cells_wrong": 2,
+    "status": "PARTIAL",
+    "audit_note": "Child Dev hourly. C-1..C-8 correct; grid re-aligned C-6/C-7 to the verified annual diagonal (better than noisy OCR dup 21.06/22.03). C-9 misaligned: III filled 22.03 + IV=22.96 (C-8/V value) vs truth IV=22.03,III empty."
+  },
+  {
+    "file": "fresno_unified_school_district_basic_salary_schedu__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "104",
+    "cells_checked": 44,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Teachers/Librarians/Nurses Basic Salary L0-10, 4 classes; all values + triangular empties match truth exactly. No OCR noise."
+  },
+  {
+    "file": "pre_school_teachers_effective_july_1_2007_183_duty__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "106",
+    "cells_checked": 40,
+    "cells_wrong": 1,
+    "status": "PARTIAL",
+    "audit_note": "Pre-School annual. R1-R4/R8 exact incl. OCR digit error carried faithfully (R-1/III=36377.53, should be ~29326). R5-R7 re-aligned to correct diagonal (matches hourly-truth structure) vs left-shifted annual OCR."
+  },
+  {
+    "file": "pre_school_teachers_effective_july_1_2007_hourly_r__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "106",
+    "cells_checked": 40,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Pre-School hourly R-1..R-8, 5 classes; all values + empties match truth exactly. Confirms sibling annual grid's R5-R7 alignment."
+  },
+  {
+    "file": "regular_summer_school_salary_schedule__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "109",
+    "cells_checked": 3,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "3240.00/3720.00/4650.00 for 4hrs@27d, 4hrs@31d, 5hrs@31d all match truth. Single-lane warning is accurate (source has one column)."
+  },
+  {
+    "file": "supplemental_compensation_for_district_assigned_wo__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "109",
+    "cells_checked": 1,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Hourly Rate 30.00 matches truth ($30.00 Per Hour). Single scalar correctly extracted."
+  },
+  {
+    "file": "career_increment__fta_fresno_teachers_association_cba_2010.csv",
+    "source_page": "108",
+    "cells_checked": 15,
+    "cells_wrong": 10,
+    "status": "INCORRECT",
+    "audit_note": "unknown_year folder. DUPLICATE of the Teachers career-increment grid (1092.12/69349.31...); should hold the distinct JROTC career increment (truth p108: 1286.92/81719.72...6434.62/86867.42). Percent col right; increment+salary cols wrong."
+  }
+]

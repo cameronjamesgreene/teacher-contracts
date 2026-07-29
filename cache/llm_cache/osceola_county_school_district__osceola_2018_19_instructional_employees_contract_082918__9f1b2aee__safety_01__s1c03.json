@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Teachers shall immediately report any such incidents to their principal. ... the Board shall provide legal counsel to advise the teacher of his/her rights and obligations with respect to such intimidation, assault, battery, abuse or bodily harm, and shall promptly render assistance ... The Board shall reimburse teachers for damage to clothing, dentures, eyeglasses, prosthetic devices, or artificial limbs where such damage occurs as a result of: assault and/or battery occurring on him/her suffered in the course of his/her assigned duties. ... When an employee is assaulted or battered while in the line of duty, the work site shall maintain a record of the incident.",
+    "page": "34-35",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Students shall be disciplined according to the School Board’s Code of Student Conduct. ... State required discipline statistics will be made available for review annually by the faculty steering and discipline committees. ... The Association shall appoint a teacher from each level annually ... to assist in the review of the School District Student Code of Conduct.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "a teacher may temporarily exclude a student from class by sending the student to the principal's office when the grossness of the offense, the persistence of the misbehavior, or the disruptive effect of the behavior makes the continued presence of the student in the classroom intolerable. ... The teacher shall be informed in writing of the principal's disposition no later than the time the student is returned to the classroom.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

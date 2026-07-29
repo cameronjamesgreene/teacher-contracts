@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "In case of a tornado or hurricane warning... Students will line up against the wall of their own classroom... seated in a comfortable position on the floor. Teachers should be the last to leave the room... Teachers are required to turn off the lights in their rooms and close the doors. TEACHERS MUST TAKE THEIR STUDENT ROSTER WITH THEM AND CHECK ROLL",
+    "page": "157",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Initiate classroom discussion of potential student involvement in helping keep halls, rooms, and the entire building clean. The need for repairs or maintenance to the room, furniture, or equipment should be reported to the assistant principal or principal using the work order system.",
+    "page": "156",
+    "confidence": "medium"
+  }
+}

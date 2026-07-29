@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "if the Supervisor determines as a result of the DCPS evaluation process that a Teacher has an average score of less than 2.5 in Planning domain of the Teaching and Learning Framework, then the Supervisor may require the Teacher to submit daily lesson plans for review and comment until such time that the Teacher’s planning has satisfactorily improved.",
+    "page": "83",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Teaching and Learning Framework",
+    "evidence": "Planning domain of the Teaching and Learning Framework",
+    "page": "83",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "Parents and other school patrons will be involved early in the discussions pertaining to possible school closing and consolidation.",
+      "subject_text": "Parents and other school patrons",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Procedural involvement statement; not a strict Hohfeldian entitlement."
+    },
+    {
+      "quote": "An orderly procedure including the prOVision of information to all who would be affected will be used when closing a school or consolidating it with another school is under consideration.",
+      "subject_text": "An orderly procedure including the prOVision of information to all who would be affected",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Procedural directive without specific substantive right."
+    },
+    {
+      "quote": "Parents wUl be informed in advance regarding recommendations and possible Board action.",
+      "subject_text": "Parents",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Passive construction implies district obligation to notify."
+    },
+    {
+      "quote": "The possession of firearms or other dangerous weapons by students and/or staff members shall be prohibited on school system property and school sponsored events at all times and in school vehicles at all times, except as authorized by the Superintendent of Schools.",
+      "subject_text": "The possession of firearms or other dangerous weapons by students and/or staff members",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": "Applies to staff and students; protects district safety/liability."
+    },
+    {
+      "quote": "Employees are expected to comply with the policy regarding a gun-free environment.",
+      "subject_text": "Employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

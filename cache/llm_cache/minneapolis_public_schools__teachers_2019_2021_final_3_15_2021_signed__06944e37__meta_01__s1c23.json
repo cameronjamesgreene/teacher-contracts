@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA (Teacher Contract)",
+    "evidence": "all other rights covered by this Agreement.",
+    "page": "215",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Salary schedule covers July 1, 2019 to June 30, 2020; Layoff exemptions apply to School Year 2020-2021 through 2022-2023.",
+    "evidence": "SCHEDULE A: 7–1–2019 TO 6–30–2020",
+    "page": "225",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (MFT members), Licensed School Nurses, Audiologists, DAPE Teachers, OT/PT, Psychologists, and Speech-Language Clinicians.",
+    "evidence": "City-Wide Special Education Related Services Staff Transfer Guidelines: The following transfer guidelines shall apply to Licensed School Nurses (LSNs), Audiologists, Developmental/Adaptive Physical Education (DAPE) Teachers, Occupational Therapists and Physical Therapists (OT/PT), Psychologists, and Speech-Language Clinicians (S/L).",
+    "page": "217",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "all other rights covered by this Agreement.",
+    "page": "215",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "All teachers/classrooms will have Internet access and wireless within each building.",
+    "page": "220",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "MN Statute §122A.41",
+    "page": "214",
+    "confidence": "high"
+  }
+}

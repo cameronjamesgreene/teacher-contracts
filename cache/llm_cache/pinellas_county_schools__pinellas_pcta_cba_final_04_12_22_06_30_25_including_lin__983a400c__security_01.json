@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "ARTICLE 35 TEACHER CONTRACTS A. DEFINITIONS - As used in this Article, the term: 1. “Annual contract” means an employment contract for a period of one (1) school year that the Board may choose to award or not award without cause. 2. “Probationary contract” means an employment contract for a period of one (1) school year awarded to teachers upon initial employment in the school district. 3. “Professional Service Contract” and “Continuing Contract” means a contract with continuing employment rights in accordance with the law in effect prior to July 1, 2011.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded 'no'. Article 35, Section A explicitly defines Annual, Probationary, Professional Service, and Continuing contract statuses."
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "C. REAPPOINTMENTS. If an annual contract teacher is not to be recommended for reappointment, the teacher shall be notified by the Human Resources Department via the principal at the time the principal makes his or her decision. This notification shall not be later than four (4) weeks prior to the end of the post-school year. E. NON-RENEWALS: 2. Upon request, the principal will provide a written summary of the rationale for the decision not to recommend renewal of an annual contract. F. APPEAL OF NONRENEWAL... 1-4. Describes eligibility, committee review, and process for appealing nonrenewal decisions.",
+    "page": "43",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded 'no'. Article 35, Sections C, E, and F explicitly outline nonrenewal notice timelines, written rationale requirements, and appeal procedures."
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall accrue on the basis of one (1) year for each year of continuous service in the district. Leaves shall not constitute an interruption of service but shall not be counted as a year of service. In the event of equal seniority, the date of official notification of hire shall be the date. In the event of simultaneous notification, disputes shall be resolved by lot. Interruptions of service less than thirty (30) calendar days shall not constitute a break in service if the interruption was caused by a temporary reduction in force or delays in receipt of test scores for the Florida Teacher Certification Exam (FTCE).",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Procedures include annual collaborative bargaining for details/timelines, consideration for promotion/higher pay or district interest, suspension for RIF/financial reasons, board override for legislative compliance, limits for new schools/consolidation, best-qualified selection requiring at least 50% senior applicants interviewed (with written justification if not), vacation of end-of-year substitute/probationary positions, ineligibility for non-reappointed/DROP/temporary/out-of-field teachers (unless moving in-field), reasonable effort to post vacancies, and cycles timed before year-end.",
+    "evidence": "ARTICLE 17 VOLUNTARY TRANSFER... B. PROCEDURES: 1. Annually, the details of the voluntary transfer process, including specific guidelines and timeline, are developed through collaborative bargaining. 2. Transfers may be considered outside the negotiated guidelines for promotional opportunities, to accept a higher paying position, or if in the best interest of the District. 6. A minimum of fifty-percent (50%) of the applicants chosen for interview must be the most senior applicants. 7. Positions which are filled at the conclusion of the school year by long-term substitutes, temporary or remainder of year probationary contracts in non-protected assignments shall be vacated... 8. A teacher who has not been recommended for reappointment... is not eligible...",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "ARTICLE 18 DISTRICT TRANSFERS... Section B. PROCEDURES: 1. District transfers will be made in the best interests of the school system... 2. Under no circumstances shall a teacher be transferred for discriminatory or capricious reasons. 3. The convenience, location, wishes, and years of service of the individual teacher shall be considered... 6. Racial composition of the staff shall take precedence over seniority in the district transfer process. 7. A teacher transferred by the District shall be recalled to the school from which the teacher was transferred up to the 20th student day of the next school year if a position is available for which said teacher is certified.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "Board must first assign personnel to appropriate qualified positions within the district. If unable to maintain all employees, Board must immediately meet with the Union to establish an orderly method for reducing, retraining, and recalling affected employees. (Note: Voluntary transfer process may be suspended to address RIF; seniority yields to racial composition in district transfers per Art 18).",
+    "evidence": "ARTICLE 22 REDUCTION IN FORCE... A. Should economic circumstances dictate a reduction in personnel, the Board shall take whatever steps are necessary to assign personnel to appropriate positions within the district for which they are qualified, consistent with this Agreement and law. B. Should the Board be unable to maintain all employees, it shall immediately meet with the Union to provide for an orderly method of reducing, retraining, and recalling affected employees.",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high as the quoted evidence directly and unambiguously states the RIF procedures."
+  }
+}

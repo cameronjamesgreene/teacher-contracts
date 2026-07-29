@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "Yes. Schedule Title: Salary Schedule. Covered Year: July 1, 2020 through June 30, 2023. Covered Employee Group: Professional employees of the District paid on the teacher salary schedule. Appendix/Page: Appendix A, page 49.",
+    "evidence": "Appendix A Salary Schedule 49; Cover: Covering the Period July 1, 2020 through June 30, 2023; 1.1: 'Teacher shall mean all professional employees of the District who are paid on the teacher salary schedule'",
+    "page": "1, 2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "The salary schedule covers the agreement period of July 1, 2020 through June 30, 2023.",
+    "evidence": "Cover: Covering the Period July 1, 2020 through June 30, 2023",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "Yes. Continuing teachers receive a one-step salary increment at the beginning of each contract year for each year of successful teaching until reaching the maximum step of their lane. Eligibility requires successfully completing at least one-half year (.50 FTE) of contract teaching during the previous school year.",
+    "evidence": "7.2.1.3: 'Continuing teachers shall receive a one-step salary increment on the salary schedule for each year of successful teaching in the District until they reach the maximum step of their salary lane. Such salary increments shall be given at the beginning of each contract year by moving forward one step on the salary schedule all continuing contract teachers who successfully completed at least one-half year (.50 FTE) of contract teaching during the previous school year.'",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "Yes. Teachers receive full credit for the first ten years of public-school teaching experience. Half-time (.50 FTE+) regular contract teaching counts cumulatively. Additional credit beyond ten years may be allowed by HR in cases of qualified candidate shortages. Other teaching experience is evaluated by HR for equivalence to public school teaching. All credit requires official verification.",
+    "evidence": "7.2.1.1: 'An experienced teacher shall receive full credit on the salary schedule for the first ten years of public-school teaching experience. Half-time (.50 FTE or more) regular contract teaching experience will be figured cumulatively in arriving at proper step placement. When there is a shortage of qualified candidates for a specific position, additional step credit for verified experience beyond ten years may be allowed by the Human Resources office.' 7.2.1.2: 'All other teaching experience shall be evaluated by the Human Resources office and the amount of credit granted shall depend upon the extent to which such experience is equivalent to public school teaching. All credited teaching experience must be officially verified.'",
+    "page": "13-14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

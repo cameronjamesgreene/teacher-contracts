@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Employees shall report unsafe or hazardous conditions to their Building Administrator or immediate supervisor.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Any member of the bargaining unit, acting in the course of his/her assigned duties, who sustains an injury of a duty-related assault, shall be eligible to “paid assault leave”, subject to the following conditions: 1. To be eligible for assault leave, the member must apply for and be granted workers’ compensation, subject to the workers’ compensation laws and procedures of the State of Missouri. 2. The member shall be granted assault leave for the initial three (3) day waiting period as identified by the Workers’ Compensation Law for Missouri and by District policy.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": "Updated evidence and page. The original evidence (page 15) only covered caregiver meetings and was weak/indirect for this question. The passage on page 41 explicitly outlines procedures and protections for work-related assaults, directly supporting the answer."
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The Student Behavior Plan and the Code of Student Conduct will be enforced in every school.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "On days that schools are closed due to extreme weather conditions or emergencies; the administration will make every reasonable effort to notify employees of the closing by 5:15am.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Construction and Repairs – Reasonable effort will be made to notify the affected teachers and relocate students to a suitable learning environment.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

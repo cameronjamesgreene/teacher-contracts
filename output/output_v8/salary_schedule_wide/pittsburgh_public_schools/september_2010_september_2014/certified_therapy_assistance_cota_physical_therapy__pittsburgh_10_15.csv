@@ -1,0 +1,13 @@
+"# Pittsburgh_10-15.pdf — Certified Therapy Assistance (COTA), Physical Therapy Assistant (September 2010 - September 2014)"
+"# population: Certified Therapy Assistants (COTA), Physical Therapy Assistants | is_teacher_schedule: False"
+# validation_warnings: none | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase / Ave. for 1 to 5
+Old Steps 1-,26170,36500,36500,40500,42500,45000,
+Old Steps 2-,27970,39000,39000,43000,45000,50000,
+Old Steps 3-,29570,41000,41000,49000,49500,50000,
+Old Steps 4-,32660,36000,38000,40000,44500,50000,
+Old Steps 5-,33900,37500,41500,49000,49500,50000,
+Old Steps 6-,37190,48000,48500,49000,49500,50000,
+"COTA New Steps 1,2,3,4,5",35000,37500,41500,49000,49500,50000,14946
+PTA New Step 6,43000,48500,49000,49500,50000,50000,12810

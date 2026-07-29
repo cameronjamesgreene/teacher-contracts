@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes. Committee: Faculty Steering Committee. Membership: 5-10 teachers elected by secret ballot. Complaint process: Teachers report hazards to the principal. Scope: Health and safety, student discipline, faculty meetings, school rules.",
+    "evidence": "3.01 The steering committee may be established in a school for considering various areas such as, but not limited to, student discipline, faculty meetings, school rules, and health and safety items. 3.02 Any steering committee thus created shall consist of not less than five (5) nor more than ten (10) teachers elected by secret ballot. 5.07 ... Teachers will report any health or safety hazards to the principal.",
+    "page": "8, 16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "9.10 In any case of intimidation, assault, battery, abuse, or threat with bodily harm by an individual or group upon a teacher in the course of his/her assigned duties, the Board shall provide legal counsel to advise the teacher of his/her rights and obligations with respect to such intimidation, assault, battery, abuse or bodily harm, and shall promptly render assistance necessary to the teacher in connection with handling of the incident by law enforcement and judicial authorities. Teachers shall immediately report any such incidents to their principal. 9.10-1 When an employee is assaulted or battered while in the line of duty, the work site shall maintain a record of the incident. The work site shall provide a copy of all School District reports to the employee as soon as possible. It is the employee's right to notify law enforcement and pursue charges as provided under Florida law.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Updated evidence from 9.03-1/9.03-2 (which covers teacher use of force) to 9.10 and 9.10-1, which explicitly detail assault protections, legal counsel provision, incident reporting, record-keeping, and charge pursuit procedures specifically for teachers/employees."
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The teacher shall make every effort to deter misbehavior prior to sending a student to the office... A teacher may impose classroom discipline where necessary... Students shall be disciplined according to the School Board’s Code of Student Conduct.",
+    "page": "33",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "...a teacher may temporarily exclude a student from class by sending the student to the principal's office when the grossness of the offense, the persistence of the misbehavior, or the disruptive effect of the behavior makes the continued presence of the student in the classroom intolerable. The teacher shall notify the principal, or his designated representative, as promptly as teacher obligations will allow the full particulars of the problem or incident in writing. The teacher shall be informed in writing of the principal's disposition no later than the time the student is returned to the classroom.",
+    "page": "33",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes. Standards: Rooms kept clean and free from health/safety hazards; heating/cooling maintained by principal; priority given to poor indoor air quality including mold; quiet planning areas provided when practicable. Complaint process: Teachers report hazards to principal. Remediation responsibility: Principal takes necessary steps for HVAC; Board keeps instructional rooms clean; custodial staff maintains lounges on schedule.",
+    "evidence": "5.04 When practicable, teachers will be provided a quiet planning area in which to work. 5.07 The Board will keep all rooms, which are used for instructional purposes or preparation, clean and free from health and safety hazards. Each principal will take necessary steps to maintain the heating and cooling systems. Priority will be given to rectify schools with documented poor indoor air quality including mold. Teachers will report any health or safety hazards to the principal.",
+    "page": "16, 17",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

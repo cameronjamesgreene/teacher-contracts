@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes (Guidelines for the Evaluation of Probationary Teachers, full procedure described)",
+    "evidence": "GUIDELINES FOR THE EVALUATION OF PROBATIONARY TEACHERS ... Shall be observed periodically at least four (4) times during the school year ... A formal evaluation including a conference shall be made at least once each semester.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Guidelines for the Evaluation of Probationary Teachers",
+    "evidence": "GUIDELINES FOR THE EVALUATION OF PROBATIONARY TEACHERS",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "4",
+    "evidence": "Teachers who have not achieved tenure status shall be observed periodically at least four (4) times during the school year",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Satisfactory or Unsatisfactory",
+    "evidence": "indicates a satisfactory or unsatisfactory rating.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

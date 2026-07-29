@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Teachers who retire and have met the age and service requirement necessary to receive an annuity from the Teachers Retirement Association (TRA) shall have the option to remain in the active employees health and dental group insurance plans.",
+    "page": "156",
+    "confidence": "medium"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Eligible retired teachers and their spouses may remain in the active plan until they become Medicare eligible, and become eligible for the Medicare Supplement plan(s) and/or the Medicare Supplement plan(s) offered through Teachers Retirement Association (MN Statute §471.61 Subd. 2B). Subject to the administrative requirements of the District, the carrier contracts, labor agreement, and state and federal law, Dependents may remain in the group until the retired employee is no longer eligible.",
+    "page": "156",
+    "confidence": "medium"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "discussed_unclear",
+    "evidence": "Eligible retired teachers and their spouses may remain in the active plan until they become Medicare eligible, and become eligible for the Medicare Supplement plan(s) and/or the Medicare Supplement plan(s) offered through Teachers Retirement Association (MN Statute §471.61 Subd. 2B).",
+    "page": "156",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "Teachers who retire and have met the age and service requirement necessary to receive an annuity from the Teachers Retirement Association (TRA) shall have the option to remain in the active employees health and dental group insurance plans.",
+    "page": "156",
+    "confidence": "medium"
+  }
+}

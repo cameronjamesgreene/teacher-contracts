@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "37.2.1 DCPS agrees to contribute the following amounts per month, per Teacher, towards an optical insurance plan to be contracted by the WTU:",
+    "page": "99",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

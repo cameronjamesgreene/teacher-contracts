@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "and the Health & Safety Committee.",
+    "page": "15",
+    "confidence": "medium"
+  },
+  "safety_assault_protection_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "determine disciplinary procedures consistent with the district’s Code of Conduct and the Local School Behavior Plan.",
+    "page": "9",
+    "confidence": "low"
+  },
+  "safety_remove_student_004": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

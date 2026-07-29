@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "8 hours (480 minutes)",
+    "evidence": "8 HOUR DUTY DAY (Min.) 480.0",
+    "page": "216",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "PREP 5",
+    "page": "216",
+    "confidence": "medium"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "5",
+    "evidence": "PREP 5",
+    "page": "216",
+    "confidence": "medium"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

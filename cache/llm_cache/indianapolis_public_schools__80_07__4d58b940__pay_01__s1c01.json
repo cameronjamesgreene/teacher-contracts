@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2007-2008, 2008-2009, and 2009-2010",
+    "evidence": "2007-2008, 2008-2009, and 2009-2010",
+    "page": "1",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Open periods to record credit shall extend thirty (30) days beyond the beginning of either school semester and pay adjustment shall be retroactive to the beginning of the same semester.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "All teachers shall receive full credit on the salary schedule for full-time outside school-teaching experience in pre-K to 12 accredited schools completed after the teacher received a Bachelor's degree.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

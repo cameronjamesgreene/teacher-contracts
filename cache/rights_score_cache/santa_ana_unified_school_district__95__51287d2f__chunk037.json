@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Teachers must still work within their area of basic authorization.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members holding a Bilingual or ELD certification or authorization (BCC, BCLAD, LDS, CLAD, SB 1969/395 SDAIE, or SB 1969/395 ELD/SDAIE) but whose assignment is not one that otherwise qualifies for a Bilingual/ELD stipend shall receive an annual stipend of $500.",
+      "subject_text": "Unit members holding a Bilingual or ELD certification or authorization (BCC, BCLAD, LDS, CLAD, SB 1969/395 SDAIE, or SB 1969/395 ELD/SDAIE) but whose assignment is not one that otherwise qualifies for a Bilingual/ELD stipend",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members applying for Bilingual or ELD certification or Authorization (BCC, BCLAD, LDS, CLAD, SB 1969/395 SDAIE, or SB 1969/395 ELD/SDAIE) shall be reimbursed for the testing fee upon verification of having passed the complete test and submission to the state for the appropriate certification.",
+      "subject_text": "Unit members applying for Bilingual or ELD certification or Authorization (BCC, BCLAD, LDS, CLAD, SB 1969/395 SDAIE, or SB 1969/395 ELD/SDAIE)",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "District Curriculum Specialists shall receive an annual stipend equal to that paid mentor teachers.",
+      "subject_text": "District Curriculum Specialists",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    }
+  ]
+}

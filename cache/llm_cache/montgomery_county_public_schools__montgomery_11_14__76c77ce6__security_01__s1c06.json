@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "Upon receiving notice of non-renewal of a provisional or regular contract, probationary unit members may, within 10 days of that notice, request a hearing by the superintendent.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Upon receiving notice of non-renewal of a provisional or regular contract, probationary unit members may, within 10 days of that notice, request a hearing by the superintendent. The unit member, upon request, will be given adequate notice of the hearing date. Reasons for the proposed action will be given to the unit member upon request. The unit member will be entitled to be represented by the Association and/or counsel of his/her choice and will be granted an opportunity to defend himself/herself, presenting arguments and/or evidence. The decision of the superintendent shall be in writing, stating the reasons for the determination.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

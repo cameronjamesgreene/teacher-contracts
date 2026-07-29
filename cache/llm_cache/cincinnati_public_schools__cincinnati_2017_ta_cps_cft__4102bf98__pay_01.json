@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "discussed",
+    "evidence": "Section 700 a. i. ... includes all salary schedules ... c. Re‐Index Salary Schedule d. Add Step 30 to Salary Schedules",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Changed from not_discussed to discussed. The document explicitly references salary schedules multiple times in Section 700, including COLA adjustments, re-indexing, and adding a step."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "July 1, 2017 – June 30, 2020",
+    "evidence": "CPS / CFT TENTATIVE AGREEMENT July 1, 2017 – June 30, 2020",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. The agreement title specifies the contract period, which applies to the referenced salary schedules."
+  },
+  "pay_step_increment_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Section 700 d. Add Step 30 to Salary Schedules",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Changed from not_discussed to discussed_unclear. The document only mentions adding a specific step (Step 30) but does not explain the process for annual step advancement or general salary increments."
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

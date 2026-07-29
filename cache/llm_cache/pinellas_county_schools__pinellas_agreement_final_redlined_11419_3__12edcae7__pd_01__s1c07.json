@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "A Professional Development committee, consisting of an equal number of members designated by the District and PCTA respectively, will meet at least twice a school year to monitor the professional development plan , review data, and analyze the effectiveness and efficacy of the professional support and development system for Tier III and Tier IV schools. This committee will mutually develop the Professional Development calendar for the school year. This committee will seek input from the various stakeholders including the school leadership teams at each of the schools...",
+    "page": "75",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

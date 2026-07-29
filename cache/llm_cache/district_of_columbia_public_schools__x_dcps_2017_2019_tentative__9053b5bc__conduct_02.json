@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "no",
+    "evidence": "DCPS and the WTU agree that matters dealing with quality education decisions are DCPS’s responsibility.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Daily, unit, and long-term lesson plans shall be required of each Teacher and such plans shall be available for review by the principal/Supervisor at any time upon his/her request.",
+    "page": "83",
+    "confidence": "high",
+    "coder_notes": "The provided source text cuts off before page 83. The quoted evidence is explicit and directly answers the question; preserved as-is."
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "Personal behavior of a Teacher during non-duty hours is the Teacher’s concern, but this shall not preclude DCPS from taking action against a Teacher in appropriate circumstances after notification to the WTU of such personal behavior.",
+    "page": "92",
+    "confidence": "high",
+    "coder_notes": "The provided source text cuts off before page 92. Article 28 in the Table of Contents confirms the topic is covered. Stage 1 evidence is explicit and preserved."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "16.12.1. No class shall be held in any room or building where the teachers or children would be in physical danger because of the existence of unsafe conditions as determined by the Supervisor in consultation with the School Chapter Advisory Committee... 16.12.3. Employees shall be guaranteed protection from any restraint, interference, coercion, discrimination or reprisal for filing a report of an unsafe or unhealthful condition, or for any other participation in a safety program.",
+    "page": "47",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "18.2.2. A reasonable loss of time, not to exceed ten (10) days, resulting from an assault on a Teacher shall not be deducted from the Teacher’s unused sick leave, provided that the Teacher has filed with the District the details of the assault and has filed a written report of the assault with the appropriate police department. 18.2.3. DCPS shall provide the Teacher with administrative leave for court appearances related to such event.",
+    "page": "57",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "18.1.2. Each local school shall form a Student Behavior Management Committee (SBMC). The SBMC shall include, but not be limited to, the building administrator/designee, WTU Building Representative/designee, the LSAT Chairperson/designee, the president of the local parent/teacher association/designee, a representative from building security, and the president of the student government association (if one exists) and others as determined by the consensus of the team.",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "18.1.6. If a student conducts himself/herself in such a manner that seriously impedes learning for himself/herself and other students, or if the safety of himself/herself, other students, or the Teacher is seriously threatened, a Teacher shall be free to send or escort the student to the Supervisor's office... 18.1.8. However, the Teacher shall have the right to request that the student not return to his/her class prior to a parent conference if the student’s behavior is so severe as to interfere with the Teacher’s ability to provide instruction.",
+    "page": "56",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "16.8. The Chancellor shall announce any emergency closing at the earliest possible time and shall submit such announcements for broadcast by local radio and television stations. 17.4.6. Leave shall not be charged when schools are closed to Teachers for emergency reasons.",
+    "page": "46",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "16.12.2. DCPS shall be responsible for furnishing and maintaining conditions of employment that are free of hazards that are causing, or are likely to cause accidents, injury or illness to employees. 16.12.3. Employees shall be guaranteed protection from any restraint, interference, coercion, discrimination or reprisal for filing a report of an unsafe or unhealthful condition, or for any other participation in a safety program.",
+    "page": "47",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

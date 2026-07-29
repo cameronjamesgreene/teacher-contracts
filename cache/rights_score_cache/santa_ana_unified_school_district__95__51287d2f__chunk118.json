@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "Tentative position openings for teachers shall be adequately publicized by the District with postings of such positions in all schools within ten (10) days of the approval of each opening.",
+      "subject_text": "Tentative position openings for teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members' applications shall be submitted within ten (10) duty days of the date of the posting deadline for the Extended Day positions.",
+      "subject_text": "Unit members' applications",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Tentative selection and notification of candidates shall occur within twenty (20) duty days of the close of applications, but no later than five (5) calendar days before the end of the school year.",
+      "subject_text": "Tentative selection and notification of candidates",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Appropriate support personnel, e.g., Counselors, Psychologists, Nurses, etc., shall be available during the Extended Day.",
+      "subject_text": "Appropriate support personnel, e.g., Counselors, Psychologists, Nurses, etc.",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Security personnel shall be available during the Extended Day.",
+      "subject_text": "Security personnel",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

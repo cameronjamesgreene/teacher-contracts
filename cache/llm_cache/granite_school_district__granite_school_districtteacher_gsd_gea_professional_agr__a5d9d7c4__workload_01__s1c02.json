@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "Elementary: 20 minutes before & 15 minutes after school day. Secondary: 30 minutes before & 20 minutes after school day (may be reversed if school starts before 8:00 a.m.).",
+    "evidence": "9.2.1 Elementary teachers shall report to work no less than 20 minutes before the regular beginning time of the school day and shall remain on duty for at least 15 minutes after the closing time of school. 9.2.2 Secondary teachers shall report to work no less than 30 minutes before the regular beginning time of the school day and shall remain on duty for at least 20 minutes after the regular closing time of school. In schools starting before 8:00 a.m., these time provisions may be reversed.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "9.8 The teaching load for secondary teachers shall not exceed six teaching periods a day... The seventh period shall be used for consultation, preparation, or for other professional purposes. 10.2 Class-free planning and preparation time shall be used by teachers for planning and preparation activities...",
+    "page": "18, 19",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Elementary: 1 hour 45 minutes/week initially, plus additional 45-minute blocks weekly (2x/month planning, 2x/month collaboration); monthly schedule totals 510 minutes (8.5 hours) planning and 90 minutes collaboration per month. Secondary: one period per day (seventh period).",
+    "evidence": "9.8 ... The seventh period shall be used for consultation, preparation, or for other professional purposes. 10.1 Elementary students K through six (6) will be dismissed from school one hour and forty minutes early one day a week. 10.2 ... 1 hour and 45 minutes per week currently allotted to teachers. Each teacher will be given an additional 45-minute block of time weekly... Total 4 week month planning time is 510 minutes (8.5 hours) and 90 minutes collaboration time",
+    "page": "18, 19",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "10.4 Planning time shall not be used for faculty meetings. 10.5 In-service shall not be held during planning time.",
+    "page": "20",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "9.4 Duty Free Lunch. All teachers shall have an uninterrupted, duty-free lunch period of at least 30 minutes daily (not counting passing time [effective the 05-06 school year]), except for teachers with assigned lunch-time responsibilities.",
+    "page": "18",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,15 @@
+"# Pittsburgh_10-15.pdf — Preschool Teachers (Early Childhood), Level II Salary Schedules (2010-2015)"
+# population: Bachelor's Degree | is_teacher_schedule: True
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p26) — one grid's data may be contaminated from another; verify; ocr_unreliable: contains values far above a plausible salary — the OCR of this table may be destroyed; manual review required | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase
+1-,"31,940 ->","32,440 ->","32,940 ->","33,440 ->","33,940 —","34,440","14,240 / 44.58%"
+2-,"35,030 ->","35,530 ->","36,030 ->","36,530 ->","37,030 —","37,530","12,500 / 35.68%"
+3-,"38,120 ->","38,620 ->","39,120 ->","39,620 ->","40,120 —","40,620","10,850 / 28.46%"
+4-,"41,210 ->","41,710 ->","42,210 ->","42,710 ->","43,210 —","43,710","9,200 / 22.32%"
+5-,"42,450 ->","42,950 ->","43,450 ->","43,950 ->","44,450 —","44,950","11,770 / 27.73%"
+6-,"43,680 ->","44,180 ->","45,680 ->","46,180 ->","46,680 —","47,180","10,540 / 24.13%"
+7-,"45,030 ->","45,530 ->","46,530 ->","47,030 ->","47,530 —","48,030","9,190 / 20.41%"
+8-,"46,470 ->","46,970 ->","47,970 ->","48,470 ->","48,970 —","49,470","7,750 / 16.68%"
+9-,"47,910 ->","48,410 ->","49,410 ->","49,910 ->","50,410 —","50,910","6,310 / 13.17%"
+10-,"51,720 ->","52,220 ->","53,220 ->","53,720 ->","54,220 —","54,220","2,500 / 4.83%"

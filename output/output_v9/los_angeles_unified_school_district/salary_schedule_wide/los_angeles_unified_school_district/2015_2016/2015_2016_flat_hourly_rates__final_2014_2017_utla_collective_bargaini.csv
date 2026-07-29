@@ -1,0 +1,8 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — 2015-2016 FLAT HOURLY RATES (2015-2016)
+"# population: Adult Teacher (Substitute, Staff Development), Extended Teaching Assignment | is_teacher_schedule: False"
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Hourly Rate
+"Adult Teacher, Hourly Rate, Day-to-Day Substitute (0806)",49.18066
+"Adult Teacher, Staff Development, Rate 1 (0807)",49.18066
+"Extended Teaching Assignment, Hourly (0921)",34.14432

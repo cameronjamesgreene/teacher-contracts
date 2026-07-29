@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Article 6, REMUNERATION AND PROFESSIONAL SERVICES",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2022-2023 and 2023-2024; 2024-2025",
+    "evidence": "for the 2022-2023 and 2023-2024 school year.",
+    "page": "28",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "ATF bargaining unit",
+    "evidence": "All staff within the ATF bargaining unit at each school site shall be assigned an Advisory group.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "A District system of grading and reporting shall be established using progress report forms which are a part of this Agreement.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "NM DFA rate per mile.",
+    "page": "28",
+    "confidence": "medium"
+  }
+}

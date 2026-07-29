@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "no",
+    "evidence": "determine the curriculum",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": "Revised from 'yes' to 'no'. The cited provision explicitly reserves the right to determine the curriculum for the District, not teachers."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Instructional planning, preparing lesson plans, preparing and selecting instructional materials",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Updated evidence location to Article 1, Section 9.2 (page 1) where preparing lesson plans is listed as a professional responsibility. Stage 1 cited page 32, which was outside the provided document text."
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

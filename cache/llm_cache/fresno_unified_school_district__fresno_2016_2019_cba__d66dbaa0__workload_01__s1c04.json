@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "180",
+    "evidence": "traditional 180 day schedule",
+    "page": "35",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "8 hours (480 minutes) work day; 7.0 hours (420 minutes) duty day",
+    "evidence": "1.1 Work Day: Unit members shall have a work day of 8 hours (480 minutes) in which to perform their on-site and off-site professional responsibilities. / 1.2 Duty Day: Unit members are required to be on duty at their worksites for 7.0 hours (420 minutes) per day which shall be utilized for student instruction.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "2.2 All preparation time allocated within the 7 hours (420 minutes) as described in 1.2 shall be utilized for duties set forth above in 2.1.1 – 2.1.12 as determined by the teacher",
+    "page": "33",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: 480 minutes per week (at least one 45-minute block daily); Elementary: 45-minute block daily on at least 156 days",
+    "evidence": "4.2 ...Teachers shall be provided 480 minutes per week for preparation time within the work day in blocks no shorter than thirty (30) minutes with at least one block of forty-five (45) minutes per day within the work day. / 5.2.2.1 The preparation time set forth herein shall be provided on at least 156 days out of the traditional 180 day schedule",
+    "page": "34-35",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "2.2 All preparation time allocated within the 7 hours (420 minutes) as described in 1.2 shall be utilized for duties set forth above in 2.1.1 – 2.1.12 as determined by the teacher",
+    "page": "33",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "1.4 Duty Free Lunch: Unit members shall have a duty free lunch of at least 30 minutes per day.",
+    "page": "32",
+    "confidence": "high"
+  }
+}

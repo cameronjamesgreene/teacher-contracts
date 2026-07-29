@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Educators may be suspended, reprimanded, disciplined, or have their pay reduced only for good and just cause.",
+    "page": "93",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The Panel can recommend one of the following: ... (3.) The employee be discharged/not renewed. ... 7.) The statutory process for termination/discharge will be followed.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

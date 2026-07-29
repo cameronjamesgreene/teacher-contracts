@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10",
+    "evidence": "Those employed for one hundred eighty-four (184) days—ten (10) days, based on the formula (184 x 6.50 x .055) = 65.52 hours per year, accumulating up to 1300 work hours.",
+    "page": "81",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates up to 1,300 work hours.",
+    "evidence": "accumulating up to 1300 work hours.",
+    "page": "81",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "When an employee becomes ill, is injured, or is required to care for a sick immediate family member, sick leave begins at the time of inability to continue to work",
+    "page": "82",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "1",
+    "evidence": "One (1) day of leave with pay each year is granted to an employee for personal matters which require the employee’s absence during school hours.",
+    "page": "80",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Submit special leave slip to supervisor at least 3 days prior; not subject to principal approval except in emergencies; no reason required.",
+    "evidence": "Except in emergency situations, this leave is not subject to principal approval, however the employee must submit a special leave slip to their supervisor at least three (3) days prior to the date the leave will be taken.",
+    "page": "80",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

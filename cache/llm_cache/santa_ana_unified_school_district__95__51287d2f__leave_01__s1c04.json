@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "1 per month",
+    "evidence": "credited with one (1) sick day per month to be worked.",
+    "page": "51",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates, but no cap is stated",
+    "evidence": "The District shall provide a summary of accumulated sick leave to all unit members.",
+    "page": "51",
+    "confidence": "medium"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Beginning with July 1, 2000, a unit member may annually use six (6) sick leave days for the illness of a child, parent, or spouse.",
+    "page": "51",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "0 (deducted from sick leave bank)",
+    "evidence": "Bargaining unit members shall be allowed no more than seven (7) days of accumulated sick leave for purposes of personal necessity/compelling absence.",
+    "page": "52",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Must be beyond immediate control, present unavoidable conflict with duty hours, and have no reasonable alternative. Advance notice to supervisor required unless extenuating; reasons need not be provided.",
+    "evidence": "need for absence is beyond the unit member's immediate control, it presents an unavoidable conflict with duty hours, and the unit member has no reasonable alternative... provide advance notice of absence to his/her supervising administrator unless extenuating circumstances exist. Reasons for such absence need not be provided",
+    "page": "52",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

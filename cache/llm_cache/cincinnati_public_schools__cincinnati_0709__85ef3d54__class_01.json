@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "The class size in the primary (K-3) grades would be 18 to 1 (ratio not implied) with an IA added in each class that reaches 19 students and a cap of 25 students in individual teachers’ classrooms. The Teacher Allocation Committee shall continue to monitor class size at all district schools and shall advise the schools on steps they can take to correct violations of class size limits.",
+    "page": "55, 56",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_elementary_max_002": {
+    "answer": "K-3 Academic: 18 | K-3 Academic with IA: 19-25 (1st sem), 19-28 (2nd sem) | K-3 Specialist: 28",
+    "evidence": "K-3 Academic 18\nK-3 Academic with IA 19 - 25 (1st semester)\nK-3 Academic with IA 19 - 28 (2nd semester)\nK-3 Specialist 28",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_secondary_max_003": {
+    "answer": "4-8 Academic: 28 (30 w/ overload pay, 32 w/ IA) | 4-8 Specialist: 34 | 9-12 Academic: 30 | 9-12 Specialist/Elective: 34",
+    "evidence": "4-8 Academic 28\n4-8 Academic with overload pay 30\n4-8 Academic with IA 32\n4-8 Specialist 34\n9-12 Academic 30\n9-12 Specialist/Elective 34",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "Teachers in grades 4-12 who are assigned 1 to 2 students over the limit shall receive an overload payment of $135.00 per student per instructional hour per year... Teachers in grades 4-12 who are assigned 3 to 4 students above the limit shall be assigned an instructor assistant and the right to receive any overload payment shall cease. Overload pay will be given to these teachers for classes with 26, 27, and 28 students beginning the third quarter...",
+    "page": "55, 56",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

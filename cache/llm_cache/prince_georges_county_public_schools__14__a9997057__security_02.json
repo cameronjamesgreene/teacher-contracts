@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Professional Personnel shall... (c) retain recall rights for a period of three (3) years and (d) except for proven medical disability, a teacher who declines an offer of vacancy in their field of certification shall forfeit all recall rights...",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to Section 4.12 (page 12) which explicitly states recall rights and duration, replacing the indirect definition snippet from page 5."
+  },
+  "security_rif_criterion_008": {
+    "answer": "certification in the subject field assignment and system-wide seniority (least seniority first), applied sequentially by tenure status and certificate type",
+    "evidence": "lay-offs shall be effected within the following categories in the order noted: First: In continuing order of least system-wide seniority in the subject field taught... Second: ... non-tenured employees. Third: ... tenured employees holding a Class II certificate. Fourth: ... tenured employees holding first class certificates.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Once a teacher is assigned outside of the field in which certification is held for three or more classes per semester for a third consecutive semester, such teacher shall be required to commence taking courses toward certification in the new assigned field...",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Original evidence referenced page 21, which was outside the provided excerpt. Updated to Section 4.06.C.3 (page 10) which is fully available in the text and explicitly addresses certification requirements for reassigned teachers."
+  }
+}

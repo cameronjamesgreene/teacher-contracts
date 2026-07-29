@@ -1,0 +1,11 @@
+# Pittsburgh_10-15.pdf — Advanced Study Credit ()
+# population: Certified teachers | is_teacher_schedule: True
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+step,
+Master's/M Equivalent + 10 Credits,300
+Master's/M Equivalent + 20 Credits,500
+Master's + 30 Credits,700
+Master's + 40 Credits,900
+Master's + 50 Credits,1100
+Master's + 60 Credits,1300
+NBPTS Certification,4600

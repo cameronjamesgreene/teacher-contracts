@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Safe and Supportive Community Committee – The District and the Union shall, within thirty (30) days of ratification and approval of this agreement, form a committee of equal representation of the District, the Union, and parents/guardians... recommendations regarding implementation of the Safe and Supportive Schools Policy",
+    "page": "97",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "The District shall give direct legal and other related assistance in accordance with applicable law for any attack, assault or menace upon the teacher while acting in the discharge of his/her duties.",
+    "page": "96",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "A school behavior team shall be established at each school site. Such team shall include one or more classroom teachers, a Student Support Services unit member, and a paraprofessional/paraeducator",
+    "page": "94",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "A teacher may suspend any pupil from their class for the remainder of the day of the suspension and the day following the suspension for disruption of school activities or willful denial of the valid authority of teachers or other school personnel.",
+    "page": "94",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

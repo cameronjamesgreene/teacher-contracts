@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "14.1 Just Cause Discipline: The District retains the sole right to discipline unit members for just cause, applying principles of due process.",
+    "page": "85",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "Such unauthorized absence is subject to disciplinary action including dismissal.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

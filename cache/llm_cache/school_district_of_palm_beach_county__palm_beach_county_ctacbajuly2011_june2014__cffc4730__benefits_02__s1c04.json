@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Permanent Substitute Employees will be provided Medical, Dental, Vision, Disability and Life Insurance coverage the same as other employees as set forth in Article VIII, Section H of this Agreement.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Permanent Substitute Employees will be provided Medical, Dental, Vision, Disability and Life Insurance coverage the same as other employees as set forth in Article VIII, Section H of this Agreement.",
+    "page": "55",
+    "confidence": "medium"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "Permanent Substitute Employees will be provided Medical, Dental, Vision, Disability and Life Insurance coverage the same as other employees as set forth in Article VIII, Section H of this Agreement.",
+    "page": "55",
+    "confidence": "medium"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

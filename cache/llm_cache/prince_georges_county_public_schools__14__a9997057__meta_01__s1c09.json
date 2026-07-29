@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA / MOU",
+    "evidence": "MEMORANDUM OF AGREEMENT",
+    "page": "46",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2004 through June 30, 2006",
+    "evidence": "This letter shall be in effect for the term of the Negotiated Agreement from July 1, 2004 through June 30, 2006",
+    "page": "46",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated employees (Unit One and Unit Two), specifically Junior ROTC instructors",
+    "evidence": "all certificated public school employees / Junior ROTC instructors",
+    "page": "44, 46",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "This letter shall be in effect for the term of the Negotiated Agreement from July 1, 2004 through June 30, 2006",
+    "page": "46",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "MD. ANN. CODE, Educ. Art., Sec. 6-404",
+    "page": "44",
+    "confidence": "high"
+  }
+}

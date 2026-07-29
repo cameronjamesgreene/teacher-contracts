@@ -1,0 +1,50 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "Does the document describe teacher evaluation procedures?"
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "What evaluation system, framework, or model is named?"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "How many formal observations are required?"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "Does the document specify observation duration or minimum length?"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "What rating categories or performance levels are used?"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "Does the evaluation use student growth, test scores, value-added, or student outcomes?"
+  }
+}

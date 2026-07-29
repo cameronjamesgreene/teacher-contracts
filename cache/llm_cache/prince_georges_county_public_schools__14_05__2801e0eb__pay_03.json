@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Article VII (Salary Policy), which would typically cover experience credit, is not included in the provided document excerpt. Based on the available text, the provision is not discussed."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Article VII (Salary Policy) is not included in the provided document excerpt. Based on the available text, the provision is not discussed."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Article VII (Salary Policy) is not included in the provided document excerpt. Based on the available text, the provision is not discussed."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "Upon return from such leave, a teacher shall be placed on the salary schedule at the level which would have been achieved had that employee remained active in the system during the period of absence up to a maximum of two years.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Evidence directly supports the answer. The quoted passage explicitly addresses salary schedule placement upon return from authorized leave, which covers the credit for service absence."
+  },
+  "pay_national_board_017": {
+    "answer": "$5,000/year differential for NBPTS; $2,000/year for other national certification; up to $300 NBPTS fee reimbursement; $1,000 lump sum for other national cert.",
+    "evidence": "A unit member who has successfully completed and attained NBPTS certification shall receive: A. A differential of $5,000 per year for each year they maintain their NBPTS certification. ... B. The Board of Education shall reimburse an employee for up to one (1) retake of the NBPTS application fee ($300). Unit members who have attained other national certification in their discipline where NBPTS certification does not apply shall receive a one-time lump sum payment of $1,000. The unit member shall also receive a differential of $2,000 per year for each year the other applicable national certification remains in good standing.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly details the exact differentials, reimbursement amounts, and lump-sum payments cited in the answer. Preserved as a specific answer per guidelines."
+  }
+}

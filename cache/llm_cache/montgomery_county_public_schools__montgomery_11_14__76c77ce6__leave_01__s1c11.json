@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "12",
+    "evidence": "Each full-time unit member shall accrue sick leave at the rate of one day per month of assigned responsibility.",
+    "page": "69",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates on an unlimited basis; no cap stated.",
+    "evidence": "Unused sick leave is accumulated on an unlimited basis.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Leave may be granted for illness in the immediate family and shall be charged against accumulated sick leave.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "Unused personal leave shall be added annually to the unused sick leave account.",
+    "page": "70",
+    "confidence": "high"
+  }
+}

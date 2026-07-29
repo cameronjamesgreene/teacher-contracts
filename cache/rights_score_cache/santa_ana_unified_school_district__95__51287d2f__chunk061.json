@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "Other leaves of absence shall be considered if they are related to the educational needs and/or programs of the District.",
+      "subject_text": "Other leaves of absence",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": "Passive construction; district must consider the request."
+    },
+    {
+      "quote": "A unit member who is elected to the State Legislature shall be granted an unpaid leave of absence for the length of his/her term or terms of office.",
+      "subject_text": "A unit member who is elected to the State Legislature",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "A permanent unit member elected to other government posts may also be granted an unpaid leave of absence for the length of his/her term or terms of office.",
+      "subject_text": "A permanent unit member elected to other government posts",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "permission",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "At the discretion of the District, a sabbatical leave may be granted for the purpose of professional improvement and the development of material which will benefit the students of the Santa Ana Unified School District.",
+      "subject_text": "a sabbatical leave",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "permission",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "\"Full-time\" status shall be verified in writing by the registrar's office of the institution attending.",
+      "subject_text": "\"Full-time\" status",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The program must be at least equivalent in effort and content to the required units as pursued in 10.3.6.1.1.",
+      "subject_text": "The program",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    }
+  ]
+}

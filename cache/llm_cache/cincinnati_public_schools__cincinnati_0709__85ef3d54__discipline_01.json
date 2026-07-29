@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "\"Before a teacher has a written reprimand... or a written notice of dismissal, the teacher, upon request, shall have a conference during which the circumstances shall be explored... entitled to be accompanied by a Federation representative or another employee of the teacher's choice.\" (§215.1) \"Comprehensive Evaluation Summary shall be completed and submitted to the Human Resources Office no later than the 2nd Friday in March if the rating could result in the teacher being non-renewed, terminated, placed in intervention...\" (§210.p) \"Twenty working days after the PRP receipt of a request for investigation, the principal and teacher shall receive written notification of the intervention decision...\" (§210.k(2))",
+    "page": "22-23",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

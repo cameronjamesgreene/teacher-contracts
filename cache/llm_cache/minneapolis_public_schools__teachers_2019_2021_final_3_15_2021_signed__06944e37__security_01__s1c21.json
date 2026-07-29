@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers apply via an online posting system for spring vacancies. All licensed staff must apply online by the designated time. Interviews occur in two rounds with one permitted move over the rounds. Criteria include being under contract, cleared for return, and holding valid licenses. Candidates are notified by email and have 48 hours to accept or decline offers.",
+    "evidence": "15.2.3 Online Posting System: All teachers who are interested in being considered for posted positions will log into the online posting system and apply for those positions at specific locations.",
+    "page": "200",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "15.2.5 Excessed Teachers: Definition: Excessed status exists when there is a reduction in staffing at a school or site... 15.3.1 Teachers can be reassigned by the site administrator within the building.",
+    "page": "199",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "For building staff reductions, teachers are canvassed in seniority order within their licensure area/department to determine who is excessed, starting with the least senior teacher unless volunteers are accepted. Excessed teachers must participate in the transfer process. Teachers will not be realigned as a result of reduction in force.",
+    "evidence": "15.2.5 Staff Reductions: When staff reductions occur at the building, all teachers shall be canvassed in seniority order within their specific licensure area/department to determine which teachers shall be excessed.",
+    "page": "199",
+    "confidence": "high"
+  }
+}

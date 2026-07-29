@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Pursuant to state law, the Board may enter into individual employment contracts without violating this Agreement.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Except as otherwise specifically provided in this Agreement, the Board retains and reserves unto itself the sole and exclusive right to the executive management and administrative control of the school system, along with all other rights, powers, authority, duties, and responsibilities conferred upon and vested in it by the laws and Constitution of the State of Utah and the United States, including, but not limited to, the following rights and responsibilities:",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Therefore, the Board will provide opportunities for the involvement and participation of teachers individually and through the Association in planning and developing the best possible programs for students and teachers of the District.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "any individual teacher shall have the right to present grievances with or without representation by the Association in accordance with the Grievance Procedure provided herein (see Article 6);",
+      "subject_text": "any individual teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "discipline",
+      "notes": ""
+    }
+  ]
+}

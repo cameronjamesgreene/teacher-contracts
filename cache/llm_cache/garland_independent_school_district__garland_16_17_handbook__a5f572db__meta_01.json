@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Employee Handbook 2016-2017",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2017",
+    "evidence": "GISD will enroll more than 57,000 students and employ more than 7,500 employees during the 2016-17 school year",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to full sentence from District Information section for precise date reference."
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees (district-wide)",
+    "evidence": "GISD will enroll more than 57,000 students and employ more than 7,500 employees during the 2016-17 school year",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Corrected page number from 1 to 4. The handbook applies to the district's entire workforce as indicated by the employee count and general title."
+  },
+  "meta_document_scope_004": {
+    "answer": "Not a contract / advisory guide",
+    "evidence": "This handbook is neither a contract nor a substitute for the official district policy manual. Nor is it intended to alter the at-will status of non-contract employees in any way. Rather, it is a guide to and a brief explanation of district policies and procedures related to employment.",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Texas Education Code 21.048(c-1)",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Fixed missing closing parenthesis in original evidence quote."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "be or have ever been in the conservatorship of the Department of Family and Protective Services following an adversary hearing under Section 262.01, Family Code.",
+    "evidence": "be or have ever been in the conservatorship of the Department of Family and Protective Services following an adversary hearing under Section 262.01, Family Code.",
+    "page": "47",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "be homeless, as defined by 42 U.S.C. Section 11302 and/or; Foods made available to students through school must comply with federal and state child nutrition laws and regulations as stated in Section 15, Cafeteria Policies.",
+    "evidence": "be homeless, as defined by 42 U.S.C. Section 11302 and/or; Foods made available to students through school must comply with federal and state child nutrition laws and regulations as stated in Section 15, Cafeteria Policies.",
+    "page": "46, 47",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "42 U.S.C. Section 11302; federal and state child nutrition laws and regulations",
+    "evidence": "be homeless, as defined by 42 U.S.C. Section 11302 and/or; Foods made available to students through school must comply with federal and state child nutrition laws and regulations as stated in Section 15, Cafeteria Policies.",
+    "page": "46, 47",
+    "confidence": "high"
+  }
+}

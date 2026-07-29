@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "Yes. Schedule title: SCHEDULE A: 7–1–2019 TO 6–30–2020 (1.0% EFF. 7-1-2019); Covered year: 2019-2020; Covered group: Teachers; Page: 225-226.",
+    "evidence": "SCHEDULE A: 7–1–2019 TO 6–30–2020 (1.0% EFF. 7-1-2019)",
+    "page": "225",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2019-2020 (July 1, 2019 to June 30, 2020)",
+    "evidence": "SCHEDULE A: 7–1–2019 TO 6–30–2020",
+    "page": "225",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

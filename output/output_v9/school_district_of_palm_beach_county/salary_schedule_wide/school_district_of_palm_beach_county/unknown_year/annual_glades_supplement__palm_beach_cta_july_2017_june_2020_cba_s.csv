@@ -1,0 +1,8 @@
+# Palm_Beach_CTA-July-2017-June-2020-CBA-Successor.pdf — Annual Glades Supplement ()
+# population: Full-time employees assigned to a Glades Area school/facility | is_teacher_schedule: False
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Annual Glades Supplement
+0-2,3750
+3-8,4750
+9+,5750

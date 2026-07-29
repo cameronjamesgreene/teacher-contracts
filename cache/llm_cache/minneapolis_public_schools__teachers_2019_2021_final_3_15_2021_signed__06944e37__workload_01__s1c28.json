@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "260",
+    "confidence": "medium"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "260",
+    "confidence": "medium"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Preparation Time ... Elementary, 275 min/wk Minimum",
+    "page": "260",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "275 minutes per week",
+    "evidence": "Elementary, 275 min/wk Minimum ... 14; Secondary/Middle, 275 min/wk Minimum ... 15",
+    "page": "260",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "discussed_unclear",
+    "evidence": "Reimbursement For Lost Preparation Time ... 15",
+    "page": "260",
+    "confidence": "medium"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Lunch Time ... Duty-Free, Reimbursement For If Lost ... 15",
+    "page": "260",
+    "confidence": "high"
+  }
+}

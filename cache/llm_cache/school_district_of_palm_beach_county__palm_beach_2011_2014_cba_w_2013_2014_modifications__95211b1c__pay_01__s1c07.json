@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "An applicant granted sabbatical leave shall receive one-half (½) of the contractual gross monthly salary according to the salary schedule, based on 196 duty days.",
+    "page": "96",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

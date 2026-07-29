@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "2",
+    "evidence": "Personal and local sick leave is earned on a one day per semester basis.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Evidence states accrual is 'one day per semester,' which equates to 2 days per academic year."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "accumulates, no cap stated",
+    "evidence": "Personal and local sick leave is earned on a one day per semester basis. Leave is available for the employee’s use as it is earned.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Evidence confirms accrual but does not explicitly mention a cap; answer reflects document absence of cap information."
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick leave may be used for the following reasons only: ... Illness in the employee’s immediate family",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "State law entitles all employees to five days of paid personal leave per year.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Discretionary leave requires 2 days advance notice, is first-come first-served, and considers program impact/substitute availability; nondiscretionary leave is granted as sick leave.",
+    "evidence": "An employee wishing to take discretionary personal leave must submit a notice of the request 2 days in advance of the anticipated absence to his or her principal or supervisor. Discretionary personal leave will be granted on a first-come, first-served basis. The effect of the employee’s absence on the educational program or department operations, as well as the availability of substitutes, will be considered by the principal or supervisor. Nondiscretionary leave is granted in the same manner as sick leave.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include nondiscretionary leave provision for completeness."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "There is no limit on the accumulation of state personal leave, and it can be transferred to other Texas school districts and is generally transferable to education service centers.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

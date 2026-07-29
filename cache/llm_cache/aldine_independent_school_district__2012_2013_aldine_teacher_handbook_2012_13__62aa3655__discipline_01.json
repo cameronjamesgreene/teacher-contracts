@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Professional employees may be terminated from employment before the end of the contract period for good cause, as determined by the Board.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The employment of a person employed under a probationary contract may be terminated at the end of the contract period if in the Board's judgment the best interests of the district will be served by terminating the employment. Not later than the 10th day before the last day of instruction required under the contract, the Board shall give notice of its decision to terminate the employment to a professional employee.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

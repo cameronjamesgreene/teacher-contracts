@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Northside ISD Employee Handbook",
+    "page": "20",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Revised March 18, 2013; no specific school year or term dates stated in this section.",
+    "evidence": "Revised March 18, 2013",
+    "page": "20",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees, including certified, nonexempt, and substitutes.",
+    "evidence": "All district employees should perform their duties...",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Policy/handbook guidance (explicitly states it does not create new rights beyond law or board policy).",
+    "evidence": "The process described in this policy shall not be construed to create new or additional rights beyond those granted by law or Board policy",
+    "page": "32",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Texas Labor Code; Chapter 21 of the Education Code; Texas Open Meetings Act",
+    "page": "21, 32, 36",
+    "confidence": "high"
+  }
+}

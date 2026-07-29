@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Binding arbitration is provided at Level Two upon waiver of statutory proceedings by the affected teacher on all teacher dismissal cases.",
+    "page": "50",
+    "confidence": "high"
+  }
+}

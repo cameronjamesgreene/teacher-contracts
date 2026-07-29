@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "The district's professional development plan should reflect best practices and be guided by the strategies and activities of the district to increase student achievement.",
+      "subject_text": "The district's professional development plan",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "should",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "All certified staff must be committed to district goals and promote student achievement for all student, must be knowledgeable of standards of professional practices at the state and national levels within their academic discipline and must be prepared with best practices for instructional methodologies.",
+      "subject_text": "All certified staff",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Compound predicate sharing modal 'must'; extracted as single clause."
+    },
+    {
+      "quote": "All experienced certified employees are required to complete a minimum of 30 hours of professional development annually and submit an annual Professional Development Plan to the ~ediate supervisor.",
+      "subject_text": "All experienced certified employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "All novice certified district employees are required to complete a minimum of 40 hours of professional development during year one and submit an annual Professional Development Plan to the ~ediate supervisor.",
+      "subject_text": "All novice certified district employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "All non-certified employees are required to complete a minimum of 15 hours of staff development annually and submit an annual Staff Development Plan to their ~ediate supervisor.",
+      "subject_text": "All non-certified employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "employees will be provicled ~he opportunity to engage in district and professional organization sponsored professional development activities on all specifiecl professional development in-service - days as mandated by the Alabama Code 16-1-8.1 and 16-13-231.",
+      "subject_text": "employees",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "professional_development",
+      "notes": "Passive construction; implicit agent is the district. Contains source OCR/typographical errors ('provicled ~he', 'speciecl')."
+    },
+    {
+      "quote": "If an employee is unable to attend based on other assigned duties, he/she will be allowed to participate in other district and professional organization sponsored workshops upon availability with the immediate-supervisor's approval.",
+      "subject_text": "he/she",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "professional_development",
+      "notes": "Conditional permission; implicit granter is management/supervisor."
+    }
+  ]
+}

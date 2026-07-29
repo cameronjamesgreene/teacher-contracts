@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "A vision care plan will be introduced on January 1, 2004. A plan design shall be attached to the Agreement at that time.",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Building substitutes are eligible the same health benefits and Term Life Insurance as other full-time teachers, by making the same contribution.",
+    "page": "65",
+    "confidence": "high",
+    "coder_notes": "Upgraded confidence to high; evidence explicitly states eligibility for Term Life Insurance."
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "the Board shall pay the full cost for one year of either a single or family health contract (if eligible) less the employee contribution for any teacher placed on unpaid leave of absence due to personal illness or maternity. Employees on such leave of absence for personal illness or maternity for an additional year(s), and employees on other unpaid leaves of absence, shall have the option to continue coverage under the Board Group Plan by paying the full monthly premium.",
+    "page": "75",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

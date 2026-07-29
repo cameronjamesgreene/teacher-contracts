@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Garland Independent School District in support of school districts and Career and Technical Education Programs, does not discriminate on the basis of sex, disability, race, color, age or national origin in its educational programs, activities, or employment as required by Title IX, Section 504 and Title VI.",
+    "evidence": "Garland Independent School District in support of school districts and Career and Technical Education Programs, does not discriminate on the basis of sex, disability, race, color, age or national origin in its educational programs, activities, or employment as required by Title IX, Section 504 and Title VI.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Title IX, Section 504, Title VI",
+    "evidence": "Title IX, Section 504 and Title VI",
+    "page": "1",
+    "confidence": "high"
+  }
+}

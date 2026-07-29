@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "Years of credited service for career increment purpose shall mean years of service in FUSD except, that up to five years of service credit shall be granted for out-of-District service.",
+    "page": "102, 103, 105",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "yes",
+    "evidence": "Annual $1000 for National Board Certification for Teachers",
+    "page": "101, 105",
+    "confidence": "high"
+  }
+}

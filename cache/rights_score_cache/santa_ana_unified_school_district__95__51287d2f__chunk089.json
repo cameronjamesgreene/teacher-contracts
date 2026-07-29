@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "A handicapped child's dependent status shall not terminate solely by reason of his/her having attained age 19, if such child is related to the employee as a natural or legally adopted child, a stepchild, or a child under legal guardianship, and if:",
+      "subject_text": "A handicapped child's dependent status",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Within 31 days after the child turns 19, proof of the child's incapacity must be submitted to the Contract Administrator.",
+      "subject_text": "proof of the child's incapacity",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": "passive construction; implicit agent is employee submitting proof"
+    },
+    {
+      "quote": "Thereafter, continued proof of the disability may be required once per year.",
+      "subject_text": "continued proof of the disability",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "benefits",
+      "notes": "implicit agent is district administering benefit verification"
+    },
+    {
+      "quote": "The District, at its expense, might require an independent medical or psychological verification.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "might",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "A Dependent Status Review Committee shall be established consisting of two members of the Association and two representatives of the District.",
+      "subject_text": "A Dependent Status Review Committee",
+      "acting_party": "management",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": "establishes joint committee"
+    },
+    {
+      "quote": "This committee shall review concerns and appeals in the matter of dependent eligibility and make recommendations to the District.",
+      "subject_text": "This committee",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Such newborn children automatically have coverage for the first thirty-one (31) days of life.",
+      "subject_text": "Such newborn children",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    }
+  ]
+}

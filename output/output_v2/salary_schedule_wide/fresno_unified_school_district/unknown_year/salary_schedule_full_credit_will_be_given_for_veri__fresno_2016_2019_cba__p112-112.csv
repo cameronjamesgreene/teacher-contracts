@@ -1,0 +1,15 @@
+# Fresno_2016-2019_CBA.pdf — SALARY SCHEDULE: Full credit will be given for verified K12 teaching service ()
+# population: Teachers (Non-Credentialed and Full-Credentialed) | is_teacher_schedule: True
+# validation_warnings: none | audit confirmed
+step,CLASS I (A01),CLASS II (A02),CLASS III (A03),CLASS IV (A04)
+0,54839.21,58129.61,61420.02,64710.07
+1,58129.61,61420.02,64710.07,68000.65
+2,61420.02,64710.07,68000.65,71291.06
+3,64710.07,68000.65,71291.06,74581.46
+4,68000.65,71291.06,74581.46,77871.52
+5,71291.06,74581.46,77871.52,81161.92
+6,74581.46,77871.52,81161.92,84452.33
+7,77871.52,81161.92,84452.33,87742.73
+8,-,84452.33,87742.73,91032.96
+9,-,-,91032.96,94323.54
+10,-,-,-,97613.77

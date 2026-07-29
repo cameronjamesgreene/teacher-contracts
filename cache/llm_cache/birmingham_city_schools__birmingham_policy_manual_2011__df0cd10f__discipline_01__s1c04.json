@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "no",
+    "evidence": "It is the policy of the Birmingham Board of Education to comply with the provisions of the Teacher Tenure Act, Code of Alabama §§ 16-24-1, et seq., and the Fair Dismissal Act, Code of Alabama §§ 36-26-1, et seq., and any other applicable state or federal law in regard to all proposed disciplinary actions recommended by the Superintendent, up to and including termination.",
+    "page": "3096",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Pre-termination hearing policy that ensures both adequate and sufficient process for employees proposed to be terminated... employee will be afforded an opportunity to present his/her side and provide whatever documentary evidence he/she has to support his/her position. The School Board will make its determination of whether there are reasonable grounds to believe that the charges against the employee are true and support the proposed termination.",
+    "page": "3121",
+    "confidence": "high"
+  }
+}

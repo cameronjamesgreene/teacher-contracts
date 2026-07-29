@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Certified employees request transfers in writing by Feb 1. Qualified employees have 10 days after posting to interview. Qualified district employees are prioritized unless for coaching, probation, etc. Unfilled positions are advertised for 7 days.",
+    "evidence": "1. By February 1st of each school year, certified employees must request in writing a transfer to another building or a change of assignment applicable to the following year. ... 2. Employees on the transfer list who qualify for the opening shall have ten (10) calendar days after the date of posting to contact the building principal with the opening (or appropriate district administrator) and make an appointment for an interview. ... 4. A bargaining unit vacancy will not be filled by a new hire certified employee if a qualified District Certified employee has requested such a transfer, except in the following cases: a. Vacancies involving coaching assignments; b. Employees on probation; ... 5. If the position cannot be filled from the transfer list, it will then be advertised, both within and outside the district, for a total of seven (7) days.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to comprehensively cover the full voluntary transfer procedure outlined in Article XVIII.A."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Should it be necessary to transfer an employee from building to building or grade level or track and/or subject within buildings, as much notification as possible will be given, in writing, by the Superintendent or designee to the employee being transferred.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "Triggered when the District modifies programs or services. Vacancies are first filled by transferring current certified staff. Retention is based on affirmative action goals and seniority (years of experience) within certification categories (Elementary K-5, Middle 6-8, High 9-12). Non-retained employees are placed in a one-year employment pool. Re-employment offers from the pool are made via certified/registered mail or personal contact, with a ten-day acceptance window.",
+    "evidence": "1. In the event the District modifies programs and services, the number of certified personnel that are required to implement the modified educational programs and services shall be determined as provided below. ... 2. c. Vacant positions will be filled by transferring currently employed certified staff members within the District unless by reason of certification, training or experience no person is available. ... Certified employees will be retained for available positions within each category or specialty on the basis of District affirmative action goals and seniority (years of experience) ... The categories and specialties are established to allow for the least disruption of the ongoing program. ... Elementary Grades K through 5, Middle School Grades 6 through 8, High School Grades 9 through 12 ... B. All certified personnel who are not recommended for retention in accordance with these administrative procedures shall be terminated from employment and placed in an employment pool for one (1) school year for possible re-employment. ... 1. When a vacancy occurs for which a person in the employment pool qualifies, notification from the School District to such individual will be by certified or registered mail, or personal contact by the Superintendent or designee. Such individual will have ten (10) calendar days from receipt of the letter or from the date of personal contact to accept the position.",
+    "page": "29-30",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to comprehensively cover the full RIF procedure outlined in Article XXI."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "The Career in Teaching Program shall be governed by the Career in Teaching Program Agreement, also referred to herein as the “plan,” which is reprinted as Appendix D.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Teacher Advancement Program (TAP); Career in Teaching Program; TES",
+    "evidence": "Currently we have schools participating in the Teacher Advancement Program (TAP).",
+    "page": "9",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "incentives up to $2,000 per teacher, tied to student achievement value-added gains according to a formula designed by the Redesign Committee: incentives are tied to student achievement value-added gains as defined by the State of Ohio.",
+    "page": "9",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "7.6.1 Except as otherwise specifically provided in this Agreement, regular contract teachers doing satisfactory work will be continued in employment on a year-to-year basis until they retire. 7.6.3 Provisional contract teachers are employed for a specified period of time only, as defined in the Special Employment Contract that they sign. Provisional contract teachers shall have no right or expectation of continued employment beyond the term specified in their Special Employment Contract.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "7.6.4 Such non-renewals shall not be considered a violation of this Agreement, and the teachers involved shall not be entitled to a formal hearing under Utah Administrative Code 53G.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "16.3.4 ...teacher with the greatest length of continuous and current contract service in the District shall be appointed. 16.4.3 ...teacher with the least seniority in the District will be declared surplus.",
+    "page": "27-28",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Voluntary transfers are processed through posted vacancies. Teachers apply online for positions for the following school year. Applications are accepted until 30 calendar days prior to the new contract year, with a deadline of the fifth working day after posting. Selection is based on relative qualifications, with tie-breakers favoring current district employees and then those with the greatest length of continuous/current contract service.",
+    "evidence": "16.2.1 ...all teachers in the District shall be eligible to apply for transfer to any specific position in another school that has been posted as a vacancy... 16.2.2 Teachers desiring a transfer... must apply online... 16.3.3 If the principal determines that two or more applicants are equally well qualified... first consideration shall be given to applicants who are currently employed by the District. 16.3.4 ...teacher with the greatest length of continuous and current contract service in the District shall be appointed.",
+    "page": "26-27",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "16.4 Procedures for Determining Which Teachers Will Be Declared Surplus... 16.4.2 When enrollment decline, school closure, or change in school program makes necessary the transfer of surplus teachers, a call for volunteers shall be made... relative qualifications... 16.4.3 If a choice must be made... the teacher with the least seniority in the District will be declared surplus. 16.4.4 No teacher will be declared surplus without an explanation... principal will confer with the teacher involved... 16.6 Administrative Transfer of Teachers... 16.6.3 No administrative transfer will be made arbitrarily, capriciously, or without a written explanation...",
+    "page": "27-28",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Layoff/RIF procedures are outlined as 'declared surplus' due to enrollment decline, school closure, or program changes. Steps include: (1) call for volunteers first; (2) if none, evaluate remaining staff based on program needs and qualifications; (3) tie-breaker: least seniority teacher declared surplus; (4) written explanation and conference required before action; (5) notice by March 15 (elementary) or April 1 (secondary); (6) surplus teachers placed in available positions before new applicants.",
+    "evidence": "16.4.1 Transfers of surplus teachers may become necessary at the end of the school year because of enrollment decline, school closure, or change in school program. 16.4.2 ...call for volunteers shall be made... relative qualifications... 16.4.3 ...teacher with the least seniority... declared surplus. 16.4.4 ...without an explanation... principal will confer... 16.5.1 Written notice... by March 15 for elementary teachers and by April 1 for secondary teachers. 16.5.2 Surplus teachers... shall be placed before any applicants new to Granite School District are considered.",
+    "page": "27-28",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3",
+    "evidence": "The parties agree to maintain a sick leave bank into which teachers may place days and withdraw same in the event of catastrophic illness or for bereavement leave for up to three (3) days for any person covered by Section A. 1 a above.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 17 to 16 to align with document pagination. Evidence directly supports the answer."
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "father, mother, sister, brother, husband, wife, child, mother-in-law, father-in-law, son-in-law, daughter-in-law, nephew, niece, aunt, uncle, foster children, step-parents, step-children, grandparents, grandchildren, members of his/her own household, and anyone for whom the employee is a legal guardian.",
+    "evidence": "Immediate family shall include the father, mother, sister, brother, husband, wife, child, mother-in-law, father-in-law, son-in-law, daughter-in-law, nephew, niece, aunt, uncle, foster children, step-parents, step-children, grandparents, grandchildren, or a member of his/her own household, as well as anyone for whom the employee is a legal guardian.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": "Revised from not_discussed to specific list. Article 8.D grants bereavement leave for 'any person covered by Section A. 1 a above,' which explicitly defines the covered relatives."
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "not_applicable",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Changed to not_discussed. The document does not provide a specific paid parental, bonding, maternity, paternity, or adoption leave benefit beyond standard sick leave substitution or FMLA unpaid leave."
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "not_applicable",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Changed to not_discussed. The document does not explicitly address pregnancy, childbirth, or temporary disability leave as a distinct provision."
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "not_applicable",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Changed to not_discussed. While adoption and child care are mentioned in the context of FMLA and extended leave, there is no separate adoption or childcare leave provision."
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Employees are entitled to a leave of absence from work in accordance with this Article and the Family Medical and Leave Act (“FMLA”... Qualifying Reasons and Length of FMLA and Military Family Leave. Under FMLA, eligible employees may take up to twelve (12) work weeks of job-protected, unpaid leave...",
+    "page": "12-13",
+    "confidence": "high",
+    "coder_notes": "Revised from no to yes. Article 8 explicitly discusses FMLA rights, qualifying reasons, and leave duration."
+  }
+}

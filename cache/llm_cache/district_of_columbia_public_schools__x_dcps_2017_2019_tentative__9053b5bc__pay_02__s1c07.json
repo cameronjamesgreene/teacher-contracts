@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "DCPS shall provide the following base salary raises for the following years: 2016-2017 2017-2018 2018-2019 4% 3% 2%",
+    "page": "94",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "no",
+    "evidence": "Extra-duty pay shall remain at the levels in effect as of the 2016-2017 school year until changes are mutually agreed to by the Parties.",
+    "page": "96",
+    "confidence": "medium"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "A Teacher who is a certified classroom Teacher, and who achieves a second certification in secondary math, secondary science, or special education (or other subjects, as determined by DCPS) shall receive a non-pensionable, one-time bonus of $1,500",
+    "page": "98",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "A Teacher who is a certified classroom Teacher, and who achieves a second certification in secondary math, secondary science, or special education (or other subjects, as determined by DCPS) shall receive a non-pensionable, one-time bonus of $1,500",
+    "page": "98",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

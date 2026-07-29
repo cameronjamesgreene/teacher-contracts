@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Section 1012.34(5), Florida Statutes, requires the Superintendent to notify the department (Florida Department of Education) of any instructional employee who receives two (2) consecutive “Unsatisfactory” final summative evaluation ratings. The instructional employee’s administrator shall notify the Superintendent of the unsatisfactory performance of any teacher consistent with Section 1012.34, Florida Statutes, and its amendments. Prior to reporting any instructional employee for unsatisfactory performance to the Superintendent, the instructional employee’s administrator or the instructional employee’s assistant administrator, in accordance with the procedure outlined in Section 1012.34, Florida Statutes, shall have: The Board will consider requests for the purchase of early retirement annuities qualified by IRS regulations in accordance with Florida Statutes and Board rules. Pursuant to Sections 1012.22, Florida Statutes, those employees hired prior to July 01, 2011, shall be eligible to receive the same salary increase as negotiated for instructional employees on the grandfathered pay schedule.",
+    "evidence": "Section 1012.34(5), Florida Statutes, requires the Superintendent to notify the department (Florida Department of Education) of any instructional employee who receives two (2) consecutive “Unsatisfactory” final summative evaluation ratings.",
+    "page": "51, 58, 61",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The teacher may continue these benefits in accordance with the COBRA law by paying the premium. The parties agree to participate in a mandatory plan for all teachers to shelter their sick leave pay out at retirement in accordance with IRS regulations. In accordance with federal law, at age 65, retirees will be required to enroll in Medicare Part B, the health insurance will become secondary to Medicare, and life insurance may be converted to an individual policy or keep the $10,000 policy. The Board will consider requests for the purchase of early retirement annuities qualified by IRS regulations in accordance with Florida Statutes and Board rules. The Board shall provide teachers with access to all qualifying insurance deductions in accordance with IRS Section 125.",
+    "evidence": "The teacher may continue these benefits in accordance with the COBRA law by paying the premium.",
+    "page": "55, 57, 58",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "COBRA law; Medicare Part B; IRS Section 125; IRS regulations.",
+    "evidence": "The teacher may continue these benefits in accordance with the COBRA law by paying the premium. In accordance with federal law, at age 65, retirees will be required to enroll in Medicare Part B... The Board shall provide teachers with access to all qualifying insurance deductions in accordance with IRS Section 125.",
+    "page": "55, 57, 58",
+    "confidence": "high"
+  }
+}

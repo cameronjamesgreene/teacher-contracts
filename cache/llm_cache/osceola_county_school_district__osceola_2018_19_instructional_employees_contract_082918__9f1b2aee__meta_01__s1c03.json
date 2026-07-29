@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Master Contract",
+    "page": "45",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2018-19",
+    "evidence": "Revised: August 29, 2018",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees/teachers",
+    "evidence": "instructional employees",
+    "page": "32",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Master Contract",
+    "page": "45",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "Revised: August 29, 2018              Page - 31 - of 144",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "In accordance with Florida Statutes, a teacher is authorized to administer corporal punishment only when the principal has given prior written approval.",
+    "page": "33",
+    "confidence": "high"
+  }
+}

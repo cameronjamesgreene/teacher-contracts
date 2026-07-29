@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "DCPS excludes excessing situations from RIF. Prior to RIF, DCPS discusses options with WTU and LSRT explores alternatives; supervisor justification is required if departing from LSRT recommendation. Post-RIF, DCPS provides hiring opportunities, vacancy listings, and requires principals to interview affected teachers before filling vacancies. Separated teachers have reapplication rights, receive next-step salary placement if rehired, and incur no break in service if rehired within a year.",
+    "evidence": "39.1 DCPS intends not to use the reduction in force (RIF) or abolishment procedures in cases commonly known as “Fall Equalization,” “Spring Excessing,” or in any other excess as defined in this Agreement. ... 39.6 After the effective date of a reduction in force or an abolishment, DCPS shall offer multiple hiring opportunities... 39.7... DCPS will require principals to interview 2 appropriately qualified Teachers who lost their positions as a result of the reduction in force or abolishment... 39.8 All Teachers who are separated by DCPS... shall have the right to reapply... placed on the next salary step... incur no break in service for pension purposes.",
+    "page": "101-102",
+    "confidence": "high"
+  }
+}

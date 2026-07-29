@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes; Article 5, Section 5.5 \"Achievement of Tenure (A of T) - Professional Induction...\" outlines a full procedure for probationary teachers.",
+    "evidence": "\"The professional contractual Achievement of Tenure has been designed to support the successful achievement of tenure.\"",
+    "page": "91",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Standards of Effective Instruction (SOEI)",
+    "evidence": "\"‘Focused observations’ look at a particular area of the SOEI rubric\"",
+    "page": "95",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "3",
+    "evidence": "\"Three formal observations with Administrator/Supervisor and/or Coach/Mentor (if assigned) each year.\"",
+    "page": "95",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "\"Student growth and success is at the heart of all teaching and learning.\"",
+    "page": "91",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "Schedule A: 7–1–2019 to 6–30–2020 (1.0% eff. 7-1-2019) ... Schedule A: 7–1–2020 to 6–30–2021 (1.0% eff. 7-1-2020)",
+    "page": "3",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Schedule C Co-Curricular Pay Schedules ... Schedule D Student Activities and Programs, Coaching and Coordinating ... Schedule G Staff Development, Other Hourly Rates, Stipends",
+    "page": "3",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

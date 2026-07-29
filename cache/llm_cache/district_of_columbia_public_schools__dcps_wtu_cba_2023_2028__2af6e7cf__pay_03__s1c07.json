@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "Salary placement shall be granted for each year of satisfactory service in a full-time, equivalent position in or outside DCPS, in an educational program of recognized standing as determined by DCPS, except that salary placement shall be limited to nine (9) years.",
+    "page": "99",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "Salary placement shall be granted for each year of satisfactory service in a full-time, equivalent position in or outside DCPS, in an educational program of recognized standing as determined by DCPS, except that salary placement shall be limited to nine (9) years.",
+    "page": "99",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "Salary placement shall be granted for each year of satisfactory service in a full-time, equivalent position in or outside DCPS, in an educational program of recognized standing as determined by DCPS, except that salary placement shall be limited to nine (9) years.",
+    "page": "99",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

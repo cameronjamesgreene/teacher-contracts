@@ -1,0 +1,117 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Schedule - CBU: MAB, SVC: \"A01\"",
+      "population": "Administrators (MAB, SVC A01)",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "",
+      "lane_labels": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5",
+        "Step 6",
+        "Step 7",
+        "Step 8",
+        "Step 9",
+        "Step 10-16",
+        "Above BA/BS+30 17-18 Yrs Service",
+        "Above BA/BS+30 19-20 Yrs Service",
+        "Above BA/BS+30 21+ Yrs Service"
+      ],
+      "step_labels": [
+        "Bachelors"
+      ],
+      "cells": [
+        {
+          "step": "Bachelors",
+          "lane": "Step 1",
+          "value": "61690",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 2",
+          "value": "63755",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 3",
+          "value": "65818",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 4",
+          "value": "67881",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 5",
+          "value": "69946",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 6",
+          "value": "72008",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 7",
+          "value": "74073",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 8",
+          "value": "76136",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 9",
+          "value": "78199",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 10-16",
+          "value": "80264",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Above BA/BS+30 17-18 Yrs Service",
+          "value": "81460",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Above BA/BS+30 19-20 Yrs Service",
+          "value": "83454",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Above BA/BS+30 21+ Yrs Service",
+          "value": "86245",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Schedule covers MAB administrative staff (SVC A01). Only the Bachelors degree row is visible on this page.",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "Network access shall not be used to affect individual computers or the network in any of the above ways.",
+      "subject_text": "Network access",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Principal of each school will be responsible for establishing specific practices to enforce this policy at individual schools.",
+      "subject_text": "The Principal of each school",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The legal and ethical practices of software and hardware usage will be taught to all students and employees in the system (i.e. during computer lab orientation; during faculty meetings, etc.).",
+      "subject_text": "The legal and ethical practices of software and hardware usage",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "These poliCies will be prominently displayed in all rooms that contain one or more computers.",
+      "subject_text": "These poliCies",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Any questions about this policy, its interpretation, or speCific circumstances shall be directed to the Office of the Executive Director of Integrated Technology Programs and Services.",
+      "subject_text": "Any questions about this policy, its interpretation, or speCific circumstances",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Violators of this policy will be handled in a manner consistent with comparable situations requiring disciplinary action, including, but not limited to: (1.) loss of access; (2.) additional disciplinary action to be determined at the individual school in line with existing practice regarding inappropriate language or behavior, and (3.) legal action, when applicable.",
+      "subject_text": "Violators of this policy",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    }
+  ]
+}

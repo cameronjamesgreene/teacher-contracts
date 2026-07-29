@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "When the Least Restrictive Environment (as defined by the Individuals with Disabilities Education Act) is a self-contained classroom, maximum class size shall not exceed the following:\nWhen the Least Restrictive Environment (as defined by the Individuals with Disabilities Education Act) is a Learning Center, maximum class size shall not exceed the following:",
+    "evidence": "When the Least Restrictive Environment (as defined by the Individuals with Disabilities Education Act) is a self-contained classroom, maximum class size shall not exceed the following:",
+    "page": "78, 79",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Individuals with Disabilities Education Act",
+    "evidence": "Individuals with Disabilities Education Act",
+    "page": "78",
+    "confidence": "high"
+  }
+}

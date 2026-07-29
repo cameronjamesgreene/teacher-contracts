@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "failure to be recalled from a layoff within thirty-six (36) months from the date of a layoff",
+    "page": "5",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "In the event of a Reduction-in-Force, a list will be prepared consistent with Section 4.12.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "failure to be reemployed during the probationary years",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "such teacher shall be required to commence taking courses toward certification in the new assigned field, or another field of certification selected by the teacher and approved after consultation with the Division of Human Resources, at the minimum rate of six credit hours per year.",
+    "page": "8",
+    "confidence": "medium"
+  }
+}

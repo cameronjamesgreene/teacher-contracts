@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Any permanent, probationary, and temporary unit members employed on a contract full time shall receive the same benefits as any unit member.",
+      "subject_text": "Any permanent, probationary, and temporary unit members employed on a contract full time",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members voluntarily reducing contract to less than full time shall receive benefits only if they pay for the proportion of benefit costs equal to the proportion of the reduction of their contract.",
+      "subject_text": "Unit members voluntarily reducing contract to less than full time",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members whose contracts are involuntarily reduced shall continue to receive full benefits.",
+      "subject_text": "Unit members whose contracts are involuntarily reduced",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Family coverage for surviving covered family members in the case of death of a unit member or retiree shall continue for a period of six (6) months beginning with the first of the month following the death of the unit member.",
+      "subject_text": "Family coverage for surviving covered family members in the case of death of a unit member or retiree",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": "Subject is a benefit itself rather than a party; operates as a continued entitlement."
+    },
+    {
+      "quote": "A unit member on leave shall have the option to continue any health and dental, vision and life insurance benefits negotiated in this Agreement at his/her own expense (see Article X, Section 10.4.12).",
+      "subject_text": "A unit member on leave",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "All costs for medical examination and tests required by the District shall be paid by the District.",
+      "subject_text": "All costs for medical examination and tests required by the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": "Passive construction; management holds the obligation to pay."
+    },
+    {
+      "quote": "Upon request, the Association shall be provided copies of master contracts with insurance carriers.",
+      "subject_text": "the Association",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Passive construction; management holds the obligation to provide documents."
+    },
+    {
+      "quote": "The Association shall be given the opportunity to proofread insurance brochures if the District is given such an opportunity.",
+      "subject_text": "The Association",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Conditional passive right contingent on district's own opportunity."
+    },
+    {
+      "quote": "During the term of this Agreement, the District shall make available benefit plans with provisions as are in the plans listed below:",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    }
+  ]
+}

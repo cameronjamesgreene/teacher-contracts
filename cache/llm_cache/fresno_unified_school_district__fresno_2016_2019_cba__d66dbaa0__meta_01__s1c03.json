@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Fresno_2016-2019_CBA.pdf; 'this Agreement'",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2019",
+    "evidence": "Fresno_2016-2019_CBA.pdf; 'term of this contract ending 2018-19'; 'effective as of July 1, 2017'",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated, non-management employees (represented by FTA, CSEA, SEIU, BTC)",
+    "evidence": "'Any certificated, non-management employee(s) of the District covered by the terms of this Agreement.'",
+    "page": "27",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "'This Agreement'; 'award, which shall be final and binding.'",
+    "page": "28, 30",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "'California Code of Civil Procedure'; 'Title V'",
+    "page": "20, 30",
+    "confidence": "medium"
+  }
+}

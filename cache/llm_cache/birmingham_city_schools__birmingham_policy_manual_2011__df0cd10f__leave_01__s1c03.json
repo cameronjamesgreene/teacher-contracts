@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "1 day per month",
+    "evidence": "Sick leave with pay shall be available to all full-time employees in accordance with the State Law as earned at the rate of one day per month for the months employed.",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Carries over; cap not specified in document, refers to statute",
+    "evidence": "Unused sick leave will carry over to each succeeding year of employment for certificated professional staff and non-certificated staff as provided by statute.",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Attendance upon an ill member of the immediate family (husband, wife, father, mother, son, daughter, brother, sister, step parents) of the employee",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "3",
+    "evidence": "regular professional employees will be provided three days personal leave annually on a non-cumulative basis.",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Non-cumulative. First 2 days full pay, 3rd minus substitute cost. Notify supervisor ASAP (24-hr notice encouraged). Not for extending holidays or first/last two weeks of school year. Not applicable to summer work.",
+    "evidence": "regular professional employees will be provided three days personal leave annually on a non-cumulative basis. The first two days shall be with full pay; the third shall be at full pay minus the amount paid a substitute teacher... Personal leave should not be requested to extend holidays or during the first week and the last two weeks of the school year. Personal leave shall not be applicable to summer work.",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "regular professional employees will be provided three days personal leave annually on a non-cumulative basis.",
+    "page": "3050",
+    "confidence": "high"
+  }
+}

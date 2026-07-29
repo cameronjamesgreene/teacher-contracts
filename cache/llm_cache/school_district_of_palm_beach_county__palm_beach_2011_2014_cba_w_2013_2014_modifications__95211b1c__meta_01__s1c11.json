@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "this Agreement shall be effective when ratified by both Parties and will remain in full force and effect through June 30, 2014.",
+    "page": "146",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "through June 30, 2014",
+    "evidence": "will remain in full force and effect through June 30, 2014.",
+    "page": "146",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Classroom Teachers Association (CTA)",
+    "evidence": "For Classroom Teachers Association – CTA",
+    "page": "147",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "This Agreement constitutes all Agreements between the Parties for the term of this Agreement and the Board shall carry out the commitments contained herein and give them full force and effect as Board policy.",
+    "page": "145",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Chapter 447, Part II, Florida Statutes",
+    "page": "145",
+    "confidence": "high"
+  }
+}

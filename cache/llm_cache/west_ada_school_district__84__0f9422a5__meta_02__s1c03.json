@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"All certified staff waive all claims to continuing contract rights and renewal that are provided pursuant to Idaho Code.\"; \"Fall within the Retirement Rules of 85-89, or ages 60 to 65, as set forth in section 3 under TERMS AND CONDITIONS.\"; \"All payments are subject at state and federal tax laws, rules and regulations.\"; \"Nothing contained herein shall deny to any certified employee, the Board or the Association, their rights under State or Federal Constitutions and laws.\"",
+    "evidence": "\"All certified staff waive all claims to continuing contract rights and renewal that are provided pursuant to Idaho Code.\"; \"Fall within the Retirement Rules of 85-89, or ages 60 to 65, as set forth in section 3 under TERMS AND CONDITIONS.\"; \"All payments are subject at state and federal tax laws, rules and regulations.\"; \"Nothing contained herein shall deny to any certified employee, the Board or the Association, their rights under State or Federal Constitutions and laws.\"",
+    "page": "27, 27, 28, 34",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"Medical and Dental insurance benefits may be retained with the District carrier as provided by law under the COBRA rules.\"; \"All payments are subject at state and federal tax laws, rules and regulations.\"; \"Nothing contained herein shall deny to any certified employee, the Board or the Association, their rights under State or Federal Constitutions and laws.\"",
+    "evidence": "\"Medical and Dental insurance benefits may be retained with the District carrier as provided by law under the COBRA rules.\"; \"All payments are subject at state and federal tax laws, rules and regulations.\"; \"Nothing contained herein shall deny to any certified employee, the Board or the Association, their rights under State or Federal Constitutions and laws.\"",
+    "page": "27, 28, 34",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "COBRA rules, federal tax laws, Federal Constitutions, Federal laws.",
+    "evidence": "\"Medical and Dental insurance benefits may be retained with the District carrier as provided by law under the COBRA rules.\"; \"All payments are subject at state and federal tax laws, rules and regulations.\"; \"Nothing contained herein shall deny to any certified employee, the Board or the Association, their rights under State or Federal Constitutions and laws.\"",
+    "page": "27, 28, 34",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "2 days per event, up to 20 days per contract period",
+    "evidence": "up to two (2) additional consecutive days per event. ... Such leaves shall be with pay and shall not be deducted from the teacher's sick leave; however, each teacher is limited to twenty (20) days per contract period.",
+    "page": "174",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "mother, father, sister, brother, children, spouse, significant other, parents of spouse, parents of significant other, parent/child position holders, or household members",
+    "evidence": "teacher's mother, father, sister, brother, children, spouse, significant other, parents of spouse, or parents of significant other and anyone who has the position of parent or child, or any person who has been a member of the teacher's household immediately prior to the critical illness.",
+    "page": "174",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

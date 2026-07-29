@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "yes",
+    "evidence": "The Board agrees to provide 2 days of paid leave to the mother for the birth of a child.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "The Board agrees to provide 2 days of paid leave to the mother for the birth of a child.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

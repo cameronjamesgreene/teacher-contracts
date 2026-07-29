@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "district's group health plan",
+    "page": "18",
+    "confidence": "medium",
+    "coder_notes": "Document excerpt truncated; benefits section (p. 23+) not included. Preserved Stage 1 answer based on quoted evidence, but confidence lowered due to missing full context."
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Benefits section not included in provided excerpt. Answer remains not_discussed."
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Benefits section not included in provided excerpt. Answer remains not_discussed."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Benefits section not included in provided excerpt. Answer remains not_discussed."
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Benefits section not included in provided excerpt. Answer remains not_discussed."
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Benefits section not included in provided excerpt. Answer remains not_discussed."
+  }
+}

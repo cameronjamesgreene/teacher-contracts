@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Teachers shall not be disciplined without just cause.",
+    "page": "86",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Disciplinary action in the form of dismissal shall be in accordance with the appropriate provisions of the Education Code. Prior to administering any formal discipline subsequent to the oral and/or written reprimands, a teacher shall be provided notice and an opportunity to be heard.",
+    "page": "86",
+    "confidence": "high"
+  }
+}

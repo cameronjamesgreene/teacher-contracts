@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "The annual salary rate for a non-degree teacher who does not possess a B.S. or M.S. equivalency, shall be $300 less than the annual salary rate of a teacher with the same number of credited years of experience who holds a B.S. degree or M.S. equivalency.",
+    "page": "-37-",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "The annual salary rate for a non-degree teacher who does not possess a B.S. or M.S. equivalency, shall be $300 less than the annual salary rate of a teacher with the same number of credited years of experience who holds a B.S. degree or M.S. equivalency.",
+    "page": "-37-",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "The annual salary rate for a non-degree teacher who does not possess a B.S. or M.S. equivalency, shall be $300 less than the annual salary rate of a teacher with the same number of credited years of experience who holds a B.S. degree or M.S. equivalency.",
+    "page": "-37-",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "$1,000 per year",
+    "evidence": "If a teacher receives his/her National Board Certification, then the teacher will be paid an additional $1,000 per year as long as the teacher maintains that certification and remains a teacher in IPS.",
+    "page": "-37-",
+    "confidence": "high"
+  }
+}

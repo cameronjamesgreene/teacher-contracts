@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends at Policy 3093. Relevant sections for salary schedules and experience credit (listed in the TOC as Series 3200 and 4000) are not included in the text. No information on experience credit was found."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Same as above. Relevant salary and experience credit sections are listed in the TOC but not provided in the excerpt."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Same as above."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Military leave is covered in Policy 3050, but salary placement credit for military or public service is not discussed in the provided text."
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The document does not mention National Board certification or any extra pay for advanced certification."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The district has developed and promotes a comprehensive program to ensure the safety of its employees, students, and visitors. The safety program includes guidelines and procedures for responding to emergencies and activities to help reduce the frequency of accidents and injuries.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to the explicit Safety section (Policy CK) which directly addresses comprehensive safety programs and guidelines, providing stronger support than the quoted standards of conduct line."
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "An employee who is physically assaulted at work may take all the leave time medically necessary (up to two years) to recover from the physical injuries he or she sustained. At the request of an employee, the district will immediately assign the employee to assault leave.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Students are expected to follow the classroom rules, campus rules, and rules listed in the Student Handbook and Student Code of Conduct. Teachers and administrators are responsible for taking disciplinary action based on a range of discipline management strategies that have been adopted by the district.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Changed answer from 'no' to 'yes'. The document explicitly describes the procedure/framework by stating teachers and administrators are responsible for disciplinary action based on district-adopted strategies, which directly addresses behavior-management procedures affecting teachers."
+  },
+  "safety_remove_student_004": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "The district may close schools because of bad weather or emergency conditions. When such conditions exist, the superintendent will make the official decision concerning the closing of the district’s facilities. ... All employees should be familiar with the evacuation diagrams posted in their work areas. Fire, tornado, and other emergency drills will be conducted to familiarize employees and students with evacuation procedures.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Changed answer from 'no' to 'yes'. The document explicitly addresses inclement weather/school closure procedures and emergency/lockdown evacuation procedures for staff under the General procedures section."
+  },
+  "safety_environment_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

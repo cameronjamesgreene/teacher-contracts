@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "TEACHERS MUST TAKE THEIR GRADE BOOKS WITH THEM AND CHECK ROLL TO SEE THAT ALL STUDENTS HAVE EXITED THE BUILDING... Students will line up against the wall of their own classroom... seated in a comfortable position on the floor.",
+    "page": "157-158",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Keep paper off the floor... The need for repairs or maintenance to the room, furniture, or equipment should be reported to the assistant principal or principal using the work order system.",
+    "page": "156-157",
+    "confidence": "medium"
+  }
+}

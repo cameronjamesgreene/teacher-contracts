@@ -1,0 +1,10 @@
+"# FTA-Fresno-Teachers-Association_CBA_2010-2012.pdf — Career Increment (Effective July 1, 2007)"
+"# population: Teachers (Class IV, Level 10 example) | is_teacher_schedule: True"
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p109) — one grid's data may be contaminated from another; verify; suspicious_uniform_progression: column 'PRECENT OF SALARY' increments by a constant every step — on OCR'd input this may be invented smoothing; verify against the source | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,PRECENT OF SALARY,CAREER INCREMENT,SALARY
+11,1.6,1092.12,69349.31
+12,3.2,2184.23,70441.42
+13,4.8,3276.34,71533.53
+14,6.4,4368.46,72625.65
+15,8.0,5460.57,73717.76

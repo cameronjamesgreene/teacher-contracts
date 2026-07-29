@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "11.8.8.2 One (1) year’s credit on the schedule in Appendix B shall be given for two (2) consecutive semester assignments in the same school or two different schools within the District.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2004-2007",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "34",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "11.10 A teacher shall receive an authorized increment based solely on service for a completed school year as defined in the following: A completed school year for salary increment purposes shall be at least seventy-five percent (75%) of the required days for any school year as a probationary or permanent teacher, long-term substitute (prior to July 1, 1998), temporary, categorical or emergency teacher, or any combination thereof.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "11.8.7.1 A newly-appointed probationary teacher shall receive year-for-year credit for verified outside teaching in full-time permanent or probationary teacher, temporary, categorical, emergency or long-term substitute status.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "11.13.8 National Board for Professional Teacher Standards (NBPTS) — Commencing July 1, 2000, a teacher who holds current NBPTS certification shall receive an added annual salary payment of $5,000 above regular salary schedule placement, provided that the teacher is teaching in a position for which he or she holds a current California teaching credential.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

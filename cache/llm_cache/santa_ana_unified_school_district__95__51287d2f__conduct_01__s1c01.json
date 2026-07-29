@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Authorized representatives of the Association shall be permitted the use of district email, faxes, and other electronic devices to transact official Association business provided the business does not interfere with the instructional process... Email, faxes, and other electronic devices may not be utilized to encourage or condone illegal activities. Email may be used by unit members outside times of active instruction such as before and after school and during duty free lunches.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

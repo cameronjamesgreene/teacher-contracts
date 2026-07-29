@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Either an employee or the WTU may raise a grievance",
+      "subject_text": "Either an employee or the WTU",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "if raised by the employee, the WTU may associate itself with the grievance at any time except as otherwise provided.",
+      "subject_text": "the WTU",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "If raised by the WTU, the employee may not thereafter raise the grievance himself",
+      "subject_text": "the employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "if raised by the employee, he may not thereafter cause the WTU to raise the same grievance independently.",
+      "subject_text": "he",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The WTU may not process a grievance on behalf of an employee without that employee's consent.",
+      "subject_text": "The WTU",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "Any Teacher who wishes to raise a grievance must do so in writing within fourteen (14) school days of the date the Teacher or the WTU first learned of its cause.",
+      "subject_text": "Any Teacher who wishes to raise a grievance",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The grievance shall be submitted in writing on a form developed by the WTU.",
+      "subject_text": "The grievance",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Passive construction; implicit agent submitting is the teacher."
+    },
+    {
+      "quote": "Within five school days after receipt thereof, the principal and the Teacher should meet to resolve the dispute informally and expeditiously.",
+      "subject_text": "the principal and the Teacher",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "should",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "At the Teacher’s option there may be present at such discussion a representative of the WTU or any other school employee, or outside representative selected by the aggrieved employee who is not an officer, agent or representative of another Teacher organization.",
+      "subject_text": "a representative of the WTU or any other school employee, or outside representative selected by the aggrieved employee who is not an officer, agent or representative of another Teacher organization",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": "Impersonal construction granting permission for worker to have representation at Step 1 meeting."
+    }
+  ]
+}

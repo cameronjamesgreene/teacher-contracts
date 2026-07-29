@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Any employee using, selling, possessing, distributing, transferring, or manufacturing illegal substances in any setting and at any time will be in violation of Aldine Independent School District's employment policy and faces swift and severe disciplinary action and probable dismissal. Employees needing assistance related to drug or alcohol abuse may contact an area Alcoholics Anonymous, Palmer Drug Abuse Program, or another program of their choice.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

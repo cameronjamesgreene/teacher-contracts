@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "pupil-subject-teacher ratio of no more than 25 students per class",
+    "page": "7216",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "no more than 25 students per class (high school summer school)",
+    "evidence": "Credit courses during Summer school will operate under the same standards as regular year courses and with a pupil-subject-teacher ratio of no more than 25 students per class and no less than 15 students per class.",
+    "page": "7216",
+    "confidence": "medium"
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

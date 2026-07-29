@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Educators may be suspended, reprimanded, disciplined, or have their pay reduced only for good and just cause.",
+    "page": "93",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Educators may be refused renewal of employment, discharged, or terminated only in accordance with law. Employees who are not renewed for any reason will receive a written notice of the reason(s) for refusal of reemployment within 72-hours of the original notice.",
+    "page": "94",
+    "confidence": "high"
+  }
+}

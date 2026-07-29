@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "Appropriate personnel shall participate in the design and supervision of all such activities.",
+      "subject_text": "Appropriate personnel",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

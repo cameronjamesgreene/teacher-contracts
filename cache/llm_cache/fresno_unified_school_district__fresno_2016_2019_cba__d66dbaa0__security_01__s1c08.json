@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "seniority of that position shall be determined by using the District service of the most senior of the teachers involved",
+    "page": "84",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Permanent teachers with two years post-transfer may apply. Vacancies after 3 weeks are filled via a Lateral Interview Process (interest due by Winter Break, position starts next school year). Vacancies unfilled after spring staffing are posted for 5 days for interviews. Selection prioritizes school balance needs and is not binding. Exchange and Professional Enrichment transfers are also available with specific deadlines and eligibility requirements.",
+    "evidence": "A bargaining unit member who has attained permanent status and has stayed at least two years after a voluntary transfer may apply for any permanent vacancy which occurs. All vacancies which occur after the end of the first three (3) student instructional weeks... shall be filled by the hiring of a temporary teacher. FUSD Human Resources shall track and report all such positions to FTA for inclusion in a Lateral Interview Process",
+    "page": "79",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Yes. Procedures cover ineffectiveness/incompatibility (written notice, April 1 request, 3-day review, conference within 7-15 days, Level III grievance), program revisions (advance notice, qualification development, avoid cross-level transfers), ethnic balance (court orders), and overage/staff reductions (volunteers first, then least senior with exemptions, 20-day vacancy notice, 10-day interview window).",
+    "evidence": "5.1 Ineffectiveness or Incompatibility... 5.2 Program... 5.3 Ethnic Balance... 5.4 Overage",
+    "page": "81-85",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "The document addresses 'overage transfers' for staff reductions rather than traditional layoffs. Procedures require soliciting volunteers first. If insufficient, transfers begin with the least senior person, subject to specific exemptions (ethnic balance, bilingual/ELL needs, specialized courses, 2-year wait, special credentials, multi-site/part-time assignments, extra-pay contracts, split assignments). Notice of vacancies is provided 20 days before/after the school year, with a 10-working-day interview window.",
+    "evidence": "5.4.1 Reductions in staff size (overage transfers) shall be accomplished by the transfer of personnel... 5.4.2 The principal will initially attempt to satisfy overage transfer requirements... by soliciting volunteers... 5.4.3 Additional employees... shall be transferred, as necessary, beginning with the least senior person... 5.4.5 Persons who are notified that they will be subjected to involuntary transfers, for the purpose of reducing the size of a staff, shall concurrently be provided with notices of all known permanent vacancies... at least twenty (20) calendar days",
+    "page": "83-85",
+    "confidence": "high"
+  }
+}

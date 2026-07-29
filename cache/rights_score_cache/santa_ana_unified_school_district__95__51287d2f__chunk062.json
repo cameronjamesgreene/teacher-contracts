@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "A complete plan for such study must be approved and filed with the original application.",
+      "subject_text": "A complete plan for such study",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The unit member shall remain in travel status three and one-half (3½) months for each semester of leave granted.",
+      "subject_text": "The unit member",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members meeting the following criteria may, at the discretion of the District, be granted a leave once in every eight (8) years.",
+      "subject_text": "Unit members meeting the following criteria",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "permission",
+      "topic": "leave",
+      "notes": "Conditional permission contingent on district discretion."
+    },
+    {
+      "quote": "An approval by a physician that the unit member is in good physical condition shall be required.",
+      "subject_text": "An approval by a physician that the unit member is in good physical condition",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Expenses incurred will be the responsibility of the unit member.",
+      "subject_text": "Expenses incurred",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Sabbatical leaves shall be granted for not less than one (1) full semester or more than two (2) consecutive semesters.",
+      "subject_text": "Sabbatical leaves",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Leave for a fractional part of a semester is not permitted.",
+      "subject_text": "Leave for a fractional part of a semester",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "leave",
+      "notes": ""
+    }
+  ]
+}

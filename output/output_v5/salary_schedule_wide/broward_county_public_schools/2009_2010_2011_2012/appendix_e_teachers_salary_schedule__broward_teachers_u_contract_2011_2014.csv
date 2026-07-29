@@ -1,0 +1,25 @@
+# Broward_Teachers_U_Contract_2011_2014.pdf — APPENDIX E TEACHERS SALARY SCHEDULE (2009-2010 / 2011-2012)
+# population: Teachers | is_teacher_schedule: True
+"# validation_warnings: identical values across steps ['*4', '4'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['**15', '15'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,Salary,Salary & Cafe
+1,39000,39300
+2,39180,39480
+*4,39475,39775
+4,39475,39775
+5,39775,40075
+6,40075,40375
+7,40375,40675
+8,40714,41014
+10,41110,41410
+11,42150,42450
+12,42881,43181
+13,43440,43740
+**15,44859,45159
+15,44859,45159
+16,45820,46120
+17,46940,47240
+18,48081,48381
+19,49877,50177
+20,53377,53677
+21,62677,62977
+22,71250,71550

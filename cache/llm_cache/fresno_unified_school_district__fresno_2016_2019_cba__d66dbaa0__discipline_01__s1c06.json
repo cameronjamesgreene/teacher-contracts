@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The Superintendent or his/her designee shall give thirty (30) days prior written notice of dismissal not later than March 15 in the case of second-year probationary employees. The notice shall include a statement of the reasons for the dismissal and notice of the opportunity to appeal. In the event of a dismissal for unsatisfactory performance, a copy of the evaluation conducted pursuant to Section 44664 shall accompany the written notice. The employee shall have fifteen (15) days from receipt of the notice of dismissal to submit to the Board of Education a written request for a hearing, and the Board of Education may establish procedures for appointing a hearing officer to conduct the hearing and submit a recommended decision.",
+    "page": "60",
+    "confidence": "high"
+  }
+}

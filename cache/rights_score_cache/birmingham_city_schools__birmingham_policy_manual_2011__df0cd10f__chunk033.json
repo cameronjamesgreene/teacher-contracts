@@ -1,0 +1,30 @@
+{
+  "clauses": [
+    {
+      "quote": "Accordingly, the School Board requires that all principals, assistant principals, directors and certified central office personnel successfully complete the Alabama Professional Educational Personnel Evaluation Program, and receive certification fram that program that said supervisor is capable of conducting evaluations of educational personnel.",
+      "subject_text": "the School Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Any supervisor who fails to participate in and receive state evaluation certification shall be subject to disciplinary action up to and including transfer, reassigmnent, or termination of employment.",
+      "subject_text": "Any supervisor",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Supervisors classified as management per prompt guidelines."
+    }
+  ]
+}

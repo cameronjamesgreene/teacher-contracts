@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "5 days (State Personal Leave, which replaced traditional sick leave) plus 2 days Local Leave",
+    "evidence": "each full-time employee is advanced a total of seven days of paid leave of which five are required by the state and two are provided by local policy.",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": "Verified. Evidence explicitly supports the breakdown of 5 state and 2 local days totaling 7."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, accumulates with no limit/cap",
+    "evidence": "State Personal Leave ... given to all full-time employees at the rate of five days per year with no limit on accumulation.",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": "Verified. Explicitly states no accumulation limit for State Personal Leave."
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick leave may be used for the following reasons only: • Employee illness • Illness in the employee’s immediate family",
+    "page": "33",
+    "confidence": "high",
+    "coder_notes": "Corrected page reference from 32 to 33 based on provided document text. Evidence explicitly supports use for family illness."
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "State law entitles all employees to five days of paid state personal leave per year.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": "Verified. Direct match."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Nondiscretionary (illness, emergency, death, military) vs. discretionary (advance planning required); written request needed for discretionary; prohibited on state-mandated assessment days; supervisors may restrict other discretionary days; prorated upon separation.",
+    "evidence": "State personal leave may be used for two general purposes: nondiscretionary and discretionary. ... No employee shall be granted discretionary use of state personal leave on days scheduled for state-mandated assessments. Individual supervisors may also restrict the use of state personal use for discretionary purpose on other days. ... state personal leave will be prorated based on the actual time employed.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": "Verified. Evidence explicitly covers all listed restrictions and proration."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "after September 1, 2001, a retiring employee may purchase at full, current actuarial cost one year of Teacher Retirement System service credit for fifty (50) days of unused state leave (including “old” state sick leave plus “new” state personal leave.)",
+    "page": "73",
+    "confidence": "high",
+    "coder_notes": "Verified. Evidence indicates leave is not converted to cash/sick leave during employment, but can be purchased for service credit upon retirement. Supports 'no' for general conversion."
+  }
+}

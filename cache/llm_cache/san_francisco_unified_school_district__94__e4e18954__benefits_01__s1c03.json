@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Disabilities caused or contributed to by pregnancy, miscarriage, childbirth, and recovery there from are, for all job-related purposes, temporary disabilities and shall be treated as such under any health or temporary disability insurance or sick leave plan available in connection with employment by the District.",
+    "page": "24",
+    "confidence": "medium"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

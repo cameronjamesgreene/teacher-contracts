@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Staffing ratios for Special Education classes and teachers will not exceed the legal maximums.",
+      "subject_text": "Staffing ratios for Special Education classes and teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "the total number of students shall be the total in both sessions",
+      "subject_text": "the total number of students",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "the total number of students shall be considered as one class",
+      "subject_text": "the total number of students",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "The District shall establish a class size problem resolution committee at each level (elementary, intermediate, and high school) to study and suggest methods of relief in buildings to reduce split-grade classes, to reduce the impact of low enrollment classes, to allow for large group or experimental instruction, and/or team teaching.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "The District and Association by May 1, 2000, will conduct a secondary class-by-class/site-by-site assessment based on enrollment figures with a goal of understanding the reasons for class size reductions where educationally and financially feasible.",
+      "subject_text": "The District and Association",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": "Joint action clause."
+    },
+    {
+      "quote": "These figures and the results of this study, along with recommendations if any for secondary class size reduction, will be submitted to the bargaining teams by May 30, 2000.",
+      "subject_text": "These figures and the results of this study, along with recommendations if any for secondary class size reduction",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "These results and recommendations will be referred back to the bargaining teams",
+      "subject_text": "These results and recommendations",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "these results and recommendations will be considered for implementation in the 2000-2001 school year",
+      "subject_text": "these results and recommendations",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

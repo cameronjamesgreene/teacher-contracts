@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "5 days for immediate family/household members, 2 days for others (paid, per incident)",
+    "evidence": "A unit member shall be allowed a maximum of five days of absence without loss of salary upon the death of a child, parent (natural, foster, step, or in-law), brother, sister, husband, wife, or of anyone who has lived regularly in his/her household. A unit member shall be allowed a maximum of two duty days of absence without loss of salary upon the death of a brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, spouse’s grandparent, or an individual for whom the unit member held durable medical or personal representative power of attorney at the time of death.",
+    "page": "78",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Child, parent, brother, sister, husband, wife, household members; plus brother/sister-in-law, son/daughter-in-law, grandparent, grandchild, spouse's grandparent, power of attorney holder",
+    "evidence": "child, parent (natural, foster, step, or in-law), brother, sister, husband, wife, or of anyone who has lived regularly in his/her household... brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, spouse’s grandparent, or an individual for whom the unit member held durable medical or personal representative power of attorney",
+    "page": "78",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Child Care/Adoption Leave... may be granted an unpaid leave of absence up to one full school year, with two additional renewals for one school year each.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "In accordance with the FMLA, the initial period of up to12 weeks shall be treated as FMLA leave for the purpose of caring for his/her child... For those unit members on FMLA leave, for the duration of the FMLA leave MCPS will maintain the employee’s benefits under the conditions coverage would have provided if the employee had continued working.",
+    "page": "76",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Teachers may be required to attend no more than two (2) faculty meetings per month, such time to be considered part of the work week described above.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

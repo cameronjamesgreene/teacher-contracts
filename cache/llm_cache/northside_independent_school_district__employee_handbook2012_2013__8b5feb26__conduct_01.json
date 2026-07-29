@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees should not accept outside employment or engage in other activities for profit that would interfere with their district employment.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "The Code of Ethics and Standard Practices for Texas Educators, adopted by the State Board for Educator Certification, which all district employees must adhere to, is reprinted below: ... Violation of policies, regulations, or guidelines may result in disciplinary action, including termination.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Northside ISD is committed to maintaining an alcohol- and drug-free environment and will not tolerate the use of alcohol and illegal drugs in the workplace and at school-related or school-sanctioned activities on or off school property. Employees who use or are under the influence of alcohol or illegal drugs as defined by the Texas Controlled Substances Act during working hours may be dismissed.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to the broader drug-free workplace policy for stronger direct support, as the original Stage 1 quote only covered the CDL driver subset."
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "The district’s electronic communications systems, including its network access to the Internet, is primarily for administrative and instructional purposes. Limited personal use of the system is permitted if the use: Imposes no tangible cost to the district; Does not unduly burden the district’s computer or network resources; Has no adverse effect on job performance or on a student’s academic performance. Electronic mail transmissions and other use of the electronic communications systems are not confidential and can be monitored at any time to ensure appropriate use.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "The Texas educator shall comply with standard practices and ethical conduct toward students, professional colleagues, school officials, parents, and members of the community and shall safeguard academic freedom.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

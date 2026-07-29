@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "discussed_unclear",
+    "evidence": "A permanent employee who receives an unsatisfactory final, formal evaluation shall be evaluated each year thereafter until the employee’s performance becomes satisfactory or until the employee is separated from the District.",
+    "page": "14",
+    "confidence": "low",
+    "coder_notes": "The quoted passage (Sec 5.5.7) only addresses the frequency of annual re-evaluations and potential separation for unsatisfactory performances. It does not describe a formal improvement, remediation, or professional support plan. Section 5.2.3 mentions written suggestions and positive assistance, but lacks explicit plan structures. Evidence is tangential to the specific question."
+  },
+  "evaluation_consequences_008": {
+    "answer": "discussed_unclear",
+    "evidence": "A permanent employee who receives an unsatisfactory final, formal evaluation shall be evaluated each year thereafter until the employee’s performance becomes satisfactory or until the employee is separated from the District.",
+    "page": "14",
+    "confidence": "low",
+    "coder_notes": "The quoted passage implies separation as a consequence but does not explicitly state how evaluation results are used for tenure, layoff priority, transfers, or compensation. The evidence is indirect and does not support the specific categories listed in the question."
+  }
+}

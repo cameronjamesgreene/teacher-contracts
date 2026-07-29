@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The Board shall provide all regularly assigned teachers a paid service health plan, including prescriptions. Teachers shall select one of the health plans available through the Health Service System, City and County of San Francisco, and contribute at the rates applicable to the selected plan.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Maximum allowed under City Charter; up to $175/month for employee plus one dependent; up to $225/month for family coverage (effective July 1, 2000)",
+    "evidence": "The District contributes to the rate for each teacher as provided by the City Charter. (The contribution by the District will be the maximum allowed under City Charter.) Effective July 1, 2000, the District shall make the following monthly one-twelfth [1/12] annual contributions for eligible unit members who have dependents enrolled for medical insurance coverage: up to $175/month for employee plus one dependent; up to $225/month for family coverage.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Teachers contribute at the rates applicable to the selected plan.",
+    "evidence": "Teachers shall select one of the health plans available through the Health Service System, City and County of San Francisco, and contribute at the rates applicable to the selected plan.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Effective July 1, 2000, the District shall make the following monthly one-twelfth [1/12] annual contributions for eligible unit members who have dependents enrolled for medical insurance coverage: up to $175/month for employee plus one dependent; up to $225/month for family coverage.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "discussed_unclear",
+    "evidence": "The Board shall provide all regularly assigned teachers a paid service health plan, including prescriptions. Teachers shall select one of the health plans available through the Health Service System, City and County of San Francisco, and contribute at the rates applicable to the selected plan.",
+    "page": "39",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "A fully paid dental plan, including orthodontia coverage shall be provided by the District for regularly assigned teachers and dependents. The plan shall be Delta Dental.",
+    "page": "40",
+    "confidence": "high"
+  }
+}

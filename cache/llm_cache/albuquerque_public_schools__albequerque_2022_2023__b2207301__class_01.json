@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "Kindergarten 20... Grades 1-3 The average class load at an individual elementary school shall not exceed 22 students. Grades 4-6 The average class load at an individual elementary school shall not exceed 24 students. Grades 7-8 The average class load at an individual secondary school shall not exceed 28 students. Grades 9-12 The average class load at an individual secondary school shall not exceed 30 students.",
+    "page": "104",
+    "confidence": "high",
+    "coder_notes": "Updated evidence and page to quote Appendix B (p. 104), which provides explicit, direct class-size caps rather than the previously cited recommendations for advisories and summer school."
+  },
+  "class_elementary_max_002": {
+    "answer": "Kindergarten: 20. Grades 1-3: average class load shall not exceed 22. Grades 4-6: average class load shall not exceed 24.",
+    "evidence": "Kindergarten 20... Grades 1-3 The average class load at an individual elementary school shall not exceed 22 students. Grades 4-6 The average class load at an individual elementary school shall not exceed 24 students.",
+    "page": "104",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_secondary_max_003": {
+    "answer": "Advisory groups: maximum 15 students. Summer school: approximately 30 students per teacher.",
+    "evidence": "It is highly recommended that all Advisory groups be limited to no more than 15 students. Good faith efforts will be made to keep the summer school class sizes at approximately thirty (30) students per teacher",
+    "page": "21, 26",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "If an Advisory group exceeds 15 students due to staffing issues, the school shall schedule all Advisory groups with the smallest number of students possible, equitably distributed among all advisors.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

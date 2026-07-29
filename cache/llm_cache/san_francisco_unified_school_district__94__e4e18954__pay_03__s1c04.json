@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "At the time of probationary appointment, if such teacher has previously served in the San Francisco Unified School District, he/she shall be placed in the appropriate classification and shall be allowed credit for increment purposes on the basis of one (1) increment for each year of service as a regularly assigned teacher.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "A newly-appointed probationary teacher shall receive year-for-year credit for verified outside teaching in full-time permanent or probationary teacher, temporary, categorical, emergency or long-term substitute status.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "$5,000",
+    "evidence": "Commencing July 1, 2000, a teacher who holds current NBPTS certification shall receive an added annual salary payment of $5,000 above regular salary schedule placement, provided that the teacher is teaching in a position for which he or she holds a current California teaching credential.",
+    "page": "37",
+    "confidence": "high"
+  }
+}

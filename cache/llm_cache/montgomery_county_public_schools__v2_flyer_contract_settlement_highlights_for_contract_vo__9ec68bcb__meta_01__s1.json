@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Tentative agreement / settlement summary",
+    "evidence": "Proposed Settlement Agreement with Montgomery County Public Schools",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "School Years 2018–2020; increases effective July 1, 2017",
+    "evidence": "for the School Years 2018 – 2020",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "MCEA members (teachers/certificated staff), substitutes, home and hospital teachers",
+    "evidence": "MCEA bargaining team... For Substitutes:... For Home and Hospital Teachers:",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Tentative/proposed (requires membership and Board approval to become final)",
+    "evidence": "To become final, the proposed agreement requires: approval by MCEA membership, approval by the Montgomery County Board of Education",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

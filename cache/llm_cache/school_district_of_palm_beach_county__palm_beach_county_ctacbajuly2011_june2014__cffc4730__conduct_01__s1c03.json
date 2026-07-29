@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "An employee shall not tutor any student enrolled in his/her classes. Tutoring for which an employee receives a fee shall not be conducted on school facilities or on school time. Employees who accept outside tutoring engagements must make their own arrangements with the parents for the fee to be assessed.",
+    "page": "30-31",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "employees shall be guaranteed freedom in classroom presentation and discussions, and may introduce socially, politically, religiously, or otherwise controversial material, provided that such material is relevant to the course content appropriate to the student group and shall increase students' awareness of roles as responsible citizens.",
+    "page": "30",
+    "confidence": "high"
+  }
+}

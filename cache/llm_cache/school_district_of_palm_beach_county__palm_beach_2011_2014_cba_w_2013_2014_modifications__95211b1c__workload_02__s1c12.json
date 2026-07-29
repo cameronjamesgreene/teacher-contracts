@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "...a daily 30 minute lunch or supper period.",
+    "page": "187",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "The Parties agree to limit the number of faculty meetings to one (1) per month (September through May) if the Principal elects to schedule such a faculty meeting; however that faculty meeting may begin during the work day if an affirmative vote is taken by the faculty per Article III, Section B 6 of the Parties' CBA. If there is an emergency relating to the safety of students and/or employees, an additional brief emergency faculty meeting may be called by the Principal. In addition and notwithstanding this limitation, the Principal may schedule faculty meetings on a Pre-School day, a Post-School day, on an In-Service day and for up to fifty-five (55) minutes on a Teacher Work Day.",
+    "page": "170",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "Table of Contents lists 'Teacher’s Salary Schedule' on page 30.",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": "Revised from 'no' to 'yes'. The original evidence quoted a clause about temporary assignments, which is tangential to the question. The Table of Contents explicitly confirms the document includes the Teacher's Salary Schedule as an appendix on page 30."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "July 1, 2006 - June 30, 2007",
+    "evidence": "Table A - Salary Schedule July 1, 2006 - June 30, 2007",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Progression on the salary schedule is determined by the employee’s anniversary date or the date of advancement to a higher training certification level. Teachers employed prior to December 1 shall have the following September 1 as their anniversary date. Teachers employed between December 1 and June 1 will have February 1 of the second teaching year as their anniversary date.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Placement of employees on the salary schedule is based upon verified prior teaching experience including a maximum of two (2) years credit for appropriate military service. The maximum entry step for any degree level will include no more than two (2) years of credit for military service.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

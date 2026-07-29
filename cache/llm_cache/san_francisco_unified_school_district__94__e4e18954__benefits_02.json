@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "12.3 Group life/Accidental death and dismemberment — A group life and accidental death and dismemberment policy providing $20,000 level term insurance with coverage to 65 years of age, retirement or separation from employment, plus $15,000 accidental death benefit will be provided to regularly assigned teachers with the District paying full premium.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "Such a teacher may qualify for Long-Term Disability benefits under the provisions of this contract.",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "District contributes to STRS as if the teachers were full-time.",
+    "evidence": "Participating teachers and the District shall contribute to STRS as if the teachers were full-time.",
+    "page": "68",
+    "confidence": "high",
+    "coder_notes": "Upgraded confidence to high as the evidence explicitly states the contribution mechanism without ambiguity."
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "A teacher on unpaid leave of absence may continue health and welfare benefits, the expense for such benefits to be borne by the teacher, subject to approval of the insurance carrier.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Employees hired before July 1, 2004... require 7-12 consecutive years; those hired on or after July 1, 2004, require 20 consecutive years for paid retiree health benefits.",
+    "page": "69",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

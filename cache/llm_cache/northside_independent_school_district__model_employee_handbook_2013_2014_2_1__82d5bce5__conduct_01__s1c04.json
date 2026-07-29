@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees are required to disclose to their supervisor any situation that creates a potential conflict of interest with proper discharge of assigned duties and responsibilities or creates a potential conflict of interest with the best interests of the district. This includes the following: • Nonschool employment",
+    "page": "58",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Each District employee shall perform his or her duties in accordance with state and federal law, District policy, and ethical standards. ... An employee shall comply with the standards of conduct set out in this policy... Violation of any policies, regulations, or guidelines may result in disciplinary action, including termination of employment.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "The District prohibits the unlawful manufacture, distribution, dispensation, possession, or use of controlled substances, illegal drugs, inhalants, and alcohol in the workplace. Employees who violate this prohibition shall be subject to disciplinary sanctions. Sanctions may include: • Referral to drug and alcohol counseling or rehabilitation programs; • Referral to employee assistance programs; • Termination from employment with the District; and • Referral to appropriate law enforcement officials for prosecution.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "yes",
+    "evidence": "The employee may not set up or update the employee’s personal social network page(s) using the district’s computers, network, or equipment. The employee shall not use the district’s logo or other copyrighted material of the district without express, written consent.",
+    "page": "51",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "The district’s technology resources, including its network access to the Internet, are primarily for administrative and instructional purposes. Limited personal use is permitted if the use: • Imposes no tangible cost to the district. • Does not unduly burden the district’s computer or network resources • Has no adverse effect on job performance or on a student’s academic performance",
+    "page": "50",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

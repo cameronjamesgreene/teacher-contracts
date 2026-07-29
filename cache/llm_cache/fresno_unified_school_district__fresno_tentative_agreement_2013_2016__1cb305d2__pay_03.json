@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "A teacher new to the Fresno Unified School District with previous teaching experience in an accredited school in grades Kindergarten through twelve will be given credit for one level for each year of teaching up to the maximum on the salary schedule, except that only up to five years of such service credit shall be credited service for career increment purposes. Career increment of 1.6% shall he given each year from the 11th to 15th year to a total of 8.0% at the 15th year and thereafter. Years of credited service for career increment pmposes shall mean vears of service in FUSD cxceot that uo to five vears of service credit shall be granted for out-of-District service.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 cited pages 40-41, which are not included in the provided document excerpt (ends at page 36). No provisions regarding in-district experience credit are found in the supplied text."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "except that only up to five years of such service credit shall be credited service for career increment purposes... Years of credited service for career increment pmposes shall mean vears of service in FUSD cxceot that uo to five vears of service credit shall be granted for out-of-District service.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 cited pages 40-41, which are not included in the provided document excerpt. No provisions regarding out-of-district experience credit are found in the supplied text."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original answer correctly identified as not_discussed. No provisions regarding out-of-state experience credit are present in the supplied text."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "A teacher entering the Fresno Unified School District shall receive credit for military service upon the basis of one level for each two (2) years of military service, service in Vista or Peace Corps, with a limit of two (2) levels to be attained. This credit is not allowed unless the service interrupted tenure as a teacher in a public school system.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 cited page 41, which is not included in the provided document excerpt. No provisions regarding military or public service credit are found in the supplied text."
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original answer correctly identified as not_discussed. No provisions regarding National Board certification or advanced pay are present in the supplied text."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "1 school year",
+    "evidence": "“Probationary contract” means an employment contract for a period of one (1) school year awarded to teachers upon initial employment in the school district.",
+    "page": "41",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "“Professional Service Contract” and “Continuing Contract” means a contract with continuing employment rights in accordance with the law in effect prior to July 1, 2011.",
+    "page": "41",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Hold an active professional certificate or temporary certificate issued pursuant to s. 1012.56, F.S. and rules of the State Board of Education;",
+    "page": "42",
+    "confidence": "high"
+  }
+}

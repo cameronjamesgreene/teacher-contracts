@@ -1,0 +1,117 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Schedule - CBU: MAB, SVC: \"A01\"",
+      "population": "CBU: MAB, SVC: A01",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "",
+      "lane_labels": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5",
+        "Step 6",
+        "Step 7",
+        "Step 8",
+        "Step 9",
+        "Step 10-16",
+        "Above (17-18 Yrs Service)",
+        "Above (19-20 Yrs Service)",
+        "Above (21+ Yrs Service)"
+      ],
+      "step_labels": [
+        "Bachelors"
+      ],
+      "cells": [
+        {
+          "step": "Bachelors",
+          "lane": "Step 1",
+          "value": "58719",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 2",
+          "value": "60684",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 3",
+          "value": "62648",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 4",
+          "value": "64612",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 5",
+          "value": "66577",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 6",
+          "value": "68540",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 7",
+          "value": "70505",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 8",
+          "value": "72469",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 9",
+          "value": "74433",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Step 10-16",
+          "value": "76398",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Above (17-18 Yrs Service)",
+          "value": "77537",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Above (19-20 Yrs Service)",
+          "value": "79435",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelors",
+          "lane": "Above (21+ Yrs Service)",
+          "value": "82091",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Schedule includes a 4.00% adjustment. Longevity columns apply to the BA/BS+30 lane. Text 'FY 2018 EG 09' at bottom appears to be a heading for the next table.",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

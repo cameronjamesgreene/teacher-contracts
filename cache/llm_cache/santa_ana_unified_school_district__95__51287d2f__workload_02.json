@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Each unit member shall have at least a 30 minute duty-free, uninter- rupted lunch period exclusive of passing periods.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "In general, unit members shall be required to attend staff meetings, faculty meetings, department meetings, site functions, student supervision, and other administratively-called meetings no more than two hours per month",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Unit members shall not be required to supervise students during routine daily student arrivals/departures, or recesses/non instructional breaks (before, during, or after school).",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

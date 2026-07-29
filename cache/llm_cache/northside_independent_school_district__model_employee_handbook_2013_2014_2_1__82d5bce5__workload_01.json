@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Classroom teachers will have planning periods for instructional preparation including conferences.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "At least 450 minutes within each two-week period in blocks not less than 45 minutes",
+    "evidence": "must provide at least 450 minutes within each two-week period in blocks not less than 45 minutes within the instructional day.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Teachers and librarians are entitled to a duty-free lunch period of at least 30 minutes. The district may require teachers to supervise students during lunch one day a week when no other personnel are available.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": "Revised from 'no' to 'yes'. The document explicitly guarantees a duty-free lunch of at least 30 minutes daily. The 'no' classification was incorrect as the guarantee exists despite a conditional exception for one day a week supervision when no other personnel are available."
+  }
+}

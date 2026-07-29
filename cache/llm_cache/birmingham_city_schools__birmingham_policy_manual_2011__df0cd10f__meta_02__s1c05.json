@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "- \"In order to complete the minimum clock hour requirements, employees will be provided the opportunity to engage in district and professional organization sponsored professional development activities on all specified professional development in-service days as mandated by the Alabama Code 16-1-8.1 and 16-13-231.\"\n- \"For the event of an involuntary transfer, the employee maintains rights to transfer to a hearing granted to that employee under either the Alabama Tenure Act (Ala. Code §§ 1-11-1, et seq.) or the Fair Dismissal Act (Ala. Code §§ 36-26-100, et seq.),\"\n- \"All deposits of the Board must be secured by pledged collateral in an amount greater than the highest balance during any month, or deposited with a Qualified Public Depository of the Security for Alabama Funds Enhancement (SAFE) Program, according to Sections 41-14A-2 through 41-14A-6, 41-14A-8 and 41-14A-9, Code of Alabama 1975, as amended.\"\n- \"The Board shall establish and maintain a one-month fund balance as required by State Law.\"\n- \"The Board is an elected body and is required by State law to have an annual audit by the State Department of Examiners of Public Accounts.\"\n- \"CODE OF ALABAMA - 16-13-144\"",
+    "evidence": "\"In order to complete the minimum clock hour requirements, employees will be provided the opportunity to engage in district and professional organization sponsored professional development activities on all specified professional development in-service days as mandated by the Alabama Code 16-1-8.1 and 16-13-231.\" (p. 3200); \"For the event of an involuntary transfer, the employee maintains rights to transfer to a hearing granted to that employee under either the Alabama Tenure Act (Ala. Code §§ 1-11-1, et seq.) or the Fair Dismissal Act (Ala. Code §§ 36-26-100, et seq.),\" (p. 3201); \"All deposits of the Board must be secured by pledged collateral in an amount greater than the highest balance during any month, or deposited with a Qualified Public Depository of the Security for Alabama Funds Enhancement (SAFE) Program, according to Sections 41-14A-2 through 41-14A-6, 41-14A-8 and 41-14A-9, Code of Alabama 1975, as amended.\" (p. 4001); \"The Board shall establish and maintain a one-month fund balance as required by State Law.\" (p. 4005); \"The Board is an elected body and is required by State law to have an annual audit by the State Department of Examiners of Public Accounts.\" (p. 4010); \"CODE OF ALABAMA - 16-13-144\" (p. 4025)",
+    "page": "3200, 3201, 4001, 4005, 4010, 4025",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "- \"The time management portion of the Employee Attendance Management System will assist in assuring compliance with all the requirements of the Fair Labor Standard Act of 1938, as amended.\"",
+    "evidence": "\"The time management portion of the Employee Attendance Management System will assist in assuring compliance with all the requirements of the Fair Labor Standard Act of 1938, as amended.\" (p. 4065)",
+    "page": "4065",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Fair Labor Standards Act of 1938 (as amended)",
+    "evidence": "\"The time management portion of the Employee Attendance Management System will assist in assuring compliance with all the requirements of the Fair Labor Standard Act of 1938, as amended.\"",
+    "page": "4065",
+    "confidence": "high"
+  }
+}

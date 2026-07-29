@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "Washington Teacher's Union ET-15 Salary Schedule / Washington Teacher's Union EG 09 Salary Schedule",
+    "page": "Pages 108-114 (unnumbered appendix)",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "FY 2025 through FY 2028",
+    "evidence": "FY 2025 ET 15 Salary Schedule... FY 2026... FY 2027... FY 2028",
+    "page": "Pages 108-114 (unnumbered appendix)",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

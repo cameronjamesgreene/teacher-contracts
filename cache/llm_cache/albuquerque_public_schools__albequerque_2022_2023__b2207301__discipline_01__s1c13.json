@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "After receiving discharge or termination letter from the Superintendent the subject employee may file a level 3 grievance pursuant to the Negotiated Agreement and appeal the recommendation to a three member panel of hearing officers, which shall be the members of the APS Labor Board... The Panel may affirm, reject or modify the proposed discipline from the school district. A hearing completed pursuant to this MOU shall satisfy the Level III Grievance procedure... The Panel’s decision will be provided to the APS School Board within five (5) days. If the employee wishes to appeal the Panel’s decision to the Board of Education, the issue will proceed pursuant to the School Personnel Act, NMSA 22-10A-27 for discharges or pursuant to NMSA 22-10A-24 for terminations. However, the parties hereby agree and stipulate that in lieu of a second hearing as outlined in NMSA 22-10A-27 for discharges or NMSA 22-10A-24 for terminations, the parties will provide the APS Board of Education with the record presented to the Panel, the Panel’s decision, and additional oral or written arguments from each party, which will be limited to thirty (30) minutes per party",
+    "page": "135",
+    "confidence": "high"
+  }
+}

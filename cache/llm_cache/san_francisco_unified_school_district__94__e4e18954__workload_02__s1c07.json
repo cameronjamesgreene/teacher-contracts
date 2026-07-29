@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30 minutes for substitutes (or equivalent to students' lunch period)",
+    "evidence": "A substitute teacher working at least a half day assignment shall be provided a duty-free lunch period, equivalent in length to the lunch period of the teacher’s students, exclusive of passing periods, or thirty (30) consecutive minutes, whichever is longer.",
+    "page": "80",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "A substitute teacher shall not be required to attend faculty meetings unless so directed by the principal or site manager and provided that the substitute teacher is returning the following day for the same assignment. Part-time teachers shall be provided compensatory time in accordance with Section 27.7.1, when necessary, in order to permit attendance at faculty meetings.",
+    "page": "76, 81",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Before-school yard duty on the first day of an assignment will not be required in order to give the substitute teacher time to prepare for classes.",
+    "page": "81",
+    "confidence": "high"
+  }
+}

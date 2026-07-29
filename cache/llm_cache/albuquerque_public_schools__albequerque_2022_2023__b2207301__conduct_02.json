@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Educators have the discretion to augment the District-approved curricular programs. Educators may also adjust the pacing and scope and sequence of District-approved curricular programs to align with the CCSS.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "When absent ten (10) consecutive days or fewer, teachers shall provide lesson plans, instruction, and classroom management information for substitute teachers. Lesson plans are required for all categories of extended leave and when leaving a position vacant due to transfers.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 21 to 22 to align with source document pagination."
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "When time spent in a campaign for the purpose of securing a political office will interfere with the duties of a teacher, a leave of absence should be requested in writing by the teacher/candidate. Such leave shall be leave without pay. Leave of absence with pay shall be granted for the purpose of holding political office.",
+    "page": "80",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

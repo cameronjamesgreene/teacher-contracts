@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Northside ISD Employee Handbook",
+    "page": "4",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2013–2014",
+    "evidence": "Board Meeting Schedule for 2013 –2014",
+    "page": "8",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all employees",
+    "evidence": "All personnel are subject to assignment and reassignment by the superintendent or designee",
+    "page": "14",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not a contract",
+    "evidence": "This handbook is neither a contract nor a substitute for the official district policy manual.",
+    "page": "5",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "procedures for nonrenewal or termination under Chapter 21 of the Texas Education Code.",
+    "page": "12",
+    "confidence": "high"
+  }
+}

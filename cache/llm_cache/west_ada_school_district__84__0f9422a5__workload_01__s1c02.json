@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "190 paid days (180 teaching days for traditional calendar; 176 teaching days for modified calendar); 192 paid days for new hires",
+    "evidence": "The school year for certified employees, except new hires described below, shall be 190 days with pay, including 180 teaching days... The school year for new hire certified employees... shall be 192 days with pay",
+    "page": "24",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 hours at the elementary level; 8 hours at the middle and high school level",
+    "evidence": "The normal work day hours, except for volunteer activities and extra curricular activities, for certified employees shall be: 1. Seven and one half (7 1/2) hours at the elementary level. 2. Eight (8) hours at the middle and high school level.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The above hours shall include a minimum of one (1) regular period of continuous, duty-free daily preparation time for full-time teachers at high schools and middle schools. ... Uninterrupted planning time shall be provided for all full time elementary teachers",
+    "page": "22",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Middle/high school: one regular class period daily; Elementary: 200 minutes per full workweek",
+    "evidence": "The duty free prep shall be equivalent to one regular class period of the buildings bell schedule. ... Uninterrupted planning time shall be provided for all full time elementary teachers at 200 minutes per full workweek",
+    "page": "22-23",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Exceptions to the 200 minutes per week planning time will be made when the teacher’s scheduled planning period is preempted by: 1. Special Programs 2. Practice for Programs 3. Field Trips 4. Book Fairs In so far as possible the events causing the exceptions shall be scheduled in a manner that will distribute them equitably.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Full time certified employees shall be provided a continuous thirty (30) minute duty-free lunch period daily. If circumstances require assigned duty preventing a thirty (30) minute duty-free lunch period, each certified employee so assigned shall be paid in accordance with the noon duty rate of pay.",
+    "page": "23",
+    "confidence": "high"
+  }
+}

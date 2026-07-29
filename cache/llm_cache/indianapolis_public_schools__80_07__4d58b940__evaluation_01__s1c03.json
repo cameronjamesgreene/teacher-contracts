@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX D: Teacher Evaluation Guidelines and Timeline",
+    "page": "42",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "References evaluation instruments covering Domains 1-4, including a Planning and Preparation Rubric, Classroom Observation Record, and Professional Responsibility form.",
+    "evidence": "evaluation instruments found with this Appendix... Planning and Preparation Rubric -Form A-1; Classroom Observation Record Form B-1; Professional Responsibility Form C-1; Highlighted Component Summary Sheet - Form D for Domains 1, 2, 3 and 4",
+    "page": "43, 46",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "Minimum of two per year (one per semester) for comprehensive evaluations. Permanent teachers on a 4-year cycle or on a PIP are also subject to this. Second evaluators conduct a minimum of two observations.",
+    "evidence": "observed in-class a minimum of once per semester... due for an evaluation under the four (4) year cycle... second evaluator shall conduct a minimum of two observations",
+    "page": "42, 44, 49",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "30 minutes",
+    "evidence": "The formal observation shall be no less than thirty (30) minutes in length.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Satisfactory, Unsatisfactory, and Basic",
+    "evidence": "satisfactory performance... unsatisfactory performance... reach “Basic” performance",
+    "page": "47, 50, 51",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "no",
+    "evidence": "Goals must be related to district/ and/ or school/student achievement, but the document does not state that student growth, test scores, or value-added measures are used as evaluation rating metrics.",
+    "page": "43",
+    "confidence": "high"
+  }
+}

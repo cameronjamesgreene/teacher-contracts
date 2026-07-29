@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Within twenty (20) duty days following the opening of school, a Standing Safety Committee shall be organized at each site, and a joint Safety Committee shall be organized at the District.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "If a unit member is assaulted or threatened while in the performance of duties pursuant to his/her job description and/or other assigned duties, the unit member shall immediately inform the administrator and both shall report such assault or threat to the SAUSD School Police or Santa Ana Police Department or both.",
+    "page": "79",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "A unit member may request in writing that a conference be held concerning any student who, in the opinion of the unit member, presents a potential, actual, or immediate danger to the safety of the unit member.",
+    "page": "78",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "A teacher may suspend any pupil from the teacher's class, per Education Code 48910 and/or Board Policy 5119, for the day of the suspension and the day following.",
+    "page": "79",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "If the temperature reaches 95 degrees and it is predicted by the U.S. National Weather Service that the temperature will continue at 95 degrees or higher, the Superintendent shall declare a modified day or days for students in all non-air-conditioned facilities, or facilities where the air-conditioning has been non-functional for one consecutive 24-hour period after appropriate parent notices have been sent home.",
+    "page": "81",
+    "confidence": "high",
+    "coder_notes": "Upgraded confidence to high. The evidence explicitly states the procedure for declaring modified days during extreme heat, directly and unambiguously answering the question."
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Once a unit member reports an unsafe, unhealthy, and/or unsanitary condition to her/his immediate supervisor, the District shall begin investigation within five (5) days. If the District finds an unsafe, unhealthy, and/or unsanitary condition, the District shall begin to take steps to correct the conditions within ten (10) duty days.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

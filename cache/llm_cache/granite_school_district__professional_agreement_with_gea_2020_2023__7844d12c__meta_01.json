@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "PROFESSIONAL AGREEMENT between THE BOARD OF EDUCATION OF GRANITE SCHOOL DISTRICT and THE GRANITE EDUCATION ASSOCIATION INCORPORATED",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to document title on cover page for direct confirmation of document type."
+  },
+  "meta_effective_dates_002": {
+    "answer": "2020-2023",
+    "evidence": "Covering the Period July 1, 2020 through June 30, 2023",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to the explicit date range on the cover page, as the original quote only referenced a specific policy change year."
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (Elementary and Secondary)",
+    "evidence": "The appropriate unit for purposes of negotiating terms and conditions of employment is comprised of all teachers, as herein defined, employed by Granite School District.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to Article 4.2, which explicitly defines the bargaining unit as all teachers."
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "This Agreement shall be a part of each individual teacher's contract.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to Article 2.2, which explicitly states the agreement forms part of each teacher's contract."
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Utah Administrative Code 53G",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "23.13.1. Except as provided in Section 23.13.3, maximum class size shall not exceed the following:",
+    "page": "73",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "Pre-Kindergarten Without an Aide: 15; Pre-Kindergarten With an Aide: 20; Kindergarten Through Grade 2: 20",
+    "evidence": "Pre-Kindergarten Without an Aide                 15 / Pre-Kindergarten With an Aide                  20 / Kindergarten Through Grade 2                20",
+    "page": "73",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "Grades 3 Through 12: 25; Remedial Classes: 12; Career and Technology Education: 18",
+    "evidence": "Grades 3 Through 12                     25 / Remedial Classes                      12 / Career and Technology Education                 18",
+    "page": "73",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

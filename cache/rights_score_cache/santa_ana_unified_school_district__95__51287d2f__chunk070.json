@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "The Association shall inform the Human Resources Office of the names of unit members who have donated sick leave days and how many days they have donated.",
+      "subject_text": "The Association",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The Association shall provide the District, upon written request, information and documentation regarding eligibility for catastrophic leave and related matters.",
+      "subject_text": "The Association",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "A unit member may file a grievance alleging a violation of sections 10.6.2, 10.6.3, and 10.6.4 only.",
+      "subject_text": "A unit member",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "Catastrophic Leave shall be reopened at the request of either party.",
+      "subject_text": "Catastrophic Leave",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": "Passive construction; implicit actor is district management."
+    },
+    {
+      "quote": "Reassignments shall be made at the discretion of the site administration, subject to the provisions of 11.4 and 11.5 below.",
+      "subject_text": "Reassignments",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": "Grants discretionary authority to management over reassignment processes."
+    }
+  ]
+}

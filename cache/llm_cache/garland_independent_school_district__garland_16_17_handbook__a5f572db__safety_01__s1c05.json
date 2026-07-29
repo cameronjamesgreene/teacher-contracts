@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The district has developed and promotes a comprehensive program to ensure the safety of its employees, students, and visitors... Employees with questions or concerns relating to safety programs and issues can contact the Risk Management Department at 972-494-8382.",
+    "page": "56",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Teachers and administrators are responsible for taking disciplinary action based on a range of discipline management strategies that have been adopted by the district... All employees are required to report student complaints of bullying to the campus administrator.",
+    "page": "68-69",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "When severe weather strikes, Garland ISD follows standard procedures to ensure the safety of all students and staff. Find information about shelters in place, lockouts, early release and school cancelations below... GISD uses the Skylert telephone notification system to alert parents and employees of school closings and other important information.",
+    "page": "59-60",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Keep work areas clean and orderly at all times. An accredited management planner has developed an asbestos management plan for each school.",
+    "page": "56-57",
+    "confidence": "high"
+  }
+}

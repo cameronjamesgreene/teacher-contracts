@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes; TRS-ActiveCare; active contributing TRS members and non-contributing TRS members working at least 10 hours per week",
+    "evidence": "Group health insurance coverage is provided through TRS-ActiveCare, the statewide public school health insurance program. Employees eligible for health insurance coverage include the following: Employees who are active, contributing TRS members; Employees who are not contributing TRS members and who are regularly scheduled to work at least 10 hours per week",
+    "page": "Compensation and benefits / Health, dental, and life insurance",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Determined annually by the board of trustees",
+    "evidence": "The district’s contribution to employee insurance premiums is determined annually by the board of trustees.",
+    "page": "Compensation and benefits / Health, dental, and life insurance",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "TRS-ActiveCare (statewide public school health insurance program)",
+    "evidence": "Group health insurance coverage is provided through TRS-ActiveCare, the statewide public school health insurance program.",
+    "page": "Compensation and benefits / Health, dental, and life insurance",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes; available through Cafeteria Plan (Section 125) and supplemental insurance programs",
+    "evidence": "Cafeteria Plan (Section 125) ... enables eligible employees to pay certain insurance premiums on a pretax basis (i.e., disability, accidental death and dismemberment, cancer and dread disease, dental and additional term life insurance). At their own expense, employees may enroll in certain supplemental insurance programs.",
+    "page": "Compensation and benefits / Cafeteria plan benefits (Section 125); Supplemental insurance benefits",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly include the supplemental insurance programs reference for better alignment with the answer."
+  }
+}

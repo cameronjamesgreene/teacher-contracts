@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "A resident special subject Teacher, who is reassigned as an itinerant special subject Teacher, if subsequently reassigned as a resident special subject Teacher, will carry over the building seniority accumulated in the resident assignment immediately preceding the itinerant assignment.",
+      "subject_text": "A resident special subject Teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "seniority",
+      "notes": ""
+    },
+    {
+      "quote": "A Teacher who remains in a building and is appointed by the DCPS Office of Human Resources to a position in another area of certification shall have his/her building seniority in that area of certification counted from the date of appointment to the new position.",
+      "subject_text": "A Teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "seniority",
+      "notes": ""
+    },
+    {
+      "quote": "A Teacher who is appointed by the Office of Human Resources to a position outside of the WTU and receives pay for it shall lose his/her building seniority as of the effective date of appointment.",
+      "subject_text": "A Teacher",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "seniority",
+      "notes": "Mandatory loss of seniority upon outside appointment protects management flexibility in staffing."
+    }
+  ]
+}

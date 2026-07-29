@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "State law entitles all employees to five days of paid state personal leave per year.\nThe FMLA does not affect any federal or state law prohibiting discrimination or supersede any state or local law or collective bargaining agreement that provides greater family or medical leave rights.\nStandard 1.7 The educator shall comply with state regulations, written local school board policies, and other state and federal laws.\nThis chapter shall apply to educators and candidates for certification. (19 TAC 247.1(b))",
+    "evidence": "State law entitles all employees to five days of paid state personal leave per year.",
+    "page": "37, 41, 49",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The Genetic Information Nondiscrimination Act of 2008 (GINA) prohibits employers and other entities covered by GINA Title II from requesting or requiring genetic information of individuals or their family members.\nHealth insurance benefits for employees on paid leave and leave designated under the Family and Medical Leave Act will be paid by the district as they were prior to the leave.\nDo not violate the Family Educational Rights Privacy Act (FERPA).",
+    "evidence": "The Genetic Information Nondiscrimination Act of 2008 (GINA) prohibits employers and other entities covered by GINA Title II from requesting or requiring genetic information of individuals or their family members.",
+    "page": "37, 52",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "The Genetic Information Nondiscrimination Act of 2008 (GINA), Family and Medical Leave Act (FMLA), Family Educational Rights Privacy Act (FERPA)",
+    "evidence": "The Genetic Information Nondiscrimination Act of 2008 (GINA)",
+    "page": "37",
+    "confidence": "high"
+  }
+}

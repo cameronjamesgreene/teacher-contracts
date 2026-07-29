@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Professional Personnel shall (a) receive official notice by phone or registered mail at least four (4) working days in advance of their deadline for determining whether to exercise recall rights, (b) shall be available to begin within thirty (30) days, (c) retain recall rights for a period of three (3) years... Employees on lay-off shall be granted, during the period that they are vested with recall rights, the option of paying 100% of the premiums due on any hospitalization, dental insurance, optical insurance, life insurance or health maintenance organization plans",
+    "page": "12",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "certification in the subject field assignment and system-wide seniority (least seniority first), applied sequentially by tenure status and certificate type",
+    "evidence": "lay-offs shall be effected within the following categories in the order noted: First: In continuing order of least system-wide seniority in the subject field taught... Second: ... non-tenured employees. Third: ... tenured employees holding a Class II certificate. Fourth: ... tenured employees holding first class certificates.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

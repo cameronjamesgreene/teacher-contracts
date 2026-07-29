@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "NEGOTIATED AGREEMENT BETWEEN THE ALBUQUERQUE MUNICIPAL SCHOOL DISTRICT NUMBER 12 AND THE ALBUQUERQUE TEACHERS FEDERATION",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2022-2023 school year (agreement dated August 18, 2021)",
+    "evidence": "2022-2023 / entered into in Albuquerque, New Mexico between ... this August 18, 2021.",
+    "page": "1, 7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Educators/licensed employees (teachers, COTAs, PTAs, Community School Coordinators)",
+    "evidence": "all licensed employees whose salaries are based on salary matrices AT-1, AT-2, AT-3, A-2, A-3, Certified Occupational Therapist Assistants (COTAs) and Physical Therapy Assistants (PTAs) and Community School Coordinators",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": "Updated page number to 8 to match exact location in document."
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "In case of any conflict between the provisions of this Agreement and any Board or Federation policy... the provisions of the Agreement shall control for the period of this Agreement.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Meta-quality check regarding PDF extractability; no textual passage is applicable for this metadata question."
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Public Employee Bargaining Act (PEBA) / State of New Mexico",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

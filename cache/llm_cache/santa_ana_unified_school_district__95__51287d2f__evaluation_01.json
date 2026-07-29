@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "ARTICLE V EVALUATION PROCEDURES",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": "Updated page to 9 based on document pagination. Evidence directly confirms the existence of evaluation procedures."
+  },
+  "evaluation_system_002": {
+    "answer": "California Standards for the Teaching Profession (CSTP)",
+    "evidence": "site administration shall primarily assist unit members in meeting the California Standards for the Teaching Profession (CSTP).",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": "Updated page to 9. Evidence explicitly names the framework."
+  },
+  "evaluation_observation_count_003": {
+    "answer": "No more than two (2) formal observations per evaluation",
+    "evidence": "Unit members shall have no more than two (2) formal observations per each evaluation.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": "Updated page to 12. Evidence explicitly states the limit."
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "15 to 60 minutes",
+    "evidence": "Formal classroom observations shall last for at least fifteen (15) minutes and no more than sixty (60) minutes.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": "Updated page to 12. Evidence explicitly states the duration range."
+  },
+  "evaluation_ratings_005": {
+    "answer": "discussed_unclear",
+    "evidence": "A Standard is identified as “unsatisfactory” if it has three (3) or more elements marked as “Below Standard”.",
+    "page": "9",
+    "confidence": "medium",
+    "coder_notes": "Revised to discussed_unclear. The quoted evidence only explicitly supports two of the three listed categories (“Below Standard” and “Unsatisfactory”). The document does not explicitly list “Satisfactory” as a performance level category in the provided text."
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of student growth, test scores, value-added, or student outcomes as evaluation criteria found in the provided text."
+  }
+}

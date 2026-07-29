@@ -1,0 +1,32 @@
+{
+  "status_counts": {"CORRECT": 21, "PARTIAL": 2, "INCORRECT": 2, "UNVERIFIABLE": 0},
+  "items": [
+    {"qid": "meta_doc_type_001", "doc": "albuquerque_public_schools", "status": "CORRECT", "note": "CBA; header 'NEGOTIATED AGREEMENT...ATF 2018-2019' verified."},
+    {"qid": "benefits_retirement_contribution_010", "doc": "albuquerque_public_schools", "status": "CORRECT", "note": "FICA match verified line 3504; only stated employer retirement-related contribution (no ERB % given)."},
+    {"qid": "evaluation_system_002", "doc": "albuquerque_public_schools", "status": "PARTIAL", "note": "Evidence real but 'District Intensive Evaluation' is a remediation track, not a named eval framework/model."},
+    {"qid": "pay_performance_pay_006", "doc": "albuquerque_public_schools", "status": "CORRECT", "note": "not_discussed OK; no merit/performance/incentive pay found (NBC differential is credential-based)."},
+    {"qid": "evaluation_observation_duration_004", "doc": "albuquerque_public_schools", "status": "CORRECT", "note": "not_discussed OK; doc gives observation count/process, no minute/length minimum."},
+    {"qid": "meta_doc_type_001", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "CBA; 'Code' prefix noise but Classroom Teachers Assn contract 2013-2016 verified."},
+    {"qid": "benefits_life_008", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "Board pays premium for employee term life verified lines 3286-3287."},
+    {"qid": "evaluation_ratings_005", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "unsatisfactory/needs improvement/satisfactory/outstanding/highly effective all present in doc."},
+    {"qid": "pay_salary_schedule_001", "doc": "hillsborough_county_public_schools", "status": "INCORRECT", "note": "FALSE NEG: answer 'no' but doc repeatedly cites 'basic salary schedule'; evidence itself names it."},
+    {"qid": "evaluation_observation_count_003", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "not_discussed OK; no required number of formal observations stated."},
+    {"qid": "meta_doc_type_001", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "CBA; 2018-26 JCPS Board of Ed / Teachers Association agreement verified."},
+    {"qid": "leave_bereavement_relatives_008", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "'relative by blood or marriage' is the doc's actual coverage (line 2985); no enumerated list."},
+    {"qid": "security_voluntary_transfer_004", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "Summary accurate: Mar 1 posting, 7 cal days, e-apply, valid cert, <4 apply->external; verified 2036-58."},
+    {"qid": "pay_salary_schedule_002", "doc": "jefferson_county_public_schools", "status": "PARTIAL", "note": "Soft FN: Art 27 refs 2018-19 & 2025-26 school years, eff July 1; year coverage inferable, not 'not_discussed'."},
+    {"qid": "benefits_health_contribution_002", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "not_discussed OK; health via KEHP state plan, no district contribution amount stated."},
+    {"qid": "meta_doc_type_001", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "CBA; LBUSD / Teachers Assn of Long Beach K-12 agreement verified in header."},
+    {"qid": "benefits_leave_continuation_011", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "Coverage continues >30d unpaid leave if employee pays pro-rated premium; verified 1269-1271."},
+    {"qid": "evaluation_system_002", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "District-adopted eval objectives (3368) + California Standards Teaching Profession (2948/2999) both verified."},
+    {"qid": "pay_performance_pay_006", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "not_discussed OK; stipends are role-based (consulting tchr), not merit/evaluation-based pay."},
+    {"qid": "security_nonrenewal_002", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "not_discussed OK; no nonrenewal/non-reelect notice, hearing, or appeal provision found."},
+    {"qid": "meta_doc_type_001", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "CBA; '2014-2017 AGREEMENT' LAUSD and UTLA verified line 1/14."},
+    {"qid": "benefits_retirement_contribution_010", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "STRS 8% employer 'pick-up' verified 9984-89; answer transparently notes it's employee$ tax-designated."},
+    {"qid": "evaluation_ratings_005", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "Formal Obs Effective/Developing/Ineffective (4128) + Final Exceeds/Meets/Below (4162) verified."},
+    {"qid": "pay_hardtostaff_sped_009", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "not_discussed OK; 'Additional Special Education' = non-classroom TIME, not pay; no sped differential."},
+    {"qid": "security_seniority_definition_003", "doc": "los_angeles_unified_school_district", "status": "INCORRECT", "note": "FALSE NEG: Sec 6.2 'District Seniority Number' defines seniority (probationary date + rules), line 5086."}
+  ],
+  "false_negatives": 2,
+  "notes": "2 hard false negatives: Hillsborough salary-schedule 'no' (doc cites basic salary schedule); LAUSD seniority 'not_discussed' (Sec 6.2 defines it). Soft FN: Jefferson salary-schedule-years (Art 27 year labels). Substantive answers well-supported; ABQ eval-system mislabels a remediation track."
+}

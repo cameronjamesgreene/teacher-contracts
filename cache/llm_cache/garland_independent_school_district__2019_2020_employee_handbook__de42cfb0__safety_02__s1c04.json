@@ -1,0 +1,14 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "Do not compromise district or student safety. The public does not need to know that an Internet firewall or building access control system is not working.",
+    "page": "54",
+    "confidence": "medium"
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

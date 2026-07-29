@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Any effort by any other employee organization or members of the bargaining unit to replace or remove the Cincinnati Federation of Teachers as the sole and exclusive bargaining agent for the bargaining unit described above in Paragraph 1 shall be governed solely by the provisions of O.R.C. §4117 and the rules concerning recognition elections adopted by the State Employment Relations Board (SERB). As allowed by O.R.C. §4117.09 (C), all employees covered by this Agreement who are not members of the CFT shall pay to the CFT, through deductions from each paycheck, their fair share of the costs of the collective bargaining services rendered by the CFT that are properly chargeable to non-members under state and federal law, as determined through the method described below (referred to hereafter as “fair share”). The rights of such members shall be resolved under the provisions of Section 4117.09 (C) of the Ohio Revised Code, allowing for the contribution of an equivalent amount to a charitable organization. The Board and CFT recognize that certain Ohio laws govern access to records maintained by or on behalf of the Board. Upon receipt of a citizen request for access to a teacher's personnel file under O.R.C. §149.43, the Human Resources Office shall notify the teacher in writing, including the date of the request and the name of the person making the request. Retirees may be considered for re-employment without public hearings, notwithstanding ORC. 3309.345.820. Dismissal under this provision shall not afford the teacher the due process rights under O.R.C. §3319.16.",
+    "evidence": "Any effort by any other employee organization or members of the bargaining unit to replace or remove the Cincinnati Federation of Teachers as the sole and exclusive bargaining agent for the bargaining unit described above in Paragraph 1 shall be governed solely by the provisions of O.R.C. §4117 and the rules concerning recognition elections adopted by the State Employment Relations Board (SERB). As allowed by O.R.C. §4117.09 (C), all employees covered by this Agreement who are not members of the CFT shall pay to the CFT, through deductions from each paycheck, their fair share of the costs of the collective bargaining services rendered by the CFT that are properly chargeable to non-members under state and federal law, as determined through the method described below (referred to hereafter as “fair share”). The rights of such members shall be resolved under the provisions of Section 4117.09 (C) of the Ohio Revised Code, allowing for the contribution of an equivalent amount to a charitable organization. The Board and CFT recognize that certain Ohio laws govern access to records maintained by or on behalf of the Board. Upon receipt of a citizen request for access to a teacher's personnel file under O.R.C. §149.43, the Human Resources Office shall notify the teacher in writing, including the date of the request and the name of the person making the request. Retirees may be considered for re-employment without public hearings, notwithstanding ORC. 3309.345.820. Dismissal under this provision shall not afford the teacher the due process rights under O.R.C. §3319.16.",
+    "page": "2, 4, 6, 7, 17, 22",
+    "confidence": "high",
+    "coder_notes": "Stage 1 missed several explicit state law citations scattered throughout the document. Updated answer and evidence to include all sentences citing Ohio Revised Code (O.R.C.) sections and Ohio laws as requested."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The EIP shall review programs supported by state and federal grants and approve plans regarding the best educational use of these funds. Funds shall include ESEA Title I and Title VI programs, Impact Aid, and Educational Mobility Funds, as well as other state and federal grants, which may become available to the district.",
+    "evidence": "The EIP shall review programs supported by state and federal grants and approve plans regarding the best educational use of these funds. Funds shall include ESEA Title I and Title VI programs, Impact Aid, and Educational Mobility Funds, as well as other state and federal grants, which may become available to the district.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "ESEA Title I, ESEA Title VI, Impact Aid, Educational Mobility Funds.",
+    "evidence": "Funds shall include ESEA Title I and Title VI programs, Impact Aid, and Educational Mobility Funds, as well as other state and federal grants, which may become available to the district.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

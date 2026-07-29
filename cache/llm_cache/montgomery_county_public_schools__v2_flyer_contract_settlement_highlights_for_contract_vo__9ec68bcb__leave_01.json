@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against original document. The provided text is a settlement highlight summary that does not contain provisions regarding standard paid sick leave days, accrual caps, or family care usage of sick leave."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified. No accrual or carry-over provisions for sick leave are mentioned in the highlight summary."
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified. While Item 5 mentions a separate 'family leave bank' for caring for family members, the document does not state that standard sick leave may be used for this purpose."
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified. The document does not specify the number of paid personal leave days granted."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified. No restrictions on personal leave use are outlined."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified. The document contains no information regarding the conversion of unused personal leave."
+  }
+}

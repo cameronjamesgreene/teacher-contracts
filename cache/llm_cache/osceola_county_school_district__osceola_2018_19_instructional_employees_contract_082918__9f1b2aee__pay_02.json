@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "APPENDIX C: Supplements ... Extracurricular supplements for academic/service clubs that meet outside the regular student day shall be provided as follows ... Employee Recruitment Incentive Supplement 1. The Superintendent and School District Leadership Team shall provide an employee recruitment incentive equal to $250.00",
+    "page": "106-115",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "The ESE supplement will be distributed to the following ESE teaching assignments: ASD, InD, EBD, Pre-K ESE, Hearing Impaired, Behavioral Center Schools (all instructional positions) (i.e. DJJ, ARC), Behavior Specialists. The amount of the ESE supplement will be Index 20.",
+    "page": "108",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

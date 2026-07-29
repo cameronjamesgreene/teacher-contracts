@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The parties agree that there shall be a health and safety committee in each school. Composition of the committee shall be determined by the principal and faculty.",
+    "page": "94",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "The parties agree that a teacher may use reasonable force to repel a personal assault or one upon any other person. Any case of assault shall be promptly reported to the principal and by the principal to the Superintendent. The District shall provide the necessary support to a teacher who is subjected to or charged with an assault during the course of one's duties, providing the teacher was acting in a reasonable manner and the actions were justifiable under the law",
+    "page": "89",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The District shall provide reasonable support and assistance to teachers as described in the Student Behavior Handbook so they can maintain control and discipline while engaged in their duties and responsibilities. It is essential for the school staff to establish means for obtaining the cooperation of parents of students involved in discipline problems.",
+    "page": "89",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "The teacher may temporarily dismiss a student from class to the principal when the student's behavior is disruptive to the point of impeding learning by the other students and after efforts have been made to correct the problem in accordance with the school's disciplinary practice.",
+    "page": "89",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "When schools are closed for snow days (or other unforeseen reasons), days are traditionally added to the end of the school year... A-Schedule employees are not required to report to campus on closure days.",
+    "page": "137",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "routine maintenance and repair work which will interfere with effective teaching shall be accomplished outside the instructional time. When this is not possible, the teacher will be provided advance notice and moved to another adequate teaching station where additional stations are available.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

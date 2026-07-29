@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "Yes. Schedule title: 'Certified Salary Schedules' (Appendix A). Covered employee group: Certified employees/Teachers.",
+    "evidence": "Appendix Section\n\nA. Salary Schedule                                                     40",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2017-2020.",
+    "evidence": "COLLECTIVE BARGAINING AGREEMENT ... 2017-2020 ... Article XII.A. Financial Package FY2018 and FY2019, FY 2020 ... For FY 2018, the new salary schedule for the Teachers’ Unit will be adjusted upward by one percent (1%). For FY 2019, the new salary schedule for the Teachers’ Unit will be adjusted upward by on half percent. (.5%).",
+    "page": "i, 33",
+    "confidence": "high",
+    "coder_notes": "Updated from 'not specified' to '2017-2020' based on the agreement term and Article XII.A explicitly referencing the salary schedule adjustments for the contract years."
+  },
+  "pay_step_increment_003": {
+    "answer": "Yes. Eligible members receive a step increase each year, and column movement is allowed for educational advancement.",
+    "evidence": "Members of the Teachers’ Unit who are eligible for a step shall receive a step increase each year on this adjusted salary schedule. Column movement for educational advancement will be allowed each year.",
+    "page": "33",
+    "confidence": "high",
+    "coder_notes": "Changed from 'not_discussed' to 'Yes' because Article XII.A.3 explicitly addresses annual step increases and educational column movement."
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of crediting prior experience for salary placement found in the provided text (document cuts off before Appendix A)."
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of performance or merit pay found in the provided text."
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Since performance pay is not discussed, the evaluation criteria for it is also not discussed."
+  }
+}

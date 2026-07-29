@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "A report of the meetings shall be provided to both SAEA and SAUSD.",
+      "subject_text": "A report of the meetings",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "A yearly review of the impact of the Extended Day program shall be conducted by the Consultation Committee.",
+      "subject_text": "A yearly review of the impact of the Extended Day program",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Information to be reviewed shall include, among other items of information, test scores, attendance features and teacher, student, and parent surveys.",
+      "subject_text": "Information to be reviewed",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "This information shall be reported to SAEA and SAUSD.",
+      "subject_text": "This information",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "When two or more equally qualified unit members apply, seniority in the District shall govern.",
+      "subject_text": "seniority in the District",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "seniority",
+      "notes": "Rule governing tie-breaking; functions as a seniority right for unit members."
+    },
+    {
+      "quote": "All volunteers shall be employed subject to contingency of sustained enrollment of students.",
+      "subject_text": "All volunteers",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "job_security",
+      "notes": "Conditions employment on enrollment, protecting district budget from financial liability."
+    },
+    {
+      "quote": "Extended Day personnel shall be limited first to unit members currently employed at the site",
+      "subject_text": "Extended Day personnel",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "then the district may seek candidates employed at other District sites",
+      "subject_text": "the district",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Tentative position openings for teachers shall be adequately publicized by the District with postings of such positions in all schools within ten (10) days of the approval of each opening.",
+      "subject_text": "Tentative position openings for teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    }
+  ]
+}

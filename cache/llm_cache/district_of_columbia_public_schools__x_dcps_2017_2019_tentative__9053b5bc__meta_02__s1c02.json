@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"Classroom management and Chapter 25 of the DCMR;\" \"The Teacher in the competitive area (as determined in accordance with Title 5 of the DCMR) with the lowest point value overall according to the rubric above shall be the first Teacher to be excessed.\"",
+    "evidence": "\"Classroom management and Chapter 25 of the DCMR;\" \"The Teacher in the competitive area (as determined in accordance with Title 5 of the DCMR) with the lowest point value overall according to the rubric above shall be the first Teacher to be excessed.\"",
+    "page": "18",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"DCPS shall provide written notice of potential school reform, inclusive of all options under NCLB for restructuring, to the WTU and all Teachers in the affected schools that have been identified.\" \"The term “Partnership Schools” shall mean DCPS schools operated by private, not-for-profit management companies under contracts with DCPS pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB).\" \"All Partnership Schools shall be schools that are required to be restructured under NCLB.\"",
+    "evidence": "\"DCPS shall provide written notice of potential school reform, inclusive of all options under NCLB for restructuring, to the WTU and all Teachers in the affected schools that have been identified.\" \"The term “Partnership Schools” shall mean DCPS schools operated by private, not-for-profit management companies under contracts with DCPS pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB).\" \"All Partnership Schools shall be schools that are required to be restructured under NCLB.\"",
+    "page": "19",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "No Child Left Behind Act (NCLB), 20 U.S.C. § 6316(b)(8)(B)(iii)",
+    "evidence": "pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB).",
+    "page": "20",
+    "confidence": "high"
+  }
+}

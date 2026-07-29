@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The Board and the Federation agree to name a Safety Committee consisting of two (2) members designated by the Federation, and two (2) members designated by the Board.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Pursuant to Section 3319.143 of the Ohio Revised Code, the Board shall provide teachers with assault leave by which a teacher who is absent due to physical disability resulting from an assault, which occurs in the course of employment, shall be maintained on full pay status during the period of such absence.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "In case of a civil disturbance, which occurs before the teacher leaves his/her residence for his/her assignment, the teacher should make every effort to contact the proper school authorities who will determine whether the teacher will be required to report to work. Teacher compensation shall not be affected nor shall the teacher lose any sick days or personal leave days by school closing due to civil disturbances.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Teachers shall not be required to work under conditions that are unhealthy due to utilities failure, such as power, heat, or water.",
+    "page": "37",
+    "confidence": "high"
+  }
+}

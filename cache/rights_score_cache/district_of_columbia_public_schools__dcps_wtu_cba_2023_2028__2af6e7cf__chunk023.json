@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Plans will be reviewed and approved by the Chancellor of DCPS and the President of the WTU so that implementation can begin will in advance of the 2011-12 school year.",
+      "subject_text": "Plans",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Time lines may be modified by mutual agreement of the parties.",
+      "subject_text": "Time lines",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Innovations in the Improvement Schools may also include, but shall not be limited to, the following elements: leadership, scheduling, instruction, technology, wrap-around services, personnel policies, and Teacher compensation.",
+      "subject_text": "Innovations in the Improvement Schools",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Chancellor (or her/his designee) and the President of the WTU (or her/his designee) shall meet to establish any additional timelines and parameters that may be needed for the development and implementation of any Improvement Schools.",
+      "subject_text": "The Chancellor (or her/his designee) and the President of the WTU (or her/his designee)",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In advance of accepting assignment to an Improvement School, Teachers shall receive, for each School, information detailing any differences, if any, in the working conditions at the Collaborative and those in this Agreement including, but not limited to:",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS is prohibited from substantially changing the working conditions at any Improvement School during any school year.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "If DCPS desires to implement working conditions or compensation at any Improvement School that are different than those found in this Agreement, DCPS must first negotiate such terms with the WTU.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "If the Parties are unable to agree, the working conditions or compensation at the Improvement School shall remain the same as defined in this Agreement.",
+      "subject_text": "the working conditions or compensation at the Improvement School",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "The evaluation process in Improvement Schools shall be the same as other DCPS schools.",
+      "subject_text": "The evaluation process in Improvement Schools",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    }
+  ]
+}

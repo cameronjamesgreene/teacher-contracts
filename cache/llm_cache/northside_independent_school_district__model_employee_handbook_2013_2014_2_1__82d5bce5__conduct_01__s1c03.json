@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "All district employees should perform their duties in accordance with state and federal law, district policies and procedures, and ethical standards. Violation of policies, regulations, or guidelines may result in disciplinary action, including termination.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "The educator shall refrain from the illegal use or distribution of controlled substances and/or abuse of prescription drugs and toxic inhalants. The educator shall not consume alcoholic beverages on school property or during school activities when students are present.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "yes",
+    "evidence": "The educator shall refrain from inappropriate communication with a student or minor, including, but not limited to, electronic communication such as cell phone, text messaging, email, instant messaging, blogging, or other social network communication.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "The Texas educator shall comply with standard practices and ethical conduct toward students, professional colleagues, school officials, parents, and members of the community and shall safeguard academic freedom.",
+    "page": "36",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes. Recall period: 3 years. Notice method: phone or registered mail at least 4 working days in advance. Response deadline/availability: must be available to begin within 30 days. Recall order: Not specified. Benefit restoration: Not specified; however, laid-off employees may opt to pay 100% of insurance premiums during the recall period to maintain coverage.",
+    "evidence": "Professional Personnel shall (a) receive official notice by phone or registered mail at least four (4) working days in advance of their deadline for determining whether to exercise recall rights, (b) shall be available to begin within thirty (30) days, (c) retain recall rights for a period of three (3) years and (d) except for proven medical disability, a teacher who declines an offer of vacancy in their field of certification shall forfeit all recall rights",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "Certification in the subject field assignment and system-wide seniority (least seniority within category). Priority order of categories: (1) provisional certificate, (2) non-tenured, (3) tenured Class II certificate, (4) tenured first-class certificate.",
+    "evidence": "professional personnel shall be laid off solely on the basis of certification in the subject field assignment and on system-wide seniority as defined in Article 4.01.10... First: In continuing order of least system-wide seniority in the subject field taught, severance shall be restricted to persons holding a provisional certificate. Second: ...non-tenured employees. Third: ...tenured employees holding a Class II certificate. Fourth: ...tenured employees holding first class certificates.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes. Non-tenured Unit I employees may resign without prejudice prior to May 1. Tenure status is used as a classification criterion in layoff order. No further continuing contract or tenure acquisition rights are detailed in this section.",
+    "evidence": "The Board of Education will accept the resignation of any non-tenured Unit I employee submitted prior to May 1 without prejudice, provided that the said employee has not been recommended by the Superintendent for Termination or non-renewal due to cause.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high as evidence directly supports the stated answer."
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Secondary teachers will be assigned to their major or minor ﬁeld of certiﬁcation... A teacher will not be assigned out of area of certiﬁcation for a period of more than two consecutive semesters unless the teacher agrees in writing to a continuance of the out-of-certiﬁcation-area assignment... teacher shall be required to commence taking courses toward certiﬁcation in the new assigned ﬁeld... at the minimum rate of six credit hours per year.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

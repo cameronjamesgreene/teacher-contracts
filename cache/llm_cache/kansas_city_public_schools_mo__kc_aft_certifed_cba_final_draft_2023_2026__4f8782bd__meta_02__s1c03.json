@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Nothing contained herein shall limit the rights of tenure and/or due process provided to certificated teachers as provided in the statutes of the state of Missouri. To be eligible for assault leave, the member must apply for and be granted workers’ compensation, subject to the workers’ compensation laws and procedures of the State of Missouri.",
+    "evidence": "Nothing contained herein shall limit the rights of tenure and/or due process provided to certificated teachers as provided in the statutes of the state of Missouri.",
+    "page": "38, 41-42",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "If an employee utilizes more than three (3) PTO days in a quarter which are not approved under FMLA, the employee may be asked to submit documentation regarding the additional absences. PTO days are subject to exhaustion as part of FMLA leave. Unexcused absences are not associated with FMLA, Approved Workers Compensation, Jury Duty, PTO approved 72 hours in advance, Bereavement Leave, or Professional Development. An employee who has used up all current and accumulated days of PTO allowance, and who has used up all leave available pursuant to the Family Medical Leave Act, who presents a request supported by a doctor’s statement that they are unable to return to work for medical reasons, may be placed by administrative action on extended health leave as required for the remainder of a current semester. Every parent who takes leave pursuant to the Family Medical Leave Act provisions regarding the birth or adoption of their child is eligible for paid leave during the first two weeks of FMLA. Any additional leave is subject to the provisions of the Family Medical Leave Act.",
+    "evidence": "If an employee utilizes more than three (3) PTO days in a quarter which are not approved under FMLA, the employee may be asked to submit documentation regarding the additional absences.",
+    "page": "39, 40, 43, 44",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "FMLA; Family Medical Leave Act",
+    "evidence": "If an employee utilizes more than three (3) PTO days in a quarter which are not approved under FMLA, the employee may be asked to submit documentation regarding the additional absences.",
+    "page": "39, 43, 44",
+    "confidence": "high"
+  }
+}

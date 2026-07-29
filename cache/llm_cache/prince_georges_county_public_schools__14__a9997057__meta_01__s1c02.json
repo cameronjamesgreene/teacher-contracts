@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "This Agreement are, consistent with Section 1.06 herein, reserved for Board policy",
+    "page": "11",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2005-2006 school year (referenced within provisions)",
+    "evidence": "not completed later than the first instructional day of the 2005 through 2006 school year.",
+    "page": "7",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Unit I Members (all 10, 11, and 12 month certificated professional employees except administrative/supervisory, plus Home and Hospital teachers and JROTC instructors)",
+    "evidence": "Unit I Member: All 10, 11, and 12 month certificated professional employees of the Board of Education of Prince George’s County (except those identified as administrative and supervisory), Home and Hospital teachers, and JROTC instructors.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "The arbitrator’s decision shall be final and binding on both parties",
+    "page": "5",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "as established by Maryland School Law.",
+    "page": "7",
+    "confidence": "high"
+  }
+}

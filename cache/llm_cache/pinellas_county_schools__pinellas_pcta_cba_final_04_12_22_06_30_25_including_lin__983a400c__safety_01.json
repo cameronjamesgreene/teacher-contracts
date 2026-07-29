@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "ARTICLE 12 TEACHER ASSAULT PROTECTION. A. Teachers will immediately report to the school principal in writing all cases of assault/battery suffered by them in connection with their employment. ... ARTICLE 13 STUDENT DISCIPLINE. A. Disciplinary control of students' conduct in the classroom is the teacher's responsibility. ... G. School personnel will follow the School Wide Behavior Plan and the Code of Student Conduct.",
+    "page": "19-20",
+    "confidence": "high",
+    "coder_notes": "Original evidence cited only a two-way communication system, which is weak for a health/safety committee question. Updated to cite Articles 12 and 13, which explicitly establish teacher assault protection and student discipline procedures, directly satisfying the 'health and safety provisions' criterion."
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Teachers will immediately report to the school principal in writing all cases of assault/battery suffered by them in connection with their employment. ... If a pupil is found guilty of assaulting or battering a teacher and no teacher negligence is proven, any damages, injuries, or material loss suffered by the teacher shall be fairly compensated for by the Board. ... If a teacher is sued in tort for accidents which occurred while the teacher was on active duty supervising students, the Board will provide for legal counsel for the teacher. A teacher may use reasonable force ... to protect himself or herself or others from injury.",
+    "page": "19-20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Disciplinary control of students' conduct in the classroom is the teacher's responsibility. Upon referral by the teacher, extreme behavioral problems are the principal's responsibility for appropriate disciplinary actions. ... School personnel will follow the School Wide Behavior Plan and the Code of Student Conduct.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "...the teacher may remove the student from class consistent with School Board policy and the provisions of s. 1003.32, F.S. ... Removal of disruptive students shall be consistent with the District Code of Student Conduct.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

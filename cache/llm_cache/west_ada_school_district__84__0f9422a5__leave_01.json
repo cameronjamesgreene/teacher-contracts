@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 days",
+    "evidence": "At the beginning of each school year, each certified employee shall be credited with ten (10) days or more of sick leave allowance as referred to in this Article at B, 1 or as allowed by Idaho Code 33-1216.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Article X explicitly states 10 days are credited annually."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates with a cap of 230 days",
+    "evidence": "Sick leave days shall be accumulated to two hundred thirty (230) sick leave days. When the 230 days are accumulated, the new (10) days are available for use during the next year, but cannot be accumulated.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Article X explicitly states the accumulation limit."
+  },
+  "leave_sick_family_003": {
+    "answer": "Yes, for spouse, dependent, minor children, or parents",
+    "evidence": "Sick leave is to be used for absences caused by illness or physical disability, including childbearing of the certified employee or to the certified employee’s spouse, dependent or minor children or parents.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Article X explicitly permits use for specified family members."
+  },
+  "leave_personal_days_004": {
+    "answer": "2 days for Category 1, 2, or 3 employees; 4 days for renewable contract employees",
+    "evidence": "Personal leave shall be granted for any reason deemed necessary by the professional employee at the rate of two (2) days for Category 1, 2, or 3 professional employees per school year and four (4) days for professional employees on renewable contracts per school year.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Article X Section C explicitly states the grant amounts."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Max 5 days used per year; may not be taken during the last two weeks of school without principal permission; no more than 10% of staff may be on leave at one time",
+    "evidence": "Employees may use no more than five (5) personal days per year... Personal Leave may not be taken the last two weeks of school without permission of the building administrator. No more than 10% of the staff may be gone on leave at one time.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Article X Section C explicitly lists these restrictions."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "Cash payout at 1.5x substitute rate",
+    "evidence": "Employees will be paid for each day beyond six (6) at the rate of 1.5 times the established rate for short-term substitutes... Upon retirement, all remaining personal days will be paid for at the rate of 1.5 times the established rate for short-term substitutes.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Article X Section C specifies cash conversion rather than sick leave carryover."
+  }
+}

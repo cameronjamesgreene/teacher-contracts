@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 paid days per incident for immediate family (plus up to 2 days for travel), and 1 paid day per incident for second-degree relatives.",
+    "evidence": "Teachers shall have bereavement leave for three (3) consecutive days, upon application, without loss of salary, for a death in the immediate family. ... When the funeral in connection with the death necessitates travel time during school days, additional time, not to exceed two (2) days shall be granted. / members of the bargaining unit shall receive one (1) day without loss of salary to attend the funeral of a second-degree relative.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Immediate family includes parents (or those who served as parents), grandparents, grandchildren, spouse/domestic partner, children, in-laws, siblings, and relatives in the immediate household. Second-degree relatives include uncles, aunts, nephews, nieces, first cousins, brothers-in-law, and sisters-in-law.",
+    "evidence": "Immediate family shall include parents (or any person who has actually served in the capacity of parent), grandmother, grandfather or grandchild of the teacher, or the spouse or domestic partner of the teacher, and son, son-in-law, daughter, daughter-in-law, brother or sister of the teacher, parents-in-law, or any relative living in the immediate household of the teacher. / Second-degree relatives shall include uncles, aunts, nephews, nieces, first cousins, brothers-in-law, and sisters-in-law.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "The District shall provide for leave of absence from duty for any teacher who is required to be absent from duties because of pregnancy, miscarriage, childbirth, and recovery there from. ... treated as such under any health or temporary disability insurance or sick leave plan available in connection with employment by the District.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

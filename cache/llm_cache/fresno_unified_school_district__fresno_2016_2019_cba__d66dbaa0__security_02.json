@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The document only specifies a two-year probationary period for Adult Education teachers (Art. 1, Sec. 6.2), but does not discuss a general probation or provisional period for the main teaching unit."
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Article 9 - COMPUTATION FOR TENURE: 1. Service rendered which is less than seventy-five percent (75%) of a full school year and/or less than fifty percent (50%) of the school day may not be counted toward tenure. 2. Adult School teachers may obtain tenure in accordance with provisions of the Education Code...",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to Article 9, which explicitly discusses tenure computation, providing direct support for tenure rights rather than the original limited Adult Ed permanent status quote."
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "All units and credentials must be verified and recorded in the Division of Human Resources/Labor Relations.",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Stage 1 evidence was hallucinated and does not appear in the provided document. The text only briefly mentions requiring a 'valid California teaching credential' for Early Childhood transfer eligibility (Art. 4.1) and Ed Code qualification for Adult Ed (Art. 1.1), but contains no discussion of certification, licensure, or renewal requirements."
+  }
+}

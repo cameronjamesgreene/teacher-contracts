@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "1.0% on July 1, 2019 and 1.0% on July 1, 2020",
+    "evidence": "Effective July 1, 2019, a 1.0% increase will be added to the schedule for all eligible employees. Effective July 1, 2020, an additional 1.0% increase will be added to the schedule for all eligible employees.",
+    "page": "138",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "When the following activities are offered, they shall be compensated at the specified rate of pay. Coaches and Coordinators undertaking activities listed in Schedule “D” shall be compensated as follows: a. Preparation and supervision of students at the hourly rate of pay b. Participation with students in half day or evening events at $95 c. Participation with students in full day events at $190",
+    "page": "145",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

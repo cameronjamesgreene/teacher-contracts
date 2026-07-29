@@ -1,0 +1,16 @@
+# Pittsburgh_10-15.pdf — Psychologists Salary Schedule (June 2010)
+# population: Psychologists | is_teacher_schedule: False
+# validation_warnings: possible_dropped_row: step sequence 1-10 is missing step(s) [6] — a row may have been lost; verify against source | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase
+1-,45800,46300,46800,47300,47800,48300,41800
+2-,47230,47730,48970,49470,49230,49730,40670
+3-,48470,48970,49470,49970,50470,50970,39730
+4-,49720,50220,50720,51220,51720,52220,38780
+5-,51090,51590,52090,52590,53090,53590,38010
+6a,80100,81600,83700,85500,87600,87600,9000
+6b,80400,81600,84000,84600,86400,86100,8700
+7-,80700,82500,84900,86700,88500,88200,8400
+8-,81000,83100,85200,87000,88200,88500,8100
+9-,81300,83600,85700,87600,88500,89100,8100
+10-,81600,84000,86100,87600,89100,89100,7500

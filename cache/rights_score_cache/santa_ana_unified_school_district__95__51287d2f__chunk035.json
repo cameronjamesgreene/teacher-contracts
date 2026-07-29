@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Unit members shall receive the opportunity to volunteer for extra curricular assignments.",
+      "subject_text": "Unit members",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "If assignments must be made, equity among the staff shall be a goal.",
+      "subject_text": "equity among the staff",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Aspirational policy goal rather than a strict binding duty"
+    },
+    {
+      "quote": "The list of both filled/unfilled assignments shall remain posted throughout the school year.",
+      "subject_text": "The list of both filled/unfilled assignments",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The following assignments shall receive a factor equal to the stated percentage of each unit member's salary schedule placement: 8%—Project Coordinator, Audiologist, Music Technician; 4%—Psychometrist.",
+      "subject_text": "The following assignments",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "The following assignments shall receive a stipend equal to 5% of Class II, Step 5: Unit members credentialed and working in areas identified by the District as areas of critical shortage.",
+      "subject_text": "The following assignments",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers who are assigned to teach classes which meet the qualifications as contained in the \"K-12 Program for LEP Students\" adopted by the Board of Education on February 9, 1988, shall be compensated at the highest competency level expected and for which they are qualified.",
+      "subject_text": "Teachers who are assigned to teach classes which meet the qualifications as contained in the \"K-12 Program for LEP Students\" adopted by the Board of Education on February 9, 1988,",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members with LDS Certificate as of April 12, 1988, shall remain at a stipend of $1,201.75 until the stipend of 3% exceeds that amount.",
+      "subject_text": "Unit members with LDS Certificate as of April 12, 1988,",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Grandfathering provision for existing certificate holders"
+    },
+    {
+      "quote": "Unit members who were \"grandfathered\" under the LDS program in 1984 will receive a stipend of 1%.",
+      "subject_text": "Unit members who were \"grandfathered\" under the LDS program in 1984",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    }
+  ]
+}

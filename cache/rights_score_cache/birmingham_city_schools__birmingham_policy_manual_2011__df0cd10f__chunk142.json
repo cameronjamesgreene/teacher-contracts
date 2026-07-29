@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "he/she shall be automatically referred to the Board for disciplinary action.",
+      "subject_text": "he/she",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Original text contains OCR artifacts (s1ulH, rrD); refers to mandatory student referral to the Board."
+    },
+    {
+      "quote": "said student shall be expelled from school for not less than (1) calendar year, date to date.",
+      "subject_text": "said student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Original text has OCR error (hom -> from); mandates mandatory expulsion."
+    },
+    {
+      "quote": "The Superintendent may modify such requirements for a student on a case-by-case basis.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "any student determined by the Board to have brought a weapon or firearm on school property as defined above shall be referred to the criminal justice or Juvenile Court System.",
+      "subject_text": "any student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "a student under 19 years of age may have his/her driver's licenses suspended for possession of a firearm on school premises.",
+      "subject_text": "a student under 19 years of age",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": "Causative construction referencing statutory driver's license suspension."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "the loss of employee’s thirty (30)-minute duty free lunch",
+    "page": "25",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "no",
+    "evidence": "teachers who have scheduled parent conferences shall be excused from faculty meetings that conflict with the conference.",
+    "page": "23",
+    "confidence": "medium"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The teacher selected and directed by the PAR Panel to assist and review teachers will be assigned to the Program to work exclusively with beginning teachers and/or teachers subject to intervention.",
+    "page": "95",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Peer Coach: The teacher selected and directed by the PAR Panel to assist and review teachers will be assigned to the Program to work exclusively with beginning teachers and/or teachers subject to intervention.",
+    "page": "95",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

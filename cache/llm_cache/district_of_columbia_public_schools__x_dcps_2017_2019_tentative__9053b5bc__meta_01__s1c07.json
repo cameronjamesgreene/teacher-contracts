@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "During the life of this Agreement, the WTU shall not cause, support, encourage or authorize any Teacher to participate in any cessation of work...",
+    "page": "93",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2017 through 2018-2019",
+    "evidence": "36.2.1 DCPS shall provide the following base salary raises for the following years: 2016-2017 2017-2018 2018-2019",
+    "page": "94",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "WTU bargaining unit (ET and EG teachers, Related Service Providers, VIS teachers)",
+    "evidence": "employees in the ET teachers' bargaining unit; all DCPS employees who are members of the WTU bargaining unit",
+    "page": "93",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Tentative agreement (binding upon ratification)",
+    "evidence": "During the life of this Agreement, the WTU shall not cause, support, encourage or authorize any Teacher to participate in any cessation of work...",
+    "page": "93",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "in accordance with D.C. Official Code 1-611.06(d)",
+    "page": "94",
+    "confidence": "high"
+  }
+}

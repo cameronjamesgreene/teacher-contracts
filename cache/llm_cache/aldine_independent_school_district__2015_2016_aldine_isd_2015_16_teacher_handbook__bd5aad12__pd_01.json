@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document text is truncated (ends on page 11). No provisions for new teacher mentoring, induction, or orientation are present in the available text. 'Mentoring' appears only in the context of volunteer background checks. Answer remains not_discussed."
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document text is truncated. The Table of Contents lists advisory councils/committees (FAC, CISC, DEAC, VEAC) on pages 26-27, but the content is not included in the provided excerpt. No specific teacher leadership roles or instructional coaches are mentioned. Answer remains not_discussed."
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document text is truncated. There is no mention of career ladders, advancement pathways, or differentiated career roles in the available sections. Contract renewal and probationary periods are discussed, but not differentiated career tracks. Answer remains not_discussed."
+  }
+}

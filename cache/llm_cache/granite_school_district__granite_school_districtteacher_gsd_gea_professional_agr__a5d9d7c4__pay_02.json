@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes. Legislative salary adjustment of $4,200 on all steps for the 2011-12 schedule.",
+    "evidence": "The 2011-12 schedule includes a legislative salary adjustment of $4,200 on all steps.",
+    "page": "46",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "Teachers at Title I schools receive an extra $600 annual Title I stipend.",
+    "page": "46",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

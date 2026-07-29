@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "196 workdays (180 student contact, 6 paid holidays)",
+    "evidence": "Working days for ten (10) month teachers shall consist of no more than one hundred ninety-six (196) workdays of which one hundred eighty (180) days shall include student contact. Six (6) of these workdays shall be paid holidays.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 hours (7 1/2 hours)",
+    "evidence": "The regular working day for teachers shall be seven and one-half (7 1/2) hours which shall include a minimum of thirty (30) minutes for lunch.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Planning time is essential and will be granted to those teachers engaged in classroom instruction.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "one (1) regular period of instruction in middle and high school or equal to forty-five (45) consecutive minutes per day in elementary school",
+    "evidence": "The length of planning time shall be equal to one (1) regular period of instruction in middle and high school or equal to forty-five (45) consecutive minutes per day in elementary school.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Planning time shall be free of supervisory duty and appropriate to the instructional assignment.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "The principal will grant duty-free lunch whenever practicable to as many teachers as feasible, if adequate supervision of students is maintained.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

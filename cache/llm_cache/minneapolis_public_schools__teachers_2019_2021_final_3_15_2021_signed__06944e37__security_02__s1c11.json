@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "security_probation_length_009": {
+    "answer": "3 years",
+    "evidence": "Notify third year teachers of dates, time and locations of their Tenure Review presentation.",
+    "page": "98",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "The PAR Panel will determine the status of the teacher through consensus, if possible, or a majority vote, if necessary.",
+    "page": "104",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

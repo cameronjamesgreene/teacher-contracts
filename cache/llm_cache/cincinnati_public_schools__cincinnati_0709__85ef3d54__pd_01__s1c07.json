@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "The Intervention Specialists’ Curriculum Council shall represent teachers in development of the district's annual special education plan. ... the Curriculum Council Steering Committee or its designee(s) shall meet regularly with the district administrator from student services to address service delivery, compliance issues, program quality and other teacher concerns.",
+    "page": "58",
+    "confidence": "medium"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

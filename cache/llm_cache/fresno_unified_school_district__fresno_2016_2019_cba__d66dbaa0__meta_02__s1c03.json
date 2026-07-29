@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "The arbitrator shall conduct hearings to consider evidence and arguments in accordance with the appropriate rules/provisions of the California Code of Civil Procedure.",
+    "evidence": "The arbitrator shall conduct hearings to consider evidence and arguments in accordance with the appropriate rules/provisions of the California Code of Civil Procedure.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "All references to \"Medicare\" refer to the Federal Medicare Law as described in Title l8 of the Social Security Act of 1964.",
+    "evidence": "All references to \"Medicare\" refer to the Federal Medicare Law as described in Title l8 of the Social Security Act of 1964.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Federal Medicare Law; Title 18 of the Social Security Act of 1964",
+    "evidence": "All references to \"Medicare\" refer to the Federal Medicare Law as described in Title l8 of the Social Security Act of 1964.",
+    "page": "25",
+    "confidence": "high"
+  }
+}

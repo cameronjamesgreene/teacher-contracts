@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "22.5 A teacher may use reasonable force to protect himself/herself or others from attack or injury, or to quell a disturbance which threatens physical injury to a teacher or others. Reasonable force shall mean the same degree of physical control over a pupil that a parent would be legally privileged to exercise but which in no event shall exceed the amount of physical control reasonably necessary to protect the physical safety of teachers or others. 22.6 The District shall give direct legal and other related assistance in accordance with applicable law for any attack, assault or menace upon the teacher while acting in the discharge of his/her duties.",
+    "page": "66",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "22.1.1 A safe and orderly learning environment is a major priority of the parties. Such an environment requires that disruptive behavior be dealt with safely, fairly, and consistently, and in a manner that incorporates progressive disciplinary measures to the extent required by law. 22.2 District support and assistance... 22.7 Informing Bargaining Unit Member",
+    "page": "65-67",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "22.3.1 A teacher may suspend any pupil from his or her class for the remainder of the day of the suspension and the day following the suspension for disruption of school activities or willful denial of the valid authority of teachers or other school personnel.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium",
+    "coder_notes": "The provided document contains only form feed characters and no readable text. No provisions regarding lunch duration can be verified. 'not_discussed' is retained as accurate given the blank document."
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium",
+    "coder_notes": "The provided document contains only form feed characters and no readable text. No provisions regarding meeting limits can be verified. 'not_discussed' is retained as accurate given the blank document."
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium",
+    "coder_notes": "The provided document contains only form feed characters and no readable text. No provisions regarding non-teaching duties can be verified. 'not_discussed' is retained as accurate given the blank document."
+  }
+}

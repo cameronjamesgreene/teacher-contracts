@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "MOU",
+    "evidence": "MEMORANDUM OF UNDERSTANDING (cont’d)",
+    "page": "154",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "instructional employees",
+    "evidence": "All instructional employees assigned full-time to a participating Title I School who are not eligible for the Recruitment Incentive",
+    "page": "155",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "PUBLIC EMPLOYEES RELATIONS ACT PERA",
+    "page": "157",
+    "confidence": "high"
+  }
+}

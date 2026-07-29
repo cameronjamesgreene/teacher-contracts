@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Normally, elementary teachers will spend planning and preparation time at the school.",
+      "subject_text": "elementary teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "However, teachers may on occasion be excused by the principal, or the principal's designee, to utilize other facilities for school-related professional purposes to aid the teacher in meeting the needs of students.",
+      "subject_text": "teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "workload",
+      "notes": "Passive construction; management implicitly grants discretion to excuse teachers from on-site planning."
+    },
+    {
+      "quote": "Planning time shall not be used for faculty meetings.",
+      "subject_text": "Planning time",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "workload",
+      "notes": "Inanimate subject; management is the implicit actor responsible for schedule administration."
+    },
+    {
+      "quote": "In-service shall not be held during planning time.",
+      "subject_text": "In-service",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "workload",
+      "notes": "Inanimate subject; management controls professional development scheduling."
+    },
+    {
+      "quote": "Special education teachers and resource teachers, whose contract and work assignments are the same hours as those of regular classroom teachers, will participate in class-free planning and preparation times during the same hours and on the same basis as regular classroom teachers.",
+      "subject_text": "Special education teachers and resource teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Instrumental music teachers assigned to an elementary school on planning and preparation time will participate in planning and preparation times at the school.",
+      "subject_text": "Instrumental music teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "With the exception of teachers being transferred or in the event of district program or staffing adjustments, returning teachers shall be notified in writing of their school, tentative program, schedule, or grade level assignment for the ensuing year not later than May 1 (elementary) and May 15 (secondary).",
+      "subject_text": "returning teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": "Passive construction; district bears affirmative duty to provide written notification of assignments."
+    },
+    {
+      "quote": "Consultation with the teacher shall take place before any written assignment is made.",
+      "subject_text": "Consultation with the teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": "Joint process, but management typically initiates and facilitates consultation prior to assignment finalization."
+    },
+    {
+      "quote": "In order to assure that students are taught by teachers working within their areas of competence, teachers shall not, under normal conditions, be assigned outside the scope of their teaching licenses and endorsements.",
+      "subject_text": "teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Passive construction; management prohibited from assigning teachers outside licensed scope."
+    }
+  ]
+}

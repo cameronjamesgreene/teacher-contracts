@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "“Probationary contract” means an employment contract for a period of one (1) school year awarded to teachers upon initial employment in the school district... “Professional Service Contract” and “Continuing Contract” means a contract with continuing employment rights in accordance with the law in effect prior to July 1, 2011.",
+    "page": "41",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "If an annual contract teacher is not to be recommended for reappointment, the teacher shall be notified by the Human Resources Department via the principal at the time the principal makes his or her decision. This notification shall not be later than four (4) weeks prior to the end of the post-school year. ... To initiate the appeal, the teacher will submit a written request to the Associate Superintendent for Human Resources who will schedule a meeting with the Area Superintendent, the teacher and his/her representative.",
+    "page": "42-43",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "...using as the criteria: needs of the program, certification, qualification, and seniority in the district.",
+    "page": "44",
+    "confidence": "low"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

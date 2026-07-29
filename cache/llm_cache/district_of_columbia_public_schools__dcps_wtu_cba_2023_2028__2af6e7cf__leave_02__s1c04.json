@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "4",
+    "evidence": "Teachers shall be granted up to a total of four (4) days of leave (in addition to sick leave) during each school year without loss of pay or benefits for funeral or bereavement purposes.",
+    "page": "52",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "52",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "A Teacher who is granted an extended leave of absence for maternity/paternity purposes may elect to use her accrued sick leave at the time she begins the extended leave of absence from duty.",
+    "page": "53",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Among the reasons, but not limited to, for which such leaves of absence may be used are the following: ... 17.5.1.3. Maternity leave",
+    "page": "53",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Among the reasons, but not limited to, for which such leaves of absence may be used are the following: ... 17.5.1.5. Adoption leave",
+    "page": "53",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Teachers shall receive benefits as provided in the Family and Medical Leave Act of 1993, as amended, and as provided in the District of Columbia Family and Medical Leave Act of 1990.",
+    "page": "54",
+    "confidence": "high"
+  }
+}

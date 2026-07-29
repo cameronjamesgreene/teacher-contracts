@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Such leave may be recommended by the Superintendent only for reason of physical disability or sickness, insubordination, immorality, incompetency, neglect of duty, or other good and just cause.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

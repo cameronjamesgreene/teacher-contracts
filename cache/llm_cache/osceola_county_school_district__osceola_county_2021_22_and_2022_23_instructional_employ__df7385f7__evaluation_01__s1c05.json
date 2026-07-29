@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "Reference only. Articles: Appendix G-1, H-1, H-2.",
+    "evidence": "APPENDIX G-1: Instructional Assessment Forms... APPENDIX H-1: Instructional Employees’ Evaluation System and Handbook... APPENDIX H-2: Non-Classroom Instructional Employees’ Evaluation System and Handbook (Available on the School District Website under Employee Resources)",
+    "page": "100, 103, 104",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

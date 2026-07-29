@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "yes",
+    "evidence": "If an administrator has performance concerns regarding an annual contract teacher, a PSC or CC teacher, the teacher will be afforded assistance through professional development and a prescribed improvement plan; provided, however, that any such development and plan will not affect the teacher’s status as an annual contract teacher.",
+    "page": "43",
+    "confidence": "medium",
+    "coder_notes": "The provided document excerpt ends on page 38 (mid-Article 32), so the cited page 43 is not present. Cannot verify the exact quote. Preserving the 'yes' answer and Stage 1 evidence as it is highly specific and directly answers the question, but downgrading confidence to medium due to truncation."
+  },
+  "evaluation_consequences_008": {
+    "answer": "yes",
+    "evidence": "An annual contract may be awarded to teachers who successfully completed a probationary contract or have received one or more annual contracts from the Board and who meet these conditions: ... c. Have not received two consecutive annual performance evaluation ratings of unsatisfactory, two annual performance evaluation ratings of unsatisfactory within a three (3) year period, or three (3) consecutive annual performance evaluation ratings of needs improvement or a combination of needs improvement and unsatisfactory.",
+    "page": "47",
+    "confidence": "medium",
+    "coder_notes": "The provided document excerpt ends on page 38, making the cited page 47 unverifiable. Preserving the 'yes' answer as the condition directly links evaluation ratings to contract renewal/tenure status, explicitly supporting the question. Confidence set to medium due to missing text."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "13 (as PTO days; sick leave is not separate)",
+    "evidence": "Each employee in the Certified Unit shall be given thirteen (13) preloaded PTO days at the beginning of the school year.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "PTO accumulates annually with no stated cap; a separate sick leave allowance has caps of 200/175 days only for severance payout purposes.",
+    "evidence": "PTO days not used by the end of the current school year will accumulate each year. / Sick leave allowance to which an employee becomes entitled but does not use during each school year shall be accumulated to a maximum of two hundred (200) days. / one hundred seventy-five (175) days.",
+    "page": "39, 47",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Each employee shall be allowed to use up to five (5) PTO days, or if the employee does not have five (5) days of PTO, an employee may take an unpaid leave of absence for up to a total of five (5) paid and unpaid combined because of the serious health condition of the employee’s grandparent, parent, sibling, spouse, partner, child, grandchild, anyone of like relationship by marriage, or on a case-by-case analysis of an undefined relationship.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "13",
+    "evidence": "Each employee in the Certified Unit shall be given thirteen (13) preloaded PTO days at the beginning of the school year. / PTO that is used for personal business is intended to cover matters that the employee could not schedule at another time.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires 72 hours advance notice (or 6:00 am on day of for emergencies); cannot be used on first/last day of school, day before/after holidays, or state assessment days unless ill/emergency; medical documentation may be required for >3 consecutive days or suspected misuse.",
+    "evidence": "notify the principal or building administrator at least seventy-two (72) hours before they are to be absent... In emergency/unforeseen situations, the employee shall notify the principal by 6:00 am the day the employee is to be gone / PTO cannot be used on the first or last day of school or, the day before or after a school holiday unless the employee is ill or has an approved emergency / If he or she is absent more than three (3) consecutive days for personal illness or injury... provide medical documentation",
+    "page": "39, 40",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

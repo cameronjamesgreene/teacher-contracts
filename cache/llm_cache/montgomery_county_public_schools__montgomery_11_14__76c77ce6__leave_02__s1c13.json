@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "2 duty days per incident (additional days may be granted by the Leave Administration team for unusual travel or personal obligations)",
+    "evidence": "maximum of two duty days of absence without loss of salary upon the death of a brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, spouse’s grandparent, or an individual for whom the unit member held durable medical or personal representative power of attorney at the time of death. In the event of unusual travel or personal obligations in connection with the use of bereavement leave, additional leave days may be granted by the Leave Administration team",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, spouse’s grandparent, or an individual for whom the unit member held durable medical or personal representative power of attorney at the time of death",
+    "evidence": "death of a brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, spouse’s grandparent, or an individual for whom the unit member held durable medical or personal representative power of attorney at the time of death.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

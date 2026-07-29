@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Permanent Substitute Employees will be provided Medical, Dental, Vision, Disability and Life Insurance coverage the same as other employees as set forth in Article VIII, Section H of this Agreement.",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Basic Term Life Insurance will be provided and paid by the District for eligible employees in the following amounts: $20,000 face value for full time eligible employees. $10,000 face value for part time eligible employees.",
+    "page": "106",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "An employee who has disability (income protection) insurance through the District shall not be required to exhaust his/her sick leave to be granted leave under this subSection... In keeping with the District’s disability insurance carrier, an employee who has such insurance through the District may not receive both sick leave pay and disability benefits at the same time.",
+    "page": "86",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "4% of gross salary (non-FRS members); $100/mo (FT) or $50/mo (PT) for opting out of medical plans",
+    "evidence": "The Board shall provide a retirement supplement of four percent (4%) of gross salary to be paid to other than FRS members. / Effective January 1, 2011 and thereafter, those eligible employees who elect not to participate in any of the Medical Plans... will receive contributions to the Special Retirement Plan as follows: $ 100.00 monthly for each full-time eligible employee. $ 50.00 monthly for each part-time eligible employee.",
+    "page": "104, 107",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "When an employee is on short-term leave for ten (10) days or less, or intermittent political leave, the District shall continue the employee's group health insurance in full effect as when the employee was not on leave. When an employee is on Family Medical Leave (FML), the District shall continue the employee’s group health and dental insurance in full effect as when",
+    "page": "84",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

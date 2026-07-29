@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Refer to Article 25 of the Negotiated Agreement",
+    "page": "115",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2022-2023",
+    "evidence": "For the 2022-2023 school year, the parties agree to a continuation of district-wide and site-based professional development and teacher preparation during the first week.",
+    "page": "116",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated teachers / Albuquerque Teachers Federation",
+    "evidence": "Albuquerque Teachers Federation (ATF) ... certified members of the teaching staff",
+    "page": "118",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The Negotiated Agreement and District practices allow for additional time and flexible scheduling to be used for professional development",
+    "page": "109",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "The State of New Mexico provides funding for a differential for board-certified teachers based on the state’s unit value multiplied by a factor of 1.5.",
+    "page": "111",
+    "confidence": "medium"
+  }
+}

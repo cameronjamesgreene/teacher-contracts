@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "This work may include tasks such as meetings, planning, research, facilitation of professional learning opportunities, and support for newer teachers and long-term substitutes.",
+    "page": "126",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Teacher Leader Facilitators (TLF)... In addition to regular classroom duties, the TLF is an instructional leader who collaborates with the Instructional Council and administration to provide support for the professional development needs at the school level",
+    "page": "125",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "Teacher Leader Facilitators (TLF) at each site will receive a $4,000.00 differential.",
+    "page": "125",
+    "confidence": "medium"
+  }
+}

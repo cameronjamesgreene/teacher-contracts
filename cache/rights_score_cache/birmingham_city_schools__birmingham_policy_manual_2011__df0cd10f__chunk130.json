@@ -1,0 +1,30 @@
+{
+  "clauses": [
+    {
+      "quote": "School personnel will not administer medication to a student",
+      "subject_text": "School personnel",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "School officials will be expected to sign an arrest warrant for any person failing to comply to the request of the district's security officer.",
+      "subject_text": "School officials",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

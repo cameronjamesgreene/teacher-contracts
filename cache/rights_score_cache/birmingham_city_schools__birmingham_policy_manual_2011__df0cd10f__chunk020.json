@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "the administration of the educational program and the conduct of school business shall be left to the superintendent and his staff",
+      "subject_text": "the administration of the educational program and the conduct of school business",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Embedded within a non-binding pledge, but contains operative language regarding separation of powers between the Board and administration."
+    }
+  ]
+}

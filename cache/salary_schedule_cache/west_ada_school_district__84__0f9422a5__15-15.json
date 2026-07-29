@@ -1,0 +1,376 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Schedule",
+      "population": "stipend/extra-duty advisors and coordinators",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "",
+      "lane_labels": [
+        "I (0-3 years)",
+        "II (4-6 years)",
+        "III (7-9 years)",
+        "IV (10-12 years)",
+        "V (13(+) years)"
+      ],
+      "step_labels": [
+        "Orchestra Advisor",
+        "Cheerleading Advisor",
+        "Cheerleading Assistant Advisor",
+        "Choir Advisor",
+        "Intramural Activities Advisor",
+        "Spirit Club Advisor",
+        "Building Advisory Coordinator",
+        "Computer Coordinator",
+        "Student Council Advisor",
+        "Yearbook Advisor",
+        "Department Chair"
+      ],
+      "cells": [
+        {
+          "step": "Orchestra Advisor",
+          "lane": "I (0-3 years)",
+          "value": "1096.04",
+          "cell_code": null
+        },
+        {
+          "step": "Orchestra Advisor",
+          "lane": "II (4-6 years)",
+          "value": "1150.84",
+          "cell_code": null
+        },
+        {
+          "step": "Orchestra Advisor",
+          "lane": "III (7-9 years)",
+          "value": "1205.64",
+          "cell_code": null
+        },
+        {
+          "step": "Orchestra Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "1260.45",
+          "cell_code": null
+        },
+        {
+          "step": "Orchestra Advisor",
+          "lane": "V (13(+) years)",
+          "value": "1315.25",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Advisor",
+          "lane": "I (0-3 years)",
+          "value": "1589.26",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Advisor",
+          "lane": "II (4-6 years)",
+          "value": "1668.72",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Advisor",
+          "lane": "III (7-9 years)",
+          "value": "1748.18",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "1827.65",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Advisor",
+          "lane": "V (13(+) years)",
+          "value": "1907.11",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Assistant Advisor",
+          "lane": "I (0-3 years)",
+          "value": "904.23",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Assistant Advisor",
+          "lane": "II (4-6 years)",
+          "value": "949.44",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Assistant Advisor",
+          "lane": "III (7-9 years)",
+          "value": "994.66",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Assistant Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "1039.87",
+          "cell_code": null
+        },
+        {
+          "step": "Cheerleading Assistant Advisor",
+          "lane": "V (13(+) years)",
+          "value": "1085.08",
+          "cell_code": null
+        },
+        {
+          "step": "Choir Advisor",
+          "lane": "I (0-3 years)",
+          "value": "1096.04",
+          "cell_code": null
+        },
+        {
+          "step": "Choir Advisor",
+          "lane": "II (4-6 years)",
+          "value": "1150.84",
+          "cell_code": null
+        },
+        {
+          "step": "Choir Advisor",
+          "lane": "III (7-9 years)",
+          "value": "1205.64",
+          "cell_code": null
+        },
+        {
+          "step": "Choir Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "1260.45",
+          "cell_code": null
+        },
+        {
+          "step": "Choir Advisor",
+          "lane": "V (13(+) years)",
+          "value": "1315.25",
+          "cell_code": null
+        },
+        {
+          "step": "Intramural Activities Advisor",
+          "lane": "I (0-3 years)",
+          "value": "685.03",
+          "cell_code": null
+        },
+        {
+          "step": "Intramural Activities Advisor",
+          "lane": "II (4-6 years)",
+          "value": "719.28",
+          "cell_code": null
+        },
+        {
+          "step": "Intramural Activities Advisor",
+          "lane": "III (7-9 years)",
+          "value": "753.53",
+          "cell_code": null
+        },
+        {
+          "step": "Intramural Activities Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "787.78",
+          "cell_code": null
+        },
+        {
+          "step": "Intramural Activities Advisor",
+          "lane": "V (13(+) years)",
+          "value": "822.03",
+          "cell_code": null
+        },
+        {
+          "step": "Spirit Club Advisor",
+          "lane": "I (0-3 years)",
+          "value": "904.23",
+          "cell_code": null
+        },
+        {
+          "step": "Spirit Club Advisor",
+          "lane": "II (4-6 years)",
+          "value": "949.44",
+          "cell_code": null
+        },
+        {
+          "step": "Spirit Club Advisor",
+          "lane": "III (7-9 years)",
+          "value": "994.66",
+          "cell_code": null
+        },
+        {
+          "step": "Spirit Club Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "1039.87",
+          "cell_code": null
+        },
+        {
+          "step": "Spirit Club Advisor",
+          "lane": "V (13(+) years)",
+          "value": "1085.08",
+          "cell_code": null
+        },
+        {
+          "step": "Building Advisory Coordinator",
+          "lane": "I (0-3 years)",
+          "value": "1370.05",
+          "cell_code": null
+        },
+        {
+          "step": "Building Advisory Coordinator",
+          "lane": "II (4-6 years)",
+          "value": "1438.55",
+          "cell_code": null
+        },
+        {
+          "step": "Building Advisory Coordinator",
+          "lane": "III (7-9 years)",
+          "value": "1507.06",
+          "cell_code": null
+        },
+        {
+          "step": "Building Advisory Coordinator",
+          "lane": "IV (10-12 years)",
+          "value": "1575.56",
+          "cell_code": null
+        },
+        {
+          "step": "Building Advisory Coordinator",
+          "lane": "V (13(+) years)",
+          "value": "1644.06",
+          "cell_code": null
+        },
+        {
+          "step": "Computer Coordinator",
+          "lane": "I (0-3 years)",
+          "value": "1589.26",
+          "cell_code": null
+        },
+        {
+          "step": "Computer Coordinator",
+          "lane": "II (4-6 years)",
+          "value": "1668.72",
+          "cell_code": null
+        },
+        {
+          "step": "Computer Coordinator",
+          "lane": "III (7-9 years)",
+          "value": "1748.18",
+          "cell_code": null
+        },
+        {
+          "step": "Computer Coordinator",
+          "lane": "IV (10-12 years)",
+          "value": "1827.65",
+          "cell_code": null
+        },
+        {
+          "step": "Computer Coordinator",
+          "lane": "V (13(+) years)",
+          "value": "1907.11",
+          "cell_code": null
+        },
+        {
+          "step": "Student Council Advisor",
+          "lane": "I (0-3 years)",
+          "value": "904.23",
+          "cell_code": null
+        },
+        {
+          "step": "Student Council Advisor",
+          "lane": "II (4-6 years)",
+          "value": "949.44",
+          "cell_code": null
+        },
+        {
+          "step": "Student Council Advisor",
+          "lane": "III (7-9 years)",
+          "value": "994.66",
+          "cell_code": null
+        },
+        {
+          "step": "Student Council Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "1039.87",
+          "cell_code": null
+        },
+        {
+          "step": "Student Council Advisor",
+          "lane": "V (13(+) years)",
+          "value": "1085.08",
+          "cell_code": null
+        },
+        {
+          "step": "Yearbook Advisor",
+          "lane": "I (0-3 years)",
+          "value": "1370.05",
+          "cell_code": null
+        },
+        {
+          "step": "Yearbook Advisor",
+          "lane": "II (4-6 years)",
+          "value": "1438.55",
+          "cell_code": null
+        },
+        {
+          "step": "Yearbook Advisor",
+          "lane": "III (7-9 years)",
+          "value": "1507.06",
+          "cell_code": null
+        },
+        {
+          "step": "Yearbook Advisor",
+          "lane": "IV (10-12 years)",
+          "value": "1575.56",
+          "cell_code": null
+        },
+        {
+          "step": "Yearbook Advisor",
+          "lane": "V (13(+) years)",
+          "value": "1644.06",
+          "cell_code": null
+        },
+        {
+          "step": "Department Chair",
+          "lane": "I (0-3 years)",
+          "value": "1257.00",
+          "cell_code": null
+        },
+        {
+          "step": "Department Chair",
+          "lane": "II (4-6 years)",
+          "value": "N/A",
+          "cell_code": null
+        },
+        {
+          "step": "Department Chair",
+          "lane": "III (7-9 years)",
+          "value": "N/A",
+          "cell_code": null
+        },
+        {
+          "step": "Department Chair",
+          "lane": "IV (10-12 years)",
+          "value": "N/A",
+          "cell_code": null
+        },
+        {
+          "step": "Department Chair",
+          "lane": "V (13(+) years)",
+          "value": "N/A",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Header fragment indicates continuation from previous page. Includes fixed percentage column and experience-based stipend amounts. Department Chair stipend is a flat rate.",
+      "confidence": "high",
+      "validation_warnings": [
+        "identical values across steps ['Orchestra Advisor', 'Choir Advisor'] — looks like one column copied across rows instead of each row's own data",
+        "identical values across steps ['Cheerleading Advisor', 'Computer Coordinator'] — looks like one column copied across rows instead of each row's own data",
+        "identical values across steps ['Cheerleading Assistant Advisor', 'Spirit Club Advisor', 'Student Council Advisor'] — looks like one column copied across rows instead of each row's own data",
+        "identical values across steps ['Building Advisory Coordinator', 'Yearbook Advisor'] — looks like one column copied across rows instead of each row's own data"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

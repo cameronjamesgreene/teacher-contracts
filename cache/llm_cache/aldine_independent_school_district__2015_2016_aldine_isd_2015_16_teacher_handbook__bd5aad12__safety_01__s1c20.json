@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "\"SECTION VI CLASSROOM MANAGEMENT... Aldine ISD utilizes the Positive Behavior Interventions and Support (PBIS) framework in addressing behavioral issues.\" \"Administrators have the responsibility to... Develop guidelines for student discipline... Provide appropriate support for teachers in dealing with student discipline problems sent to the office\" \"Teachers have the responsibility to... Maintain an orderly classroom atmosphere... Deal with discipline problems reasonably... Be knowledgeable about the campus discipline framework and implement the plan within classrooms, halls, cafeteria and grounds\" \"School Board Members... Approve and support the district’s Student Code of Conduct;\"",
+    "page": "188-189",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "any annual contract under which the employee is employed is subject to suspension and/or termination during its term for just cause... just cause to terminate the employee’s PSC at any time based on just cause which includes, but is not limited to, the following instances... immorality, misconduct in office, incompetency, two (2) consecutive annual performance evaluation ratings of unsatisfactory, two (2) annual performance evaluation ratings of unsatisfactory within a three-year period, three (3) consecutive annual performance evaluation ratings of needs improvement or a combination of needs improvement and unsatisfactory, gross insubordination, willful neglect of duty, or being convicted or found guilty of, or entering a plea of guilty to, regardless of adjudication of guilt, any crime involving moral turpitude.",
+    "page": "195, 196",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "receipt of the District’s written notice that the employee’s annual contract is being suspended and/or terminated and stating the reasons for such suspension and/or termination. The annual contract employee... may submit a written request for a hearing before the School Board... within fifteen (15) calendar days",
+    "page": "195",
+    "confidence": "high"
+  }
+}

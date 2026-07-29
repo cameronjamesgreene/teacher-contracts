@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The provided document text is truncated and cuts off at page 35. Based on the available text, vision/optical insurance is not mentioned. The Table of Contents indicates Section XII.I (Insurance Products) is on page 37, which likely contains this information, but it is unavailable for verification."
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "The District shall provide $20,000 life insurance coverage to eligible employees in the Teachers’ Unit to the employee with an option for employees to purchase additional life insurance.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Stage 1 answer and evidence are correct. Note: The provided document truncates at page 35, so this specific quote from page 37 could not be re-verified against the appended text, but aligns perfectly with the Table of Contents listing 'Article XII.J Life Insurance' on page 37."
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "No mention of short-term or long-term disability coverage is found in the provided text."
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The document mentions that salaries for year-round school teachers will be included in 'retirement calculations,' but no specific employer contribution amount, percentage, or pension details are stated."
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Article XI.I outlines procedures for Leave Without Pay, but the document does not state whether health or other insurance benefits continue during such paid or unpaid leave."
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "No provisions for retiree health, dental, life, or other post-employment benefits are discussed in the provided document."
+  }
+}

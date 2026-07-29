@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The District shall provide District paid coverage (less the applicable employee contribution) for bargaining unit members and eligible dependents as specified within this Article and in the FUSD Employee Health Care Plan Document.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "discussed_unclear",
+    "evidence": "The District shall provide District paid coverage (less the applicable employee contribution)",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "discussed_unclear",
+    "evidence": "less the applicable employee contribution",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "The District shall not prohibit any bargaining unit members from enrolling all eligible dependents as defined by the eligibility requirements of the FUSD Employee Health Care Plan Document.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

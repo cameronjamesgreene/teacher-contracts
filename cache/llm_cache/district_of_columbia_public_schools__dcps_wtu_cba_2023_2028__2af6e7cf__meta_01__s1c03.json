@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "The Parties to this collective bargaining agreement agree that either Party may present witness testimony using video conferencing technology at Step 2 and/or arbitration Hearing",
+    "page": "34",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / WTU members",
+    "evidence": "WTU Teachers whose performance or conduct warrants a written reprimand by his/her Supervisor",
+    "page": "36",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "The decision of the arbitrator shall be final and binding upon DCPS, WTU and all Teachers.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "A Teacher shall be permitted to obtain a copy of the material contained in her/his official personnel files pursuant to D.C. Code § 1-631.05.",
+    "page": "29",
+    "confidence": "high"
+  }
+}

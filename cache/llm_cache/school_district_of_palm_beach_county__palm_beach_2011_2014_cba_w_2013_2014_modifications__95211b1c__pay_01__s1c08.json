@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "Effective July 1, 2013, the 2012-2013 Teachers’ Salary Schedule will be substituted and replaced with a new 2013-2014 Salary Schedule as set forth in Appendix A of this Agreement.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2013-2014",
+    "evidence": "replaced with a new 2013-2014 Salary Schedule as set forth in Appendix A of this Agreement.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "employees on a step salary schedule will be eligible for a step increment at the beginning of the school year; however, the step increment will not be implemented until the value of the step has been determined through negotiations.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "previous public and/or private satisfactory teaching experience, including satisfactory teaching experience at the District Charter School, will be recognized for placement on the Teachers’ Salary Schedule upon returning from leave if his/her Charter School Leave had a duration of at least one school year.",
+    "page": "105",
+    "confidence": "medium"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "employees represented by the Association who are full-time or half-time employees of the District on the date this Agreement is adopted by the School Board who were evaluated as either “Effective” or “Highly Effective” on their 2012-2013 annual evaluations will receive a Performance Pay increase",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "Teachers must be evaluated as “Effective” or “Highly Effective” on their annual evaluations.",
+    "evidence": "evaluated as either “Effective” or “Highly Effective” on their 2012-2013 annual evaluations will receive a Performance Pay increase",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

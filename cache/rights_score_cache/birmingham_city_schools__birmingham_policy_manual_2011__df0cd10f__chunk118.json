@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "the Executive Director of Integrated Technology Programs and Services reserves the right to review all files and network communications.",
+      "subject_text": "the Executive Director of Integrated Technology Programs and Services",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "All home pages will be reviewed by the Executive Director of Integrated Technology Programs and Services before being implemented",
+      "subject_text": "All home pages",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "the Executive Director reserves the right to reject part or all of a proposed home page.",
+      "subject_text": "the Executive Director",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Students will gain access to the Internet by agreeing to conduct themselves in a considerate and responsible manner and by providing the written permission of parents.",
+      "subject_text": "Students",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Students will be allowed to conduct independent research and communicate on the Intemet upon the receipt of the appropriate permission forms.",
+      "subject_text": "Students",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

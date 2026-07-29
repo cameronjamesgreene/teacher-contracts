@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "yes",
+    "evidence": "Any employee who finds it necessary to be absent from his/her position because of illness shall notify his/her immediate supervisor before the work day begins if possible. If not possible, notification should be made as soon thereafter as possible.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Revised from 'not_discussed' to 'yes'. The document explicitly specifies absence reporting procedures in Article 8, Section A.1.b, requiring teachers to notify their immediate supervisor before the work day begins."
+  }
+}

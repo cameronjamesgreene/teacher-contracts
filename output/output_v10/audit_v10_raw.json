@@ -1,0 +1,1704 @@
+{
+ "llm": {
+  "san_bernardino_city_unified_school_district": {
+   "district": "San Bernardino City Unified School District",
+   "items": [
+    {
+     "qid": "meta_document_scope_004",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Pg1 header 'TENTATIVE AGREEMENT'; evidence quote appears verbatim. 'tentative' well-supported."
+    },
+    {
+     "qid": "pay_extra_duty_schedule_008",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Pg1 Sec2 refs Appendix C; pg5 'APPENDIX C - EXTRA-DUTY PAY SCHEDULE' full rate tables. Evidence genuine."
+    },
+    {
+     "qid": "meta_cites_state_law_006",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "'2016-2017 State Budget Act' + 'AB 86 Consortium' appear on pg7 (cited pg3, off). AB86=CA statute. Answer yes valid."
+    },
+    {
+     "qid": "class_size_limits_001",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Pg7 item2 'Class Size' matches evidence verbatim; review procedure/goal to explore HS pupil-teacher cap. Correct."
+    },
+    {
+     "qid": "pay_performance_pay_007",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "PARTIAL",
+     "note": "No merit pay (std step/column schedule), but Appendix B Sec3 (pg3-4) ties step/column increases to eval ratings; related eval-linked-pay overlooked."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 1
+  },
+  "dekalb_county_school_district": {
+   "district": "DeKalb County School District",
+   "items": [
+    {
+     "qid": "security_certification_011",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Evidence verbatim lines 761-762 under CERTIFICATION (printed p.17-18); renewal/endorsement requirements also present. 'yes' supported."
+    },
+    {
+     "qid": "meta_text_usability_005",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Two-column handbook extracted cleanly (1428 readable lines); 'usable' correct."
+    },
+    {
+     "qid": "discipline_dismissal_002",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Evidence verbatim lines 381-388 under FAIR DISMISSAL ACT, printed p.9; O.C.G.A. 20-2-940 cited. 'yes' correct."
+    },
+    {
+     "qid": "pay_performance_pay_007",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Evidence verbatim lines 934-940; step increases gated by satisfactory/unsatisfactory eval. Real quote; good catch of Stage-1 not_discussed miss."
+    },
+    {
+     "qid": "pay_salary_schedule_002",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "SALARY SCHEDULE section (l.1037-42) only refers schedule to Comp/Class Unit; no table, no coverage year stated. not_discussed correct, not a false neg."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 5,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "winstonsalem_forsyth_county_schools": {
+   "district": "Winston\u2013Salem_Forsyth County Schools",
+   "items": [
+    {
+     "qid": "security_probation_length_009",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "INCORRECT",
+     "note": "Fabricated evidence: source (p.4) says 'contract for a fixed term or...career status', NO 'four years' or any period length appears anywhere. Answer '4 years' unsupported."
+    },
+    {
+     "qid": "evaluation_procedure_001",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "CORRECT",
+     "note": "p.20 describes annual evaluation, PDP, 'you and your evaluator will cooperatively select...assessment strategies and target dates.' Evidence lightly paraphrased but genuinely present."
+    },
+    {
+     "qid": "conduct_ethics_002",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "CORRECT",
+     "note": "Confirmed 'Excerpts from Policy 4116.10: Standards of Professional Conduct' (p.33) + Code of Ethics for N.C. Educators (p.35)."
+    },
+    {
+     "qid": "safety_assault_protection_002",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "CORRECT",
+     "note": "Verbatim p.9: 'If you are injured in an episode of violence, you may be paid your full salary during the period of disability for up to one year' (AR 4116.1)."
+    },
+    {
+     "qid": "pay_salary_schedule_001",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "CORRECT",
+     "note": "No actual salary schedule/scale grid in doc; only local supplements (by license rating), longevity %s, sub rates, and a LINK to state schedule. 'not_discussed' accurate, not a false negative."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 1,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "sacramento_city_unified_school_district": {
+   "district": "Sacramento City Unified School District",
+   "items": [
+    {
+     "qid": "security_voluntary_transfer_004",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "PARTIAL",
+     "note": "8.2.2/8.2.4/8.2.6/8.5.1 all verified verbatim; procedures right. But answer's '(Aug 15-Sep 30) year-round for non-classroom teachers' garbles a struck restriction that barred classroom-teacher transfers in that window."
+    },
+    {
+     "qid": "meta_federal_law_citations_009",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "IDEA [CFR 300.321] verbatim at 17.6.2.3; 'federal and state requirements' at 17.11.1; 'state and federal law' at 17.6.1. IDEA/34 CFR is a genuine federal citation."
+    },
+    {
+     "qid": "class_overage_remedy_004",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "$90/day overage remedy confirmed verbatim in 17.1.6 (elementary) and 17.4.1 (secondary). Answer 'yes' correct."
+    },
+    {
+     "qid": "pay_cost_of_living_007",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "12.2.1 verbatim: 6.0% eff 7/1/2023, 2.0% eff 7/1/2024; savings note 4%->6% present. Covers all SCTA salary schedules."
+    },
+    {
+     "qid": "pay_performance_pay_006",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "True negative. Comp is step-and-column + degree/credential/extra-duty stipends only; 12.11.1 bars differentials except as provided. 'evaluation' keyword (12.8.5.e) is a teacher-in-charge duty, not merit pay."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 0,
+    "PARTIAL": 1,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "manchester_school_district": {
+   "district": "Manchester School District",
+   "items": [
+    {
+     "qid": "security_voluntary_transfer_004",
+     "doc": "manchester_school_district",
+     "status": "CORRECT",
+     "note": "Art. Fourteen F (p.22-23, lines 1288-1296) matches verbatim: Mar 1 change-of-school; 11+ yrs -> May 4 transfer, Supt grants 10 by seniority."
+    },
+    {
+     "qid": "workload_lunch_duty_free_006",
+     "doc": "manchester_school_district",
+     "status": "PARTIAL",
+     "note": "Answer 'yes' is right (line 1100-1101: duty-free lunch guaranteed), but cited evidence (line 404 lunch-room duty assignment) does not support it; wrong evidence."
+    },
+    {
+     "qid": "pay_experience_credit_indistrict_013",
+     "doc": "manchester_school_district",
+     "status": "PARTIAL",
+     "note": "'discussed_unclear' defensible, but evidence (A.2, line 748) is about OUTSIDE experience; in-district passage is B.1 (line 792-794, Manchester returning teachers), missed. Note mischaracterizes."
+    },
+    {
+     "qid": "pay_hardtostaff_other_011",
+     "doc": "manchester_school_district",
+     "status": "PARTIAL",
+     "note": "Appendix B (lines 2263-2268) verbatim. 'yes' defensible via Title I/ELL Coordinator, but list mostly role/supervisory stipends (Mentors,BLIC,TAP,Reading,PE), not high-need differentials. Overstated."
+    },
+    {
+     "qid": "pay_performance_pay_006",
+     "doc": "manchester_school_district",
+     "status": "CORRECT",
+     "note": "Verified not a false negative: 'bonus' = sick-leave/hiring bonus; 'merit'='meritorious' grievance; pure step/lane schedule, no performance/merit/eval-based pay. not_discussed correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 2,
+    "INCORRECT": 0,
+    "PARTIAL": 3,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "fort_bend_independent_school_district": {
+   "district": "Fort Bend Independent School District",
+   "items": [
+    {
+     "qid": "benefits_health_employee_premium_003",
+     "doc": "fort_bend_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Quote verbatim (COBRA sec, p47-48). But 'full monthly premium plus 2%' is the COBRA continuation cost for those losing eligibility, not an active-employee premium/contribution; no active premium amount is stated."
+    },
+    {
+     "qid": "security_probation_001",
+     "doc": "fort_bend_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim match p11: defines probationary (1-yr, 3-yr/optional 4th), term, and continuing contracts per SBEC/TEC."
+    },
+    {
+     "qid": "security_rif_006",
+     "doc": "fort_bend_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim match p13 under Reassignments/Transfers/RIF: financial exigency or program change, Board determines, Policy DFF (LEGAL)."
+    },
+    {
+     "qid": "meta_text_usability_005",
+     "doc": "fort_bend_independent_school_district",
+     "status": "CORRECT",
+     "note": "pdftotext extracted 2567 clean, well-spaced lines; fully readable. Usable is correct."
+    },
+    {
+     "qid": "pay_performance_pay_006",
+     "doc": "fort_bend_independent_school_district",
+     "status": "CORRECT",
+     "note": "Not a false negative. Pay increases explicitly 'based on creditable years of service' (step system); evaluation decoupled from pay; no merit/performance/bonus comp."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 0,
+    "PARTIAL": 1,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "katy_independent_school_district": {
+   "district": "Katy Independent School District",
+   "items": [
+    {
+     "qid": "meta_document_scope_004",
+     "doc": "katy_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Quote real (ln1017) but is grievance-policy DGBA clause ('This policy...'), not a document-scope statement. Doc is titled Employee Handbook (advisory fair); only 'Disclaimer' (pg63) is re computer system. Evidence misapplied."
+    },
+    {
+     "qid": "benefits_health_001",
+     "doc": "katy_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verified: 'part-time employees paying into TRS eligible for Katy ISD subsidized medical' (ln1469), 'TRS-Care, the medical insurance plan' (ln1552); 'offers medical coverage to all eligible employees' (ln1789)."
+    },
+    {
+     "qid": "benefits_retiree_012",
+     "doc": "katy_independent_school_district",
+     "status": "CORRECT",
+     "note": "Both quotes verified: TRS-Care .65% deduction (ln2514-16) and retiree unused-leave reimbursement 'retire under TRS within 90 days...' (ln2473-74). TRS-Care=retiree medical; post-employ benefits present."
+    },
+    {
+     "qid": "safety_assault_protection_002",
+     "doc": "katy_independent_school_district",
+     "status": "CORRECT",
+     "note": "Assault Leave section verbatim (ln1859-62): assaulted employee 'entitled to number of days of leave necessary to recuperate from all physical injuries.' Answer yes correct."
+    },
+    {
+     "qid": "pay_salary_schedule_002",
+     "doc": "katy_independent_school_district",
+     "status": "CORRECT",
+     "note": "Doc says Board 'shall establish a salary schedule...on an annual basis' (ln1416) but no schedule grid and no stated year coverage. 2014-15 is handbook year not schedule range. not_discussed apt, no FN."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 0,
+    "PARTIAL": 1,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "conroe_independent_school_district": {
+   "district": "Conroe Independent School District",
+   "items": [
+    {
+     "qid": "meta_document_scope_004",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim at line 243: 'neither a contract nor a substitute for the official District policy manual...' Correctly advisory/not-a-contract."
+    },
+    {
+     "qid": "conduct_political_activity_010",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "Std 2.4 quote verbatim (line 1568); answer 'yes' correct. Stronger passage exists: Policy DGA 'Associations and Political Activities' p44."
+    },
+    {
+     "qid": "safety_emergency_closure_005",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "'Emergency School Closing' section verbatim (lines 2896-97): severe weather/epidemics/emergency; Superintendent decides. Supports yes."
+    },
+    {
+     "qid": "security_probation_length_009",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim lines 357-361: 1yr if 5 of 8 prior yrs teaching; else 3yrs (three 1-yr contracts) + optional 4th. Accurate."
+    },
+    {
+     "qid": "pay_salary_schedule_002",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "Handbook references 'minimum state salary schedule'/'extra-duty pay schedule' only; no actual schedule table or year coverage. not_discussed valid, not a false neg."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 5,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "school_district_of_lee_county": {
+   "district": "School District of Lee County",
+   "items": [
+    {
+     "qid": "security_certification_011",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "Verbatim at p24: 9.05(c) 'Applicants must comply with District certification requirements...' + (f) ESOL endorsement/K-12 cert; also 1.02 CERTIFICATION. Cert/endorsement clearly present."
+    },
+    {
+     "qid": "conduct_academic_freedom_007",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "Article 12.02 ACADEMIC: 'teachers shall have academic freedom within the outlines of course content and the curriculum' verbatim, p48. Evidence genuine."
+    },
+    {
+     "qid": "conduct_political_activity_010",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "Article 12.01 PERSONAL protects teacher's citizenship right to political preference off-premises; quote verbatim at p48. Correct."
+    },
+    {
+     "qid": "pay_hardtostaff_other_011",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "ESOL Contact Person stipend ($600-$1,000 by student count) verbatim in supp. schedule p68; ESOL is high-need. Also 15.06 Critical Shortage/Alt School bonuses, 15.08 reading incentive."
+    },
+    {
+     "qid": "pay_performance_pay_006",
+     "doc": "school_district_of_lee_county",
+     "status": "PARTIAL",
+     "note": "Coded not_discussed, but 15.06 names 'Advanced Placement Test' bonus (performance/outcome-based legislative bonus). Thin reference, no merit scheme, but topic surfaces; mild false negative."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 0,
+    "PARTIAL": 1,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 1
+  },
+  "providence_public_school_district": {
+   "district": "Providence Public School District",
+   "items": [
+    {
+     "qid": "pd_career_ladder_003",
+     "doc": "providence_public_school_district",
+     "status": "PARTIAL",
+     "note": "Evidence quote appears in TOC, but A-2 'Professional Advancement Schedule' is actually degree-lane pay supplements (BA+30/MA/MA+30/Doc) + NBC stipend, not a career ladder or differentiated roles. Overstated."
+    },
+    {
+     "qid": "workload_lunch_duty_free_006",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim at 8-2.2 (line 845): 30-min lunch free of supervisory/admin duties. Answer right; page cite '1' is off (actually Article 8) but evidence supports."
+    },
+    {
+     "qid": "leave_bereavement_days_007",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Sec 5-3 (lines 466-472) matches 5/3/1 tiers verbatim (immediate/in-laws/extended relatives). Page cite correct."
+    },
+    {
+     "qid": "meta_text_usability_005",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Clean extraction (3761 lines); opening AGREEMENT quote verbatim at lines 3-6. Usable confirmed."
+    },
+    {
+     "qid": "pay_prior_experience_005",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Not a false negative. No general prior-teaching-experience salary-placement clause; only narrow athletic-director coaching credit (line 3137) + leave->increment service credit (5-5). not_discussed correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 0,
+    "PARTIAL": 1,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "san_antonio_independent_school_district": {
+   "district": "San Antonio Independent School District",
+   "items": [
+    {
+     "qid": "evaluation_observation_duration_004",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim at DNA(LEGAL) CLASSROOM OBSERVATION: 'minimum of 45 min-utes'. Answer 45 correct."
+    },
+    {
+     "qid": "conduct_outside_employment_001",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Full quote confirmed at DBF NONSCHOOL EMPLOYMENT (LOCAL); primary employment + no private tutoring of own students. yes correct."
+    },
+    {
+     "qid": "safety_emergency_closure_005",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Quote confirmed at DK ASSIGNMENT AND SCHEDULES (LOCAL): emergency/schools must close, Superintendent may modify provisions."
+    },
+    {
+     "qid": "workload_prep_protected_005",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Confirmed in WORK LOAD DL(LEGAL) planning/prep: 'a teacher may not be required to participate in any other activity.' Restricts planning time."
+    },
+    {
+     "qid": "pay_salary_schedule_002",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "not_discussed correct, not a false neg: policy-only doc (DEA) references minimum salary schedule framework; no actual schedule grid or coverage year present."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 5,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "milwaukee_public_schools": {
+   "district": "Milwaukee Public Schools",
+   "items": [
+    {
+     "qid": "pay_salary_schedule_001",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "Appendix A real salary grid (Steps 1-16 x BA/BA+16/MA/MA+16/MA+32/Non-degree), ~p.171; evidence quote appears verbatim."
+    },
+    {
+     "qid": "workload_prep_guarantee_003",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "Verbatim at lines 4084-85 (p.84): 10 min individual preparation + 10 min common planning time guaranteed."
+    },
+    {
+     "qid": "meta_cites_federal_law_008",
+     "doc": "milwaukee_public_schools",
+     "status": "PARTIAL",
+     "note": "Quoted sentence genuine (p.10) & cites federal regs, but 'quote all' incomplete: misses FMLA (l.7665), COBRA, 'federal/state constitutions, statutes' (l.6700), IRS/social security (l.3457)."
+    },
+    {
+     "qid": "benefits_dental_006",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "Dental clearly available; 93.9%/97.4% indemnity (l.2454-55) and 95% prepaid (l.2493-94) quotes match, p.45."
+    },
+    {
+     "qid": "pay_performance_pay_006",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "True negative: 'incentive pay/days' are attendance-based (low sick-leave usage), not merit/performance/evaluation comp; step-and-lane schedule only."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 0,
+    "PARTIAL": 1,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "houston_independent_school_district": {
+   "district": "Houston Independent School District",
+   "items": [
+    {
+     "qid": "evaluation_observation_duration_004",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim at line 7023: 'At least one classroom observation of a minimum of 45 minutes.' Answer 45 correct."
+    },
+    {
+     "qid": "discipline_just_cause_001",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim lines 1495-96: discharged for good cause per Sec 21.156 Educ Code. Good-cause dismissal pervasive. Answer yes correct."
+    },
+    {
+     "qid": "workload_nonteaching_duties_009",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim lines 6466-69: duty-free-lunch exception requiring teacher to supervise students during lunch. Non-teaching duty present. Yes correct."
+    },
+    {
+     "qid": "meta_doc_type_001",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim line 186: 'electronic representation of TASB's record of the district's currently adopted policy manual.' Policy manual correct."
+    },
+    {
+     "qid": "pay_salary_schedule_002",
+     "doc": "houston_independent_school_district",
+     "status": "INCORRECT",
+     "note": "FALSE NEGATIVE: coded not_discussed but Appendix A-1..A-5 (lines 16273-16439) are explicit 'Teacher Salary Schedule - 2005-2006' step grids. Year=2005-2006."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 1,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 1
+  },
+  "jackson_public_schools": {
+   "district": "Jackson Public Schools",
+   "items": [
+    {
+     "qid": "leave_personal_restrictions_005",
+     "doc": "jackson_public_schools",
+     "status": "CORRECT",
+     "note": "All 3 evidence quotes verbatim in GADM (lines 13356/13443/13359): commence at close of school year, full year + 1yr extension, written request by June 1, 1% cap. Accurate."
+    },
+    {
+     "qid": "pay_salary_schedule_001",
+     "doc": "jackson_public_schools",
+     "status": "PARTIAL",
+     "note": "Evidence real (GADA lines 12661-65) but it is a policy that board 'shall adopt a schedule', not an actual schedule. No grid/steps/amounts/years anywhere. 'yes' overstates."
+    },
+    {
+     "qid": "workload_work_year_days_001",
+     "doc": "jackson_public_schools",
+     "status": "CORRECT",
+     "note": "'minimum of 180 teaching days' (line 533) and two-60%-days-with-staff-development clause (line 566) verified verbatim. Answer accurate."
+    },
+    {
+     "qid": "class_secondary_max_003",
+     "doc": "jackson_public_schools",
+     "status": "CORRECT",
+     "note": "'30 self contained / 33 departmentalized grades 5-8' verified (line 859-860); correctly flagged extended-year-only. General class-size policy just cites state statute; no HS number. Accurate."
+    },
+    {
+     "qid": "pay_salary_schedule_002",
+     "doc": "jackson_public_schools",
+     "status": "CORRECT",
+     "note": "No actual salary schedule with year coverage exists in doc (only policy reference). 'not_discussed' correct; NOT a false negative."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "INCORRECT": 0,
+    "PARTIAL": 1,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  },
+  "dallas_independent_school_district": {
+   "district": "Dallas Independent School District",
+   "items": [
+    {
+     "qid": "leave_bereavement_relatives_008",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "Immediate-family def (lines 4534-4545) lists all coded relatives + household member; governs bereavement/'death in immediate family' leave (line 4619). Quote verbatim."
+    },
+    {
+     "qid": "conduct_drug_alcohol_003",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "Drug testing + alcohol-use rules verbatim at lines 214-224; drug-free workplace policy 8789-8810; alcohol/drug testing 9217+. 'yes' correct."
+    },
+    {
+     "qid": "leave_pregnancy_disability_010",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "Exact match lines 4011-4012: pregnancy considered temporary disability; also 158-161, 4002-4006. 'yes' correct."
+    },
+    {
+     "qid": "pay_experience_credit_outofstate_015",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "Sec VII lines 29814-29825: out-of-state exp credited full value if fully accredited by state agency. Evidence mislabels clause 'C' (source 'B') but substance verbatim."
+    },
+    {
+     "qid": "pay_cost_of_living_007",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "not_discussed correct; only conceptual 'general salary increase authorized by Board' (29655-56), no across-the-board raise amount or COLA percentage specified. Not a false negative."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 5,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "false_negatives": 0
+  }
+ },
+ "rights": {
+  "san_bernardino_city_unified_school_district": {
+   "district": "San Bernardino City Unified School District",
+   "items": [
+    {
+     "chunk": "3",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim on pg 3 (NEW APPENDIX - SLP). Passive 'shall be compensated', management acts, worker benefits, right. All features correct."
+    },
+    {
+     "chunk": "2",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim pg 2 Sec 13 B2 (truncated mid-quote); full clause '...shall be paid an hourly rate' = passive. management/worker/right all correct."
+    },
+    {
+     "chunk": "6",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim pg 7 (items 1 & 4). Active 'shall make', acting_party 'other' (joint body), obligation correct. protected_party=worker is a mild stretch (procedural) but defensible."
+    },
+    {
+     "chunk": "1",
+     "doc": "san_bernardino_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim pg 1 Sec 1. Passive 'shall be increased', management acts, worker benefits, obligation. All features correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 0,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "dekalb_county_school_district": {
+   "district": "DeKalb County School District",
+   "items": [
+    {
+     "chunk": "37",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (p region L1229). 'must be approved'=passive correct; acting/protected=management correct. statement_type 'right' defensible as mgmt approval authority."
+    },
+    {
+     "chunk": "26",
+     "doc": "dekalb_county_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (L848-53). Voice active & acting_party mgmt correct, but protected_party 'worker' wrong: beneficiaries are parents/public, not workers."
+    },
+    {
+     "chunk": "14",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (L400-01). 'are allowed to be renewed'=passive correct; permission correct; acting/protected=mgmt correct."
+    },
+    {
+     "chunk": "33",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (L1118-22). 'will be separated'=passive correct; job_security topic correct; obligation correct."
+    },
+    {
+     "chunk": "13",
+     "doc": "dekalb_county_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (L367-68). 'will be issued'=passive correct; protected_party=worker correct (employees receive card)."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "winstonsalem_forsyth_county_schools": {
+   "district": "Winston\u2013Salem_Forsyth County Schools",
+   "items": [
+    {
+     "chunk": "66",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "CORRECT",
+     "note": "Verbatim across line break (p29). Voice passive ('are indicated') correct. Informational/'other' statement; protected_party=management arbitrary but harmless given other/other coding."
+    },
+    {
+     "chunk": "19",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "CORRECT",
+     "note": "Verbatim ('...then the employee may be terminated.'); pipeline's own quote_verified=False is mistaken. Voice passive, modal may, permission, acting/protected=management all correct."
+    },
+    {
+     "chunk": "9",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "INCORRECT",
+     "note": "Quote NOT verbatim: source reads 'who teach part of a day ARE INSTRUCTIONAL PERSONNEL AND cannot take annual leave...'; middle phrase spliced out. Fabrication."
+    },
+    {
+     "chunk": "38",
+     "doc": "winstonsalem_forsyth_county_schools",
+     "status": "CORRECT",
+     "note": "Verbatim (skilled-trades apprentice section). Voice passive ('will be promoted'), protected_party=worker (beneficiary), acting=management, modal will all correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 3,
+    "INCORRECT": 1,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 1
+  },
+  "sacramento_city_unified_school_district": {
+   "district": "Sacramento City Unified School District",
+   "items": [
+    {
+     "chunk": "12",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim in \u00a78.5.3.1.c (printed pg 8). 'shall be contacted'=passive OK; HR Office=mgmt actor; surplus personnel=worker beneficiary. All features correct."
+    },
+    {
+     "chunk": "40",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "PARTIAL",
+     "note": "Core clause verbatim \u00a717.12.1 but bracketed tail '[speech improvement schools]' fabricated; actual text: 'each school site, except opportunity schools'. Coded features OK."
+    },
+    {
+     "chunk": "17",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim \u00a712.2.1.1 (printed pg 2). 'is added'=passive OK; worker (doctorate teacher)=beneficiary; empty modal correct. All features correct."
+    },
+    {
+     "chunk": "8",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim \u00a78.4.9 'Surplussing of Counselors'. 'shall be used'=passive OK. protected_party=management is off; these surplussing procedures benefit counselors (worker)."
+    },
+    {
+     "chunk": "14",
+     "doc": "sacramento_city_unified_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim \u00a78.5.4.1. voice=passive wrong: 'shall be those with the greatest seniority' is a predicate-nominative/equative construction, not passive (no verb+ed). worker beneficiary OK."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 2,
+    "INCORRECT": 0,
+    "PARTIAL": 3,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 1
+  },
+  "manchester_school_district": {
+   "district": "Manchester School District",
+   "items": [
+    {
+     "chunk": "44",
+     "doc": "manchester_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (p~44, lines 2022-2025). Passive 'must be filed by Teacher Rights Committee' correct; acting=worker (TRC files), protected=worker (grievance right), obligation. All features right."
+    },
+    {
+     "chunk": "32",
+     "doc": "manchester_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (lines 1537-38). 'may be required' passive correct; mgmt requires & benefits (verifies illness), teacher obligated to provide proof. Features right."
+    },
+    {
+     "chunk": "28",
+     "doc": "manchester_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (line 1377). Active/negation/other-actor(signature)/worker-benefit all correct, but statement_type 'prohibition' is off: declarative that signature != agreement, not a prohibition (llm_judgment 'other' fits)."
+    },
+    {
+     "chunk": "20",
+     "doc": "manchester_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 986). 'The Board shall give' active correct; acting=management, protected=worker (teacher receives decision), obligation. All features right."
+    },
+    {
+     "chunk": "34",
+     "doc": "manchester_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 1623). 'will be discarded' passive correct; actor unspecified=other, use-it-or-lose-it benefits management (limits bank), obligation/other. Features right."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "fort_bend_independent_school_district": {
+   "district": "Fort Bend Independent School District",
+   "items": [
+    {
+     "chunk": "19",
+     "doc": "fort_bend_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Quote verbatim (p13). Voice 'passive' correct ('is required...to notify'). protected_party=worker wrong: beneficiary is parents/guardians (=other), not worker."
+    },
+    {
+     "chunk": "57",
+     "doc": "fort_bend_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Quote verbatim. active/will/obligation correct. protected_party=worker wrong: District notifies parents/guardians of a student (=other), not worker."
+    },
+    {
+     "chunk": "39",
+     "doc": "fort_bend_independent_school_district",
+     "status": "CORRECT",
+     "note": "Quote verbatim (bullet under 'Reemployment is not required if'). Condition benefiting District; acting=other, protected=management, other/other all reasonable."
+    },
+    {
+     "chunk": "65",
+     "doc": "fort_bend_independent_school_district",
+     "status": "CORRECT",
+     "note": "Quote verbatim (Policy GKC). Passive ('are expected'), obligation on visitors (other actor), benefits District (management). All features correct."
+    },
+    {
+     "chunk": "48",
+     "doc": "fort_bend_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Quote verbatim (Std 3.8, TX Ethics). worker/active/shall/obligation correct. protected_party=management off: educator-student boundary benefits students (=other)."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 2,
+    "PARTIAL": 3,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "katy_independent_school_district": {
+   "district": "Katy Independent School District",
+   "items": [
+    {
+     "chunk": "54",
+     "doc": "katy_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 1822). 'must be reported'=passive correct; obligation correct. acting_party=worker & protected=management both defensible for accident-reporting duty."
+    },
+    {
+     "chunk": "33",
+     "doc": "katy_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (line 1160). Voice WRONG: 'shall be clean, neat, appropriate' is predicative adjective, not passive. (acting_party arguably worker, who must comply.)"
+    },
+    {
+     "chunk": "60",
+     "doc": "katy_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 2035). 'must be restored'=passive correct; mgmt acts, worker benefits. statement_type=right vs llm=obligation both defensible (employer duty=worker protection)."
+    },
+    {
+     "chunk": "95",
+     "doc": "katy_independent_school_district",
+     "status": "INCORRECT",
+     "note": "Quote NOT verbatim: source (line 3476) says 'check on the STUDENT'; pipeline wrote 'check on the child'. Voice/prohibition/negation features fine but quote altered."
+    },
+    {
+     "chunk": "25",
+     "doc": "katy_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 817). Active main clause 'employee receives' correct; framed as entitlement=right; worker acting & protected correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 3,
+    "PARTIAL": 1,
+    "INCORRECT": 1,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 1
+  },
+  "conroe_independent_school_district": {
+   "district": "Conroe Independent School District",
+   "items": [
+    {
+     "chunk": "78",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (p.~soiled linen/Laundry Procedures). 'are determined by' = passive, correct. Descriptive statement; statement_type/llm 'other' fit. protected_party ambiguous but non-rights clause."
+    },
+    {
+     "chunk": "24",
+     "doc": "conroe_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (Automatic Payroll Deposit). Voice passive + obligation correct, but acting_party='management' wrong: employees(worker) are the ones required to authorize (cf. identical chunk101 coded worker)."
+    },
+    {
+     "chunk": "110",
+     "doc": "conroe_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (hand sanitizer safety). Passive/modal 'should'/negation True correct, but statement_type='permission' wrong: 'should never be placed' is a prohibition (llm_judgment correctly says prohibition)."
+    },
+    {
+     "chunk": "83",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (Dissemination of Required Information). 'You may also find' = active/permission/may, acting+protected=worker all correct."
+    },
+    {
+     "chunk": "101",
+     "doc": "conroe_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (Bullying, Policy FFI). 'are required to report' = passive, acting_party worker, obligation correct. protected_party 'management' defensible (reports go to principal/District oversight)."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 3,
+    "PARTIAL": 2,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "school_district_of_lee_county": {
+   "district": "School District of Lee County",
+   "items": [
+    {
+     "chunk": "17",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "Verbatim (p13/line713-14). Passive 'shall be provided' correct; acting=worker (teacher provides), protected=management, llm=obligation all right. statement_type 'right' loose but llm captures obligation."
+    },
+    {
+     "chunk": "41",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "Verbatim (line1659-60). Passive 'shall be granted' correct; acting=management (grants), protected=management, negation True, llm=prohibition all right. statement_type 'other' acceptable catch-all."
+    },
+    {
+     "chunk": "14",
+     "doc": "school_district_of_lee_county",
+     "status": "PARTIAL",
+     "note": "Verbatim (line589-90). Voice passive, acting=mgmt, protected=worker, negation, llm=prohibition all correct. But statement_type 'permission' contradicts this prohibition (opposite polarity)."
+    },
+    {
+     "chunk": "23",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "Verbatim (line974-75). Active 'may bring' correct; acting=worker, protected=worker (teacher benefits), modal may, permission all right."
+    },
+    {
+     "chunk": "45",
+     "doc": "school_district_of_lee_county",
+     "status": "CORRECT",
+     "note": "Verbatim (line1805-06). Active 'must request' correct; acting=worker, protected=management (Board benefits from notice), modal must, obligation all right."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "providence_public_school_district": {
+   "district": "Providence Public School District",
+   "items": [
+    {
+     "chunk": "34",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 2613, \u00a714-2). Passive 'shall be given' correct; protected=worker (teachers receive notice); management gives it. right/obligation views coherent."
+    },
+    {
+     "chunk": "38",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (\u00a716-3.6, line 2769). Active correct; negation True; protected=worker (union benefits from admin not aiding rivals). permission+negation=prohibition coherent."
+    },
+    {
+     "chunk": "39",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (lines 2839-44), truncated at 'on le' but not fabricated. Active 'School Board agrees to contribute' correct; protected=worker; topic benefits correct."
+    },
+    {
+     "chunk": "17",
+     "doc": "providence_public_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 832). Active 'shall perform' correct; worker acts, management (Board) benefits from class-size monitoring; obligation/workload correct."
+    },
+    {
+     "chunk": "42",
+     "doc": "providence_public_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (lines 3078-82). Voice passive & protected=worker correct, but acting_party should be management (employer compensates), not worker \u2014 hidden agent of passive 'shall be compensated'."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "san_antonio_independent_school_district": {
+   "district": "San Antonio Independent School District",
+   "items": [
+    {
+     "chunk": "205",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 8432). Passive 'is not required', negation True, modal empty all correct. Management benefits from notice waiver; acting=management coherent. Right."
+    },
+    {
+     "chunk": "202",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 8431). Passive 'may be given', modal may, worker benefits from receiving notice. Correct mirror of chunk 205."
+    },
+    {
+     "chunk": "15",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 578). Active 'may include', modal may, descriptive eval-standard clause coded other/permission. Features fine."
+    },
+    {
+     "chunk": "100",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 4213). Active 'shall include'=obligation, modal shall. acting=other (the notice/Board) defensible. Correct."
+    },
+    {
+     "chunk": "17",
+     "doc": "san_antonio_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 682). Passive 'shall be made'=obligation, modal shall. Employer due-diligence check; features correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 5,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "milwaukee_public_schools": {
+   "district": "Milwaukee Public Schools",
+   "items": [
+    {
+     "chunk": "112",
+     "doc": "milwaukee_public_schools",
+     "status": "PARTIAL",
+     "note": "Quote verbatim (p.24/L4207). Passive & protected_party=management OK, but acting_party should be management (the principal makes assignments), not worker."
+    },
+    {
+     "chunk": "57",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "Quote verbatim (L1945-47). Board=management acting, employees=worker benefit, active voice, will/obligation all correct."
+    },
+    {
+     "chunk": "134",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "Quote verbatim (L5153-54). 'shall be made known'=passive OK; protected_party=worker(teacher) OK. right vs obligation are defensible dual views of same clause."
+    },
+    {
+     "chunk": "171",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "Quote verbatim (L6745-47). No-strike clause: acting_party=worker, protected_party=management, active voice all correct; obligation/prohibition dual view OK."
+    },
+    {
+     "chunk": "63",
+     "doc": "milwaukee_public_schools",
+     "status": "CORRECT",
+     "note": "Quote verbatim (L2186-88). 'Board shall pay'=active, management acts, worker benefits, obligation all correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "houston_independent_school_district": {
+   "district": "Houston Independent School District",
+   "items": [
+    {
+     "chunk": "126",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 4908, dispute-resolution sect). Passive + permission correct; protected_party=management (benefits from power to reject grievance) OK; acting_party 'other' defensible for unstated passive actor."
+    },
+    {
+     "chunk": "145",
+     "doc": "houston_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (line 5701). Active + acting=management OK, but protected_party should be worker/students (harassment protection benefits victims, not management); also a prohibition, not statement_type 'other'."
+    },
+    {
+     "chunk": "173",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 6875). Passive, acting=management, protected=worker all correct. statement_type 'right' slightly generous vs 'permission' since text adds notice 'is not required'."
+    },
+    {
+     "chunk": "103",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (line 4036). Active voice, acting=management (Board), protected=worker, obligation all correct."
+    },
+    {
+     "chunk": "154",
+     "doc": "houston_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim across line break (lines 6095-97). Obligation, acting=management, protected=worker correct. Voice 'passive' borderline (copular 'shall be available') but reads as elided passive."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 4,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "jackson_public_schools": {
+   "district": "Jackson Public Schools",
+   "items": [
+    {
+     "chunk": "131",
+     "doc": "jackson_public_schools",
+     "status": "CORRECT",
+     "note": "Verbatim at L6269-70 (incl. odd ',.'). Passive 'shall be placed' correct, obligation. Vendor->worker, JPSD->management defensible in binary scheme. Procurement clause."
+    },
+    {
+     "chunk": "203",
+     "doc": "jackson_public_schools",
+     "status": "PARTIAL",
+     "note": "Verbatim at L9945-46. Voice passive/actor(mgmt)/type correct, but protected_party=worker mislabels beneficiary=pupils/students. Tornado-drill clause, not labor."
+    },
+    {
+     "chunk": "31",
+     "doc": "jackson_public_schools",
+     "status": "PARTIAL",
+     "note": "Verbatim at L1767-68. Passive/actor(mgmt) ok, but beneficiary is public records requester, not 'worker'. statement_type=right vs llm=obligation (both defensible)."
+    },
+    {
+     "chunk": "171",
+     "doc": "jackson_public_schools",
+     "status": "CORRECT",
+     "note": "Verbatim at L8150-51 (incl. grammatical 'a local school events'). Passive 'shall be used', obligation; both parties=management (financial control benefits district)."
+    },
+    {
+     "chunk": "127",
+     "doc": "jackson_public_schools",
+     "status": "PARTIAL",
+     "note": "Verbatim at L6119-20. Voice=passive WRONG: 'shall not be responsible' is copular/adjective, not 'be <verb>ed'; should be active. Liability disclaimer, parties ok."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 2,
+    "PARTIAL": 3,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 0
+  },
+  "dallas_independent_school_district": {
+   "district": "Dallas Independent School District",
+   "items": [
+    {
+     "chunk": "164",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (lines 6322-23). Passive 'may not be appealed', mgmt benefits, prohibition, modal may+neg all correct. acting_party 'other' ok (unstated agent in passive)."
+    },
+    {
+     "chunk": "239",
+     "doc": "dallas_independent_school_district",
+     "status": "INCORRECT",
+     "note": "Quote NOT verbatim: silently omits 'and require testing for illegal drugs, alcohol, and/or controlled substances' after 'duty'. Stitched/elided. Features (mgmt permission, active) otherwise correct."
+    },
+    {
+     "chunk": "230",
+     "doc": "dallas_independent_school_district",
+     "status": "PARTIAL",
+     "note": "Verbatim (line 8930). statement_type 'permission' misreads epistemic 'may result in' (a disciplinary consequence) as deontic permission; llm_judgment 'other' apter. Voice active ok."
+    },
+    {
+     "chunk": "112",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (lines 4352-54). Worker acts/benefits, right, no modal, 'be entitled'=passive ok, negation False (entitlement affirmative). All correct."
+    },
+    {
+     "chunk": "92",
+     "doc": "dallas_independent_school_district",
+     "status": "CORRECT",
+     "note": "Verbatim (lines 3649-51). Passive 'shall be determined by the Superintendent', mgmt actor/beneficiary, shall obligation all correct."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 3,
+    "PARTIAL": 1,
+    "INCORRECT": 1,
+    "UNVERIFIABLE": 0
+   },
+   "quote_fabrications": 1
+  }
+ },
+ "salary": {
+  "san_bernardino_city_unified_school_district": {
+   "district": "San Bernardino City Unified School District",
+   "items": [
+    {
+     "file": "new_appendix_speech_and_language_pathologists_sala__2016_sbta_sbusd_tentative_agreement_rati.csv",
+     "source_page": "3",
+     "cells_checked": 30,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Verified pg3 NEW APPENDIX - Speech & Language Pathologists. All 10 rows (*Intern Credential + steps 1-9) with per-diem and salary match printed table exactly. manual_review flag is a false alarm: no duplicate lane, no dropped row."
+    },
+    {
+     "file": "appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati.csv",
+     "source_page": "5",
+     "cells_checked": 72,
+     "cells_wrong": 1,
+     "status": "PARTIAL",
+     "audit_note": "Verified pg5 Appendix C HIGH SCHOOL ATHLETICS. 24 rows/labels/rates correct. ONE cell wrong: Football 'Other Coaches & Assistants' play-off rate printed 340.00, extracted 285.00. Repeated Head Coach/Other rows are REAL per-sport, so dup-lane flag = false alarm."
+    },
+    {
+     "file": "appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati__p5-6.csv",
+     "source_page": "6",
+     "cells_checked": 24,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Verified pg6 OTHER HIGH SCHOOL EXTRA-DUTY ASSIGNMENTS (page_hint 5; table actually pg6). All 8 rows match incl blank play-off cells; Athletic Trainer 285.00 correct. manual_review flag = false alarm."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 2,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   }
+  },
+  "manchester_school_district": {
+   "district": "Manchester School District",
+   "items": [
+    {
+     "file": "fy_08_teacher_salary_schedule__83.csv",
+     "source_page": "PDF p42 / printed 41 (FY'08 Teacher Salary Schedule 10/1/2007)",
+     "cells_checked": 84,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "All 84 cells (14 steps x 6 lanes BA,BA+30,MA,MA+30,CAGS,DOCTORATE) match printed FY'08 table exactly, incl step13 BA+30 55,795 and step14 asterisked figures. Columns distinct, no dropped rows. Verified via text + rendered page."
+    },
+    {
+     "file": "fy_10_teacher_salary_schedule_9_1_09__83.csv",
+     "source_page": "PDF p44 / printed 43 (FY'10 Teacher Salary Schedule 9/1/09)",
+     "cells_checked": 84,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Canonical FY'10 grid. All 84 cells match printed FY'10 table (source typo '48.622' at step5 DOCTORATE correctly read as 48622). 6 distinct lanes, 14 steps. Verified via text + rendered page."
+    },
+    {
+     "file": "fy_10_teacher_salary_schedule_9_1_09__83.csv",
+     "source_page": "PDF p44 / printed 43 (FY'10 Teacher Salary Schedule 9/1/09)",
+     "cells_checked": 84,
+     "cells_wrong": 0,
+     "status": "INCORRECT",
+     "audit_note": "Duplicate of the other FY'10 item: byte-identical grid, same file, one printed schedule listed twice under 2 title variants. Values correct but grid is redundant; manual_review duplicate flag is a REAL defect. Note: FY'09 schedule (PDF p43) was missed entirely."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 2,
+    "INCORRECT": 1,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   }
+  },
+  "school_district_of_lee_county": {
+   "district": "School District of Lee County",
+   "items": [
+    {
+     "file": "2009_10_instructional_salary_schedule__102_07.csv",
+     "source_page": "printed 67 (PDF p69)",
+     "cells_checked": 60,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Real step x lane grid; all 15 steps x 4 degree lanes (60 cells) match printed 2009-10 Instructional Salary Schedule exactly. Columns distinct and correctly labeled (Bachelors/Masters/Specialist/Doctorate). manual_review duplicate-lane flag is a FALSE ALARM."
+    },
+    {
+     "file": "activities_clubs__102_07.csv",
+     "source_page": "printed 70 (PDF p72)",
+     "cells_checked": 25,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Supplement list; all 25 name->$ pairs match printed ACTIVITIES/CLUBS page exactly (Broadcast 300 ... Vocational/Tech 605). No duplicated or dropped rows; manual_review flag is a false alarm."
+    },
+    {
+     "file": "arts__102_07.csv",
+     "source_page": "printed 71 (PDF p73)",
+     "cells_checked": 26,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "All 26 rows match printed ARTS page, including faithfully-blank 'Orchestra & Strings Teacher' (no $ printed in source). Tiers correct; Choral MS has only Tier A/B as in source. No dupes; flag = false alarm."
+    },
+    {
+     "file": "athletics_high_school__102_07.csv",
+     "source_page": "printed 72 (PDF p74)",
+     "cells_checked": 28,
+     "cells_wrong": 3,
+     "status": "PARTIAL",
+     "audit_note": "25 present rows all correct, but TRUNCATED at page break (ends at Volleyball 2205). Missing Assistant Volleyball 1544, Wrestling 2205, Assistant Wrestling 1544 (continue printed p73). Real dropped-row defect; truncated duplicate of athletics__102_07.csv."
+    },
+    {
+     "file": "athletics__102_07.csv",
+     "source_page": "printed 72-73 (PDF p74-75)",
+     "cells_checked": 28,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Complete HIGH SCHOOL athletics: all 28 rows correct across printed pp.72-73 (adds Asst Volleyball 1544, Wrestling 2205, Asst Wrestling 1544). This is the full/correct copy; athletics_high_school__102_07.csv is the truncated duplicate. No wrong cells."
+    },
+    {
+     "file": "athletics__102_07__p74-75.csv",
+     "source_page": "printed 73 (PDF p75)",
+     "cells_checked": 5,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "MIDDLE SCHOOL intramural section: 5 rows all match printed p73 (Dist Intramural Dir 3300, Asst 500, Intramural Dir 2030, Asst 970, Head Coach 730). page_hint 74 ~ PDF p75. Correct."
+    },
+    {
+     "file": "special_instructional__102_07.csv",
+     "source_page": "printed 73 (PDF p75)",
+     "cells_checked": 12,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "All 12 SPECIAL INSTRUCTIONAL rows match printed p73 exactly (Agriculture 1285 ... Teacher-on-Special-Assignment 1325), incl. SLP 1575 / with-CCC 1950 sub-row. No dupes or drops; flag = false alarm."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 6,
+    "PARTIAL": 1,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+   }
+  },
+  "providence_public_school_district": {
+   "district": "Providence Public School District",
+   "items": [
+    {
+     "file": "a_1_teacher_s_basic_salary_schedule__91.csv",
+     "source_page": "65-66",
+     "cells_checked": 40,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "A-1 Basic Salary Schedule 2004/05-2006/07. All 40 cells (10 steps x 4 cols) match printed table on pp65-66. Headers incl. 1.5%/3.0% increase sub-labels match exactly. manual_review=false, correctly."
+    },
+    {
+     "file": "a_1_teacher_s_basic_salary_schedule__91__p65-68.csv",
+     "source_page": "65-66",
+     "cells_checked": 40,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Same A-1 schedule; identical 40 cells all correct. Column labels abbreviated (drop %-increase sub-line) but columns/rows distinct & accurate. Duplicate extraction of grid 1's schedule; no fabricated lanes."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 2,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   }
+  },
+  "san_antonio_independent_school_district": {
+   "district": "San Antonio Independent School District",
+   "items": [
+    {
+     "file": "support_staff_compensation__92.csv",
+     "source_page": "71 (printed 2 of 6, DEA LEGAL, dtd 10/5/2007)",
+     "cells_checked": 2,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Source p71 SUPPORT STAFF COMPENSATION: '$500 full-time, $250 part-time'. Both cells match exactly, correctly paired. Not a real step x lane schedule but a statutory min-supplement prose clause; manual_review dup/drop concern is a false alarm."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 1,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   }
+  },
+  "milwaukee_public_schools": {
+   "district": "Milwaukee Public Schools",
+   "items": [
+    {
+     "file": "january_30_2006_june_30_2006_traveling_instrumenta__48.csv",
+     "source_page": "203",
+     "cells_checked": 17,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Traveling Instrumental Music, Jan 30-Jun 30 2006 (rate per class hr). All 17 Class A-Q rates match render p203. Manual-review dup-lane flag is a false alarm; genuinely distinct period."
+    },
+    {
+     "file": "july_1_2006_january_28_2007__48.csv",
+     "source_page": "216",
+     "cells_checked": 6,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "191-Day Therapists Appendix K min/max/increment. Both rows (Jul06 41904/68487/2029; Jan07 42323/69172/2049) match render p216. Grid holds only the 2 periods printed on this page; values correct."
+    },
+    {
+     "file": "salary_schedule_for_12_month_employment_training_s__48.csv",
+     "source_page": "222",
+     "cells_checked": 74,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "12-Month Employment Training Specialists, Jan 30-Jun 30 2006. All 74 cells (16 steps x BA..MA+32, upper lanes end step 13) match render p222 exactly."
+    },
+    {
+     "file": "salary_schedule_for_10_month_employment_training_s__48.csv",
+     "source_page": "225",
+     "cells_checked": 74,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "10-Month Employment Training Specialists, Jul 1 2006-Jan 28 2007. All 74 cells match render p225 exactly. No dup-lane/dropped-row defect."
+    },
+    {
+     "file": "appendix_p_salary_schedule_for_school_nurses__48.csv",
+     "source_page": "233",
+     "cells_checked": 12,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix P School Nurses; all 4 periods min/max/increment match render p233 (34030/49807/1628 through 35147/51443/1682). 12 cells, 0 wrong."
+    },
+    {
+     "file": "salary_schedule_for_200_day_team_mentors_extra_9_d__48.csv",
+     "source_page": "237",
+     "cells_checked": 74,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix Q 200-Day Team Mentors (Extra 9 Days +5%), Jan 29-Jun 30 2007 Sem II. All 74 cells match render p237. Distinct period; no dup-lane defect."
+    },
+    {
+     "file": "salary_schedule_for_191_day_teachers_and_teacher_l__48.csv",
+     "source_page": "173",
+     "cells_checked": 86,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix A 191-Day Teachers/Librarians, Jul 1 2006-Jan 28 2007 Sem I. All 86 cells (incl Non-degree lane ending at step 12) match render p173 exactly."
+    },
+    {
+     "file": "january_29_2007_june_30_2007_traveling_instrumenta__48.csv",
+     "source_page": "204",
+     "cells_checked": 17,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Traveling Instrumental Music, Jan 29-Jun 30 2007. All 17 Class A-Q rates match render p204. Manual-review flag false alarm; distinct from the Jan 2006 grid's period."
+    },
+    {
+     "file": "salary_schedule_for_congress_207_day_teachers__48.csv",
+     "source_page": "232",
+     "cells_checked": 86,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix O Congress 207-Day Teachers, Jan 29-Jun 30 2007 (step1 BA 36857). All 86 cells match render p232. Distinct period from the other congress grid, not a duplicate."
+    },
+    {
+     "file": "salary_schedule_for_congress_207_day_teachers__48.csv",
+     "source_page": "231",
+     "cells_checked": 86,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix O Congress 207-Day Teachers, Jul 1 2006-Jan 28 2007 (step1 BA 36492). All 86 cells match render p231. Shares filename with the Jan 2007 grid but is a distinct, correct period."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 10,
+    "INCORRECT": 0,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   }
+  },
+  "houston_independent_school_district": {
+   "district": "Houston Independent School District",
+   "items": [
+    {
+     "file": "11_m_bachelors__32.csv",
+     "source_page": "411",
+     "cells_checked": 51,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "11-M Bachelors lane, Appendix A-3 p411. All 17 steps/experience/pay match printed schedule exactly. Distinct from Masters/Doctorate; manual_review duplicate-lane concern is a false alarm."
+    },
+    {
+     "file": "11_m_doctorate__32.csv",
+     "source_page": "411",
+     "cells_checked": 57,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "11-M Doctorate lane, Appendix A-3 p411. All 19 rows match printed schedule exactly. Values distinct from Bachelors/Masters; duplicate-lane flag is a false alarm."
+    },
+    {
+     "file": "11_m_masters__32.csv",
+     "source_page": "411",
+     "cells_checked": 57,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "11-M Masters lane, Appendix A-3 p411. All 19 rows (step/experience/pay) match printed schedule exactly. Distinct lane; manual_review flag = false alarm."
+    },
+    {
+     "file": "appendix_a_1_teacher_salary_schedule_2005_2006__32.csv",
+     "source_page": "409",
+     "cells_checked": 17,
+     "cells_wrong": 17,
+     "status": "INCORRECT",
+     "audit_note": "Appendix A-1 (10-Month) grid is EMPTY: steps 1-17 present but Experience blank and no Base Pay/lanes captured. Printed A-1 has 3 full lanes. Real extraction failure; also duplicated (p409 twin)."
+    },
+    {
+     "file": "appendix_a_1_teacher_salary_schedule_2005_2006__32__p409-409.csv",
+     "source_page": "409",
+     "cells_checked": 19,
+     "cells_wrong": 19,
+     "status": "INCORRECT",
+     "audit_note": "Duplicate empty A-1 grid (19 steps), page hint 409. Same failure: no experience labels, no pay values, only step numbers. Real defect\u2014A-1 extracted twice, both empty shells."
+    },
+    {
+     "file": "appendix_a_2_teacher_salary_schedule_2005_2006__32.csv",
+     "source_page": "410",
+     "cells_checked": 74,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix A-2 (10.5-Month) merged 3-lane grid, p410. Bachelors(17)/Masters(19)/Doctorate(19) all match; Bachelors blanks at steps 18-19 correct. Lanes distinct\u2014no duplicate defect."
+    },
+    {
+     "file": "appendix_a_4_teacher_salary_schedule_2005_2006__32.csv",
+     "source_page": "412",
+     "cells_checked": 51,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix A-4 = 11.5-M Bachelors lane, p412. All 17 rows match printed schedule. Distinct from Doctorate twin (item p412); no duplicate-lane defect."
+    },
+    {
+     "file": "appendix_a_4_teacher_salary_schedule_2005_2006__32__p412-412.csv",
+     "source_page": "412",
+     "cells_checked": 57,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix A-4 = 11.5-M Doctorate lane, p412. All 19 rows match printed schedule exactly. Values distinct from Bachelors twin\u2014duplicate concern is a false alarm."
+    },
+    {
+     "file": "appendix_a_5_teacher_salary_schedule_2005_2006__32.csv",
+     "source_page": "413",
+     "cells_checked": 74,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Appendix A-5 (12-Month) merged 3-lane grid, p413. Bachelors(17)/Masters(19)/Doctorate(19) all match; Bachelors 18-19 blank correct. Lanes distinct\u2014no duplicate defect."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 7,
+    "INCORRECT": 2,
+    "PARTIAL": 0,
+    "UNVERIFIABLE": 0
+   }
+  },
+  "dallas_independent_school_district": {
+   "district": "Dallas Independent School District",
+   "items": [
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/salary_schedule_support_staff__33.csv",
+     "source_page": "printed p38 (PDF p689)",
+     "cells_checked": 312,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Teacher Assistants grid. All 13 rows (TA I/II/III/IV, days 185-225) x 24 cols (steps 1-23 + Over Max) match the printed schedule exactly. Confirmed via -layout text and rendered PDF page."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/service_center__33.csv",
+     "source_page": "printed p42 (PDF p693)",
+     "cells_checked": 144,
+     "cells_wrong": 12,
+     "status": "PARTIAL",
+     "audit_note": "Service Center hourly. Grades 5,9,13,20,22 fully correct (120 cells). Grade 24 truncated: step13 mangled 18.4 (should 18.47), steps 14-23+Max dropped. Grades 26,31,33 rows entirely missing. Real defect."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/length_of_contract_226_days__33.csv",
+     "source_page": "printed p32 (PDF p683)",
+     "cells_checked": 80,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Length of Contract/226 Days. All 16 grades x MIN/1Q/MID/3Q/MAX match the rendered table exactly. cross_grid_contamination warning is a FALSE alarm (226-day col legitimately equals position-schedule MIN/MID/MAX)."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/bachelor_s_degree__33.csv",
+     "source_page": "printed p24 (PDF p675)",
+     "cells_checked": 77,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Professional Support Employees Bachelor's 185-day. All 11 steps (1-10+Over Max) x 7 day-cols (185-226) match printed table. cross_grid_contamination(p676) warning is a false alarm; correct distinct table."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/graphics__33.csv",
+     "source_page": "printed p42 (PDF p693)",
+     "cells_checked": 96,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Graphics hourly. All 4 grades (5,13,24,34 = Graphics I-IV) x 24 cols match the rendered schedule exactly. Complete and correct."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/length_of_contract_207_days__33__p683-683.csv",
+     "source_page": "printed p32 (PDF p683)",
+     "cells_checked": 80,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "Length of Contract/207 Days. All 16 grades x MIN/1Q/MID/3Q/MAX match the rendered table exactly. Correct."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/september_1_2005/salary_schedule_for_campus_leadership_central_and__33__p681-681.csv",
+     "source_page": "printed p30 (PDF p681)",
+     "cells_checked": 72,
+     "cells_wrong": 3,
+     "status": "PARTIAL",
+     "audit_note": "Central/Technical position schedule. Populated MIN/MID/MAX match source, but nested reference table: many blank (merged) rows, multi-day cells collapsed to one day; grade-8 Tech '2200' carries grade-7 value 54,600 (should 64,900). Not fabricated."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/salary_schedule_campus_leadership_central_and_tech__33.csv",
+     "source_page": "printed p32 (PDF p683)",
+     "cells_checked": 80,
+     "cells_wrong": 0,
+     "status": "CORRECT",
+     "audit_note": "manual_review grid = 226-day LoC. All 16 rows match the rendered table. Flag (cross_grid_duplicate/contamination, image-extracted) is a FALSE alarm: data is correct; it duplicates length_of_contract_226 but is accurate."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/unknown_year/salary_schedule_related_instructional_personnel_ma__33.csv",
+     "source_page": "printed p21 (PDF p672)",
+     "cells_checked": 63,
+     "cells_wrong": 0,
+     "status": "PARTIAL",
+     "audit_note": "Related Instructional Personnel Master's. Steps 1-9 x 7 day-cols all match. But step 10 and Over Max rows DROPPED (truncated) \u2014 printed schedule has 11 rows, only 9 extracted."
+    },
+    {
+     "file": "/private/tmp/claude-501/-Users-camerongreene/cfa02e69-3c9f-4248-b856-56f7fbc8225e/scratchpad/audit_v10/output/dallas_independent_school_district/salary_schedule_wide/dallas_independent_school_district/september_1_2005/salary_schedule_for_support_staff__33.csv",
+     "source_page": "printed p36 (PDF p687)",
+     "cells_checked": 60,
+     "cells_wrong": 6,
+     "status": "PARTIAL",
+     "audit_note": "Support Staff position schedule. Most populated MIN/MID/MAX match, but nested table: duplicate job-code rows (7040/7060/7110/7120/7130/7150/7210), blanks, and misassigns (grade-2 7210=11.11 should 10.57; 7240 wrong grade)."
+    }
+   ],
+   "status_counts": {
+    "CORRECT": 6,
+    "INCORRECT": 0,
+    "PARTIAL": 4,
+    "UNVERIFIABLE": 0
+   }
+  }
+ }
+}

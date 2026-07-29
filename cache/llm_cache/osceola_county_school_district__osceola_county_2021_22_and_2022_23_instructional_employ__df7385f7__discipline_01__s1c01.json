@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "All teachers shall be guaranteed due process and no disciplinary action shall be taken without just cause.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "Developing and providing inservice training for Panel members and Consulting Teachers shall be done jointly by the Association and the District",
+      "subject_text": "Developing and providing inservice training for Panel members and Consulting Teachers",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint obligation on the District and Association."
+    },
+    {
+      "quote": "The Panel, based upon extenuating circumstances, may recommend to the Board of Education through the Superintendent an extension of this period of time.",
+      "subject_text": "The Panel",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "job_security",
+      "notes": "Discretionary panel authority regarding PAR program extension."
+    },
+    {
+      "quote": "All panel proceedings and materials related to personal matters shall be confidential.",
+      "subject_text": "All panel proceedings and materials related to personal matters",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Duty of confidentiality imposed on management."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Illness in the employee's immediate family",
+    "page": "23",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "State law entitles all employees to five days of paid personal leave per year.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Discretionary leave requires 1 day advance notice and is subject to substitute availability and impact on educational program; nondiscretionary leave is granted same as state sick leave.",
+    "evidence": "An employee wishing to take discretionary personal leave must submit a request to his or her principal or supervisor 1 day in advance of the anticipated absence. The effect of the employee's absence on the educational program or department operations, as well as the availability of substitutes, will be considered by the principal or supervisor.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

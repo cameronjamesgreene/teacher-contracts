@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "Varies by FTE and site type: 3.0–48.0 minutes per day (multi-site), 3.0–30.0 minutes per day (single-site), 15.0–150.0 minutes per week.",
+    "evidence": "NON-INSTR. LUNCH ... 48.0 ... 30.0 ... 150.0",
+    "page": "216",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

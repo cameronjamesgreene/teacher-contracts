@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "The Career in Teaching Program shall be governed by the Career in Teaching Program Agreement, also referred to herein as the “plan,” which is reprinted as Appendix D.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "Teacher Advancement Program (TAP); Career in Teaching Program; TES",
+    "evidence": "Currently we have schools participating in the Teacher Advancement Program (TAP).",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "Comprehensive evaluation requires 5 observations (6 for new hires and teachers on intervention); annual assessment requires 1 observation (2 for steps 16, 21, and 26).",
+    "evidence": "have made at least five (5) observations (either individually or cumulatively) of the teacher's performance, sufficient in length to justify the conclusions; new hires and teachers on intervention must have at least six (6) observations",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "Distinguished (4), Proficient (3), Basic (2), Unsatisfactory (1)",
+    "evidence": "Teachers shall be evaluated distinguished (4), proficient (3), basic (2), or unsatisfactory (1), in each of four domains.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "incentives up to $2,000 per teacher, tied to student achievement value-added gains according to a formula designed by the Redesign Committee: incentives are tied to student achievement value-added gains as defined by the State of Ohio.",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

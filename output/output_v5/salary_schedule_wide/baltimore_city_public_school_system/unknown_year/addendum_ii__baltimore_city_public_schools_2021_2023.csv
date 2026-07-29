@@ -1,0 +1,34 @@
+# Baltimore_City_Public_Schools_2021-2023.pdf — Addendum II ()
+# population: Athletic and Co-Curricular Stipends | is_teacher_schedule: False
+"# validation_warnings: identical values across steps ['Badminton', 'Tennis', 'Director of Modern Dance'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Baseball (Varsity)', 'Football (Jr. Varsity)', 'Gymnastics', 'Lacrosse (Varsity)', 'Soccer (Varsity)', 'Softball (Varsity)', 'Swimming (Varsity)', 'Track (Varsity)', 'Volleyball (Varsity)', 'Wrestling (Varsity)', 'Custodian of Equipment', 'Basketball (Jr. Varsity)'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Baseball (Jr. Varsity)', 'Football (Jr. Varsity Asst.)', 'Lacrosse (Jr. Varsity)', 'Soccer (Jr. Varsity)', 'Softball (Jr. Varsity)', 'Swimming (Jr. Varsity)', 'Track (Jr. Varsity)', 'Volleyball (Jr. Varsity)', 'Wrestling (Jr. Varsity)'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,7/1/2020,7/1/2021,7/1/2022
+Director of Athletics,5848,5980,6115
+Co-Curricular Chairperson,3531,3610,3691
+Badminton,3541,3621,3702
+Baseball (Varsity),4024,4115,4208
+Baseball (Jr. Varsity),3702,3785,3870
+Cross Country (Varsity/Jr. Varsity),3864,3951,4040
+Football (Varsity),5293,5412,5534
+Football (Varsity Asst.),4356,4454,4554
+Football (Jr. Varsity),4024,4115,4208
+Football (Jr. Varsity Asst.),3702,3785,3870
+Gymnastics,4024,4115,4208
+Lacrosse (Varsity),4024,4115,4208
+Lacrosse (Jr. Varsity),3702,3785,3870
+Soccer (Varsity),4024,4115,4208
+Soccer (Jr. Varsity),3702,3785,3870
+Softball (Varsity),4024,4115,4208
+Softball (Jr. Varsity),3702,3785,3870
+Swimming (Varsity),4024,4115,4208
+Swimming (Jr. Varsity),3702,3785,3870
+Tennis,3541,3621,3702
+Track (Varsity),4024,4115,4208
+Track (Jr. Varsity),3702,3785,3870
+Volleyball (Varsity),4024,4115,4208
+Volleyball (Jr. Varsity),3702,3785,3870
+Wrestling (Varsity),4024,4115,4208
+Wrestling (Jr. Varsity),3702,3785,3870
+Custodian of Equipment,4024,4115,4208
+Director of Modern Dance,3541,3621,3702
+Basketball (Varsity),4506,4607,4711
+Basketball (Jr. Varsity),4024,4115,4208

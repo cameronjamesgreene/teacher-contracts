@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "instructional staff categorized as an ESE teacher under the job codes below*, will be paid their base hourly rate, exclusive of referendum, for an additional fifteen (15) hours of uninterrupted planning for each school year beginning January 2022, and continuing through the 2023-2024 school year.",
+    "page": "64",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly addresses additional planning hours/pay for ESE (special education) teachers. Note: Provided document excerpt ends at page 43; verification relies on Stage 1 quoted text."
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "Teachers working at a Tier III or Tier IV School will receive a bonus of three thousand dollars ($3,000) if they are recruited to or retained at the Tier III or Tier IV school and work there for the school year for which they were hired.",
+    "page": "63",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly states a specific monetary bonus for teachers at Tier III/IV (high-need/priority) schools. Note: Provided document excerpt ends at page 43; verification relies on Stage 1 quoted text."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "This contract is made and entered into by and between the Cincinnati Board of Education (“Board”) and the Cincinnati Federation of Teachers Local 1520 AFT, OFT, AFL–CIO (“Federation”)",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "January 1, 2007 through December 31, 2009",
+    "evidence": "shall be binding and effective from January 1, 2007 through December 31, 2009.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (including classroom, certificated night/summer, librarians, social workers, nurses, counselors, psychologists, therapists, audiologists, speech pathologists, pre-school, and daily-rate substitutes)",
+    "evidence": "all teachers in the bargaining unit, including classroom teachers, certificated night-school teachers and summer school teachers who are also day-school classroom teachers on an annual rate, librarians, school social workers, coordinating teachers, nurses, counselors, psychologists, occupational therapists, physical therapists, audiologists, speech and language pathologists, and pre-school teachers, and daily-rate substitutes",
+    "page": "1-2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "shall be binding and effective from January 1, 2007 through December 31, 2009.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "governed solely by the provisions of O.R.C. §4117",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

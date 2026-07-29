@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "there shall be no discrimination against any employee or applicant for employment by reason of race, color, national origin, creed, marital status, gender, sexual orientation, age or handicap.",
+      "subject_text": "there",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    }
+  ]
+}

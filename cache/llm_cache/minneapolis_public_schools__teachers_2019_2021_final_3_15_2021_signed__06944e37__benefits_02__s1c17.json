@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "up to $2,000 annually (match)",
+    "evidence": "Effective July 1, 2021, the District match payment will pay an annual match payment of up to $2,000 for participating employees",
+    "page": "157",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Insurance costs would be the same as if the employee was actively working for that twelve (12) week period as defined in Article 9, Group Benefits.",
+    "page": "165",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Teachers who retire and have met the age and service requirement necessary to receive an annuity from the Teachers Retirement Association (TRA) shall have the option to remain in the active employees health and dental group insurance plans.",
+    "page": "155",
+    "confidence": "high"
+  }
+}

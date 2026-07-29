@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "Each school shall be provided, on an equitable basis, a wide variety of instructional materials and resources to meet the instructional needs of students.",
+      "subject_text": "Each school",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "a pupil will be permitted to use State owned textbooks",
+      "subject_text": "a pupil",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "New texts will be assigned a penalty of 100010 of the original cost of the textbook if lost during the first year of use.",
+      "subject_text": "New texts",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Retains original OCR typo '100010' (contextually 100%)."
+    },
+    {
+      "quote": "such pupil shall not be entitled to further use of such textbooks until remittance of the amount of loss or damage shall be made.",
+      "subject_text": "such pupil",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Negated entitlement relieves pupil of immediate repayment duty; functions as a conditional restriction on textbook use."
+    },
+    {
+      "quote": "the school will make provisions to pay for the loss.",
+      "subject_text": "the school",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Conditional on documented extreme hardship."
+    }
+  ]
+}

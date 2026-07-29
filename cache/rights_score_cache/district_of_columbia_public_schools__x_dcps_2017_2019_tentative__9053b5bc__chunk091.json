@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "School Library Media Specialists shall arrange cooperative meetings and/or conferences with faculty Teachers during the employee’s workday.",
+      "subject_text": "School Library Media Specialists",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Library Media Specialists shall, in addition to the traditional functions, collaborate in the selection of all learning resources, work with teachers in the planning and/or implementation of curriculum, and offer instruction to both teachers and students in the use of library and media center resources and equipment, as well as reading, listening and viewing skills.",
+      "subject_text": "Library Media Specialists",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Supervisor and Library Media Specialist (LMS) shall meet and jointly develop annually the library media program including a flexible scheduling model based on best practices in accordance with the standards of the American Library Association.",
+      "subject_text": "The Supervisor and Library Media Specialist (LMS)",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint obligation between administration and union member"
+    },
+    {
+      "quote": "Should the Supervisor and Library Media Specialist fail to mutually agree on the library media program, the Director of Library Services shall be available upon request from the Supervisor or Library Media Specialist to assist with the design and implementation of an effective library media program in accordance with best practices and standards of the profession.",
+      "subject_text": "the Director of Library Services",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Administrative availability triggered by impasse"
+    },
+    {
+      "quote": "When funds are specifically allocated, clerical assistance shall be provided for all counselors.",
+      "subject_text": "clerical assistance",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Counselors' duties and DCPS counselor standards shall be related solely to the standards of the American School Counselors Association.",
+      "subject_text": "Counselors' duties and DCPS counselor standards",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Suitable space as permitted by the existing physical plant shall be provided for counselors to carry out their programs.",
+      "subject_text": "Suitable space",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In a building which has a suite designed for a counselor, the counselor shall be assigned to that area.",
+      "subject_text": "the counselor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In all schools, DCPS, within budget limitations, will work toward providing one counselor for every two hundred fifty (250) students or major fraction thereof.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Aspirational staffing target rather than strict guarantee"
+    }
+  ]
+}

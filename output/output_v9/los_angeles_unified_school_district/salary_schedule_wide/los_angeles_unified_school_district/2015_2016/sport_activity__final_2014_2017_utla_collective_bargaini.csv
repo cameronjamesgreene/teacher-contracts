@@ -1,0 +1,23 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — Sport/Activity (2015-2016)
+# population: Coaches and Activity Leaders | is_teacher_schedule: False
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Rate
+Academic Decathlon,7(a)
+Assistant School Athletics Coordination (Asst. Athletic Director),4
+Badminton,3
+Baseball: Head,6
+"Baseball: Assistant, J. V.",4
+Basketball: Head,6
+"Basketball: Assistant, J.V.",3
+Basketball: Men's Frosh and Soph,4(b)
+Basketball: Women's Frosh or Soph,4
+Cross Country: Head,4
+Cross Country: Assistant,3(c)
+Football: Varsity (Head),7
+Football: Varsity (Assistant 1),6
+Football: Varsity (Assistant 2),4
+Football: Varsity (Assistant 3),4
+Football: Frosh/Soph (Assistant 1),5
+Football: Frosh/Soph (Assistant 2),4
+Golf,3

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "If the voluntary transfer season is open, teachers may pursue a transfer and OHRD assists in identifying vacancies matching highly qualified requirements. Changes in grade/subject assignments are voluntary to the extent possible, with principals inviting teachers to express preferences in writing.",
+    "evidence": "If the voluntary transfer season is still open, the teacher may pursue a voluntary transfer, and the Office of Human Resources and Development will provide assistance in identifying vacancies for which the teacher would meet the highly qualified requirements.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "If the involuntary transfer window is still open in the subject area of the teacher, the teacher may request to be placed on the involuntary transfer list. If such assignment is made, it shall be made for one year at a time, and the same process must be followed if it appears unavoidable again for the subsequent year.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Texas law grants the Board of Trustees the power to govern and oversee the management of the district’s schools. The board has complete and final control over school matters within limits established by state and federal law and regulations. In certain circumstances, Texas law permits the board to go into a closed session from which the public and others are excluded. Individuals receiving retirement benefits from the Teacher Retirement System (TRS) may be employed under certain circumstances on a full or part-time basis without affecting their benefits, according to TRS rules and state law. State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contract. Employees in all other positions are employed at-will or by a contract that is not subject to the procedures for nonrenewal or termination under Chapter 21 of the Texas Education Code. Employees in professional and administrative positions that do not require SBEC certification (such as non-instructional administrators) are employed by a non-chapter 21 contract that is not subject to the provisions for nonrenewal or termination under the Texas Education Code.",
+    "evidence": "Texas law grants the Board of Trustees the power to govern and oversee the management of the district’s schools. The board has complete and final control over school matters within limits established by state and federal law and regulations. In certain circumstances, Texas law permits the board to go into a closed session from which the public and others are excluded. Individuals receiving retirement benefits from the Teacher Retirement System (TRS) may be employed under certain circumstances on a full or part-time basis without affecting their benefits, according to TRS rules and state law. State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contract. Employees in all other positions are employed at-will or by a contract that is not subject to the procedures for nonrenewal or termination under Chapter 21 of the Texas Education Code. Employees in professional and administrative positions that do not require SBEC certification (such as non-instructional administrators) are employed by a non-chapter 21 contract that is not subject to the provisions for nonrenewal or termination under the Texas Education Code.",
+    "page": "13, 17, 18",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The board has complete and final control over school matters within limits established by state and federal law and regulations.",
+    "evidence": "The board has complete and final control over school matters within limits established by state and federal law and regulations.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal law and regulations",
+    "evidence": "The board has complete and final control over school matters within limits established by state and federal law and regulations.",
+    "page": "13",
+    "confidence": "high"
+  }
+}

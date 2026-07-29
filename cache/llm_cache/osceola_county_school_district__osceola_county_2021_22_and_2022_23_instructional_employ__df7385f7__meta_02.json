@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Should impasse occur during negotiations, the impasse procedure in Chapter 447, Florida Statutes, shall apply.\nThe Board agrees to provide professional development opportunities through the Professional Development Department and operate it within the provisions of Florida Statutes.\nThe Association as bargaining agent shall be granted all rights and privileges as set forth in the Statement of Recognition by PERC and the Public Employee Relations Act, Florida Statues 447.\nThe Association will not be assessed a service charge for cost incurred by the Board in order to provide any dues deduction requested by the Association pursuant to Florida Statutes.\nNothing contained herein shall be construed to deny or restrict to any teacher rights under Florida School Laws or other applicable laws and regulations.\nAny involvement of the School Board in the private or personal life of the teacher shall remain within the scope of the Florida Statutes.\nSuch files shall be open to inspection only in accordance with Florida Statutes.",
+    "evidence": "Should impasse occur during negotiations, the impasse procedure in Chapter 447, Florida Statutes, shall apply.\nThe Board agrees to provide professional development opportunities through the Professional Development Department and operate it within the provisions of Florida Statutes.\nThe Association as bargaining agent shall be granted all rights and privileges as set forth in the Statement of Recognition by PERC and the Public Employee Relations Act, Florida Statues 447.\nThe Association will not be assessed a service charge for cost incurred by the Board in order to provide any dues deduction requested by the Association pursuant to Florida Statutes.\nNothing contained herein shall be construed to deny or restrict to any teacher rights under Florida School Laws or other applicable laws and regulations.\nAny involvement of the School Board in the private or personal life of the teacher shall remain within the scope of the Florida Statutes.\nSuch files shall be open to inspection only in accordance with Florida Statutes.",
+    "page": "7, 10, 11, 12, 13, 15",
+    "confidence": "high",
+    "coder_notes": "Updated page field to include page 13, which contains the sixth citation. All other evidence and answers are explicitly supported and accurate."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Student meetings mandated by state or federal law shall be scheduled in advance based upon the classroom teacher’s calendar at a mutually agreed upon time.",
+    "evidence": "Student meetings mandated by state or federal law shall be scheduled in advance based upon the classroom teacher’s calendar at a mutually agreed upon time.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Title IX, Educational Amendment",
+    "evidence": "Nothing in this Article shall be construed to interfere with compliance with Title IX, Educational Amendment or racial balance requirements.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

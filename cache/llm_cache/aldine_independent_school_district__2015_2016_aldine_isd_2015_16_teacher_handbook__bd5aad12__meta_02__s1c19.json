@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "- \"Absences at official attendance time that collect state ADA funding (Education Code 25.087 and 19 TAC 129.21) and are not recorded as absences:\"\n- \"to participate in an activity ordered by a court under the Texas Family Code, Chapter 262 or 263, provided that scheduling the participation outside of school hours is not practicable or\"\n- \"to attend a mental health or therapy appointment or family visitation as ordered by a court under the Texas Family Code, Chapter 262 or 263.\"\n- \"Per Senate Bill 1, Section 26.004 (Access to Student Records), a parent is entitled access to all written records of a school district concerning the parent’s child, including:\"\n- \"keeps an accurate record of all textbooks received and issued to students. (TEC 12.65b)\"\n- \"ensures that all textbooks are covered at all times. (TEC 12.65b)\"\n- \"returns textbooks at the close of school or the end of the course or at the time the pupil withdraws. (TEC 12.65b)\"\n- \"All textbooks issued to a school district by the state of Texas are the property of the state as provided by TEC 31.102 – Title and Custody.\"\n- \"Each student, or the student’s parent or guardian, is responsible for each textbook not returned by the student. A student who fails to return all textbooks forfeits the right to free textbooks until each textbook previously issued but not returned is paid for by the student, parent, or guardian. The district shall allow the student to use textbooks at school during each school day. (TEC 31.104 – Distribution and Handling).\"\n- \"Pursuant to Section 29.123 of the Texas Education Code, the State Plan forms the basis of G/T services and accountability.\"\n- \"The board of trustees of a school district or the governing body of an open-enrollment charter school has primary responsibility for ensuring that the district or school complies with all applicable requirements of state educational programs (TEC 7.028).\"\n- \"1.1C. Written policies on student identification are approved by the district board of trustees and disseminated to all parents (19 TAC 89.1).\"",
+    "evidence": "Absences at official attendance time that collect state ADA funding (Education Code 25.087 and 19 TAC 129.21) and are not recorded as absences:",
+    "page": "171, 172, 173, 174, 179",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

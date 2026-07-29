@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "2.7% effective July 1, 2013; 3.5% effective July 1, 2014 (all salary schedules)",
+    "evidence": "For 2013-2014, all salaiy schedules shall be increased by 2.7% effective July l, 2013. For 2014-2015, all salary schedules shall be increased by 3.5% effective July l, 2014.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Effective July 1, 2013, the extra pay amounts set forth on the EPES Additional Service Pay Schedule [i.e. pp. 110-119 in the 2010-2012 CBAJ shall double with the exception of elementruy athletic coaches which will triple.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "1.4.1.1 Special Education classes (including RSP), and Speech and La!lguage Therapy: $1500 per year.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "1.4.1.2 Bi-lingual classes: $500 per year.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

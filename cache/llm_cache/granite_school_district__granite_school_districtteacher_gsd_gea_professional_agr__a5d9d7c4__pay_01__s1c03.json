@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "Schedule Title: 2011-12 Teacher Salary Schedule; Covered Year: 2011-12; Covered Employee Group: Nine-Month Base Contract (Teachers); Location: Appendix A, page 46. (Quote: '2011-12 Teacher Salary Schedule / Nine-Month Base Contract (183 Days)')",
+    "page": "46",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2011-12",
+    "evidence": "The provided salary schedule is explicitly titled '2011-12 Teacher Salary Schedule'.",
+    "page": "46",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Step advancement is only referenced for specific cases rather than as a general annual rule: 'Upon return, the teacher shall be placed on the next step on the salary schedule.' (Section 18.3.3, p. 32) and 'The president shall receive normal step advancements on the salary schedule during his or her tenure as president.' (Section 28.3, p. 43). General annual step advancement eligibility and timing for regular teachers are not explained in this section.",
+    "page": "32, 43",
+    "confidence": "medium"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

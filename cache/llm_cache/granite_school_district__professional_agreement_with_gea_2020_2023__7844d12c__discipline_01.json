@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "If the teacher is found guilty or liable in such proceedings, such finding shall constitute a cause for dismissal from the school system.",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "When the District intends to terminate a teacher's contract during the contract term for unsatisfactory performance, or for cause, the teacher may request an informal conference... Termination notices will be delivered or mailed at least thirty days prior to the proposed date of termination... After receiving a termination notice, or a non-renewal notice, regular contract teachers... may file a written request... for a formal hearing... The Board will make a final disposition of the case within forty-five calendar days...",
+    "page": "36-38",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

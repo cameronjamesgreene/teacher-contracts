@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "\"The Board and the Union Association agree that teachers shall participate regularly in curriculum development, individually and in committee.\" / \"Nothing herein is intended to preclude the use of supplemental materials.\"",
+    "page": "20-21, 28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "\"Teachers shall plan for instruction and maintain lesson plans either in a written or electronic format... Administrators may require up to one week of lesson plans at a time to be submitted in advance of a lesson only under the following circumstances:\"",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "A teacher has the right to become a candidate for public office and to serve in such elective office unless there is a specific legal prohibition. Upon request, regularly appointed teachers shall be granted a leave of absence without pay in order to serve in public office.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

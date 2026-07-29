@@ -1,0 +1,45 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "APPENDIX D - GLADES SUPPLEMENT",
+      "population": "employees assigned to a Glades Area school/facility",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "Effective January 1, 2006",
+      "lane_labels": [],
+      "step_labels": [
+        "0-2",
+        "3-8",
+        "9+"
+      ],
+      "cells": [
+        {
+          "step": "0-2",
+          "lane": null,
+          "value": "3000",
+          "cell_code": null
+        },
+        {
+          "step": "3-8",
+          "lane": null,
+          "value": "4500",
+          "cell_code": null
+        },
+        {
+          "step": "9+",
+          "lane": null,
+          "value": "5500",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

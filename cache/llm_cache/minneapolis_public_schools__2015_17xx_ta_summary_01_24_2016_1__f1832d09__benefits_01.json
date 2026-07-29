@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Modify health insurance contributions as follows: ... New MOA to signify MFT commitment to support the District’s plan to become self-insured, starting as early as the 2017 plan year.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "$5,050 for Family coverage (2015-2016); increases to $5,650 (2016-2017)",
+    "evidence": "District contribution towards Family coverage remains at $5,050... The District’s contribution towards family coverage increases from $5,050 to $5,650 ($600), effective January 1, 2017.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Cap of $600 for single coverage (employee pays difference in cost above the lower cost plan)",
+    "evidence": "Permanent cap of up to $600 maximum employee contribution towards highest cost single (employee pays difference in cost above the lower cost plan). ... Employee contribution towards single unchanged.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "District contribution towards Family coverage remains at $5,050. ... The District’s contribution towards family coverage increases from $5,050 to $5,650",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Self-insured",
+    "evidence": "New MOA to signify MFT commitment to support the District’s plan to become self-insured, starting as early as the 2017 plan year.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

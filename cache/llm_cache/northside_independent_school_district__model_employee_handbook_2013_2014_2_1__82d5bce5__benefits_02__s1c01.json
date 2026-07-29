@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Other payroll deductions employees may elect include deductions for the employee’s share of premiums for health, dental, life, and vision insurance",
+    "page": "19",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Other payroll deductions employees may elect include deductions for the employee’s share of premiums for health, dental, life, and vision insurance",
+    "page": "19",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "discussed_unclear",
+    "evidence": "This plan enables eligible employees to pay certain insurance premiums on a pretax basis (i.e., disability, accidental death and dismemberment, cancer and dread disease, dental, and additional term life insurance).",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "The parties agree that a teacher educator may use reasonable force to repel a personal assault or one upon any other person. Any case of assault shall be promptly reported to the principal and by the principal to the Superintendent. The District shall provide the necessary support to a teacher educator who is subjected to or charged with an assault during the course of one's duties, providing the teacher educator was acting in a reasonable manner and the actions were justifiable under the law",
+    "page": "141",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The District shall provide reasonable support and assistance to teachers educators as described in the Student Behavior Handbook APS Handbook for Student Success so they can maintain control and discipline while engaged in their duties and responsibilities.",
+    "page": "140",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "The teacher educator may temporarily dismiss a student from class to the principal when the student's behavior is disruptive to the point of impeding learning by the other students or if the behavior is a safety concern and after efforts have been made to correct the problem in accordance with the school's disciplinary discipline practice policy.",
+    "page": "140",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "When schools are closed for snow days (or other unforeseen reasons), days are traditionally added to the end of the school year... A-Schedule employees are not required to report to campus on closure days.",
+    "page": "137",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

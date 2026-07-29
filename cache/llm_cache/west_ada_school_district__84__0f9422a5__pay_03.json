@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "New hires placement on the salary schedule will be according to the number of years of full time teaching, and credits earned after their teaching certificate.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": "Document applies a blanket rule to new hires based on years of full-time teaching without explicitly distinguishing credit rules for in-district versus out-of-district experience."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "New hires placement on the salary schedule will be according to the number of years of full time teaching, and credits earned after their teaching certificate.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": "Document applies a blanket rule to new hires based on years of full-time teaching without explicitly distinguishing credit rules for out-of-district versus in-district experience."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "New hires placement on the salary schedule will be according to the number of years of full time teaching, and credits earned after their teaching certificate.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": "Document applies a blanket rule to new hires based on years of full-time teaching without explicitly distinguishing credit rules for out-of-state versus domestic experience."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_national_board_017": {
+    "answer": "no",
+    "evidence": "The District agrees to pay up to one-half the registration fee for any certificated employee who meets the criteria outlined below and is selected to participate in the National Board Certification program.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": "Document only specifies reimbursement for up to half of the registration fee, not additional salary or stipend. Thus, no extra pay is provided."
+  }
+}

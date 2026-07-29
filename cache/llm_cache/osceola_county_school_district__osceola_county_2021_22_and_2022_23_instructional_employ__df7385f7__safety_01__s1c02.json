@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "A teacher may impose classroom discipline where necessary and may use reasonable force to protect himself or another staff member from attack or to prevent injury to a student where intervention is the prudent course of action. If physical force is utilized by a teacher for any reason, the principal should be notified within twenty-four (24) hours. If a written report is required, the teacher will be afforded the opportunity to confer with a personal representative.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The teacher shall make every effort to deter misbehavior prior to sending a student to the office... A teacher may impose classroom discipline where necessary... Students shall be disciplined according to the School Board’s Code of Student Conduct.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "...a teacher may temporarily exclude a student from class by sending the student to the principal's office when the grossness of the offense, the persistence of the misbehavior, or the disruptive effect of the behavior makes the continued presence of the student in the classroom intolerable. The teacher shall notify the principal, or his designated representative, as promptly as teacher obligations will allow the full particulars of the problem or incident in writing. The teacher shall be informed in writing of the principal's disposition no later than the time the student is returned to the classroom.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

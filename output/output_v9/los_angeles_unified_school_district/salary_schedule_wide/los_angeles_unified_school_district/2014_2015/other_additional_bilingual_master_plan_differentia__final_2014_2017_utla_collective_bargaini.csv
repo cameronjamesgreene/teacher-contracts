@@ -1,0 +1,9 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — Other Additional Bilingual Master Plan Differential Rates (only for secondary teachers with fewer than three (3) qualifying periods) (2014-2015)
+# population: Secondary teachers with fewer than three qualifying periods in Bilingual Master Plan | is_teacher_schedule: True
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped; cross_grid_contamination: a value column matches a column in a different schedule (p335) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p351) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p367) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p383) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p399) — one grid's data may be contaminated from another; verify | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,PHBAO/CAP maximum per semester
+1461,1060
+1464,530
+1465,265
+1367,133

@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "employees shall be guaranteed freedom in classroom presentation and discussions, and may introduce socially, politically, religiously, or otherwise controversial material, provided that such material is relevant to the course content appropriate to the student group",
+    "page": "30",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "no religious or political activities of any employee or the lack thereof, or personal life style (including sexual orientation) of an employee shall be grounds for any discipline or discrimination with respect to the professional employment of such employee, providing said activities do not violate any local, state or federal law.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "personal life style (including sexual orientation) of an employee shall be grounds for any discipline or discrimination with respect to the professional employment of such employee, providing said activities do not violate any local, state or federal law.",
+    "page": "30",
+    "confidence": "high"
+  }
+}

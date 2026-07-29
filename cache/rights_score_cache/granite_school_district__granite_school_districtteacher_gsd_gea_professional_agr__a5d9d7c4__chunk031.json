@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "Request for such leave must be accompanied by a statement from a regularly licensed medical doctor and/or licensed osteopathic physician that such leave is necessary.",
+      "subject_text": "Request for such leave",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Upon return from such leave, a teacher will be assigned to the same position if available, or, if not, to a substantially similar position.",
+      "subject_text": "a teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Extended sick leave with full pay up to a maximum of 180 school days for any one illness, not limited to any one contract year, will be granted teachers.",
+      "subject_text": "Extended sick leave with full pay up to a maximum of 180 school days for any one illness, not limited to any one contract year",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Special use of sick leave will be granted by the principal, with review by the appropriate Assistant Superintendent, in the event of serious illness of a member of the immediate family, or of any other person who is a member of the same household as the teacher.",
+      "subject_text": "Special use of sick leave",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Verification may be required for any family illness for which special use of sick leave is requested.",
+      "subject_text": "Verification",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "After three days of absence for family illness in any one school year, the teacher shall furnish verification of any family illness for which special use of sick leave is requested.",
+      "subject_text": "the teacher",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "After ten days of absence for family illness in any one school year, the teacher involved shall pay the cost of substitutes for any further use of sp",
+      "subject_text": "the teacher involved",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": "Truncated at end of chunk."
+    }
+  ]
+}

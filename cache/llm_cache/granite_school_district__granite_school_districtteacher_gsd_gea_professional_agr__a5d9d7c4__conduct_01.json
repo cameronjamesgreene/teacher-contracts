@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "17.1 No certificated position for credit classes in the Adult and Community Schools shall be filled by a teacher not employed by the District during the regular school term if there is a qualified applicant for such position who is employed by the District during the regular term.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Article 17 explicitly addresses and regulates outside employment in adult/community school credit classes, restricting it by prioritizing current District employees."
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "discussed_unclear",
+    "evidence": "15.1 Documentation regarding improper teacher conduct in the following areas will remain in the file: ... Conduct involving drugs or alcohol.",
+    "page": "23",
+    "confidence": "medium",
+    "coder_notes": "Updated from not_discussed. Section 15.1 mentions drug/alcohol conduct only tangentially in the context of personnel file retention, not as a comprehensive workplace policy or rule."
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

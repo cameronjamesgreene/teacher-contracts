@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "Effective July 1, 2023, the salary schedules shall be adjusted to reflect an increase of $9,000 at each step. Effective July 1, 2023, the daily and hourly rates in Appendix B shall be adjusted to reflect a ten percent (10%) increase. Effective July 1, 2024, the salary schedules and daily and hourly rates in Appendix B shall be adjusted to reflect a five percent (5%) increase, 3 percent in August 2024 and 2 percent (2%) in January 2025.",
+    "page": "42",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Hourly rates for extended hours, extra-curricular activities, coaching, home bound, driver training and other service shall be increased during this contract by the same percent as the salary increases set forth in salary schedule B.1. ... 11.8.4 Rates of Pay. See Appendix B.",
+    "page": "52",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "the District shall designate school district nurses, school social workers and special education teachers (RSP and SDC) as hard-to-fill areas of special need or significance for the 2023-2024, 2024-2025, and 2025-2026 school years. For the 2023-2024, 2024-2025, and 2025-2026 school years, the District shall offer a hard-to-fill stipend of one thousand dollars ($1,000.00) per year.",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "A teacher assigned to work at Log Cabin High School in La Honda shall be entitled to payment of a seven and one-half percent (7.5%) salary differential.",
+    "page": "51",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

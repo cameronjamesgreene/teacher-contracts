@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall be based upon the educator's continuous length of service with the District within the bargaining unit.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Positions are posted on the APS Special Education website, after which employees may apply. If multiple qualified candidates apply, preference is given to the most senior employee based on their date of hire.",
+    "evidence": "Once the position(s) for related service personnel is/are posted on the APS Special Education website, employees may apply for a voluntary transfer.",
+    "page": "63",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "The District determines affected positions and first attempts to absorb reductions through attrition and nonrenewal of short-term educators. Instructors with fewer than 3 years of service are laid off before those with 3 or more. Those with 3+ years are retained if qualified for available positions, considering affirmative action, extracurricular needs, and seniority. Recall applies within 1 year upon written request within 30 days; seniority controls recall order. Recalled staff retain prior seniority.",
+    "evidence": "In the event the District deems it necessary to initiate a reduction in the bargaining unit work force, the following conditions shall apply: 1. Layoff a. The District shall determine the number and type of positions to be affected by the RIF.",
+    "page": "71",
+    "confidence": "high"
+  }
+}

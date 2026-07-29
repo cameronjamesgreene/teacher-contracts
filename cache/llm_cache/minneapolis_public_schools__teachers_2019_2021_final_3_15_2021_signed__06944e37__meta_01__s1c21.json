@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Filename: teachers_2019-2021_final_3-15-2021_signed.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2021",
+    "evidence": "Filename: teachers_2019-2021_final_3-15-2021_signed.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff",
+    "evidence": "A shared position is a full-time position belonging to one member of the collective bargaining unit, currently on staff... Minneapolis Federation of Teachers",
+    "page": "196, 201",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The decision of the arbitrator shall be final and binding on all parties to the dispute...",
+    "page": "195",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable and clearly formatted throughout the provided pages.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "It is understood that job-share positions are covered by MN Statute §122A.41.",
+    "page": "198",
+    "confidence": "high"
+  }
+}

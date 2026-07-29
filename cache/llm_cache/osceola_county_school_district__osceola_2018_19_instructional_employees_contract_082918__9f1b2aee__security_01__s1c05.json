@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers must submit a transfer request form, a letter of intent, and a resume to the principal/supervisor to be placed on a transfer list; a vacancy must exist, and the receiving principal makes the final recommendation.",
+    "evidence": "I fully understand that a vacancy must exist and that it is my responsibility to apply specifically to the principal/supervisor by submitting a copy of this request, a letter of intent, and a resume before a principal can give me consideration. The receiving principal will make the final recommendation.",
+    "page": "117",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

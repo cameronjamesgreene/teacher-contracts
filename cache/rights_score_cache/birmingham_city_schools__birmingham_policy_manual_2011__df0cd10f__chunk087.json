@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Adequate protection and security of all school property shall be provided by the Board.",
+      "subject_text": "Adequate protection and security of all school property",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Maximum security of buildings and grounds will be maintained.",
+      "subject_text": "Maximum security of buildings and grounds",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Such security shall include the stringent control of access to school buildings, grounds and equipment, AND THE POSTING OF APPROPRIATE SIGNS TO DETERRAMAGE OR DESTRUCTION OF SCHOOLPROPERTY.",
+      "subject_text": "Such security",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Costs of repair and replacement will be assessed to those who willfully and unlawfully damage school buildings and/or equipment and to those who are negligent in maintaining the security of equipment or in reporting losses.",
+      "subject_text": "Costs of repair and replacement",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Electronic and other detection devices and security personnel may be used to prevent unlawful entry and damage to school facilities and equipment.",
+      "subject_text": "Electronic and other detection devices and security personnel",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "System-owned vehicles shall be used only for school purposes or as specified or authorized by the Board.",
+      "subject_text": "System-owned vehicles",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Employees operating motor vehicles belonging to the System are required to be qualified licensed drivers",
+      "subject_text": "Employees operating motor vehicles belonging to the System",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "are expected to operate vehicles in a careful manner with due regard for school property, private property, and the rights of others.",
+      "subject_text": "Employees operating motor vehicles belonging to the System",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

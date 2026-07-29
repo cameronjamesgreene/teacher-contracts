@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "All full-time employees who work a forty (40) hour week and fifty-two (52) weeks a year in a probationary or permanent status",
+    "page": "9",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "SENIORITY. There are two forms of seniority: system-wide seniority and building seniority. A. System-wide seniority is based upon continual length of service as a Teacher in the District of Columbia Public School System. B. Building seniority is based upon the length of uninterrupted service in a particular school or school administrative unit in a particular area of certification.",
+    "page": "6",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

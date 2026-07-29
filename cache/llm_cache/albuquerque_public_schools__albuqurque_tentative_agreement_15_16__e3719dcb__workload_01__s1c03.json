@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "required one hundred eighty-four (184) days of service",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Individual preparation time shall be considered separate and exclusive from collaboration/PLC time.",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Individual preparation time shall be considered separate and exclusive from collaboration/PLC time.",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

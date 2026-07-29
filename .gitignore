@@ -1,0 +1,5 @@
+# GitHub rejects regular Git objects larger than 100 MiB.
+/output/output_v3/Buffalo_contract_1999.pdf
+
+# Keep local credentials out of version control.
+/scripts/som_api_key.txt

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "Yes",
+    "evidence": "A teacher is considered tenured when meeting the requirements in Minnesota Statutes § 122A.41... if the teacher has also met the 120-days of teaching service requirement of the Tenure Act.",
+    "page": "212",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Seniority is defined under Article 17: Seniority.",
+    "page": "212",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers apply for vacancies through the Interview & Select (I&S) process, which involves internal posting, team interviews, and HR issuing offers. Teachers have 48 hours to accept or decline. Licensed staff may also voluntarily excess themselves during staff reductions or voluntarily demote their FTE to less than full-time.",
+    "evidence": "Teachers will have forty-eight (48) hours to accept or decline the job offer.",
+    "page": "204",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Yes",
+    "evidence": "failing to secure the required reduction... the reduction shall be accomplished by designating for reassignment the least senior teachers in the department.",
+    "page": "208",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Layoffs are triggered by discontinuance of position, lack of pupils, financial limitations, or merger, effective at year-end. Placement prioritizes discontinuing probationary/non-tenured teachers first, then the least senior teachers in the licensure area. Tenured teachers are laid off in inverse seniority order. Notice is given by July 1. Laid-off teachers have a 2-year recall right in inverse order of layoff and receive first consideration for vacancies. Exemptions exist for Montessori, Immersion, Native/Heritage language, Racially Isolated Schools, and Grow Your Own programs.",
+    "evidence": "The board may lay off... because of discontinuance of position, lack of pupils, financial limitations... Each individual teacher laid off shall receive notice of the placement no later than July 1... A teacher placed on layoff shall have rights to reinstatement for a period of two (2) years...",
+    "page": "212-213",
+    "confidence": "high"
+  }
+}

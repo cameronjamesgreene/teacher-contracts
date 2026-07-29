@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Pinellas_Agreement_-_Final_Redlined_11419(3).pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2013-2014 through 2018-2019 and beyond",
+    "evidence": "Beginning with the 2015-2016 school year... Grandfathered Salary Schedule 2018-2019",
+    "page": "76",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees/teachers (PCTA)",
+    "evidence": "bargaining representatives of the Pinellas Classroom Teachers Association",
+    "page": "76",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Pinellas_Agreement_-_Final_Redlined_11419(3).pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The hourly rate for summer school shall be the teacher’s hourly rate.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Sections 1001.54 and 1012.28, F.S.",
+    "page": "75",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "ATF and APS agree to establish Task Force on classroom workstations and safety during the 2018-2019 school year. ... Recommendations will include class size and the number of workstations per student based on safety factors for activity, fine arts, science, and career and technical education classes.",
+    "page": "124",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "During the 2020-2021 school year ATF and APS agree to establish an APS/ATF Task Force for the purpose of making recommendations on changes to Article 21, Student Discipline. ... A transition in middle and high schools from In School Suspension (ISS) programs to Student Success Centers in which there is a rotation of licensed staff trained in Restorative Justice Practices assigned to the center.",
+    "page": "129",
+    "confidence": "medium"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "ATF and APS agree to establish Task Force on classroom workstations and safety during the 2018-2019 school year. ... recommendations for classes in which the equipment or materials used present safety issues. Recommendations will include class size and the number of workstations per student based on safety factors for activity, fine arts, science, and career and technical education classes.",
+    "page": "124",
+    "confidence": "medium"
+  }
+}

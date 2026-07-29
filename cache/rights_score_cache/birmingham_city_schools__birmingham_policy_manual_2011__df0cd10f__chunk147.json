@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "Training wilI be provided for principals, teachers, other staff members and families to encourage working together as partners.",
+      "subject_text": "Training",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    }
+  ]
+}

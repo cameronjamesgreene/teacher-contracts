@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "yes",
+    "evidence": "18.2.2 A minimum of one day (24 hours) notice must be given to the principal before taking personal leave, except in cases of emergency. (See Appendix F.)\n18.3 In emergency situations, teachers will be allowed to reimburse the district the cost of the substitute... Documentation should be provided within three working days from the time the employee reports back to work.\n18.5.4 Teachers shall submit a written request stating the purpose of the leave, the length of the leave, and the beginning and termination dates.",
+    "page": "32, 33, 34",
+    "confidence": "high",
+    "coder_notes": "Corrected from not_discussed to yes. The document explicitly specifies absence reporting and substitute-request procedures, including 24-hour notice requirements for personal leave (Sec. 18.2.2), documentation requirements for emergency leave (Sec. 18.3), and written request procedures for leaves of absence (Sec. 18.5.4)."
+  }
+}

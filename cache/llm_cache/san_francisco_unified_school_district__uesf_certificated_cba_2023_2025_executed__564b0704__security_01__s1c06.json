@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Criteria include: (1) program/operational needs (cannot deny if served >3 consecutive years), (2) opportunity for evaluation in a different environment, (3) qualifications/experience/training vs. other candidates, and (4) District-wide seniority as tie-breaker. Denied teachers may request in writing and will receive written reasons for denial.",
+    "evidence": "15.3.5.1 The program and operational needs of the District. However, the District will not deny a transfer request for this reason to a teacher who has served in a program more than three (3) consecutive years. 15.3.5.2 To provide the unit member an opportunity to be evaluated in a different environment. 15.3.5.3 The qualifications, including the experience and recent training, of the teacher compared to those of other candidates for the position to be filled. 15.3.5.4 In the event that the above criteria appear equal, the transfer decision shall be based upon District-wide seniority. 15.3.6 A teacher whose voluntary transfer request has been denied may request in writing and shall receive written reasons for the denial.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "15.4.1 Involuntary transfers shall not be punitive in nature and shall be based on legitimate, educationally-related needs of the District. 15.4.2 Selection of tenure-track teachers to be consolidated shall be based on District seniority, credentials, and qualifications. 15.4.3 Teachers designated to be consolidated shall have the right to indicate preferences... In filling openings, such teachers shall be given priority over teachers seeking voluntary transfer and over new hires. 15.4.4 No teacher shall be involuntarily transferred two (2) consecutive years without the existence of special circumstances equivalent to school closure or elimination of program. 15.4.5 A teacher shall not be consolidated if there is a qualified volunteer available. 15.4.6 A teacher to be consolidated shall be given reasons in writing... Upon request, the UBC shall receive copies of this information. 15.4.7 Teachers shall be provided one (1) day released time... for preparation... 15.4.8 A teacher who is consolidated shall be given written notice (which may include e-mail) of and priority for the next open position... for a period of one year.",
+    "page": "66",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

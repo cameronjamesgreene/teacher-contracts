@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes; FUSD Employee Health Care Plan Document; bargaining unit members employed 50% or more.",
+    "evidence": "The District shall provide District paid coverage (less the applicable employee contribution) for bargaining unit members and eligible dependents as specified within this Article and in the FUSD Employee Health Care Plan Document.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "$14,674 per active benefitted employee (2014-15 onward); district contribution rate starts at ~25% (2013-14), 40% (2014-15), and 50% (2015-16 onward).",
+    "evidence": "Beginning in the 2014 15 school year the district's contribution shall be $14,674 per active benefitted employee. / Beginning in the 2013 14 school year the district's contribution to the health fund shall be one half 25% of the contribution per active benefitted employee for each $14,674 per acti•ve benefitted employee... This rate shall increase ill the 2014 15 school year to 40%, and shall increase to 50% in the 2015 16 school year",
+    "page": "17-18",
+    "confidence": "medium"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "discussed_unclear; employees are required to pay monthly contributions and assessments, at least at the employee-only level, but exact dollar amounts are not stated in this section.",
+    "evidence": "All eligible District employees shall be required to participate In the Health Benefits Plan and shall be required to pay the monthly contributions and assessments, at least at the employee only level for any plan(s) or coverages. / Specific information regarding monthly contributions, assessments, co-pays and deductibles for all plan coverages can be found in the FUSD Plan document",
+    "page": "23-24",
+    "confidence": "medium"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes; eligible dependents per FUSD Employee Health Care Plan Document, including children (governed by birth order rule) and spouses.",
+    "evidence": "The District shall not prohibit any bargaining unit members from enrolling all eligible dependents as defined by the eligibility requirements ef tl'le contracted specifications of the FUSD Employee Health Care Plan Document. / Eligibility of dependent children shall be based on birth order rule",
+    "page": "15, 22",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "discussed_unclear; specific plan types (e.g., HMO, PPO) are not described in this section.",
+    "evidence": "The District's Employee Health Care Plan Document shall be considered a part of this article. / Specific information regarding monthly contributions, assessments, co-pays and deductibles for all plan coverages can be found in the FUSD Plan document",
+    "page": "15, 24",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "The open enrollment period will also be the time in which plan coverage (Dental and Vision) may be changed.",
+    "page": "15",
+    "confidence": "high"
+  }
+}

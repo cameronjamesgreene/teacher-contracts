@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "discussed_unclear",
+    "evidence": "4.5.6 Awards: The selected sites will receive cash awards to further support work on their School Improvement Plan and to recognize teacher leadership. QPA funds shall be used as cash awards to teacher leaders and other staff who work beyond their instructional duties in designated leadership roles...",
+    "page": "39",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

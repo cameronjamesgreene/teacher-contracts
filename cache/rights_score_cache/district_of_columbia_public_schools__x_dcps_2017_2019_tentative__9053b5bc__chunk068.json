@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS shall provide professional development for all Teachers on student discipline.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    }
+  ]
+}

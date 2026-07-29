@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Textbook administration , shall be in conformity with provisions of the State Textbook Law, policies of the State Department of Education and requirements of the local Board .",
+      "subject_text": "Textbook administration",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Birmingham Board of Education, on the recommendation of the Superintendent, shall appoint a Committee to evaluate local needs and to make selections of textbooks.",
+      "subject_text": "The Birmingham Board of Education",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Textbooks shall be adopted by the Committee with the approval of the Superintendent.",
+      "subject_text": "Textbooks",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction; duty falls on management committee."
+    },
+    {
+      "quote": "Textbook allocations to local schools ahall be .. de on the basis of need and principles of equity.",
+      "subject_text": "Textbook allocations to local schools",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Illegal copies of copyrighted programs may not be made or used on school equipment.",
+      "subject_text": "Illegal copies of copyrighted programs",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Passive voice; duty falls on employees to not make or use illegal copies."
+    },
+    {
+      "quote": "The legal or insurance protection of the School System will not be extended to employees who violate copyright laws.",
+      "subject_text": "The legal or insurance protection of the School System",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Management's duty to withhold legal/insurance protection upon violation."
+    },
+    {
+      "quote": "The Superintendent is designated as the only individual who may sign license agreements for software for schools in the district.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Designates exclusive authority; contains embedded permission clause."
+    },
+    {
+      "quote": "The principal of each school site is responsible for establishing practices which will enforce this policy at the school level.",
+      "subject_text": "The principal of each school site",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "the final decision related to the suitability of materials shall rest with the Superintendent or his designee and the Board of Education.",
+      "subject_text": "the final decision related to the suitability of materials",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Assigns decision-making authority to district leadership."
+    }
+  ]
+}

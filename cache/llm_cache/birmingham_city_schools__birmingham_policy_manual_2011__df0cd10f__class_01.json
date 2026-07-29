@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "not_discussed",
+    "evidence": "pupil-subject-teacher ratio of no more than 25 students per class",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 evidence quoted is not present in the provided document. The provided text ends at Series 3000 (~page 3093), while the evidence references page 7216. Changed to not_discussed as the supporting passage is absent from the source text."
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_secondary_max_003": {
+    "answer": "not_discussed",
+    "evidence": "Credit courses during Summer school will operate under the same standards as regular year courses and with a pupil-subject-teacher ratio of no more than 25 students per class and no less than 15 students per class.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 evidence quoted is not present in the provided document. Changed to not_discussed due to absence in source."
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

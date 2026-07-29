@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "advances one (1) lane on the teacher salary schedule; eligible for a $1,000 stipend for NBPTS coach/staff developer/demonstration teacher roles",
+    "evidence": "Any Minneapolis Public School professionally licensed teacher who achieves the National Board for Professional Teacher Standards' (NBPTS) National Board Certification (NBC) will advance one (1) lane on the teacher salary schedule. ... eligible for a $1,000 stipend.",
+    "page": "122",
+    "confidence": "high"
+  }
+}

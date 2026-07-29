@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "A Teacher has the right, upon request, to have a WTU representative present during an investigatory meeting with the Administrator.",
+      "subject_text": "A Teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "If a reprimand is placed in a Teacher’s official personnel file contrary to the procedures described above, that reprimand shall be immediately removed from the Teacher’s official personnel file.",
+      "subject_text": "that reprimand",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Passive voice; implicit actor is management/district."
+    },
+    {
+      "quote": "The Supervisor shall have the discretion to determine the number of verbal and written warnings prior to issuing a written reprimand.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "In cases of egregious conduct, the Supervisor may issue a letter of reprimand without previously having issued either a verbal or written warning.",
+      "subject_text": "the Supervisor",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "A written reprimand based upon an act or omission by the Teacher shall be placed in the personnel file within a reasonable period of time following the incident, provided that the Teacher has had the opportunity to review the materials and to comment thereon.",
+      "subject_text": "A written reprimand",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "In the case of suspensions or disciplinary discharges, the official taking the action shall provide the employee with advance written notice of the charge[s], which shall include a specific statement of the evidence supporting such charge[s], no later than ten (10) school days prior to the effective date of the discipline.",
+      "subject_text": "the official taking the action",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "At the option of DCPS, an employee shall either remain on the job or in pay status for the entire ten (10) day period.",
+      "subject_text": "an employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Subject is employee, but at management's option; benefits management."
+    },
+    {
+      "quote": "Within five (5) school days of the receipt of the notice, the WTU and/or employee has the right to review all documents related to the charges, meet with representatives from the Office of the Chancellor before implementation of the proposed suspension or disciplinary discharge, and to provide a written reply along with supporting documents against the char",
+      "subject_text": "the WTU and/or employee",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "discipline",
+      "notes": "Truncated at end of chunk."
+    }
+  ]
+}

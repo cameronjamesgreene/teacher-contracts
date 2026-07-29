@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "Employees on a leave of absence will not have any greater contractual rights (e.g. evaluation, contract renewal) than employees who are not on a leave of absence.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "beginning or lower",
+    "evidence": "The teacher was rated as beginning or lower on their most recent observation or evaluation in the Standards Based Planning domain.",
+    "page": "28",
+    "confidence": "medium"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

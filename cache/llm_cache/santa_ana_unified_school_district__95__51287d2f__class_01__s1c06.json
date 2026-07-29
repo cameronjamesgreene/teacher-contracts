@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "no",
+    "evidence": "12.2.1 In those classrooms/laboratories that have a specific number of workstations, student safety shall determine the actual number of students enrolled in a class or classes.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

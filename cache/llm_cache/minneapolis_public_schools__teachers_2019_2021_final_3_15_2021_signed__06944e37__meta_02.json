@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "The term \"Teacher\" used in this Agreement shall mean all professional employees of Special School District #1 as defined by MN Statute §179A.03, Subd. 18, which states: \" ‘Teacher’ means any public employee other than a superintendent or assistant superintendent, principal, assistant principal, or a supervisory or confidential employee, employed by a school district: (1) in a position for which the person must be licensed by the Professional Educator Licensing and Standards Board (PELSB) or the commissioner of education; or (2) in a position as a physical therapist, occupational therapist, art therapist, music therapist, or audiologist”.\n\nBreach of the contract by either side may be cause for a grievance, arbitration, or a charge of unfair labor practice as appropriate to the circumstances in accordance with this Agreement, PELRA, Teacher Tenure Act provisions, as well as other applicable legal authority or precedent.\n\nThis Agreement, entered into between the Board of Education of Special School District #1, Minneapolis, Minnesota, hereinafter referred to as the Board of Education, and the Minneapolis Federation of Teachers (certified by the Director of the Bureau of Mediation Services as the exclusive representative) hereinafter referred to as the Union or Local 59, pursuant to and in compliance with the Public Employment Labor Relations Act, hereinafter referred to as the PELRA, to provide the terms and conditions of employment for teachers during the duration of this Agreement.\n\nThe site Staff Development Committee shall be, according to Minnesota statute, composed of a majority of teachers and shall facilitate the site staff development plan activities for these days.",
+    "evidence": "The term \"Teacher\" used in this Agreement shall mean all professional employees of Special School District #1 as defined by MN Statute §179A.03, Subd. 18, which states: \"‘Teacher’ means any public employee other than a superintendent or assistant superintendent, principal, assistant principal, or a supervisory or confidential employee, employed by a school district: (1) in a position for which the person must be licensed by the Professional Educator Licensing and Standards Board (PELSB) or the commissioner of education; or (2) in a position as a physical therapist, occupational therapist, art therapist, music therapist, or audiologist”.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to the complete, verbatim quote from page 10. The original evidence was truncated. The answer correctly captures all state law citations (MN Statute §179A.03, PELRA, Teacher Tenure Act, Minnesota statute) across pages 8, 10, and 12."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "credentials meet the requirements under “Elementary Secondary Act” (ESEA) and the reauthorized Individuals with Disabilities Education Improvement Act (IDEA).",
+    "evidence": "credentials meet the requirements under “Elementary Secondary Act” (ESEA) and the reauthorized Individuals with Disabilities Education Improvement Act (IDEA).",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Elementary Secondary Act (ESEA) and Individuals with Disabilities Education Improvement Act (IDEA)",
+    "evidence": "credentials meet the requirements under “Elementary Secondary Act” (ESEA) and the reauthorized Individuals with Disabilities Education Improvement Act (IDEA).",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "The teacher is knowledgeable of and delivers standards-based curriculum through the use of research-based professional practices and materials. ... Selects, adapts and individualizes materials appropriate for diverse student populations and skills. ... teaches students the required curricula using strategies that foster thinking, reasoning, and problem solving.",
+    "page": "22, 24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 provided empty evidence and page 51, which is outside the provided excerpt. The document text does not mention lesson plans or submission rules. Changed to not_discussed."
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "District-owned property and services, including the email system and school mailboxes may not be used for the following: political activities, fund-raising, campaigning for union office, strike activities, or solicitation of employees for union membership.",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 provided empty evidence. The provided document excerpt does not address protection of personal affairs or conduct during non-duty hours. Changed to not_discussed."
+  }
+}

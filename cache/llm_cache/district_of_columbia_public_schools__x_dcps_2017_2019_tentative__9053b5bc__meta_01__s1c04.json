@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Tentative Agreement",
+    "evidence": "X_DCPS_2017_-_2019_tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2017-2019",
+    "evidence": "X_DCPS_2017_-_2019_tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (WTU)",
+    "evidence": "WTU Building Representative",
+    "page": "45",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Tentative agreement",
+    "evidence": "tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Fully legible text with clear section numbering and article titles.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "DCMR, Title 5, Chapter 14",
+    "page": "44",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "Secondary/Career Centers: 45-60 minutes; Elementary/Special Ed: Minimum 45 minutes daily (or 30 minutes daily if utilizing a 225-min/week schedule)",
+    "evidence": "in no case shall a Teacher’s lunch period be less than 45 minutes or exceed 60 minutes.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "The Supervisor shall have the right to call one (1) required general faculty meeting per month.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Educational aides and school assistants, who are assigned to the school, shall be scheduled to assist teachers with cafeteria and playground duty.",
+    "page": "61",
+    "confidence": "high"
+  }
+}

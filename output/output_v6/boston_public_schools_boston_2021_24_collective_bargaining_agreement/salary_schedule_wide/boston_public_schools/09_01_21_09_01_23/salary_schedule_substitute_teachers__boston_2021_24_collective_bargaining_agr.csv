@@ -1,0 +1,19 @@
+# Boston_2021-24-Collective-Bargaining-Agreement.pdf — Salary Schedule - Substitute Teachers (09/01/21 - 09/01/23)
+# population: Substitute Teachers | is_teacher_schedule: False
+# validation_warnings: label_not_in_source: 'Per Diem Rates 6:40 - 7:09' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Per Diem Rates 7:10+' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Long Term – Over 10 days 6:40 - 7:09' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Long Term – Over 10 days 7:10+' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Long Term – Over 25 days 6:40 - 7:09' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Long Term – Over 25 days 7:10+' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Substitute Nurses 6:40 - 7:09' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Substitute Nurses 7:10+' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Cluster Subs 6:40 - 7:09' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Cluster Subs 7:10+' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed
+step,09/01/21,09/01/22,09/01/23
+Per Diem Rates 6:00 – 6:39,162.51,168.20,173.25
+Per Diem Rates 6:40 - 7:09,175.63,172.19,175.63
+Per Diem Rates 7:10+,181.09,187.43,193.06
+Long Term – Over 10 days 6:00 - 6:39,180.79,187.11,192.73
+Long Term – Over 10 days 6:40 - 7:09,193.91,200.69,206.72
+Long Term – Over 10 days 7:10+,199.37,206.34,212.53
+Long Term – Over 25 days 6:00 - 6:39,327.12,338.57,348.72
+Long Term – Over 25 days 6:40 - 7:09,340.23,352.14,362.70
+Long Term – Over 25 days 7:10+,345.70,357.80,368.53
+Substitute Nurses 6:00 - 6:39,327.12,338.57,348.72
+Substitute Nurses 6:40 - 7:09,340.23,352.14,362.70
+Substitute Nurses 7:10+,345.70,357.80,368.53
+Cluster Subs 6:00 - 6:39,197.85,204.78,210.92
+Cluster Subs 6:40 - 7:09,210.97,218.35,224.90
+Cluster Subs 7:10+,216.43,224.01,230.73

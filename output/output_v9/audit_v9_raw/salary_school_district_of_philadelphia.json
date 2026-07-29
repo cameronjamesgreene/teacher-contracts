@@ -1,0 +1,15 @@
+{
+  "doc": "school_district_of_philadelphia",
+  "grids_total": 63,
+  "grids_sampled": 23,
+  "status_counts": {
+    "CORRECT": 15,
+    "PARTIAL": 3,
+    "INCORRECT": 5,
+    "UNVERIFIABLE": 0
+  },
+  "estimated_real_schedules": 47,
+  "over_extraction": true,
+  "fabrication_class_present": true,
+  "notes": "No spurious non-salary tables; every grid maps to a real schedule, truth has 100+ blocks so 63 is a SUBSET. Duplication inflates it: unknown_year(8) dups 9_1_20, 526 empty; 2020_2024 teacher grids(3) are lane-dup fabrications (Bachelor's=copy of Master's) MISSED by audit; teachers_salary_schedule=row-dup+year-col-copy+garbled hdrs. Pay-grade/food/prof-tech match truth exactly."
+}

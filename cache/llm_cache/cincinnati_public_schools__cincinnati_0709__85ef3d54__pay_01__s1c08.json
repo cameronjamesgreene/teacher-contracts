@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2007-2008",
+    "evidence": "All salary schedules shall be increased by 1.0% effective January 1, 2007, except Schedule E. All salary schedules shall be increased by 2.0% effective January 1, 2008, except Schedule E.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "All salary schedules shall be increased by 1.0% effective January 1, 2007... Training Increments... Career Teacher Increment... Teacher Pay for NTBC/Professional Certification...",
+    "page": "67-68",
+    "confidence": "medium"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Allowance for prior teaching experience shall be made on the basis of: (1) One (1) year of credit for each year of teaching experience up to a maximum of ten (10) years of which no more than three (3) years may be substitute teaching experience.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

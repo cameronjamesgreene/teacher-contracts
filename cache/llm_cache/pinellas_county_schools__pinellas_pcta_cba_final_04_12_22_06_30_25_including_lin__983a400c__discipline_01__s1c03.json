@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Discipline of teachers, including but not necessarily limited to, dismissal, reprimand, or suspension, shall be for just cause.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The School District follows a system of progressive discipline in dealing with deficiencies in employee work performance or conduct. Progressive discipline consists of a conference summary, caution, reprimand, suspension without pay, and dismissal.",
+    "page": "45",
+    "confidence": "high"
+  }
+}

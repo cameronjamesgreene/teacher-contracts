@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Inservice training relative to (AIDS) shall becanducted for scbool system employees.",
+      "subject_text": "Inservice training relative to (AIDS)",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Typographical error 'becanducted' in source text."
+    },
+    {
+      "quote": "In addition to providing a safe environment, school personnel are expected to cooperate with the Birmingham Traffic Engineering Department ana other appropriate authorities in planning and implementing safety re9Ulations.",
+      "subject_text": "school personnel",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Typographical errors 'ana' and 're9Ulations' in source text."
+    },
+    {
+      "quote": "School personnel shall develop emergency procedures for evacuating schools in the case of fires and for providing shelter from tornadoes.",
+      "subject_text": "School personnel",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "School personnel shall encourage students to participate in school programs which promote safety attitudes and skills.",
+      "subject_text": "School personnel",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

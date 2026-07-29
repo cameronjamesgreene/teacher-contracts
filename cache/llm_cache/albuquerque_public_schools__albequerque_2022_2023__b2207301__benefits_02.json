@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "The District agrees to provide a program of life, medical, and dental insurance benefits for educators.",
+    "page": "87",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Educators on leave of absence up to one (1) year who do not receive a salary may continue any or all insurance programs by payment of their portion of the premium",
+    "page": "87",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

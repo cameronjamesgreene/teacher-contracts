@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "7.6 Regular Salary Schedule / 7.6.1a School Year 2003-2004 teachers’ and psychologists’ salary schedules shall be decreased .5% (one half percent) from the 2002-2003 salary schedule",
+    "page": "24",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2003-2004 through 2006-2007",
+    "evidence": "School Year 2003-2004... 2004-2005... 2005-2006... 2006-2007",
+    "page": "24",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Unit members become eligible for annual step movement upon having served seventy-five percent (75%) of the duty days in the school year in the regular assignment.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Each teacher shall be covered by a vision care program paid for by the Board at a maximum Board contribution of six dollars and thirty cents ($6.30) per employee per month. Each teacher will pay twenty-six cents ($.26) annually.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "A forty thousand dollar ($40,000) Group Term Life Insurance Plan shall be available... Teachers desiring to participate will contribute twenty-six cents ($.26) annually and the Board will contribute the remainder of the premiums.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "Each teacher shall be covered by a long-term disability program, provided, however, that the maximum Board contribution shall not exceed $.33 per hundred per teacher per month.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "Teacher's contribution to the Indiana State Teachers' Retirement Fund",
+    "evidence": "The Board shall continue to pay, on behalf of each teacher, the teacher's contribution to the Indiana State Teachers' Retirement Fund.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Eligibility for continuing in the insurance programs listed in this Article shall be available to those teachers who retire prior to becoming eligible to obtain coverage under Medicare, providing the applicant has had coverage in the program for five (5) consecutive years immediately prior to retirement...",
+    "page": "23",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "Placement will be based on directly related experience within the same discipline.",
+    "page": "Article 10",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "Support and Related Services personnel who leave employment in APS to work in the private sector or other district, and then return to APS will be given credit for the years in private sector work on the salary schedule.",
+    "page": "Article 10",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

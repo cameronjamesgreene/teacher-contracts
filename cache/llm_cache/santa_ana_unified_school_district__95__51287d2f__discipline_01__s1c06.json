@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "14.1 Just Cause Discipline: The District retains the sole right to discipline unit members for just cause, applying principles of due process.",
+    "page": "85",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "14.7 For purposes of this Article, discipline shall not be defined to include termination, suspension pursuant to Education Code Sections 44939 and 44940, or non-re-election pursuant to California Education Code Section 44882, nor does this Article in any way limit the District's right to initiate such procedures.",
+    "page": "85",
+    "confidence": "high"
+  }
+}

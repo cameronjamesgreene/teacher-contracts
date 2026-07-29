@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "This Agreement is made and entered into at Indianapolis, Indiana on this _____ day of __________ , 2009, by and between the Indianapolis Board of School Commissioners... and the Indianapolis Education Association",
+    "page": "36",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2007-2008 and 2009-2010 school years",
+    "evidence": "The salary scale for the 2007-2008 and 2009-2010 school years shall be as shown following paragraph 9 of this Appendix A.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers and certified staff (Indianapolis Education Association)",
+    "evidence": "The Indianapolis Education Association, affiliated with the Indiana State Teachers Association, and the National Education Association, party of the second part",
+    "page": "36",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This Agreement is made and entered into at Indianapolis, Indiana on this _____ day of __________ , 2009, by and between the Indianapolis Board of School Commissioners... and the Indianapolis Education Association",
+    "page": "36",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

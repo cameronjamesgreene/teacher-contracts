@@ -1,0 +1,23 @@
+{
+  "engine": "DeepSeek-OCR-2",
+  "engine_slug": "deepseek_ocr",
+  "engine_version": "v2",
+  "finished_at": "2026-07-12T19:02:43.650845+00:00",
+  "host": "hpc-vllm-gpu-1",
+  "method": "vlm-vision",
+  "output_chars": 3603,
+  "params": {
+    "gres": "gpu:1",
+    "image": "docker://vllm/vllm-openai:v0.23.0",
+    "in_flight": 16,
+    "max_model_len": 8192,
+    "max_tokens": 4096,
+    "model": "deepseek-ai/DeepSeek-OCR-2",
+    "note": "per-document timing not recorded; bracket spans the full run",
+    "scale": 1.5,
+    "workers": 4
+  },
+  "pdf_sha256": "11e7efa63136e8e6ffbff36b70de5fe9fd83c063f2866719331e1e8d12870d8b",
+  "schema_version": 1,
+  "started_at": "2026-07-12T18:57:27.312172+00:00"
+}

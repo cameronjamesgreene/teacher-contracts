@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Full time certified employees shall be provided a continuous thirty (30) minute duty-free lunch period daily.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Non-voluntary assignment of certified employees to paid noon duty shall be determined in a manner rotating such assignments on an equitable basis.",
+    "page": "23",
+    "confidence": "high"
+  }
+}

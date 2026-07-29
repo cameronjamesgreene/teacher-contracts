@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "The Chancellor and the WTU President shall mutually select the three (3) DC Public Schools to house the WTU “Teacher Center” model and the location of the city-wide unit.",
+      "subject_text": "The Chancellor and the WTU President",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall develop, in consultation with the WTU, an expansion plan, budget permitting.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall, in collaboration with the WTU, develop Targeted Training Programs for a subgroup of educators including WTU Teachers who will provide intensive professional development and support to all Teachers starting at the beginning of each school year and not later than the beginning of the 2010-2011 school year, on the following areas of special emphasis:",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS will consult with the WTU on the development of professional development opportunities that will be made available to teachers rated as Minimally Effective.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall provide a minimum of nine (9) non-instructional days for professional development during the 2025-2026 school year.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall continue to provide a minimum of nine (9) non-instructional days for professional development during the duration of this CBA, in a manner determined by DCPS, but in consultation with the WTU.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "Every year, DCPS shall, in consultation with the WTU, develop and implement a professional development program and calendar",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Clause is truncated at the end of the provided chunk."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "MOU",
+    "evidence": "MEMORANDUM OF UNDERSTANDING BETWEEN THE PALM BEACH COUNTY SCHOOL DISTRICT",
+    "page": "186",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2009; May 15, 2006; July 1, 2011; February 1, 2014",
+    "evidence": "I\"$. 2009,\" / \"15th day of May, 2006\" / \"Effective July 1, 2011\" / \"effective February 1 ~+h 2014\"",
+    "page": "186",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional personnel/teachers (T-bargaining unit)",
+    "evidence": "Instructional employees (hereinafter referred to as \"teachers\")",
+    "page": "186",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The above parties, by the signatures of their respective representatives below, agree this... to modify, set aside and/or replace some provisions of the Collective Bargaining Agreement",
+    "page": "186",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Fla. Stat. §1012 relating to employment contracts / Fla. Stat. §1012.335 / Florida Statute §1012.34",
+    "page": "195",
+    "confidence": "high"
+  }
+}

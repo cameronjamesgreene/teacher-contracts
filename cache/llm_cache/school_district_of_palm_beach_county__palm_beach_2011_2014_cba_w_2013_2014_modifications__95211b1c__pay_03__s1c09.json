@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "District will continue to treat teaching experience out-of-the-District the same as teaching experience in-the-District. ... verified prior years of public and/or private school successful teaching experience not to exceed 25 years ... Employees must submit verification within ninety (90) days",
+    "page": "118",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "District will continue to treat teaching experience out-of-the-District the same as teaching experience in-the-District.",
+    "page": "118",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "yes",
+    "evidence": "District will continue to treat teaching experience out-of-the-District the same as teaching experience in-the-District. ... Out-of-state experience ... Once verified, experience credit may not be revoked.",
+    "page": "118-119",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "For pay purposes, all employees shall be given credit for military service, as provided in Military Leave (Article V, Section D, 6).",
+    "page": "121",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

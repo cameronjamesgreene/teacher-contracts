@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Appendix D adopts the California Standards for the Teaching Profession, which includes: 'Standard 6: Developing as a Professional Educator... 6.7 Demonstrate professional responsibility, integrity, and ethical conduct.'",
+    "page": "160",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Academic Freedom – The District and the Union agree that academic freedom is essential to the fulfillment of the purposes of the San Francisco Unified School District, and they acknowledge that fundamental need to protect teachers from unreasonable censorship or restraint which might interfere with their obligation to pursue truth in the performance of their jobs with the District.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

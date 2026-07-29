@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Academic Freedom shall be guaranteed to teachers, and no arbitrary limitations shall be placed on study, investigation, presentation and interpretation of facts and ideas... The team shall determine instructional methods, consistent with the school's adopted program focus, if any... Teachers, teams and schools shall be entitled to choose among vendors selected by the board for purchase of supplies, instructional materials...",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Teachers shall be required to show evidence of daily preparation for instruction including lesson plans in a format determined by the ILT... Career and lead teachers shall not be required to submit lesson plans to the principal or designee except during a classroom visit or on an individual basis... Each teacher shall provide emergency lesson plans for inclusion in substitute folders.",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "A teacher has the right to become a candidate for public office and to serve in such elective office unless there is a specific legal prohibition. Upon application, leave of absence without pay in order to run for or serve in public office shall be granted.",
+    "page": "35",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "A teacher's personal life shall not adversely affect his/her employment status unless his/her teaching effectiveness is clearly impaired thereby.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Pinellas_PCTA_CBA_Final_04_12_22-06_30_25_including_links_920344.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "DU",
+    "evidence": "Pinellas_PCTA_CBA_Final_04_12_22-06_30_25_including_links_920344.pdf",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff (PCTA)",
+    "evidence": "Faculty members may hold Union meetings, on prior notification to the principal, which are closed to non-members",
+    "page": "17",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "consistent with this Agreement and law.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "s. 1003.32 F.S.",
+    "page": "20",
+    "confidence": "high"
+  }
+}

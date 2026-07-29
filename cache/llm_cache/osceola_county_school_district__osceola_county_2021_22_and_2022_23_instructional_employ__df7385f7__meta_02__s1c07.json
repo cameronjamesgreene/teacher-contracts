@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The School District also provides access to its facilities to the Boy Scouts and other patriotic youth groups, as required by the Boy Scouts of America Equal Access Act.\n\nApplicants/ individuals with disabilities requesting accommodations under the Americans with Disabilities Act (ADA) may call the District’s ADA Office at 407-870-4800 for assistance.",
+    "evidence": "The School District also provides access to its facilities to the Boy Scouts and other patriotic youth groups, as required by the Boy Scouts of America Equal Access Act. Applicants/ individuals with disabilities requesting accommodations under the Americans with Disabilities Act (ADA) may call the District’s ADA Office at 407-870-4800 for assistance.",
+    "page": "124",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Boy Scouts of America Equal Access Act; Americans with Disabilities Act (ADA)",
+    "evidence": "Boy Scouts of America Equal Access Act; Americans with Disabilities Act (ADA)",
+    "page": "124",
+    "confidence": "high"
+  }
+}

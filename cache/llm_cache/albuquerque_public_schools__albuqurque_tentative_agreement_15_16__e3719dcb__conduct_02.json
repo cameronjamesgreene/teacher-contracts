@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Freedom to teach is essential to the accomplishment of the District's goals. Therefore, teachers have the right and responsibility to exercise their professional judgment, within the limits of the above guidelines, in initiating and actively pursuing consideration of academic issues.",
+    "page": "Article 5, F.3",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "When absent ten (10) consecutive days or fewer, teachers shall provide lesson plans, instruction and classroom management information for substitute teachers.",
+    "page": "Article 5, H.4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "J. Political Leave 1. Where time spent in a campaign for the purpose of securing a political office will interfere with the duties of a teacher, a leave of absence should be requested in writing by the teacher/candidate. Such leave shall be leave without pay. 2. Leave of absence with pay shall be granted for the purpose of holding political office.",
+    "page": "Article 17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

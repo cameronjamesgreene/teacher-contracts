@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "185",
+    "evidence": "Members of the Teachers’ Unit, except counselors and librarians, shall work one hundred and eighty-five (185) days.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "Seven hours 35 minutes on Monday, Tuesday, Thursday, Friday; 8 hours 30 minutes on Wednesday; 7 hours on non-student days",
+    "evidence": "The workday of a teacher shall be: i) Monday, Tuesday, Thursday, Friday – seven (7) hours and thirty-five (35) minutes. ii) Wednesday – eight (8) hours and thirty (30) minutes... iv) The length of the teacher workday when students are not in attendance will be seven (7) hours",
+    "page": "15",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The full-time teacher shall have a minimum of 250 minutes of on-site individual planning time each week.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Minimum 250 minutes per week",
+    "evidence": "The full-time teacher shall have a minimum of 250 minutes of on-site individual planning time each week.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "No meetings can be called by administration on workdays. / One Wednesday every month will be designated for teacher planning and preparation time. This one Wednesday: Will not be used for voluntary or mandatory meetings scheduled by administration",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "The teacher shall have a thirty (30) minute duty-free lunch period.",
+    "page": "17",
+    "confidence": "high"
+  }
+}

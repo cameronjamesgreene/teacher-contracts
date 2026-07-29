@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Document filename: Palm_Beach_County_CTACBAJuly2011-June2014.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 2011 - June 2014",
+    "evidence": "Document filename/title",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Classroom Teachers Association (CTA) / certificated teachers / instructional employees",
+    "evidence": "Filename 'CTACBA'; text references 'Instructional Employment Services', 'continuing/professional service contract employees', and 'fully certificated annual/probationary contract employees'",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Document is a Collective Bargaining Agreement ('CTACBA') referencing 'this Agreement' between 'the Board' and 'the Association'",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Full text is extractable and readable throughout pages 70-84",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Page 73: 'F. S. 231.17'; Page 77: 'Chapter 440'; Page 78: 'Section 115.07, Florida Statutes'",
+    "page": "73, 77, 78",
+    "confidence": "high"
+  }
+}

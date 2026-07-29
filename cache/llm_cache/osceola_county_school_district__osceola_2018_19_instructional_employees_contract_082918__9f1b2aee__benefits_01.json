@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "Yes. Individual major medical plan (referred to as Medical Indemnity Plan) for all full-time teachers and those working half or more but less than full-time.",
+    "evidence": "The Board will annually provide a fully paid individual major medical plan to all full-time teachers. ... Specific benefits shall be as delineated in “The School District of Osceola County Florida Medical Indemnity Plan Document”",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Fully paid for full-time teachers; half-paid for teachers who fill half or more but less than full-time positions.",
+    "evidence": "The Board will annually provide a fully paid individual major medical plan to all full-time teachers. ... Teachers, who fill half or more but less than full-time positions, shall annually receive Board half-paid health insurance.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "half (50%)",
+    "evidence": "I agree to participate in the group medical plan and pay half.",
+    "page": "105",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high as the evidence explicitly states the employee contribution is 'half'."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "Yes. Dependent coverage is available at the teacher's expense. If both spouses work for the district, the amount paid for the spouse is credited toward dependent coverage.",
+    "evidence": "Dependent coverage shall be available at the expense of the teacher. Where two members of the same family are employed by the School District, the total amount paid for the spouse shall be credited toward the cost of dependent coverage.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Individual major medical plan / Medical Indemnity Plan.",
+    "evidence": "The Board will annually provide a fully paid individual major medical plan to all full-time teachers. ... “The School District of Osceola County Florida Medical Indemnity Plan Document”",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "Yes. An indemnity dental insurance plan is available through payroll deduction at the teacher's expense, subject to minimum enrollment.",
+    "evidence": "The Board will make available to teachers, disability benefits, an indemnity dental insurance plan and vision insurance plan through payroll deduction at the teacher's expense, provided that the required minimum number of employees enroll.",
+    "page": "54",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

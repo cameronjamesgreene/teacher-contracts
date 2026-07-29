@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "For employees on the A-1, A-2, and A-3 salary matrices, the work year shall consist of one hundred eighty-four (184) workdays.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "6.5 hours (excluding lunch)",
+    "evidence": "For employees on the A-1, A-2, A-3 salary matrices, the duty day shall consist of six and one-half (6 1/2) hours excluding a lunch period.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "All employees within the bargaining unit shall have within the duty week a minimum amount of time for preparation and planning.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Elementary: 220 min/week; Middle School Block: 450 min/2 weeks; Middle School Non-Block: 225 min/week or 1 class period/day; High School: 1 class period/day or 450 min/2 weeks (block)",
+    "evidence": "Elementary (Modified/Consistent): 'minimum of two hundred twenty (220) minutes for preparation each week'; Middle School Block: 'minimum of 450 minutes of preparation time in each consecutive two week period'; Middle School Non-Block: 'equal to one (1) full class period' or 'minimum of two hundred twenty-five (225) minutes per week'; High School: 'equal to one (1) full class period' or 'minimum of four hundred fifty (450) minutes of preparation time in each consecutive two-week period.'",
+    "page": "16-17",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to comprehensively cover all school-level breakdowns in Article 5.E, as the original quote only referenced the elementary standard. The coded answer accurately reflects the full contract provisions."
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "free from specific duty assignments. / Time an educator is required to perform non instructional duties is not considered preparation time.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Each educator shall have a thirty (30) minute, duty free, uninterrupted lunch period exclusive of passing time",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

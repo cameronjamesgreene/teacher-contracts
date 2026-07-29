@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Teachers are encouraged to bring to the attention of the Principal conditions which they consider may be unsafe for students or teachers, for review and, as appropriate, for referral to the appropriate school authority. Thereafter, if the teacher is still concerned, the teacher may request further review by the Regional Assistant Superintendent. If in a specific situation the President of PGCEA believes further consideration is appropriate, the President may request review by the Superintendent of Schools.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "The Board of Education shall provide legal counsel or at the Board’s discretion may provide reimbursement for the reasonable expenses of the legal defense of any criminal charges arising from an incident occurring while the teacher was performing assigned duties... The Board shall cooperate with the prosecution to the fullest extent of the law, of any individual who physically or verbally abuses, intimidates or interferes with a unit member performing his/her duties.",
+    "page": "14-15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The maintenance of normal school classroom discipline is the responsibility of the teacher. Procedures for handling disruptive students both within and without the classroom will be developed in accordance with County educational policy in each school by the Principal or duly appointed designee and the faculty.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "When in the judgement of the teacher a student’s behavior makes operation of the class impossible, the teacher shall complete the appropriate Discipline Referral Form and the student may be excluded from the class until the teacher and Principal or the Principal’s designee have held a conference.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "Twelve-month employees are expected to work on days schools are closed for emergencies unless the Central Offices are closed. When schools are closed for any emergency, professional personnel will be permitted to leave the building after student dismissal and their assigned responsibilities are met.",
+    "page": "7, 8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "the teacher shall be responsible for maintaining reasonable order and cleanliness in the classroom",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

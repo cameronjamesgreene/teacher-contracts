@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "A current copy of the Local School Plan, including an up-to-date school budget, shall be maintained in the school library and the main office at all times for review by teachers.",
+      "subject_text": "A current copy of the Local School Plan, including an up-to-date school budget",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction; implicit actor is school administration fulfilling a duty for teacher access."
+    },
+    {
+      "quote": "Teachers shall be provided a copy or allowed to make a copy upon request.",
+      "subject_text": "Teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Dual passive verbs under single modal; grants teachers access/permission."
+    },
+    {
+      "quote": "The Supervisor shall inform the Building Representative of proposed changes to the Local School Plan and budgetary spending priorities before making them.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Supervisor is management staff; duty benefits union representative."
+    },
+    {
+      "quote": "The Supervisor shall meet with the teaching staff to obtain input on the Local School Plan and budgetary spending priorities during the development of the plan.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Management duty to consult teaching staff."
+    },
+    {
+      "quote": "Once the plan is completed, the Supervisor shall meet with the staff to present the plan in its final form for review and discussion, prior to submission to the central office.",
+      "subject_text": "the Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Introductory dependent clause excluded from subject; main clause is a management obligation."
+    },
+    {
+      "quote": "The Supervisor shall provide the Building Representative and all members of the LSRT a copy of all budgetary information and other relevant documentation (e.g., test data, etc.) needed to reasonably and effectively participate in decision-making in the development of the Local School Plan and the budgetary priorities.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Explicit documentation provision duty on supervisor."
+    },
+    {
+      "quote": "In buildings where no central communication system is in operation, routine announcements shall, in a timely manner, be posted on a bulletin board in the main office, published in a daily bulletin to be placed in Teachers’ School mailboxes, or sent via e-mail.",
+      "subject_text": "routine announcements",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Passive voice with multiple participles; ensures teacher access to workplace communications."
+    },
+    {
+      "quote": "The Chancellor (or her/his designee) and the WTU President (or her/his designee) agree to meet twice per month to foster collaboration and to proactively and constructively address any disagreements.",
+      "subject_text": "The Chancellor (or her/his designee) and the WTU President (or her/his designee)",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint subject; promissory language establishing a recurring duty without a modal verb."
+    },
+    {
+      "quote": "The Parties agree to establish a calendar for such meetings no later than September 30 annually.",
+      "subject_text": "The Parties",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint obligation; time-bound administrative duty."
+    }
+  ]
+}

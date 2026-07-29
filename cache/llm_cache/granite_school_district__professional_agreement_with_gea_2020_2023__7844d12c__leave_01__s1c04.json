@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "4",
+    "evidence": "Teachers are allocated four (4) Personal Leave days per contract year at no cost to the teacher.",
+    "page": "56",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires 24-hour notice except in emergencies; blackout dates (no leave day before/after holidays or first/last week of school without approval); limits on concurrent days (generally 1-2 per school per day); not for job action/work stoppage or working another job at public expense.",
+    "evidence": "A minimum of one (1) day notice (24 hours) must be given to the Principal or Supervisor before taking the Personal Leave, except in cases of emergency. Personal Leave should not be taken the day before or after a school holiday... or during the first or last week of school... Generally, only one (1) or two (2) Personal Leave days per school or location, per school day, can be approved. Personal Leave will not be granted in connection with any form of job action or work stoppage. Personal Leave shall not be used in order to work another job at public expense.",
+    "page": "56",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "A teacher who uses no Personal Leave during a given contract year will receive an amount equal to three times the current daily Substitute B rate. Teachers who take one Personal Leave day in a contract year will receive an amount equal to two times the current Substitute B rate. Teachers who take two Personal Leave days in a contract year will receive an amount equal to the current Substitute B rate. Teachers who take three or four Personal Leave days in a contract year will receive no additional amount.",
+    "page": "56",
+    "confidence": "high"
+  }
+}

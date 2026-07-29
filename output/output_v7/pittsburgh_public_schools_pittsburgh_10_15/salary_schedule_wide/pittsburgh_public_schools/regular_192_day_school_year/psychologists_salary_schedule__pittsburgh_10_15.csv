@@ -1,0 +1,16 @@
+# Pittsburgh_10-15.pdf — Psychologists Salary Schedule (Regular 192-Day School Year)
+# population: Psychologists | is_teacher_schedule: False
+# validation_warnings: possible_dropped_row: step sequence 1-10 is missing step(s) [6] — a row may have been lost; verify against source | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase
+1-,45800,46300,46800,47300,47800,48300,41800
+2-,47230,47730,48230,48730,49230,49730,40670
+3-,48470,48970,49470,49970,50470,50970,39730
+4-,49720,50220,50720,51220,51720,52220,38780
+5-,51090,51590,52090,52590,53090,53590,38010
+6a,66245,67145,68045,68945,69845,,
+6b,80100,81900,82500,83400,85200,89100,9000
+7-,80400,82200,82800,83700,85500,89100,8700
+8-,80700,82500,83100,84000,85800,89100,8400
+9-,81000,83100,83700,84600,86400,89100,8100
+10-,81600,83100,84600,86100,87600,89100,7500

@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Except for special orientation meetings for new teachers, teachers who are required to work extra days before or after the dates specified in the official calendar shall receive additional compensation at their appropriate daily rate.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Instructional Coach shall mean all teachers who are paid on the teachers’ salary schedule who work with teachers in a coaching capacity and are assigned to a school building(s). A coach has no administrative authority to conduct evaluations. Observations are done to support the teacher.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

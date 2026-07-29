@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "12",
+    "evidence": "Each full-time unit member shall accrue sick leave at the rate of one day per month of assigned responsibility.",
+    "page": "69",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates on an unlimited basis; no cap stated.",
+    "evidence": "Unused sick leave is accumulated on an unlimited basis.",
+    "page": "70",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Leave may be granted for illness in the immediate family and shall be charged against accumulated sick leave.",
+    "page": "70",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "3",
+    "evidence": "All unit members may be granted up to three days per year for personal leave.",
+    "page": "79",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Written request required 1 day prior; no specific reason required; must be for personal business not schedulable on non-duty days; supervisor approval contingent on adequate program provisions; emergency requires prior notice; before/after holiday requires reason; instructional continuity must be ensured.",
+    "evidence": "A written request for the intended absence shall be submitted to the principal or appropriate official at least one day prior to the expected absence. No specific reason for such personal leave shall be required or solicited. Personal leave, if granted, must be used only to conduct personal business of a nature that cannot be scheduled on any nonduty day. Personal leave will be granted unless the immediate supervisor determines that adequate provisions for continuing the school program are insufficient. In cases of emergency, the appropriate school official shall be notified prior to the start of the duty day to be taken off. Leave immediately before or after a holiday, vacation, or professional development day may be requested for reason from the school principal or appropriate official. It shall be the responsibility of the supervisor/administrator and the unit member to ensure continuity of the instructional program.",
+    "page": "79",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "Unused personal leave shall be added annually to the unused sick leave account.",
+    "page": "70",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "subject to being discharged from employment for good cause",
+    "page": "168",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "168",
+    "confidence": "high"
+  }
+}

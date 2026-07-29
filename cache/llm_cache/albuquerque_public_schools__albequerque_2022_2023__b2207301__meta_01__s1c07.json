@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Article 12, PROFESSIONAL DEVELOPMENT... Article 16, STAFFING",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2022-2023",
+    "evidence": "Starting in the 2022/2023 school year, caseload compensation will be reflected in an “overload” category on the pay stubs of those employees receiving this pay.",
+    "page": "64",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated teachers/educators (Albuquerque Teachers Federation)",
+    "evidence": "Albuquerque Teachers Federation (ATF)",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "The District and the Federation agree that, as funds become available, the position of Head Special Education teacher at each school site will transition from an elected position to an allocated FTE.",
+    "page": "62",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "provisions of state statute; NM Board of Nursing Nurse Practice Act requires that nurses be supervised and evaluated by a nurse, a dentist, or a physician",
+    "page": "73",
+    "confidence": "high"
+  }
+}

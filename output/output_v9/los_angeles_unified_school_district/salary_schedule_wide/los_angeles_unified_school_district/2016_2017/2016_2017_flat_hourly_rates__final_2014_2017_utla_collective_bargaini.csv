@@ -1,0 +1,9 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — 2016-2017 FLAT HOURLY RATES (2016-2017)
+# population: Adult Education Substitute/Flat Rate Employees | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p381) — one grid's data may be contaminated from another; verify | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+"Adult Teacher, Hourly Rate, Day-to-Day Substitute (0806)",50.16427
+"Adult Teacher, Flat Rate, Day-to-Day Substitute (0811)*",42.66537
+"Adult Teacher, Staff Development, Rate 1 (0807)",50.16427
+"Extended Teaching Assignment, Hourly (0921)",34.82721

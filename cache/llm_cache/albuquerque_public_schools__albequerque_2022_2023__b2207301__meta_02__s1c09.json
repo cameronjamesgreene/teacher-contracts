@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "This process does not preclude an employee from requesting a subsequent arbitration pursuant to the New Mexico State Personnel Act. | The Panel hearings, to the extent practicable, will be conducted pursuant to the rules governing appeal hearings for terminations and discharges as set forth in New Mexico Statutes Annotated (NMSA) § 22-10A-27 for discharges or NMSA § 22-10A-24 for terminations.",
+    "evidence": "This process does not preclude an employee from requesting a subsequent arbitration pursuant to the New Mexico State Personnel Act. | The Panel hearings, to the extent practicable, will be conducted pursuant to the rules governing appeal hearings for terminations and discharges as set forth in New Mexico Statutes Annotated (NMSA) § 22-10A-27 for discharges or NMSA § 22-10A-24 for terminations.",
+    "page": "92",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "For absences that occur before the date of the qualifying event, employees may use other types of time off for which they are eligible, such as personal, sick leave, or the Family Medical Leave Act (FMLA). | The parental leave must run concurrently to the FMLA if the employee is eligible for FMLA. | The District will match employees' share for Federal Insurance Contribution Act (Social Security). | Before a supervisor requests an employee to respond to questions concerning reasonable suspicion, the employee shall immediately be informed of their right to contact their ATF representative (i.e., Weingarten rights) as established by the U.S. Supreme Court.",
+    "evidence": "For absences that occur before the date of the qualifying event, employees may use other types of time off for which they are eligible, such as personal, sick leave, or the Family Medical Leave Act (FMLA). | The parental leave must run concurrently to the FMLA if the employee is eligible for FMLA. | The District will match employees' share for Federal Insurance Contribution Act (Social Security). | Before a supervisor requests an employee to respond to questions concerning reasonable suspicion, the employee shall immediately be informed of their right to contact their ATF representative (i.e., Weingarten rights) as established by the U.S. Supreme Court.",
+    "page": "85, 88, 93",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family Medical Leave Act (FMLA), Federal Insurance Contribution Act (Social Security), U.S. Supreme Court",
+    "evidence": "Family Medical Leave Act (FMLA) | Federal Insurance Contribution Act (Social Security) | U.S. Supreme Court",
+    "page": "85, 88, 93",
+    "confidence": "high"
+  }
+}

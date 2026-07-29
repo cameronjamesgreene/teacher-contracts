@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "The criteria for recalling probationary teachers shall be followed in the order listed below: i) Certification ii) Programmatic needs as identified below, may be considered in the following order: (1) Employee has certifications pertinent to the job (2) Employee has a unique skill set specific to the job. (3) Employee has training and professional development relative to the job. iii) Seniority iv) Professional preparation, which includes: (1) Education based coursework (graduate study) (2) Professional development training in or outside the District (3) Advanced degrees... If a probationary teacher on unrequested leave of absence under this policy is sent a recall notice, that teacher shall have ten (10) calendar days to affirmatively respond.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Certification, Programmatic needs, Professional preparation, and Seniority (in that order)",
+    "evidence": "the following criteria for selecting probationary teachers to be placed on unrequested leave of absence shall be followed in the order listed below: i) Certification ii) Programmatic needs as identified below, may be considered in the following order: (1) Employee has certifications pertinent to the job (2) Employee has a unique skill set specific to the job. (3) Employee has training and professional development relative to the job. iii) Professional preparation, which includes: (1) Educational based coursework (graduate study) (2) Professional development training in or outside the District (3) Advanced degrees iv) Seniority",
+    "page": "22",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "5 years",
+    "evidence": "The first five (5) years of employment of all teachers entering the employment of school district shall be deemed a period of probation during which period all appointments of teachers shall expire at the end of the school year.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "On the first day of the sixth year, teachers will attain permanent teacher status. No permanent teacher shall be laid off until all probationary teachers with the same certification and professional preparation have been laid off... Permanent teachers with proper certification will follow the same recall/layoff procedure as probationary teachers. Termination of a permanent teacher shall comply with the applicable state law(s) at the time of termination.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

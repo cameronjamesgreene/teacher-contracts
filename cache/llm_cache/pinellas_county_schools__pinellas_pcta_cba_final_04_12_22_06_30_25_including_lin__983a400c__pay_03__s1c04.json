@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "Credit on the instructional salary schedule will be granted for all verified public school experience in accordance with state law. / Hourly and/or part-time teaching experience in Pinellas County Schools, shall be allowed to teachers who subsequently are employed as regular full-time teachers. One (1) year of experience will be allowed for each fiscal year in which a teacher accrues at least nine hundred (900) hours.",
+    "page": "53",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "Credit on the instructional salary schedule will be granted for all verified public school experience in accordance with state law.",
+    "page": "53",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "A maximum of three (3) years of credit is allowed for service in the armed forces of the United States subsequent to January 1, 1940. / The Board and the Union agree to provide related work experience credit to employees whose service prior to employment meets the following criteria: 1. The work experience must have been in an area substantially similar to that which the employee is expected to perform.",
+    "page": "53",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

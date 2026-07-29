@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "All elementary, middle, and high school students in Binningham Public Schools shall within the parameters set forth below, implement the mandatory uniform policY beginning in August 1996.",
+      "subject_text": "All elementary, middle, and high school students in Binningham Public Schools",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Student policy excerpt; not employment-related."
+    },
+    {
+      "quote": "All students who attend Birmingham Public Schools must be in uniform.",
+      "subject_text": "All students who attend Birmingham Public Schools",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Mandatory dress code requirement for students."
+    },
+    {
+      "quote": "All students will wear the designated schoul system attire.",
+      "subject_text": "All students",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "OCR typo 'schoul' retained verbatim; general attendance dress requirement."
+    },
+    {
+      "quote": "The clothing may not be altered by slits, cuts. holes, shredded hems, slashes. etc.",
+      "subject_text": "The clothing",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "may",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Prohibition on uniform modification."
+    }
+  ]
+}

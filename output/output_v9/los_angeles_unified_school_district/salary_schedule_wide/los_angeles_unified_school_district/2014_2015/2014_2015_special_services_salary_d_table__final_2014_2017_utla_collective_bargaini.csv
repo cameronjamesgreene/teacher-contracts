@@ -1,0 +1,36 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — 2014-2015 SPECIAL SERVICES SALARY (D) TABLE (2014-2015)
+# population: Special services personnel (classified/support staff) | is_teacher_schedule: False
+# validation_warnings: label_not_in_source: '1 (1st)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '1 (2nd)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2 (1st)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2 (2nd)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '3 (1st)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '3 (2nd)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '4 (1st)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '4 (2nd)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '5 (1st)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '5 (2nd)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed
+step,1 (1st),1 (2nd),2 (1st),2 (2nd),3 (1st),3 (2nd),4 (1st),4 (2nd),5 (1st),5 (2nd)
+20 D E basis,4442.32,53308,4691.64,56300,4952.90,59435,5233.44,62801,5522.52,66270
+20 B basis,4195.55,50347,4431.01,53172,4677.67,56132,4942.61,59311,5215.74,62589
+20 C basis,3872.81,46474,4090.18,49082,4317.91,51815,4562.47,54750,4814.54,57774
+21 D E basis,4569.17,54830,4818.59,57823,5092.66,61112,5370.92,64451,5676.22,68115
+21 B basis,4315.34,51784,4550.79,54609,4809.69,57716,5072.61,60871,5360.89,64331
+21 C basis,3983.34,47800,4200.78,50409,4439.73,53277,4682.36,56188,4948.49,59382
+22 D E basis,4691.64,56300,4952.90,59435,5233.44,62801,5522.52,66270,5848.19,70178
+22 B basis,4431.01,53172,4677.67,56132,4942.61,59311,5215.74,62589,5523.30,66280
+22 C basis,4090.18,49082,4317.91,51815,4562.47,54750,4814.54,57774,5098.41,61181
+23 D E basis,4812.03,57744,5078.65,60944,5362.38,64349,5667.67,68012,5998.71,71985
+23 B basis,4544.73,54537,4796.46,57558,5064.43,60773,5352.79,64233,5665.42,67985
+23 C basis,4195.10,50341,4427.52,53130,4674.91,56099,4941.04,59292,5229.60,62755
+23 A Basis,5367.29,64407,5664.62,67975,5981.11,71773,6321.59,75859,6690.84,80290
+28 D E basis,5329.06,63949,5632.17,67586,5943.83,71326,6274.98,75300,6626.39,79517
+28 B basis,5033.01,60396,5319.27,63831,5613.70,67364,5926.32,71116,6258.24,75099
+28 C basis,4645.88,55751,4910.09,58921,5181.83,62182,5470.47,65646,5776.86,69322
+29 D E basis,5484.95,65819,5789.05,69469,6107.16,73286,6449.04,77388,6807.02,81684
+29 B basis,5180.18,62162,5467.44,65609,5767.94,69215,6090.76,73089,6428.83,77146
+29 C basis,4781.74,57381,5046.87,60562,5324.23,63891,5622.24,67467,5934.30,71212
+30 D E basis,5632.17,67586,5943.83,71326,6274.98,75300,6626.39,79517,7001.57,84019
+30 B basis,5319.27,63831,5613.70,67364,5926.32,71116,6258.24,75099,6612.56,79351
+30 C basis,4910.09,58921,5181.83,62182,5470.47,65646,5776.86,69322,6103.91,73247
+31 D E basis,5789.05,69469,6107.16,73286,6449.04,77388,6807.02,81684,7199.30,86392
+31 B basis,5467.44,65609,5767.94,69215,6090.76,73089,6428.83,77146,6799.33,81592
+31 C basis,5046.87,60562,5324.23,63891,5622.24,67467,5934.30,71212,6276.33,75316
+32 D E basis,5943.83,71326,6274.98,75300,6626.39,79517,7001.57,84019,7400.31,88804
+32 B basis,5613.70,67364,5926.32,71116,6258.24,75099,6612.56,79351,6989.13,83870
+32 C basis,5181.83,62182,5470.47,65646,5776.86,69322,6103.91,73247,6451.53,77418
+33 D A basis,6811.92,81743,7188.39,86261,7590.02,91080,8029.96,96360,8483.16,101798
+33 E basis,6107.21,73287,6444.71,77337,6804.84,81658,7199.31,86392,7605.54,91266
+33 B basis,5767.94,69215,6086.71,73041,6426.80,77122,6799.33,81592,7183.05,86197
+33 C basis,5324.23,63891,5618.46,67422,5932.38,71189,6276.33,75316,6630.47,79566

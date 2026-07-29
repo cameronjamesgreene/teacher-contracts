@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "monetary awards to be paid to T-bargaining employees assigned to budgeted positions at these four (4) schools based on a two-part Pay For Performance Plan and through differentiated pay supplements based on agreed to complexity factors.",
+    "page": "172",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "Evaluation is based on student growth measured by Proportion of Years Growth (PYG) in Reading and Math, using End of Course (EOC) exam results, with awards allocated via School-Wide Team and Individual Instructor matrices.",
+    "evidence": "using End Of Course (EOC) exam results as a component of Proportion of Years Growth (PYG) calculations. Collaborate as a School Team to maximize School-Wide Proportion of Year’s Growth (PYG) (% of the school’s students scoring a PYG at or above 1.0 in Reading, Math)",
+    "page": "174, 183",
+    "confidence": "high"
+  }
+}

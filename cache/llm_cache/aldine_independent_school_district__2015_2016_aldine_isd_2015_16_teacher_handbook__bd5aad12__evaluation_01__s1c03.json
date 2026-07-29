@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "Periodic written evaluations of employees’ performance shall be conducted and reviewed by the Superintendent of Schools or the Superintendent’s designee prior to the Superintendent’s annual submission of recommendations for renewal and nonrenewal.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "INVEST",
+    "evidence": "persons whose most recent INVEST observation document reflects an overall rating of Needs Improvement or Ineffective in part A.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Needs Improvement, Ineffective",
+    "evidence": "overall rating of Needs Improvement or Ineffective in part A.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

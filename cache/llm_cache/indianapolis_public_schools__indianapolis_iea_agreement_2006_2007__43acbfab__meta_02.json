@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "The parties agree that because of changes in I.C. 20-3.1, there no longer is a requirement for evaluating all teachers in the Indianapolis Public Schools twice yearly.",
+    "evidence": "The parties agree that because of changes in I.C. 20-3.1, there no longer is a requirement for evaluating all teachers in the Indianapolis Public Schools twice yearly.",
+    "page": "M-10",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Found explicit citation to Indiana Code I.C. 20-3.1 in Article XVIII, Section 1."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Teachers should be aware that they also may qualify for leave under the terms of the Family and Medical Leave Act (FMLA). Such leaves are provided for, and governed by, federal law. The Association and the Board agree to continue the current Section 125 plan, which allows for funding of certain insurance, health care, non-reimbursed medical and dependent care expenses as permitted by Section 125 of the Internal Revenue Code.",
+    "evidence": "Teachers should be aware that they also may qualify for leave under the terms of the Family and Medical Leave Act (FMLA). Such leaves are provided for, and governed by, federal law. The Association and the Board agree to continue the current Section 125 plan, which allows for funding of certain insurance, health care, non-reimbursed medical and dependent care expenses as permitted by Section 125 of the Internal Revenue Code.",
+    "page": "M-4, M-8",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Found explicit citations to FMLA/federal law (Article IV, Section 2) and Internal Revenue Code Section 125 (Article XI, Section 10)."
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family and Medical Leave Act (FMLA), Internal Revenue Code (Section 125)",
+    "evidence": "Teachers should be aware that they also may qualify for leave under the terms of the Family and Medical Leave Act (FMLA). Such leaves are provided for, and governed by, federal law. The Association and the Board agree to continue the current Section 125 plan, which allows for funding of certain insurance, health care, non-reimbursed medical and dependent care expenses as permitted by Section 125 of the Internal Revenue Code.",
+    "page": "M-4, M-8",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed. Identified FMLA and IRC Section 125 as the specific federal laws cited."
+  }
+}

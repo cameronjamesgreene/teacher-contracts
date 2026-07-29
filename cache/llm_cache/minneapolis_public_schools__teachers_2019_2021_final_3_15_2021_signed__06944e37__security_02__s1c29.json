@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "discussed_unclear",
+    "evidence": "Index references \"Reinstatement following layoff ... 213\" and \"Recall Procedure After Excessed ... 214\"; specific procedural details are not contained in this section.",
+    "page": "263, 264, 265",
+    "confidence": "medium"
+  },
+  "security_rif_criterion_008": {
+    "answer": "discussed_unclear",
+    "evidence": "Index references \"Seniority ... Article 17 ... 224\" and \"Least Senior Excessed ... 199\", indicating seniority is a primary factor, but the complete ranking rule is not detailed here.",
+    "page": "265",
+    "confidence": "medium"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Index references \"Tenure ... Definition of Tenured Teacher ... 125\", \"Teacher Tenure Act ... 247\", and \"Tenure, Pensions, and Retirement - Continuity (MN Statute) ... 253\".",
+    "page": "265",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Index references \"Relicensure ... 25\" and \"National Board Certification ... 140, 142\".",
+    "page": "263, 264, 265",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "$2,000 for mentoring one teacher / $4000 if they mentor two teachers. (see Article 9 for additional information.)",
+    "page": "113",
+    "confidence": "medium"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Elementary Team Leaders... $8,085 for up to twelve (12) positions... High School Team Leader/Department Head... $1,751... Instructional coaches, librarians and resource teachers... eligible for a $1,000.00 differential.",
+    "page": "111-113",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

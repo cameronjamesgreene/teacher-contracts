@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Of the remaining two (2) periods, one (1) shall be assigned for purposes of planning",
+    "page": "57",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "one (1) period per day",
+    "evidence": "one (1) shall be assigned for purposes of planning",
+    "page": "57",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Planning time is defined as non-student contact time during which such employees will not be assigned specific responsibilities or duties except as provided in Article III, D of this Agreement.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

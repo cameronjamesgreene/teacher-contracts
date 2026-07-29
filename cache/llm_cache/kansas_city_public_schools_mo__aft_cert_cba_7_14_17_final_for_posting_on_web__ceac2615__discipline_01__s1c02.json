@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "no employee shall be discharged except for just cause.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Termination of a permanent teacher shall comply with the applicable state law(s) at the time of termination. / The Superintendent of Schools on or before the fifteenth (15th) day of April in each year shall notify probationary teachers who will not be retained by the school district of the termination of their services.",
+    "page": "22, 23",
+    "confidence": "high"
+  }
+}

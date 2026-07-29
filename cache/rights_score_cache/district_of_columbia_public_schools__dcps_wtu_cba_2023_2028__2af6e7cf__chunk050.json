@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "Employees maintain their rights to appeal below average or unsatisfactory performance evaluations pursuant to Title 5 of the DCMR, Sections 1306.8-1306.13.",
+      "subject_text": "Employees",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "s/he has the option to request mediation at Step 1 or to commence a grievance at Step 2.",
+      "subject_text": "s/he",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "the hearing at Step 2 shall receive priority over all other pending grievances except those related to termination.",
+      "subject_text": "the hearing at Step 2",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "discipline",
+      "notes": "Procedural priority rule."
+    },
+    {
+      "quote": "Interruption of the scheduled program of instruction during the day shall be kept at a minimum.",
+      "subject_text": "Interruption of the scheduled program of instruction during the day",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "routine announcements shall be posted on the bulletin board, published in the daily bulletin, or shall be sent to teachers at scheduled times previously agreed upon by the Supervisor and the School Chapter Advisory Committee.",
+      "subject_text": "routine announcements",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    }
+  ]
+}

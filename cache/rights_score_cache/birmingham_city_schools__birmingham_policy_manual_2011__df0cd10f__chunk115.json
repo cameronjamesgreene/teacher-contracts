@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "Individuals may only use accounts, files, data, software, and computer resources that are assigned to those individuals under their password.",
+      "subject_text": "Individuals",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Individuals must take all reasonable precautions to prevent unauthorized access to accounts and data and any other unauthorized usage within and outside the Birmingham Public Schools.",
+      "subject_text": "Individuals",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Duplication of any copyrighted software is prohibited unless specifically allowed for in a license agreement.",
+      "subject_text": "Duplication of any copyrighted software",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Implicit actor is employees/students; subject is the action being restricted."
+    }
+  ]
+}

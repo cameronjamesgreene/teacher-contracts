@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "The first five (5) years of employment of all teachers entering the employment of school district shall be deemed a period of probation during which period all appointments of teachers shall expire at the end of the school year. After completion of satisfactory probationary services, appointments of teachers shall become permanent... On the first day of the sixth year, teachers will attain permanent teacher status.",
+    "page": "22, 23",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "The Superintendent of Schools on or before the fifteenth (15th) day of April in each year shall notify probationary teachers who will not be retained by the school district of the termination of their services. Any probationary teacher who is not so notified shall be deemed to have been appointed for the next school year.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Employee preference, qualifications, and length of service shall be considered in the placement. ... teachers will be scheduled by seniority for interviews",
+    "page": "19, 21",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers must submit a written request via TalentEd during the Jan 1–Jan 21 window (or Jan 21–May 1 for later vacancies) and may list up to three moves. Principals screen applicants and may conduct phone interviews. Seniority is explicitly not required to be considered. Transfers are finalized by May 15, or after May 1 only with mutual principal agreement.",
+    "evidence": "Members... shall file a written request via the TalentEd Application process with the Human Resources Department during the transfer window period of January 1 – January 21... Each member... may list up to three possible transfer moves. Principals will screen all applicants... Interviews may be done over the phone. In selecting transfer teacher candidates, seniority does not have to be considered. Voluntary transfers will not be granted after May 1 unless both principals agree to the transfer.",
+    "page": "20",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Disciplinary transfers require just cause and an HR conference. School closing transfers use HR-generated lists of affected teachers and vacancies, with interviews scheduled by seniority and placement based on top-five matches between teachers and principals. Additional transfers (declining enrollment/funding) allow voluntary choices first; if insufficient volunteers, least senior teachers select top three choices for interview and matching. Reconstitution follows state/federal law. Teachers may resign without penalty within 5 days if an involuntary match occurs after contracts are signed.",
+    "evidence": "Disciplinary transfers... shall be for just cause and shall follow a conference with HR. ... School Closing – ... HR develops list... teachers scheduled by seniority for interviews... list their top five choices... Additional Involuntary Transfers – ... teacher(s) with the least seniority... review a master list... identify their top three choices... interview with the principals... If the teacher does not want the involuntary match, the teacher may resign with no penalty within five days",
+    "page": "20-22",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Layoffs of probationary teachers follow a specific criteria order: 1) Certification, 2) Programmatic needs (certifications, unique skills, training), 3) Professional preparation (coursework, training, advanced degrees), 4) Seniority. Permanent (tenured) teachers are only laid off after all probationary teachers with matching certification/preparation are laid off, and follow the same recall/layoff procedure. Recall criteria mirrors layoff criteria. No teacher furloughed over two years is recalled, and no new hires are made while qualified probationary teachers are on unrequested leave.",
+    "evidence": "When the Superintendent determines that layoff of probationary teachers is necessary, the following criteria for selecting probationary teachers to be placed on unrequested leave of absence shall be followed in the order listed below: i) Certification ii) Programmatic needs... iii) Professional preparation... iv) Seniority... No permanent teacher shall be laid off until all probationary teachers with the same certification and professional preparation have been laid off... The criteria for recalling probationary teachers shall be followed in the order listed below: i) Certification ii) Programmatic needs... iii) Seniority iv) Professional preparation...",
+    "page": "22-23",
+    "confidence": "high"
+  }
+}

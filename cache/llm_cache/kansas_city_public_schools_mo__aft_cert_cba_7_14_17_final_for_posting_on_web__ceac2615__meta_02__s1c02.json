@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Termination of probationary staff shall comply with applicable state law(s) at the time of termination. / Termination of a permanent teacher shall comply with the applicable state law(s) at the time of termination.",
+    "evidence": "Termination of probationary staff shall comply with applicable state law(s) at the time of termination.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The reconstitution of schools, if necessary, will comply with all applicable state and federal laws/rules/regulations.",
+    "evidence": "The reconstitution of schools, if necessary, will comply with all applicable state and federal laws/rules/regulations.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "None specifically named; document refers generally to 'federal laws/rules/regulations' without citing a particular statute.",
+    "evidence": "",
+    "page": "21",
+    "confidence": "medium"
+  }
+}

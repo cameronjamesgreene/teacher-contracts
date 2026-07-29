@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "\"Require the participation of all teachers within their first three years of service in DCPS.\" \"Provide ongoing support and mentoring for all new teachers throughout the 3-year induction program.\" \"Recruit, develop, and assign mentor teachers with the newest staff to ensure that each new Teacher is assigned a mentor.\"",
+    "page": "13",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "\"DCPS shall, in collaboration with the WTU, implement an Instructional Coach Model, through which every DCPS School shall be provided with a full-time Instructional Coach, whose sole responsibility shall be to provide professional development in a job-embedded manner.\" \"Instructional Coaches shall be formally trained and certified on the new DCPS Teaching and Learning Framework and shall have no evaluative duties and play no role in any Teacher’s evaluation.\"",
+    "page": "14",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

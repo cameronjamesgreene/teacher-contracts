@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "SCHEDULE A: 7–1–2019 TO 6–30–2020 (1.0% EFF. 7-1-2019) and SCHEDULE A: 7–1–2020 TO 6–30–2021 (1.0% EFF. 7-1-2020); 1.0% across-the-board raise effective 7-1-2019 and 7-1-2020 for Schedule A.",
+    "page": "226, 227",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Schedules C, D, E, F, and G detail supplemental pay for coaching, student activities, reserve teachers, mentors, and staff development.",
+    "page": "229-236",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "District shall pay an incentive in the form of a $160 stipend to teachers who serve three (3) consecutive student days at a Priority School or Special Education site (applies to Short-Call Reserve Teachers only).",
+    "page": "233",
+    "confidence": "medium"
+  }
+}

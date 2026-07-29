@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "1. \"Directory information, as defined by Ohio law, for internal administrative purposes or approved educational projects and activities.\" 2. \"(Reference to Title 16, The Code of Alabama).\" 3. \"The Birmingham City School District requires all students enrolled to comply with immunization requirements of the State Statute 16-30-1, et. Seq. (General provision 420-6-1) of the Code of Alabama.\" 4. \"Every child between the ages of seven and 16 is required to attend school in accordance with Section 16-28-3, Code of Alabama, 1975, unless otherwise exempted by the Superintendent as provided in Section 16-28-6, Code of Alabama, 1975.\" 5. \"Kindergarten or first grade students seeking admission must adhere to the September 1 (2)* rule as established by state law with the exception of those special circumstances permitted by state law.\" 6. \"*Ref: No Child Left Behind Act, 2001 (p.L. 107-110), AL Code (1975) ~16-28-4,\" 7. \"Purchases of this sort are prohibited by the Alabama State Sales Tax Code of 1975, Section 40 and the Alabama Ethics Commission (36-25-5A).\" 8. \"Automatic vending machines for the dispensing of food, beverages or other approved items are authorized, provided that all contracts for such vending machines are acquired by competitive bidding according to the bid law of the State of Alabama and must be approved by the Birmingham Board of Education.\" 9. \"LEGAL REF: The Code of Alabama 16-1-30, 16-12-5; The Alabama Administrative Code; 290-030-010-06\"",
+    "evidence": "The Birmingham City School District requires all students enrolled to comply with immunization requirements of the State Statute 16-30-1, et. Seq. (General provision 420-6-1) of the Code of Alabama.",
+    "page": "7305, 8011, 8016, 8060, 8065, 8083, 8084",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "1. \"The term ''harmful to minors\" is defined by the Communications Act of 1934 (47 USC Section 254 [h][7]), as meaning any picture, image, graphic image file, or other visual depiction that:\" 2. \"Legal Reference: Children's Internet Protection Act of 2000 (H.R. 4577, P.L. 106-554)\" 3. \"*Ref: No Child Left Behind Act, 2001 (p.L. 107-110),\" 4. \"Birmingham City Schools, in accordance with section 111 of Child Nutrition and WIC Reauthorization Act of 2004 (Public Law 108-265) that amended section 9(h) of the Richard B. Russell National School Lunch Act will implement a food safety program for the preparation and service of school meals served to children in the school year beginning by July 1, 2005.\" 5. \"The school nutrition program will operate in accordance with the National School Lunch Act and the Child Nutrition Act of 1996 as amended and applicable laws and regulations of Alabama.\"",
+    "evidence": "The term ''harmful to minors\" is defined by the Communications Act of 1934 (47 USC Section 254 [h][7]), as meaning any picture, image, graphic image file, or other visual depiction that:",
+    "page": "7305, 8065, 8085, 8086",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Communications Act of 1934 (47 USC Section 254 [h][7]); Children's Internet Protection Act of 2000 (H.R. 4577, P.L. 106-554); No Child Left Behind Act, 2001 (p.L. 107-110); Child Nutrition and WIC Reauthorization Act of 2004 (Public Law 108-265); Richard B. Russell National School Lunch Act; National School Lunch Act; Child Nutrition Act of 1996.",
+    "evidence": "Legal Reference: Children's Internet Protection Act of 2000 (H.R. 4577, P.L. 106-554)",
+    "page": "7305",
+    "confidence": "high"
+  }
+}

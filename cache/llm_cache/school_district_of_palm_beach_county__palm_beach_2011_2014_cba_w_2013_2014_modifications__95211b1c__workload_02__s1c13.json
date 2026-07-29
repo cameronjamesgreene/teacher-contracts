@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "daily 30 minute lunch or supper period",
+    "page": "187",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "twice a month Faculty Meetings that may be scheduled by the School in keeping with Article Ill, Section B 6 and 7 of the CBA",
+    "page": "188",
+    "confidence": "medium"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

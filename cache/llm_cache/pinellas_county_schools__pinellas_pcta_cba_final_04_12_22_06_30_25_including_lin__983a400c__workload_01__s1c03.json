@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "198",
+    "evidence": "Instructional contracts shall be for a period of one hundred and ninety-eight (198) days.",
+    "page": "44",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7 hours and 30 minutes",
+    "evidence": "the regular school day for teachers is seven (7) hours and thirty (30) minutes.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each elementary teacher shall have a minimum of thirty (30) minutes of Uninterrupted Planning...",
+    "page": "32",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Elementary: 30 min during student day + 2 hrs outside per week. Secondary/Postsecondary: 1 period during student day + 2 hrs outside per week (or 330 min/week if block scheduling makes the above unworkable).",
+    "evidence": "each elementary teacher shall have a minimum of thirty (30) minutes of Uninterrupted Planning during the Student Instructional Day and the equivalent of two (2) hours per week outside the Student Instructional Day. Each secondary and full-time postsecondary school teacher shall have one (1) full period or its equivalent of Uninterrupted Planning Time during the Student Instructional Day and two (2) hours per week outside the Student Instructional Day.",
+    "page": "32-33",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "No teacher shall be required to forfeit Uninterrupted Planning Time on a regular or continuing basis.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Lunch times are to be free from assigned duties or supervising students.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

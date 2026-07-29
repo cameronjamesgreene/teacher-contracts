@@ -1,0 +1,30 @@
+{
+  "clauses": [
+    {
+      "quote": "In addition to its statutory reserve rights, the District also retains within its sole discretion all rights and powers not expressly limited by the clear and explicit language of this Agreement, including but not limited to the exclusive right and power to determine, implement, supplement, change, modify or discontinue, in whole or in part, temporarily or permanently, any of the following:",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The exercise of any right reserved to the District herein in a particular manner or the non-exercise of any such right shall not be deemed a waiver of the District's right or preclude the District from exercising the right in a different manner.",
+      "subject_text": "The exercise of any right reserved to the District herein in a particular manner or the non-exercise of any such right",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Non-waiver boilerplate protecting management's reserved rights."
+    }
+  ]
+}

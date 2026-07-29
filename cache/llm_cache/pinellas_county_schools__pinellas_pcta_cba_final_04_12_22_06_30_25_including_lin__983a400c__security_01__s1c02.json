@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall accrue on the basis of one (1) year for each year of continuous service in the district. Leaves shall not constitute an interruption of service but shall not be counted as a year of service. In the event of equal seniority, the date of official notification of hire shall be the date. In the event of simultaneous notification, disputes shall be resolved by lot. Interruptions of service less than thirty (30) calendar days shall not constitute a break in service if the interruption was caused by a temporary reduction in force or delays in receipt of test scores for the Florida Teacher Certification Exam (FTCE).",
+    "page": "25",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Procedures include annual collaborative bargaining for details/timelines, consideration for promotion/higher pay or district interest, suspension for RIF/financial reasons, board override for legislative compliance, limits for new schools/consolidation, best-qualified selection requiring at least 50% senior applicants interviewed (with written justification if not), vacation of end-of-year substitute/probationary positions, ineligibility for non-reappointed/DROP/temporary/out-of-field teachers (unless moving in-field), reasonable effort to post vacancies, and cycles timed before year-end.",
+    "evidence": "A voluntary transfer is a teacher request for a change in teaching position from one school to another... 6. A minimum of fifty-percent (50%) of the applicants chosen for interview must be the most senior applicants... 8. A teacher who has not been recommended for reappointment... is not eligible...",
+    "page": "23",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "A district transfer is a transfer from one school to another that is initiated by the Administration. District transfers will be made in the best interests... Under no circumstances shall a teacher be transferred for discriminatory or capricious reasons. The convenience, location, wishes, and years of service... shall be considered... Racial composition of the staff shall take precedence over seniority... A teacher transferred by the District shall be recalled... up to the 20th student day of the next school year if a position is available...",
+    "page": "24",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Board must first assign personnel to appropriate qualified positions within the district. If unable to maintain all employees, Board must immediately meet with the Union to establish an orderly method for reducing, retraining, and recalling affected employees. (Note: Voluntary transfer process may be suspended to address RIF; seniority yields to racial composition in district transfers per Art 18).",
+    "evidence": "ARTICLE 22 REDUCTION IN FORCE... A. Should economic circumstances dictate a reduction in personnel, the Board shall take whatever steps are necessary to assign personnel to appropriate positions within the district for which they are qualified... B. Should the Board be unable to maintain all employees, it shall immediately meet with the Union to provide for an orderly method of reducing, retraining, and recalling affected employees.",
+    "page": "27",
+    "confidence": "medium"
+  }
+}

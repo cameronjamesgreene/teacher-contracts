@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "X_DCPS_2017_-_2019_tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2017-2019",
+    "evidence": "X_DCPS_2017_-_2019_tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "WTU and DCPS agree that faculty meetings shall encourage dialogue between the Supervisor and Teachers on all matters related to the School.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "tentative",
+    "evidence": "X_DCPS_2017_-_2019_tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully readable and clearly formatted throughout the provided section.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "Only federal legislation (Individuals with Disabilities Education Act) is referenced; no state laws or statutes are cited.",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

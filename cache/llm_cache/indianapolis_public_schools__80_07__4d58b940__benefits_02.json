@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Each teacher shall be covered by a vision care program paid for by the Board at a maximum Board contribution of six dollars and thirty cents ($6.30) per employee per month. Each teacher will pay twenty-six cents ($.26) annually.",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "A forty thousand dollar ($40,000) Group Term Life Insurance Plan shall be available on the same terms and conditions for all teachers. This coverage will also be made available at the same cost per thousand of coverage and otherwise on the same terms and conditions for all other IPS employees. Teachers desiring to participate will contribute twenty-six cents ($.26) annually and the Board will contribute the remainder of the premiums.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Replaced weak list-item evidence from page 3 with explicit coverage statement from Article XI, Section 2 on page 22."
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "Each teacher shall be covered by a long-term disability program, provided, however, that the maximum Board contribution shall not exceed $.33 per hundred per teacher per month. The maximum annual salary covered for any teacher for this LTD program shall increase to $80,000.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": "Replaced weak list-item evidence from page 3 with explicit coverage statement from Article XI, Section 5 on page 24."
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "Board pays teacher's contribution to Indiana State Teachers' Retirement Fund; 403(b) match dollar-for-dollar up to 0.5% of base salary or $105, whichever is less.",
+    "evidence": "The Board shall continue to pay, on behalf of each teacher, the teacher's contribution to the Indiana State Teachers' Retirement Fund. / IPS shall match the teacher's contribution dollar-for-dollar not to exceed 0.5% of the teacher's base salary or $105, whichever is less.",
+    "page": "17 / 13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "IPS will continue to pay its portion of all insurance coverages provided for in this Agreement while a teacher is on an FMLA leave.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Eligibility for continuing in the insurance programs listed in this Article shall be available to those teachers who retire prior to becoming eligible to obtain coverage under Medicare, providing the applicant has had coverage in the program for five (5) consecutive years immediately prior to retirement, and providing that such continued coverage is not contrary to the agreement with the insurance carrier.",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

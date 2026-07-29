@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "District seniority of full-time personnel will control with the least senior person being selected for placement on the “must hire” list.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Educators apply via posted ads on Career Opportunities/jobline or directly to a principal/supervisor, who submits a request to HR. If no offer is made one week before contract start, educators stay in their current position through the first 20-day count; post-20-day transfers last until the grading period ends. Proximity to home is considered seriously. Limited to two transfers per school year. Appeals of denials are handled by the Federation/Contract Administration. Special Ed vacancies prioritize the most senior qualified candidate.",
+    "evidence": "To transfer voluntarily, the educator responds to a posted advertisement in Career Opportunities (www.aps.edu) or an otherwise open position.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Consideration for involuntary transfer shall be solely based on the instructional program needs of the school and seniority in the District... Involuntary transfers made after the start of the school year shall allow for a minimum of two (2) days written notice prior to the transfer and allow for a minimum of one (1) day prior to assuming the assignment at the new location.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

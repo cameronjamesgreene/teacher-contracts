@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Teachers use and adapt resources, technologies, and standards-aligned instructional materials to promote student success in meeting learning goals. Teachers design lessons to meet the needs of diverse learners, adapting methods when appropriate.",
+    "page": "96",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "discussed_unclear",
+    "evidence": "Teachers develop lessons that build coherently toward objectives based on course content, curriculum scope and sequence, and expected student outcomes.",
+    "page": "96",
+    "confidence": "medium"
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "Users may not use their accounts for non-school related activities including but not limited to: ... Political activity: lobbying for personal political purposes;",
+    "page": "88",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

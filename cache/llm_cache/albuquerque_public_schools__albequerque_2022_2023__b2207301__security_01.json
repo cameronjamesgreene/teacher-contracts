@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "All educators are reemployed for the next school year unless notified at least ten (10) workdays prior to the last day of the school year.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall be based upon the educator's continuous length of service with the District within the bargaining unit.",
+    "page": "70",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Positions are posted on the APS Special Education website, after which employees may apply. If multiple qualified candidates apply, preference is given to the most senior employee based on their date of hire.",
+    "evidence": "Once the position(s) for related service personnel is/are posted on the APS Special Education website, employees may apply for a voluntary transfer. Additionally, under Article 17.B: 'Preference in placement shall be given to the most senior employee based on their date of hire within the classification.'",
+    "page": "63, 76",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include Article 17.B (p.76), which explicitly states the seniority preference rule that supports the answer. Original evidence only covered the posting mechanism for Special Education personnel."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Consideration for involuntary transfer shall be solely based on the instructional program needs of the school and seniority in the District... Involuntary transfers made after the start of the school year shall allow for a minimum of two (2) days written notice prior to the transfer and allow for a minimum of one (1) day prior to assuming the assignment at the new location.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "The District determines affected positions and first attempts to absorb reductions through attrition and nonrenewal of short-term educators. Instructors with fewer than 3 years of service are laid off before those with 3 or more. Those with 3+ years are retained if qualified for available positions, considering affirmative action, extracurricular needs, and seniority. Recall applies within 1 year upon written request within 30 days; seniority controls recall order. Recalled staff retain prior seniority.",
+    "evidence": "2. The District shall first attempt to absorb reductions through attrition, nonrenewal of short-term educators... 3. Layoff order shall be: a. Instructors with fewer than three (3) years of service. b. Instructors with three (3) or more years of service. i. Those instructors with three (3) or more years of service who are qualified... shall be retained... 4. Affected full-time and/or part-time educators may be retained if qualified... to meet affirmative action, extracurricular, or other District needs. 5. Any educator laid off... shall be recalled when any position within their classification becomes available... a. A recall notice issued within one (1) year shall be valid for thirty (30) calendar days. b. Recall shall be based on seniority. c. Recalled educators shall retain their prior seniority.",
+    "page": "71-72",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to quote the complete Article 15.B provisions, as the original Stage 1 evidence only quoted the first sentence and did not support the detailed RIF answer."
+  }
+}

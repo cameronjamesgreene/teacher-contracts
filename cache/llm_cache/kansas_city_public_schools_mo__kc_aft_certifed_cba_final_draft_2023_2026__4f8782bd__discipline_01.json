@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "no employee shall be disciplined or discharged except with just cause.",
+    "page": "33",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The Superintendent of Schools on or before the fifteenth (15th) day of April in each year shall notify probationary certified employees who will not be retained by the school district of the termination of their services. Termination of a permanent certified employees shall comply with the applicable state law(s) at the time of termination.",
+    "page": "30, 32",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

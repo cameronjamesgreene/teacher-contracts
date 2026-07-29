@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes. Schedule title: Schedule A. Covered years: 2019-2020 and 2020-2021. Covered employee group: Teachers (Lanes A-U, Steps 1-40). Page: 225 and 227.",
+    "evidence": "SCHEDULE A: 7–1–2019 TO 6–30–2020 (1.0% EFF. 7-1-2019), CONT’D) / SCHEDULE A: 7–1–2020 TO 6–30–2021 (1.0% EFF. 7-1-2020)",
+    "page": "225, 227",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2019-2020 and 2020-2021 school years. Effective dates: July 1, 2019 and July 1, 2020. Multiple schedules are included.",
+    "evidence": "SCHEDULE A: 7–1–2019 TO 6–30–2020 (1.0% EFF. 7-1-2019), CONT’D) / SCHEDULE A: 7–1–2020 TO 6–30–2021 (1.0% EFF. 7-1-2020)",
+    "page": "225, 227",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": [
+      "Any employee who holds a regular certificate as described by F. S. 231.17, and Rules of the State Board of Education, who has completed at least three (3) of the previous five (5) years in the District and who has been reappointed by the School Board, shall be issued a professional service contract as a teacher in such form as may be prescribed by Rules of the State Board.",
+      "Temporary military leave for military service with the United States Armed Forces or Florida National Guard will be granted with pay not to exceed seventeen (17) days of compensation as provided in Section 115.07, Florida Statutes.",
+      "Workers' Compensation leave will follow the Florida Workers' Compensation Law, Chapter 440, effective January 1, 1994."
+    ],
+    "evidence": "Any employee who holds a regular certificate as described by F. S. 231.17... Section 115.07, Florida Statutes... Florida Workers' Compensation Law, Chapter 440",
+    "page": "73, 78",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

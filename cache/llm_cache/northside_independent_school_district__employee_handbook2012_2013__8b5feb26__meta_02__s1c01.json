@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "State law grants the board of trustees the power to govern and oversee the management of the district’s schools.\nState law requires the district to employ all full-time professional employees in positions requiring a certificate from State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contracts.\nEmployees in all other positions are employed at-will or by a contract that is not subject to the procedures for nonrenewal or termination under Chapter 21 of the Texas Education Code.\nIndividuals receiving retirement benefits from the Teacher Retirement System (TRS) may be employed in certain positions on a full- or part-time basis without affecting their benefits, according to TRS rules and state law.\nTexas law also requires that parents be notified if their child is assigned for more than 30 consecutive days to a teacher who does not hold an appropriate teaching certificate.\nThe district, in accordance with state law, provides workers’ compensation benefits to employees who suffer a work-related illness or are injured on the job.\nEmployees who are unable to work because of a work-related injury will be notified of their rights and responsibilities under the Texas Labor Code.\nEmployees who have been laid off or terminated through no fault of their own may be eligible for unemployment compensation benefits under the Texas Unemployment Compensation Act.",
+    "evidence": "State law grants the board of trustees the power to govern and oversee the management of the district’s schools.",
+    "page": "not_specified",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The board has complete and final control over school matters within limits established by state and federal law and regulations.\nIn schools receiving Title I funds, the district is required by the No Child Left Behind Act (NCLB) to notify parents at the beginning of each school year that they may request information regarding the professional qualifications of their child’s teacher.\nNCLB also requires that parents be notified if their child has been assigned, or taught for four or more consecutive weeks by, a teacher who is not highly qualified.\nAll district positions are classified as exempt or nonexempt according to federal law.\nThe district compensates overtime for nonexempt employees in accordance with federal wage and hour laws.\nEmployees may be eligible to participate in the Cafeteria Plan (Section 125) and, under IRS regulations, must either accept or reject this benefit.\nHealth care benefits for employees on leave authorized under the Family and Medical Leave Act will be paid by the district as they were when they were working.",
+    "evidence": "In schools receiving Title I funds, the district is required by the No Child Left Behind Act (NCLB) to notify parents at the beginning of each school year that they may request information regarding the professional qualifications of their child’s teacher.",
+    "page": "not_specified",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "No Child Left Behind Act (NCLB), federal law, federal wage and hour laws, IRS regulations, Family and Medical Leave Act",
+    "evidence": "No Child Left Behind Act (NCLB)",
+    "page": "not_specified",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees are required to disclose in writing to the district any situation that creates a potential conflict of interest with proper discharge of assigned duties and responsibilities... This includes the following: ... Non-school employment.",
+    "page": "66",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "The employee continues to be subject to applicable state and federal laws, local policies, administrative regulations, and the Texas Educators’ Code of Ethics, even when communicating regarding personal and private matters...",
+    "page": "62",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Garland ISD is committed to maintaining an alcohol- and drug-free environment and will not tolerate the use of alcohol and illegal drugs in the workplace and at school-related or school-sanctioned activities on or off school property.",
+    "page": "64",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "yes",
+    "evidence": "Professional social media accounts are an extension of Garland ISD... Personal social media accounts should not be affiliated with GISD... Interaction with students via personal social media accounts is prohibited.",
+    "page": "54-55",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Electronic mail transmissions and other use of the technology resources are not confidential and can be monitored at any time to ensure appropriate use. Employees are required to abide by the provisions of the district’s acceptable use agreement and administrative procedures.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

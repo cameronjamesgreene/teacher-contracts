@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "GUIDELINES FOR THE EVALUATION OF PROBATIONARY TEACHERS ... Observations ... Evaluations",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": "Evidence correctly references the appended Maryland State Board of Education Resolution on page 36, as cross-referenced in Section 4.08.D of the main agreement. The appendix text is truncated in the provided snippet but confirmed by the TOC and contract reference."
+  },
+  "evaluation_system_002": {
+    "answer": "Guidelines for Evaluation of Probationary Teachers",
+    "evidence": "GUIDELINES FOR THE EVALUATION OF PROBATIONARY TEACHERS",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "at least four (4) times",
+    "evidence": "Teachers who have not achieved tenure status shall be observed periodically at least four (4) times during the school year",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "satisfactory or unsatisfactory",
+    "evidence": "Provision shall be made for an over-all assessment by the evaluator which clearly indicates a satisfactory or unsatisfactory rating.",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "no",
+    "evidence": "The evaluation shall be based on the observations of the teacher’s performance and other reasonable criteria established by local boards of education",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

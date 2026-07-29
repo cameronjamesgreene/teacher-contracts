@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Upon termination of the occupational injury or illness absence benefit, the unit member shall be entitled to the other benefits provided in this Agreement",
+      "subject_text": "the unit member",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "for the purposes of each of these sections, the absence shall be deemed to have commenced on the date of termination of the occupational injury or illness absence benefit",
+      "subject_text": "the absence",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "leave",
+      "notes": "Procedural/definitional clause determining calculation start date."
+    },
+    {
+      "quote": "entitlement or other sick leave will then be used",
+      "subject_text": "entitlement or other sick leave",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "leave",
+      "notes": "Procedural instruction on leave sequencing."
+    },
+    {
+      "quote": "but if a unit member is receiving Workers' Compensation the unit member shall be entitled to use only so much of the person's accumulated or available sick leave, or other available leave which, when added to the Workers' Compensation award will result in a payment of not more than the full salary.",
+      "subject_text": "the unit member",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": "Caps salary supplementation when receiving Workers' Compensation."
+    },
+    {
+      "quote": "During any paid absence, the District in turn shall issue the unit member appropriate salary warrants for payment of the unit member's salary",
+      "subject_text": "the District in turn",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "shall deduct normal retirement and other authorized contributions.",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Continuation of payroll duty; subject implied as District."
+    },
+    {
+      "quote": "Any unit member receiving benefits as a result of this regulation shall, during periods of injury or illness, remain within the state of California unless the District authorizes travel outside the state.",
+      "subject_text": "Any unit member receiving benefits as a result of this regulation",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Travel restriction during paid leave; functions as prohibition on unauthorized state absence."
+    },
+    {
+      "quote": "Any unit member who has been off work as the result of an occupational injury or illness shall have a signed release from the physician, duly licensed, prior to re-turning to work.",
+      "subject_text": "Any unit member who has been off work as the result of an occupational injury or illness",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": "Mandatory medical clearance requirement for return to work."
+    }
+  ]
+}

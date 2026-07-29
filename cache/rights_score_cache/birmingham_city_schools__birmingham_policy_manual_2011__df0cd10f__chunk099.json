@@ -1,0 +1,30 @@
+{
+  "clauses": [
+    {
+      "quote": "However, absent the presence of a dangerous weapon or drugs, in no case may a special education student be excluded from school in excess of ten days without the IEP Committee convening to address the behavioral issue.",
+      "subject_text": "a special education student",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Passive voice; implicit actor is district administration. Grants students a right to not be excluded >10 days without IEP review. Benefits students but mapped to worker per binary constraint."
+    },
+    {
+      "quote": "Any changes in the student's educational program or changes in placement must be decided by the IEP Committee.",
+      "subject_text": "Any changes in the student's educational program or changes in placement",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive voice; implicit actor is IEP Committee (district body). Imposes obligation to require committee approval for program/placement changes."
+    }
+  ]
+}

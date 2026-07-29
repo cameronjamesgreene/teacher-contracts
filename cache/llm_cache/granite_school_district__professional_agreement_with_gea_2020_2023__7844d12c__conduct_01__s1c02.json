@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "17.1 No certificated position for credit classes in the Adult and Community Schools shall be filled by a teacher not employed by the District during the regular school term if there is a qualified applicant for such position who is employed by the District during the regular term.",
+    "page": "29",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "It is the professional responsibility of every professional person to use this sick leave only for the purpose intended. Any proven misuse thereof would be considered unethical, unprofessional, and in violation of the teacher's contract.",
+    "page": "30",
+    "confidence": "medium"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Documentation regarding improper teacher conduct in the following areas will remain in the file: · Conduct which violates the law; · Physical contact with students; · Conduct involving drugs or alcohol; · Sexual conduct.",
+    "page": "24",
+    "confidence": "medium"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

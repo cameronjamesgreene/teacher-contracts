@@ -1,0 +1,304 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "SALARY SCHEDULE: Full credit will be given for verified K12 teaching service",
+      "population": "Teachers (Non-Credentialed and Full-Credentialed)",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "",
+      "lane_labels": [
+        "CLASS I (A01)",
+        "CLASS II (A02)",
+        "CLASS III (A03)",
+        "CLASS IV (A04)"
+      ],
+      "step_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "cells": [
+        {
+          "step": "0",
+          "lane": "CLASS I (A01)",
+          "value": "54839.21",
+          "cell_code": null
+        },
+        {
+          "step": "0",
+          "lane": "CLASS II (A02)",
+          "value": "58129.61",
+          "cell_code": null
+        },
+        {
+          "step": "0",
+          "lane": "CLASS III (A03)",
+          "value": "61420.02",
+          "cell_code": null
+        },
+        {
+          "step": "0",
+          "lane": "CLASS IV (A04)",
+          "value": "64710.07",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "CLASS I (A01)",
+          "value": "58129.61",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "CLASS II (A02)",
+          "value": "61420.02",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "CLASS III (A03)",
+          "value": "64710.07",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "CLASS IV (A04)",
+          "value": "68000.65",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "CLASS I (A01)",
+          "value": "61420.02",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "CLASS II (A02)",
+          "value": "64710.07",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "CLASS III (A03)",
+          "value": "68000.65",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "CLASS IV (A04)",
+          "value": "71291.06",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "CLASS I (A01)",
+          "value": "64710.07",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "CLASS II (A02)",
+          "value": "68000.65",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "CLASS III (A03)",
+          "value": "71291.06",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "CLASS IV (A04)",
+          "value": "74581.46",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "CLASS I (A01)",
+          "value": "68000.65",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "CLASS II (A02)",
+          "value": "71291.06",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "CLASS III (A03)",
+          "value": "74581.46",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "CLASS IV (A04)",
+          "value": "77871.52",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "CLASS I (A01)",
+          "value": "71291.06",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "CLASS II (A02)",
+          "value": "74581.46",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "CLASS III (A03)",
+          "value": "77871.52",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "CLASS IV (A04)",
+          "value": "81161.92",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "CLASS I (A01)",
+          "value": "74581.46",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "CLASS II (A02)",
+          "value": "77871.52",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "CLASS III (A03)",
+          "value": "81161.92",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "CLASS IV (A04)",
+          "value": "84452.33",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "CLASS I (A01)",
+          "value": "77871.52",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "CLASS II (A02)",
+          "value": "81161.92",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "CLASS III (A03)",
+          "value": "84452.33",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "CLASS IV (A04)",
+          "value": "87742.73",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "CLASS I (A01)",
+          "value": "-",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "CLASS II (A02)",
+          "value": "84452.33",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "CLASS III (A03)",
+          "value": "87742.73",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "CLASS IV (A04)",
+          "value": "91032.96",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "CLASS I (A01)",
+          "value": "-",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "CLASS II (A02)",
+          "value": "-",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "CLASS III (A03)",
+          "value": "91032.96",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "CLASS IV (A04)",
+          "value": "94323.54",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "CLASS I (A01)",
+          "value": "-",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "CLASS II (A02)",
+          "value": "-",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "CLASS III (A03)",
+          "value": "-",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "CLASS IV (A04)",
+          "value": "97613.77",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Levels 0 is designated for 'Non-Credentialed Teachers'; Levels 1-10 are for 'Full-Credentialed Teachers'. Dashes indicate entries not applicable or not listed for that class/step combination.",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

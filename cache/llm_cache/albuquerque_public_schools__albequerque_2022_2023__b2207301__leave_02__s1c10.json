@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "5 days total (3 paid automatically, 2 paid if requested); not cumulative.",
+    "evidence": "Up to five (5) days. Three (3) days of leave with pay is automatically granted and two (2) additional days leave with pay will be granted if requested. Bereavement leave is not cumulative nor is it deducted from an educator's sick leave.",
+    "page": "106",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "any portion of an educator's absence from work because of a medical disability connected with or resulting from her pregnancy may be charged to her available sick leave.",
+    "page": "107",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "An educator adopting a child shall be entitled upon request to a leave commencing when custody occurs or prior to receiving custody if necessary to fulfill the requirement of adoption.",
+    "page": "107",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

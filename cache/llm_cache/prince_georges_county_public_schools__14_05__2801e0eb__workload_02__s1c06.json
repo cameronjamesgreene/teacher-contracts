@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "no",
+    "evidence": "Announcement of meetings shall state whether attendance is required.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "no",
+    "evidence": "relieved by the Principal of all special non-teaching assignments.",
+    "page": "28",
+    "confidence": "high"
+  }
+}

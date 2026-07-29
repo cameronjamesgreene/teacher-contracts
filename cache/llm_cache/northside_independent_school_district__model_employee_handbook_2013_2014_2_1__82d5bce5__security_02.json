@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "1 school year (3 school years with an optional 4th for those with less experience)",
+    "evidence": "The probationary period for those who have been employed as a teacher in public education for at least five of the eight years preceding employment with the district may not exceed one school year. For those with less experience, the probationary period will be three school years (i.e., three one-year contracts) with an optional fourth school year if the board determines it is doubtful whether a term or continuing contract should be given.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contracts.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Professional employees whose positions require SBEC certification or professional license are responsible for taking actions to ensure their credentials do not lapse. Employees must submit documentation that they have passed the required certification exam and/or obtained or renewed their credentials to Donna Lee in a timely manner.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

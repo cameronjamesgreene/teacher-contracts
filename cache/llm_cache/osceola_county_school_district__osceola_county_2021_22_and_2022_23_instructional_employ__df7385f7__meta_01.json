@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA / Tentative Agreement",
+    "evidence": "INSTRUCTIONAL EMPLOYEES CONTRACT BETWEEN THE SCHOOL BOARD OF OSCEOLA COUNTY, FLORIDA (OCSB) AND THE OSCEOLA COUNTY EDUCATION ASSOCIATION (OCEA)",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 01, 2021 through June 30, 2023",
+    "evidence": "July 01, 2021 through June 30, 2023",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees / Teachers",
+    "evidence": "Unit: The term \"Teacher\" when used in this Contract shall refer to all teachers who are regularly employed certificated personnel except those specifically excluded.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "THIS AGREEMENT ENTERED INTO THIS 30TH DAY OF AUGUST, 1985... IN CONSIDERATION OF THE FOLLOWING MUTUAL COVENANTS, IT IS HEREBY AGREED as follows:",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Changed to not_discussed per instructions due to empty evidence field."
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "The Board will make available to the Association budgetary data to which they are entitled under Florida Statutes as soon as it is made available to the Board.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

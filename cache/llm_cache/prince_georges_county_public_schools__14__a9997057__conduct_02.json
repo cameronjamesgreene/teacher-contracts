@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "teachers shall be responsible for presenting all sides of an issue and for providing students with the opportunity to investigate all facets and/or opinions of or about any and all germane topics and materials of the curriculum introduced or presented",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "guarantees to all of its employees full equality with other citizens in the exercise of their political rights and responsibilities including such rights as voting, discussing political issues, campaigning for candidates and running for",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "The personal life of the teacher or the participation or non-participation in religious, political or teacher association activities of a teacher conducted outside duty hours and off school property shall not be grounds for disciplinary action unless such action is shown to interfere with the regular conduct of the school or schools in Prince George's County.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

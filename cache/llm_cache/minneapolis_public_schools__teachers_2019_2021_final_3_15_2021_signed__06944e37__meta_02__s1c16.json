@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Therefore, no tenure rights are attached (i.e., receiving extended time is not guaranteed in future years), pursuant to the Teacher Tenure Act, §122A.41",
+    "evidence": "Therefore, no tenure rights are attached (i.e., receiving extended time is not guaranteed in future years), pursuant to the Teacher Tenure Act, §122A.41",
+    "page": "145",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Teachers on paid or Family Medical Leave Act (FMLA) leaves of absence must pay their portion of premium (if any).\nTeachers who are laid off may continue coverage at the teachers' own expense as provided by federal and state cobra continuation coverage laws.\nThe before-tax deductions are subject to the requirements of Section 125 of the Internal Revenue Code as amended from time to time.\nA teacher may designate an amount per year, from earnings on which there will be no federal income tax withholding, for dependent care assistance (as defined in Section 125 of the Internal Revenue Code as amended from time to time) to allow the teacher to work.\nA teacher may designate an amount per year to be placed into the teacher's Flexible Spending Account (as defined in Section 125 of the Internal Revenue Code).\nThe amounts in the account may be used to reimburse the teacher for uncovered medical, dental and other related expenses (as defined in Section 125 of the Internal Revenue Code) for the employee and dependents.\nThis provision is subject to IRS rulings, federal and/or state laws.",
+    "evidence": "Teachers on paid or Family Medical Leave Act (FMLA) leaves of absence must pay their portion of premium (if any). Teachers who are laid off may continue coverage at the teachers' own expense as provided by federal and state cobra continuation coverage laws. The before-tax deductions are subject to the requirements of Section 125 of the Internal Revenue Code as amended from time to time.",
+    "page": "152, 154, 155",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family Medical Leave Act (FMLA), federal and state cobra continuation coverage laws, Section 125 of the Internal Revenue Code, IRS rulings",
+    "evidence": "Family Medical Leave Act (FMLA), federal and state cobra continuation coverage laws, Section 125 of the Internal Revenue Code, IRS rulings",
+    "page": "152, 154, 155",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Each teacher shall have a thirty (30) minute, duty free, uninterrupted lunch period exclusive of passing time",
+    "page": "",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "no",
+    "evidence": "",
+    "page": "",
+    "confidence": "medium"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "",
+    "confidence": "medium"
+  }
+}

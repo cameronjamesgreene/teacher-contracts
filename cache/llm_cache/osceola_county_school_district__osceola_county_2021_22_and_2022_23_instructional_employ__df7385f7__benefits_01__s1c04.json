@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The Board will annually provide a fully paid individual major medical plan to all full-time teachers.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Fully paid for full-time teachers; half-paid for part-time (filling half or more but less than full-time) teachers",
+    "evidence": "The Board will annually provide a fully paid individual major medical plan to all full-time teachers. ... Teachers, who fill half or more but less than full-time positions, shall annually receive Board half-paid health insurance.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Dependent coverage shall be available at the expense of the teacher.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Medical Indemnity Plan",
+    "evidence": "Specific benefits shall be as delineated in “The School District of Osceola County Florida Medical Indemnity Plan Document”",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "The Board will make available to teachers, disability benefits, an indemnity dental insurance plan and vision insurance plan through payroll deduction at the teacher's expense",
+    "page": "56",
+    "confidence": "high"
+  }
+}

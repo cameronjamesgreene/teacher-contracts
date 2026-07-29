@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees of the Aldine Independent School District are discouraged from sponsoring student tours/trips on non-school time. School time, materials, and equipment cannot be used to aid in recruiting students for such tours/trips by an employee, the following disclaimer must be communicated to the parents in writing:",
+    "page": "159",
+    "confidence": "medium",
+    "coder_notes": "Evidence specifically restricts recruiting students for outside tours/trips and using district resources for such activities, aligning with conflict of interest/tutoring restrictions."
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "we shall perform our duties honestly, competently, efficiently, expediently, and harmoniously and in strict compliance with the ethical standards of our profession.",
+    "page": "195",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Any employee using, selling, possessing, distributing, transferring, or manufacturing illegal substances in any setting and at any time will be in violation of Aldine Independent School District's employment policy and faces swift and severe disciplinary action and probable dismissal. Employees needing assistance related to drug or alcohol abuse may contact an area Alcoholics Anonymous, Palmer Drug Abuse Program, or another program of their choice.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "discussed_unclear",
+    "evidence": "Permission must be obtained from the superintendent and your school assistant superintendent if your staff plans to post any information on a web site or web service other than the official Aldine web site.",
+    "page": "169",
+    "confidence": "medium",
+    "coder_notes": "Revised to discussed_unclear. The passage regulates posting official district information on websites/web services, rather than broadly regulating personal employee social media use."
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Use of school district technology devices (TDs) is authorized only to further school district purposes. The school district does not authorize use of its network resources for private purposes... Employees doing so commit job related misconduct and are subject to being discharged from employment for good cause",
+    "page": "168",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

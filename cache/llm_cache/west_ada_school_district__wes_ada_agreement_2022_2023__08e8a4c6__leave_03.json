@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "The provided original document text is entirely blank. Unable to verify content, retaining 'not_discussed'. Confidence set to low due to missing source material."
+  }
+}

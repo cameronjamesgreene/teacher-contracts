@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "The district does not give any additional leave for bereavement. Employees can use local, state personal, or extended leave for bereavement if available.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "The district does not give any additional leave for bereavement. Employees can use local, state personal, or extended leave for bereavement if available.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Sick leave may be used for the following reasons only: • Baby bonding",
+    "page": "39",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Pregnancy and conditions related to pregnancy are treated the same as any other temporary disability.",
+    "page": "43",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Extended leave shall be granted for... absences related to the birth or placement of a child when leave is taken within the first year after the child’s birth, adoption, or foster placement.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Family and Medical Leave Act (FMLA) General Provisions\nThe following text is from the federal notice, Employee Rights and Responsibilities Under the Family and Medical Leave Act.",
+    "page": "40",
+    "confidence": "high"
+  }
+}

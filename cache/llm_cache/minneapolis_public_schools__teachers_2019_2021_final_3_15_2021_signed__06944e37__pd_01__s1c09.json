@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The Minneapolis Federation of Teachers in collaboration with the Minneapolis Public Schools launched its professional continuum journey in 1984 with the start of a teacher mentoring program for first year teachers. ... supported by a District PAR mentor in the first year of teaching",
+    "page": "82",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Every site will identify a teacher leader or team of teacher leaders to coordinate the on-site support for PDP. ... PDP Site Coordinator Responsibility Pay (contingent on continued funding) will be determined by the size of the site and completion of job expectations.",
+    "page": "89",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

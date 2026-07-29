@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Original document text was empty in the prompt. Unable to verify or find supporting passages. Confidence reduced to low; answer preserved as not_discussed."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Original document text was empty in the prompt. Unable to verify or find supporting passages. Confidence reduced to low; answer preserved as not_discussed."
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Original document text was empty in the prompt. Unable to verify or find supporting passages. Confidence reduced to low; answer preserved as not_discussed."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Original document text was empty in the prompt. Unable to verify or find supporting passages. Confidence reduced to low; answer preserved as not_discussed."
+  }
+}

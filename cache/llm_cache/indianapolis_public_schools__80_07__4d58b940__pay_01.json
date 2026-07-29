@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX A ... SALARY SCHEDULES ... The salary scale for the 2007-2008 and 2009-2010 school years shall be as shown following paragraph 9 of this Appendix A.",
+    "page": "37-39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2007-2008, 2008-2009, and 2009-2010",
+    "evidence": "2007-2008, 2008-2009, and 2009-2010",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Open periods to record credit shall extend thirty (30) days beyond the beginning of either school semester and pay adjustment shall be retroactive to the beginning of the same semester.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence quoted a deadline for recording academic credit, which does not explain annual step advancement. The document provides a salary schedule table by years of experience but does not explicitly detail the step advancement process."
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "All teachers shall receive full credit on the salary schedule for full-time outside school-teaching experience in pre-K to 12 accredited schools completed after the teacher received a Bachelor's degree.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

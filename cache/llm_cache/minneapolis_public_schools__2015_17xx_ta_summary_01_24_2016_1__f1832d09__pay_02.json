@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "2.50% effective January 1, 2016; 2.0% effective July 1, 2016. Applies to red-lined salaries and the 2015-17 schedule.",
+    "evidence": "XX. Salary Enhancements: Increase salary amounts as follows: 2015-2016: 2.50% increase, effective January 1, 2016. Applies to salaries for all staff who are red-lined. 2016-2017: 2.0% increase, effective July 1, 2016. Applies to salaries for all staff who are red-lined (salaries beyond Lane U). Allow red-lined teachers to move up one (1) lane for ProPay course work.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to capture full contract language regarding red-lined salaries and ProPay lane movement."
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

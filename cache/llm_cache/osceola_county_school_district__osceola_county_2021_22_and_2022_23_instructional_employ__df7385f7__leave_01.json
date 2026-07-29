@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "12",
+    "evidence": "Each full-time teacher shall receive four (4) days of sick leave as of the first day of employment of the current contract year, and thereafter shall be credited with one (1) additional day of sick leave at the end of each month of employment to a maximum of ten (10) days for ten (10) month teachers, eleven (11) days for eleven (11) month teachers, and twelve (12) days for twelve (12) month teachers.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, accumulates indefinitely with no stated cap.",
+    "evidence": "The total unused portion of the annual sick leave shall be permitted to accumulate indefinitely.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Death or illness of father, mother, brother, sister, husband, wife, child, other close relative, or member of his/her own household.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "6",
+    "evidence": "Teachers shall be granted six (6) days of leave for personal reasons with pay per school year.",
+    "page": "43",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Advance notification required; reason must cite the Contract; limited to 1 day during summer school; charged to sick leave.",
+    "evidence": "Notification of leave for personal reasons shall be made in advance. ... The applicant's reason for taking leave for personal reasons shall be to state that he is taking it under the provisions of this Contract. ... Since Summer School is an extended portion beyond the regular school year, the use of personal leave shall be limited to one (1) day of the personal days in the contract. ... Leave for personal reasons shall be charged to sick leave when used under this part.",
+    "page": "43",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly include the contract citation requirement and summer school limitation clause for complete coverage of restrictions."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "not_discussed",
+    "evidence": "3.) Recommend that the employee is discharged/terminated. d.) The statutory process for termination/discharge will be followed. c.) It is the principal’s responsibility to communicate the decision to the teacher in a summary letter.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The evidence quoted in Stage 1 is completely absent from the provided document text. The provided document ends at Article 6, section E.3, and does not contain any provisions regarding dismissal, termination, or discharge procedures. Changed to not_discussed."
+  }
+}

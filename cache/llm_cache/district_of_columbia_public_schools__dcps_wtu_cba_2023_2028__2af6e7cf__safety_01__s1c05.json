@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "A Teacher who is the victim of an act of violence and who sustains disability on the job and acting within the course and scope of his/her duties shall be allowed leave with pay in accordance with workers compensation law and provisions",
+    "page": "57",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "18.1.6. If a student conducts himself/herself in such a manner that seriously impedes learning for himself/herself and other students, or if the safety of himself/herself, other students, or the Teacher is seriously threatened, a Teacher shall be free to send or escort the student to the Supervisor's office",
+    "page": "56",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "18.1.6. ... a Teacher shall be free to send or escort the student to the Supervisor's office, or to send for the Supervisor or his/her designee.",
+    "page": "56",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "23.5.1. DCPS shall announce any emergency closing via the DCPS website at the earliest possible time.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

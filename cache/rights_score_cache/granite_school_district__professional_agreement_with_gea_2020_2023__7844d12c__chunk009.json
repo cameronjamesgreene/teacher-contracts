@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "The principal or district office director shall have up to 10 working days after receiving the written grievance to investigate the matter, make a decision, and communicate the decision in writing to the teacher.",
+      "subject_text": "The principal or district office director",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "If no mutually agreeable settlement is reached in step two, the teacher may file the grievance with the Association",
+      "subject_text": "the teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "the Association may submit the written grievance to the Superintendent within 10 working days after receiving the answer in step two, requesting that the principal's or district office director’s decision be reviewed.",
+      "subject_text": "the Association",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The Superintendent or the Superintendent’s designee shall assign a grievance examiner within ten working days after receiving the written grievance from the Association.",
+      "subject_text": "The Superintendent or the Superintendent’s designee",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The grievance examiner shall schedule a hearing not fewer than ten working days or more than 20 working days after receiving the assignment, except upon mutual agreement between the parties.",
+      "subject_text": "The grievance examiner",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The grievance examiner shall receive and review such evidence as the parties present that is relevant to the grievance and shall thereupon determine the facts of the matter; whether or not the Agreement has been violated, misinterpreted, or misapplied; and report these determinations with recommendations to the Superintendent or the Superintendent’s designee within five working days following the meeting.",
+      "subject_text": "The grievance examiner",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The Superintendent or the Superintendent’s designee shall make a decision within ten working days after receiving the grievance examiner’s report and communicate the decision in writing to the parties concerned.",
+      "subject_text": "The Superintendent or the Superintendent’s designee",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "In the event that no mutually agreeable settlement is reached in the foregoing procedure, the teacher may, within 15 working days after receiving the decision of the Superintendent or the Superintendent’s designee in step three, request that the Association file a petition in the Superintendent’s office requesting that the matter be referred to an impartial third party from outside the District for review and recommendations.",
+      "subject_text": "the teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    }
+  ]
+}

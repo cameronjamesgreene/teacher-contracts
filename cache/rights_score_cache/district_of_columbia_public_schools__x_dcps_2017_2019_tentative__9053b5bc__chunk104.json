@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS shall collaborate with the WTU on the expansion of the Together Everyone Achieves More (TEAM) school-wide bonus program (originally defined by the December 17, 2007 Memorandum of Agreement between DCPS and the WTU) by broadening eligibility requirements based on a growth metric.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers who receive an evaluation score of Minimally Effective shall be held on their current salary step.",
+      "subject_text": "Teachers who receive an evaluation score of Minimally Effective",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Passive voice; implicit agent is management holding salary step."
+    },
+    {
+      "quote": "Such Teachers who earn an evaluation scored of Effective or higher shall be immediately moved to the next step.",
+      "subject_text": "Such Teachers who earn an evaluation scored of Effective or higher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Passive voice; implicit agent is management promoting step."
+    },
+    {
+      "quote": "Teachers shall receive a service credit of up to nine (9) years for:",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "seniority",
+      "notes": "Trailing colon indicates list follows, but main clause extracted."
+    },
+    {
+      "quote": "Administrative premium shall be provided to Teachers for participating in:",
+      "subject_text": "Administrative premium",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Passive voice; implicit agent is management."
+    },
+    {
+      "quote": "Administrative premium shall be provided according to the follow schedule, for qualified administrative work performed after ratification and approval of this Agreement:",
+      "subject_text": "Administrative premium",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Passive voice."
+    },
+    {
+      "quote": "Extra-duty pay shall remain at the levels in effect as of the 2016-2017 school year until changes are mutually agreed to by the Parties.",
+      "subject_text": "Extra-duty pay",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "All secondary Department Chairs shall receive an annual non-pensionable stipend as stipulated below.",
+      "subject_text": "All secondary Department Chairs",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "The Parties agree to discuss additional compensation options for elementary Grade Level Chairs.",
+      "subject_text": "The Parties",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Joint obligation to discuss."
+    }
+  ]
+}

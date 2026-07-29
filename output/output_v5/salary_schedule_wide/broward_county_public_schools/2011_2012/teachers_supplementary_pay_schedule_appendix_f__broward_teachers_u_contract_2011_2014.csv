@@ -1,0 +1,49 @@
+# Broward_Teachers_U_Contract_2011_2014.pdf — TEACHERS SUPPLEMENTARY PAY SCHEDULE - APPENDIX F (2011-2012)
+# population: Teachers | is_teacher_schedule: True
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit corrected this table"
+step,value
+5. Career Education,717
+6. Bus Duty (Based on number of buses supervised) 1-6,358
+6. Bus Duty (Based on number of buses supervised) 7-12,717
+6. Bus Duty (Based on number of buses supervised) above 12,1076
+7. Textbook Chairperson 1-700,717
+"7. Textbook Chairperson (Based on student population of October FTE counts) 701-1,400",1076
+"7. Textbook Chairperson 1,401-above",1434
+8. Media Center Director (Directing two [2] or more bargaining unit employees),1185
+9. Sports for Athletics with Disabilities (4),717
+10. Media Center Coordinator (Directing one [1] or more employees),358
+11. Florida Future Educators of America,782
+1. Athletics Director,1995
+2. Cross-Country (Boys' & Girls' Team),1302
+3. Wrestling,1302
+4. Tennis (Boys' & Girls' Team),1302
+5. Softball (Boys' & Girls' Team),1302
+6. Basketball (Boys' Team),1302
+6. Basketball (Girls' Team),1302
+7. Track (Boys' Team),1302
+7. Track (Girls' Team),1302
+8. Field Events,1302
+9. Swimming (Boys' & Girls' Team),1302
+10. Volleyball (Boys' Team),1302
+10. Volleyball (Girls' Team),1302
+11. Gymnastics (Girls' Team),1302
+12. Soccer,1302
+13. Cheerleaders,1302
+14. Intramurals,1302
+1. Band or Orchestra,1185
+2. Vocal Director,1185
+3. Music Assistant,788
+F. Academic Competition (1),717
+1. Safety Patrol,359
+2. Inservice Facilitator 0-50 units,521
+2. Inservice Facilitator (51 & up - $7.17 per unit) maximum,1043
+3. Career Education,430
+4. Bus Duty 1-6,359
+4. Bus Duty 7-12,717
+4. Bus Duty above 12,1075
+5. Textbook Chairperson 1-700,717
+"5. Textbook Chairperson (Based on student population as of October FTE count) 701-1,400",1075
+"5. Textbook Chairperson 1,401 - up",1434
+6. Sports for Athletics with Disabilities (4),717
+7. Environmental/Science Coordinator,458
+8. Academic Competition (1),717

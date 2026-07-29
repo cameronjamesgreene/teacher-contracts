@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "- Raffles, lotteries and other games of chance are prohibited by State Law, and shall not be conducted on school property or by school organizations.\n- TEC§ Sec. 25.085 states that “a child shall attend school each school day for the entire period the program of instruction is provided”.\n- A school day shall be at least seven hours each day, including intermissions and recesses (TEC§ Sec. 25.082).\n- A child shall not have unexcused absences on 10 or more days or parts of days within a six month period in the same school year or on three or more days or parts of days within a four-week period from school (Family Code Sec. 51.03).",
+    "evidence": "TEC§ Sec. 25.085 states that “a child shall attend school each school day for the entire period the program of instruction is provided”.",
+    "page": "56-57",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "- Foods made available to students through school must comply with federal and state child nutrition laws and regulations as stated in Section 15, Cafeteria Policies.\n- Organizations identified as a non-profit with a 501(c) status are not permitted to conduct raffles, lotteries and other games of chance on district property.",
+    "evidence": "Foods made available to students through school must comply with federal and state child nutrition laws and regulations as stated in Section 15, Cafeteria Policies.",
+    "page": "56, 62",
+    "confidence": "medium"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal and state child nutrition laws and regulations; 501(c) status",
+    "evidence": "Foods made available to students through school must comply with federal and state child nutrition laws and regulations as stated in Section 15, Cafeteria Policies.",
+    "page": "62",
+    "confidence": "medium"
+  }
+}

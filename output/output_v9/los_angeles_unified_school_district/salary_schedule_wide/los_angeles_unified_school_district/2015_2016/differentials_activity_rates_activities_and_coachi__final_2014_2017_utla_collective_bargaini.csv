@@ -1,0 +1,12 @@
+"# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — DIFFERENTIALS, ACTIVITY RATES (ACTIVITIES AND COACHING): (2015-2016)"
+# population: Activity and Coaching | is_teacher_schedule: False
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped; cross_grid_contamination: a value column matches a column in a different schedule (p336) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p352) — one grid's data may be contaminated from another; verify | audit corrected this table"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Rate
+1394,973
+1401,"1,283"
+1402,"1,691"
+1403,"2,102"
+1404,"2,311"
+1407,"2,512"
+1410,"2,811"

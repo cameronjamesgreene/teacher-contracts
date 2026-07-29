@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "192 days for 10-month employees; 212 days for 11-month employees; +3 pre-service days for new teachers",
+    "evidence": "Professional personnel employed for ten months may be scheduled to work 192 days in the school year. Professional personnel employed for eleven months will work two hundred and twelve (212) days. New teachers shall have three (3) days assigned as pre-service days in addition to the 192 days",
+    "page": "7",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7 1/2 hours inclusive of lunch time",
+    "evidence": "The normal work day for professional personnel employed for ten months shall be 7 1/2 hours inclusive of lunch time.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Teacher planning time will be scheduled in accordance with the following procedures: 1. Secondary schools: The Principal shall schedule a continuous block of forty-five minutes daily of planning time... 2. Elementary Schools and Special Education Centers: The Principal shall schedule 225 minutes of planning time for each teacher per regular work week",
+    "page": "7-8",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: 45 minutes daily; Elementary/Special Ed: 225 minutes weekly + 30 minutes (or equal to student lunch/recess, min 25 mins) daily during student lunch/recess",
+    "evidence": "Secondary schools: The Principal shall schedule a continuous block of forty-five minutes daily of planning time during the work day of 7 1/2 hours for each teacher. Elementary Schools and Special Education Centers: The Principal shall schedule 225 minutes of planning time for each teacher per regular work week of five normal work days... schedule a block of thirty (30) minutes or the time equal to scheduled student lunch and recess periods (but not less than 25 minutes) of daily uninterrupted planning time",
+    "page": "7-8",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Except as may be necessitated by G below, teachers will be responsible for determining the use of their planning time in accordance with F below... Except for the lunch period, any non-teaching time of a teacher shall be devoted to professional activities such as planning the instructional program, conferring or meeting with pupils, parents and colleagues, studying and maintaining records and any other professional endeavors.",
+    "page": "7-8",
+    "confidence": "medium"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Each professional person shall be provided a lunch period free of duty each regularly scheduled school day as established by Maryland School Law. The period shall extend for at least thirty (30) minutes... At the elementary level, a total of thirty (30) minutes will be provided during the lunch/recess time period.",
+    "page": "7",
+    "confidence": "high"
+  }
+}

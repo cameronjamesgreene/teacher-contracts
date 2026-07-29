@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Master Agreement... shall be binding upon the parties.",
+    "page": "31, 36",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Ends November 30th, 2007",
+    "evidence": "The provisions of this agreement will remain in force and effect until modified by negotiations or through November 30th, 2007.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certified employees",
+    "evidence": "An 'aggrieved person' is a certified employee or certified employees asserting a grievance.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "This Agreement is signed this ________ day of ____________________ and shall be binding upon the parties.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "...pursuant to Idaho Code.",
+    "page": "27",
+    "confidence": "high"
+  }
+}

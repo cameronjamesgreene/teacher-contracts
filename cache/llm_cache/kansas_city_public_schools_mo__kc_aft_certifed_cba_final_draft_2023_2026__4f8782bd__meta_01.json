@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "collective bargaining agreement (CBA)",
+    "evidence": "Collective Bargaining Agreement Between Kansas City Public Schools And The Kansas City Federation of Teachers for Certified Staff",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2023 to July 1, 2026",
+    "evidence": "This Collective Bargaining Agreement (hereinafter called the “CBA”) is entered into this 1 day of July 2023... The term of this Agreement shall remain in effect until July 1, 2026",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certified Unit (teachers, counselors, school librarians, and other full-time, certificated, non-supervisory employees)",
+    "evidence": "The KCFT & SRP is recognized as the majority representative of the unit consisting of teachers, counselors, school librarians and other full-time, certificated, non-supervisory employees performing tasks similar to the positions listed above. This unit shall be referred to as the Certified Unit.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "This Collective Bargaining Agreement (hereinafter called the “CBA”) is entered into this 1 day of July 2023, by and between Kansas City Public Schools and The Kansas City Federation of Teachers and School Related Personnel.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The document text is fully clear, readable, and well-structured throughout, including the Table of Contents, all Articles, and Appendices.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Updated evidence field as it was previously empty."
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "According to state law, the first five (5) years of employment of all certified employees entering the employment of school district shall be deemed a period of probation during which period all appointments of teachers shall expire at the end of the school year.",
+    "page": "30",
+    "confidence": "medium",
+    "coder_notes": "Updated answer from 'no' to 'yes' and confidence to 'medium' as the document explicitly references 'state law' in Article VIII, though it does not cite specific statute numbers."
+  }
+}

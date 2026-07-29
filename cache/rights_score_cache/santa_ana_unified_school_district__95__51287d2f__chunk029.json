@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "If there are more than fifty (50) participants in any intramural program, an additional coach may be added.",
+      "subject_text": "an additional coach",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "compensation",
+      "notes": "Conditional entitlement to an extra coaching position based on participant count."
+    },
+    {
+      "quote": "Should the number of participants drop below fifty-one (51) at any time prior to three (3) weeks before the close of the season, the assignment shall be terminated",
+      "subject_text": "the assignment",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Management duty to terminate under-enrolled coaching programs."
+    },
+    {
+      "quote": "the compensation prorated accordingly.",
+      "subject_text": "the compensation",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Verbatim lacks modal but contextually implies 'shall be' prorated pay."
+    },
+    {
+      "quote": "The rate of weekly compensation for intermediate coaches listed below will be determined by dividing the appropriate percent of Class III, Step 7 of the salary schedule by 11.",
+      "subject_text": "The rate of weekly compensation for intermediate coaches listed below",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Mandates the mathematical formula for calculating stipend rates."
+    },
+    {
+      "quote": "All coaches will be paid for the recognized length of the season of the sport coached.",
+      "subject_text": "All coaches",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Guarantees full-season compensation for coaches."
+    },
+    {
+      "quote": "Three (3) or more days of practice/competition per week during spring or winter recess will be considered as one (1) week.",
+      "subject_text": "Three (3) or more days of practice/competition per week during spring or winter recess",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Defines credit accrual rules for pay calculation."
+    }
+  ]
+}

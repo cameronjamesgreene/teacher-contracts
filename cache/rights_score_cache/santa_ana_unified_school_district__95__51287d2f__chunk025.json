@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "The Salary Credit Review Committee shall review unusual circumstances not covered by the provisions contained in this article.",
+      "subject_text": "The Salary Credit Review Committee",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members may make application for review with rationale to the Committee through the Office of Human Resources.",
+      "subject_text": "Unit members",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Committee's written recommendation and rationale shall be forwarded to the Superintendent's Cabinet via the Associate Superintendent, Human Resources, with a copy sent to the unit member.",
+      "subject_text": "The Committee's written recommendation and rationale",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The written decision of the Cabinet shall be sent to the unit member and to the chairperson of the Committee.",
+      "subject_text": "The written decision of the Cabinet",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "School Year 2003-2004 teachers’ and psychologists’ salary schedules shall be decreased .5% (one half percent) from the 2002-2003 salary schedule reflecting a school year of 186 work days (180 instructional days, 3 duty days, 3 staff development days).",
+      "subject_text": "School Year 2003-2004 teachers’ and psychologists’ salary schedules",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Operative salary adjustment clause."
+    },
+    {
+      "quote": "Work days for non-186 day unit members’ calendars shall be decreased by one day from 2002-2003.",
+      "subject_text": "Work days for non-186 day unit members’ calendars",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Calendar adjustment."
+    },
+    {
+      "quote": "For school year 2004-2005 teachers' and psychologists' salary schedules shall be decreased 3.5% (three and one half percent) from the 2003-2004 salary schedule reflecting a school year of 185 work days (180 instructional days, 2 duty days, 3 staff development days).",
+      "subject_text": "teachers' and psychologists' salary schedules",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": "Operative salary adjustment clause."
+    },
+    {
+      "quote": "Work years for all unit members shall be reduced by two days from the 2002-2003 calendar.",
+      "subject_text": "Work years for all unit members",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Calendar adjustment."
+    },
+    {
+      "quote": "For school year 2005-2006 the teachers' and psychologists' salary schedules and length of work year calendar shall remain the same as during 2004-2005 (180 instructional days, 2 duty days, 3 staff development days).",
+      "subject_text": "the teachers' and psychologists' salary schedules and length of work year calendar",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "Albuqurque_tentative_agreement_15-16.pdf",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "teachers",
+    "evidence": "eligible teachers having experienced benefit eligible catastrophic illnesses",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "The determination of the Arbitrator on matters set forth in this Agreement shall be final and binding.",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Leave to teach at a charter school shall be granted as required by, and in accordance with the1999 Charter Schools Act.",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

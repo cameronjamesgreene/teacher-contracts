@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "ARTICLE 6, E. Teacher Leadership Position Descriptions: The following explanations apply to the teacher leadership positions identified herein. Teacher Leadership Positions are in place to support distributive leadership throughout the school and are intended to be held by multiple members of the staff.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

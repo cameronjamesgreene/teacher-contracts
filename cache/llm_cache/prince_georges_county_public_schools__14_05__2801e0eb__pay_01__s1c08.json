@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "Junior ROTC instructors shall be entitled to placement and advancement on the salary schedule in accordance with existing terms and conditions of the Negotiated Agreement except where noted in this Memorandum of Agreement.",
+    "page": "43",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Junior ROTC instructors employed during the life of this agreement shall be entitled to a maximum of 11 years prior verified teaching experience in the military academies/institutions, JROTC programs or educational institutions. ... Junior ROTC instructors shall continue to receive a maximum of two (2) years credit for military service.",
+    "page": "43",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

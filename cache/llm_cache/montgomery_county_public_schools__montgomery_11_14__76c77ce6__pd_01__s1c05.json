@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The PAR Program has consulting teachers who provide instructional support to novice teachers (teachers new to the profession) and those not performing to standard.",
+    "page": "28",
+    "confidence": "medium"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Educators with lead teacher status are eligible for a variety of teacher leadership roles, such as resource teachers, consulting teachers, instructional specialists, and staff development teachers.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "There are three developmental stages in a teaching career, which include induction, skillful teaching, and leadership in teaching (referred to as the lead teacher). The Career Lattice is a framework that includes definitions of leadership responsibilities; processes for application, identification, and evaluation of teacher leaders; and a compensation structure that is aligned to the leadership responsibilities.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

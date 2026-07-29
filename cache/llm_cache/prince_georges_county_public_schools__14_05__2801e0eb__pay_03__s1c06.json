@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "Placement of employees on the salary schedule is based upon verified prior teaching experience including a maximum of two (2) years credit for appropriate military service.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "Placement of employees on the salary schedule is based upon verified prior teaching experience including a maximum of two (2) years credit for appropriate military service.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "Placement of employees on the salary schedule is based upon verified prior teaching experience including a maximum of two (2) years credit for appropriate military service.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "Placement of employees on the salary schedule is based upon verified prior teaching experience including a maximum of two (2) years credit for appropriate military service. ... 7.03 Military Credit A person shall receive a full two-year military credit if the obligation was for two (2) years, and if available for an early release date. A minimum of one (1) year service is required for one (1) year credit and 20 months for two (2) years credit.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "$5,000/year differential for NBPTS; $2,000/year for other national certification; up to $300 NBPTS fee reimbursement; $1,000 lump sum for other national cert.",
+    "evidence": "A unit member who has successfully completed and attained NBPTS certification shall receive: A. A differential of $5,000 per year for each year they maintain their NBPTS certification. ... B. The Board of Education shall reimburse an employee for up to one (1) retake of the NBPTS application fee ($300). Unit members who have attained other national certiﬁcation in their discipline where NBPTS certiﬁcation does not apply shall receive a one-time lump sum payment of $1,000. The unit member shall also receive a differential of $2,000 per year for each year the other applicable national certiﬁcation remains in good standing.",
+    "page": "24",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Upon request, Family Care and Medical Leave for up to four (4) months without pay shall be granted to an eligible unit member within any twelve- (12) month period.",
+      "subject_text": "Family Care and Medical Leave for up to four (4) months without pay",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "A health care provider's verification of a serious illness or serious health condition shall be provided by the employee at the time a request for leave is filed with the Assistant Superintendent-Human Resources.",
+      "subject_text": "A health care provider's verification of a serious illness or serious health condition",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "No Family Care and Medical Leave shall be granted if an undue hardship would be created regarding the operation of the District.",
+      "subject_text": "No Family Care and Medical Leave",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The District shall consider alternative means to alleviate the situation.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Health benefits as provided to active employees shall be provided during the first twelve (12) weeks of such leave.",
+      "subject_text": "Health benefits as provided to active employees",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The District shall consider granting a unit member, upon request of the unit member's medical advisor, an unpaid leave for health reasons.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The District may require a statement by the District's selected physician to the effect that such leave is necessary.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The physician's cost shall be borne by the District.",
+      "subject_text": "The physician's cost",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "The District may grant a unit member an unpaid leave of absence of one (1) year (renewable with permission for an additional year) to pursue a District-approved program of professional development which may include, but not be limited to, additional schooling and/or training, research, participation in faculty exchange programs, or travel related to the unit member's present assignment.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "leave",
+      "notes": ""
+    }
+  ]
+}

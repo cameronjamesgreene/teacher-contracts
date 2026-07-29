@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "(1) 'Career educator' means a licensed employee who has a reasonable expectation of continued employment under the policies of a local school board. (3) 'Probationary educator' means an educator employed by a school district who, under local school board policy, has been advised by the district that the educator's performance is inadequate. (4) 'Provisional educator' means an educator employed by a school district who has not achieved status as a career educator within the school district.",
+    "page": "48",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "19.5.1 ... at least one month before issuing the nonrenewal notice. 19.5.2 ... Nonrenewal notices will be delivered or mailed at least two months prior to the end of the contract term ... 19.6.1 ... provisional contract teachers may file a written request ... for an informal hearing ... within 15 calendar days ... 19.7.1 ... regular contract teachers ... may file a written request ... for a formal hearing ... within 15 calendar days",
+    "page": "35-36",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "District-wide RIF applies when the District cannot place teachers after surplus before the new contract year. Requires a 10-day meeting with the Association. Unplaced teachers are reviewed by endorsements, certifications, and staffing needs; tie-breakers use advanced degree and lane placement. Released teachers get a 6-month first right of interview, notified by certified letter with 7 days to accept/reject.",
+    "evidence": "19.9.1 ... district-wide reduction in force occurs when the District is unable to place teachers at the end of the surplus process, prior to the beginning of a new contract year. 19.9.2 ... meeting ... at least 10 days prior ... 19.9.3 ... reviewed by the number of their respective endorsements and certifications ... 19.9.4 ... teacher with the most advanced degree and lane placement ... will be retained. 19.9.5 ... first right of interview ... six months following their release ... certified letter ... seven days ... to accept or reject",
+    "page": "37",
+    "confidence": "high"
+  }
+}

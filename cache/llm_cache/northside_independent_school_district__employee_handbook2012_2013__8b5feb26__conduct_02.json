@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "discussed",
+    "evidence": "Associations and political activities... The district will not directly or indirectly discourage employees from participating in political affairs or require any employee to join any group, club, committee, organization, or association. ... Use of district resources, including work time, for political activities is prohibited.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed to discussed. The document explicitly addresses political activity, stating protection of participation rights and restriction on using district resources for political activities."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

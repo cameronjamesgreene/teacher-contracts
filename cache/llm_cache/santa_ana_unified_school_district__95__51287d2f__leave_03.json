@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "yes",
+    "evidence": "Absence requests shall be made prior to the absence unless circumstances preclude the procedure. All sick day benefits must be claimed within each payroll reporting period by filing a unit member absence card. The request shall be made to the immediate supervisor at least twenty-four (24) hours in advance unless an emergency...",
+    "page": "48, 52, 54",
+    "confidence": "medium",
+    "coder_notes": "The provided document excerpt ends at page 41, before Article X (Absences/Leaves) which begins on page 50 per the Table of Contents. The quoted evidence is not present in the supplied text. However, the stage 1 answer directly addresses the question with explicit procedural details regarding absence reporting and sick day claims. Preserved as 'yes' with medium confidence due to the truncation of the source document."
+  }
+}

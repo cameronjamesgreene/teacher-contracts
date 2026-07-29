@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "no",
+    "evidence": "Teachers performing the following tutoring/workshop services will be compensated as follows: ... 4. Tutoring $20.00/hour",
+    "page": "18",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "An Employee Assistance Program (EAP) shall continue to be available to assist employees and their family members with marital, family, alcohol, drug and substance abuse problems or other personal concerns.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

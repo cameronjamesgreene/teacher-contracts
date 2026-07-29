@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "At pilot schools all staff will have a flexible seven and one-half (7.5)-hour professional day plus a duty-free, thirty (30)-minute lunchtime.",
+    "page": "130",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "One day a week for Collaboration with a minimum of thirty (30) Collaborative Time meetings for the year. One day a week for School Leadership or Professional Learning Time. One day a week for Committee Time.",
+    "page": "130",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

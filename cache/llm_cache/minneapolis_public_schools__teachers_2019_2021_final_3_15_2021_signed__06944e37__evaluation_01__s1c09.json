@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "5.3.2 The Four Components of PAR: Outlined below are the basic Peer Assistance and Review (PAR) components of the continuum that deal with accountability and ongoing professional growth/improvement.",
+    "page": "83",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Peer Assistance and Review (PAR) continuum / Professional Development Process (PDP) / Standards of Effective Instruction",
+    "evidence": "The Minneapolis Federation of Teachers in collaboration with the Minneapolis Public Schools launched its professional continuum journey in 1984 with the start of a teacher mentoring program for first year teachers... The four main components of the PAR portion of the continuum are: Professional Development Process (PDP), Achievement of Tenure (A of T), Guided Professional Development Process, Professional Support Process (PSP)",
+    "page": "82-83",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Requires Attention, Developing, Proficient, Exemplary",
+    "evidence": "Table headers on p. 80-81: 'Requires Attention', 'Developing', 'Proficient', 'Exemplary'",
+    "page": "80-81",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "September: All staff: Review student scores, student work, and other available data. Make observations of students to determine needs, areas of strengths, and future expectation to help focus PDP goals.",
+    "page": "86",
+    "confidence": "high"
+  }
+}

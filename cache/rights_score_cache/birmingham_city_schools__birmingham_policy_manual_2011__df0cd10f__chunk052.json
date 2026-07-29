@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Discipline will also be enforced against supervisory and management personnel who knowingly allow such behavior to continue.",
+      "subject_text": "Discipline",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Passive construction; implicit agent is management enforcing disciplinary consequences."
+    },
+    {
+      "quote": "Appropriate follow-up will be taken to ensure that the harassment has stopped.",
+      "subject_text": "Appropriate follow-up",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Implicit management duty to conduct follow-up verification."
+    },
+    {
+      "quote": "All professional Board employees, including but not limited to, administrators, directors, administrative personnel, teachers, instructional aides, secretaries, administrative staff, custodial staff, transportation, maintenance, and child nutrition \"Workers in the Birmingham City Schools shall implement the mandatory Code of Professional Appearance beginning August 2005.",
+      "subject_text": "All professional Board employees, including but not limited to, administrators, directors, administrative personnel, teachers, instructional aides, secretaries, administrative staff, custodial staff, transportation, maintenance, and child nutrition \"Workers in the Birmingham City Schools",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Source text contains a formatting/typographical glitch merging lists; operative duty to implement code is clear."
+    },
+    {
+      "quote": "All employees are expected to be neat, clean and well groomed, and dressed in a manner that reflects the profession of education, the school system and the student body, while promoting a productive work environment and complying with health and safety standards.",
+      "subject_text": "All employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Expectation phrasing functions as a mandatory standard."
+    },
+    {
+      "quote": "The principal at each school in the District, and the directors/supervisors in all administrative offices have the authority to enforce the Code of Professional Appearance as promulgated.",
+      "subject_text": "The principal at each school in the District, and the directors/supervisors in all administrative offices",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Grants enforcement discretion/authority to administrative staff."
+    },
+    {
+      "quote": "Teachers who are given temporary assignments in special jobs shall be given priority in returning to their prior school if an appropriate vacancy exists.",
+      "subject_text": "Teachers who are given temporary assignments in special jobs",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "transfers",
+      "notes": "Passive construction; management is obligated to grant priority return."
+    },
+    {
+      "quote": "no person shall, on the basis of gender, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any Board program or activity receiving federal financial assistance.",
+      "subject_text": "no person",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Broad nondiscrimination mandate; implicitly binds management to prevent exclusion/denial."
+    },
+    {
+      "quote": "The Board shall promote programs which ensure that discriminatory practices are eliminated in all district activities.",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Affirmative duty to promote anti-discrimination programs."
+    },
+    {
+      "quote": "Any student who engages in discrimination of another student or anyone from the district may be subject to disciplinary action up to and including expulsion.",
+      "subject_text": "Any student who engages in discrimination of another student or anyone from the district",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": "Grants management discretion to discipline students; passive voice implies management administers action."
+    }
+  ]
+}

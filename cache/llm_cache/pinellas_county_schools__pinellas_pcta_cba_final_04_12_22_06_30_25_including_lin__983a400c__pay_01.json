@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "There will be a Grandfathered Salary Schedule and a Performance Salary Schedule... They may be accessed electronically at the links set forth on Appendix A.",
+    "page": "63",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes. Titles: Grandfathered Salary Schedule, Performance Salary Schedule, Recruitment/Retention/Performance Bonuses. Employee Group: Teachers at Tier III and Tier IV schools. Amount/Formula: $3,000 recruitment/retention bonus (prorated for incomplete year); $1,500 or $2,000 performance bonus based on school grade improvement. Criteria: School assigned Tier III/IV status by FLDOE; school grade improves to C or better.",
+    "evidence": "There will be a Grandfathered Salary Schedule and a Performance Salary Schedule... Recruitment, Retention and Performance Bonuses for Tier III or Tier IV Schools... Teachers working at a Tier III or Tier IV School will receive a bonus of three thousand dollars ($3,000)... When the grade assigned to a Tier III or Tier IV school improves to C or better, a teacher who worked at the school that year will receive a performance bonus equal to fifteen hundred dollars ($1,500)...",
+    "page": "63",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "Eligibility for performance bonuses is determined by school grade improvement (from Tier III/IV to C or better), not by individual teacher evaluation ratings.",
+    "evidence": "When the grade assigned to a Tier III or Tier IV school improves to C or better, a teacher who worked at the school that year will receive a performance bonus equal to fifteen hundred dollars ($1,500).",
+    "page": "63",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "...outlined in this handbook and district policy DGBA (Local).",
+    "page": "16",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2017",
+    "evidence": "2016-17 Garland ISD School Calendar",
+    "page": "11",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all employees / district-wide",
+    "evidence": "All district employees will follow regular work schedules as outlined.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "discussed_unclear",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Chapter 21 of the Texas Education Code",
+    "page": "14",
+    "confidence": "high"
+  }
+}

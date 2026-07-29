@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "The Teacher, in consultation with the Supervisor, shall decide whether the project is to be undertaken.",
+      "subject_text": "The Teacher",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Each School shall establish a Morning Block Team (MBT), which shall consist of the Supervisor (or her/his designee), the Building Representative (or her/his designee), the Instructional Coach, all department and grade level chairs, and other Teachers as designated by the Supervisor or the Building Representative.",
+      "subject_text": "Each School",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The MBT shall develop a Morning Block plan and a monthly calendar of the use of the Morning Block that shall be provided to all Teachers.",
+      "subject_text": "The MBT",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Morning Block plan shall be available, upon request, to both DCPS and the WTU.",
+      "subject_text": "The Morning Block plan",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

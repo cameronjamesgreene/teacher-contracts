@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "\"APPENDIX A – PERFORMANCE-BASED SALARY SCHEDULE\" / \"TEACHERS’SALARY SCHEDULE Effective May 1, 2011 and Throughout FY12\"",
+    "page": "128",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2011-2012 (FY12)",
+    "evidence": "\"Effective May 1, 2011 and Throughout FY12\" / \"2011-2012 TEACHERS’ SALARY SCHEDULE\"",
+    "page": "128",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "\"APPENDIX A – PERFORMANCE-BASED SALARY SCHEDULE\"",
+    "page": "128",
+    "confidence": "medium"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

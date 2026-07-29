@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "All agreements reached as a result of such negotiations shall be tentative until ratification by both parties is effected pursuant to the ratification procedures as set forth in Board Policy H.1.",
+    "page": "Section 2",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "DU",
+    "evidence": "Albuqurque_tentative_agreement_15-16.pdf",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all teachers",
+    "evidence": "The Board hereby recognizes and agrees that the Federation has the sole and exclusive right to represent all teachers as their bargaining agent",
+    "page": "Section 2",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "tentative",
+    "evidence": "All agreements reached as a result of such negotiations shall be tentative until ratification by both parties is effected",
+    "page": "Section 2",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.",
+    "page": "Section 2",
+    "confidence": "high"
+  }
+}

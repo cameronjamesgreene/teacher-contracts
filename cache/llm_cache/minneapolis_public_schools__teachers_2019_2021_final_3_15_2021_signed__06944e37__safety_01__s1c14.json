@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes. Committee: District Behavior Committee and Health and Safety Committee. Membership: Equal labor/management representation appointed by Superintendent and MFT President; labor includes teachers and ESPs; district includes Operational/Security Services, Risk Management, Student Support Services, and Special Education. Complaint process: Teachers report concerns to district security, civil rights, or other officials; committees receive referrals and review district responses. Scope: Worksite safety, violent behavior, weapon possession, site behavior plans, and dangerous/unsafe student behaviors.",
+    "evidence": "Internal Resources include the District Behavior Committee, and the Health and Safety Committee receiving referrals of safety concerns and reviewing the responses from the District to concerns that have been reported by teachers... The District Behavior Committee will include equal representation of labor and management appointed by the Superintendent of schools and the MFT President. Labor representatives will include teachers and Educational Service Professionals (ESPs). District representatives will include Operational and Security Services, Risk Management, Student Support Services, and Special Education. The District Behavior Committee will meet monthly or more often as needed to discuss worksite safety issues... Serious, site specific concerns... multiple reports of assaults of student-on-student and student-on-teacher",
+    "page": "133",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes. The document outlines student consequences following assaultive behavior against staff (alternative placement, barring return to classroom/school site, barring transfers for violent records) and references Policy 1541. Teacher-specific procedures such as leave, legal assistance, and property reimbursement are not detailed in this section.",
+    "evidence": "Middle and high school students who have been involved in violent assaultive behavior, as defined by policy or state law, against students or adults shall be considered for an alternative program appropriate to the student’s behavioral needs and shall not be returned to the classroom where the violent assaultive behavior occurred. Applications for transfers to the Minneapolis Public Schools submitted by students who live in other school districts shall not be approved when such students have records of violent assaultive behavior, have been expelled from another district, and/or have a criminal record resulting from assault or other forms of violence.",
+    "page": "135",
+    "confidence": "medium"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes. Describes district policies, the District Behavior Committee's role in reviewing discipline policies and site plans, site-level Student Engagement/behavior plans designed by teachers/admins/parents/students, and mandatory interventions for third-offense defiance/disrespect.",
+    "evidence": "The District Behavior Committee is charged with the responsibility to review all district policies relating to student discipline and to make recommendations to the Superintendent... At each site, teachers, administrators, parents and students (when age appropriate) will design and implement student behavior plans... Students subject to discipline for defiance, disrespect and or verbal abuse of staff shall upon a third offense participate in an intervention for anger and/or behavior management.",
+    "page": "134, 136",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes. Grounds: violent behavior or serious disruption of education. Procedure: Teacher may temporarily remove student, immediately initiating an informal/formal assessment. Return rules: Student returns after appropriate interventions and discipline are determined.",
+    "evidence": "A process for a teacher to temporarily remove from the classroom any student who, in the teacher’s opinion, is exhibiting violent behavior or causing serious disruption of the educational process. This step will immediately initiate an informal/formal assessment process as appropriate to determine the circumstances of the behavior. A process for returning the student to the classroom after appropriate interventions and discipline have been determined.",
+    "page": "135",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

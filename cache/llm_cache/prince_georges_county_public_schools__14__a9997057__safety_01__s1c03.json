@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Teachers are encouraged to bring to the attention of the Principal conditions which they consider may be unsafe for students or teachers, for review and, as appropriate, for referral to the appropriate school authority. Thereafter, if the teacher is still concerned, the teacher may request further review by the Regional Assistant Superintendent. If in a specific situation the President of PGCEA believes further consideration is appropriate, the President may request review by the Superintendent of Schools.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "the teacher shall be responsible for maintaining reasonable order and cleanliness in the classroom",
+    "page": "9",
+    "confidence": "high"
+  }
+}

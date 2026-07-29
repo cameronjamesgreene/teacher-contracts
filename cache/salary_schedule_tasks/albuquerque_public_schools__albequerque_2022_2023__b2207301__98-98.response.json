@@ -1,0 +1,10 @@
+{
+  "has_table": false,
+  "schedule_label": "Appendix A.1 2022-2023 Salary Matrix A1 (2022-2023 A1 Schedule: Level 1 Educators, Based on 184 Day/6.5 Hour work schedule)",
+  "school_year_or_effective_date": "2022-2023",
+  "lane_labels": [],
+  "step_labels": [],
+  "cells": [],
+  "notes": "Page 98 has a clearly labeled table box for 'Appendix A.1 2022-2023 Salary Matrix A1' but the box is genuinely empty in the source PDF -- confirmed at a 400dpi render, not a rendering/resolution artifact. This appears to be a real gap in the source document (possibly because, per the Appendix A narrative on page 97, the old 'A1' matrix was being merged into a new 'AT1' base-salary structure and the legacy A1 grid was left unpopulated). Flag for human verification against the original PDF; do not infer values.",
+  "confidence": "high"
+}

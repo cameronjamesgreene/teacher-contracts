@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Teacher Handbook",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2015-2016",
+    "evidence": "2015-2016",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "teachers",
+    "evidence": "QUALIFICATIONS AND DUTIES OF THE CLASSROOM TEACHER",
+    "page": "i",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "handbook guidance/policy",
+    "evidence": "II. HUMAN RESOURCES A. Plan and Employment Policy (from School Board Policies)",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "governed by Chapter 21 of the Texas Education Code",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": "Revised from 'no' to 'yes'. The document explicitly cites the Texas Education Code (Ch. 21 and §22.083)."
+  }
+}

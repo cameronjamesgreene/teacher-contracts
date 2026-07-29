@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Teacher Mentors are selected teachers in Minneapolis Public Schools who have agreed to serve for up to five years within a position/category as mentor teachers... District Mentors work primarily with probationary teachers in the Achievement of Tenure process at multiple sites. They provide support through facilitating New Teacher PSP meetings, coaching, co-teaching and observing teachers.",
+    "page": "125",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Council for Educator Development... Distinguished Teachers... Site Teachers on Special Assignment (Site TOSA)... District Teachers on Special Assignment... Administrative Interns... District Program Facilitator... Master Teachers. Instructional Coach/Content Coach; Instructional coaches/content coaches serve as exemplary teachers and instructional leaders providing feedback, and the knowledge and skills needed to improve classroom practice through well-structured, collegial, job-embedded professional development.",
+    "page": "126-129",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "Distinguished Teachers... Master Teachers... Administrative Interns... District Teachers on Special Assignment... Nationally Board Certified Teachers... Teacher Emeritus.",
+    "page": "126-128",
+    "confidence": "high"
+  }
+}

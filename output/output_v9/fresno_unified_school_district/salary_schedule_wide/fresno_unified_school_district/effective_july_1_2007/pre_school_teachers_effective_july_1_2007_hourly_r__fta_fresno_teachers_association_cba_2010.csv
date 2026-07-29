@@ -1,0 +1,13 @@
+"# FTA-Fresno-Teachers-Association_CBA_2010-2012.pdf — Pre-School Teachers Effective July 1, 2007 Hourly Rates (Effective July 1, 2007)"
+# population: Pre-School Teachers | is_teacher_schedule: False
+# validation_warnings: none | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,CLASS I*(R01) Less Than 60 Units,CLASS II (R02) 60-89 Units,CLASS III (R03) 90 Units No Degree,CLASS IV (R04) BA w/o Credential,Class V (R05) BA/Credential
+R-1,17.43,18.77,20.03,21.25,22.67
+R-2,18.77,20.03,21.25,22.67,23.88
+R-3,20.03,21.25,22.67,23.88,25.22
+R-4,21.25,22.67,23.88,25.22,26.48
+R-5,,23.88,25.22,26.48,27.06
+R-6,,,26.48,27.06,29.22
+R-7,,,,29.22,30.46
+R-8,,,,,31.74

@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 days for a 10-month contract, 11 days for an 11-month contract, or 12 days for a 235-day contract.",
+    "evidence": "Each full-time employee shall be entitled to four (4) days of sick leave as of the first day of employment of each school year. Thereafter employees will earn one (1) day of sick leave for each month of employment, for a total of ten (10) sick days per current year for a ten (10) month contract, eleven (11) for eleven (11) month contract, and twelve (12) for 235-day employees",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accrues one day per month of employment; maximum accumulation and carryover rules not discussed.",
+    "evidence": "employees will earn one (1) day of sick leave for each month of employment, for a total of ten (10) sick days per current year for a ten (10) month contract, eleven (11) for eleven (11) month contract, and twelve (12) for 235-day employees, which shall be credited to the employee at the end of that month, and which shall not be used prior to the time it is earned and credited to the employee.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick Leave is to be used for illness of the employee or illness or death of an immediate family member and includes medical and related appointments. Immediate family shall include the father, mother, sister, brother, husband, wife, child, mother-in-law, father-in-law, son-in-law, daughter-in-law, nephew, niece, aunt, uncle, foster children, step-parents, step-children, grandparents, grandchildren, or a member of his/her own household, as well as anyone for whom the employee is a legal guardian.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "5 days (charged to unused sick leave)",
+    "evidence": "Employees are entitled to five (5) days leave of absence for personal reasons, charged to unused sick leave.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires two (2) days advance notice unless emergency; may be denied on in-service/staff development days, pre- and post-holidays, during state mandated testing, or if employee's role is critical; minimum leave period is one-half (1/2) day.",
+    "evidence": "Notice of intent to take personal leave shall be made to the principal/supervisor two (2) days in advance, unless an emergency condition prevails... Principals/supervisors shall have the right to request reasons for personal leave and to deny personal leave only if it is being requested on an in-service/staff development day, pre- and post-holidays, during state mandated testing or if the employee’s role at the school is critical to events occurring during that time frame... Personal leaves shall be for a period not less than one-half (1/2) of the assigned teacher work day.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "Unused personal leave at the end of each year reverts to available sick leave.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

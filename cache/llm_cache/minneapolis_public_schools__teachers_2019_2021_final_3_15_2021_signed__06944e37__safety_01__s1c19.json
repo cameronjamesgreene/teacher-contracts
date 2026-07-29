@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The Minneapolis Federation of Teachers and the District will establish a joint committee consisting of members of the Minneapolis Federation of Teachers Environmental Health and Safety Committee and representatives from the District’s Office of Environmental Health and Safety, Facilities, Office of Equality and Civil Rights, Operational and Security Services Department, Division of Human Resources, and other groups the committee deems appropriate.",
+    "page": "182",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "When determining school or classroom closures due to temperature extremes, the District will consider the temperature inside buildings and classrooms in addition to the weather outside.",
+    "page": "182",
+    "confidence": "medium"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "To ensure that anticipated major renovation and major repair work is being conducted safely and without significant disruption to education and the health and well being of children and staff, representatives from Facilities and/or the project manager from the construction company shall inform staff through the site leadership team and building steward at least two weeks prior to the onset of the work.",
+    "page": "183",
+    "confidence": "high"
+  }
+}

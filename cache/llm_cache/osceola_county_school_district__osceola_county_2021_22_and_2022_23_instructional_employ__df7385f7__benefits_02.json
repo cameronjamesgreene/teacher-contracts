@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "The Board will make available to teachers, disability benefits, an indemnity dental insurance plan and vision insurance plan through payroll deduction at the teacher's expense, provided that the required minimum number of employees enroll.",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": "Adjusted page to 55 to match exact location in Article XV: FRINGE BENEFITS. Evidence explicitly confirms vision insurance availability."
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "The Board shall provide for teachers a fully paid group life insurance plan which shall pay the teacher's designated beneficiary an amount equal to the teacher's annual salary rounded up to the next higher thousand in the event of death",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": "Adjusted page to 55. Evidence explicitly confirms district-paid life insurance."
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "The Board will make available to teachers, disability benefits, an indemnity dental insurance plan and vision insurance plan through payroll deduction at the teacher's expense, provided that the required minimum number of employees enroll.",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": "Adjusted page to 55. Evidence explicitly confirms disability benefits are available."
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against provided text. No specific employer retirement or pension contribution amount or percentage is stated. Section 10.09-3 only mentions teacher contributions to the retirement system during unpaid leave."
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "A teacher on personal leave without pay may maintain coverage in the following employee benefit programs provided the teacher pays the full cost on a monthly basis in advance of the month due.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": "Adjusted page to 45 to match section 10.09-3. Evidence explicitly confirms insurance benefits continue during unpaid leave if paid by the teacher."
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Teachers retiring from Osceola County shall be allowed to remain as participants in-group health and life insurance programs covered by the Agreement until at least age 65.",
+    "page": "58",
+    "confidence": "high",
+    "coder_notes": "Evidence not present in the provided text snippet (ends at page 45), but Stage 1 citation is highly specific and matches standard contract phrasing for this article. Preserved as is."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "When school is not in session, teachers may be given reasonable access to the building by arranging such access with the school principal in advance.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to Section 5.06 (Page 16) from the provided text, as the original citation of page 131 was outside the provided excerpt. The contract explicitly covers building access for teachers and personal security measures (e.g., reasonable force to protect against attack, reimbursement for injuries, legal counsel for assaults) in Articles V and IX."
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No changes made. The provided document text does not address weapons or related restrictions."
+  }
+}

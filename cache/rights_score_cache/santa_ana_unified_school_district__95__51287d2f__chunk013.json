@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "the evaluator shall make specific written suggestions",
+      "subject_text": "the evaluator",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "offer positive assistance aimed at achieving the needed improvement.",
+      "subject_text": "[the evaluator]",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "These written suggestions shall be presented to the unit member at the time of the post-observation conference.",
+      "subject_text": "These written suggestions",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "It is the unit member’s responsibility to take appropriate action to correct any deficiencies.",
+      "subject_text": "It",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "Impersonal construction effectively imposes duty on unit member."
+    },
+    {
+      "quote": "Informal observations and “Walk-Throughs” may be conducted at reasonable times during a school year and with reasonable frequency.",
+      "subject_text": "Informal observations and “Walk-Throughs”",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Areas of concern may be brought to a unit member’s attention.",
+      "subject_text": "Areas of concern",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Any Formal Observation Form that has an element marked “Below Standard” shall not be used on an Evaluation unless positive assistance has been offered and implemented as per section 5.2.3 of the CBA and at least one follow-up observation has been conducted.",
+      "subject_text": "Any Formal Observation Form that has an element marked “Below Standard”",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "evaluation",
+      "notes": "Conditionals within unless clause are subordinate; main clause prohibits use."
+    },
+    {
+      "quote": "the evaluator shall rely only upon data collected through formal classroom observations",
+      "subject_text": "the evaluator",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "Text truncated at end of chunk."
+    }
+  ]
+}

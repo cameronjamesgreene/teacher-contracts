@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees of the Aldine Independent School District are discouraged from sponsoring student tours/trips on non-school time. School time, materials, and equipment cannot be used to aid in recruiting students for such tours/trips by an employee, the following disclaimer must be communicated to the parents in writing:",
+    "page": "159",
+    "confidence": "medium"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Alcohol or illegal drugs are prohibited. Tobacco products are prohibited in the presence of students.",
+    "page": "161",
+    "confidence": "medium"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Use of school district technology devices (TDs) is authorized only to further school district purposes. The school district does not authorize use of its network resources for private purposes... Employees doing so commit job related misconduct and are subject to being discharged from employment for good cause",
+    "page": "168",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

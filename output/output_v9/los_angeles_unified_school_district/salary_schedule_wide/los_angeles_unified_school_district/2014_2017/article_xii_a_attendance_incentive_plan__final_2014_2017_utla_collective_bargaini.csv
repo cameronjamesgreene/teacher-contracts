@@ -1,0 +1,17 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — Article XII-A – Attendance Incentive Plan (2014-2017)
+# population: district employees earning illness leave benefits | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p153) — one grid's data may be contaminated from another; verify | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Payment for any Incentive Day for Current Year,Annual Maximum
+Illness leave use reduced 10% for all employees: Less than 50 days,25,250
+Illness leave use reduced 10% for all employees: 50 to 99 days,30,300
+Illness leave use reduced 10% for all employees: 100 to 149 days,40,400
+Illness leave use reduced 10% for all employees: 150 + days,50,500
+Illness leave use reduced 20% for all employees: Less than 50 days,40,400
+Illness leave use reduced 20% for all employees: 50 to 99 days,60,600
+Illness leave use reduced 20% for all employees: 100 to 149 days,70,700
+Illness leave use reduced 20% for all employees: 150 + days,80,800
+Illness leave use reduced 50% for all employees: Less than 50 days,80,800
+Illness leave use reduced 50% for all employees: 50 to 99 days,100,1000
+Illness leave use reduced 50% for all employees: 100 to 149 days,130,1300
+Illness leave use reduced 50% for all employees: 150 + days,150,1500

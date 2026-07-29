@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Vision Service Plan for Santa Ana Unified School District Group Health Plan",
+    "page": "91",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "$40,000 term life insurance (effective 1/1/97)",
+    "page": "91",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Health benefits as provided to active employees shall be provided during the first twelve (12) weeks of such leave.",
+    "page": "58",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "This payment will be waived for retirees enrolled in the Kaiser Senior Advantage/Health Net Seniority Plus plans.",
+    "page": "86",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

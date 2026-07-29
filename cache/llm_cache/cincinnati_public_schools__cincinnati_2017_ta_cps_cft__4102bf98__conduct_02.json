@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The document is a high-level agreement outline; no provisions regarding teacher discretion over curriculum, lesson content, or materials are present."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The document is a high-level agreement outline; no provisions regarding lesson plans or submission rules are present."
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The document is a high-level agreement outline; no provisions restricting or protecting political activity are present."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The document is a high-level agreement outline; no provisions protecting personal affairs or conduct during non-duty hours are present."
+  }
+}

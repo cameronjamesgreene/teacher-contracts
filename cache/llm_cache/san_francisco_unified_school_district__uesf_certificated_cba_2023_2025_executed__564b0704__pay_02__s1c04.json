@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "Effective July 1, 2023, the salary schedules shall be adjusted to reflect an increase of $9,000 at each step. Effective July 1, 2023, the daily and hourly rates in Appendix B shall be adjusted to reflect a ten percent (10%) increase. Effective July 1, 2024, the salary schedules and daily and hourly rates in Appendix B shall be adjusted to reflect a five percent (5%) increase, 3 percent in August 2024 and 2 percent (2%) in January 2025.",
+    "page": "42",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "11.7.11 Differentials ... 11.8 Hourly pay ... Rates of Pay. See Appendix B.",
+    "page": "51",
+    "confidence": "medium"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

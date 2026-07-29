@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Teacher Handbook 2012-2013",
+    "page": "3",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2012-2013",
+    "evidence": "Teacher Handbook 2012-2013",
+    "page": "3",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / professional employees",
+    "evidence": "“Professional employee” means a person whose assignment description in board policy requires the issuance of a contract, including a superintendent, director, administrative assistant, program director, supervisor, principal, assistant principal, counselor, classroom teacher, nurse, or librarian.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "advisory / handbook guidance / policy excerpt",
+    "evidence": "II. HUMAN RESOURCES A. Plan and Employment Policy (from School Board Policies)",
+    "page": "3",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The provided text is fully extractable, legible, and continuous throughout the section.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "If the person’s employment is governed by Chapter 21 of the Texas Education Code... In accordance with Texas Education Code 22.083, the District may obtain criminal history record information...",
+    "page": "4; 11",
+    "confidence": "high"
+  }
+}

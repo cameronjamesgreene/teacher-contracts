@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The Aldine Independent School District is firmly committed to providing each of its employees a safe and healthful work environment. It is a matter of company policy as well as an important public program. We have implemented this Hazard Communication Program as outlined herein.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "In addition to all other days of leave provided, employees who are physically assaulted during the performance of regular duties may receive leave for the number of days necessary to recuperate from the physical injuries sustained as a result of the assault. These days shall not be deducted from accrued sick leave or from accrued personal leave. The leave shall not extend more than two (2) years beyond the date of the assault.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Table of Contents, p. xii, lists 'ALDINE ISD FRAMEWORK FOR DISCIPLINE MANAGEMENT' and 'DISCIPLINE PROCEDURES – TEACHER REMOVAL OF A STUDENT FROM CLASS'.",
+    "page": "xii",
+    "confidence": "medium",
+    "coder_notes": "Updated from 'no' to 'yes' based on Table of Contents which explicitly lists student discipline and teacher removal procedures."
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "Table of Contents, p. xii, lists 'DISCIPLINE PROCEDURES – TEACHER REMOVAL OF A STUDENT FROM CLASS'.",
+    "page": "xii",
+    "confidence": "medium",
+    "coder_notes": "Updated from 'no' to 'yes' based on Table of Contents reference."
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "Table of Contents, p. x, lists 'FIRE AND EMERGENCY (STORM) DRILL INSTRUCTIONS'.",
+    "page": "x",
+    "confidence": "medium",
+    "coder_notes": "Updated from 'no' to 'yes' based on Table of Contents reference to emergency/storm drill procedures."
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "providing suitable room temperature, lighting and ventilation.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

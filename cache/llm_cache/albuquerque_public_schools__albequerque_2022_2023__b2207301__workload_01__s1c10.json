@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "Matrices AT-1, AT-2, and AT-3: One hundred eighty-four (184) days",
+    "page": "97",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "6.5 hours",
+    "evidence": "Based on 184 DAY/6.5 HOUR work schedule",
+    "page": "98",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "Effective July 1, 2009, the professional salary schedule shall be increased by 5.3 percent on all salary lanes.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "ARTICLE 19 Salaries & Supplements... B Supplements... ARTICLE 20 Extracurricular Stipends",
+    "page": "45-51",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "1. Resource Teachers and Resource Counselors—Will have their regular scheduled salary in Grades A-D increased $2,750 for a department of 4 to 9 teachers... 3. Consulting Teachers—Professional personnel on the professional salary schedule grades A-D who are assigned as full-time consulting teachers will have their regular scheduled salary increased $4,425.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "7. Elementary, ESOL, and MCITP Team Leaders—All professional personnel on the professional salary schedule grades A-D who are assigned as elementary team leaders or team leaders in the MCITP or in ESOL (with at least three other team members), will have their regular scheduled salary increased $1,500.",
+    "page": "47",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "5. Lead Teachers—Effective July 1, 2009, lead teachers who teach in high needs schools will have opportunity to develop, in conjunction with the principal and the leadership team, school improvement projects which they will lead. Each such lead teacher will be eligible for $1,000 to $3,000 in supplemental school improvement funds to support these projects.",
+    "page": "47",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

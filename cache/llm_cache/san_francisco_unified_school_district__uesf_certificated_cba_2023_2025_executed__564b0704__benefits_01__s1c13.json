@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes. Plan: Health Service System, City and County of San Francisco. Eligible group: unit members.",
+    "evidence": "health plans available through the Health Service System, City and County of San Francisco.",
+    "page": "180",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "District assumes increased employer costs per City Charter rates. For dependents: up to $210/mo (2010-11) to $223.72/mo (2011-12) for employee plus one dependent; up to $260/mo to $273.72/mo for family coverage.",
+    "evidence": "Effective July 1, 2010, the District shall make the following monthly one-twelfth [1/12] annual contributions for eligible unit members who have dependents enrolled for medical insurance coverage: up to $210/month for employee plus one dependent; up to $260/month for family coverage.",
+    "page": "172, 180",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes. Categories: dependent, employee plus one dependent, family coverage. Contribution rules: District contributes up to $210/mo ($223.72 in 2011-12) for employee plus one dependent, and $260/mo ($273.72 in 2011-12) for family coverage.",
+    "evidence": "Health Insurance – Dependent Medical Coverage: ... up to $210/month for employee plus one dependent; up to $260/month for family coverage.",
+    "page": "172",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

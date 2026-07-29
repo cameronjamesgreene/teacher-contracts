@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Safe Schools training will be differentiated based on district, state and federal guidelines.\nThe reconstitution of schools, if necessary, will comply with all applicable state and federal laws/rules/regulations.\nAccording to state law, the first five (5) years of employment of all certified employees entering the employment of school district shall be deemed a period of probation during which period all appointments of teachers shall expire at the end of the school year.\nTermination of probationary certified staff shall comply with applicable state law(s) at the time of termination.\nTermination of a permanent certified employees shall comply with the applicable state law(s) at the time of termination.",
+    "evidence": "Safe Schools training will be differentiated based on district, state and federal guidelines.",
+    "page": "23, 29, 30, 31, 32",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Safe Schools training will be differentiated based on district, state and federal guidelines.\nThe reconstitution of schools, if necessary, will comply with all applicable state and federal laws/rules/regulations.\nCounselors shall not be designated as the school Title IX Coordinator.",
+    "evidence": "Counselors shall not be designated as the school Title IX Coordinator.",
+    "page": "23, 24, 29",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Title IX, federal guidelines, federal laws/rules/regulations",
+    "evidence": "Counselors shall not be designated as the school Title IX Coordinator.",
+    "page": "24",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "All certified personnel who are not recommended for retention in accordance with these administrative procedures shall be terminated from employment and placed in an employment pool for one (1) school year for possible re-employment.",
+    "page": "30",
+    "confidence": "high"
+  }
+}

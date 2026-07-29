@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "three consecutive years",
+    "evidence": "A Probationary Teacher is a non-tenured teacher who is within the first three consecutive years of employment by the District.",
+    "page": "124",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "A Professional Teacher is a teacher who has successfully met the criteria for a continuing contract as defined by the teacher’s job description, the Minneapolis Standards of Effective Instruction, and the Professional Development Process (PDP).",
+    "page": "124",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "c. Hold a valid state teaching license.",
+    "page": "122",
+    "confidence": "high"
+  }
+}

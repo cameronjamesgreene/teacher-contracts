@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "Accrued at a rate of one-half (1/2) day per 18 days of employment, capped at a maximum of 5 personal and 7 local days (12 total) per year.",
+    "evidence": "accruing at a rate of one-half (1/2) day for each eighteen (18) days of employment... Not more than five (5) personal days and not more than seven (7) local days shall be earned in any year.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, personal and local sick leave accumulate indefinitely from year to year. The cap applies only to the number of days earned annually (max 5 personal + 7 local), not to the total accumulated balance.",
+    "evidence": "accumulate indefinitely from year to year... Not more than five (5) personal days and not more than seven (7) local days shall be earned in any year.",
+    "page": "18-19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "Yes. Teachers may use sick leave for an illness or death of an immediate family member, a family emergency, or a personal emergency.",
+    "evidence": "used for absences for an illness of the employee, an illness or the death of a member of the employee's immediate family, a family emergency, or a personal emergency.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "5 days per year.",
+    "evidence": "five (5) days may be earned each year, accumulate indefinitely from year to year, and may be transferred to another school district (\"personal days\").",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires written request at least 3 working days in advance. Requests may be denied if >5% of staff will be absent or if requested immediately before/after a holiday/weekend (unless for illness/emergency). Extenuating circumstances require supervisor/principal approval.",
+    "evidence": "requests to use personal leave must be submitted in writing to immediate supervisors not later than the third working day prior... principal believes that more than five (5) percent of a school's staff will be absent... or if the request is for a date immediately before or after a school holiday or a three day weekend, the principal shall deny the request unless the request is because of an illness... or emergency.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "Does not convert to sick leave. Unused days accumulate indefinitely and may be transferred to another district. Upon retirement, unused personal leave (combined with state/local) may be paid out (max 60 days), but for employees hired after May 27, 2001, payout must be deposited into a 401(a) plan rather than taken as cash.",
+    "evidence": "accumulate indefinitely from year to year, and may be transferred to another school district... eligible to be paid for not more than sixty (60) of the unused personal state, and local days, combined... will not receive this benefit in cash, but must deposit this payment into a federally-approved 401a Plan.",
+    "page": "18-19",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

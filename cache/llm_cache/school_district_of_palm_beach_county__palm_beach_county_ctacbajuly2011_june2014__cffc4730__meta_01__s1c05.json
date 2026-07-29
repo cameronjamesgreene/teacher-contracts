@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Palm_Beach_County_CTACBAJuly2011-June2014.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2011 – June 30, 2014",
+    "evidence": "effective July 1, 2011",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certified teachers/instructional employees (bargaining unit members)",
+    "evidence": "employees covered by this Agreement",
+    "page": "58",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "of this Agreement",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "In keeping with Florida Law, all school buildings are to be smoke-free.",
+    "page": "60",
+    "confidence": "high"
+  }
+}

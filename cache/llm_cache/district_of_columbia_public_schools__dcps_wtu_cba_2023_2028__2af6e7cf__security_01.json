@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "SENIORITY. There are two forms of seniority: system-wide seniority and building seniority. A. System-wide seniority is based upon continual length of service as a Teacher in the District of Columbia Public School System. Periods of service divided by a break shall not be added together to determine system-wide seniority. B. Building seniority is based upon the length of uninterrupted service in a particular school or school administrative unit in a particular area of certification.",
+    "page": "3-4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "yes",
+    "evidence": "4.2.1. A voluntary transfer is a change in a building assignment from one work location to another when initiated by a teacher. 4.2.3. Lists of vacancies... shall be prepared and posted on or before April 1 annually. 4.2.6. Written notification to teachers granted or denied a transfer shall be made assoon as a determination is made, but in no case later than July 14. 4.2.8. Teachers requesting a voluntary transfer may arrange to interview with school principals at a mutually agreeable time by one or both of the following: 4.2.8.1. At all “open” the DCPS transfer fairs; or 4.2.8.2. With principals between April 1 and June 30. 4.2.9. After July 15, Teachers shall have the right to execute a voluntary transfer provided the Teacher’s current Supervisor consents.",
+    "page": "21-22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "4.3. Involuntary Transfers. 4.3.1. Involuntary transfers shall be made only after consultation and discussion with the Teacher involved. At the Teacher’s request, there may be present at such discussion a representative of the WTU. A Teacher who is involuntarily transferred shall be given two (2) weeks notice, except in those cases where the transfer must be made in less than two (2) weeks, the notice shall be given as timely as possible. The notice of the transfer shall contain the reasons therefore. Teachers who are involuntarily transferred shall be given at least 3 school days of non-instructional duties, prior to the transfer, at no loss in salary to prepare for transfer from their current site location to their new assignment. ... 4.3.2. DCPS further agrees to provide logistical support (boxes, storage and transporting of educational materials) for the transferring Teacher to the new building assignment. ... 4.3.6. A teacher who is involuntarily transferred shall carry forward his or her building seniority.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as 'no'. Article 4.3 explicitly outlines involuntary transfer procedures, including consultation, notice requirements, logistical support, and seniority carryover."
+  },
+  "security_rif_006": {
+    "answer": "yes",
+    "evidence": "4.5.1.1. An excess is an elimination of a Teacher’s position at a particular school due to a decline in student enrollment, a reduction in the local school budget, a closing or consolidation, a restructuring, or a change in the local school program, when such an elimination is not a “reduction in force” (RIF) or “abolishment.” 4.5.2.5. DCPS shall retain the right to make the final excessing decision according to the following rubric: [rubric details] 4.5.3.1. DCPS shall provide written notification to all Teachers who are to be excessed at least (10) school days prior to the effective date of the excess. 4.5.5.1. Excessed permanent status Teachers shall have sixty (60) calendar days following the effective date of the excess to secure another placement in DCPS under mutual consent. 4.5.5.3. The Three (3) Options: 4.5.5.3.1. Option 1: Buyout... 4.5.5.3.2. Option 2: Early Retirement... 4.5.5.3.3. Option 3: A Year to Secure a New Placement",
+    "page": "23-25",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

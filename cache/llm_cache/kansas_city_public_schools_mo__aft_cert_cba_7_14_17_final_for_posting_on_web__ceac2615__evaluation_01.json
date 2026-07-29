@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "discussed_unclear",
+    "evidence": "The development of a new Teacher Performance Assessment will allow for the establishment of a Teacher Performance Assessment Advisory Committee. The District and the Union will each designate an equal number of members to serve on this committee. Team members should include Elementary, Middle, Secondary, Special Education and Administration representatives. The Committee will annually review the Teacher Performance Assessment for updates/revisions, which shall serve as recommendations but are not binding on the administration in revising the performance assessment tool.",
+    "page": "8",
+    "confidence": "medium",
+    "coder_notes": "Revised answer to discussed_unclear. The document only establishes an advisory committee to review a performance assessment tool and does not describe actual teacher evaluation procedures."
+  },
+  "evaluation_system_002": {
+    "answer": "Teacher Performance Assessment",
+    "evidence": "The Committee will annually review the Teacher Performance Assessment for updates/revisions",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

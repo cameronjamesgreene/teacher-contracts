@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Granite_School_DistrictTeacher_-_GSD_GEA_Professional_Agreement_2011-2014.pdf",
+    "page": "Title",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2011-2014",
+    "evidence": "Granite_School_DistrictTeacher_-_GSD_GEA_Professional_Agreement_2011-2014.pdf",
+    "page": "Title",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "GSD GEA Professional Agreement; Article 14 Teachers will be evaluated",
+    "page": "Title",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "shall not be considered a violation of this Agreement",
+    "page": "15",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The provided text is fully readable and cleanly formatted throughout.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Utah Orderly School Termination Procedures Act; Educator Evaluation Law, Title 53A Chapter 10. Utah Code.",
+    "page": "15, 22",
+    "confidence": "high"
+  }
+}

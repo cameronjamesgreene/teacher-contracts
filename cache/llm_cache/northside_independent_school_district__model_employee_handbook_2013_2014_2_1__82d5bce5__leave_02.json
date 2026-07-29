@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave... Employees may choose or employers may require use of accrued paid leave while taking FML.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Pregnancy and conditions related to pregnancy are treated the same as any other temporary disability... If disability leave is approved, the length of leave is no longer than 180 calendar days.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave... To care for the employee's child after birth, or placement for adoption or foster care;... FML runs concurrently with accrued sick and personal leave",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Family and Medical Leave Act (FMLA)—General Provisions. The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave to eligible employees for the following reasons:",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

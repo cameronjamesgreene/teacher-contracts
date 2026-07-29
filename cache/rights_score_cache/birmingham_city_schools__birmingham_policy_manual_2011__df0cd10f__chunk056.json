@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "An employee who sustains an injury in the scope of employment, requmnq the employee to be absent from work, shall have his/her salary and fringe benefits continued for a period up to ninety (90) working days, if the following conditions are met:",
+      "subject_text": "An employee",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": "Contains OCR typo 'requmnq' for 'requiring'. Conditional grant of continued pay/benefits."
+    },
+    {
+      "quote": "The employee shall make proper notification of the injury to the executive officer (or the local worksite supervisor) within 24 hours after the injury occurred, or where the employee is not clinically able to make the notification, it shall be permissible for another person who is reasonably knowledgeable to make the notification of the injury.",
+      "subject_text": "The employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The employee must submit an Injury Report and Physician's Certification Form to the executive officer to include, but not limited to: statement of facts, uninsured medical expenses, and the MMI (Maximum Medical Improvement) for review of the claim.",
+      "subject_text": "The employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The number of days per occurrence shall not exceed ninety (90) working days.",
+      "subject_text": "The number of days per occurrence",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "This provision shall apply to the temporary disability of an employee and may require weekly updates from the attending physician(s).",
+      "subject_text": "This provision",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "benefits",
+      "notes": "Administrative/procedural condition linking payout limits to medical update requirements."
+    },
+    {
+      "quote": "The payments to an employee shall not exceed 100% of the cost of the employee's regular daily rate of pay.",
+      "subject_text": "The payments to an employee",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "At its discretion and expense, the Board reserves the right to seek a second medical opinion for On the Job Injury claims.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "An employee shall be informed if his/her rights to proceed to the Alabama State Board of Adjustments.",
+      "subject_text": "An employee",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Passive construction; implicit agent requiring action is management administration."
+    }
+  ]
+}

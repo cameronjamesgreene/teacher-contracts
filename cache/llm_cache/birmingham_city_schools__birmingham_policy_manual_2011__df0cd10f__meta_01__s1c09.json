@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "BIRMINGHAM BOARD OF EDUCATION TELEPHONE/TECHNOLOGY USE POLICY",
+    "page": "7310",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Various policies approved between 1974 and 2014",
+    "evidence": "APPROVED: 8/20/14",
+    "page": "8010",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "board policy",
+    "evidence": "The Birmingham Board of Education... seeks to provide those tools...",
+    "page": "7310",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully machine-readable and formatted with clear headers and sections throughout the document.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "State Statute 16-30-1, et. Seq. (General provision 420-6-1) of the Code of Alabama.",
+    "page": "8010",
+    "confidence": "high"
+  }
+}

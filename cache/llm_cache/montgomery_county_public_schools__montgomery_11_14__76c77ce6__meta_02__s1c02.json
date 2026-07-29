@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Section 6-408 of the Education Article of the Annotated Code of Maryland.",
+    "evidence": "Negotiations Law – Section 6-408 of the Education Article of the Annotated Code of Maryland.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "If both parties agree, the Federal Mediation and Conciliation Service’s Grievance Mediation Program may be used.",
+    "evidence": "If both parties agree, the Federal Mediation and Conciliation Service’s Grievance Mediation Program may be used.",
+    "page": "7",
+    "confidence": "medium"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Federal Mediation and Conciliation Service",
+    "evidence": "If both parties agree, the Federal Mediation and Conciliation Service’s Grievance Mediation Program may be used.",
+    "page": "7",
+    "confidence": "medium"
+  }
+}

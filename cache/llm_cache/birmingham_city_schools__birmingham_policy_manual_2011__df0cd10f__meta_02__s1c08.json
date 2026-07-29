@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Ref: No Child Left Behind Act of 2001 (p.L. 107-110)\n\nThe term \"harmful to minors\" is defined by the Communications Act of 1934 (47 USC Section 254 [h][7]), as meaning any picture, image, graphic image file, or other visual depiction that:",
+    "evidence": "",
+    "page": "7182, 7305",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "No Child Left Behind Act of 2001 (P.L. 107-110); Communications Act of 1934 (47 USC Section 254 [h][7])",
+    "evidence": "",
+    "page": "7182, 7305",
+    "confidence": "high"
+  }
+}

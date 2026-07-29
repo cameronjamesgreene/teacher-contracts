@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "A temporary employee is one employed in a temporary non-continuing assignment in order to meet the needs of Montgomery County Public Schools.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "If the PAR Panel recommends contract nonrenewal for a probationary teacher, the teacher will be given the opportunity to appear before the PAR Panel. If the teacher chooses to appear before the PAR Panel, the principal also will be given the opportunity to present information to the PAR Panel.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "If the voluntary transfer season is open, teachers may pursue a transfer and OHRD assists in identifying vacancies matching highly qualified requirements. Changes in grade/subject assignments are voluntary to the extent possible, with principals inviting teachers to express preferences in writing.",
+    "evidence": "If the voluntary transfer season is still open, the teacher may pursue a voluntary transfer, and the Office of Human Resources and Development will provide assistance in identifying vacancies for which the teacher would meet the highly qualified requirements.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "Board retains right to reduce force; decision not grievable, but actions under B-D are. Reduction triggered by enrollment decrease, curriculum changes, budget limitations, or subject/grade decline. Release order begins with unit members holding Class II certificates.",
+    "evidence": "The Board of Education of Montgomery County retains the right to reduce its force, and its decision on such reduction is not subject to the grievance procedure.",
+    "page": "65",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

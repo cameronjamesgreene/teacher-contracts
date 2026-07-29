@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "In the interest of safety and upon the written request of the unit member, the District will provide relief to a P.E. class in intermediate and/or high school if, after the first three weeks of a semester, the verified attendance of the class exceeds 55 for a period of two weeks or more.",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "Other forms of relief may be used in lieu of the above with mutual agreement of the unit member and the site administrator.",
+      "subject_text": "Other forms of relief",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "class_size",
+      "notes": "Passive construction; discretion lies with the district/administration."
+    },
+    {
+      "quote": "If non-bilingual class sizes are above that stipulated in 9.1.1 above, the District shall make a good faith effort to provide help for those classes if the increase was caused by small bilingual classes in that grade level in that school.",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": "Conditional duty to provide assistance."
+    },
+    {
+      "quote": "Staffing ratios for Special Education classes and teachers will not exceed the legal maximums.",
+      "subject_text": "Staffing ratios",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "class_size",
+      "notes": "Grammatical subject is the ratio, but the operational duty/prohibition falls on the district."
+    }
+  ]
+}

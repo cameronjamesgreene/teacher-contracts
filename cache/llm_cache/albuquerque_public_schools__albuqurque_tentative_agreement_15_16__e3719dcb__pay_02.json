@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "Coaches of interscholastic sports in the senior high schools will receive a differential for the following assignments: a. Head Football ………………………… $5,452 b. Assistant Football …………….............. $3,359",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The quoted evidence regarding coach differentials is completely absent from the provided document. No mention of extra-duty or supplemental pay schedules for coaches or similar roles exists in the text."
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "A. A-2 employees in District Programs such as ISP, autism, and PACES programs shall receive .05 compensation. / special education and teachers in gifted education are eligible to receive one day's pay for each IEP they are assigned to create that exceeds the teacher’s 1.0 position.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "A differential of $4,243 will be provided to each high school MESA program director. A differential of $1,805 will be provided to each middle school MESA program leader.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The quoted evidence regarding MESA program differentials is not present in the provided document. The document does not discuss STEM-specific pay differentials."
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "Teachers who possess a current Bilingual and/or ESL endorsement shall receive a differential of $500 effective the beginning of the school year... Additional $2,500.00 for providing TESOL services only.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

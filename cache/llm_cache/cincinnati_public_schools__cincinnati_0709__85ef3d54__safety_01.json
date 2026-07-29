@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The Board and the Federation agree to name a Safety Committee consisting of two (2) members designated by the Federation, and two (2) members designated by the Board.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Retained Stage 1 answer. Provided document text is truncated after page 24, but TOC confirms §240.7 Health and Safety on page 37."
+  },
+  "safety_assault_protection_002": {
+    "answer": "discussed_unclear",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised to discussed_unclear. Original evidence was empty. TOC indicates §230.18 Assault Leave (p. 36) and §400.2 Teacher Assault by Student (p. 52), but full text is truncated, preventing verification of specific protections/procedures."
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "1. Student Discipline a. Compliance with District Code of Conduct and State Law h. Assistance for Classroom Management",
+    "page": "50",
+    "confidence": "high",
+    "coder_notes": "Retained Stage 1 answer. Provided text is truncated, but TOC confirms §400 Students / Student Discipline on p. 51."
+  },
+  "safety_remove_student_004": {
+    "answer": "discussed_unclear",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised to discussed_unclear. Stage 1 answer was 'no' with no evidence. Provided document is truncated, so absence of a provision cannot be verified from the excerpt."
+  },
+  "safety_emergency_closure_005": {
+    "answer": "discussed_unclear",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised to discussed_unclear. Stage 1 answer was 'no' with no evidence. Provided document is truncated, so absence cannot be verified."
+  },
+  "safety_environment_006": {
+    "answer": "discussed_unclear",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised to discussed_unclear. Stage 1 answer was 'no' with no evidence. Provided document is truncated, so absence cannot be verified."
+  }
+}

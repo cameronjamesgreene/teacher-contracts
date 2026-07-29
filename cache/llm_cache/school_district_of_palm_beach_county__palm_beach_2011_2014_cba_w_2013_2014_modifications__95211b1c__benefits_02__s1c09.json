@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "VISION PLAN: The District will also make available a vision plan to be paid by the employee with pre-tax dollars through payroll deduction.",
+    "page": "123",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "TERM LIFE INSURANCE: Basic Term Life Insurance will be provided and paid by the District for eligible employees in the following amounts: $20,000 face value for full-time eligible employees. $10,000 face value for part-time eligible employees.",
+    "page": "124",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "...such as medical coverage for children ages 26-30, Disability Income Protection and Optional Term Life Insurance.",
+    "page": "126",
+    "confidence": "medium"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "4% of gross salary for non-FRS members; $100/mo (FT) or $50/mo (PT) to Special Retirement Plan if opting out of medical coverage",
+    "evidence": "The Board shall provide a retirement supplement of four percent (4%) of gross salary to be paid to other than FRS members.",
+    "page": "122",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Otherwise, benefits will end the last day of the month in which the employee’s active paid employment or FMLA leave with the District ends provided all employee required premiums are paid. Notwithstanding any other provisions in the Contract, the provisions contained in this Section supersede any bargaining unit contract language relating to continuing insurance coverage for employees on an unpaid leave of absence.",
+    "page": "130",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,11 @@
+# Pittsburgh_10-15.pdf — Preschool Salary Schedules (September 2010 - September 2014)
+# population: Sign Language Interpreter | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p25) — one grid's data may be contaminated from another; verify | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase
+1-,26170,26670,27170,27670,28170,28670,13520
+2-,27970,28470,29470,29970,30470,30470,11720
+3-,29570,30070,30570,31070,31570,32070,10120
+4-,32660,34160,34660,35900,36400,36900,7030
+5-,33900,37690,38190,38690,39190,39690,5790
+6-,37190,37690,38190,38690,39190,39690,2500

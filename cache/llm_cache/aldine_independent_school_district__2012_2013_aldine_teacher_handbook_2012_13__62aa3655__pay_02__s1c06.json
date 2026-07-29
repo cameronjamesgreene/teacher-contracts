@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "Special Education teachers for PPCD – 12th grades",
+    "page": "28",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "Math teachers for 7th – 12th grades / Science teachers for 7th – 12th grades",
+    "page": "28",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "Bilingual teachers for all levels",
+    "page": "28",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "COLLECTIVE BARGAINING AGREEMENT",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "October 1, 2023 – September 30, 2028",
+    "evidence": "OCTOBER 1, 2023 – SEPTEMBER 30, 2028",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "WTU bargaining unit members (Teachers), including ET 15, ET 15/11, ET 15/12, and EG 09 classifications",
+    "evidence": "DCPS recognizes the WTU as the sole and exclusive bargaining representative for the purpose of negotiating all matters related to rates of pay, wages, benefits, hours of employment, and working conditions for employees in the occupational bargaining units and job classifications defined in this article, and collectively referred to in this Agreement as “Teachers.”",
+    "page": "5",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "AGREEMENT. This contract between the District of Columbia Public Schools (DCPS) and the Washington Teachers’ Union (referred to herein as either the WTU or the Union).",
+    "page": "2",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "as designated pursuant to D.C. Code § 38-174.",
+    "page": "2",
+    "confidence": "high"
+  }
+}

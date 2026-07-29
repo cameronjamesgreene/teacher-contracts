@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Eligible employees can take up to 12 weeks of unpaid leave in the 12-month period from July 1-June 30.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Pregnancy and conditions related to pregnancy are treated the same as any other temporary disability.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "The district also permits the use of intermittent or reduced-schedule leave for the care of a newborn child or for adoption or placement of a child with the employee.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Local Family and Medical Leave (FMLA) Provisions Eligible employees can take up to 12 weeks of unpaid leave in the 12-month period from July 1-June 30.",
+    "page": "34",
+    "confidence": "high"
+  }
+}

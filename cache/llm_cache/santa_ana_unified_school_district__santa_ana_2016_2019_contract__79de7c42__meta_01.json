@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document consists entirely of whitespace/form feeds. No text is present, confirming information is not discussed."
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document consists entirely of whitespace/form feeds. No text is present, confirming information is not discussed."
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document consists entirely of whitespace/form feeds. No text is present, confirming information is not discussed."
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document consists entirely of whitespace/form feeds. No text is present, confirming information is not discussed."
+  },
+  "meta_text_usability_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document consists entirely of whitespace/form feeds. No text is present, confirming information is not discussed."
+  },
+  "meta_cites_state_law_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document consists entirely of whitespace/form feeds. No text is present, confirming information is not discussed."
+  }
+}

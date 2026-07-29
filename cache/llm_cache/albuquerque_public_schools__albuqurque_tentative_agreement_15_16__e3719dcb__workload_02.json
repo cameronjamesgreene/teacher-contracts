@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Each teacher shall have a thirty (30) minute, duty free, uninterrupted lunch period exclusive of passing time",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 coded 'no' without evidence. The document discusses allocation of PLC/collaboration time but does not explicitly limit or address required faculty, staff, department, or PLC meeting limits. Revised to not_discussed."
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 coded 'no' without evidence. The document references 'non-instructional duties' generally in relation to preparation time and compensation, but does not describe or limit specific duties such as supervision, lunch duty, bus duty, hall duty, or clerical duties. Revised to not_discussed."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The Board will make reasonable effort to provide and maintain working conditions which reasonably protect life, safety, and health of employees in the physical plants under control of the School Board.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Any case of assault upon an employee which occurs in the line of duty shall be promptly reported to the Principal. The Board shall provide legal advice to the employee concerning his/her rights and obligations with respect to such assault and shall render all reasonable assistance to the employee in connection with the handling of the incident by law enforcement and judicial authorities.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Student discipline is based upon the premise that students must adhere to the Student Code of Conduct of their respective school, to conform to other regular and special rules, regulations and established routines of the school, and to comply with reasonable instructions from all employees.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "An employee may remove from his/her class a student who has been documented by the employee to repeatedly interfere with the employee’s ability to communicate effectively with the students in his/her class or with the ability of the student’s classmates to learn; or whose behavior the employee determines is so unruly, disruptive, or abusive that it seriously interferes with the employee’s ability to communicate effectively with the students in the class or with the ability of the student’s classmates to learn.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

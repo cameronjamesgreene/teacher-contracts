@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "O. Extended Leaves of Absence Without Pay ... b. Parental Leave: A parental leave of absence for up to one (1) year shall be granted upon request to a teacher for the purpose of childbearing and/or child rearing as follows:",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "A teacher who is pregnant shall be entitled upon request to a leave to begin at any time between the commencement of her pregnancy and one (1) year after a child is born to her.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "A teacher adopting a child shall be entitled upon request to a leave commencing when custody occurs or prior to receiving custody if necessary in order to fulfill the requirement of adoption.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Intermittent leave will be addressed according to FMLA law.",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

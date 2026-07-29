@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "PGCEA shall be provided with a two (2) hour continuous block of time during the new teacher induction period scheduled at the beginning of the new work year to brief new educators on topics of the Association’s choosing.",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "A Faculty Advisory Council is to be established in every school not later than September 15. The Faculty Advisory Council shall consist of: 1. The Head Faculty Representative who shall act as Chair; and, 2. A group of unit members elected by the faculty at the rate of one for every ten (10) unit members or portion thereof.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

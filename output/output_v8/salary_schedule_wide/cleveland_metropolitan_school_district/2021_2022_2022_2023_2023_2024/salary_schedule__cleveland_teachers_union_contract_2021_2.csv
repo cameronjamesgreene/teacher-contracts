@@ -1,0 +1,21 @@
+"# Cleveland_Teachers_Union_Contract_2021-2024.pdf — Salary Schedule (2021-2022, 2022-2023, 2023-2024)"
+# population: Certified Teachers | is_teacher_schedule: True
+# validation_warnings: label_not_in_source: '2021-2022 B.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2021-2022 M.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 B.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 M.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 B.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 M.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit corrected this table
+step,2021-2022 B.A.,2021-2022 M.A.,2022-2023 B.A.,2022-2023 M.A.,2023-2024 B.A.,2023-2024 M.A.
+Step 1,36045,40950,37126,42178,37869,43022
+Step 2,36704,41572,38276,43157,39370,44583
+Step 3,37917,42839,40528,45365,41392,46454
+Step 4,39403,44530,41353,46546,42411,47436
+Step 5,40421,45703,43638,48408,44255,49477
+Step 6,42454,50271,43716,48408,48595,53439
+Step 7,47481,52316,47851,53273,51490,56534
+Step 8,48596,50511,50054,52027,51055,53067
+Step 9,51656,56714,53205,58415,54269,59584
+Step 10,53193,58272,54789,60020,55885,61221
+Step 11,54696,59793,56337,61586,57464,62818
+Step 12,54696,59793,56337,61586,57464,62818
+Step 13,56791,61901,58495,63758,59665,65033
+Step 14,57803,62925,59537,64813,60727,66109
+Step 15,57928,63052,59666,64944,60859,66243
+Step 16,57928,63052,59666,64944,60859,66243
+Step 17,57928,63052,59666,64944,60859,66243

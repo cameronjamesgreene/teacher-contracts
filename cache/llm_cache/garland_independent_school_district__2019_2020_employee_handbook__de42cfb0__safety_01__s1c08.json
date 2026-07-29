@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "ASSAULT LEAVE: In addition to all other days of leave, a district employee who is physically assaulted during the performance of regular duties is entitled to the number of days of leave necessary to recuperate from physical injuries sustained as a result of the assault.",
+    "page": "121",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The discipline of a student with a disability is subject to applicable state and federal law in addition to the Student Code of Conduct. CORRECTIVE ACTION Examples of corrective action may include... increasing staff monitoring of areas where bullying has occurred...",
+    "page": "107, 113",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

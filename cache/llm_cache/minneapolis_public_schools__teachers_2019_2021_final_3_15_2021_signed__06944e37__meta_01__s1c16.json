@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "shall be a part of this agreement.",
+    "page": "146",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2021",
+    "evidence": "teachers_2019-2021_final_3-15-2021_signed.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Minneapolis Federation of Teachers",
+    "evidence": "The Minneapolis Federation of Teachers shall be notified of such newly-established positions.",
+    "page": "146",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "shall be a part of this agreement.",
+    "page": "146",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "Yes",
+    "evidence": "pursuant to the Teacher Tenure Act, §122A.41",
+    "page": "145",
+    "confidence": "high"
+  }
+}

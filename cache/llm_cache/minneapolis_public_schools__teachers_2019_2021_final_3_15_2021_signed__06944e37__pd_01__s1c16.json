@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "4. TEACHER INSTRUCTIONAL LEADERS: Teachers provide instructional services to enhance the learning and broaden experiences of site staff, e.g., workshops/ in-services conducted after the regular duty day. ... Leadership Rate (Schedule “G”)",
+    "page": "146",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

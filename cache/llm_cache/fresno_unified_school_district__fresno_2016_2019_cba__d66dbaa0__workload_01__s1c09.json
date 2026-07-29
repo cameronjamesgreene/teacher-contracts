@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "185 days (regular), 195 days for designated schools",
+    "evidence": "The duty year for all affected unit members at the designated schools will be increased by ten (10) days or an equivalent number of hours (80 hours) beyond the level set forth in Article 14. 185 days equals 1.0 factor",
+    "page": "89",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7.0 hours (regular), 7.5 hours for designated schools",
+    "evidence": "within the 7.0 hour duty day as defined in Article 20, section 1.2, will be increased by one-half (.5) hour. 7:50 Teacher Start Time - 3:20 Teacher End Time = 7.5 Hour Duty Day",
+    "page": "90-91",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Unit members shall be provided reasonable time during the work day to present and discuss feedback",
+    "page": "93",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Reasonable time during the work day (sample schedule shows 45 minutes)",
+    "evidence": "Unit members shall be provided reasonable time during the work day to present and discuss feedback 2:35 – 3:20 45 minutes (Prep)",
+    "page": "91, 93",
+    "confidence": "medium"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "a duty free lunch shall be provided pursuant to Article 20 on all Schedule A days (i.e. 185)",
+    "page": "91",
+    "confidence": "high"
+  }
+}

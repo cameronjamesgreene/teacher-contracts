@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Employee Handbook\n    2019-2020",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020",
+    "evidence": "Employee Handbook\n    2019-2020",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees",
+    "evidence": "This handbook is neither a contract nor a substitute for the official district policy manual. Nor is it intended to alter the at-will status of non-contract employees in any way. Rather, it is a guide to and a brief explanation of district policies and procedures related to employment.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to a more direct passage confirming the handbook broadly covers district employment policies and all employees."
+  },
+  "meta_document_scope_004": {
+    "answer": "not a contract / advisory",
+    "evidence": "This handbook is neither a contract nor a substitute for the official district policy manual. Rather, it is a guide to and a brief explanation of district policies and procedures related to employment.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contracts.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": "Corrected from 'no' to 'yes'. The document explicitly cites state law, Chapter 21 of the Texas Education Code, and other statutes."
+  }
+}

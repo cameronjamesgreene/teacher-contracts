@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Substitute teachers who have rendered a minimum of one hundred-sixty days (160) of service for the year immediately preceding the year of eligibility shall be eligible for District provided employee only health benefits subject, to the same terms and conditions as regularly assigned teachers.",
+    "page": "84",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "District allocated up to $85,000 per year for the benefit; covers premium payments for eligible substitutes.",
+    "evidence": "Effective with 2006-2007 school year, the District shall allocate up to $85,000 per year for the purpose of implementing this benefit provision.",
+    "page": "84",
+    "confidence": "medium"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "no",
+    "evidence": "Substitute teachers who have rendered a minimum of one hundred-sixty days (160) of service for the year immediately preceding the year of eligibility shall be eligible for District provided employee only health benefits subject, to the same terms and conditions as regularly assigned teachers.",
+    "page": "84",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "discussed_unclear",
+    "evidence": "the Health Services System allows the individual to enroll",
+    "page": "84",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

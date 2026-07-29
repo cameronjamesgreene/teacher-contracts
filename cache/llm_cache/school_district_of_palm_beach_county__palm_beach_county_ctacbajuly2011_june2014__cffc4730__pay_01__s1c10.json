@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes - Schedule Title: 2011-2012 Teachers’ Salary Schedule | Covered Year: 2011-2012 / FY12 | Covered Employee Group: Classroom Teachers Association (CTA) | Appendix/Location: Appendix A, p. 128",
+    "evidence": "APPENDIX A – PERFORMANCE-BASED SALARY SCHEDULE... 2011-2012 TEACHERS’ SALARY SCHEDULE Effective May 1, 2011 and Throughout FY12 For Classroom Teachers Association – CTA",
+    "page": "128",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2011-2012 school year / FY12, effective May 1, 2011.",
+    "evidence": "Effective May 1, 2011 and Throughout FY12",
+    "page": "128",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes - Actual years of teaching experience earned in or out of the District are credited for salary placement (e.g., required to achieve Step 19).",
+    "evidence": "actual years of teaching experience must be earned in or out of the District to achieve Step 19 on the salary schedule.",
+    "page": "130",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

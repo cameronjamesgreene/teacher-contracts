@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Advancement from Level 1 to Level 2 is based on the following:\n        a. Years of experience\n        b. Successful yearly evaluations\n        c. PED licensure level\n         Advancement requires a minimum of three (3) years of experience at each level.",
+    "page": "54",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Credit within each salary matrix shall be given for all years of qualified experience in a licensed educational role\n         One year of qualified experience is designated as at least five hundred seventy (570) hours of verifiable experience.",
+    "page": "54",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

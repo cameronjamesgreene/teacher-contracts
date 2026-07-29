@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "Union representatives shall follow the building procedures for visitors by signing in at the office and/or security desk.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

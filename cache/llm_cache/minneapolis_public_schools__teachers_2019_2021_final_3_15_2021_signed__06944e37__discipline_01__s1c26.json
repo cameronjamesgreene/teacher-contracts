@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "The board must employ and contract with necessary qualified teachers and discharge the same for cause.",
+    "page": "252",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Before the school board discharges or demotes a teacher, the board must notify the teacher in writing and state in reasonable detail its grounds for the proposed discharge or demotion, together with a statement that the teacher may request in writing within ten days after receiving the notice a hearing before the board.",
+    "page": "250",
+    "confidence": "high"
+  }
+}

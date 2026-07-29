@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "unit members will be paid for the days worked at the respective salary levels.",
+      "subject_text": "unit members",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members seeking to change columns upon receipt of a Master's/Doctorate degree may do so effective the first month following the receipt by the District or official written verification of the completion of all work required for conferral of the Master's/Doctorate degree.",
+      "subject_text": "Unit members seeking to change columns upon receipt of a Master's/Doctorate degree",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "step increase(s) will be granted when the reclassification takes place.",
+      "subject_text": "step increase(s)",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Step, column, and longevity advancement for qualified unit members shall be implemented for the duration of the Agreement.",
+      "subject_text": "Step, column, and longevity advancement for qualified unit members",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members may advance to steps sixteen (16), twenty-one (21), and twenty-six (26) under the following conditions:",
+      "subject_text": "Unit members",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "For step 16, unit members shall have rendered fifteen (15) years of credited service to the District and be qualified for Class IV.",
+      "subject_text": "unit members",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "For step 21, unit members shall have rendered twenty (20) years of credited service to the District and be qualified for Class IV.",
+      "subject_text": "unit members",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "For Step 26, unit members shall have rendered 25 years of credited service to the District and be qualified for Class IV.",
+      "subject_text": "unit members",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "The Salary Credit Review Committee shall review unusual circumstances not covered by the provisions contained in this article.",
+      "subject_text": "The Salary Credit Review Committee",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Committee functions as an administrative/joint body reviewing contractual exceptions."
+    }
+  ]
+}

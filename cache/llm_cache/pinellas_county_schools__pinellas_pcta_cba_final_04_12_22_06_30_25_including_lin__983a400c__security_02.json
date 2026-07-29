@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Should the Board be unable to maintain all employees, it shall immediately meet with the Union to provide for an orderly method of reducing, retraining, and recalling affected employees.",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed to yes. Article 22.B explicitly addresses recalling affected employees following a reduction in force."
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No change. Article 22.B mentions an orderly method but does not specify the primary criterion for layoff order."
+  },
+  "security_probation_length_009": {
+    "answer": "1 school year",
+    "evidence": "“Probationary contract” means an employment contract for a period of one (1) school year awarded to teachers upon initial employment in the school district.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": "No change."
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "“Professional Service Contract” and “Continuing Contract” means a contract with continuing employment rights in accordance with the law in effect prior to July 1, 2011. Any teacher who held a professional service contract or continuing contract as of July 1, 2011, will continue to hold them in accordance with s. 1012.33, F.S. and this Agreement.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": "Updated from no to yes. Article 35.A.3 explicitly defines and addresses Continuing Contracts and Professional Service Contracts, including renewal terms."
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Hold an active professional certificate or temporary certificate issued pursuant to s. 1012.56, F.S. and rules of the State Board of Education;",
+    "page": "42",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to Article 35.B.2.a, which explicitly states the active professional certificate requirement for annual contract eligibility."
+  }
+}

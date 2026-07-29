@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "aft_cert_cba_7_14_17_final_for_posting_on_web.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "17-18",
+    "evidence": "Members of the Teachers’ Unit in Year-Round Schools shall work two hundred eighteen (218) days in 17-18.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers' Unit / Certificated Unit",
+    "evidence": "Members of the Teachers' Unit",
+    "page": "13",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement (Collective Bargaining Agreement)",
+    "evidence": "express terms and conditions of this Collective Bargaining Agreement",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "comply with all applicable state and federal laws/rules/regulations",
+    "page": "21",
+    "confidence": "high"
+  }
+}

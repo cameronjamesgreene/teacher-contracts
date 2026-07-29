@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "In performance of their teaching functions, teachers shall be responsible for presenting all sides of an issue and for providing students with the opportunity to investigate all facets and/or opinions of or about any and all germane topics and materials of the curriculum introduced or presented and shall have a special responsibility to provide such opportunity with regard to those topics of the curriculum which are or may be of a controversial nature.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

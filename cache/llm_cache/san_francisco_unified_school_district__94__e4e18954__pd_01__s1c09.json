@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "41.3.18 The Role of Peer Coaches: Peer Coaches shall: provide assistance to teachers on their caseloads that may include help such as ... orienting to record-keeping requirements ... and, as part of the orientation responsibilities, review with the teachers site specific requirements",
+    "page": "102",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "41.3.19.3 The Panel shall select Peer Coaches from among applicants meeting minimum qualifications.",
+    "page": "103",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "no",
+    "evidence": "41.3.8 The parties do not see participation in the Program as part of a career ladder to becoming a District administrator.",
+    "page": "100",
+    "confidence": "high"
+  }
+}

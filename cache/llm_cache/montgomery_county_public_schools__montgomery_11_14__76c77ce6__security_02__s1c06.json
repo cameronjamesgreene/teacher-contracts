@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "one or two years",
+    "evidence": "Evaluation of unit members during their probationary period of employment is of high importance to the unit member and the school system. Cooperative efforts will be made to work for his/her success but if, after one or two years, success does not seem possible, he/she will not be continued in employment.",
+    "page": "34",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "However, the principal must complete the Yearly Evaluation Report for MSDE Certification Renewal annually to verify to the Maryland State Department of Education (MSDE) that the certificate holder’s performance is satisfactory (“meets standard”).",
+    "page": "33",
+    "confidence": "medium"
+  }
+}

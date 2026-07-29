@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "71",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Combination of seniority and certification. Order of layoff: (1) temporary/provisional certification, (2) fully certificated annual/probationary contract, (3) continuing/professional contract.",
+    "evidence": "reduction shall be made on a county-wide basis and shall be based upon seniority and certification as further defined in this Section. ... Employees holding temporary or provisional certification will be the first released. Fully certificated annual/probationary contract employees, the next released.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

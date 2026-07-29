@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "196 total workdays (180 student contact days, 6 paid holidays)",
+    "evidence": "Working days for ten (10) month teachers shall consist of no more than one hundred ninety-six (196) workdays of which one hundred eighty (180) days shall include student contact. Six (6) of these workdays shall be paid holidays.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 hours",
+    "evidence": "The regular working day for teachers shall be seven and one-half (7 1/2) hours which shall include a minimum of thirty (30) minutes for lunch.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "If individual classroom teacher planning is affected beyond the above exceptions, then classroom teachers shall be given an equivalent amount of time for individual classroom teacher planning on an early release Wednesday within the same month or the immediately following month.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "“Data chats” shall not be scheduled during individual teacher planning times but may be scheduled during collaborative planning times on early release Wednesdays.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "The principal will grant duty-free lunch whenever practicable to as many teachers as feasible, if adequate supervision of students is maintained. Teachers shall not be required to eat with their students unless circumstances beyond the administration’s control require such supervision.",
+    "page": "23",
+    "confidence": "medium"
+  }
+}

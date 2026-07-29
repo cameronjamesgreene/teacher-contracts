@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "Yes. The document requires \"just cause\" for permanent employees and protection from actions that are \"arbitrary or capricious\" for probationary employees. Covered actions include written reprimand, suspension, and disciplinary discharge.",
+    "evidence": "The standard for disciplining permanent employees shall be just cause. The standard for disciplining probationary employees shall be not arbitrary or capricious, as opposed to at will. The intent of this Article is to establish a process for progressive discipline, which may lead to a written reprimand, a suspension, or a disciplinary discharge.",
+    "page": "35",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "Yes. Grounds include unsatisfactory performance, unprofessional conduct, and violations of school laws/regulations. Notice requires written charges with specific evidence at least 10 school days prior to the effective date. Hearing/representation rights allow reviewing documents, meeting with the Chancellor's representatives, submitting a written reply within 5 days, and having a WTU rep at meetings. Grievances may be heard at Step 2 by a neutral hearing officer or appealed to arbitration. Timelines require initiation within 45 school days and investigation completion within 55 calendar days. The decision maker is the official taking the action (Chancellor/designee), subject to Step 2 or arbitration review.",
+    "evidence": "Reasons for a letter of reprimand include, but are not limited to, unsatisfactory performance, unprofessional conduct, and persistent violation of or refusal to obey the school laws of the District of Columbia or reasonable regulations prescribed by DCPS of Education. ... the official taking the action shall provide the employee with advance written notice of the charge[s], which shall include a specific statement of the evidence supporting such charge[s], no later than ten (10) school days prior to the effective date of the discipline. ... Within five (5) school days of the receipt of the notice, the WTU and/or employee has the right to review all documents related to the charges, meet with representatives from the Office of the Chancellor before implementation of the proposed suspension or disciplinary discharge, and to provide a written reply along with supporting documents against the charges. ... The initiation of the disciplinary action shall be taken no later than forty-five (45) school days after the Supervisor’s knowledge of the alleged infraction. In cases requiring an investigation, any investigation conducted by or on behalf of DCPS into the alleged infraction shall be completed, with any investigation report provided to the employee involved and to the WTU within fifty-five (55) calendar days after the Supervisor’s knowledge of the alleged infraction. ... Disciplinary actions shall be subject to the grievance and arbitration process provided for in this Agreement.",
+    "page": "35, 36, 37",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to comprehensively cover all procedural elements cited in the answer (grounds, notice, reply window, timelines, grievance steps), as the original quote only addressed the 10-day notice requirement. Answer and confidence remain unchanged."
+  }
+}

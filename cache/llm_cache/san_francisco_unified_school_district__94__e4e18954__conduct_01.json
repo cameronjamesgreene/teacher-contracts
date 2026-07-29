@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "A Panel member shall neither participate in discussion nor vote on any matter in which s/he has a professional or personal conflict of interest.",
+    "page": "99",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "The District and the Union agree that academic freedom is essential to the fulfillment of the purposes of the San Francisco Unified School District, and they acknowledge the fundamental need to protect teachers from unreasonable censorship or restraint which might interfere with their obligation to pursue truth in the performance of their job with the District.",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes. Committee: Faculty Steering Committee. Membership: 5-10 teachers elected by secret ballot. Issue scope: student discipline, faculty meetings, school rules, and health and safety items. Complaint process: Teachers report hazards to the principal.",
+    "evidence": "The steering committee may be established in a school for considering various areas such as, but not limited to, student discipline, faculty meetings, school rules, and health and safety items.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes. Standards/Responsibility: Board keeps instructional rooms clean/free from hazards; principal maintains heating/cooling; custodial staff cleans lounges regularly. Priority given to rectify poor indoor air quality/mold. Complaint process: Teachers report hazards to principal.",
+    "evidence": "The Board will keep all rooms, which are used for instructional purposes or preparation, clean and free from health and safety hazards. Each principal will take necessary steps to maintain the heating and cooling systems. Priority will be given to rectify schools with documented poor indoor air quality including mold. Teachers will report any health or safety hazards to the principal.",
+    "page": "16",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "At the time of probationary appointment, if such teacher has previously served in the San Francisco Unified School District, he/she shall be placed in the appropriate classification and shall be allowed credit for increment purposes on the basis of one (1) increment for each year of service as a regularly assigned teacher.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "A newly-appointed probationary teacher shall receive year-for-year credit for verified outside teaching... Whenever a “year” is referred to in determining credit for outside or former teaching experience, it is hereby defined as not less than seventy-five percent (75%) of the service which the college or school district in which the instructor or teacher was formerly employed required... Outside teaching experience in more than one (1) college or school district in any one (1) school year may be combined for granting such outside credit.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "The document does not distinguish out-of-state experience from out-of-district experience, treating all outside/ former teaching experience identically under Section 11.8.7.1-11.8.7.3.",
+    "page": "33",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective Bargaining Agreement (CBA)",
+    "evidence": "\"provision(s) of this Agreement.\"",
+    "page": "91",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2022-2023",
+    "evidence": "\"Albequerque_2022-2023.pdf\"",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Educators / Teachers",
+    "evidence": "\"Educators who perform duty, voluntarily or involuntarily, in the “uniformed services,”...\"",
+    "page": "83",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "\"The determination shall be consistent with law and with the terms of this Agreement.\"",
+    "page": "92",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "\"New Mexico State Personnel Act\" and \"New Mexico Statutes Annotated (NMSA) § 22-10A-27\"",
+    "page": "92",
+    "confidence": "high"
+  }
+}

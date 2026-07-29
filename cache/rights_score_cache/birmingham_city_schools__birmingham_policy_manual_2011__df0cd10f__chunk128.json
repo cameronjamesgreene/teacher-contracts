@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "the administration is authorized to provide technological equipment within cla_ssroom settings.",
+      "subject_text": "the administration",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Administrative regulations shall be developed by the administration to effectively implement this policy.",
+      "subject_text": "Administrative regulations",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction directing management to create implementing regulations."
+    },
+    {
+      "quote": "A safe and healthful en~ironment shall be provided to assist each student in deriving maximum benefit from the education.al program.",
+      "subject_text": "A safe and healthful en~ironment",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Passive construction; implicit agent is the district."
+    },
+    {
+      "quote": "The Board shall provide appropriate instructional health programs for all students~and",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "First independent clause joined by 'and'."
+    },
+    {
+      "quote": "shall cooperate with local health agencies in meeting the special needs of the iD4ividual student.",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Second independent clause; subject is implied from previous clause."
+    },
+    {
+      "quote": "Special tllllphasishall be placed an providing a health program that will equip young people vith the necessary knowledge for making wise and intelligent decisions for healthful living.",
+      "subject_text": "Special tllllphasishall",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Heavily garbled OCR text; operative duty on administration to emphasize health education."
+    }
+  ]
+}

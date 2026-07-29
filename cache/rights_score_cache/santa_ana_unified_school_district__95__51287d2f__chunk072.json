@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "The opening notice shall include the position, level or subject matter of assignment, special credential if applicable, or other pertinent needs or requirements,",
+      "subject_text": "The opening notice",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "and the closing date of such position which shall be a minimum of five (5) duty days after the initial posting date of the opening.",
+      "subject_text": "the closing date of such position",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members may request a reassignment to any specific opening for which they are qualified during the time of the opening.",
+      "subject_text": "Unit members",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "District management shall select the most qualified applicant for the opening based upon the following criteria:",
+      "subject_text": "District management",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Interviews shall be reserved for instances when candidates are similar with regard to these criteria.",
+      "subject_text": "Interviews",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "If two (2) or more applicants are equally qualified, seniority in the District shall be the determining factor.",
+      "subject_text": "seniority in the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "At any time prior to the granting of a reassignment, the reassignment request may be withdrawn by the unit member.",
+      "subject_text": "the reassignment request",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Prior to making a District-initiated assignment caused by declining enrollment, enrollment shifts, or budgetary considerations, the District shall seek qualified volunteers at the site including an attempt to notify those off cycle and those on leave of absence.",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "layoffs",
+      "notes": ""
+    },
+    {
+      "quote": "In the event District-initiated reassignments must be made, they shall not be made arbitrarily or capriciously.",
+      "subject_text": "they",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "layoffs",
+      "notes": ""
+    }
+  ]
+}

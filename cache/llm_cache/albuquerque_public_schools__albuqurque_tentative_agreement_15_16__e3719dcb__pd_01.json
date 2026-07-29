@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Article 2, B. Rights 2. The Federation has the right to make announcements at faculty staff meetings and new teacher orientation.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 quoted Article 9, which is not in the provided text. Updated evidence to Article 2.B.2, which explicitly supports 'new teacher orientation'."
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "ARTICLE 6, E. Teacher Leadership Position Descriptions: The following explanations apply to the teacher leadership positions identified herein. Teacher Leadership Positions are in place to support distributive leadership throughout the school and are intended to be held by multiple members of the staff.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Appendices A.1-A.3 reference Career Pathway Levels 1, 2, and 3 for various personnel, but the detailed provisions for movement criteria, eligibility, and evaluation links (quoted Article 10) are not included in the provided text.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 quoted Article 10, which is absent from the provided document. The answer's specific details regarding criteria, eligibility, and evaluation links cannot be verified from the text. Downgraded to discussed_unclear pending full document review."
+  }
+}

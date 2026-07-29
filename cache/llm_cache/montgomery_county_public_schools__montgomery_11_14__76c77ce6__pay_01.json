@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "1. a. The salary schedule for 2010-2011 is: 10-Month Salary Schedule",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "FY 2010 and FY 2011 (Effective July 1, 2008)",
+    "evidence": "(Note: This salary schedule remained the same for FY 2010 and FY 2011.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "no",
+    "evidence": "Step increases are not to be implemented during FY 2011 and are subject to reopened negotiations in accordance with Article 31 of this Agreement.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

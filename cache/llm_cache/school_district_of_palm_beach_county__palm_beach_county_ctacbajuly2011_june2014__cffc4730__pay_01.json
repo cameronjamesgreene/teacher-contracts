@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX A – PERFORMANCE-BASED SALARY SCHEDULE",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "July 1, 2011 - June 30, 2014",
+    "evidence": "July 1, 2011 - June 30, 2014",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "The parties agree that employees will be eligible for a step increment at the beginning of the school year; however, the step increment will not be implemented until the value of the step has been determined through negotiations.",
+    "page": "100",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "...all new employees will be granted all verified prior years of public and/or private school successful teaching experience not to exceed 25 years.",
+    "page": "101",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "APPENDIX A – PERFORMANCE-BASED SALARY SCHEDULE",
+    "page": "128",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high as the appendix title explicitly confirms performance-based compensation."
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

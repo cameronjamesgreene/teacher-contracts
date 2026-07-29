@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "July 1, 2017: 2%; July 1, 2018: 2%; Jan 1, 2020: reopener based on stable local funding. Covers all salary schedules.",
+    "evidence": "July 1, 2017: 2% (previously negotiated 12‐2016, includes all salary schedules) July 1, 2018: 2% (with stable local funding, including all salary schedules) January 1, 2020: reopener for COLA increase based on stable local funding, including all salary schedules",
+    "page": "Section 700",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

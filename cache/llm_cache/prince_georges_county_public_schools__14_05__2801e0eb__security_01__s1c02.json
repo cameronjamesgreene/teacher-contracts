@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "seniority will be considered with the least senior teacher being assigned out-of-field, unless a more senior teacher has greater training or experience related to the out-of-field assignment.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Requests must be submitted on a “Transfer Form” no later than March 1 to the Chief Administrator of the Division of Human Resources, with a copy to the current Principal. All voluntary transfers require receiving Principal acceptance. Requests after March 1 are considered only for extenuating or unusual circumstances and require five or more years of service, routed through the current Principal with their recommendation. Priority consideration applies to full-time vacancies for reassigned itinerant teachers.",
+    "evidence": "This form, with any supplemental information in support of the transfer request, must be submitted by the teacher no later than March 1 to the Chief Administrator of the Division of Human Resources. A copy of the transfer request is to be given by the teacher to the teacher’s current Principal at the time it is submitted to the Office of Human Resources. ... All voluntary transfers shall be acceptable to the receiving Principal. ... Requests for voluntary transfers to known vacancies may be submitted after March 1, but will be considered only in extenuating or unusual circumstances and only from teachers with five or more years of service in the Prince George’s County Public Schools System.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "A person who elects not to continue to teach out of the area in which certification is held will be declared a staff reduction and involuntarily transferred in accordance with Section 4.11 A.7 and 8 subject to the provisions contained in Sections 4.11 and 4.12 herein.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

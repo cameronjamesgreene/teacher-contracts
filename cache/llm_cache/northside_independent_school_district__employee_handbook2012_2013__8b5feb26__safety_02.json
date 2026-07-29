@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "All visitors are expected to enter any district facility through the main entrance and sign in or report to the building’s main office. Authorized visitors will receive directions or be escorted to their destination. Employees who observe an unauthorized individual on the district premises should immediately direct him or her to the building office or contact the administrator in charge.",
+    "page": "n/a",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_weapons_008": {
+    "answer": "yes",
+    "evidence": "Employees, visitors, and students are prohibited from bringing firearms, knives, clubs or other prohibited weapons onto school premises (i.e., building or portion of a building) or any grounds or building where a school-sponsored activity takes place. To ensure the safety of all persons, employees who observe or suspect a violation of the district’s weapons policy should report it to their supervisors or call James Rice immediately.",
+    "page": "n/a",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "engine": "olmOCR-2",
+  "engine_slug": "olmocr2",
+  "engine_version": "7B-1025",
+  "finished_at": "2026-07-12T18:57:27.088812+00:00",
+  "host": "hpc-vllm-gpu-1",
+  "method": "vlm-vision",
+  "output_chars": 2175,
+  "params": {
+    "gres": "gpu:1",
+    "image": "docker://vllm/vllm-openai:v0.23.0",
+    "in_flight": 24,
+    "max_tokens": 4096,
+    "model": "allenai/olmOCR-2-7B-1025",
+    "note": "per-document timing not recorded; bracket spans the full run",
+    "scale": 1.5,
+    "workers": 4
+  },
+  "pdf_sha256": "443023acb5e28a4978126f2c0c71f6d61e17c92be765b646f9f19a70827dfc77",
+  "schema_version": 1,
+  "started_at": "2026-07-12T18:54:35.479524+00:00"
+}

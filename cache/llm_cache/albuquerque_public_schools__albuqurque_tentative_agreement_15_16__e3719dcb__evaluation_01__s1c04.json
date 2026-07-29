@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "Article 9, THE MENTOR/PEER ASSISTANCE AND REVIEW PROGRAM... B. Peer Assistance and Review (PAR)... PAR Process... Intensive Evaluation... Improvement Plan... Principals shall retain full responsibility and authority to evaluate teachers being mentored in the program.",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "evaluation_system_002": {
+    "answer": "PAR Program / Intensive Evaluation / Improvement Plan; Head Special Education Teacher Rubric",
+    "evidence": "PAR Program is an intervention program... Intensive Evaluation... Improvement Plan... The head Special Education Teacher Rubric will serve as the evaluation tool",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

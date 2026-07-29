@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "Yes. The appended Utah Codes define: 'Probationary educator' as one advised performance is inadequate; 'Provisional educator' as one without career status; 'Career employee' as having reasonable expectation of continued employment (tenure/continuing contract); 'Temporary employee' as serving at will with no expectation of continued employment.",
+    "evidence": "\"Probationary educator\" means an educator employed by a school district who, under local school board policy, has been advised by the district that the educator's performance is inadequate.",
+    "page": "50, 55, 58",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "Yes. Career employees: 30 days prior notice of intent to nonrenew, formal notice at least 30 days before contract end. Provisional employees: 60 days notice. Hearings: Notice must advise right to fair hearing, requested within 15 days. Hearings held before board or hearing officers; employees have right to counsel, witnesses, cross-examination, and documentary evidence.",
+    "evidence": "\"The district shall issue the notice at least 30 days before the end of the career employee's contract term.\"",
+    "page": "56, 57",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "security_rif_006": {
+    "answer": "Yes. Staff reduction is permitted for declining enrollment, program discontinuance/reduction, budget revenue shortages, or school consolidation. District may consider performance evaluation results and school personnel needs. 'Last-hired, first-fired' seniority policy is explicitly prohibited.",
+    "evidence": "\"Nothing in this chapter prevents staff reduction if necessary to reduce the number of employees because of the following: (a) declining student enrollments in the district; (b) the discontinuance or substantial reduction of a particular service or program; (c) the shortage of anticipated revenue after the budget has been adopted; or (d) school consolidation.\"",
+    "page": "59",
+    "confidence": "high"
+  }
+}

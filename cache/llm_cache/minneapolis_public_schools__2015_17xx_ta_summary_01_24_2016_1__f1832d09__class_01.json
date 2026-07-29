@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "\"The District shall set class size priorities as follows: a. Priority Schools. Class size priorities shall be consistent with the MOA on Priority Schools: K-3: 18 students 4-5: 24 students 6-12 Determined by site\"",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as not_discussed. Section X explicitly outlines class size priorities, review procedures, and implementation goals."
+  },
+  "class_elementary_max_002": {
+    "answer": "K-3: 18 students; 4-5: 24 students",
+    "evidence": "\"The District shall set class size priorities as follows: ... K-3: 18 students 4-5: 24 students\"",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as not_discussed. Elementary maximums/targets are explicitly stated in Section X."
+  },
+  "class_secondary_max_003": {
+    "answer": "6-12: Determined by site",
+    "evidence": "\"The District shall set class size priorities as follows: ... 6-12 Determined by site\"",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as not_discussed. Secondary maximums/targets are explicitly stated in Section X."
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "\"If specific class sizes exceed the priorities established through paragraph 1a. or b. above, one of the following options will be implemented, with the goal being a cost-neutral option: a. Co-teaching based on models created by sites in collaboration with MFT b. Additional Educational Support Professionals (ESPs) or Special Education Assistants (SEAs.) c. Balancing class sizes among grade levels or subject areas d. Adding licensed staff through the staff adjustment process or reassigning non-classroom licensed staff to classroom positions e. Reducing non-instructional duties f. Additional weekly prep time g. Other methods will be created collaboratively by the site, District and MFT\"",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as not_discussed. Section X explicitly lists multiple remedies when class sizes exceed established priorities."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "\"A teacher may apply for an unpaid leave at any time within the three (3) years after he/she becomes a parent through childbirth, adoption, or legal guardianship. Such leave shall be for the duration of the year in which the leave was taken and shall be extended by mutual agreement for up to one (1) successive school year.\"",
+    "page": "20",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "\"No teacher shall be required to take an unpaid leave at any time in connection with childbirth or adoption.\"",
+    "page": "20",
+    "confidence": "medium"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "\"A teacher may apply for an unpaid leave at any time within the three (3) years after he/she becomes a parent through childbirth, adoption, or legal guardianship.\"",
+    "page": "20",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

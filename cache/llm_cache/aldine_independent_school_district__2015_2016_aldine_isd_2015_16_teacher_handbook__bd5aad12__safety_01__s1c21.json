@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Provide appropriate support for teachers in dealing with student discipline problems sent to the office. Maintain an orderly classroom atmosphere... Be knowledgeable about the campus discipline framework and implement the plan within classrooms, halls, cafeteria and grounds.",
+    "page": "190",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "a teacher may remove a student from class in order to maintain effective classroom discipline. Whose behavior the teacher determines is so unruly, disruptive, or abusive that it seriously interferes with the teacher's ability to communicate effectively with the students in the class or with the ability of the student's classmates to learn. ... unless the committee established under Section 37.003 determines that such placement is the best or only alternative available.",
+    "page": "191",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

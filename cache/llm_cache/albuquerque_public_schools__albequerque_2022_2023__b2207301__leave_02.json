@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 paid days (plus 2 additional paid days if funeral is out-of-state or requires a 600+ mile round-trip); 1 paid day for death of a current/former student at the educator's school site.",
+    "evidence": "Three (3) days leave with pay will be granted for death in the immediate family of an educator. If requested by the educator, two (2) additional days leave with pay will be granted if the funeral is out of state or requires a round-trip of six hundred (600) miles or more. One (1) day leave with pay will be granted for the death of a current student, or a former student currently enrolled at the educator’s school site, to attend the student’s funeral.",
+    "page": "79",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Spouse, domestic partner, child, grandchild, great-grandchild, parent, sister, brother, grandparent, great-grandparent, son-in-law, daughter-in-law, sister-in-law, brother-in-law, mother-in-law, father-in-law, niece, nephew, aunt, uncle, others who reside in the same household with the educator, or a person in loco parentis.",
+    "evidence": "The immediate family of an educator is the spouse, domestic partner, child, grandchild, great-grandchild, parent, sister, brother, grandparent, great-grandparent, son-in-law, daughter-in-law, sister-in-law, brother-in-law, mother-in-law, father-in-law, niece, nephew, aunt, uncle, others who reside in the same household with the educator, or a person in loco parentis.",
+    "page": "79",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "yes",
+    "evidence": "A parental leave of absence for up to thirty (30) workdays shall be granted upon request for the purpose of childbearing and/or child rearing. Benefit entitlement for eligible employees consists of: a. Gross pay during this time will be 40 percent of wages;",
+    "page": "84",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "If not on parental leave of absence, any portion of an educator's absence from work because of a medical disability connected with or resulting from her pregnancy may be charged to her available sick leave.",
+    "page": "86",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Paid parental leave is a benefit that provides paid leave for an eligible employee to bond with his or her newborn, adopted child, or foster child.",
+    "page": "84",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "The parental leave must run concurrently to the FMLA if the employee is eligible for FMLA.",
+    "page": "85",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

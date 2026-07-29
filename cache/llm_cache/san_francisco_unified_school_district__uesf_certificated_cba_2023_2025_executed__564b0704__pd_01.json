@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Support services for new teachers not participating in the PAR Program shall be provided through the BTSA, Intern, Pre-Intern, Para-To-Teacher, or other programs, as appropriate, with the goal of having every new teacher engaged in a support program.",
+    "page": "136",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "There shall be at least one (1) Lead Coach. In addition to the Peer Coach’s responsibilities, a Lead Coach shall have additional responsibilities which shall include, but not be limited to, scheduling the work of the Peer Coaches and facilitating the work of the PAR Panel.",
+    "page": "140",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "no",
+    "evidence": "The parties do not see participation in the Program as part of a career ladder to becoming a District administrator.",
+    "page": "141",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

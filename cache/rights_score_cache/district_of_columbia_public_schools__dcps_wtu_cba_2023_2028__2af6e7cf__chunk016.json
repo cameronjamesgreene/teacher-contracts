@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "Professional Development shall be provided by DCPS for all Teachers during the tour of duty relating to the needs of students with disabilities, including directives, guidelines, best practices, and all applicable district and federal laws.",
+      "subject_text": "Professional Development",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Passive construction; implicit agent is DCPS (management), ultimate beneficiary is teachers (worker)."
+    },
+    {
+      "quote": "To this end, the Chancellor agrees to work with the President of the WTU to secure a facility in which to hold WTU Professional development courses and workshops at minimal or no cost to the WTU.",
+      "subject_text": "the Chancellor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Uses 'agrees to' as a binding contractual commitment without a modal verb."
+    },
+    {
+      "quote": "DCPS shall, in consultation with the WTU, develop and implement the following initiatives:",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Introductory operative clause mandating the creation of subsequent programmatic commitments."
+    },
+    {
+      "quote": "The parties agree to form a joint committee consisting of the Chancellor or a designee, the President of the WTU or a designee, and 3 representatives selected by the WTU President and 3 representatives selected by the Chancellor, to develop and implement a comprehensive mentoring and induction program.",
+      "subject_text": "The parties",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Joint obligation establishing a structured support framework for new teachers."
+    },
+    {
+      "quote": "The joint committee shall develop and implement a mentoring and induction program by the beginning of the 2010 - 2011 school year that will:",
+      "subject_text": "The joint committee",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Mandates a specific deliverable with a fixed deadline; introduces subsequent program requirements."
+    }
+  ]
+}

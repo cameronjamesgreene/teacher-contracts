@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Smoking and other tobacco use shall be prohibited on school system property, all school sponsored events at any time and/or on school vehicles at all times.",
+      "subject_text": "Smoking and other tobacco use",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "\"No smoking\" signs shall be placed prominently throughout the buildings on school system property and vehicles.",
+      "subject_text": "\"No smoking\" signs",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Implicit duty on district administration to install compliance signage."
+    },
+    {
+      "quote": "Supervisor and/ or principal will inform the superintendent in writing of the violation.",
+      "subject_text": "Supervisor and/ or principal",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The superintendent will write a letter of reprimand, with a copy given to the employee and the original placed in the employee's personnel folder at Central Office.",
+      "subject_text": "The superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The superintendent will write a letter of reprimand, which includes a statement requiring the mandatory attendance and completion of our district's Employee Assistance Program (EAP).",
+      "subject_text": "The superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "A copy of this letter will be given to the employee and the original placed in the employee's personnel folder in the Central Office.",
+      "subject_text": "A copy of this letter and the original",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "Supervisor and/ or principal will inform the Superintendent, in writing of the violation.",
+      "subject_text": "Supervisor and/ or principal",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The Superintendent will make a recommendation of disciplinary action to the Board of Education, which may include, but is not limited to termination of employees employment with the school district...",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Continues in next chunk."
+    }
+  ]
+}

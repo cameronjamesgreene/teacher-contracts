@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "SAUSD/SAEA 2004-2007",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007",
+    "evidence": "SAUSD/SAEA 2004-2007",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "unit members (certificated staff)",
+    "evidence": "Unit members meeting the following criteria may, at the discretion of the District, be granted a leave once in every eight (8) years.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "(Education Code, Section 22803)",
+    "page": "63",
+    "confidence": "high"
+  }
+}

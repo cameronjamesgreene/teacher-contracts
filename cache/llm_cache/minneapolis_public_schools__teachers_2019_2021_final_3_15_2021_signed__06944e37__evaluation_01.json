@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "5.3.2 The Four Components of PAR: Outlined below are the basic Peer Assistance and Review (PAR) components of the continuum that deal with accountability and ongoing professional growth/improvement.",
+    "page": "83",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "Minneapolis Standards of Effective Instruction (SOEI) / MPS Standards of Effective Instruction (Domains & Rubrics)",
+    "evidence": "Purpose and Scope: The Minneapolis Standards of Effective Instruction were designed for the primary purpose of ensuring teaching quality and student achievement.",
+    "page": "66",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "3",
+    "evidence": "\"Three formal observations with Administrator/Supervisor and/or Coach/Mentor (if assigned) each year.\"",
+    "page": "95",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "Requires Attention, Developing, Proficient, Exemplary",
+    "evidence": "The rubric has four descriptors used with each domain defining levels of effectiveness: Requires Attention, Developing, Proficient, or Exemplary",
+    "page": "68",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "September: All staff: Review student scores, student work, and other available data. Make observations of students to determine needs, areas of strengths, and future expectation to help focus PDP goals.",
+    "page": "86",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

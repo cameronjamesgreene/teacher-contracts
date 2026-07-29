@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "yes",
+    "evidence": "Whenever it appears that any aspect of a tenured teacher’s classroom performance is less than satisfactory, the Principal shall notify the teacher in writing and shall follow such notification with a conference to suggest necessary improvement, and shall make at least one classroom observation which shall be announced to the teacher at least two days in advance.",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded 'no' based on a vague appendix quote. Section 4.08.B explicitly outlines the remediation/improvement process for less than satisfactory performance, directly supporting a 'yes' answer."
+  },
+  "evaluation_consequences_008": {
+    "answer": "yes",
+    "evidence": "Factors to be considered: ... e. Satisfactory evaluation. [Section 4.10.B.1] / b. The official evaluation and performance for the previous year. [Section 4.11.A.3.b]",
+    "page": "10-11",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to provide complete, unfragmented quotes. The contract explicitly lists evaluation results as a factor for voluntary transfers (4.10.B.1.e) and involuntary transfers/staff reductions (4.11.A.3.b), confirming the 'yes' answer."
+  }
+}

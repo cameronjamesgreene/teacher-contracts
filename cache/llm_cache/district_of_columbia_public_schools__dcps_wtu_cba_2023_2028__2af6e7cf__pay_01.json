@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "SALARY SCHEDULES ... FY 2024 ET 15 SALARY SCHEDULE ....................................................................................107 ... FY 2028 ET 15 SALARY SCHEDULE ....................................................................................111",
+    "page": "iii",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded 'no' based on a standard review disclaimer clause. The Table of Contents explicitly lists salary schedules from FY2024 to FY2028, confirming their inclusion."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "FY 2024 through FY 2028",
+    "evidence": "FY 2024 ET 15 SALARY SCHEDULE ....................................................................................107 ... FY 2028 ET 15 SALARY SCHEDULE ....................................................................................111",
+    "page": "iii",
+    "confidence": "high",
+    "coder_notes": "Updated to include FY 2024, which is listed in the Table of Contents and begins on page 107. Stage 1 missed the first year."
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Teachers who receive an evaluation score of Minimally Effective shall be held on their current salary step. Such Teachers who earn an evaluation scored of Effective or higher shall be immediately moved to the next step.",
+    "page": "94",
+    "confidence": "high",
+    "coder_notes": "Evidence directly and explicitly supports the answer regarding annual step advancement based on evaluation scores. (Note: Page 94 is outside the provided document snippet, but the quoted text is explicit.)"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Teachers shall receive a service credit of up to nine (9) years for: Each year of comparable, satisfactory, full-time service in another school system, as determined by DCPS; and Each year of work in another field deemed applicable to education, as determined by DCPS.",
+    "page": "94",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly details how prior teaching and applicable work experience is credited for salary placement."
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "DCPS shall implement an individual performance-based pay and/or bonus system in the fall of 2010 in collaboration with the WTU that results in Teachers in the system being among the highest compensated educators in the nation.",
+    "page": "93",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly confirms the implementation of an individual performance-based pay system."
+  },
+  "pay_performance_pay_007": {
+    "answer": "Voluntary “qualify-in” basis with qualifications including student growth for tested and non-tested grades and subjects",
+    "evidence": "The individual performance-based pay system shall be on a voluntary “qualify-in” basis, with the qualifications including student growth for tested and non-tested grades and subjects and not requiring permanent status Teachers to relinquish their tenure.",
+    "page": "93",
+    "confidence": "high",
+    "coder_notes": "Evidence directly supports the voluntary qualify-in structure and specifies the student growth qualification requirement."
+  }
+}

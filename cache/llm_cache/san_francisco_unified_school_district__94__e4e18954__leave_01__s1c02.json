@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 (11 for Child Development Program teachers)",
+    "evidence": "At the beginning of each school year, a teacher shall be credited with ten (10) days of sick leave allowance to be used for absences caused by illness or physical disability. A Child Development Program teacher working a 218 day calendar shall be credited with eleven (11) days of sick leave allowance.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates; no cap stated.",
+    "evidence": "Each teacher shall receive notification of his/her accumulated total of sick leave days printed on the regular pay check.",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Each school year a teacher may use up to five (5) days each school year of sick leave allowance for immediate family illness.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "7 days (deducted from sick leave bank)",
+    "evidence": "A teacher may use up to seven (7) days each school year of sick leave allowance for personal, legal, business, religious, household, family, or other matters which require absence during school hours.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Must give advance notice, at least enough time to secure a substitute.",
+    "evidence": "Teachers are expected to give as much advance notice as possible, but in no event less than the amount needed to secure a substitute.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

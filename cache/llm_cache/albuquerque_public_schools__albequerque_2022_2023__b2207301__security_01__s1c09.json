@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Employees who are not renewed for any reason will receive a written notice of the reason(s) for refusal of reemployment within 72-hours of the original notice.",
+    "page": "93",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Seniority is referenced in Articles 23.F, 23.H, and P.2.f but no formal definition is provided in this section.",
+    "page": "86, 90",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "For Summer Learning staff, volunteers are sought first; remaining positions are determined by date of hire. Reductions in ESY and Grades K-5 programs follow Article 15.B procedures.",
+    "evidence": "If a need occurs for a Reduction-in-Force (RIF) of Summer Learning employees, volunteers will be sought first. If an RIF is still necessary, determination will be made on the basis of date of hire for summer school. Procedures for reductions in ESY and Grades K—5 plus programs shall be done so in accordance with Article 15.B.",
+    "page": "90",
+    "confidence": "high"
+  }
+}

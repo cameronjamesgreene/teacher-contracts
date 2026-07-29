@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "18.2.1 A Teacher who is the victim of an act of violence and who sustains disability on the job and acting within the course and scope of his/her duties shall be allowed leave with pay in accordance with workers compensation law and provisions... 18.2.2 A reasonable loss of time, not to exceed ten (10) days, resulting from an assault on a Teacher shall not be deducted from the Teacher’s unused sick leave... 18.2.3 DCPS shall provide the Teacher with administrative leave for court appearances related to such event.",
+    "page": "62",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "18.1.1 The parties agree that Title 5, DCMR Chapter 25 is the policy which establishes the procedures for maintaining student discipline... 18.1.2 Each local school shall form a Student Behavior Management Committee (SBMC)... 18.1.5 Teachers shall exercise the responsibility for the supervision and discipline of students through the use of... classroom management techniques... 18.1.6 If a student conducts himself/herself in such a manner that seriously impedes learning... or if the safety... is seriously threatened, a Teacher shall be free to send or escort the student to the Supervisor's office...",
+    "page": "60",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "18.1.6 ...a Teacher shall be free to send or escort the student to the Supervisor's office... 18.1.7 When a student is sent or escorted from class or other school area, the Teacher will confer with the Supervisor... and shall provide a written statement of the problem at the end of the Teacher’s work day... 18.1.8 ...the Teacher shall have the right to request that the student not return to his/her class prior to a parent conference if the student’s behavior is so severe as to interfere with the Teacher’s ability to provide instruction.",
+    "page": "61",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "23.5.1 DCPS shall announce any emergency closing via the DCPS website at the earliest possible time. 23.5.2 DCPS shall also submit such announcements to the local media in a timely fashion. 23.5.3 Teachers shall not have their sick leave reduced as a result of emergency closings.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

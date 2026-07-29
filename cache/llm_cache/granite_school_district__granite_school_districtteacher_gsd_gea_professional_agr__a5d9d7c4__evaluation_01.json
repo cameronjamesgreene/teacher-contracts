@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes, Article 14, reference only",
+    "evidence": "14.1 Teachers will be evaluated under the provisions of the Educator Evaluation Law, Title 53A Chapter 10. Utah Code. (See Appendix E.)",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "Educator Evaluation Law, Title 53A Chapter 10. Utah Code.",
+    "evidence": "14.1 Teachers will be evaluated under the provisions of the Educator Evaluation Law, Title 53A Chapter 10. Utah Code.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "At least twice annually for provisional/probationary; annual for career educators",
+    "evidence": "53A-10-106(2)(a) the evaluation of provisional and probationary educators at least twice each school year; and (b) the annual evaluation of all career educators;",
+    "page": "51",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "53A-10-106(4)(f) student achievement data",
+    "page": "51",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

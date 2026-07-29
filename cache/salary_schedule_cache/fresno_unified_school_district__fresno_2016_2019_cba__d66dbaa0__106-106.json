@@ -1,0 +1,487 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "SALARY SCHEDULE: Full credit will be given for verified K12 teaching service",
+      "population": "Non-Credentialed and Full-Credentialed Teachers",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "",
+      "lane_labels": [
+        "BA+30",
+        "BA+45",
+        "BA+60",
+        "BA+75",
+        "Class V (A05)"
+      ],
+      "step_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "cells": [
+        {
+          "step": "0",
+          "lane": "BA+30",
+          "value": "46537.86",
+          "cell_code": null
+        },
+        {
+          "step": "0",
+          "lane": "BA+45",
+          "value": "49330.18",
+          "cell_code": null
+        },
+        {
+          "step": "0",
+          "lane": "BA+60",
+          "value": "52122.49",
+          "cell_code": null
+        },
+        {
+          "step": "0",
+          "lane": "BA+75",
+          "value": "54914.51",
+          "cell_code": null
+        },
+        {
+          "step": "0",
+          "lane": "Class V (A05)",
+          "value": "56561.90",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "BA+30",
+          "value": "49330.18",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "BA+45",
+          "value": "52122.49",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "BA+60",
+          "value": "54914.51",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "BA+75",
+          "value": "57706.98",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "Class V (A05)",
+          "value": "59437.98",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "BA+30",
+          "value": "52122.49",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "BA+45",
+          "value": "54914.51",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "BA+60",
+          "value": "57706.98",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "BA+75",
+          "value": "60499.29",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "Class V (A05)",
+          "value": "62314.07",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "BA+30",
+          "value": "54914.51",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "BA+45",
+          "value": "57706.98",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "BA+60",
+          "value": "60499.29",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "BA+75",
+          "value": "63291.61",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "Class V (A05)",
+          "value": "65190.15",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "BA+30",
+          "value": "57706.98",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "BA+45",
+          "value": "60499.29",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "BA+60",
+          "value": "63291.61",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "BA+75",
+          "value": "66083.63",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Class V (A05)",
+          "value": "68066.09",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "BA+30",
+          "value": "60499.29",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "BA+45",
+          "value": "63291.61",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "BA+60",
+          "value": "66083.63",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "BA+75",
+          "value": "68875.94",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Class V (A05)",
+          "value": "70942.32",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "BA+30",
+          "value": "63291.61",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "BA+45",
+          "value": "66083.63",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "BA+60",
+          "value": "68875.94",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "BA+75",
+          "value": "71668.26",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Class V (A05)",
+          "value": "73818.26",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "BA+30",
+          "value": "66083.63",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "BA+45",
+          "value": "68875.94",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "BA+60",
+          "value": "71668.26",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "BA+75",
+          "value": "74460.58",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Class V (A05)",
+          "value": "76694.34",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "BA+45",
+          "value": "71668.26",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "BA+60",
+          "value": "74460.58",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "BA+75",
+          "value": "77252.74",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Class V (A05)",
+          "value": "79570.28",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "BA+60",
+          "value": "77252.74",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "BA+75",
+          "value": "80045.21",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Class V (A05)",
+          "value": "82446.51",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "BA+75",
+          "value": "82837.38",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Class V (A05)",
+          "value": "85322.44",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "",
+      "confidence": "high",
+      "deterministic_guardrail_hints": [],
+      "validation_warnings": [],
+      "audit_matched": false,
+      "audit_issues": [
+        "Missing value for Step 0, Class V (A05) lane; source lists 56,561.90 but the extraction omitted it."
+      ],
+      "audit_corrected": true
+    },
+    {
+      "has_table": true,
+      "schedule_label": "Career increment",
+      "population": "Teachers with 11-15 years of service",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "",
+      "lane_labels": [
+        "Percent of Salary",
+        "Career Increment",
+        "Salary",
+        "Professional Learning"
+      ],
+      "step_labels": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "cells": [
+        {
+          "step": "11",
+          "lane": "Percent of Salary",
+          "value": "1.6",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Career Increment",
+          "value": "1325.40",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Salary",
+          "value": "84162.77",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Professional Learning",
+          "value": "86687.66",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Percent of Salary",
+          "value": "3.2",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Career Increment",
+          "value": "2650.80",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Salary",
+          "value": "85488.17",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Professional Learning",
+          "value": "88052.82",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Percent of Salary",
+          "value": "4.8",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Career Increment",
+          "value": "3976.19",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Salary",
+          "value": "86813.57",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Professional Learning",
+          "value": "89417.98",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Percent of Salary",
+          "value": "6.4",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Career Increment",
+          "value": "5301.59",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Salary",
+          "value": "88138.97",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Professional Learning",
+          "value": "90783.14",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Percent of Salary",
+          "value": "8.0",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Career Increment",
+          "value": "6626.99",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Salary",
+          "value": "89464.37",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Professional Learning",
+          "value": "92148.30",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

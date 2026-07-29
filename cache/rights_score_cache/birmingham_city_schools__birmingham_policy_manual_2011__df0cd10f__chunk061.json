@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "All employees are strictly prohibited from unlawfully manufacturing, possessing, using, transferring, selling, distributing, and being under the influence of controlled substances.",
+      "subject_text": "All employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Any employee who violates this prohibition while on the job will be subject to disciplinary action, up to and including termination of employment.",
+      "subject_text": "Any employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "All employees are strictly prohibited from possession, using, transferring, selling, distributing, and being under the influence of alcohol while on the job or on school premises or off-campus in connection with or affecting any school-related activity.",
+      "subject_text": "All employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

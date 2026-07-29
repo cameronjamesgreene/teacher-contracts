@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Within each of the items (a) through (c), reductions shall be made such that persons in those areas having the least seniority will be the first released.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Employees assigned to new magnet schools (after 7 months of operation) may voluntarily transfer via the UAT Procedure. The District provides written notice at least 10 days before the IPP return date, and the employee must notify the Director of Instructional Employment in writing within 5 days of receipt to participate.",
+    "evidence": "Such employees will have five (5) days after receipt of this written notification to exercise their right to participate in the UAT Procedure by providing written notice to the Director of Instructional Employment that they are voluntarily participating in the UAT Procedure.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Also, said employee(s) shall provide the Director of Instructional Employment with a list of three (3) schools in the County to which they prefer to be transferred. Only if no vacant positions exist at any of these three (3) listed schools shall the employee be involuntarily transferred to another available position.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Triggers include enrollment/budget declines and reorganization. Reductions are county-wide by certification/level. Order of release: 1) temporary/provisional, 2) annual/probationary, 3) continuing/PSC; within each group, least seniority released first. Notice is sent via certified mail. Employees are reassigned to openings by seniority and recalled within 2 years in descending seniority order.",
+    "evidence": "reduction shall be made on a county-wide basis and shall be based upon seniority and certification... Employees holding temporary or provisional certification will be the first released. Fully certificated annual/probationary contract employees, the next released. Continuing/professional service contract employees will be the last to be released. Within each of the items (a) through (c), reductions shall be made such that persons in those areas having the least seniority will be the first released.",
+    "page": "71",
+    "confidence": "high"
+  }
+}

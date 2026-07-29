@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "3.8 Whenever the term “permanent teacher” is used, it is to include both tenured TK-12 teachers and Early Education Department permit teachers who have passed probation. 3.9 Whenever the term “tenure-track teacher” is used, it is to include tenured TK-12 teachers, Early Education Department permit teachers who have passed probation, and probationary teachers. 3.10 Whenever the term “regularly assigned teacher” is used, it is to include those permanent, probationary, temporary, emergency, categorical, pre-intern and intern teachers who have been assigned to a site by the Human Resources Department.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "In the event that the above criteria appear equal, the transfer decision shall be based upon District-wide seniority.",
+    "page": "65",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Vacancies are posted for an internal preference period (at least 20 days before April 15). At least 5 qualified applicants are interviewed. Acceptance/denial by April 15, written notice by May 1. Approval criteria (in order): 1) District program/operational needs (cannot deny after 3 consecutive years in program), 2) Opportunity for evaluation in a different environment, 3) Qualifications/experience/training vs. others, 4) District-wide seniority tie-breaker. Denied requests receive written reasons.",
+    "evidence": "Criteria for voluntary transfer - The following criteria, in the order listed, shall be used in determining the approval or denial of unit member voluntary transfers... / In the event that the above criteria appear equal, the transfer decision shall be based upon District-wide seniority. / A teacher whose voluntary transfer request has been denied may request in writing and shall receive written reasons for the denial.",
+    "page": "65",
+    "confidence": "medium",
+    "coder_notes": "Quoted evidence is a high-level summary and does not explicitly contain the specific procedural details, dates, or interview numbers stated in the answer. Confidence lowered to medium as these specifics are likely in the full Article 15 text but absent from the excerpt provided."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Involuntary transfers shall not be punitive in nature and shall be based on legitimate, educationally-related needs of the District. / Selection of tenure-track teachers to be consolidated shall be based on District seniority, credentials, and qualifications. / Teachers designated to be consolidated shall have the right to indicate preferences from the list of all anticipated openings... / No teacher shall be involuntarily transferred two (2) consecutive years without the existence of special circumstances equivalent to school closure or elimination of program. / A teacher to be consolidated shall be given reasons in writing... / A teacher who is consolidated shall be given written notice... and priority for the next open position... for a period of one year.",
+    "page": "65-66",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "The document uses 'consolidation' and 'RFL' (Reduced Force List) rather than layoff/RIF. Procedures cover Group A and B RFL teachers and consolidated teachers. Placement events occur during the internal preference period. Consolidated teachers receive written notice, priority for the next opening at their original school for one year, and one day of released time for preparation. Selection is based on District seniority, credentials, and qualifications.",
+    "evidence": "A consolidation is an involuntary transfer for the reason that there are more permanent teachers assigned to a site or program than the teacher allocation can support. / Any Consolidated teachers and any Group A RFL teachers may participate in the staffing procedure... / If consolidations are necessary for the following school year, the District and the Union will hold a Consolidated Teachers’ Placement event during the internal preference period...",
+    "page": "63, 65, 66",
+    "confidence": "medium",
+    "coder_notes": "Quoted evidence is partial and omits specific procedural details like Group B RFL handling and released time mentioned in the answer. Confidence set to medium due to incomplete evidence excerpt relative to answer specificity."
+  }
+}

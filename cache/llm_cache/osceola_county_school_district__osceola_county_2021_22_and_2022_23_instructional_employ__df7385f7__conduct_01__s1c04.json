@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "11.01 The Board and the Association agree that Academic Freedom is a fundamental ingredient in the fulfillment of the goals and objectives of the Osceola County Public Schools and the parties acknowledge the need to protect employees from improper censorship or restraint. Therefore, teachers shall have all reasonable freedom within the limitations imposed by law, the State Board of Education regulations, and School Board rules, in the development and implementation of the curriculum, including the right to select useful and relevant materials and determine the class needs as they relate to the curriculum.",
+    "page": "49",
+    "confidence": "high"
+  }
+}

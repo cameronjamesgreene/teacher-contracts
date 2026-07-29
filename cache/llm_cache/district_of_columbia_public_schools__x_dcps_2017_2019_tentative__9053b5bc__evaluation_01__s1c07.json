@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Minimally Effective, Effective",
+    "evidence": "36.6.1 Teachers who receive an evaluation score of Minimally Effective shall be held on their current salary step. 36.6.2 Such Teachers who earn an evaluation scored of Effective or higher shall be immediately moved to the next step.",
+    "page": "95",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "36.4 The individual performance-based pay system shall be on a voluntary “qualify-in” basis, with the qualifications including student growth for tested and non-tested grades and subjects and not requiring permanent status Teachers to relinquish their tenure.",
+    "page": "95",
+    "confidence": "high"
+  }
+}

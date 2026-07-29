@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "no",
+    "evidence": "This program is no longer operative since the state funds allocated for the Mentor Teacher Program were eliminated.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "creates a sequential career ladder for teachers, from recruitment, pre- credential, probationary, tenure, and other teacher classifications that may be subsequently bargained;",
+    "page": "59",
+    "confidence": "high"
+  }
+}

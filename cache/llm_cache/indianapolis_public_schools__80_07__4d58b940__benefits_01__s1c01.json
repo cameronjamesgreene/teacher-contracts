@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Group Health, Accident Major Medical Insurance; Eligible: teachers (Negotiating Unit).",
+    "page": "3",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "2008-2009: Employee $4,993; Employee/Child $6,727; Employee/Spouse $9,034; Family $9,658. 2009-2010: No Increase.",
+    "evidence": "Coverage Options 2008-2009 2009-2010 Employee $4,993 No Increase Employee/Child $6,727 No Increase Employee/Spouse $9,034 No Increase Family $9,658 No Increase",
+    "page": "1",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Eligible: Child, Spouse, Family. Board contributions: Employee/Child $6,727; Employee/Spouse $9,034; Family $9,658 (2008-2009).",
+    "page": "1",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Group Health, Accident Major Medical Insurance",
+    "evidence": "Group Health, Accident Major Medical Insurance;",
+    "page": "3",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

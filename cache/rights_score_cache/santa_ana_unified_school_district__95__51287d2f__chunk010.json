@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Within fifteen (15) duty days following this submission, the unit member and evaluator shall meet and agree on those Standards that shall be applied for evaluative purposes.",
+      "subject_text": "the unit member and evaluator",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "The evaluation procedure shall be discussed in this meeting unless previously discussed individually or presented at a staff/faculty meeting.",
+      "subject_text": "The evaluation procedure",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "The evaluation of first year pre-intern/intern and emergency permit unit members, credentialed temporary and categorically funded unit members, and probationary unit members shall be based on two (2) of the first five (5) Standards and one element of Standard 6: Develops as a Professional Educator.",
+      "subject_text": "The evaluation of first year pre-intern/intern and emergency permit unit members, credentialed temporary and categorically funded unit members, and probationary unit members",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "The evaluation of second or more years pre-intern/intern and emergency permit unit members, second and third year credentialed temporary and categorically funded unit members and second-year probationary unit member shall be based on the remaining three (3) Standards and one element of Standard 6: Develops as a Professional Educator.",
+      "subject_text": "The evaluation of second or more years pre-intern/intern and emergency permit unit members, second and third year credentialed temporary and categorically funded unit members and second-year probationary unit member",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Every evaluation year, the evaluation of permanent and continuing credentialed temporary (three or more years in the District) unit members shall be based on three (3) of the Standards and one element of Standard 6: Develops as a Professional Educator.",
+      "subject_text": "the evaluation of permanent and continuing credentialed temporary (three or more years in the District) unit members",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "The Standards shall be specified in writing on the negotiated Evaluation Plan Form.",
+      "subject_text": "The Standards",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "In the event the written standards are not mutually agreed on, the designated evaluator may substitute up to two (2) Standards and/or one (1) Standard for each “unsatisfactory” received in the preceding evaluation.",
+      "subject_text": "the designated evaluator",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Within five (5) duty days following determination of the Standards for the teaching profession, the unit member may submit to the designated evaluator written constraints which the unit member believes shall prevent him/her from attaining the Standards.",
+      "subject_text": "the unit member",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "If agreement is not reached regarding Standards, the unit member may appeal to the Associate Superintendent, Human Resources, or designee, who shall make the final decision.",
+      "subject_text": "the unit member",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "evaluation",
+      "notes": ""
+    }
+  ]
+}

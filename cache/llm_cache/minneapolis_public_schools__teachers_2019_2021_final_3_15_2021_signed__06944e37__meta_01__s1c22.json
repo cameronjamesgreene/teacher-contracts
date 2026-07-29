@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "\"provisions contained in this Agreement\"",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2021",
+    "evidence": "\"School Year 2020-2021 through School Year 2022-2023\"",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certified staff (Minneapolis Federation of Teachers, Local 59)",
+    "evidence": "\"Minneapolis Federation of Teachers, Local 59\"",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement / CBA",
+    "evidence": "\"provisions contained in this Agreement\"",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "\"Minnesota Statutes § 122A.41\", \"Minnesota Statutes § 179A.03, subdivision 18(2) or Minnesota Statutes § 122A.26 (ECFE)\"",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

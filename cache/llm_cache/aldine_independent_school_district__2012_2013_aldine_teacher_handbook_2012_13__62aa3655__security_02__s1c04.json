@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "The recall will be in reverse order of the dismissal. (Last dismissed, first recalled)... Human Resources personnel shall attempt to notify persons of their recall either by telephone or by sending recall notices by regular mail. Dismissed personnel will have five days from the posting of the official recall notice to return to work... Such recall privilege will exist for two years from the date of a person’s dismissal.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

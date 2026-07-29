@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "In case of an unprovoked assault on a teacher by student(s) or non-student(s) on school property or on school business, the Board shall be responsible for making available full reimbursement upon proof of value to the teacher for any item of personal property damaged in such assault. Furthermore, any absence due to injury or disability as a result of such assault shall not be charged against the teacher's sick leave",
+    "page": "27",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "If a school is officially closed by the General Superintendent because of an emergency, all teachers shall receive full pay for each day on which school is closed.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

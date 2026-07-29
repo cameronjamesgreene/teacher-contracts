@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "father, mother, brother, sister, husband, wife, child, other close relative, or member of the employee's own household",
+    "evidence": "father, mother, brother, sister, husband, wife, child, other close relative, or member of the employee's own household",
+    "page": "91",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Child Care Leave - An employee may request and shall be entitled to a leave of absence without pay for child care reasons.",
+    "page": "102",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Paid leaves are provided for illness of the employee including childbirth...",
+    "page": "91",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Child Care Leave - An employee may request and shall be entitled to a leave of absence without pay for child care reasons. This will include an employee's natural children, foster children, adopted children or children who are otherwise in the legal custody of the employee, for a period not to exceed eighteen (18) months.",
+    "page": "102",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "When an employee is on Family Medical Leave (FML), the District shall continue the employee’s group health and dental insurance in full effect as when the employee was not on leave.",
+    "page": "101",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

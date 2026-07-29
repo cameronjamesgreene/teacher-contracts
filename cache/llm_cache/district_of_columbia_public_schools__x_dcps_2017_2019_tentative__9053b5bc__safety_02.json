@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "WTU officials, upon arrival at a School, shall inform the Supervisor or her/his designee of their presence and shall abide by the School’s regular security procedures.",
+    "page": "11",
+    "confidence": "medium",
+    "coder_notes": "Cited page 60 is absent from the provided excerpt. Updated evidence to page 11, which explicitly requires adherence to regular school security procedures, directly supporting the mention of security measures."
+  },
+  "safety_weapons_008": {
+    "answer": "yes",
+    "evidence": "Possession, use or threatened use of weapons, firearms and controlled substances and the paraphernalia to use controlled substances, are crimes as defined in D.C. Code 22-3201 through 22-3217 and 33-601 through 33-603.",
+    "page": "N/A",
+    "confidence": "low",
+    "coder_notes": "Cited page 61 is missing from the provided document excerpt (ends at page 43). Unable to verify the claim in the available text. Confidence downgraded to low pending full document review."
+  }
+}

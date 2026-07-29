@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "Appendix A Performance and Grandfathered Salary Schedules for 2014-2015 and Beyond... Grandfathered Salary Schedule 2018-2019... Performance Salary Schedule 2018-2019",
+    "page": "76-77",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2015-2016 and beyond, with specific schedules listed for 2018-2019.",
+    "evidence": "Beginning with the 2015-2016 school year, the parties will annually identify the amount of funds available for annual salary adjustments... Grandfathered Salary Schedule 2018-2019... Performance Salary Schedule 2018-2019",
+    "page": "76-77",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "An employee is eligible to receive an annual salary adjustment to their base salary if they have received an effective or highly effective rating on their annual performance evaluation for the preceding year. The annual salary adjustment allocated to highly effective instructional employees on the performance pay schedule must be greater than the largest adjustment received that year by any employee on the grandfathered schedule.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Teachers, who are fully hired to Pinellas County Schools having previous verifiable instructional experience outside of the district, will be placed on the performance salary schedule at a salary level equal to the stop on the most current grandfathered schedule for such years of experience.",
+    "page": "76-77",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "The funds allocated to the performance salary schedule... will be allocated among all instructional employees eligible to receive annual salary adjustments... if they have received an effective or highly effective rating on their annual performance evaluation for the preceding year.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "Teachers must have received an effective or highly effective rating on their annual performance evaluation for the preceding year. Highly effective employees receive a larger annual adjustment than effective employees (who receive 75% of the highly effective amount). Unsatisfactory-rated staff are ineligible.",
+    "evidence": "An employee is eligible to receive an annual salary adjustment to their base salary if they have received an effective or highly effective rating on their annual performance evaluation for the preceding year. The amount of the annual salary adjustment for an instructional employee rated effective will be at a rate of 75% of the amount allocated to instructional employees rated highly effective.",
+    "page": "76",
+    "confidence": "high"
+  }
+}

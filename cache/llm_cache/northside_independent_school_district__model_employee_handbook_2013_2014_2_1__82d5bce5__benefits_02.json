@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Other payroll deductions employees may elect include deductions for the employee’s share of premiums for health, dental, life, and vision insurance",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Other payroll deductions employees may elect include deductions for the employee’s share of premiums for health, dental, life, and vision insurance",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "discussed_unclear",
+    "evidence": "This plan enables eligible employees to pay certain insurance premiums on a pretax basis (i.e., disability, accidental death and dismemberment, cancer and dread disease, dental, and additional term life insurance).",
+    "page": "21",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 marked as not_discussed. The document mentions 'disability' premiums available via Section 125 pretax deduction, but does not specify short-term or long-term coverage. Updated to discussed_unclear."
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Health insurance benefits for employees on paid leave and leave designated under the Family and Medical Leave Act will be paid by the district as they were prior to the leave. Otherwise, the district does not pay any portion of insurance premiums for employees who are on unpaid leave.",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 22 to 23 to match document footer."
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

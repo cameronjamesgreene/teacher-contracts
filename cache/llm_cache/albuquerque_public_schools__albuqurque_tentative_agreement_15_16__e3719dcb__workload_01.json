@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184 for AT-1, AT-2, AT-3; 183/184 for A-2; 208 for A-3, A-4",
+    "evidence": "For employees on the AT-1, AT-2 and AT-3 salary schedules, the work year shall consist of one hundred eighty-four (184) workdays. For employees on the A-2 salary schedule, the work year shall consist of one hundred eighty-three four (183184) workdays. For employees on the A-3 and A-4 salary schedules, the work year shall consist of two hundred and eight (208) workdays.",
+    "page": "not provided",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "6.5 hours for AT-1, AT-2, AT-3, A-2; 8 hours for A-3, A-4 (excluding lunch)",
+    "evidence": "For employees on the AT-1, AT-2, AT-3 and A-2 salary schedules, the duty day shall consist of six and one-half (6 1/2) hours excluding a lunch period. The duty day for employees on the A-3 and A-4 salary schedule shall consist of eight (8) hours excluding a lunch period.",
+    "page": "not provided",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "All employees on salary schedules AT-1, AT-2, AT-3 and A-2 shall have within the duty week a minimum amount of time for preparation and planning.",
+    "page": "not provided",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "220 min/week (Elem); 225 min/week (MS non-block); 450 min/2 weeks (MS/HS block); 1 full class period (MS non-block/HS)",
+    "evidence": "Elementary... Teachers shall have a minimum of 220 minutes for preparation each week... Middle School Non-Block... minimum of 225 minutes per week... Middle School Block Schedule... minimum of 450 minutes of preparation time in each consecutive two week period... High School... equal to one (1) full class period... Block schedules... minimum of 450 minutes of preparation time in each consecutive two week period.",
+    "page": "not provided",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Teachers shall have a minimum of 220 minutes for preparation each week, free from specific duty assignments... Individual preparation time shall be considered separate and exclusive from collaboration/PLC time.",
+    "page": "not provided",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Each teacher shall have a thirty (30) minute, duty free, uninterrupted lunch period exclusive of passing time which may be taken on or off the school grounds at the teacher's discretion.",
+    "page": "not provided",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

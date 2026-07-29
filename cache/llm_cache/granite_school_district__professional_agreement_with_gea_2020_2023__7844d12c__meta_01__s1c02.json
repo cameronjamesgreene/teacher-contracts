@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "teachers employed under this Agreement",
+    "page": "16",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2020-2023",
+    "evidence": "beginning in the 2021-2022 school year",
+    "page": "19",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (Elementary and Secondary)",
+    "evidence": "Elementary teachers shall report to work... Secondary teachers shall report to work...",
+    "page": "19",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "failure to perform duties assigned to the teacher, may constitute a breach of contract and subject the teacher to disciplinary action.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Utah Administrative Code 53G",
+    "page": "16",
+    "confidence": "high"
+  }
+}

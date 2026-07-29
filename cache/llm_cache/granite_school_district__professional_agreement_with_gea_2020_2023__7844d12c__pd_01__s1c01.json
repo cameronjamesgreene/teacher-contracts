@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Instructional Coach shall mean all teachers who are paid on the teachers’ salary schedule who work with teachers in a coaching capacity and are assigned to a school building(s). A coach has no administrative authority to conduct evaluations. Observations are done to support the teacher.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

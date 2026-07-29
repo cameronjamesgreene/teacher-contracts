@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "The salaries of teachers covered by this contract are set forth in Appendix A, which is attached hereto and made a part of this contract.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2007-2009",
+    "evidence": "The medical/dental chart for 2007-09 on this page supersedes any language in this agreement to the extent any inconsistencies exist.",
+    "page": "72",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "teachers / Board of Education employees (CFT)",
+    "evidence": "The Board and the Federation agree to continue the Employee Benefits Committee with representation from all unions, representing Board of Education employees.",
+    "page": "75",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "made a part of this contract.",
+    "page": "70",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section 124.39 of the Ohio Revised Code",
+    "page": "77",
+    "confidence": "high"
+  }
+}

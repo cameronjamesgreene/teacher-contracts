@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "COLLECTIVE BARGAINING AGREEMENT BETWEEN THE WASHINGTON TEACHERS UNION... AND THE DISTRICT OF COLUMBIA PUBLIC SCHOOLS",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "October 1, 2017 – September 30, 2019",
+    "evidence": "OCTOBER 1, 2017 – SEPTEMBER 30, 2019",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers, specifically ET and EG bargaining units",
+    "evidence": "DCPS recognizes the WTU as the sole and exclusive bargaining representative for the purpose of negotiating all matters related to rates of pay, wages, benefits, hours of employment, and working conditions for employees in the occupational bargaining units and job classifications defined in this article, and collectively referred to in this Agreement as “Teachers.”",
+    "page": "8",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "COLLECTIVE BARGAINING AGREEMENT",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "designated pursuant to D.C. Code § 38-174.",
+    "page": "5",
+    "confidence": "high"
+  }
+}

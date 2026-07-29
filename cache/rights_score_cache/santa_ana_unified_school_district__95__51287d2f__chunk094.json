@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Teachers who accept assignments and then choose not to work will be considered as if they did work.",
+      "subject_text": "Teachers who accept assignments and then choose not to work",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Assigns a consequence/credit calculation that benefits management's payroll and accountability."
+    },
+    {
+      "quote": "Teachers who only teach one class or one intersession (except by choice) will be counted as one-half year worked.",
+      "subject_text": "Teachers who only teach one class or one intersession (except by choice)",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Defines service credit calculation for partial assignments."
+    },
+    {
+      "quote": "If a teacher applies for both regular summer school and driver training in summer school, he/she must choose one or the other.",
+      "subject_text": "he/she",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Requires exclusive selection between assignment types."
+    },
+    {
+      "quote": "In the event of a shortage of driver training teachers for summer school, he/she may elect to do both.",
+      "subject_text": "he/she",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Grants discretion to hold dual assignments under shortage conditions."
+    },
+    {
+      "quote": "A listing of all tentative intersession position openings shall be posted at each site offering intersessions.",
+      "subject_text": "A listing of all tentative intersession position openings",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Management duty to publish vacancy listings."
+    },
+    {
+      "quote": "If positions are not filled by this process, the District shall distribute a list of vacancies to all sites where teachers would be available to teach intersession.",
+      "subject_text": "the District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Contingent management duty to circulate vacancies."
+    },
+    {
+      "quote": "Teachers interested shall apply directly to the site offering intersession.",
+      "subject_text": "Teachers interested",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Worker duty regarding application procedure."
+    },
+    {
+      "quote": "Unit members shall be credited with .8 sick day for working 75% or more at four and one-half (4½) hours a day.",
+      "subject_text": "Unit members",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": "Specifies sick leave accrual proration based on hours worked."
+    },
+    {
+      "quote": "Unit members who work more or less than four and one-half (4½) hours a day shall have sick leave prorated accordingly.",
+      "subject_text": "Unit members who work more or less than four and one-half (4½) hours a day",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": "Specifies sick leave proration rule for non-standard work hours."
+    }
+  ]
+}

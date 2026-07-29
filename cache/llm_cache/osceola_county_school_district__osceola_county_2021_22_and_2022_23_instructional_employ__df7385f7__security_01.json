@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "A short-term contract shall be defined as a contract given to a teacher other than one on annual contract, continuing contract, or professional services contract.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "A teacher on annual contract shall be notified in writing by the Principal of his or her respective school no later than the second Monday in May if he or she will not be recommended for a contract for the ensuing year.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers desiring a transfer for the next school year must submit a transfer form (Appendix E) to the Superintendent and a copy to their principal by March 1. They may also apply for transfers at any time. Teachers on the transfer list are considered first for vacancies they specifically apply for, though the receiving principal makes the final recommendation. A teacher on the list is not required to transfer or obtain principal approval.",
+    "evidence": "If a teacher desires a transfer to be effective the next school year, he or she must submit a transfer form (Appendix E) to the Superintendent and provide a copy to his/her principal. Teachers who desire a transfer for the next school year should submit the transfer form by March 1. A teacher on the transfer list will not be required to transfer and is not required to discuss the transfer request with nor receive the approval of his or her principal. Teachers may apply and will be considered for transfers at any time. Teachers on the transfer list shall be considered first for any vacant instructional position for which they specifically apply; however, the receiving principal will make the final recommendation.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include all relevant clauses (7.02-1, 7.02-2, 7.02-3) that fully support the detailed answer."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "If no, or not enough employees volunteer for transfer, those with the least certificated service in the School District will be placed at other worksites providing the teachers transferred and the teachers remaining in the school possess the necessary certification and qualifications and have clearly demonstrated the ability to meet both the requirements of the position in question and the program needs of the school.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "If a RIF is recommended, the Superintendent meets with the Association before Board action. Transfers are voluntary first. Involuntary layoff/transfer applies to teachers with the least certificated service first (determined by years of service, consecutive years, then hire date). Written notice must be given at least 30 days before layoff (unless financial crisis), including schedule, reasons, and recall rights. Recall rights last 18 months. Recalled teachers have 12 days to accept. Recall occurs in reverse order of layoff before hiring new teachers. Continuing/professional services contract teachers within 2 years of normal retirement are exempt from RIF layoff.",
+    "evidence": "If there will be a recommendation of a reduction in force (RIF), the Superintendent shall first meet with the Association... If there is a reduction in teacher allocation for any reason and transfers become necessary, then transfers shall be on a voluntary basis whenever practicable. In making involuntary transfers or reductions in force, teachers with the least certificated service in the School District shall be transferred or laid off first... Least certificated service shall be determined initially by years of service... then (1) by consecutive years... then (2) by specific hire date. Any teacher who is to be laid off will be so notified in writing at least thirty (30) days before the effective date of the layoff unless a School District financial crisis exists. Such notice will include the proposed time schedule, the reasons for the proposed action, and his/her recall rights... A teacher who is laid off shall retain recall rights for eighteen months... A teacher who is being recalled shall have twelve (12) calendar days... from the postmarked date... to reply... whether he/she will accept recall... Teachers on layoff shall be recalled prior to the hiring of new teachers... in the reverse order of layoff... A continuing contract teacher or professional services contract who is within two (2) years of normal retirement shall not be laid off because of reduction in force...",
+    "page": "28-29",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to comprehensively cover clauses 7.05-1 through 7.05-7 to fully support the detailed answer."
+  }
+}

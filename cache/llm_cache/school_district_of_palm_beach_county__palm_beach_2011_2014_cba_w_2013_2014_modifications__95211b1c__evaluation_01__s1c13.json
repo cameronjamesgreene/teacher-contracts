@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes, reference only to Article II, Section G of the CBA, with specific mention of the Classroom Teachers Assessment System (CTAS) / Competency Assessment and Accomplished Educators Assessment (AEA)",
+    "evidence": "Teachers assigned to the School are subject to a modified and higher order Teacher Evaluation system that will be primarily based on the negotiated \"Competency Assessment\" process of the adopted Classroom Teachers Assessment System (CTAS); however, during the first 90 days teachers will not be evaluated under the \"Accomplished Educators Assessment (AEA)\" process.",
+    "page": "187",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Classroom Teachers Assessment System (CTAS) / Competency Assessment process; Accomplished Educators Assessment (AEA) after first 90 days",
+    "evidence": "adopted Classroom Teachers Assessment System (CTAS) ... Accomplished Educators Assessment (AEA)",
+    "page": "187",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Unsatisfactory, Needs Improvement",
+    "evidence": "consecutive annual evaluation performance ratings of unsatisfactory... consecutive annual performance ratings of needs improvement or a combination of needs improvement and unsatisfactory",
+    "page": "195, 196",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

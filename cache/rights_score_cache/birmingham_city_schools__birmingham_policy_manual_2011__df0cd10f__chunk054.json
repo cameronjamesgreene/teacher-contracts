@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "the employee will be afforded an opportunity to present his/her side of the story and provide whatever documentary evidence he/she has to support his/her position.",
+      "subject_text": "the employee",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The School Board will make its determination of whether there are reasonable grounds to believe that the charges against the employee are true and support the proposed termination.",
+      "subject_text": "The School Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The possession of firearms or other deadly weapons by employees of the Birmingham Schools is prohibited in the buildings and on school grounds or in one's motor vehicle on school property, except as provided for herein.",
+      "subject_text": "The possession of firearms or other deadly weapons by employees of the Birmingham Schools",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": "Subject is an abstract noun phrase describing the prohibited act; policy enforces management safety stance."
+    },
+    {
+      "quote": "Any employee found to be in possession of a deadly weapon (exceptions set out herein) shall be reported to the Superintendent or his designee.",
+      "subject_text": "Any employee found to be in possession of a deadly weapon (exceptions set out herein)",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "The Superintendent has the authority to temporarily suspend school personnel when, in opinion, the circumstances necessitate immediate action.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "In addition, no employee shall have in his/her possession a firearm in or on school property or within tOOOfeet of a school.",
+      "subject_text": "no employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": "Contains OCR typo 'tOOOfeet' from source text; preserves verbatim."
+    }
+  ]
+}

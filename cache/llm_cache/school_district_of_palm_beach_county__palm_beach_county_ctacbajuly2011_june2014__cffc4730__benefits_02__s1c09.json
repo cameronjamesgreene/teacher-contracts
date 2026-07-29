@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Section H - Health, Dental, Life and Vision Insurance (cont’d) ... All premiums to medical, dental and vision benefits paid by employees shall be paid via the Section 125 Premium Conversion Plan",
+    "page": "112",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "(except for term life and/or income protection insurances which end June 30)",
+    "page": "112",
+    "confidence": "medium"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "(except for term life and/or income protection insurances which end June 30)",
+    "page": "112",
+    "confidence": "medium"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Otherwise, benefits will end the last day of the month in which the employee’s active paid employment or FMLA leave with the District ends provided all employee required premiums are paid.",
+    "page": "112",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "The consultation period(s) shall be used for consultation, preparation, or other professional purposes.",
+      "subject_text": "The consultation period(s)",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "Students in Elementary schools will be dismissed from school one hour and forty minutes early one day a week.",
+      "subject_text": "Students in Elementary schools",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Class-free planning and preparation time shall be used by teachers for planning and preparation activities, with the objective of improving instruction, meeting the needs of individual students, and improving the coordination of school programs and activities.",
+      "subject_text": "Class-free planning and preparation time",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Each teacher will be given an additional 45-minute block of time weekly.",
+      "subject_text": "Each teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Two times per month this time will be dedicated to teacher planning time",
+      "subject_text": "this time",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "two times per month will be used for collaboration time.",
+      "subject_text": "two times per month",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "the principal will arrange coverage for the teacher’s students",
+      "subject_text": "the principal",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "This will be accomplished without burdening another teacher with supervision.",
+      "subject_text": "This",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    }
+  ]
+}

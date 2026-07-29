@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "the district will provide standards-based, algebra-rich, hands-on mathematics instruction to all students, K - 12.",
+      "subject_text": "the district",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Policy directive mandating district action for curriculum delivery; not an employment-specific CBA provision."
+    }
+  ]
+}

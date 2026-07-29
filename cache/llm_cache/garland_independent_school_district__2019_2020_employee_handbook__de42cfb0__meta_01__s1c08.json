@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "DU",
+    "evidence": "DATE ISSUED: 10/7/2015",
+    "page": "119",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees, including teachers, educators, and district staff",
+    "evidence": "District employees retain any sick leave accumulated as state minimum sick leave",
+    "page": "119",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable and readable throughout.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code 22.003(a)",
+    "page": "119",
+    "confidence": "high"
+  }
+}

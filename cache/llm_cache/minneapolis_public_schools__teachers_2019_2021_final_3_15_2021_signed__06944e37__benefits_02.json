@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "9.6.1 Basic Life Insurance: Insurance eligible teachers are automatically enrolled for $50,000 (plus Accidental Death and Dismemberment of $50,000) of District paid basic life insurance coverage.",
+    "page": "154",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "9.7 Long-Term Disability Insurance: Insurance-eligible teachers are automatically enrolled for District paid long-term disability insurance.",
+    "page": "154",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "up to $2,000 annually (match)",
+    "evidence": "Effective July 1, 2021, the District match payment will pay an annual match payment of up to $2,000 for participating employees",
+    "page": "157",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Teachers on paid and unpaid leaves of absence may continue health, dental, and life insurance.",
+    "page": "152",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "The District shall make an annual payment of up to the amount indicated in the accompanying table for the year of retirement annually to the retiree’s Minnesota State Retirement System (MSRS) post-retirement health care savings account",
+    "page": "155",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

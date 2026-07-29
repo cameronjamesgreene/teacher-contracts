@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Any employee terminated or demoted pursuant to this policy shall have the following recall rights to a position for which he or she is certified, for one (1) calendar year from the effective date of his or her termination or demotion... given priority consideration for re-employment... in reverse order of dismissal... Upon call back, the employee will be given five working days to accept employment.",
+    "page": "3092, 3093",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Certification (standard over provisional), followed by seniority (length of continuous contracted service); nontenured staff are dismissed first. Ties are broken by contract ratification date, then drawing of lots.",
+    "evidence": "When a reduction in force is necessary, the first employees to be dismissed will be nontenured persons... criteria, in the order stated, will be used to determine which of the tenured teachers will be retained: 1. Certification in a teaching position... A tenured teacher with standard certification... will be given consideration over a tenured teacher with provisional certification. 2. Seniority in the length of continuous, full-time contracted certified employment... If all of the above are equal, lots will be drawn.",
+    "page": "3092",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "“Continuing Service Status” (hereinafter “tenure” or “tenured”) means the status obtained by a teacher, instructor, principal, or supervisor who has met the statutory requirements. All tenure decisions for principals hired on or before June 30, 2000 are subject to the Tenure Act... based upon demonstrated excellence with respect to: [15 criteria listed]. Principals hired for the first time on or after July 1, 2000 will be subjected to the provisions as outlined in the Teacher Accountability Act.",
+    "page": "3037, 3092",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

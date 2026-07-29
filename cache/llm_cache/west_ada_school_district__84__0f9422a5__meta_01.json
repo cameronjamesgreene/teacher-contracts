@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Master Contract Between the Association and the Board of Trustees",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2007-2008",
+    "evidence": "2007-2008 School Year",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certified teachers (Meridian Education Association)",
+    "evidence": "MERIDIAN EDUCATION ASSOCIATION",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to title for direct unit reference."
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This Agreement is signed this ________ day of ____________________ and shall be binding upon the parties.",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicit binding clause in Article XXVIII."
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Idaho Code 16-1619",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

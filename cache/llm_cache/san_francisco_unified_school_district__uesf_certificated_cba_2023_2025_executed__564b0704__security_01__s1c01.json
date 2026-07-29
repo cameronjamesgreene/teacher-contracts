@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "3.8 Whenever the term “permanent teacher” is used, it is to include both tenured TK-12 teachers and Early Education Department permit teachers who have passed probation. 3.9 Whenever the term “tenure-track teacher” is used, it is to include tenured TK-12 teachers, Early Education Department permit teachers who have passed probation, and probationary teachers. 3.10 Whenever the term “regularly assigned teacher” is used, it is to include those permanent, probationary, temporary, emergency, categorical, pre-intern and intern teachers who have been assigned to a site by the Human Resources Department.",
+    "page": "2",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

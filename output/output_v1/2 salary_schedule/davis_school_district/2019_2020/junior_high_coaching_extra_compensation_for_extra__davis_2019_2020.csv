@@ -1,0 +1,9 @@
+# Davis_2019-2020.pdf — Junior High Coaching Extra Compensation for Extra Duties (2019-2020)
+# population: Junior high coaches | is_teacher_schedule: False
+"# validation_warnings: identical values across steps ['Basketball', 'Wrestling', 'Volleyball', 'Track'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,Coaches' Extra Compensation,Assistants' Extra Compensation
+Basketball,1329,890
+Wrestling,1329,890
+Volleyball,1329,890
+Track,1329,890
+Intramurals,1163,779

@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "All district employees should perform their duties in accordance with state and federal law, district policies and procedures, and ethical standards. Violation of policies, regulations, or guidelines, including intentionally making false claims, offering false statements, or refusing to cooperate with a district investigation may result in disciplinary action, including termination. The Educator’s Code of Ethics, adopted by the State Board for Educator Certification, which all district employees must adhere to, is reprinted below",
+    "page": "49",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Standard 1.12 The educator shall refrain from the illegal use or distribution of controlled substances and/or abuse of prescription drugs and toxic inhalants. Standard 1.13 The educator shall not be under the influence of alcohol or consume alcoholic beverages on school property or during school activities when students are present.",
+    "page": "50",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "yes",
+    "evidence": "Garland ISD Social Media Guidelines... Professional social media includes work-related accounts established for campuses, departments, classrooms, individuals, etc. Personal social media includes activity by GISD employees that is not related to the district... Interaction with students via personal social media accounts is prohibited.",
+    "page": "52",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "The Texas educator shall comply with standard practices and ethical conduct toward students, professional colleagues, school officials, parents, and members of the community and shall safeguard academic freedom.",
+    "page": "49",
+    "confidence": "high"
+  }
+}

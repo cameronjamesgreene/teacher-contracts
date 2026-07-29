@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Group Health, Accident Major Medical Insurance; Eligible: teachers (Negotiating Unit).",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "2008-2009: Employee $4,993; Employee/Child $6,727; Employee/Spouse $9,034; Family $9,658. 2009-2010: No Increase.",
+    "evidence": "Coverage Options 2008-2009 2009-2010 Employee $4,993 No Increase Employee/Child $6,727 No Increase Employee/Spouse $9,034 No Increase Family $9,658 No Increase",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Pay any additional premiums beyond the Board's maximum contribution.",
+    "evidence": "the Board shall make the following annual maximum contribution for such coverage, and the employee shall pay any additional premiums",
+    "page": "-22-",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Eligible: Child, Spouse, Family. Board contributions: Employee/Child $6,727; Employee/Spouse $9,034; Family $9,658 (2008-2009).",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Advantage Non-HMO and Advantage HMO.",
+    "evidence": "Employees may select coverage from these two programs: (1) The Advantage Non-HMO. (2) The Advantage HMO.",
+    "page": "-22-",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "Yes. Available to teachers and their dependents. Employer pays annual premium except $0.26, which is paid by the teacher.",
+    "evidence": "Each teacher and his/her dependents shall be covered by a dental insurance plan. The Board shall pay the annual premium with the exception of twenty-six cents ($.26) which shall be paid by the teacher.",
+    "page": "-23-",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

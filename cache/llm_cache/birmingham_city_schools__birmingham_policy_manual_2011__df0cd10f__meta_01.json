@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "BIRMINGHAM BOARD OF EDUCATION POLICY MANUAL",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "Updated 4/13/2011; policies contain various revision dates",
+    "evidence": "Updated - 4/13/2011",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees / District-wide",
+    "evidence": "Accessibility is to extend to the board, all employees of the Board of Education and to the community.",
+    "page": "1081",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium",
+    "coder_notes": "Revised to 'not_discussed'. The document does not contain any language explicitly stating whether the manual is binding, advisory, summary-only, or not a contract. Stage 1 incorrectly coded 'policy' with empty evidence."
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "The Birmingham Board of Education is further regulated by the 'Lewis Spratt Act.' (Acts 2001-204; 2002-22)",
+    "page": "1010",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

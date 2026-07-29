@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "A. MOA to create a new Academic Collaboration Group to review any new academic initiatives being proposed. This committee will do a feasibility study... ACG will: a. Be composed of 4 teachers chosen by MFT, 4 principals, 2 District leaders... b. Make recommendations to the Superintendent. Instructional Leadership Team (ILT)... ILT participants will be paid for each full semester of participation.",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

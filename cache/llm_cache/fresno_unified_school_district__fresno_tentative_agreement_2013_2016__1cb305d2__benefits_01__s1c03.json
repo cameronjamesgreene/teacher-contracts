@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "7.4. All eligible District employees shall be required to participate In the Health Benefits Plan",
+    "page": "23",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employee Only: Plan A $60, Plan B $30; Employee/Children: Plan A $75, Plan B $40; Employee/Spouse: Plan A $120, Plan B $60; Employee/Family: Plan A $130, Plan B $70; plus Health Plan Reserve Assessment of $10/month for active/pre-65 retirees, up to $40/month for post-65 retirees/dependents.",
+    "evidence": "7.6.1.1. Employee Only Plan A $60 Plan B $30\n7.6.1.2. Employee / Children Plan A $75 Plan B $40\n7.6.1.3. Employee / Spouse Plan A $120 Plan B $60\n7.6.1.4. Employee / Family Plan A $130 Plan B $70\n7.6.2.1... $10.00 per month.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "7.2. Eligibility of dependent children shall be based on birth order rule... 7.6.1.3. Employee / Spouse... 7.6.2.1... eligible dependents (spouses and children) shall contribute $10.00 per month each",
+    "page": "22, 24",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Plan A, Plan B (network/out-of-network variations specified)",
+    "evidence": "7.7.1.1. Plan A $250/$500 in network (individual/family)... 7.7.2.1. Plan A 90% in network",
+    "page": "24",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

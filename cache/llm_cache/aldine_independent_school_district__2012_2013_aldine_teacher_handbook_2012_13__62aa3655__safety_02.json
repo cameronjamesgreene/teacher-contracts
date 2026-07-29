@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "Access to schools will be limited to: salespeople, vendors, agents, etc. who are directly involved in school fundraisers or other school functions; those individuals listed above must have a vendor letter for the current school year signed by the director of special programs.",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_weapons_008": {
+    "answer": "yes",
+    "evidence": "\"Weapons are prohibited.\"",
+    "page": "161, 162, 163",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly and unambiguously states the restriction. Confidence upgraded from medium to high."
+  }
+}

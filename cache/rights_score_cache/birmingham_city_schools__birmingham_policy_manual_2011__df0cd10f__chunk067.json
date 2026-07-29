@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "no individual in a supervisory position (e.g., Board Members, Superintendent, Executive Staff, Program Specialist, Director, Assistant Director, Principal, Assistant Principal or Teacher) shall require, request or encourage a subordinate employee to carry out or perform any business of a personal, non-work related nature (e.g., attending to personal banking affairs, taking or picking up dry-cleaning medication, prescriptions, personal and/or home items, or lunch).",
+      "subject_text": "no individual in a supervisory position (e.g., Board Members, Superintendent, Executive Staff, Program Specialist, Director, Assistant Director, Principal, Assistant Principal or Teacher)",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "The performance or non-performance of any request for personal favors shall in no way be reflected or considered in any employee's evaluation or performance review.",
+      "subject_text": "The performance or non-performance of any request for personal favors",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "Any person violating this policy shall be subject to discipline up to and including termination of employment.",
+      "subject_text": "Any person violating this policy",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "discipline",
+      "notes": ""
+    }
+  ]
+}

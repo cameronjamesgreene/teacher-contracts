@@ -1,0 +1,16 @@
+"# FTA-Fresno-Teachers-Association_CBA_2010-2012.pdf — FRESNO UNIFIED SCHOOL DISTRICT Basic Salary Schedule, Effective July 1, 2007 Schedule A – Teachers, Librarians, & Nurses 185* Duty Days (Effective July 1, 2007)"
+"# population: Teachers, Librarians, & Nurses | is_teacher_schedule: True"
+# validation_warnings: none | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,CLASS I (A01) BA+30,CLASS II (A02) BA+45,CLASS III (A03) BA+60,CLASS IV (A04) BA+75
+0,38346.74,40647.55,42948.35,45249.14
+1,40647.55,42948.35,45249.14,47549.95
+2,42948.35,45249.14,47549.95,49850.76
+3,45249.14,47549.95,49850.76,52151.57
+4,47549.95,49850.76,52151.57,54452.37
+5,49850.76,52151.57,54452.37,56753.17
+6,52151.57,54452.37,56753.17,59053.97
+7,54452.37,56753.17,59053.97,61354.78
+8,,59053.97,61354.78,63655.59
+9,,,63655.59,65956.39
+10,,,,68257.19

@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "\"Resident teachers will receive ongoing support from their Resident Mentor, Resident Coordinator, and their PDP Team in order to increase their ability to reflect and improve their practice.\"",
+    "page": "114",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "\"The Teacher Development Council establishes guidelines and oversees their implementation for teacher pre-service, induction, and development.\" / \"Each site/program will have a Resident Coordinator (with a minimum 0.2 exclusive release)...\"",
+    "page": "112",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

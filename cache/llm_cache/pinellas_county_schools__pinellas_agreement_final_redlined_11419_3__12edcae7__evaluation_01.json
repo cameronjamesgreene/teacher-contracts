@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "not_discussed",
+    "evidence": "Employees on a leave of absence will not have any greater contractual rights (e.g. evaluation, contract renewal) than employees who are not on a leave of absence.",
+    "page": "14",
+    "confidence": "low",
+    "coder_notes": "The quoted evidence refers to leave of absence rights, not evaluation procedures. The document truncates at the start of the Teacher Evaluation article, making it impossible to verify procedures. Answer changed to not_discussed."
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "Deliberate Practice Plan: This consists of targeted elements and action steps designed to improve teacher practice as it relates to impacting student progress.",
+    "page": "39",
+    "confidence": "low",
+    "coder_notes": "The provided document text cuts off mid-sentence at the beginning of Article 31/32 Teacher Evaluation. The Stage 1 evidence cites page 39, which is not included. Cannot verify. Answer changed to not_discussed."
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "There will be at least two Informal Observations and three Formal Observations. must have at least two one Formal Observations, one to occur during the first semester and one to occur in the second semester.",
+    "page": "41-42",
+    "confidence": "low",
+    "coder_notes": "The provided document text cuts off before pages 41-42. The evaluation section is truncated. Cannot verify. Answer changed to not_discussed."
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "Formal Observation: This consists of a pre-observation conference... the observation, (which should be a minimum of 30 minutes)",
+    "page": "39",
+    "confidence": "low",
+    "coder_notes": "The provided document text cuts off before page 39. The evaluation section is truncated. Cannot verify. Answer changed to not_discussed."
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "teachers in their first three (3) years of employment will be rated as either Highly Effective, Effective, Developing or Unsatisfactory. All other teachers will be rated as either Highly Effective, Effective, Needs Improvement or Unsatisfactory.",
+    "page": "40",
+    "confidence": "low",
+    "coder_notes": "The provided document text cuts off before page 40. The evaluation section is truncated. Cannot verify. Answer changed to not_discussed."
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "Final Evaluation: This includes all components of the Teacher Evaluation System. Specifically, it includes the instructional practice score... the deliberate practice score and the student growth score.",
+    "page": "39",
+    "confidence": "low",
+    "coder_notes": "The provided document text cuts off before page 39. The evaluation section is truncated. Cannot verify. Answer changed to not_discussed."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "VISION PLAN: The District will also make available a vision plan to be paid by the employee with pre-tax dollars through payroll deduction.",
+    "page": "123",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "The specific deduction types are: Credit Union, Tax Sheltered Annuities, Health Insurance, United Way, Income Protection, additional Life Insurance",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "An employee who has disability (income protection) insurance through the District shall not be required to exhaust his/her sick leave to be granted leave under this subsection",
+    "page": "102",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "The Board will pay retirement and Social Security contributions on the amount of salary actually paid the employee.",
+    "evidence": "The Board will pay retirement and Social Security contributions on the amount of salary actually paid the employee.",
+    "page": "96",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "the District shall continue the employee's group health insurance in full effect as when the employee was not on leave. When an employee is on Family Medical Leave (FML), the District shall continue the employee’s group health and dental insurance in full effect... An employee on any other such unpaid leave... may do so by paying the premium for such insurance to cover the duration of the leave.",
+    "page": "101",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

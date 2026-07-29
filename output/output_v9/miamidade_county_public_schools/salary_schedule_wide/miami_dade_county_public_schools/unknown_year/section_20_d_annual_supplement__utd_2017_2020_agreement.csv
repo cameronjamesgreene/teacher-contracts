@@ -1,0 +1,15 @@
+# UTD_2017-2020_Agreement.pdf — Section 20.D Annual Supplement ()
+# population: Office employees designated by the principal as having the primary responsibility for arranging for temporary instructors | is_teacher_schedule: False
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+Adult/Vocational Day Program,800
+Adult/Vocational Evening Program,600
+Summer Program,250
+K-12 Program,
+Full-Time Student Population (Oct. FTE),
+"1,000 or less",800
+"1,001 - 2,000",1000
+"2,001 - 3,500",1200
+"3,501",1500
+Summer,250

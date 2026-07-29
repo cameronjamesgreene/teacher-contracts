@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "CERTIFICATED EMPLOYEES FACTOR PLACEMENT SCHEDULE (Factor Placement on Schedule \"A\")",
+    "page": "45",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2013-14 through 2015-16",
+    "evidence": "This Agreement shall remain in full force and effect from July 1, 2013 through June 30, 2016. ... For 2013-2014, all salary schedules shall be increased by 2.7% effective July 1, 2013",
+    "page": "38, 50",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Career increment of 1.6% shall be given each year from the 11th to 15th year to a total of 8.0% at the 15th year and thereafter.",
+    "page": "40",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "A teacher new to the Fresno Unified School District with previous teaching experience in an accredited school in grades Kindergarten through twelve will be given credit for one level for each year of teaching up to the maximum on the salary schedule, except that only up to five years of such service credit shall be credited service for career increment purposes.",
+    "page": "40",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

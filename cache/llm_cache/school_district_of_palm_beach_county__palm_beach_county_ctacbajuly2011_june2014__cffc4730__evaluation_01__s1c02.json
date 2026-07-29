@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes, Section G – Employee Evaluation (reference only)",
+    "evidence": "Section G – Employee Evaluation... This Proposal is withdrawn from these negotiations and is being negotiated per a special Memorandum Of Understanding... Procedures, criteria and forms contained in the District’s revised 1999 Classroom Teacher Assessment System (CTAS) Evaluation Handbook will be used in conducting the evaluation of teachers.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "1999 Classroom Teacher Assessment System (CTAS) Evaluation Handbook",
+    "evidence": "The purpose of evaluation is to review and summarize the performance of an employee in keeping with the 1999 Classroom Teacher Assessment System (CTAS) Evaluation Handbook.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "1",
+    "evidence": "Each employee shall be formally observed by his/her Principal at least one (1) time prior to completion of the final evaluation.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "20",
+    "evidence": "Formal observations shall have duration of not less than twenty (20) minutes.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

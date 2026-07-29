@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "REDUCTION IN FORCE, RECALL RIGHTS ........................................... 7.05-3 ................... 27",
+    "page": "27",
+    "confidence": "medium"
+  },
+  "security_rif_criterion_008": {
+    "answer": "discussed_unclear",
+    "evidence": "REDUCTION IN FORCE, CRITERIA ....................................................... 7.05-1 ................... 27",
+    "page": "27",
+    "confidence": "low"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "CONTINUING CONTRACT ...................................................................... 5.19 ...................... 21",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

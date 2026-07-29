@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes. Standard: Just cause, substantiated by clear and convincing evidence. Covered actions: verbal reprimand, written reprimand, suspension without pay, dismissal (employment contract terminated or non-renewed).",
+    "evidence": "Without the consent of the employee and the Association, disciplinary action may not be taken against an employee except for just cause, and this must be substantiated by clear and convincing evidence which supports the recommended disciplinary action. [...] an employee may be reprimanded verbally, reprimanded in writing, suspended without pay or dismissed",
+    "page": "39-40",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes. Grounds: Just cause, clear and convincing evidence, flagrant violations of school rules, or real and immediate danger to the District. Notice: Written notice of wrong-doing setting forth specific charges prior to action. Hearing rights/timelines: Right to review and refute all supporting information; reasonable time to prepare response (mutually agreed upon); grievance appeal initiated at Step Two. Decision maker: Recommendation of immediate supervisor to Superintendent.",
+    "evidence": "an employee shall be provided with a written notice of wrong-doing, setting forth the specific charges against that employee prior to taking any action. [...] An employee against whom action is to be taken [...] shall have the right to review and refute any and all of the information relied upon to support any proposed disciplinary action prior to taking such action. [...] afforded a reasonable amount of time to prepare and present responses/refutations [...] This amount of time is to be mutually agreed upon by the Parties. [...] dismissed upon the recommendation of the immediate supervisor to the Superintendent. [...] appeal through the grievance procedure. If the disciplinary action(s) taken includes either a suspension or a dismissal, the grievance shall be initiated at STEP TWO.",
+    "page": "39-41",
+    "confidence": "high"
+  }
+}

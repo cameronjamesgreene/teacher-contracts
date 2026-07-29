@@ -1,0 +1,29 @@
+{
+  "doc": "miamidade_county_public_schools",
+  "grids_total": 15,
+  "status_counts": {
+    "CORRECT": 12,
+    "PARTIAL": 2,
+    "INCORRECT": 1,
+    "UNVERIFIABLE": 0
+  },
+  "fabrication_class_present": true,
+  "per_grid": [
+    {"file": "12_month_250_day_work_year_u0__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "12mo 250-day U0 (truth L5394): 11 steps 17-27, 12 lanes STEP02-14 (STEP11 skipped), all values match. Warning 'none' TRUE."},
+    {"file": "12_month_250_day_work_year_u1_effective_07_01_2017__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "12mo 250-day U1 (truth L4411): steps 07-23, 13 lanes STEP02-15 (STEP12 skipped), blanks+values match exactly. Warning 'none' TRUE."},
+    {"file": "article_xvii_paraprofessionals_associate_educators__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "Art XVII 10mo U1 (truth L4375): steps 07-23, 13 lanes, all values/blanks match. Warning 'none' TRUE."},
+    {"file": "miami_dade_county_public_schools_article_xviii_off__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "Art XVIII 10mo U0 (truth L5362): steps 17-27, 12 lanes, all values match. Warning 'none' TRUE."},
+    {"file": "a0_salary_schedule__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "A0 sched (truth L10700): Min/Max x 10mo/12mo/Adult-Voc match (41000/72720,47622/84465,49200/87264). Clean headers; but 1 of a duplicated pair."},
+    {"file": "section_3_salary_schedule__utd_2017_2020_agreement.csv", "status": "PARTIAL", "note": "Same single A0 table as grid 5 (values correct) but garbled merged header 'A0 Salary Schedule 12 Month'; duplicate grid."},
+    {"file": "alternative_education_stipend__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "Alt Ed Stipend (truth L7831): Teacher 1217 / Para 401 / Office 305 match. Warning 'none' TRUE."},
+    {"file": "fair_labor_standards_act_flsa_provisions__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "FLSA (truth L11350): 1473/182 and Football 691/85 match; footnote-derived label correct. Warning 'none' TRUE."},
+    {"file": "salary_schedule_at__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "AT hourly (truth L10772): 3 hour-brackets x 4 degrees, all rates match (24.18..32.86). Warning 'none' TRUE."},
+    {"file": "salary_schedule_au__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "AU hourly (truth L10763): 34.41/36.85/38.48/40.11 match; step label 'Regular K-12' inferred, correct. Warning 'none' TRUE."},
+    {"file": "salary_schedule_co_credential_payments__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "CO credential (truth L10746): Master 3100 / Specialist 5150 / Doctorate 7200 match. Warning 'none' TRUE."},
+    {"file": "section_20_d_annual_supplement__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "Sec 20.D (truth L5278): all 8 supplement rows+headers match (800/600/250/K-12 FTE tiers). 'no lane cols' warning = FALSE positive (truly single-col)."},
+    {"file": "section_g_community_school_program_supplement__utd_2017_2020_agreement.csv", "status": "INCORRECT", "note": "Sec G (truth L5313): header captured but data row DROPPED - real values $600/$840 missing (empty grid). Warning 'none' = FALSE negative."},
+    {"file": "temporary_instructors_salary_schedule_as__utd_2017_2020_agreement.csv", "status": "CORRECT", "note": "AS temp instr (truth L5807): Pool 123/Degreed 97/Assoc 71/Para 62 match. cross_grid_contamination warning = TRUE positive (dup exists)."},
+    {"file": "temporary_instructors_salary_schedule_as__utd_2017_2020_agreement__p122-122.csv", "status": "PARTIAL", "note": "Identical to grid 14; AS table appears ONCE in truth (L5807) but emitted twice (p121+p122). Values correct but redundant duplicate grid."}
+  ],
+  "notes": "4 born-digital step-grids (U0/U1, 10mo+12mo) flawless. Fabrication present: A0 table (truth L10700) split into 2 grids + AS table (L5809) split into 2 grids = duplicated grids; grid6 also has garbled merged header. Grid13 dropped $600/$840 (page-break truncation). cross_grid dup/contam warnings = TRUE positives; grid12 lane warning FALSE pos; grid13 'none' FALSE neg."
+}

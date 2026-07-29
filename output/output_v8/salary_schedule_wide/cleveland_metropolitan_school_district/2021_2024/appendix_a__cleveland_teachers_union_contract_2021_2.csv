@@ -1,0 +1,19 @@
+# Cleveland_Teachers_Union_Contract_2021-2024.pdf — Appendix A (2021-2024)
+# population: Certified teachers (Years of Service) | is_teacher_schedule: True
+"# validation_warnings: label_not_in_source: '2021-2022 (Effective July 1, 2021)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed"
+step,"2021-2022 (Effective July 1, 2021)","2022-2023 (Effective July 1, 2022)","2023-2024 (Effective July 1, 2023)"
+1-4 years (1 yr),31615,32563,33215
+5-11 years (1 yr),32685,33666,34339
+12-14 years (1 yr),32839,33825,34501
+15-16 years (1 yr),32994,33984,34663
+16+ years (1 yr),33158,34152,34836
+2-4 years (2 yrs),33240,34237,34922
+5-11 years (2 yrs),34365,35396,36104
+12-14 years (2 yrs),34528,35563,36275
+15-16 years (2 yrs),34688,35729,36444
+16+ years (2 yrs),34848,35893,36611
+3-4 years (3 yrs),34555,35592,36304
+5-11 years (3 yrs),35722,36794,37530
+12-14 years (3 yrs),35893,36970,37710
+15-16 years (3 yrs),36063,37145,37888
+16+ years (3 yrs),36230,37317,38064

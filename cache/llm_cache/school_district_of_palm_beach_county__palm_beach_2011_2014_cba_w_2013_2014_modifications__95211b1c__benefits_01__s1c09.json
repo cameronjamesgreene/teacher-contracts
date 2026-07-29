@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Effective January 1, 2014, the following provisions shall supersede all previous Articles/Sections regarding health/medical, dental, vision and life insurance benefits. Full-Time Eligible Employees: A full-time eligible employee is defined as a non-temporary employee who is in a regular established position and works six (6) or more hours per day.",
+    "page": "123",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Tiered by plan (High Option HMO, Low Option HMO, CDHP), employee status (Full-Time/Part-Time), and coverage tier (Employee only, plus children, plus spouse, full family); amounts range from $370 to $1,130 monthly",
+    "evidence": "6.(a) Effective January 1, 2014 and thereafter, the District will pay the following towards monthly medical insurance premium cost for employees enrolled in the High Option HMO Plan: Tiers Full-Time With Rewards Part-Time With Rewards Employee only $475.00 $525.00 $375.00 $425.00 Employee plus full family $1,080.00 $1,130.00 $950.00 $1,000.00",
+    "page": "125",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "9. An employee eligible for benefits is eligible to enroll his/her eligible domestic partner in the medical plan. ... Tiers: Employee plus children, Employee plus spouse, Employee plus full family.",
+    "page": "128",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "High Option HMO, Low Option HMO, Consumer Driven Health Plan (CDHP)",
+    "evidence": "2. (a) ...Such medical plans shall consist of a High Option Health Maintenance Organization (HMO) Plan, a Low Option HMO Plan and a Consumer Driven Health Plan (CDHP).",
+    "page": "123",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "2. (b) DENTAL PLANS: The District will also make available choices of dental plans, including a Managed Dental Plan and a Preferred Provider (PPO) Plan to be paid by the employee with pre-tax dollars through payroll deduction.",
+    "page": "123",
+    "confidence": "high"
+  }
+}

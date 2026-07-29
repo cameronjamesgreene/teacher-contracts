@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "187",
+    "evidence": "Members of the Teachers’ Unit, except counselors and librarians, shall work one hundred and eighty-seven (187) days.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "7 hours and 35 minutes",
+    "evidence": "The workday of a teacher shall be Seven (7) hours and 35 minutes Monday through Friday",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The teacher shall have a twenty-five (25) minute preparation time at the beginning of each student day unless supervision is needed.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "25 minutes daily; 250 minutes weekly",
+    "evidence": "The teacher shall have a twenty-five (25) minute preparation time at the beginning of each student day... The full-time teacher shall have a minimum of 250 minutes of on-site individual planning time each week.",
+    "page": "22-23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Principals may meet an individual during their plan time no more than two times per week to: (a)To discuss an observation or evaluation (b)To discuss a performance issue (c)To meet with the IEP team, if needed",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Updated page from 23 to 22-23 as the clause spans the page break."
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "The teacher shall have a (30) thirty-minute duty-free lunch period.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Updated page from 24 to 22, as the clause is located in Section VI.A.13 on page 22."
+  }
+}

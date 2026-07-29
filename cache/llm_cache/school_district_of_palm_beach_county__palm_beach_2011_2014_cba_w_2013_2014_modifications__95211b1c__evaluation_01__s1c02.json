@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "ARTICLE II - RIGHTS AND RESPONSIBILITIES Section G - Employee Evaluation",
+    "page": "28",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Classroom Teacher Evaluation System (CTES); Marzano Evaluation Model",
+    "evidence": "The Parties agree that the primary purpose of the Classroom Teacher Evaluation System (CTES) is to provide employees with a framework to improve instruction... The Parties have agreed to use the Marzano Evaluation Model.",
+    "page": "28, 31",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "Each employee will be observed during the school year by his/her observer the number of times set forth in the CTES Handbook.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "Walk-throughs: 3-8 minutes; Informals: 9-20 minutes; Formals: 30-55 minutes (or until lesson completion)",
+    "evidence": "Walk-through observations are 3-8 minutes in length. Informal observations are 9-20 minutes in length Formal observations are 30-55 minutes in length or may last until the completion of a lesson.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Highly Effective, Effective, Needs Improvement/Developing, and Unsatisfactory",
+    "evidence": "Develop differentiation among state levels of performance: Highly Effective, Effective, Needs Improvement (Developing for employees in first three years of employment) and Unsatisfactory.",
+    "page": "28",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "All employees' evaluations will use student learning growth scores approved by the State.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

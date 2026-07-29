@@ -1,0 +1,200 @@
+[
+  {
+    "district": "Palm Beach",
+    "file": "appendix_a_open_range_grandfathered_and_performanc__palm_beach_cta_july_2017_june_2020_cba_s.csv",
+    "source_page": "143",
+    "cells_checked": 8,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Advanced Degree Supplements: Masters 3000, Double Masters 4500, Specialists* 4500, Doctorate 6000 all match truth."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "appendix_a_open_range_grandfathered_and_performanc__palm_beach_cta_july_2017_june_2020_cba_s__p143-143.csv",
+    "source_page": "143",
+    "cells_checked": 8,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate of Appendix A degree supplements; all 4 rows/values match truth."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "annual_glades_supplement__palm_beach_cta_july_2017_june_2020_cba_s.csv",
+    "source_page": "122",
+    "cells_checked": 6,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Glades Supplement: 0-2 3750, 3-8 4750, 9+ 5750 all match truth (Section G)."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "annual_glades_supplement__palm_beach_cta_july_2017_june_2020_cba_s__p122-122.csv",
+    "source_page": "122",
+    "cells_checked": 6,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate of Glades Supplement; all 3 rows/values match truth."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "appendix_b_supplements__palm_beach_cta_july_2017_june_2020_cba_s.csv",
+    "source_page": "146-149",
+    "cells_checked": 24,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Appendix B CATEGORY 1-12 use July 1 2017 base values (5460..575); all match truth first-column amounts."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "appendix_b_supplements__palm_beach_cta_july_2017_june_2020_cba_s__p146-149.csv",
+    "source_page": "146-149",
+    "cells_checked": 24,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate of Appendix B supplements; all 12 CATEGORY rows/values match truth."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "national_certificate_supplements__palm_beach_cta_july_2017_june_2020_cba_s.csv",
+    "source_page": "144",
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "National Board Certificate 2000, CCC/NCSP 2000 match truth."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "national_certificate_supplements__palm_beach_cta_july_2017_june_2020_cba_s__p144-144.csv",
+    "source_page": "144",
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate of National Certificate supplements; both rows/values match truth."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "new_hire_salary_placement_schedule__palm_beach_cta_july_2017_june_2020_cba_s.csv",
+    "source_page": "145",
+    "cells_checked": 44,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "All 22 experience-range steps (0-2..25) and salaries match truth. 'missing step 1,2,4,6' warning is a false alarm (ranges, audit confirmed)."
+  },
+  {
+    "district": "Palm Beach",
+    "file": "new_hire_salary_placement_schedule__palm_beach_cta_july_2017_june_2020_cba_s__p145-145.csv",
+    "source_page": "145",
+    "cells_checked": 44,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate of New Hire Placement Schedule; all 22 rows/values match truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019.csv",
+    "source_page": "150-151",
+    "cells_checked": 62,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "31 rows (Athletic Coaches + Curricular-discretionary) all correct, but Appendix E has ~80 rows; drops all sections from HEAD COUNSELOR onward (~49 rows)."
+  },
+  {
+    "district": "Seattle",
+    "file": "appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019__p150-151.csv",
+    "source_page": "150-151",
+    "cells_checked": 22,
+    "cells_wrong": 1,
+    "status": "PARTIAL",
+    "audit_note": "Extra-Curricular section (11 rows); SR CLASS ADVISOR misread 1125.54 vs truth 1422.54. Also drops associated/mandatory/prof-cert sections (~38 rows)."
+  },
+  {
+    "district": "Seattle",
+    "file": "certificated_substitutes_nurses__seattle_final_cba_2018_2019.csv",
+    "source_page": "146",
+    "cells_checked": 5,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "CH5 Certificated Substitute Nurse 39.04/312.32 matches truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "certificated_substitutes_nurses__seattle_final_cba_2018_2019__p146-146.csv",
+    "source_page": "146",
+    "cells_checked": 5,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate; CH5 nurse row matches truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "certificated_substitutes_teaching__seattle_final_cba_2018_2019.csv",
+    "source_page": "146",
+    "cells_checked": 24,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "All 4 CH1 grades (rates 26.24/27.43/28.64/30.48; daily 209.92..243.84) and day/hour bands match truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "certificated_substitutes_teaching__seattle_final_cba_2018_2019__p146-146.csv",
+    "source_page": "146",
+    "cells_checked": 24,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate; all 4 CH1 teaching-substitute rows match truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "classified_substitutes_nurses__seattle_final_cba_2018_2019.csv",
+    "source_page": "146",
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "SU3 Classified Nurse Substitutes 31.24/249.92 matches truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "classified_substitutes_nurses__seattle_final_cba_2018_2019__p146-146.csv",
+    "source_page": "146",
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate; SU3 classified nurse row matches truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "clerical_substitutes__seattle_final_cba_2018_2019.csv",
+    "source_page": "146",
+    "cells_checked": 20,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "SU2 clerical, 4 day-bands (rates 20.66/21.69/22.72/23.76; daily 165.28..190.08) and $X multipliers match truth; contamination warning is false."
+  },
+  {
+    "district": "Seattle",
+    "file": "clerical_substitutes__seattle_final_cba_2018_2019__p146-146.csv",
+    "source_page": "146",
+    "cells_checked": 20,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate; all 4 SU2 clerical-substitute rows match truth."
+  },
+  {
+    "district": "Seattle",
+    "file": "paraprofessional_substitutes__seattle_final_cba_2018_2019.csv",
+    "source_page": "146",
+    "cells_checked": 20,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "SU1 paraprofessional, 4 day-bands (rates 23.58/24.75/25.93/27.11; daily 165.06..189.77) and $X multipliers match truth; contamination warning is false."
+  },
+  {
+    "district": "Seattle",
+    "file": "paraprofessional_substitutes__seattle_final_cba_2018_2019__p146-146.csv",
+    "source_page": "146",
+    "cells_checked": 20,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Per-page duplicate; all 4 SU1 paraprofessional-substitute rows match truth."
+  }
+]

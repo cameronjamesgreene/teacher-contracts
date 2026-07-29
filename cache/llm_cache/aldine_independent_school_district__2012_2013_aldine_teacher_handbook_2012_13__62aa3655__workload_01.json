@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "7:30 - 3:30",
+    "evidence": "School Day: Teachers                    7:30 - 3:30",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two-week period for instructional preparation including parent-teacher conferences, evaluating students’ work and planning.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Updated page field from 'not_discussed' to '37' based on contextual alignment with Q2 evidence. Evidence explicitly guarantees prep time."
+  },
+  "workload_prep_minutes_004": {
+    "answer": "450 minutes within each two-week period; at least 45 minutes within the instructional day",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two-week period for instructional preparation including parent-teacher conferences, evaluating students’ work and planning. A planning and preparation period under this section may not be less than 45 minutes within the instructional day.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Updated page field from 'not_discussed' to '37' based on contextual alignment with Q2 evidence. Evidence explicitly states the exact minutes."
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "During a planning and preparation period, a classroom teacher may not be required to participate in any other activity.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Updated page field from 'not_discussed' to '37' based on contextual alignment with Q2 evidence. Evidence explicitly restricts other duties during prep time."
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Teachers will be allowed to leave campus during lunch as long as they return to the campus on time.",
+    "page": "93",
+    "confidence": "medium",
+    "coder_notes": "Evidence supports a duty-free lunch by explicitly allowing teachers to leave campus for lunch, though it does not use the exact phrase 'duty-free'. Confidence set to medium due to implicit (rather than explicit) terminology."
+  }
+}

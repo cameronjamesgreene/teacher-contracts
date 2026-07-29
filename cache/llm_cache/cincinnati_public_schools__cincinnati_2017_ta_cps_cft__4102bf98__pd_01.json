@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against document. The text is a summary outline and contains no provisions regarding mentoring, induction, or support for new teachers."
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against document. Mentions of Team Leader selection and NBCT certification do not establish teacher leadership roles, instructional coaches, or committees tied to professional practice."
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against document. The text outlines salary schedules and specific stipends but contains no career ladder or advancement pathway provisions."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes; Salary Schedules IV, V, VI, and Career Increments A-E, 2006-2007 school year, Part-Time and Full-Time Child Development Program Teachers, pp. 126-132",
+    "evidence": "Salary Schedule IV D4 / Salary Schedule V D5 / Salary Schedule VI D6 / Career Increment A-E / B.12. Substitute teachers and Hourly rates",
+    "page": "126-132",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2006-2007 school year (effective July 1, 2005), under the 2004-2007 Teacher Contract",
+    "evidence": "2004-2007 Teacher Contract ... Effective 7/1/2005 2006-2007*",
+    "page": "126",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

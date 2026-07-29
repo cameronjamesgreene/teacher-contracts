@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "No substitute teacher will be disciplined without proper cause. Discipline shall be defined as including reprimand and warning notices and removal from a sub list.",
+    "page": "85",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

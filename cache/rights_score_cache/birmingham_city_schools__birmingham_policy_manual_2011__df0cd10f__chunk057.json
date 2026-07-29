@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Employees are prohibited from physically assaulting or damaging/vandalizing the property of any employee, student or third party, while on the job, on school board property, during school activities, whether on or off school property, or any other time when such incident can be reasonably related to school functions.",
+      "subject_text": "Employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers and other school employees shall immediately report to principal any incident of which they have knowledge.",
+      "subject_text": "Teachers and other school employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Such teachers or other school employees shall assist the principal in the preparation of a report.",
+      "subject_text": "Such teachers or other school employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Principals shall file a report with the Superintendent within 72 hours of any incident of which they have knowledge.",
+      "subject_text": "Principals",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

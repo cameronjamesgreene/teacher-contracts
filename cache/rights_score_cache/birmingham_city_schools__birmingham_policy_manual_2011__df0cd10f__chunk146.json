@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "the student's parents or guardians must secure an exemption form 1ram their child's achaoI.",
+      "subject_text": "the student's parents or guardians",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Relates to student uniform policy exemptions; grammatical subject is non-employee."
+    },
+    {
+      "quote": "Approval for the exemption must be granted by the local school administrator according to the guidelines sat forth in the exanption section of the Blrmln,ham Public Schoo\"              Uniform Dr..        Policy and in accordance with the infonnation requeSted on 1he Exemption Form.",
+      "subject_text": "Approval for the exemption",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction; implicit agent is local school administrator. Preserves OCR artifacts from source."
+    },
+    {
+      "quote": "The Birmingham Board of Education shall provide information and training to families through workshops, seminars.: academies, parent-teacher conferences, volunteer training, special parent training classes and the family resource center.",
+      "subject_text": "The Birmingham Board of Education",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Mandates district-sponsored parent/family education programs."
+    },
+    {
+      "quote": "The Birmingham Board of Education shaU partner with the community to identify and implement resources to strengthen the academic quality of the schools.",
+      "subject_text": "The Birmingham Board of Education",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Typographical error 'shaU' in source text treated as 'shall'."
+    },
+    {
+      "quote": "The Birmingham Board of Education shall provide technical assistance and other necessary support to school staff in developing, planning and implementing comprehensive family involvement programs.",
+      "subject_text": "The Birmingham Board of Education",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Directs district to support staff in program implementation."
+    },
+    {
+      "quote": "Training wilI be provided for principals, teachers, other staff members and families to encourage working together as partners.",
+      "subject_text": "Training",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Passive voice; implicit agent is management/district. Typo 'wilI' treated as 'will'."
+    }
+  ]
+}

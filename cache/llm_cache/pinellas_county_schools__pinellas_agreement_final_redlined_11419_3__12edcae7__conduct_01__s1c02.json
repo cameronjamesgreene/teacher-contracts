@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Article 16 PROFESSIONAL RESPONSIBILITY: 'C. Each teacher is to be treated in a professional manner at all times. D. Teachers are to treat other employees of the system in a professional manner at all times.'",
+    "page": "21",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Article 11 ACADEMIC AND PERSONAL FREEDOM: 'B. Both parties agree that no legitimate issue of controversy in our society should be excluded from the classroom. However, all sides of controversial issues must be presented.'",
+    "page": "17",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "A teacher on an extended leave of absence shall receive all of the health, accident, medical, surgical and hospitalization insurance or benefits, for both the teacher and the teacher's dependents, for which the teacher would otherwise be eligible if not on an extended leave. A teacher shall receive the coverage if such coverage is available from the school district's insurer, if the teacher requests the coverage, and if the teacher either (a) reimburses the district for the full amount of the premium necessary to maintain the coverage within one month preceding the district's payment of the premium, or (b) if the district is wholly or partially self-insured, pays the district, according to a schedule agreed upon by the teacher and the school board, an amount determined by the school board to be the amount that would be charged for the coverage chosen by the teacher if the school board purchased all health, accident, medical, surgical and hospitalization coverage for its teachers from an insurer.",
+    "page": "253",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

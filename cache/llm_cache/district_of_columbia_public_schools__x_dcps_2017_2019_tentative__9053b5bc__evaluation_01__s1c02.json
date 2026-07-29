@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes. Reference only; Articles 2 and 4 (Sections 2.6.3, 4.5.2.5, 4.5.2.6).",
+    "evidence": "new Teaching and Learning Framework which is the basis of the new Educator Evaluation System.",
+    "page": "19",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "DCPS Teaching and Learning Framework / new Educator Evaluation System",
+    "evidence": "new DCPS Teaching and Learning Framework",
+    "page": "17",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "“Effective” or higher; excessing rubric uses Highest, Second Highest, Third Highest, Fourth Highest, Lowest",
+    "evidence": "Previous Year’s Final Evaluation: Highest, Second Highest, Third Highest, Fourth Highest, Lowest",
+    "page": "28",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

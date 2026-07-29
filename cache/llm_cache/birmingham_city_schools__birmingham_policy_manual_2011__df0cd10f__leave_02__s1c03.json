@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "The employee may use all accumulated sick leave for maternity leave. Once sick leave is exhausted, maternity leave may continue without pay.",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Pregnancy and related conditions also apply.",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Adoption or foster care of a child",
+    "page": "3050",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "The Birmingham Board of Education certifies its compliance with Public Law 103-3, the Family and Medical Leave Act (FMLA).",
+    "page": "3050",
+    "confidence": "high"
+  }
+}

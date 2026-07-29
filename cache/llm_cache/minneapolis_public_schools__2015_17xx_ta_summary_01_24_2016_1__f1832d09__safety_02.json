@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "discussed",
+    "evidence": "Administration should contact Operational and Security Services at 612-668-0178 from 8:00am-4:00pm or Jason Matlock at 612-290-0056 (cell) from 4:00pm-8:00pm and the District Communication Center at 612-668-0322 from 8:00pm - 8:00am.",
+    "page": "6",
+    "confidence": "medium",
+    "coder_notes": "Changed from not_discussed to discussed. The document explicitly mentions contacting 'Operational and Security Services' for immediate emergencies in the Student Behavior section."
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

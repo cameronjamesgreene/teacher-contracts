@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "8",
+    "evidence": "Every teacher shall have ten (10) sick leave days during his/her first year in the system and eight (8) days sick leave each year thereafter.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "No limit",
+    "evidence": "A teacher may accumulate unused sick leave without limit, which accumulated leave shall be used for sick leave purposes only.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "Yes",
+    "evidence": "In any given year, seven (7) of such days may be used due to illness of any member of the teacher's immediate family (as defined in Article III, Section 2).",
+    "page": "7",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "3",
+    "evidence": "Each teacher shall annually be granted three (3) days for personal leave.",
+    "page": "5",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "May be taken in increments of not less than one-half day; no reason required other than personal business.",
+    "evidence": "These days shall be used for any purpose at the discretion of the teacher and may be taken in time periods of not less than one-half (½) days. No reason must be given other than personal business.",
+    "page": "5",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "Yes",
+    "evidence": "Unused personal leave days shall be added to accumulated sick leave at the end of the school year up to the maximum for sick leave accumulation. However, if a teacher has an attendance record of 97% or higher... permitted to carry over and accumulate unused personal days up to a maximum of four (4) personal leave days, and any unused personal leave days beyond the four (4) shall be added to accumulated sick leave.",
+    "page": "5",
+    "confidence": "high"
+  }
+}

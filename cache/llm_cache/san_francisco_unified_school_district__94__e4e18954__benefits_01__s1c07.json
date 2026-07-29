@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "eligible for District provided employee only health benefits subject, to the same terms and conditions as regularly assigned teachers.",
+    "page": "84",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "$85,000 per year allocation (for substitutes)",
+    "evidence": "Effective with 2006-2007 school year, the District shall allocate up to $85,000 per year for the purpose of implementing this benefit provision.",
+    "page": "84",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "no",
+    "evidence": "eligible for District provided employee only health benefits",
+    "page": "84",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Health Services System",
+    "evidence": "the Health Services System allows the individual to enroll",
+    "page": "84",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

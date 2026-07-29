@@ -1,0 +1,12 @@
+# Baltimore_City_Public_Schools_2021-2023.pdf — G. New Hire Salary Placement ()
+# population: new bargaining unit members | is_teacher_schedule: True
+# validation_warnings: none | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Standard Pathway / Bachelors (Years),Standard Pathway / Masters (Years),Professional Pathway / Bachelors (Years),Professional Pathway / Masters (Years),Professional Pathway / Ph.D. or Ed.D. (Years)
+1,0-1,,10-11,6-7,0-1
+2,2-3,,12-13,8-9,2-3
+3,4-5,,14-15,10,4-5
+4,6-7,,16-17,11,6-7
+5,8-9,,18-19,12,8-9
+6,,,20+,13,10-11
+7,,,N/A,14,12-13

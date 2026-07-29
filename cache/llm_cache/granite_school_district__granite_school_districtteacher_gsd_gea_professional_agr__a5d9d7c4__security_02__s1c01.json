@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "three continuous years",
+    "evidence": "Provisional Contract Teacher shall mean all regularly assigned teachers working half-time or more each day who have not yet completed three continuous years of contract employment as a teacher in Granite School District.",
+    "page": "3",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Except as otherwise specifically provided in this Agreement, regular contract teachers doing satisfactory work will be continued in employment on a year-to-year basis until they retire.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Before reporting for duty, teachers employed under this Agreement shall comply with all necessary licensure and/or endorsement requirements of the Utah State Board of Education. The licenses specified above must be registered with the Human Resources within thirty days following the beginning date of employment.",
+    "page": "14",
+    "confidence": "high"
+  }
+}

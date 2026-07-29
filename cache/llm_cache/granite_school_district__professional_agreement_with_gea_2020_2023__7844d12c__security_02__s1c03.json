@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Teachers released through this process, who are not on active corrective discipline as found within their district personnel file, shall be given the first right of interview for positions for which they are qualified that become available during the six months following their release. Notification of the available position shall be made by a certified letter to the last known address of the former employee. The offer of interview shall advise the person that they have seven days after the postmarked date of the letter to accept or reject the offer of interview. If rehired under this section, teachers will be placed on the step they would have received if they had not been released.",
+    "page": "39-40",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Endorsements and certifications according to staffing needs; tiebreaker is most advanced degree and lane placement",
+    "evidence": "All unplaced teachers will be reviewed by the number of their respective endorsements and certifications according to the staffing needs of the District. If a choice must be made between two or more teachers determined by the District to be equally well qualified for the position, the teacher with the most advanced degree and lane placement according to the teacher salary schedule will be retained.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Non-renewal of Regular Contract Teachers... Informal Hearing for Provisional or Career Contract Teachers... Formal Hearing for Regular Contract Teachers... may file a written request... for a formal hearing to review the proposed dismissal.",
+    "page": "37-38",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

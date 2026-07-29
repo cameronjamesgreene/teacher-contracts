@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "All salary schedules shall be increased by 1.0% effective January 1, 2007, except Schedule E. All salary schedules shall be increased by 2.0% effective January 1, 2008, except Schedule E.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "For new hires in the areas of identified teacher shortages, the district shall provide up to $2,000 per year, for up to three years for a maximum of $6,000, in areas of mathematics, science, and special education or other declared areas.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "For new hires in the areas of identified teacher shortages, the district shall provide up to $2,000 per year, for up to three years for a maximum of $6,000, in areas of mathematics, science, and special education or other declared areas.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

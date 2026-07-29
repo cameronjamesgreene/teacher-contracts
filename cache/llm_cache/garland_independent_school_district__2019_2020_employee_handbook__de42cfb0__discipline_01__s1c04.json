@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "no",
+    "evidence": "Unauthorized absences, chronic absenteeism, tardiness, and failure to follow procedures for reporting an absence may be cause for disciplinary action.",
+    "page": "48",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "Violation of policies, regulations, or guidelines, including intentionally making false claims, offering false statements, or refusing to cooperate with a district investigation may result in disciplinary action, including termination.",
+    "page": "48",
+    "confidence": "high"
+  }
+}

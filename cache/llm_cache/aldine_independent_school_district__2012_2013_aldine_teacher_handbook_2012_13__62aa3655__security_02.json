@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes. Recall privilege lasts two years. Order: reverse of dismissal (last dismissed, first recalled). Notice: posted at central administration building; attempted by phone or mail. Deadline: five days. Benefits: teacher compensation supplement reinstated upon return within two years.",
+    "evidence": "Such recall privilege will exist for two years from the date of a person’s dismissal. When a need exists to recall personnel, the recall will be in reverse order of the dismissal. (Last dismissed, first recalled)... The official recall notice shall be posted at the southern entry of the central administration building. Human Resources personnel shall attempt to notify persons of their recall either by telephone or by sending recall notices by regular mail. Dismissed personnel will have five days from the posting of the official recall notice to return to work... Teachers who return to Aldine within two years... shall have their teacher compensation supplement reinstated",
+    "page": "10, 4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "Performance (with sub-criteria prioritizing those with 3+ improvement plans, non-extension/nonrenewal, third consecutive term contract, active improvement plans, or low observation ratings), followed sequentially by Certification/Licensure, Reorganization/Program Change, and Seniority.",
+    "evidence": "In order of implementation, the criteria are: 1. Performance... 2. Certification/Licensure... 3. Reorganization or Program Change; then, 4. Seniority... Before any subsequent criterion is used in any area, the Performance criterion must be exhausted in each affected area.",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "One school year (may be renewed for two additional one-year periods, up to three consecutive years total).",
+    "evidence": "Probationary contracts shall be for one school year, and may be renewed for two additional one-year periods.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "no. The document explicitly describes 'term contracts' instead of tenure or continuing status, stating employees have no expectation of employment or property interest beyond the fixed term. Term contracts last up to five years and require nonrenewal notice by the 10th day before the last day of instruction.",
+    "evidence": "A person employed under a term contract has no expectation of employment and no property interest in a contract beyond its term. ... For professional employees whose contracts are about to expire, the Board shall give written notice whether the Board proposes to renew or not to renew the contract not later than the 10th day before the last day of instruction in a school year.",
+    "page": "4, 5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "All instructional personnel shall have certificates, duly recorded with the Superintendent of Schools, that legally qualify them for the work to which they are assigned. An employee shall have a ten-day grace period after the employee’s certificate or permit is void to renew, extend, or otherwise validate the certificate or permit before the district can suspend or terminate the employee.",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

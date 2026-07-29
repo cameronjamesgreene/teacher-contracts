@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "All teachers will be stationed at the door of their respective classrooms as students change classes and as students enter and leave the building. Each and every teacher will be responsible for student conduct in the halls in the immediate area of their duty station at all times.",
+    "page": "154",
+    "confidence": "high"
+  }
+}

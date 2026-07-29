@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "180",
+    "evidence": "traditional 180 day schedule",
+    "page": "32",
+    "confidence": "medium"
+  },
+  "workload_workday_length_002": {
+    "answer": "8 hours (480 minutes)",
+    "evidence": "Unit members shall have a work day of no less than 8 hours (480 minutes) in which to perform their on-site and off-site professional responsibilities.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each school schedule shall provide weekly preparation time for all elementary teachers within the duty day",
+    "page": "31",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: 480 minutes/week (at least one 45-min block/day); Elementary: 45 minutes/day for 156 days",
+    "evidence": "Teachers shall be provided 480 minutes per week for preparation time within the work day in blocks no shorter than thirty (30) minutes with at least one block of forty-five (45) minutes per day within the work day.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "All preparation time allocated within the 7 hours (420 minutes) as described in 1.2 shall be utilized for duties set forth above in 2.1.1 - 2.1.12 as determined by the teacher, with the exception of being available to parents and students.",
+    "page": "28",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Duty Free Lunch: Unit members shall have a duty free lunch of at least 30 minutes per day.",
+    "page": "27",
+    "confidence": "high"
+  }
+}

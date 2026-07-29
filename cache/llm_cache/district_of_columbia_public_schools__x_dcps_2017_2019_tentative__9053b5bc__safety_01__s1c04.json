@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "16.12.2 DCPS shall be responsible for furnishing and maintaining conditions of employment that are free of hazards that are causing, or are likely to cause accidents, injury or illness to employees. 16.12.3 Employees shall be guaranteed protection from any restraint, interference, coercion, discrimination or reprisal for filing a report of an unsafe or unhealthful condition, or for any other participation in a safety program.",
+    "page": "52",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "16.8 Emergency School Closing / The Chancellor shall announce any emergency closing at the earliest possible time and shall submit such announcements for broadcast by local radio and television stations. 17.4.6 Leave shall not be charged when schools are closed to Teachers for emergency reasons.",
+    "page": "51",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

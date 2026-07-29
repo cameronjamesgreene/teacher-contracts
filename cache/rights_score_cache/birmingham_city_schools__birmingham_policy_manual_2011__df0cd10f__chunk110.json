@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "Fieid trips should originate with the teacher",
+      "subject_text": "Fieid trips",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "should",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "must be approved by the Superintendent or his designee.",
+      "subject_text": "Fieid trips",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Field trips must provide students with extended learning opportunities.",
+      "subject_text": "Field trips",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Priority must be given to the safety of the students.",
+      "subject_text": "Priority",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "The Superintendent may develop C}uidelines to assure full cooperation and effective interaction between the schools and community, business, industry and others.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Birmingham Board of Education requires that all parents be info%'Dled of the progress of theii children.",
+      "subject_text": "The Birmingham Board of Education",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "~eachers shall periodically share with parents and students an evaluation of each student's individual progress.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

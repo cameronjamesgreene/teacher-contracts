@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Undated; multiple revision dates noted (e.g., 1/1/2007, 12/9/2008)",
+    "evidence": "NOTE:         THIS POLICY IS EFFECTIVE JANUARY 1, 2007",
+    "page": "4085",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees (general district policy manual, not unit-specific)",
+    "evidence": "All Board employees, approved by the Superintendent or designee, who use their personal vehicles...",
+    "page": "4085",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "policy",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Pursuant to section 13A-9-13.2 of the Alabama Code; Ala. Code Section 36-12-40",
+    "page": "4200",
+    "confidence": "high"
+  }
+}

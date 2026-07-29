@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "192",
+    "evidence": "Professional personnel employed for ten months may be scheduled to work 192 days in the school year.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 hours",
+    "evidence": "The normal work day for professional personnel employed for ten months shall be 7 1/2 hours inclusive of lunch time.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Teacher planning time will be scheduled in accordance with the following procedures:",
+    "page": "7",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: 45 minutes daily. Elementary/Special Ed: 225 minutes per week plus 30 minutes daily during student lunch/recess.",
+    "evidence": "The Principal shall schedule a continuous block of forty-five minutes daily of planning time during the work day of 7 1/2 hours for each teacher. ... The Principal shall schedule 225 minutes of planning time for each teacher per regular work week of five normal work days. In addition ... a block of thirty (30) minutes ... of daily uninterrupted planning time during student lunch and recess periods for each elementary teacher.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Except for the lunch period, any non-teaching time of a teacher shall be devoted to professional activities such as planning the instructional program... teachers will be responsible for determining the use of their planning time",
+    "page": "8",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Each professional person shall be provided a lunch period free of duty each regularly scheduled school day as established by Maryland School Law.",
+    "page": "7",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "The District shall reimburse teachers for the cost of replacement or repair of personal property damaged or destroyed as a result of student assault... maximum reimbursement is $250 per incident based on original receipts, a police report number, and an incident report. In the absence of a police report, verification by an administrator shall be acceptable. A reasonable loss of time, not to exceed fifty-two (52) weeks, resulting from an injury due to an assault... shall not be deducted from unused sick leave. In such cases, the District shall pay the difference between the teacher’s workers’ compensation benefits... and the salary they would otherwise be receiving as a teacher.",
+    "page": "162",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Outside employment shall not interfere with the proper exercise of professional duties and responsibilities to the Board. No activities related to outside employment may be performed during regular work hours.",
+    "page": "3040",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "All public employees must constantly uphold the integrity of the profession in all actions and relations with pupils, colleagues and the community. The professional educator obeys all laws, holds high moral and ethical standards, and renders professional service to the best of his ability.",
+    "page": "3100",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "It is the policy of the School Board that the possession or use of illegal drugs or alcohol, as set forth more fully below, is strictly prohibited. Any employee violating this policy will be subject to disciplinary action up and including termination of employment.",
+    "page": "3140",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "When using any Birmingham Public Schools Technology Resources, Including the Internet, I will not: · send, display, or download offensive messages or pictures · use obscene language · harass, insult, or attack others · damage computers, computer systems, or computer networks... · violate copyright laws · use other users' passwords · trespass in other users' files... · intentionally waste limited resources",
+    "page": "7300",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Students and teachers have the right to explore and discuss divergent points of view in the quest for knowledge and truth. ... The role of the teacher shall be that of moderator and shall not attempt, directly or indirectly, to limit or control the students • judqement concerninq controversial issues.",
+    "page": "61",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

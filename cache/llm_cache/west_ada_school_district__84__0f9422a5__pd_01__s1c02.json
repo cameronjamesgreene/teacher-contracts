@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Mentor As determined after state allocation; Beginning Teacher Program Coordinator 11.6%; orientation days (three (3) for traditional, One (1) for modified)",
+    "page": "15, 24, 25",
+    "confidence": "medium"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Department Chair Maximum of 8 per school $1,257.00; Professional Development Committee 3.7%",
+    "page": "14, 15",
+    "confidence": "medium"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

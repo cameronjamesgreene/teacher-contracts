@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "yes",
+    "evidence": "Whenever a teacher is going to be absent, regardless of whether a substitute teacher is required, the teacher is required to call the Substitute Employee Management System (SEMS). Such call should be made before 6:30 a.m. on the day of the absence. Teachers shall also notify the principal at their first work location of their absence.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

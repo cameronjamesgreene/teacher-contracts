@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Academic Freedom shall be guaranteed to teachers, and no arbitrary limitations shall be placed on study, investigation, presentation and interpretation of facts and ideas... The team shall determine instructional methods, consistent with the school's adopted program focus, if any... Teachers, teams and schools shall be entitled to choose among vendors selected by the board for purchase of supplies, instructional materials...",
+    "page": "12",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "lesson plan format under §220.13,",
+    "page": "11",
+    "confidence": "medium"
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "A teacher's personal life shall not adversely affect his/her employment status unless his/her teaching effectiveness is clearly impaired thereby.",
+    "page": "12",
+    "confidence": "high"
+  }
+}

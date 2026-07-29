@@ -1,0 +1,30 @@
+{
+  "clauses": [
+    {
+      "quote": "Expenditures included in the budget as approved by the Board at the beginning of each school year will be authorized by the Superintendent.",
+      "subject_text": "Expenditures included in the budget as approved by the Board at the beginning of each school year",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "COIIDOmities, materials, supplj.es and equipment bouqht by the System shall be purchaae~ at th8 lowest possible cost, consistent with governiDqlaws an~ an .a.quate standard of quality, usually throuqh cmapetiti ve biddiDq.",
+      "subject_text": "COIIDOmities, materials, supplj.es and equipment bouqht by the System",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Contains OCR errors in source text."
+    }
+  ]
+}

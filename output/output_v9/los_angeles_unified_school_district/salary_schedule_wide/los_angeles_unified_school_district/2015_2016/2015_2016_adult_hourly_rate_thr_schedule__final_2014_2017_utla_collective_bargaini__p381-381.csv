@@ -1,0 +1,22 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — 2015-2016 ADULT HOURLY RATE (THR) SCHEDULE (2015-2016)
+"# population: Adult hourly staff (Adult Teachers, Advisers, Nonclassroom, etc.) | is_teacher_schedule: False"
+"# validation_warnings: identical values across steps ['Adult Nonclassroom Assignment, School-Based (0816)', 'Adult Teacher, Academic Instruction (0805)', 'Adult Teacher, Adults with Disabilities (0804)', 'Adult Teacher, ESL (0803)', 'Adult Teacher, Hourly Rate (0801)', 'Adult Teacher, Parenting & Family Life (0808)', 'Adult Teacher, Program for Older Adults (0809)', 'Adult Teacher, Public or Private Contract (0838)', 'Adult Teacher, Temporary Classes (0810)', 'Adult Teacher-Adviser (0867)', 'Adult Teacher-Counselor (0864)', 'Adviser, Adult Resource, Nonschool Assignment (0827)', 'Adviser, Adult Resource, ROC/ROP School Assignment (0828)', 'Adviser, Adult Resource, School Assignment (0826)', 'Continuation Teacher, Hourly Rate (0831)', 'Regional Occupational Contract Teacher (0829)', 'Temporary Adviser, Hourly Schedule (0800)'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,A,B,C,1,2,3,4
+"Adult Nonclassroom Assignment, School-Based (0816)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, Academic Instruction (0805)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, Adults with Disabilities (0804)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, ESL (0803)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, Hourly Rate (0801)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, Parenting & Family Life (0808)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, Program for Older Adults (0809)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, Public or Private Contract (0838)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adult Teacher, Temporary Classes (0810)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+Adult Teacher-Adviser (0867),42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+Adult Teacher-Counselor (0864),42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adviser, Adult Resource, Nonschool Assignment (0827)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adviser, Adult Resource, ROC/ROP School Assignment (0828)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Adviser, Adult Resource, School Assignment (0826)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Continuation Teacher, Hourly Rate (0831)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+Regional Occupational Contract Teacher (0829),42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118
+"Temporary Adviser, Hourly Schedule (0800)",42.66537,44.89983,47.26298,50.16427,52.48061,55.11283,55.72118

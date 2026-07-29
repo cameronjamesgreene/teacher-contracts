@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "Appendix A: Certified Teacher Salary Scale 2023-2026 187 Teachers",
+    "page": "51",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2023-2026",
+    "evidence": "KANSAS CITY PUBLIC SCHOOLS 2023 - 2026 SALARY SCHEDULE",
+    "page": "51",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Members of the Unit who are eligible will receive a step each year on the board approved salary schedule.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "The District shall indemnify and hold harmless, in accordance with applicable Government Code sections, any unit member who performs health care services.\nThey shall exclude job ratings and evaluations and shall not constitute a waiver of any rights related to a unit member’s personnel file established in the Education Code.\nIn accordance with Education Code section 49001, a substitute teacher may use an amount of force that is reasonable and necessary to quell a disturbance threatening physical injury to persons or damage to property for purposes of self-defense, or to obtain possession of weapons or other dangerous objects within control of the pupil.\nAppointment to substitute positions shall be made in compliance with Education Code section 44956 and 44957, when applicable, thereby requiring laid off teachers to be appointed to substitute positions by seniority.",
+    "evidence": "In accordance with Education Code section 49001, a substitute teacher may use an amount of force that is reasonable and necessary to quell a disturbance threatening physical injury to persons or damage to property for purposes of self-defense, or to obtain possession of weapons or other dangerous objects within control of the pupil.",
+    "page": "109, 112, 114",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Mileage reimbursement at the current Internal Revenue Code rate shall be paid to teachers",
+    "evidence": "Mileage reimbursement at the current Internal Revenue Code rate shall be paid to teachers",
+    "page": "109",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Internal Revenue Code",
+    "evidence": "Mileage reimbursement at the current Internal Revenue Code rate shall be paid to teachers",
+    "page": "109",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "Professional development may include a variety of delivery models",
+      "subject_text": "Professional development",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "shall incorporate the model(s) best suited to the objectives of the program",
+      "subject_text": "Professional development",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Subject implied from preceding clause."
+    },
+    {
+      "quote": "shall consistently support individual improvement in the context of organizational goals.",
+      "subject_text": "Professional development",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Subject implied from preceding clause."
+    },
+    {
+      "quote": "Professional Development shall be provided by DCPS for all Teachers during the tour of duty relating to the needs of students with disabilities, including directives, guidelines, best practices, and all applicable district and federal laws.",
+      "subject_text": "Professional Development",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Passive construction; implicit agent is DCPS."
+    },
+    {
+      "quote": "To this end, the Chancellor agrees to work with the President of the WTU to secure a facility in which to hold WTU Professional development courses and workshops at minimal or no cost to the WTU.",
+      "subject_text": "the Chancellor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "The parties agree to form a joint committee consisting of the Chancellor or a designee, the President of the WTU",
+      "subject_text": "The parties",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Clause is truncated at the end of this chunk."
+    }
+  ]
+}

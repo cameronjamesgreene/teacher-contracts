@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "180 days for Pre-Kindergarten teachers; 183 days for PACE teachers.",
+    "evidence": "Pre-Kindergarten teachers work year shall be 180 days... PACE teachers shall work 183 days.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "8 hours",
+    "evidence": "The work day for all full-time Early Childhood Teachers shall be eight (8) hours.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Early Childhood Teachers working in Child Development setting shall receive a thirty (30) minute duty-free lunch within their work day.",
+    "page": "1",
+    "confidence": "high"
+  }
+}

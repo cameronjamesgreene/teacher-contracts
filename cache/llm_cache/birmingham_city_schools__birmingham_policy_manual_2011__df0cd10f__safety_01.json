@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "discussed_unclear",
+    "evidence": "The safety and well being of·each child are major concerns of the Board. In addition to providing a safe environment...",
+    "page": "8020",
+    "confidence": "low",
+    "coder_notes": "Quoted evidence not found in the provided document text (TOC lists policy 8020 but content is missing). Cannot verify explicit support for health/safety provisions or committee based on provided text."
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The principal (or designee), after reviewing the allegations and evidence against a student... is initially responsible for deciding that a Class III offense has been committed. ... Hearing Officer ... Individualized Education Program Committee",
+    "page": "6176",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "The Superintendent or the Superintendent's designee is authorized to close schools in the event of hazardous weather or other emergencies which present threats to the safety of students, school staff, or school property.",
+    "page": "2100",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

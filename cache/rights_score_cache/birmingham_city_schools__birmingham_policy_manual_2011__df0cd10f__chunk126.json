@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "The user or, if the user is a minor, the user's parent(s) or guardian(s) agree to cooperate with the School in the event of the School's initiating an investigation of a user's use of his or her access to its computer network and the Internet, whether that use is on a School computer or on another computer outside the School District's network.",
+      "subject_text": "The user or, if the user is a minor, the user's parent(s) or guardian(s)",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Users, and if appropriate, the user's parents/guardians, may be asked from time to time to provide new or additional registration and account information or to sign a new Policy, for example, to reflect developments in the law or technology.",
+      "subject_text": "Users, and if appropriate, the user's parents/guardians",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction where the school/district is the implicit actor requesting compliance."
+    },
+    {
+      "quote": "Such information must be provided by the user. (or , herlhis parents or guardian)",
+      "subject_text": "Such information",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "or such new Policy must be signed if the user wishes to continue to receive service.",
+      "subject_text": "such new Policy",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "If after you have provided your account information, some or all of the information changes, you must notify the person designated by the School to receive such information.",
+      "subject_text": "you",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Every student, regardless of age, must read and sign below.",
+      "subject_text": "Every student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The signed student's agreement must be returned to the school before Internet access will be permitted.",
+      "subject_text": "The signed student's agreement",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "I have read, understand and agree to abide by the terms of the foregoing Internet Safety Policy.",
+      "subject_text": "I",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Should I commit any violation or in any way misuse rny-access to the School District's computer network and the Internet, I understand and agree that my access privilege may be revoked and school disciplinary action and/or legal action may be taken against me.",
+      "subject_text": "I",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Concedes management's right/permission to revoke access and pursue discipline or legal action."
+    }
+  ]
+}

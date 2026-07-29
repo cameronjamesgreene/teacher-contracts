@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Certified employees request transfers in writing by Feb 1. Qualified employees have 10 days after posting to interview. Qualified district employees are prioritized unless for coaching, probation, etc. Unfilled positions are advertised for 7 days.",
+    "evidence": "By February 1st of each school year, certified employees must request in writing a transfer to another building or a change of assignment applicable to the following year.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Should it be necessary to transfer an employee from building to building or grade level or track and/or subject within buildings, as much notification as possible will be given, in writing, by the Superintendent or designee to the employee being transferred.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

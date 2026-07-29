@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "medical, dental and vision benefits paid by employees",
+    "page": "129",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "covered spouse or domestic partner",
+    "page": "130",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "discussed_unclear",
+    "evidence": "District medical plan",
+    "page": "130",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "Section H - Health, Life, Dental and Vision Insurance",
+    "page": "130",
+    "confidence": "high"
+  }
+}

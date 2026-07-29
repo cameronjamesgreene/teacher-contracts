@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "no",
+    "evidence": "Unauthorized absences, chronic absenteeism, tardiness, and failure to follow procedures for reporting an absence may be cause for disciplinary action.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "discussed_unclear",
+    "evidence": "Employees in all other positions are employed at-will or by a contract that is not subject to the procedures for nonrenewal or termination under Chapter 21 of the Texas Education Code.",
+    "page": "18",
+    "confidence": "medium",
+    "coder_notes": "The quoted evidence only addresses at-will and non-contract employees. It does not explicitly confirm or deny whether the document describes dismissal procedures for contract employees. The Table of Contents indicates a section on dismissal procedures exists on page 76, but the provided text excerpt ends prior to that section."
+  }
+}

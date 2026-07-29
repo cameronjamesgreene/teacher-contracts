@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "Each School shall establish a Morning Block Team (MBT), which shall consist of the Supervisor (or her/his designee), the Building Representative (or her/his designee), the Instructional Coach, all department and grade level chairs, and other Teachers as designated by the Supervisor or the Building Representative.",
+      "subject_text": "Each School",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Mandate to form a joint planning committee for non-traditional schedules."
+    },
+    {
+      "quote": "The MBT shall develop a Morning Block plan and a monthly calendar for the principal-led Morning Block that shall be provided to all Teachers.",
+      "subject_text": "The MBT",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Committee mandate involving both management and teacher representatives to create planning materials for faculty use."
+    },
+    {
+      "quote": "The Morning Block plan shall include schedules, procedures, and substantive details, and developed with faculty input.",
+      "subject_text": "The Morning Block plan",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Contract contains a drafting error ('and developed' instead of 'shall be developed'), but the operative duty remains."
+    },
+    {
+      "quote": "the Teacher shall receive compensation for the additional workload using Administrative Premium.",
+      "subject_text": "the Teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Entitlement triggered specifically when a Supervisor causes a loss of mandated planning time."
+    },
+    {
+      "quote": "DCPS shall provide a sufficient number of dedicated phones for Teachers.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Management duty to supply communication infrastructure for parent-teacher contact."
+    }
+  ]
+}

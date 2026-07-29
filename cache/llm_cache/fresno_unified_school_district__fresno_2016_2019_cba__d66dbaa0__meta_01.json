@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "COLLECTIVE BARGAINING AGREEMENT",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2016 to June 30, 2019",
+    "evidence": "Effective: July 1, 2016 to June 30, 2019",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Fresno Teachers Association (certificated teachers)",
+    "evidence": "Fresno Teachers Association/CTA/NEA",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The articles and provisions contained herein constitute a bilateral and binding agreement",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Chapter 10.7, Sections 3540-3549 of the Government Code; California Education Code sections 44987, 44700-44705, 42238.02",
+    "page": "1, 3, 7",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

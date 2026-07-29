@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "no",
+    "evidence": "All Teachers who are separated by DCPS according to the provisions of this article shall have the right to reapply to DCPS at any time, except as otherwise required by applicable law.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "discussed_unclear",
+    "evidence": "iod of three (3) years.",
+    "page": "30",
+    "confidence": "medium"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "The standard for disciplining permanent employees shall be just cause. The standard for disciplining probationary employees shall be not arbitrary or capricious, as opposed to at will.",
+    "page": "41",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

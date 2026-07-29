@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "Full credit will be given for verified K12 teaching service",
+    "page": "99",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "For example, if you are coming into FUSD with 2 yrs experience from another district, you will begin at level 3. Teachers with 8 or more years of experience will begin at the level representing completed years of experience.",
+    "page": "99",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "A teacher entering the Fresno Unified School District shall receive credit for military service upon the basis of one level for each two (2) years of military service, service in Vista or Peace Corps, with a limit of two (2) levels to be attained. This credit is not allowed unless the service interrupted tenure as a teacher in a public school system.",
+    "page": "68",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_national_board_017": {
+    "answer": "$1000",
+    "evidence": "$1000 for National Board Certification for Teachers",
+    "page": "99",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

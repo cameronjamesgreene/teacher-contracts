@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "seniority within specific licensure area/department",
+    "evidence": "When staff reductions occur at the building, all teachers shall be canvassed in seniority order within their specific licensure area/department to determine which teachers shall be excessed.",
+    "page": "199",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Licensed staff must hold the appropriate valid license through the school year for which they are applying in order to be considered for positions.",
+    "page": "199",
+    "confidence": "high"
+  }
+}

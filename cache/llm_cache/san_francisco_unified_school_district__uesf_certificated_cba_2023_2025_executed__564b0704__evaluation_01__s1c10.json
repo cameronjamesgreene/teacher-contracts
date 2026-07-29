@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "not_discussed",
+    "evidence": "Evaluation is the process, reflective of mandated state requirements and best professional practices, described in Article 16, Evaluation, of the UESF-SFUSD collective bargaining agreement.",
+    "page": "136",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "California Standards of the Teaching Profession",
+    "evidence": "Meets Standards in the California Standards of the Teaching Profession",
+    "page": "136",
+    "confidence": "medium"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Satisfactory, Unsatisfactory, Needs Improvement, Meets Standards, Does Not Meet Standards",
+    "evidence": "\"satisfactory\" (40.1.1.7); \"unsatisfactory\" and \"needs improvement\" (40.1.3.2); \"Meets Standards\" and \"Does Not Meet Standards\" (40.1.1.12)",
+    "page": "135-136",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "ARTICLE 31 30 TEACHER EVALUATION... Formal Observation: This consists of a pre-observation conference... Informal Observation: This observation is approximately 10-20 minutes with feedback.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Deliberate Practice Plan / Standards Based Planning domain",
+    "evidence": "Deliberate Practice Plan: This consists of targeted elements and action steps designed to improve teacher practice as it relates to impacting student progress.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "30",
+    "evidence": "Formal Observation: This consists of a pre-observation conference... the observation, (which should be a minimum of 30 minutes)",
+    "page": "39",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "Final Evaluation: This includes all components of the Teacher Evaluation System. Specifically, it includes the instructional practice score... the deliberate practice score and the student growth score.",
+    "page": "39",
+    "confidence": "high"
+  }
+}

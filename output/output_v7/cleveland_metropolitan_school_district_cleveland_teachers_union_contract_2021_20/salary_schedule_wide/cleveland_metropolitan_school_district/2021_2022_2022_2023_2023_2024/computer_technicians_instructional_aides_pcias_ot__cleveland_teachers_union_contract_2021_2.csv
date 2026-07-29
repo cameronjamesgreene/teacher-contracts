@@ -1,0 +1,5 @@
+"# Cleveland_Teachers_Union_Contract_2021-2024.pdf — COMPUTER TECHNICIANS, INSTRUCTIONAL AIDES, PCIAs, OT/PT ASSISTANTS, YRC COORDINATORS (2021-2022, 2022-2023, 2023-2024)"
+"# population: Computer Technicians, Instructional Aides, PCIAs, OT/PT Assistants, YRC Coordinators | is_teacher_schedule: False"
+"# validation_warnings: label_not_in_source: '2021-2022 (Effective July 1, 2021)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 (Effective July 1, 2022)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 (Effective July 1, 2023)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed"
+step,"2021-2022 (Effective July 1, 2021)","2022-2023 (Effective July 1, 2022)","2023-2024 (Effective July 1, 2023)"
+Level 1,36343,37433,38181

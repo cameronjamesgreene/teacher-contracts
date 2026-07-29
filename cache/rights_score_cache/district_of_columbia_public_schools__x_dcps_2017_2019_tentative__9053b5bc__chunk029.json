@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "Individuals with DC residency at the time of excessing shall receive a five-year service credit.",
+      "subject_text": "Individuals with DC residency at the time of excessing",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Individuals with veteran status at the time of excessing shall also receive a five-year service credit.",
+      "subject_text": "Individuals with veteran status at the time of excessing",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall use all data gathered for the formal DCPS educator evaluation process as of the date of the excessing decision when assigning points for Category 1 for Teachers who are new to DCPS (as they will not have an evaluation from a previous year).",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "If an excess occurs sufficiently early in the academic year such that no data have yet been gathered for the formal DCPS educator evaluation process, DCPS shall use all other available data on the Teacher’s performance for Category 1.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "The Teacher in the competitive area (as determined in accordance with Title 5 of the DCMR) with the lowest point value overall according to the rubric above shall be the first Teacher to be excessed.",
+      "subject_text": "The Teacher in the competitive area (as determined in accordance with Title 5 of the DCMR) with the lowest point value overall according to the rubric above",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "layoffs",
+      "notes": "Grammatical subject is the teacher, but the clause establishes a mandatory layoff order benefiting management."
+    },
+    {
+      "quote": "The Teacher with the second lowest point value shall be the second Teacher to be excessed, and so on.",
+      "subject_text": "The Teacher with the second lowest point value",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "layoffs",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall retain the right to make the final excessing decision according to the following rubric:",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": ""
+    }
+  ]
+}

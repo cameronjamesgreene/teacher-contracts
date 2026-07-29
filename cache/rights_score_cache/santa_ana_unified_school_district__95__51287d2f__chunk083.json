@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "The District shall make reasonable efforts to keep all school grounds and facilities free of unwanted rodents, pests, and insects such as ants, roaches, and fleas.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Insecticides/poisons utilized on District property shall only occur in strict compliance with applicable laws.",
+      "subject_text": "Insecticides/poisons utilized on District property",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Site administrators at sites with traveling teachers shall consult with teachers involved",
+      "subject_text": "Site administrators at sites with traveling teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Site administrators at sites with traveling teachers shall develop a plan for assigning traveling teachers on a fair and equitable basis.",
+      "subject_text": "Site administrators at sites with traveling teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "On-site teachers shall not be given a traveling teacher assignment if a physician verifies in writing that a reasonable accommodation under the Americans with Disabilities Act is recommended or that the teacher's health would be detrimentally affected.",
+      "subject_text": "On-site teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "transfers",
+      "notes": "Conditional exemption from traveling assignment based on ADA or health."
+    },
+    {
+      "quote": "In either case, the physician shall provide the projected period of time that such assignment shall not be given.",
+      "subject_text": "the physician",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Physician's procedural duty to specify accommodation duration."
+    }
+  ]
+}

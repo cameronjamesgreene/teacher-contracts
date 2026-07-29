@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.\nThis Agreement is entered into pursuant to the terms of the Albuquerque Public Schools Employee Relations Policy H.01 (Labor Relations Policy).; and should there be any conflict between the terms of this Agreement and the terms of the Board's Policy, as adopted on May 1985, and last revised in August 2020 to reflect changes made to the Public Employee Bargaining Act (PEBA) made in May 2020, the Policy H.01 and state law shall control.\nThe above shall be recognized as concerted activity as recognized by the New Mexico Public Employee Bargaining Act (PEBA).\nAs per the New Mexico Public Employee Bargaining Act (PEBA), dues deductions may be discontinued or revoked by a union member by filing such notice with the Federation.",
+    "evidence": "This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico. (p. 8); ...to reflect changes made to the Public Employee Bargaining Act (PEBA) made in May 2020, the Policy H.01 and state law shall control. (p. 8); The above shall be recognized as concerted activity as recognized by the New Mexico Public Employee Bargaining Act (PEBA). (p. 10); As per the New Mexico Public Employee Bargaining Act (PEBA), dues deductions may be discontinued or revoked by a union member by filing such notice with the Federation. (p. 11)",
+    "page": "8, 10, 11",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly quote all sentences citing state laws/statutes found across the document. Original answer was comprehensive and accurate."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.",
+    "evidence": "This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal law",
+    "evidence": "This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

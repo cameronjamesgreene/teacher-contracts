@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "The 2009 2010 salary schedule shall be reduced in direct proportion to the reduction in the duty year as set forth in Article 14.",
+    "page": "not_discussed",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence is absent from the provided document text. The document only references a salary schedule at a separate page, but does not include the schedule itself. Changed from 'no' to 'not_discussed' due to missing evidence."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2013-14 through 2015-16",
+    "evidence": "2013-14 through 2015-16 w/Reopeners",
+    "page": "header",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to quote the document header, as the original Stage 1 passage was not found in the provided text. The answer remains correct and directly supported."
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "Career increment of 1.6% shall be given each year from the 11th to 15th year to a total of 8.0% at the 15th year and thereafter.",
+    "page": "not_discussed",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence regarding career increments and annual step advancement is entirely absent from the provided document text. Downgraded to 'not_discussed'."
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "A teacher new to the Fresno Unified School District with previous teaching experience in an accredited school in grades Kindergarten through twelve will be given credit for one level for each year of teaching up to the maximum on the salary schedule, except that only up to five years of such service credit shall be credited service for career increment purposes.",
+    "page": "not_discussed",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence regarding prior teaching experience credit is absent from the provided document text. Downgraded to 'not_discussed'."
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Correct. Article 16 details evaluation procedures for professional standards and improvement, but the document contains no provisions for performance pay, merit pay, or evaluation-based compensation."
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Correct. As no performance-based pay is discussed, criteria for eligibility are not discussed."
+  }
+}

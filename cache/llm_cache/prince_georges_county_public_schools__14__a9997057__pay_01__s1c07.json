@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "TEACHER’S SALARY SCHEDULE Prince George’s County Public Schools Table A - Salary Schedule",
+    "page": "33",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "July 1, 2007 - June 30, 2008",
+    "evidence": "July 1, 2007 - June 30, 2008",
+    "page": "33",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Junior ROTC instructors employed during the life of this agreement shall be entitled to a maximum of 11 years prior verified teaching experience in the military academies/institutions, JROTC programs or educational institutions.",
+    "page": "30",
+    "confidence": "medium"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "financial incentive and rewards program that will eventually be available to all unit members on a voluntary basis.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

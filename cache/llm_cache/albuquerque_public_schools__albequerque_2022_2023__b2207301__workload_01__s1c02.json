@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "the work year shall consist of one hundred eighty-four (184) workdays.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "6.5 hours (excluding lunch)",
+    "evidence": "the duty day shall consist of six and one-half (6 1/2) hours excluding a lunch period.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "All employees within the bargaining unit shall have within the duty week a minimum amount of time for preparation and planning.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Elementary: 220 min/week; Middle School Block: 450 min/2 weeks; Middle School Non-Block: 225 min/week or 1 class period/day; High School: 1 class period/day or 450 min/2 weeks (block)",
+    "evidence": "Educators shall have a minimum of two hundred twenty (220) minutes for preparation each week, free from specific duty assignments.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "free from specific duty assignments. / Time an educator is required to perform non instructional duties is not considered preparation time.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Each educator shall have a thirty (30) minute, duty free, uninterrupted lunch period exclusive of passing time",
+    "page": "15",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "All full-time home teachers (a full-time home teacher is one who teaches approximately 525 hours in a school year) shall receive the same benefits as any other unit member.",
+      "subject_text": "All full-time home teachers (a full-time home teacher is one who teaches approximately 525 hours in a school year)",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Any permanent, probationary, and temporary unit members employed on a contract full time shall receive the same benefits as any unit member.",
+      "subject_text": "Any permanent, probationary, and temporary unit members employed on a contract full time",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members voluntarily reducing contract to less than full time shall receive benefits only if they pay for the proportion of benefit costs equal to the proportion of the reduction of their contr",
+      "subject_text": "Unit members voluntarily reducing contract to less than full time",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": "Truncated at end of chunk"
+    },
+    {
+      "quote": "Should the Blue Cross of California provider plan be dissolved or should any of the Orange County, Los Angeles, or Riverside County hospitals drop from the plan at any time during the life of this Agreement, the parties shall immediately meet to renegotiate the provisions of this Agreement.",
+      "subject_text": "the parties",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint renegotiation duty triggered by plan dissolution or hospital withdrawal"
+    }
+  ]
+}

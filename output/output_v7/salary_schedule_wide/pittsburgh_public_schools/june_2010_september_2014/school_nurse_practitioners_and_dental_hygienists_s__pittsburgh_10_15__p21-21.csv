@@ -1,0 +1,20 @@
+# Pittsburgh_10-15.pdf — School Nurse Practitioners and Dental Hygienists Salary Schedule (June 2010 - September 2014)
+# population: School Nurse Practitioners and Dental Hygienists | is_teacher_schedule: False
+# validation_warnings: possible_dropped_row: step sequence 1-14 is missing step(s) [10] — a row may have been lost; verify against source | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase 1
+1-,"39,510","40,010","40,510","41,010","41,510","42,010","10,220"
+2-,"41,410","41,910","42,410","42,910","43,410","43,910","9,560"
+3-,"43,100","43,600","44,000","44,600","45,100","45,600","9,120"
+4-,"44,400","44,900","45,400","45,900","46,400","46,900","9,190"
+5-,"45,800","47,730","49,470","51,220","51,720","53,590","41,800"
+6-,"47,230","48,970","50,720","52,590","53,090","53,590","40,670"
+7-,"48,470","50,220","52,090","52,590","53,090","53,590","39,730"
+8-,"49,720","51,590","52,090","52,590","53,090","53,590","38,780"
+9-,"51,090","51,900","53,400","55,200","57,000","58,310","38,010"
+10a,"80,100","81,900","83,400","85,200","87,000","89,100",
+10b,"80,400","82,200","84,000","85,500","86,100","89,100",
+11-,"80,700","82,500","84,600","86,100","87,600","89,100","9,000"
+12-,"81,000","83,100","84,600","86,100","87,600","89,100","8,700"
+13-,"81,600","83,100","84,600","86,100","87,600","89,100","8,400"
+14-,"81,600","83,100","84,600","86,100","87,600","89,100","7,500"

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective bargaining agreement (CBA)",
+    "evidence": "PROVISIONS OF THIS AGREEMENT (CBA)",
+    "page": "114",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007; Salary schedule effective July 1, 2004",
+    "evidence": "SAUSD/SAEA 2004-2007 | Effective: July 1, 2004",
+    "page": "footer throughout, 122",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated teachers / Unit members represented by the Santa Ana Education Association (SAEA)",
+    "evidence": "Santa Ana Education Association (SAEA) and the Santa Ana Unified School District (SAUSD)",
+    "page": "109",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "The Association and the District agree that the Agreement is intended to cover all matters relating to wages, hours and all other terms and conditions of employment",
+    "page": "113",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code section 44506(c)(5) | Chapter 10.7, Section 3543.2 of the Government Code",
+    "page": "109, 113",
+    "confidence": "high"
+  }
+}

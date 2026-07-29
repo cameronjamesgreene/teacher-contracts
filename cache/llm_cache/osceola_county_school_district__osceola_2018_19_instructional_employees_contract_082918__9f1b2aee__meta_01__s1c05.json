@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Osceola_2018-19_INSTRUCTIONAL_EMPLOYEES__CONTRACT_082918.pdf / ARTICLE XX: TERM OF CONTRACT",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2018-19 (effective upon ratification, firm until June 30, 2019)",
+    "evidence": "This Contract shall become effective when ratified by the teachers, approved by the Board, and signed by the parties. This Contract shall be firm until and including June 30, 2019.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees",
+    "evidence": "Osceola_2018-19_INSTRUCTIONAL_EMPLOYEES__CONTRACT_082918.pdf / OSCEOLA COUNTY EDUCATION ASSOCIATION (OCEA) MEMBERS",
+    "page": "91",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This agreement shall constitute the full and complete commitments between both parties and may be altered, changed, added to, deleted from, or modified only through the voluntary, mutual consent of the parties in a written and signed amendment to this Agreement.",
+    "page": "64",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text provided is fully extractable and formatted without corruption.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "engage in any strike as defined in Florida Statutes. / pursuant to s. 1012.56 / Blueprint 2000 passed by the Florida Legislature",
+    "page": "63",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Professional responsibility and conduct for teachers in the Minneapolis Public Schools are defined by the Teacher Job Description, MN. Standards of Effective Practice for Teachers (8710.2000), the Standards Of Effective Instruction, the Code of Ethics for Minnesota teachers (8700.7500), and the following Code of Ethics for Minneapolis teachers. Teachers are obligated to adhere to these standards.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Nothing contained in this Agreement shall be construed to limit, impair or affect the right of any teacher or representative of a teacher to the expression or communication of a view, complaint or opinion on any matter so long as such action does not interfere with the performance of the duties of employment as prescribed in this Agreement or circumvent the rights of the exclusive",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 21 to 22 to align with document pagination."
+  }
+}

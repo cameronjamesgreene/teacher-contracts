@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective Bargaining Agreement / Master Contract",
+    "evidence": "MASTER CONTRACT, AMENDMENTS",
+    "page": "130-139",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "DU",
+    "evidence": "Revised: August 29, 2018",
+    "page": "130-139",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees / Teachers",
+    "evidence": "INSTRUCTIONAL SUPPORT TEACHER",
+    "page": "130-139",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "MASTER CONTRACT, TERM",
+    "page": "130-139",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Revised: August 29, 2018                      Page - 130 - of 144",
+    "page": "130-139",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "FLORIDA STATUTES 447",
+    "page": "130-139",
+    "confidence": "high"
+  }
+}

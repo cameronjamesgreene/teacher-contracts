@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes; POS (Plans A & B) and HMOs; all unit members",
+    "evidence": "The current health insurance plans contained in the booklets, “Your Benefit Plan” as amended by agreement of the parties, shall be incorporated as part of this Agreement.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "POS Plan A: 90% Board; POS Plan B: 60-85% Board by years of service; HMO: 95% Board",
+    "evidence": "The Board shall pay 90 percent of the annual premium for each unit member enrolled in the plan",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "POS Plan A: 10% employee; POS Plan B: 40-15% employee by years of service; HMO: 5% employee",
+    "evidence": "unit member shall pay 10 percent of the annual premium for the plan",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes; same-sex domestic partners and spouses (in dual-employee households)",
+    "evidence": "Health plan coverage shall be available to same-sex domestic partners of unit members.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Point-of-Service (POS) plans and Health Maintenance Organizations (HMOs)",
+    "evidence": "Two Point-of-Service (POS) plans with differentials between in-network and out-of-network plan designs.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes; DPPO and DMO plans",
+    "evidence": "MCPS will contract with both a Dental Preferred Provider Organization (DPPO) and a Dental Maintenance Organization Provider (DMO) to provide dental benefits to MCPS employees.",
+    "page": "55",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "All teachers shall have an uninterrupted, duty-free lunch period of at least 30 minutes daily",
+    "page": "18",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Faculty meetings shall not exceed more than one per month",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Assigned supervisory duty, or other duty, shall not exceed 10 minutes in any lunch period.",
+    "page": "18",
+    "confidence": "high"
+  }
+}

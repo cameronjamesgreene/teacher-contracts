@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates after page 37. No sick leave day counts are present in the provided text."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates after page 37. No sick leave accrual or cap details are present in the provided text."
+  },
+  "leave_sick_family_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Sick leave may be used for the following reasons only: • Employee illness • Illness in the employee’s immediate family",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 cited page 39, but the provided document ends at page 37. Cannot verify the quoted evidence regarding family illness usage."
+  },
+  "leave_personal_days_004": {
+    "answer": "discussed_unclear",
+    "evidence": "State law entitles all employees to five days of paid state personal leave per year.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 cited page 38 for '5 days', but the provided document ends at page 37. Cannot verify the personal leave day count."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Must be used in 0.5-day increments; earned comp time used first",
+    "evidence": "Paid leave must be used in one-half (0.5) day increments. Earned comp time must be used before any available paid local and state leave.",
+    "page": "37",
+    "confidence": "medium",
+    "coder_notes": "Answer partially supported by text on page 37. Additional restrictions cited by Stage 1 (discretionary leave, assessment days) are on missing pages 38-39."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "discussed_unclear",
+    "evidence": "State personal leave, is transferable to other Texas school districts and generally transfers to education service centers.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 cited page 38 for transferability/conversion, but the provided document ends at page 37. Cannot verify the policy."
+  }
+}

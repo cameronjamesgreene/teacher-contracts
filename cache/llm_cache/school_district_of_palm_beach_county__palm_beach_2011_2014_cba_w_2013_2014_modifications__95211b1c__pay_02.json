@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Correctly identified as not discussed. No COLA or across-the-board raise provisions exist in the provided document text."
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "APPENDIX B - SUPPLEMENTS ... CATEGORY 1 - $5,460 effective July 1, 2007",
+    "page": "150",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly supports the answer. Note: Provided document text truncates at page 44, but Stage 1 quote is direct and unambiguous."
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "School Psychologist Administrative Duties ... $4,110",
+    "page": "151",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly states additional pay for school psychologists (ESE), directly supporting the answer for special education differentials."
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "Secondary Mathematics, grade levels 6-12; Secondary Science, grade levels 6-12",
+    "page": "193",
+    "confidence": "high",
+    "coder_notes": "Evidence lists specific STEM subjects, directly supporting additional pay or differentials for these roles."
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "fully certified in Secondary Science, ESE or ESOL",
+    "page": "191",
+    "confidence": "high",
+    "coder_notes": "Evidence references certification requirements tied to high-need subjects, directly supporting the existence of subject-specific stipends."
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "Teacher 'Complexity' Pay Formula driven stipend designed to provide differentiated pay based on factors, e.g., high priority location... CPX Rating 2 $2,000 3 $4,000",
+    "page": "183, 186",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly details a complexity pay formula tied to 'high priority location' with specific dollar amounts, directly answering the question about hard-to-staff school incentives."
+  }
+}

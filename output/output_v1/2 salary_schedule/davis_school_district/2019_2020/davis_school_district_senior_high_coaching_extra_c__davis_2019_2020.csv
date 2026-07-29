@@ -1,0 +1,19 @@
+# Davis_2019-2020.pdf — Davis School District Senior High Coaching Extra Compensation for Extra Duties 2019-2020 (2019-2020)
+# population: Senior High Coaches | is_teacher_schedule: False
+"# validation_warnings: identical values across steps ['Football', 'Basketball'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Wrestling', 'Drill Team Director'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Volleyball', 'Baseball', 'Track and Field', 'Softball', 'Soccer', 'Debate Coach'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Tennis', 'Golf', 'Cross Country'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,Coaches' Extra Compensation,Assistants' Extra Compensation
+Athletic Director,5820.00,
+Football,3322.00,2226.00
+Basketball,3322.00,2226.00
+Wrestling,2990.00,2003.00
+Drill Team Director,2990.00,2003.00
+Swimming,2658.00,1781.00
+Volleyball,2160.00,1447.00
+Baseball,2160.00,1447.00
+Track and Field,2160.00,1447.00
+Softball,2160.00,1447.00
+Soccer,2160.00,1447.00
+Debate Coach,2160.00,1447.00
+Tennis,1269.00,
+Golf,1269.00,
+Cross Country,1269.00,

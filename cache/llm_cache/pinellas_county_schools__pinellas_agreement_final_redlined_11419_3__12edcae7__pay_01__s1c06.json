@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "The Board and the Association agree to provide related work experience credit to employees whose service prior to employment meets the following criteria: 1. The work experience must have been in an area substantially similar to that which the employee is expected to perform. 2. The work experience must have been in a position which normally requires a baccalaureate or a technologically advanced level of training. 3. Annually, the parties shall identify a maximum number of years to be granted and the specific areas in which such credit shall be allowed.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "teachers working at a Tier III or Tier IV School will receive a bonus of $3,000 if they are recruited to or retained at the Tier III or Tier IV School and work there for the school year for which they were hired.",
+    "page": "73",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "Performance-based bonuses are tied to school letter grade improvement (e.g., improving to a C or better, or improving by two letter grades) rather than individual teacher evaluations.",
+    "evidence": "When the grade assigned to a Tier III or Tier IV School improves to C or better, a teacher who worked at the school that year will receive a performance bonus equal to $1,500. If the grade assigned to a Tier III or Tier IV School improves by two letter grades, the teacher who worked at the school that year will receive a performance bonus equal to $2,000.",
+    "page": "73",
+    "confidence": "high"
+  }
+}

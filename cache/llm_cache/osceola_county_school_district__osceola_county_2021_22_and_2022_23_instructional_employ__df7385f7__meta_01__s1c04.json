@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2021-22 and 2022-23",
+    "evidence": "Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees / Teachers",
+    "evidence": "Classroom Instructional Employees’ Evaluation System and Handbook and the Non-Classroom Instructional Employees’ Evaluation System and Handbook",
+    "page": "50",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "this Master Contract",
+    "page": "47",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The Board shall provide for teachers a fully paid group life insurance plan which shall pay the teacher's designated beneficiary an amount equal to the teacher's annual salary rounded up to the next higher thousand in the event of death",
+    "page": "55",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section 1012.34(5), Florida Statutes, requires the Superintendent to notify the department (Florida Department of Education) of any instructional employee who receives two (2) consecutive “Unsatisfactory” final summative evaluation ratings.",
+    "page": "51",
+    "confidence": "high"
+  }
+}

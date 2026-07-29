@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document text cuts off at page 43. The Table of Contents indicates Article 37 (Benefits) begins on page 99. No mention of health or medical insurance is found in the provided text."
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The relevant benefits section (Article 37) is not included in the provided text. No information on employer contributions is present."
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The relevant benefits section (Article 37) is not included in the provided text. No information on employee premiums is present."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The relevant benefits section (Article 37) is not included in the provided text. No mention of dependent/family health coverage is present."
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The relevant benefits section (Article 37) is not included in the provided text. No health plan types are described."
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "DCPS agrees to contribute the following amounts per month, per Teacher, towards a dental insurance plan to be contracted by the WTU: Self $30.00* $34.58 $36.30; Family $60.00* $69.16 $72.60",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 cited page 99 for dental insurance evidence, but the provided document text truncates at page 43. Article 37 is absent, so the evidence cannot be verified or quoted from the provided text. Changed to not_discussed per audit guidelines."
+  }
+}

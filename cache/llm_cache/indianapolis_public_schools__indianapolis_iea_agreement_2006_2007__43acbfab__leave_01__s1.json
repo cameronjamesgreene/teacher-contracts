@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 in first year, 8 thereafter",
+    "evidence": "Every teacher shall have ten (10) sick leave days during his/her first year in the system and eight (8) days sick leave each year thereafter.",
+    "page": "M-4",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates without limit.",
+    "evidence": "A teacher may accumulate unused sick leave without limit",
+    "page": "M-4",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "In any given year, seven (7) of such days may be used due to illness of any member of the teacher's immediate family",
+    "page": "M-4",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

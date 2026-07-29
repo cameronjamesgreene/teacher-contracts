@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 paid days within a two-week period, plus up to 2 additional days (PTO or unpaid)",
+    "evidence": "The employee shall be granted bereavement leave of absence with pay and without loss of Paid Time Off (PTO) benefits for up to a maximum of three (3) regularly scheduled days within a two (2) week period... The employee shall be allowed to use an additional two (2) days PTO or vacation allowance or, if the employee has no remaining PTO or vacation allowance, the employee may take an unpaid leave of absence for such two (2) additional days;",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Immediate family members (son, daughter, spouse, parent, grandparent, sister, brother, grandchild, or by marriage) and close non-family members (case-by-case analysis)",
+    "evidence": "'Immediate family member' is defined as a son, daughter, spouse, parent, grandparent, sister, brother, grandchild or anyone of the same relationship by marriage. A 'close non-family member' is defined on a case-by-case analysis of a legally undefined relationship between the employee and the decedent.",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Leave without pay for up to twelve (12) months may be granted to members of the bargaining units to provide extended care for a child following the termination of maternity leave, adoption, or for long-term illnesses of children.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": "Updated page number to match document pagination. Evidence explicitly states 'Leave without pay', directly supporting the 'no' answer for paid leave."
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Leave without pay for up to twelve (12) months may be granted to members of the bargaining units to provide extended care for a child following the termination of maternity leave...",
+    "page": "32",
+    "confidence": "medium",
+    "coder_notes": "Updated page number to 32. Evidence explicitly mentions 'maternity leave', which directly addresses pregnancy/childbirth leave. Confidence raised to medium as the reference is explicit, though brief."
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Leave without pay for up to twelve (12) months may be granted to members of the bargaining units to provide extended care for a child following the termination of maternity leave, adoption, or for long-term illnesses of children.",
+    "page": "32",
+    "confidence": "medium",
+    "coder_notes": "Updated page number to 32. Evidence explicitly mentions 'adoption' and 'extended care for a child' (bonding), directly supporting 'yes'. Confidence adjusted to medium."
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "PTO days are subject to exhaustion as part of FMLA leave.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly references FMLA leave in the PTO section and also in the Health Leave section. Confidently supports 'yes'."
+  }
+}

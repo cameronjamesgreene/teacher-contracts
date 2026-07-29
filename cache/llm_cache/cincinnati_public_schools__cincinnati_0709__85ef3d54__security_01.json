@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "New teachers shall hold a Provisional License, successfully complete the Entry-Year Program and performance assessment within two years, and obtain a five year Professional License. / Each teacher who has attained the career level in the TES... shall be offered a continuing contract",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "A contract shall be considered automatically renewed unless notification is given by April 30. / ...entitled to a written notice of the Superintendent's recommendations not to re-employ the teacher... no later than the first Monday in April.",
+    "page": "17, 21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall be defined in priority as follows: a. Years of Continuous Contractual Service... b. Years in Current Building... c. Years in Subject/Level... d. Years Employed as Certificated Teacher",
+    "page": "44",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "discussed_unclear",
+    "evidence": "A teacher who wishes to change teams must submit his/her request in writing to the team leader prior to February 25. / A teacher who desires to change departments must submit his/her request, in writing, to the lead teacher or department chair by February 25.",
+    "page": "24",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 answer 'yes' does not address the open-ended question 'What are the voluntary transfer procedures?'. The evidence describes team/department change requests rather than formal voluntary transfer procedures under §250. Downgraded to discussed_unclear."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "before a teacher receives an administrative transfer... the teacher, upon request, shall have a conference... / Changes in assignments after the initial notification may be necessary due to changes in enrollment... the principal shall notify teachers in writing of the change at the teacher's summer address, including the reasons therefore.",
+    "page": "23, 24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "The document outlines 'Surplussing' procedures for staff reductions caused by decreased enrollment or program/school organizational changes. Priority steps include granting available voluntary transfers, allowing certificated surplus teachers to displace junior teachers within the building (with team-based school exceptions), and giving surplus teachers preference for existing vacancies. Seniority controls placement choices when qualifications and racial balance are equal. Relocation and merger provisions allow staff consolidation or transfer to new sites.",
+    "evidence": "\"Teachers may be surplussed due to decreased enrollment or a change in program offerings or school organization.\"",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

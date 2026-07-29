@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "6.1 Permanent: Thirty-Five (35) hours per week is a \"full time\" assignment... 6.2 Probationary Teachers who meet the above criteria for permanency but have not yet satisfied the length of service are probationary. 6.3 Temporary 6.3.1 Teachers working not more than 60% of the hours per week",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Temporary teachers continuing to \"Does Not Meet Standards” will be notified by March 15 that they may not be reemployed for the next school year. By the end of the instructional year, the District will notify in writing all temporary teachers as to either one of the following conditions regarding their reemployment.",
+    "page": "75-76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "1) Seniority shall be defined as the first day of service in certificated/credentialed position per Ed Code 44845.",
+    "page": "78",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Permanent employees must indicate interest to HR before Winter Break. Vacancies are tracked for a Lateral Interview Process. Positions posted after spring staffing are advertised electronically for five days, with interviews scheduled for all candidates requesting one. Selection among qualified applicants prioritizes the candidate who best meets the receiving school's needs for faculty balance.",
+    "evidence": "All permanent employees seeking to transfer shall indicate their interest to FUSD Human Resources prior to the beginning of the Winter Break. If more than one applicant is qualified in all respects for a position opening, the applicant who will meet the needs of the receiving school in terms of balance shall be selected. Those positions which become vacant or have not been filled after the spring staffing process and prior to the completion of the first three (3) student instructional weeks shall be posted electronically for five (5) consecutive work days. School personnel will schedule an interview with all candidates who request an interview.",
+    "page": "77-78",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "1.3 Involuntary Transfers - Transfers initiated by administration. 1.3.1 Ineffectiveness or Incompatibility... 1.3.2 Program... 1.3.3 Ethnic Balance... 1.3.4 Overage...",
+    "page": "77-78",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "The document addresses 'overage transfers' for staff reductions rather than traditional layoffs. Procedures require soliciting volunteers first. If insufficient, transfers begin with the least senior person, subject to specific exemptions (ethnic balance, bilingual/ELL needs, specialized courses, 2-year wait, special credentials, multi-site/part-time assignments, extra-pay contracts, split assignments). Notice of vacancies is provided 20 days before/after the school year, with a 10-working-day interview window.",
+    "evidence": "5.4.1 Reductions in staff size (overage transfers) shall be accomplished by the transfer of personnel... 5.4.2 The principal will initially attempt to satisfy overage transfer requirements... by soliciting volunteers... 5.4.3 Additional employees... shall be transferred, as necessary, beginning with the least senior person... 5.4.5 Persons who are notified that they will be subjected to involuntary transfers, for the purpose of reducing the size of a staff, shall concurrently be provided with notices of all known permanent vacancies... at least twenty (20) calendar days",
+    "page": "83-85",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Contract Agreement Between Montgomery County Education Association and Board of Education of Montgomery County",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2011-2014",
+    "evidence": "School Years 2011-2014",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Montgomery County Education Association",
+    "evidence": "The Board recognizes the Association for purposes of negotiation as the exclusive negotiating agent for all unit members",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "said Agreement shall be given full force and effect by said parties for the entire term thereof.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly state the agreement's binding nature and full force/effect, replacing the weaker 'compact' quote."
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section 6-401(b) of the Education Article of the Annotated Code of Maryland",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,3 @@
+document_id,file_name,district_name,total_chunks,chunks_failed,total_clauses_extracted,total_clauses_scored,total_weight,worker_rights,worker_responsibilities,management_rights,management_responsibilities,worker_rights_share,worker_responsibilities_share,management_rights_share,management_responsibilities_share
+santa_ana_unified_school_district__95__51287d2f,95.pdf,Santa Ana Unified School District,118,0,924,890,789.2499999999987,193.55000000000015,149.05000000000004,29.55000000000002,336.59999999999997,0.24523281596452387,0.18885017421602823,0.03744060817231557,0.42648083623693445
+santa_ana_unified_school_district__santa_ana_2016_2019_contract__79de7c42,Santa_Ana_2016-2019_Contract.pdf,Santa Ana Unified School District,1,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

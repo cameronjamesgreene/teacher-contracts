@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "5 days for immediate family/household members, 2 days for others (paid, per incident)",
+    "evidence": "A unit member shall be allowed a maximum of five days of absence without loss of salary upon the death of a child, parent (natural, foster, step, or in-law), brother, sister, husband, wife, or of anyone who has lived regularly in his/her household. A unit member shall be allowed a maximum of two duty days of absence without loss of salary upon the death of a brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, spouse’s grandparent, or an individual for whom the unit member held durable medical or personal representative power of attorney at the time of death.",
+    "page": "78",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Child, parent, brother, sister, husband, wife, household members; plus brother/sister-in-law, son/daughter-in-law, grandparent, grandchild, spouse's grandparent, power of attorney holder",
+    "evidence": "child, parent (natural, foster, step, or in-law), brother, sister, husband, wife, or of anyone who has lived regularly in his/her household... brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, spouse’s grandparent, or an individual for whom the unit member held durable medical or personal representative power of attorney",
+    "page": "78",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Sick leave is a designated amount of compensated leave that is to be granted to a unit member who through personal illness, injury, quarantine, pregnancy, miscarriage, or childbirth and recovery is unable to perform the duties of his/her position.",
+    "page": "69",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Child Care/Adoption Leave... may be granted an unpaid leave of absence up to one full school year, with two additional renewals for one school year each.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "This Article shall conform to the requirements of the Family and Medical Leave Act of 1993 (FMLA).",
+    "page": "68",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

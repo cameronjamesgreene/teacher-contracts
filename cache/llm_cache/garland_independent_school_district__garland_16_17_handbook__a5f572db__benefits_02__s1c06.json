@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "Other leave is available under limited and specific circumstances as outlined in Board Policy DEC (Local) such as... Long and Short Term Disability...",
+    "page": "72",
+    "confidence": "medium"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "TRS-Care - 0.65% of gross salary is paid by each active school employee to help support the Teacher Retirement System health care plan for retired employees titled TRS-CARE.",
+    "page": "76",
+    "confidence": "medium"
+  }
+}

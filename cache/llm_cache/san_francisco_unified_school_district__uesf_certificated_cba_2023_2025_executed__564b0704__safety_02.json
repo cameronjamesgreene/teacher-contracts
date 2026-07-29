@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "discussed_unclear",
+    "evidence": "Listening, recording, television, or other monitoring devices shall not be used in any part of the building to violate teachers’ rights.",
+    "page": "8",
+    "confidence": "medium",
+    "coder_notes": "The cited evidence mentions 'monitoring devices' in a privacy restriction context, but does not explicitly confirm the presence or policy regarding security staff, building access, visitor controls, or personal security measures. Downgraded from 'yes' to 'discussed_unclear' due to tangential relevance."
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

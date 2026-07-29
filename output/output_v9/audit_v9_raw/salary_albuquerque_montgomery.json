@@ -1,0 +1,24 @@
+{
+  "albuquerque": {
+    "grids_total": 8,
+    "status_counts": {
+      "CORRECT": 4,
+      "PARTIAL": 4,
+      "INCORRECT": 0,
+      "UNVERIFIABLE": 0
+    },
+    "fabrication_class_present": true,
+    "notes": "AT-1(x2),A.5(x2) fully correct. AT-2(x2) truncated at step38 (truth 1-50; 39-50 dropped). AT-3 base stops at 41 (42-50 missing); AT-3 p75-76 drops steps33-41 & step32 partial. All present values match truth; defects are truncation/dropped rows."
+  },
+  "montgomery": {
+    "grids_total": 8,
+    "status_counts": {
+      "CORRECT": 8,
+      "PARTIAL": 0,
+      "INCORRECT": 0,
+      "UNVERIFIABLE": 0
+    },
+    "fabrication_class_present": false,
+    "notes": "All 8 (4 dates x2) match truth: steps1-25, 4 lanes, correct BA-blanking. March2017 keeps distinct step11-12/23-25 values (no year-column copy from Sept2016). Pairs identical. No truncation or dropped lanes."
+  }
+}

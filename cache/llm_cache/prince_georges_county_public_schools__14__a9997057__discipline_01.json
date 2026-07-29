@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "No teacher will be disciplined, reprimanded, reduced in rank or compensation or deprived of any professional advantage without cause.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The Board of Education will accept the resignation of any non-tenured Unit I employee submitted prior to May 1 without prejudice, provided that the said employee has not been recommended by the Superintendent for Termination or non-renewal due to cause. A tenured unit member wishing to voluntarily terminate employment must give written notice to the Human Resources Division on or before July 15. Non-tenured unit members must provide such written notice no later than May 1.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Observe all safety rules and regulations and report injuries or unsafe conditions to a supervisor immediately.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Updated page reference to 37 to align with the provided document text header preceding the Standards of Conduct section. Evidence explicitly states a safety provision."
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Assault leave provides extended job income and benefits protection to an employee who is injured as the result of a physical assault suffered during the performance of his or her job.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised confidence to medium. The Table of Contents references 'Student Conduct and Discipline' on page 69, but this section was not included in the provided text excerpt. Employee handbooks typically do not detail procedural steps for teacher intervention in student discipline."
+  },
+  "safety_remove_student_004": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised confidence to medium. No evidence of teacher removal authority found in provided text. Likely absent as it is typically governed by district policy manuals rather than the employee handbook."
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "The district may close schools because of bad weather or emergency conditions. When such conditions exist, the Superintendent will make the official decision concerning the closing of the district’s facilities. When it becomes necessary to open late, to release students early, or to cancel school, district officials will post a notice on the district’s Web site and notify the following radio and television stations:",
+    "page": "62",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised confidence to medium. The Table of Contents lists 'Asbestos Management Plan' and 'Pest Control Treatment' on page 61, but the specific text was not provided. No mention of temperature, ventilation, acoustics, or construction disruption was found in the excerpt."
+  }
+}

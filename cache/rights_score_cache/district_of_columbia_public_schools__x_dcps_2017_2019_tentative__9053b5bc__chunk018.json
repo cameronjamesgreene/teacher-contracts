@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "The WTU and DCPS will use the 2009-2010 school year for planning.",
+      "subject_text": "The WTU and DCPS",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Joint planning directive regarding the pilot timeline."
+    },
+    {
+      "quote": "The Chancellor and the WTU President shall mutually select the three (3) DC Public Schools to house the WTU “Teacher Center” model and the location of the city-wide unit.",
+      "subject_text": "The Chancellor and the WTU President",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Joint selection duty for Teacher Center locations."
+    },
+    {
+      "quote": "The project will be guided by a Teacher Center Policy Board composed of an equal number of Teachers selected by the WTU and additional Teachers selected by DCPS.",
+      "subject_text": "The project",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Passive construction establishing joint board oversight for the initiative."
+    },
+    {
+      "quote": "If, after two years of the pilot, DCPS and the WTU agree that the Teacher Centers are making a significant positive impact on student achievement, DCPS shall develop, in consultation with the WTU, an expansion plan, budget permitting.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Conditional expansion duty subject to mutual agreement and budget availability."
+    },
+    {
+      "quote": "Upon ratification of this Agreement, DCPS shall, in collaboration with the WTU, develop Targeted Training Programs for a subgroup of educators including WTU Teachers who will provide intensive professional development and support to all Teachers starting at the beginning of each school year and not later than the beginning of the 2010-2011 school year, on the following areas of special emphasis:",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Introductory directive mandating specific training initiatives upon ratification."
+    }
+  ]
+}

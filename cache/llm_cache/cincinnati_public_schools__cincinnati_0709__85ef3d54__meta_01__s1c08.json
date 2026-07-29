@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Collective Bargaining Contract applicable to contract teachers.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "January 1, 2007 through January 1, 2009",
+    "evidence": "All salary schedules shall be increased by 1.0% effective January 1, 2007, except Schedule E. All salary schedules shall be increased by 2.0% effective January 1, 2008, except Schedule E. There will be an economic re-opener on January 1, 2009.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers and substitutes",
+    "evidence": "Covers Special Teachers (§610), Substitute Teachers (§620), Pre-School Teachers, Career Technical Teachers, Summer School Teachers, and Contract/Lead/Career Teachers (§700).",
+    "page": "59-68",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "Collective Bargaining Contract applicable to contract teachers.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

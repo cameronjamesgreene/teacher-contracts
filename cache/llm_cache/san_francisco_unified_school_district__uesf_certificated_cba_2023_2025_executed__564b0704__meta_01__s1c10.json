@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "121",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2023 through June 30, 2025",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "121",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated teachers / United Educators of San Francisco (UESF) unit",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "121",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "121",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "121",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "Yes",
+    "evidence": "California Education Code section 49423.5",
+    "page": "125",
+    "confidence": "high"
+  }
+}

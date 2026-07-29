@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Both parties also agree that supervision of students is part of the teacher's instructional responsibilities during the regular workday. Teachers will not be required to ride buses or perform custodial functions.",
+    "page": "17",
+    "confidence": "high"
+  }
+}

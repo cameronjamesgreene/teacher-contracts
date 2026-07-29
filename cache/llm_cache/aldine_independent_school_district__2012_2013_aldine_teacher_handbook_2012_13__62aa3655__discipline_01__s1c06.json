@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "An employee shall have a ten-day grace period after the employee’s certificate or permit is void to renew, extend, or otherwise validate the certificate or permit before the district can suspend or terminate the employee. Contract personnel choosing to end their employment with the district are required to submit a written notice of resignation for the coming school year no later than 45 days before the first day of the coming school year.",
+    "page": "27",
+    "confidence": "high"
+  }
+}

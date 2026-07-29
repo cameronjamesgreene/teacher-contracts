@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes. Schedule: Appendix F (Credential Differentials) and Appendix G (Teacher Leadership Differentials) for the 2022-2023 contract. Covered assignments include Bilingual/ESL endorsed teachers, National Board certified teachers, Team Leaders, Department Heads, Academy Leaders, Mentor Teachers, Special Education Department Heads, and SAT Chairs.",
+    "evidence": "\"APPENDIX F – CREDENTIAL DIFFERENTIALS\" (p. 110) and \"APPENDIX G – TEACHER LEADERSHIP DIFFERENTIALS\" (p. 112).",
+    "page": "110, 112",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes. Label: Special Education Department Head and Elementary Special Education Head Teacher. Amount: $2,800 (Elementary Head/1-15 teachers) to $3,100 (16+ teachers in dept). Roles: Elementary, Middle, and High School Special Education Department Heads, and Elementary Special Education Head Teachers. Status: Recurring differential.",
+    "evidence": "\"Elementary, Middle, and High School Special Education Department Head... 4-15 teachers in department or on team $2,800. 16 or more teachers in department–$3,100.\" (p. 113); \"J.2 Elementary Special Education Head Teacher... an additional differential of $2,800.00 will be allocated for an additional Elementary Head Special Education Teacher...\" (p. 117).",
+    "page": "113, 117",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes. Covered areas: Bilingual and ESL. Amounts: $500 for endorsement; up to $3,000 for bilingual teachers teaching content in student's home language; $2,500 for ESL teachers; $3,500 for combined ESL/Bilingual; $1,000 for instructional coaches/librarians with TESOL/Bilingual. Eligibility: Approved ALS plan, PED endorsement, minimum 45 min/1 period daily instruction. Status: Recurring.",
+    "evidence": "\"Bilingual and ESL Differentials... Educators who possess a current Bilingual and/or ESL endorsement receive a differential... $500 Differential for Bilingual and ESL... Additional $3,000 Differential for Bilingual... Additional $2,500 Differential for ESL... Additional $3,500 Differential for Bilingual and ESL... Additional $1,000 Differential for TESOL/Bilingual Professional Support Teachers\" (pp. 110-111).",
+    "page": "110-111",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

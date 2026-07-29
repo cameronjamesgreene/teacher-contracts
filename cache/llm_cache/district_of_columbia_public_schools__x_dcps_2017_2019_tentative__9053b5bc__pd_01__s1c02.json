@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Recruit, develop, and assign mentor teachers with the newest staff to ensure that each new Teacher is assigned a mentor. Provide ongoing support and mentoring for all new teachers throughout the 3-year induction program.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "every DCPS School shall be provided with a full-time Instructional Coach, whose sole responsibility shall be to provide professional development in a job-embedded manner.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

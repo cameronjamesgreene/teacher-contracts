@@ -1,0 +1,103 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "APPENDIX B - SUPPLEMENTS",
+      "population": "Supplemental positions (coaching, club advisors, athletic directors, etc.)",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "July 1, 2007",
+      "lane_labels": [],
+      "step_labels": [
+        "Category 1",
+        "Category 2",
+        "Category 3",
+        "Category 4",
+        "Category 5",
+        "Category 6",
+        "Category 7",
+        "Category 8",
+        "Category 9",
+        "Category 10",
+        "Category 11"
+      ],
+      "cells": [
+        {
+          "step": "Category 1",
+          "lane": null,
+          "value": "5460",
+          "cell_code": null
+        },
+        {
+          "step": "Category 2",
+          "lane": null,
+          "value": "4915",
+          "cell_code": null
+        },
+        {
+          "step": "Category 3",
+          "lane": null,
+          "value": "4110",
+          "cell_code": null
+        },
+        {
+          "step": "Category 4",
+          "lane": null,
+          "value": "3275",
+          "cell_code": null
+        },
+        {
+          "step": "Category 5",
+          "lane": null,
+          "value": "3015",
+          "cell_code": null
+        },
+        {
+          "step": "Category 6",
+          "lane": null,
+          "value": "2500",
+          "cell_code": null
+        },
+        {
+          "step": "Category 7",
+          "lane": null,
+          "value": "2185",
+          "cell_code": null
+        },
+        {
+          "step": "Category 8",
+          "lane": null,
+          "value": "1925",
+          "cell_code": null
+        },
+        {
+          "step": "Category 9",
+          "lane": null,
+          "value": "1640",
+          "cell_code": null
+        },
+        {
+          "step": "Category 10",
+          "lane": null,
+          "value": "1145",
+          "cell_code": null
+        },
+        {
+          "step": "Category 11",
+          "lane": null,
+          "value": "835",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Fixed flat-rate supplement schedule for additional duties and coaching assignments. Several items within the categories note updates or specific effective dates (e.g., July 1, 2013).",
+      "confidence": "high",
+      "validation_warnings": [
+        "no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns)"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

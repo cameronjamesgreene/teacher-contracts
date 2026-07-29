@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "Yes. FY25: 2.0% (Eff. Oct 6, 2024); FY26: 3.0% (Eff. Oct 5, 2025); FY27: 3.0% (Eff. Oct 4, 2026); FY28: 4.0% (Eff. Oct 3, 2027)",
+    "evidence": "FY 2025 Effective October 6, 2024                     Adjustment:     2.0% ... FY 2026 Effective October 5, 2025                     Adjustment:     3.0% ... FY 2027 Effective October 4, 2026                     Adjustment:     3.0% ... FY 2028 Effective October 3, 2027                     Adjustment:     4.0%",
+    "page": "",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

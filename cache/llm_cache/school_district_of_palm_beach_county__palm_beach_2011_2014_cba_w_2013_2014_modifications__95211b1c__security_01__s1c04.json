@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "The list of volunteers shall be in order of seniority, i.e. length of continuous service within the bargaining unit.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Eligible employees (7+ consecutive years, reassigned to an untaught grade/subject) may use the Voluntary Transfer Procedure. Outside the regular period (through July 1), Principal/Area Superintendent approval is not required. After July 1, approval of both Principals and Area Superintendents is required.",
+    "evidence": "An employee entering at least his/her seventh (7th) consecutive year of employment with the District who is being reassigned to a grade level and/or subject to which he/she has not been assigned sometime during the previous six (6) school years is permitted to use the Voluntary Transfer Procedure in Article IV, Section C 1-4 of the Agreement both within and outside the regular Voluntary Transfer Period. An employee who meets the eligibility criteria as set forth herein need not have the approval of his/her current Principal and appropriate Area Superintendent(s) to seek and be approved for a Voluntary Transfer outside the Voluntary Transfer Period through July 1. After July 1, the eligible employee may continue to seek a Voluntary Transfer outside of the Voluntary Transfer Period, but only with the approval of both Principals and the appropriate Area Superintendent(s) will such transfer request be approved after July 1.",
+    "page": "59",
+    "confidence": "medium"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

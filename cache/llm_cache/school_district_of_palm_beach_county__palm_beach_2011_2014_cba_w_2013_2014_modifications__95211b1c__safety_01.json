@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The Board will make reasonable effort to provide and maintain working conditions which reasonably protect life, safety, and health of employees in the physical plants under control of the School Board.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Corrected answer from 'no' to 'yes'. Original had no evidence. Document explicitly includes 'Section H - Safety' which outlines health and safety provisions."
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Any case of assault upon an employee which occurs in the line of duty shall be promptly reported to the Principal. The Board shall provide legal advice to the employee... days lost up to the first twenty (20) days... shall not be deducted from any previously accumulated sick leave... Board will pay all medical and dental costs above that covered by all insurance... The District will reimburse an employee for clothing... Personal Property... Vehicles... maximum total liability of the Board pursuant to Section 10(a)... eight hundred dollars ($800.00) per occurrence",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Student discipline is based upon the premise that students must adhere to the Student Code of Conduct of their respective school... Employees and administrators jointly assume the responsibility for taking a positive approach to discipline and to maintain constructive class/student control... each school shall use a Student Conduct Report... Principal shall use this report to advise the employee of the action taken.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "An employee may remove from his/her class a student who has been documented by the employee to repeatedly interfere with the employee's ability to communicate effectively... The placement review committee must render a decision with five (5) work days of the removal of the student from the employee's classroom... within forty-eight (48) hours... employee may appeal...",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "interruption of this lunch period for a fire drill or an emergency such as an evacuation or a lock down will not be considered a violation of this provision.",
+    "page": "67",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "The Board will make reasonable effort to provide and maintain working conditions which reasonably protect life, safety, and health of employees in the physical plants under control of the School Board.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Updated evidence from PE-specific provision to Article II, Section H, which explicitly addresses maintaining physical working conditions for safety and health."
+  }
+}

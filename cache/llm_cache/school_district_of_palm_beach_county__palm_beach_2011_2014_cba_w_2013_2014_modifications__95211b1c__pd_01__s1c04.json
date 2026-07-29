@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "All teachers have the right to volunteer to be assigned the responsibilities of Team Leader/Department Head and/or to any other supplemental assignment. The decision of who is given such assignments and what supplemental positions will be filled rest with the Principal.",
+    "page": "59",
+    "confidence": "medium"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

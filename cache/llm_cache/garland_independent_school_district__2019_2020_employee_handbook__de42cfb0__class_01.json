@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "not_discussed",
+    "evidence": "Enrollment Caps - GISD maintains the required 22 to 1 class size limits in Pre-Kindergarten through 4th grade.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence refers to page 70, which is not included in the provided document text. Unable to verify."
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "GISD maintains the required 22 to 1 class size limits in Pre-Kindergarten through 4th grade.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence refers to page 70, which is not included in the provided document text. Unable to verify."
+  },
+  "class_secondary_max_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of middle or high school class size limits in the provided text."
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "Occasionally, waivers to this rule have to be requested because of unexpected growth in student enrollment.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence refers to page 70, which is not included in the provided document text. Unable to verify."
+  }
+}

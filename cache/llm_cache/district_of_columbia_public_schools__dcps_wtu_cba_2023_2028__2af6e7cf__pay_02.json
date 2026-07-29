@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "FY2025: 2%, FY2026: 3%, FY2027: 3%, FY2028: 4%",
+    "evidence": "36.1. The effective date for all across-the-board base salary increases in this Agreement shall be October 1 for each year of this Agreement. 36.2.1. DCPS shall provide the following base salary raises for the following years: FY2025 2%, FY2026 3%, FY2027 3%, FY2028 4%",
+    "page": "92",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "no",
+    "evidence": "Extra-duty pay shall remain at the levels in effect as of the 2021-2022 school year until changes are mutually agreed to by the Parties.",
+    "page": "94",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "If Teacher agrees to complete more than 15 IEPs annually, the Teacher shall receive administrative premium at the rate of three (3) hours per additional IEP.",
+    "page": "83",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "36.2.4. ... Hard to fill positions are defined as ... Math/Science ... 36.13.1. A Teacher who is a certified classroom Teacher, and who achieves a second certification in secondary math, secondary science ... shall receive a non-pensionable, one-time bonus of $1,500",
+    "page": "92, 95",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "discussed_unclear",
+    "evidence": "36.2.4. ... Hard to fill positions are defined as ... World Languages, ... ESL/ESL Itinerant.",
+    "page": "92",
+    "confidence": "medium",
+    "coder_notes": "Evidence only defines World Languages and ESL positions as 'hard to fill' but does not explicitly state that additional pay, stipends, or salary differentials are provided for them. Revised to discussed_unclear."
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

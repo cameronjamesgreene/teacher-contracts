@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "AFT Certified CBA",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2023-2026",
+    "evidence": "2023 - 2026 SALARY SCHEDULE",
+    "page": "51",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certified employees",
+    "evidence": "AFT Certified CBA",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "AFT Certified CBA",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "AFT Certified CBA 49",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

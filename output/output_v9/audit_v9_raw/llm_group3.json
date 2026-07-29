@@ -1,0 +1,72 @@
+{
+  "status_counts": {
+    "CORRECT": 8,
+    "PARTIAL": 1,
+    "INCORRECT": 1,
+    "UNVERIFIABLE": 0
+  },
+  "items": [
+    {
+      "qid": "meta_doc_type_001",
+      "doc": "prince_georges_county_public_schools",
+      "status": "CORRECT",
+      "note": "Title page: Negotiated Agreement between PGCEA and Board of Ed, July 1 2017-June 30 2019 = CBA. Evidence real."
+    },
+    {
+      "qid": "benefits_leave_continuation_011",
+      "doc": "prince_georges_county_public_schools",
+      "status": "CORRECT",
+      "note": "Lines 1047-1049: members who notify intent to vacate 'have their health insurance continued until August 31'. Evidence matches truth."
+    },
+    {
+      "qid": "evaluation_procedure_001",
+      "doc": "prince_georges_county_public_schools",
+      "status": "CORRECT",
+      "note": "Art 9 (lines 771-783): evaluation based on personal observation; less-than-satisfactory given before June 10th. Evidence real."
+    },
+    {
+      "qid": "pay_salary_schedule_002",
+      "doc": "prince_georges_county_public_schools",
+      "status": "PARTIAL",
+      "note": "Salary schedule (Art 22.6) is heavily referenced and contract term is 2017-2019, so years are inferable; but no dated schedule table in extracted text. not_discussed is conservative rather than clearly wrong."
+    },
+    {
+      "qid": "evaluation_student_growth_006",
+      "doc": "prince_georges_county_public_schools",
+      "status": "CORRECT",
+      "note": "Art 9 is procedural only (observation, satisfactory ratings, rebuttal). Whole-doc grep found no student growth/test scores/value-added. No false negative."
+    },
+    {
+      "qid": "meta_doc_type_001",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Title: Collective Bargaining Agreement between School Board of Palm Beach County and CTA, 2017-2020. Evidence real."
+    },
+    {
+      "qid": "benefits_dental_006",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Line 929 lists Dental Insurance; Section H line 5510 'DENTAL PLANS: District will make available choices of dental plans'. Evidence matches."
+    },
+    {
+      "qid": "evaluation_student_growth_006",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Line 1206 §1012.34 links student learning growth to evaluation; full 'STUDENT LEARNING GROWTH' section at 1342-1361. Evidence exact."
+    },
+    {
+      "qid": "pay_step_increment_003",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "INCORRECT",
+      "note": "FALSE NEGATIVE. Doc explains salary steps and annual base-salary adjustments/increments: Art VIII Sec A + Appendix A performance-pay adjustments (lines 5159-5230), Initial Placement Salary Schedule w/ years of experience & salary steps (389-392). Should be yes."
+    },
+    {
+      "qid": "class_overage_remedy_004",
+      "doc": "school_district_of_palm_beach_county",
+      "status": "CORRECT",
+      "note": "Only class-size mention (line 1870) is child-reassignment staffing, not a remedy. No overload/exceed-limit remedy provisions found. No false negative."
+    }
+  ],
+  "false_negatives": 1,
+  "notes": "10 items across PG County + Palm Beach. Philadelphia & Seattle had empty item lists (nothing to audit; Philadelphia truncation not testable here). 1 clear false negative: Palm Beach pay_step_increment (steps/increments discussed at length). PG salary-schedule-years marked PARTIAL (inferable from 2017-19 term, no dated table)."
+}

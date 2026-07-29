@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "This handbook describes the basic types of leave available and restrictions on leaves of absence.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2017 school year",
+    "evidence": "2016 – 2017 SCHOOL YEAR",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees (professional, paraprofessional, auxiliary, classroom teachers)",
+    "evidence": "Professional employees and academic administrators are exempt from overtime pay... Paraprofessional and auxiliary employees. Support employees are employed at will... Classroom teachers will have planning periods...",
+    "page": "17-18",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Every Student Succeeds Act (ESSA)... Texas law also requires that parents be notified... State law entitles all employees to five days of paid state personal leave per year.",
+    "page": "19, 32",
+    "confidence": "high"
+  }
+}

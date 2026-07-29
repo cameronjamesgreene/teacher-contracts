@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Beginning Teachers who hold a New Mexico Level 1 /1-A teaching license are required to be in the District Mentoring Program for two (2) semesters. A Mentor will be assigned to each Beginning Teacher based on relevant area of licensure or grade level. School-based Mentors will receive a differential of $1,000.00 per semester for mentoring one teacher in their school; $2,000.00 for mentoring one teacher for one year, and $4,000.00 for mentoring two teachers for one year. School-based Mentors who are released part-time from their classroom-teaching load will maintain at least a .4 teaching load and receive $500.00 for a full year for each Beginning Teacher they mentor. Mentors will attend one, two (2) hour orientation per school year... Mentors are required to attend monthly professional development meetings during their period of assignment.",
+    "page": "43-45",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Schools may utilize up to an additional thirteen (13) hours annually for professional development activities collaboratively planned through the Instructional Council.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "Advancement from Level 1 to Level 2 is based on the following: a. Years of experience b. Successful yearly evaluations c. PED licensure level Advancement from Level 2 to Level 3 is based on the following: a. Years of experience b. Successful yearly evaluations c. PED Licensure level d. A masters’ degree Advancement requires a minimum of three (3) years of experience at each level.",
+    "page": "54",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

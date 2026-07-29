@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "The Board will provide Employee Only vision coverage to all benefit eligible employees at no cost (employees must enroll). Employees may elect to cover a spouse and/or dependents through voluntary payroll deduction or flex credits.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "When an employee is on an approved Family Medical Leave (FMLA), the employee is responsible only for payment of the portion of premium(s) the employee normally pays. While on suspension without pay, an employee is considered to be on unpaid leave of absence. As such, the employee is entitled to maintain insurance coverage by paying the total cost of insurance.",
+    "page": "57, 58",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "An employee covered under the Florida Retirement System Defined Benefit Plan who retires with six (6) or more years of service... is eligible to participate in the retiree insurance program. Retirees may only continue the health insurance in effect at the time of retirement. Basic Board provided life insurance benefits may be continued or decreased but may not be increased. Retirees may also maintain dental coverage only as allowed by the provider and may also maintain coverage in the vision plan.",
+    "page": "58",
+    "confidence": "high"
+  }
+}

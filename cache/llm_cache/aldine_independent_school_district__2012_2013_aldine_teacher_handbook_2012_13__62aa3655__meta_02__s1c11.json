@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"A student who attends at least 90 percent of the program days of a program under this section and who satisfies the requirements for promotion prescribed by Section 28.201 shall be promoted to the next grade level at the beginning of the school year unless a parent of the student presents a written request to the school principal that the student not be promoted to the next grade level.\" \"TEC Sec. 28.201 Student Achievement (a) A student may be promoted only on the basis of academic achievement or demonstrated proficiency of the subject matter of the course or grade level. (b) In measuring the academic achievement or proficiency of a student who is dyslexic, the student’s potential for achievement of proficiency in the area must be considered. (Optional Extended Year Program).\"",
+    "evidence": "\"A student who attends at least 90 percent of the program days of a program under this section and who satisfies the requirements for promotion prescribed by Section 28.201 shall be promoted to the next grade level at the beginning of the school year unless a parent of the student presents a written request to the school principal that the student not be promoted to the next grade level.\"",
+    "page": "80",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"Title I: All schools in Aldine ISD have school-wide Title I programs. All teachers and students may benefit from the program funds with an emphasis being given to those students needing instructional assistance in language arts, mathematics, science, or social studies.\"",
+    "evidence": "\"Title I: All schools in Aldine ISD have school-wide Title I programs. All teachers and students may benefit from the program funds with an emphasis being given to those students needing instructional assistance in language arts, mathematics, science, or social studies.\"",
+    "page": "80",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Title I",
+    "evidence": "\"Title I: All schools in Aldine ISD have school-wide Title I programs.\"",
+    "page": "80",
+    "confidence": "high"
+  }
+}

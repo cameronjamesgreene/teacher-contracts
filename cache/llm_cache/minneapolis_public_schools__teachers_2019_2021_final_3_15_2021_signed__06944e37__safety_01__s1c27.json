@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Environmental Health and Safety Committee .........................182, 183",
+    "page": "257",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "First Report of Injury, Incident Report - Within 24 Hrs .......... 136 ... Procedures to Follow if Assaulted ..................................................... 136 ... Reimbursement for Personal Property Damage ......................... 162 ... Sick Leave Reimbursement ................................................................... 162",
+    "page": "258",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "Emergency Closings........................................................................................... 17",
+    "page": "258",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Construction at the Work Site ................................................................... 183 ... Environmental Health/Safety Complaints..................................................................... 183",
+    "page": "258",
+    "confidence": "high"
+  }
+}

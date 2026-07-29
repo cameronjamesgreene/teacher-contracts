@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contracts.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Contract employees may resign their position without penalty at the end of any school year if written notice is received at least 45 days before the first day of instruction of the following school year... Employees on probationary and term contracts can be non-renewed at the end of the contract term. Contract employees dismissed during the school year, suspended without pay, or subject to a reduction in force are entitled to receive notice of the recommended action, an explanation of the charges against them, and an opportunity for a hearing. The time lines and procedures to be followed when a suspension, termination, or non-renewal occurs will be provided when a written notice is given to an employee.",
+    "page": "76",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 cites page 76, but the provided document text is truncated at page 39. Verification of this specific passage is not possible from the provided text, though the content is consistent with standard handbook policies. Retained answer but downgraded confidence."
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "An employee with the required qualifications for a position may request a transfer to another campus or department. Teachers requesting a transfer to another campus before the school year begins must submit a request by using the online application system. Requests for transfer during the school year will be considered only when the change will not adversely affect students and after a replacement has been found. All transfer requests will be coordinated by Human Resources and must be approved by the receiving supervisor.",
+    "evidence": "An employee with the required qualifications for a position may request a transfer to another campus or department. Teachers requesting a transfer to another campus before the school year begins must submit a request by using the online application system. Requests for transfer during the school year will be considered only when the change will not adversely affect students and after a replacement has been found. All transfer requests will be coordinated by Human Resources and must be approved by the receiving supervisor.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "All personnel are employed subject to assignment and reassignment by the superintendent or designee when the superintendent determines that the assignment or reassignment is in the best interest of an individual school or the district at large.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 answer is not_discussed. The provided document text ends at page 39, so any RIF/layoff procedures likely located later in the document (e.g., near page 76) cannot be verified here. Retained answer based on available text."
+  }
+}

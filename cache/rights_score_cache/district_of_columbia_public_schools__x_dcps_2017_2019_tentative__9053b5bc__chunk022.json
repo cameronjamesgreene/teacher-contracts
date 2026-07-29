@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "All Teachers employed at Schools in the Collaborative shall continue to be WTU Teachers.",
+      "subject_text": "All Teachers employed at Schools in the Collaborative",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "These Teachers shall receive, at a minimum, the salaries and benefits provided by this Agreement.",
+      "subject_text": "These Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Assignment to a School participating in the Collaborative shall be voluntary.",
+      "subject_text": "Assignment to a School participating in the Collaborative",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers who are employed at Schools participating in the Collaborative may be required to work a longer day and a longer year than is required under this Agreement.",
+      "subject_text": "Teachers who are employed at Schools participating in the Collaborative",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "workload",
+      "notes": "Passive construction granting management discretion to extend work terms."
+    },
+    {
+      "quote": "Teachers who are employed at Schools participating in the Collaborative may be required to undertake job responsibilities and to participate in staff meetings and other activities beyond the requirements of this Agreement.",
+      "subject_text": "Teachers who are employed at Schools participating in the Collaborative",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "workload",
+      "notes": "Passive construction granting management discretion to expand duties."
+    },
+    {
+      "quote": "In advance of accepting assignment to a Collaborative, Teachers shall receive, for each School, information detailing any differences, if any, in the working conditions at the Collaborative and those in this Agreement including, but not limited to:",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "safety_and_working_conditions",
+      "notes": "Trails off into numbered sub-clauses; captures the operative entitlement."
+    }
+  ]
+}

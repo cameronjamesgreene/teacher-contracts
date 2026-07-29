@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "CHANCELLOR. The chief executive officer of the District of Columbia Public Schools as designated pursuant to D.C. Code § 38-174.\n\n... employees engaged in administering the provisions of Title 1, Section 618 of the D.C. Code.\n\nA Teacher shall be permitted to obtain a copy of the material contained in her/his official personnel files pursuant to D.C. Code § 1-631.05.",
+    "evidence": "CHANCELLOR. The chief executive officer of the District of Columbia Public Schools as designated pursuant to D.C. Code § 38-174.\n\n... employees engaged in administering the provisions of Title 1, Section 618 of the D.C. Code.\n\nA Teacher shall be permitted to obtain a copy of the material contained in her/his official personnel files pursuant to D.C. Code § 1-631.05.",
+    "page": "5, 9, 34",
+    "confidence": "high",
+    "coder_notes": "Updated answer and evidence to include the complete D.C. Code § 1-631.05 citation from page 34, as the question requires quoting all sentences citing statutes."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"DCPS shall provide written notice of potential school reform, inclusive of all options under NCLB for restructuring, to the WTU and all Teachers in the affected schools that have been identified.\" \"The term \\\"Partnership Schools\\\" shall mean DCPS schools operated by private, not-for-profit management companies under contracts with DCPS pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB).\" \"All Partnership Schools shall be schools that are required to be restructured under NCLB.\"",
+    "evidence": "\"DCPS shall provide written notice of potential school reform, inclusive of all options under NCLB for restructuring, to the WTU and all Teachers in the affected schools that have been identified.\" \"The term \\\"Partnership Schools\\\" shall mean DCPS schools operated by private, not-for-profit management companies under contracts with DCPS pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB).\" \"All Partnership Schools shall be schools that are required to be restructured under NCLB.\"",
+    "page": "19, 20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "No Child Left Behind Act (NCLB), 20 U.S.C. § 6316(b)(8)(B)(iii)",
+    "evidence": "pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB).",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

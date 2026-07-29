@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Sick leave is a designated amount of compensated leave that is to be granted to a unit member who through personal illness, injury, quarantine, pregnancy, miscarriage, or childbirth and recovery is unable to perform the duties of his/her position.",
+    "page": "69",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Subject to the definitions and criteria of FMLA, employees are provided up to 12 weeks in any 12-month period for the birth or placement for adoption or foster care of a child, the serious illness of an immediate family member, as defined in this Article, or the employee’s own serious health condition.",
+    "page": "68",
+    "confidence": "medium"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "This Article shall conform to the requirements of the Family and Medical Leave Act of 1993 (FMLA).",
+    "page": "68",
+    "confidence": "high"
+  }
+}

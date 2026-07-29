@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes - Standard: just cause. Covered actions: reprimand verbally, reprimand in writing, suspended without pay, dismissed.",
+    "evidence": "disciplinary action may not be taken against an employee except for just cause, and this must be substantiated by clear and convincing evidence which supports the recommended disciplinary action.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes - Grounds: just cause. Notice: written notice of wrong-doing with specific charges prior to action. Hearing rights: right to review and refute information, reasonable time to prepare responses. Decision maker: Superintendent upon recommendation of immediate supervisor; appeal via Step Two grievance.",
+    "evidence": "An employee may be dismissed (employment contract terminated or non-renewed) when appropriate in keeping with provisions of this Section, including just cause and applicable laws.",
+    "page": "32",
+    "confidence": "high"
+  }
+}

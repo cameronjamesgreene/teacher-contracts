@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Internal Staff may participate with the Job Fair. If not one teacher applies for a position during the rounds, schools may begin new hire interviews. All surplussed teachers will be placed by June 30.",
+    "evidence": "Section 250 a. i-iii: Internal Staff may participate with the Job Fair. If Not one teacher applies for a position during the rounds, schools may begin new hire interviews. All Surplussed teacher will be placed by June 30",
+    "page": "Section 250",
+    "confidence": "high",
+    "coder_notes": "Confidence updated to high. The provided text explicitly and unambiguously states the voluntary transfer/job fair procedures without conditional language or ambiguity."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

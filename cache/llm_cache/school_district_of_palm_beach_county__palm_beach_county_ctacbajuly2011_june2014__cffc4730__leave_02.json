@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No change. The relevant section (Article V - Leaves) is entirely missing from the provided document excerpt, which ends at page 61."
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "father, mother, brother, sister, husband, wife, child, other close relative, or member of the employee's own household.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Revised to not_discussed. Stage 1 evidence is not present in the provided document excerpt."
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No change. Relevant section missing from provided excerpt."
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "Paid leaves are provided for illness of the employee including childbirth, illness or death of a family member, personal business, vacation leave, in-line-of-duty, professional leave, jury duty, witness duty, temporary military leave, and temporary duty elsewhere leave.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised to not_discussed. Stage 1 evidence is not present in the provided document excerpt."
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "Child Care Leave - An employee may request and shall be entitled to a leave of absence without pay for child care reasons. This will include an employee's natural children, foster children, adopted children or children who are otherwise in the legal custody of the employee, for a period not to exceed eighteen (18) months.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised to not_discussed. Stage 1 evidence is not present in the provided document excerpt."
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "When an employee is on Family Medical Leave (FML), the District shall continue the employee’s group health and dental insurance in full effect as when",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Revised to not_discussed. Stage 1 evidence is not present in the provided document excerpt."
+  }
+}

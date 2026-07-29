@@ -1,0 +1,10 @@
+# SD_of_Philadelphia_2021-2024.pdf — Pay Grade 14 - School Based Technology Maintenance Assistant - 12 Month (9/1/20 - 9/1/23)
+# population: School Based Technology Maintenance Assistants | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p152) — one grid's data may be contaminated from another; verify | audit confirmed
+step,9/1/20,9/1/21,9/1/22,9/1/23
+01,30713,31557,32583,33560
+02,32878,33782,34880,35926
+03,35048,36012,37182,38298
+04,39906,41003,42336,43606
+05,42943,44123,45557,46924
+06,51445,52859,54577,56215

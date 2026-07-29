@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes | Article 16 — Evaluation and Professional Standards | full procedure",
+    "evidence": "ARTICLE 16 — Evaluation and Professional Standards\n\n1. Evaluation:\nEvaluation is recognized as a desirable method to achieve the improvement of instruction...",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "California Standards for the Teaching Profession (CSTP) and District CSTP Continuum of Standards for the Teaching Profession",
+    "evidence": "The parties shall use the California Standards for the Teaching Profession (CSTP); and the jointly developed District Continuum of Standards for the Teaching Profession, which includes the CSTP Indicators (District CSTP Continuum)...",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "At least one (1) observation prior to the end of each November; at least 4 formal observations prior to a 'Does Not Meet Standards' rating.",
+    "evidence": "5.3 At least one (1) observation shall occur prior to the end of each November. 5.8 At least 4 formal observations shall take place prior to a \"Does Not Meet Standards\" rating",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "At least one full teacher lesson presentation",
+    "evidence": "5.2 An observation shall include information from at least one full teacher lesson presentation",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "\"demonstrates expertise,\" \"meets standards,\" \"growth expected,\" or \"not meeting standards\"",
+    "evidence": "Unit members shall receive an overall rating of \"demonstrates expertise,\" \"meets standards,\" \"growth expected,\" or \"not meeting standards\" in each of the six standards of the CSTP.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "...student results on pre-tests, end-of-course tests, multiple formative and District wide benchmark assessments, objective performance-based assessments; student learning objective; student performance on English language proficiency assessments... The utilization of student growth measures... as a significant factor.",
+    "page": "10-11",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

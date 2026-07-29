@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Holidays are those days designated by the school year calendar, DCPS, the D.C. Code, and D.C. government, and all weekend days before or after a holiday.",
+    "evidence": "Holidays are those days designated by the school year calendar, DCPS, the D.C. Code, and D.C. government, and all weekend days before or after a holiday.",
+    "page": "84",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "When the Least Restrictive Environment (as defined by the Individuals with Disabilities Education Act) is a self-contained classroom, maximum class size shall not exceed the following: / When the Least Restrictive Environment (as defined by the Individuals with Disabilities Education Act) is a Learning Center, maximum class size shall not exceed the following: / Workloads also include many other activities necessary to support students' education programs, implement best practices for related service providers and ensure compliance with IDEA and other mandates. / The Division of Special Education will disseminate to special education teachers any federal and state guidelines, which affect the operation of their program.",
+    "evidence": "When the Least Restrictive Environment (as defined by the Individuals with Disabilities Education Act) is a self-contained classroom, maximum class size shall not exceed the following: / When the Least Restrictive Environment (as defined by the Individuals with Disabilities Education Act) is a Learning Center, maximum class size shall not exceed the following: / Workloads also include many other activities necessary to support students' education programs, implement best practices for related service providers and ensure compliance with IDEA and other mandates. / The Division of Special Education will disseminate to special education teachers any federal and state guidelines, which affect the operation of their program.",
+    "page": "73, 82, 83",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Individuals with Disabilities Education Act (IDEA)",
+    "evidence": "Individuals with Disabilities Education Act / IDEA",
+    "page": "73, 82",
+    "confidence": "high"
+  }
+}

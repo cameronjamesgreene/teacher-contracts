@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2013-2014",
+    "evidence": "Effective July 1, 2013, the 2012-2013 Teachers’ Salary Schedule will be substituted and replaced with a new 2013-2014 Salary Schedule",
+    "page": "117",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "CTA bargaining unit / teachers",
+    "evidence": "For those in the CTA bargaining unit, part-time is defined as those who work at least three and three quarters (3.75) hours, but less than six (6) hours per day.",
+    "page": "123",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "this Agreement",
+    "page": "117",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Fla. Stat. §1012.22(1)(c)(1)(b)",
+    "page": "117",
+    "confidence": "high"
+  }
+}

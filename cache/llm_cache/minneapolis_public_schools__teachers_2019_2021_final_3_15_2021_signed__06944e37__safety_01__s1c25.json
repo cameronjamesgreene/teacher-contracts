@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "have site leadership report all physical violence to Human Resources on the day it occurs with follow up within 24 hours by District leadership to those effected;",
+    "page": "242",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Develop deep clarity about the MPS Behavior Policy to ensure everyone knows: what it is, how it is implemented, and the strategies to be followed to ensure student safety and success;",
+    "page": "241",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  }
+}

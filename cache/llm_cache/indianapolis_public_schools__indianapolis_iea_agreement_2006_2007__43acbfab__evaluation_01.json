@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "Article XVIII, Section 1: 'Accordingly, the parties agree that during the 2005-2006 school year, teachers with more than five (5) years of experience in the IPS school district will not be subject to evaluation unless: (1) they had a change of assignment, (2) they are in their first year at a school, (3) they are on a Performance Improvement Plan, (4) they are due for evaluation in the evaluation cycle of their school or (5) there is documented reasonable cause to believe that evaluation is warranted. All teachers with five (5) years of experience or less in the IPS school district shall be subject to comprehensive evaluation each school year.'",
+    "page": "M-10",
+    "confidence": "high",
+    "coder_notes": "Changed from not_discussed to yes. Article XVIII explicitly outlines evaluation conditions, exemptions, and procedures."
+  },
+  "evaluation_system_002": {
+    "answer": "Framework for Teaching model",
+    "evidence": "Article XVIII, Section 2: 'In the 2006-2007 school year, IPS will have a pilot program using the Framework for Teaching model, and based on the results, further implementation is targeted for the 2007-2008 school year.'",
+    "page": "M-10",
+    "confidence": "high",
+    "coder_notes": "Changed from not_discussed to specific answer. The document explicitly names the 'Framework for Teaching model' for the pilot program."
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No change. Document mentions evaluation frequency conditions but does not specify a required number of formal observations."
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No change. No mention of observation duration or minimum length."
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No change. The document references the District Academic Achievement Plan for evaluation documents but does not list rating categories here."
+  },
+  "evaluation_student_growth_006": {
+    "answer": "discussed",
+    "evidence": "Article XVIII, Section 3: 'A committee will be formed to consider ways to use student growth as reflected by student achievement scores in the evaluation process that is developed for evaluations conducted after the 2003-2004 school year.'",
+    "page": "M-10",
+    "confidence": "medium",
+    "coder_notes": "Changed from not_discussed to discussed. The document explicitly states a committee will consider using student growth/test scores for future evaluations, indicating the topic is addressed even if not yet implemented."
+  }
+}

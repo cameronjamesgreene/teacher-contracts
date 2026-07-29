@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective Bargaining Agreement (CBA)",
+    "evidence": "\"The Board and PGCEA agree that requests for transfer shall be considered subject to the following criteria:\"",
+    "page": "9",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Unit I employees / professional personnel / teachers",
+    "evidence": "\"non-tenured Unit I employee\"",
+    "page": "13",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "\"Nothing in this Agreement shall be construed to discourage or preclude teachers from volunteering for extra assignments\"",
+    "page": "9",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "\"Nothing in this Agreement shall deny or restrict any teacher’s full individual rights under the Laws of the State of Maryland\"",
+    "page": "13",
+    "confidence": "medium"
+  }
+}

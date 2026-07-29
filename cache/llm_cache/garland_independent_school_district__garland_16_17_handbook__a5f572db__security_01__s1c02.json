@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "State law requires the district to employ all full-time professional employees in positions requiring a certificate from the State Board for Educator Certification (SBEC) and nurses under probationary, term, or continuing contracts. Probationary contracts are one-year contracts.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers requesting a transfer to another campus before the school year begins must submit a request by using the online application system. Requests for transfer during the school year will be considered only when the change will not adversely affect students and after a replacement has been found. All transfer requests will be coordinated by the Office of Human Resources and must be approved by the receiving supervisor.",
+    "evidence": "Teachers requesting a transfer to another campus before the school year begins must submit a request by using the online application system. Requests for transfer during the school year will be considered only when the change will not adversely affect students and after a replacement has been found. All transfer requests will be coordinated by the Office of Human Resources and must be approved by the receiving supervisor.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "All personnel are subject to assignment and reassignment by the superintendent or designee when the superintendent determines that the assignment or reassignment is in the best interest of the district. Campus reassignments must be approved by the principal at the receiving campus except when reassignments are due to enrollment shifts or program changes. Employees who object to a reassignment may follow the district process for employee complaints as outlined in this handbook and district policy DGBA (Local).",
+    "page": "16",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "AGREEMENT Between THE SCHOOL BOARD OF PINELLAS COUNTY, FLORIDA And THE PINELLAS CLASSROOM TEACHERS ASSOCIATION, INCORPORATED",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2015 – June 30, 2018",
+    "evidence": "This Agreement shall become effective on the 1st day of July, 2015, and shall continue in full force aad effect until the 30th day of June, 2018",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (all full-time certified instructional personnel)",
+    "evidence": "The term “teachers” includes all full-time certified instructional personnel including but not limited to: itinerant personnel, media specialist, school psychologist",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "This Agreement constitutes the official position of the Board for the term of said Agreement. The Superintendent and the Union Association will carry out the commitments contained herein and give them full force and effect.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "AGREEMENT Between THE SCHOOL BOARD OF PINELLAS COUNTY, FLORIDA And THE PINELLAS CLASSROOM TEACHERS ASSOCIATION, INCORPORATED",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "All bargaining shall be conducted in accordance with Part II of Chapter 447, Florida Statutes, and the rules of the Public Employees Relations Commission",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "One way to ensure this culture exists throughout MCPS is through the full implementation of the Teachers Professional Growth System (PGS).",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": "Evidence references implementation of the PGS system within the context of organizational culture, not evaluation procedures. 'No' is correct."
+  },
+  "evaluation_system_002": {
+    "answer": "Teachers Professional Growth System (PGS)",
+    "evidence": "One way to ensure this culture exists throughout MCPS is through the full implementation of the Teachers Professional Growth System (PGS).",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Article 15 (Evaluation) is referenced in the table of contents (p. 33) but falls outside the provided document text. 'Not_discussed' is correct based on available text."
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "Data for this report is gathered from formal and informal observations, and should also include a variety of other sources. Some examples of these include samples of student work, student achievement, lesson plans, parent communication, and student and parent surveys.",
+    "page": "33",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly lists student achievement and surveys as sources, directly supporting the use of student outcomes in evaluation. Answer preserved."
+  }
+}

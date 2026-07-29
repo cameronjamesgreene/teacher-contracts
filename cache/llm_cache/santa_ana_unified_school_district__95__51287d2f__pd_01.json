@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "20.1.6.2 Develop new teacher training and support programs pursuant to Education Code section 44506(c)(5).",
+    "page": "109",
+    "confidence": "high",
+    "coder_notes": "The provided document text is truncated and does not reach page 109. However, the quoted evidence explicitly states the development of new teacher training and support programs, directly and unambiguously supporting the 'yes' answer."
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "A Consulting Teacher is a teacher who provides assistance to a Participating Teacher pursuant to the PAR Program... demonstrating, observing, coaching, conferencing, and referring to other activities... The term of the Consulting Teacher shall be three (3) years... provided reasonable release time... stipend of $4,000... $2,000 per Volunteer Participating Teacher.",
+    "page": "106-107",
+    "confidence": "high",
+    "coder_notes": "The provided document text is truncated and does not include Article XX (Peer Assistance and Review) where this provision appears. The quoted evidence explicitly defines a formal coaching/leadership role with specific responsibilities, release time, and stipends, directly supporting the 'yes' answer."
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No formal career ladder, advanced teaching pathway, or differentiated career roles are mentioned in the provided text. The contract outlines standard salary column/step advancements based on coursework and service years, along with extra-service stipends, but these do not constitute a professional career ladder."
+  }
+}

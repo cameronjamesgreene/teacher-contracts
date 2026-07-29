@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "No student shall engage in or be subjected to harassment, intimidation, violence, or threats of violence on school             on a school bus, or at any                    function by any other student.",
+      "subject_text": "No student",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": "Applies to students; policy manual context rather than employment contract."
+    },
+    {
+      "quote": "In addition, no person shall engage in reprisal,                     accusation against a victim, witness, or         person who has reliable information             an act of harassment, intimidation, violence, or threat of violence or who files a report regarding any such act.",
+      "subject_text": "no person",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "OCR gaps obscure 'false' and 'about'; prohibits retaliation against whistleblowers/victims."
+    },
+    {
+      "quote": "Any parent               or guardian of the student, who is the        of or witness to harassment, intimidation, violence, threat of violence or threat of suicide may file a complaint outlining the details of the harassment on the Student Complaint Fonn for reporting BuHling, Harassment and Threat of Violence (\"Complaint Form\")jwhich is available           the principal's office       every school.",
+      "subject_text": "Any parent               or guardian of the student, who is the        of or witness to harassment, intimidation, violence, threat of violence or threat of suicide",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Procedural permission to file harassment complaints; contains OCR artifacts."
+    }
+  ]
+}

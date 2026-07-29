@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "The teacher shall have a (30) thirty-minute duty-free lunch period.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "No professional development, staff meetings or department/grade level meetings will be scheduled during the hours allotted for teacher workday.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "If student supervision is needed before the start of the student day, a teacher may be required to be on duty no more than fifteen (15) minutes five (5) times a week.",
+    "page": "22",
+    "confidence": "high"
+  }
+}

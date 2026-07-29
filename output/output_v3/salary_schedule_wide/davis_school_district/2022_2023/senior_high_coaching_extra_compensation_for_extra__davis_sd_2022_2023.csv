@@ -1,0 +1,22 @@
+# Davis_SD_2022-2023.pdf — SENIOR HIGH COACHING EXTRA COMPENSATION FOR EXTRA DUTIES Fiscal Year 2022-2023 (2022-2023)
+# population: Senior High Coaches | is_teacher_schedule: False
+"# validation_warnings: identical values across steps ['Football', 'Basketball'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Wrestling', 'Drill Team Director', 'Cheer'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Volleyball', 'Baseball', 'Track and Field', 'Softball', 'Soccer', 'Debate', 'Lacrosse'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Tennis', 'Golf', 'Cross Country'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,Total Points,Coaches' Extra Compensation,Assistants' Extra Compensation
+Athletic Director,,6529,
+Athletic Director - Stipend,,7718,
+Football,20,4093,2742
+Basketball,20,4093,2742
+Wrestling,18,3684,2468
+Drill Team Director,18,3684,2468
+Cheer,18,3684,2468
+Swimming,16,3275,2194
+Volleyball,13,2661,1783
+Baseball,13,2661,1783
+Track and Field,13,2661,1783
+Softball,13,2661,1783
+Soccer,13,2661,1783
+Debate,13,2661,1783
+Lacrosse,13,2661,1783
+Tennis,8,1637,
+Golf,8,1637,
+Cross Country,8,1637,

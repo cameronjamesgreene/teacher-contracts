@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes. Schedule Title: Appendix A: Certified Teacher Salary Scale 2023-2026. Covered Year: 2023-2026. Covered Group: Certified Teachers (187 paid days). Appendix/Page: Appendix A, page 52.",
+    "evidence": "Appendix A: Certified Teacher Salary Scale 2023-2026 187 Teachers ... CERTIFIED TEACHERS - 187 PAID DAYS",
+    "page": "52",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2023-2026",
+    "evidence": "2023 - 2026 SALARY SCHEDULE",
+    "page": "52",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

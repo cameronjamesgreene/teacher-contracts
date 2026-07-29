@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective Bargaining Agreement (CBA)",
+    "evidence": "TEACHER CONTRACT, MEMORANDA & POLICIES",
+    "page": "Title Page",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2019 to June 30, 2021",
+    "evidence": "JULY 1, 2019 TO JUNE 30, 2021",
+    "page": "Title Page",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Minneapolis Federation of Teachers, Local 59 (Teachers)",
+    "evidence": "Minneapolis Federation of Teachers, Local 59, AFL-CIO, AFT, NEA",
+    "page": "Title Page",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding",
+    "evidence": "This Agreement is a formal, written, binding agreement between the Minneapolis Public Schools and the Minneapolis Federation of Teachers, Local 59",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "MN Statute §179A.03, Subd. 18",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

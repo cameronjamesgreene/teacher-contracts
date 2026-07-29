@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "6.1 Permanent: Thirty-Five (35) hours per week is a \"full time\" assignment... 6.2 Probationary Teachers who meet the above criteria for permanency but have not yet satisfied the length of service are probationary. 6.3 Temporary 6.3.1 Teachers working not more than 60% of the hours per week",
+    "page": "1",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "priority will go to the person having greatest seniority in the District.",
+    "page": "6",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Early Childhood Teachers with valid California credentials may enter the voluntary transfer pool to interview for permanent openings.",
+    "evidence": "Early Childhood Teachers currently employed in the District having a valid California teaching credential shall have opportunity to enter the District's voluntary transfer pool for the purpose of interviewing for permanent openings.",
+    "page": "5",
+    "confidence": "medium"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

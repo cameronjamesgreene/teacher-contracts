@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "The Board will follow State Board of Education Guidelines for Evaluation of Probationary Teachers, a current copy of which is appended to this Agreement.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "State Board of Education Guidelines for Evaluation of Probationary Teachers",
+    "evidence": "The Board will follow State Board of Education Guidelines for Evaluation of Probationary Teachers, a current copy of which is appended to this Agreement.",
+    "page": "9",
+    "confidence": "medium"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Policy manual",
+    "evidence": "Garland ISD 057909 PERSONNEL-MANAGEMENT RELATIONS DGBA(LEGAL)-P",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "10/31/2013 and 7/15/2015 (policy issuance dates)",
+    "evidence": "DATE ISSUED: 10/31/2013 / DATE ISSUED: 7/15/2015",
+    "page": "1 of 4; 1 of 7",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees / General staff",
+    "evidence": "All district employees are “public servants”",
+    "page": "1 of 2",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Advisory / Not a contract",
+    "evidence": "The process described in this policy shall not be construed to create new or additional rights beyond those granted by law or Board policy",
+    "page": "1 of 7",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The process described in this policy shall not be construed to create new or additional rights beyond those granted by law or Board policy, nor to require a full evidentiary hearing or “mini-trial” at any level.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Gov’t Code 617.005",
+    "page": "1 of 4",
+    "confidence": "high"
+  }
+}

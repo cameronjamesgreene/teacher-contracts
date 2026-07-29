@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Minneapolis Standards of Effective Instruction (SOEI) / MPS Standards of Effective Instruction (Domains & Rubrics)",
+    "evidence": "Purpose and Scope: The Minneapolis Standards of Effective Instruction were designed for the primary purpose of ensuring teaching quality and student achievement.",
+    "page": "66",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Requires Attention, Developing, Proficient, Exemplary",
+    "evidence": "The rubric has four descriptors used with each domain defining levels of effectiveness: Requires Attention, Developing, Proficient, or Exemplary",
+    "page": "68",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

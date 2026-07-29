@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "2007-2008 SALARY SCHEDULE",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2007-2008",
+    "evidence": "2007-2008 SALARY SCHEDULE",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Vertical advancement is limited to one step per year; however, such advancement is not automatic, but occurs only through action of the Board of Trustees.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "New hires placement on the salary schedule will be according to the number of years of full time teaching, and credits earned after their teaching certificate.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

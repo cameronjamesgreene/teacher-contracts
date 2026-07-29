@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "All employees are expected to work together in a cooperative spirit to serve the best interests of the district and to be courteous to students, one another, and the public. Employees are expected to observe the following standards of conduct: • Recognize and respect the rights of students, parents, other employees, and members of the community. • Maintain confidentiality in all matters relating to students and coworkers. • Report to work according to the assigned schedule. • Notify their immediate supervisor in advance or as early as possible in the event that they must be absent or late. Unauthorized absences, chronic absenteeism, tardiness, and failure to follow procedures for reporting an absence may be cause for disciplinary action. • Know and comply with department and district policies and procedures. • Express concerns, complaints, or criticism through appropriate channels. • Observe all safety rules and regulations and report injuries or unsafe conditions to a supervisor immediately. • Use district time, funds, and property for authorized district business and activities only. All district employees should perform their duties in accordance with state and federal law, district policies and procedures, and ethical standards. Violation of policies, regulations, or guidelines may result in disciplinary action, including termination.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  }
+}

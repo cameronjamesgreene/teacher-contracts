@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "- \"Texas law says anyone who thinks a child is or has been abused, neglected or exploited MUST report the incident within 48 hours to:\"\n- \"Anyone who suspects that a child has been or may be abused or neglected has a legal responsibility, under state law, for reporting the suspected abuse or neglect to law enforcement or to Child Protective Services (CPS).\"\n- \"State law requires that the identity of a person making a report of suspected child abuse or neglect is kept confidential.\"\n- \"Sexual abuse in the Texas Family Code is defined as any sexual conduct harmful to a child’s mental, emotional, or physical welfare as well as a failure to make a reasonable effort to prevent sexual conduct with a child.\"\n- \"The Texas Whistleblower Act protects district employees who make good faith reports of violations of law by the district to an appropriate law enforcement authority.\"\n- \"State law also provides employees with the right to report a crime witnessed at the school to any peace officer with authority to investigate the crime.\"\n- \"Employees who use or are under the influence of alcohol or illegal drugs as defined by the Texas Controlled Substances Act during working hours may be dismissed.\"\n- \"State law prohibits smoking, using tobacco products, or e-cigarettes on all district-owned property and at school-related or school-sanctioned activities, on or off school property.\"",
+    "evidence": "\"Texas law says anyone who thinks a child is or has been abused, neglected or exploited MUST report the incident within 48 hours to:\"",
+    "page": "58",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "- \"Do not violate the Family Educational Rights Privacy Act (FERPA).\"\n- \"While the First Amendment protects an employee’s right to engage in social media, courts have also ruled that school districts can discipline employees if their speech disrupts school operations.\"\n- \"The employee continues to be subject to applicable state and federal laws, local policies, administrative regulations, and the Texas Educators’ Code of Ethics, even when communicating regarding personal and private matters, regardless of whether the employee is using private or public equipment, on or off campus.\"\n- \"Employees are expected to comply with the provisions of federal copyright law relating to the unauthorized use, reproduction, distribution, performance, or display of copyrighted materials (i.e., printed material, videos, computer data and programs, etc.).\"",
+    "evidence": "\"Do not violate the Family Educational Rights Privacy Act (FERPA).\"",
+    "page": "53",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family Educational Rights Privacy Act (FERPA); First Amendment; federal copyright law",
+    "evidence": "\"Family Educational Rights Privacy Act (FERPA)\"",
+    "page": "53",
+    "confidence": "high"
+  }
+}

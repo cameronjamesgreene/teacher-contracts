@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Educators shall comply with standard practices and ethical conduct toward students, professional colleagues, school officials, parents, and members of the community and shall safeguard academic freedom. The State Board for Educator Certification (SBEC) shall provide for the adoption, amendment, and enforcement of an educator’s code of ethics",
+    "page": "141",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "A board shall prohibit the use of alcoholic beverages at school-related or school-sanctioned activities on or off school property. [...] Each employee shall not manufacture, distribute, dispense, possess, use, or be under the influence of any of the following substances during working hours while on District property or at school-related activities during or outside of usual working hours:",
+    "page": "141, 144",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "yes",
+    "evidence": "Electronic media includes all forms of social media, such as text messaging, instant messaging, electronic mail (e-mail), web logs (blogs), electronic forums (chat rooms), video-sharing websites, editorial comments posted on the Internet, and social network sites. [...] An employee shall be held to the same professional standards in his or her public use of electronic media as for any other public conduct. If an employee’s use of electronic media violates state or federal law or District policy, or interferes with the employee’s ability to effectively perform his or her job duties, the employee is subject to disciplinary action, up to and including termination of employment.",
+    "page": "143, 144",
+    "confidence": "high"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Electronic media includes all forms of social media, such as text messaging, instant messaging, electronic mail (e-mail)... In accordance with administrative regulations, a certified or licensed employee, or any other employee designated in writing by the Superintendent or a campus principal, may use electronic media to communicate with currently enrolled students about matters within the scope of the employee’s professional responsibilities. All other employees are prohibited from using electronic media to communicate directly with students who are currently enrolled in the District.",
+    "page": "143",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Educators shall comply with standard practices and ethical conduct toward students, professional colleagues, school officials, parents, and members of the community and shall safeguard academic freedom.",
+    "page": "141",
+    "confidence": "high"
+  }
+}

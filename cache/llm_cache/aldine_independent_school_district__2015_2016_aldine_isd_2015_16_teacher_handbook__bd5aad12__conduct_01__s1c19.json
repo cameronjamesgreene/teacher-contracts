@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_social_media_005": {
+    "answer": "yes",
+    "evidence": "Permission must be obtained from the superintendent and your school assistant superintendent if your staff plans to post any information on a web site or web service other than the official Aldine web site.",
+    "page": "169",
+    "confidence": "medium"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Allowed: 'educationally, instructionally, or administratively appropriate activities.' Prohibited: 'private purposes,' 'indecent or obscene information,' 'vulgar or sexually explicit language,' 'harass, stalk, or threaten.' Privacy: 'maintain the confidentiality of their logon identifiers and passwords.' Sanctions: privileges 'suspended or revoked'; disciplinary measures for unlawful electronic communications.",
+    "page": "168",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

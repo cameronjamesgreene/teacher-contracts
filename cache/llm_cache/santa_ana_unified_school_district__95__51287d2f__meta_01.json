@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective Bargaining Agreement (CBA)",
+    "evidence": "2004-2007 Collective Bargaining Agreement (CBA) Between the Santa Ana Unified School District (SAUSD) and the Santa Ana Educators Association (SAEA)",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2004 to June 30, 2007 (2004-2007 school years)",
+    "evidence": "The term of this Agreement is for the three (3) school years commencing July 1, 2004, and terminating June 30, 2007.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Classroom Teachers, Counselors, District Curriculum Specialists, Emergency Permit/Interns/Pre-Intern Teachers, Home Teachers (receiving benefits), Librarians, Media Specialists, Itinerant Teachers, Nurses, Outreach Consultants, Program Specialists, Project Assistants, Project Coordinators, Psychologists, Resource Teachers, ROP Teachers, Special Education Teachers, Speech/Language Specialists, Summer School Teachers, and Temporary Teachers",
+    "evidence": "2.1.1 Included: (also includes unit members on teacher salary schedule under contract) Classroom Teachers Counselors District Curriculum Specialists Emergency Permit/Interns/Pre-Intern Teachers Home Teachers (receiving benefits) Librarians Media Specialists Itinerant Teachers Nurses Outreach Consultants Program Specialists Project Assistants Project Coordinators Psychologists Resource Teachers ROP Teachers Special Education Teachers Speech/Language Specialists Summer School Teachers Temporary Teachers",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This Collective Bargaining Agreement (CBA) is made and entered into this 23rd day of March, 2004 between the Santa Ana Unified School District... and the Santa Ana Educators Association...",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "The District recognizes the Santa Ana Educators Association as the exclusive representative as defined in Section 3540.1(e) of the Government Code.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Fresno_2016-2019_CBA.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "School years 2016-2019; Effective January 1, 2017",
+    "evidence": "Effective January 1, 2017",
+    "page": "47",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Bargaining unit members / Certificated employees",
+    "evidence": "certificated employees",
+    "page": "47",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This Agreement shall supersede any rules, regulations or practices of the District which are, or may in the future be, contrary to or inconsistent with its terms.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code Section 44978",
+    "page": "50",
+    "confidence": "high"
+  }
+}

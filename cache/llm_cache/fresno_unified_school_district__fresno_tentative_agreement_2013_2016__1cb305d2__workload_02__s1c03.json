@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Unit members shall have a duty free lunch of at least 30 minutes per day.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "collaboration with teachers not exceeding a total of 8 hours per school year and excluding time allocated for Professional Learning/Accountable Communities.",
+    "page": "28",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Supervising pupils students both within and outside the classroom on an equitable basis as delineated elsewhere in this article... Teachers may be required to spend up to one fifteen (15) minute student supervision duty per week either before or after school",
+    "page": "35",
+    "confidence": "high"
+  }
+}

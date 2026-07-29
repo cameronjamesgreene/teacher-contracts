@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Teachers shall report in writing, as soon as possible to their principal/supervisor, any assault suffered in connection with their employment.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The Board, Administration, and Association believe that educators need to be able to teach without disruptions from disorderly students and are in full support of teachers, principals, and school staff in their duties to operate safe, orderly schools and classrooms under reasonable rules governing school conduct.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Each school will be provided with well-ventilated, clean, adequate, separate rest rooms for teachers.",
+    "page": "18",
+    "confidence": "high"
+  }
+}

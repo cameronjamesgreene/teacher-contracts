@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "Other payroll deductions employees may elect include deductions for the employee’s share of premiums for health, dental, life, and vision insurance",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Other payroll deductions employees may elect include deductions for the employee’s share of premiums for health, dental, life, and vision insurance",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated evidence from a vague supplemental insurance statement to the specific payroll deduction passage that explicitly confirms life insurance is available."
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "This plan enables eligible employees to pay certain insurance premiums on a pretax basis (i.e., disability, accidental death and dismemberment, cancer and dread disease, dental and additional term life insurance).",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Employees who take an unpaid leave of absence may continue their insurance benefits at their own expense. Health care benefits for employees on leave authorized under the Family and Medical Leave Act will be paid by the district as they were when they were working.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

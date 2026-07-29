@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1st, 2023 thru June 30th, 2025",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated staff / Teachers (UESF)",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "In accordance with Education Code section 49001",
+    "page": "112",
+    "confidence": "high"
+  }
+}

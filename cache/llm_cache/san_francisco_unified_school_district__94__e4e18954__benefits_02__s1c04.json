@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "12.3 Group life/Accidental death and dismemberment — A group life and accidental death and dismemberment policy providing $20,000 level term insurance with coverage to 65 years of age, retirement or separation from employment, plus $15,000 accidental death benefit will be provided to regularly assigned teachers with the District paying full premium.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "12.5 Salary protection insurance/Group long-term disability — The District shall provide all regularly assigned teachers with a fully paid Income Protection Plan. This program provides benefits after accident or illness.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "12.8 The Union and District agree to establish a Fringe Benefit Committee of three (3) representatives each for the purpose of reviewing all fringe benefits, including, but not limited to, dependent coverage, two-tier retiree benefits, and other related items of mutual interest.",
+    "page": "40",
+    "confidence": "medium"
+  }
+}

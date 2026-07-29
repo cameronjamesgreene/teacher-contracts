@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "Such child must also be primarily dependent on the employee for financial support",
+      "subject_text": "Such child",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "must be claimed by the employee as a dependent for Federal Income Tax purposes",
+      "subject_text": "Such child",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "The student must be able to provide proof acceptable to the District that he/she is in full-time attendance at one or a combination of qualified educational institutions.",
+      "subject_text": "The student",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    }
+  ]
+}

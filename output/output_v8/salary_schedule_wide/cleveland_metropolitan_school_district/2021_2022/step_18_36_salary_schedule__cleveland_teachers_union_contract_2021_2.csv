@@ -1,0 +1,23 @@
+# Cleveland_Teachers_Union_Contract_2021-2024.pdf — Step 18-36 Salary Schedule (2021-2022)
+# population: District (Classified/Administrative) | is_teacher_schedule: False
+# validation_warnings: label_not_in_source: '2021-2022 B.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2021-2022 M.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 B.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 M.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 B.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 M.A.' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed
+step,2021-2022 B.A.,2021-2022 M.A.,2022-2023 B.A.,2022-2023 M.A.,2023-2024 B.A.,2023-2024 M.A.
+Step 18,57928,63052,59666,64944,60859,66243
+Step 19,57928,63052,59666,64944,60859,66243
+Step 20,57928,63052,59666,64944,60859,66243
+Step 21,59180,64773,60955,66716,62174,68050
+Step 22,59180,64773,60955,66716,62174,68050
+Step 23,59180,64773,60955,66716,62174,68050
+Step 24,59180,64773,60955,66716,62174,68050
+Step 25,59545,65434,61000,66656,62112,68030
+Step 26,60003,65559,62011,66772,63033,68962
+Step 27,60103,65665,62310,66874,64332,69069
+Step 28,60303,65885,62478,67070,65338,69692
+Step 29,60403,65979,62631,67588,67334,69982
+Step 30,60603,66015,62841,68377,69336,69902
+Step 31,61714,67270,63935,69800,60447,70140
+Step 32,61714,67270,63935,69800,60447,70140
+Step 33,61714,67270,63936,69800,60485,70244
+Step 34,61714,67270,63936,69800,60485,70244
+Step 35,61545,67007,63330,69008,64569,70464
+Step 36,63730,69366,61595,71447,66955,72876

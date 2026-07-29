@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "196",
+    "evidence": "The teacher duty year will be made up of 196 paid duty days, which include the six (6) paid holidays within the regular school year.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "No longer than 40 hours per week; no regularly scheduled duty day shall extend beyond 8 1/2 hours",
+    "evidence": "The normal workweek of full-time teachers shall be no longer than 40 hours including their one-half hour daily duty-free lunch period. No regularly scheduled duty day shall extend beyond 8½ hours unless voted on by the licensed staff assigned to the particular site/program by a vote of 70%.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "All teachers/RSPs are entitled to a preparation time every day within the defined student day.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Minimum of 275 minutes per week",
+    "evidence": "The amount of preparation time for elementary teachers shall be a minimum of 275 minutes per five-day work week.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Any teacher/RSP required to attend meetings scheduled during their preparation time shall be paid at their direct instruction rate of pay or be provided an alternative preparation time by administration.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "All teachers/RSPs are entitled to a preparation time and one-half hour daily duty-free lunch period every day within the defined student day.",
+    "page": "15",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear: Document does not distinguish between in-district, out-of-district, or out-of-state experience; treats all prior public school experience uniformly.",
+    "evidence": "Salary schedule credit for teaching experience under 7.2.1.1 above shall be granted automatically for full-time contracted teaching in a public school. All other teaching experience shall be evaluated by the Human Resources office and the amount of credit granted shall depend upon the extent to which such experience is equivalent to public school teaching.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear: Document does not distinguish between in-district, out-of-district, or out-of-state experience; treats all prior public school experience uniformly.",
+    "evidence": "Salary schedule credit for teaching experience under 7.2.1.1 above shall be granted automatically for full-time contracted teaching in a public school. All other teaching experience shall be evaluated by the Human Resources office and the amount of credit granted shall depend upon the extent to which such experience is equivalent to public school teaching.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear: Document does not distinguish between in-district, out-of-district, or out-of-state experience; treats all prior public school experience uniformly.",
+    "evidence": "Salary schedule credit for teaching experience under 7.2.1.1 above shall be granted automatically for full-time contracted teaching in a public school. All other teaching experience shall be evaluated by the Human Resources office and the amount of credit granted shall depend upon the extent to which such experience is equivalent to public school teaching.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "Contract teachers returning from military leave shall be granted credit on the salary schedule in accordance with the Uniformed Services Employment and Reemployment Rights Act, USERRA.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

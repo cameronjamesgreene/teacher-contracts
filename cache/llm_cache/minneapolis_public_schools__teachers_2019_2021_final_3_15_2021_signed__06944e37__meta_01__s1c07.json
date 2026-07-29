@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Some education professionals working under the teacher contract (e.g., psychologists, School Social Workers, nurses, speech clinicians, etc.) have professional practice standards specific to their field of licensure.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Minneapolis Federation of Teachers (MFT)",
+    "evidence": "The Minneapolis Public Schools (MPS) along with the Minneapolis Federation of Teachers (MFT) agree on the importance of professional development and support of its teachers.",
+    "page": "64",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "Some education professionals working under the teacher contract...",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable and formatted clearly throughout the provided section.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "(MN Rule 8710.2000)",
+    "page": "65",
+    "confidence": "high"
+  }
+}

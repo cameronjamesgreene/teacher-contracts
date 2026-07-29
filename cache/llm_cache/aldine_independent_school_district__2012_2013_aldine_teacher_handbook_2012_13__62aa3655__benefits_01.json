@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "not_discussed",
+    "evidence": "district's group health plan",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Original answer cited page 25, but the provided document text ends at page 9. The referenced passage is absent. Changed to not_discussed."
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document is truncated before the 'Employee Benefits' section (listed in TOC on page 31). No evidence available."
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document is truncated before the 'Employee Benefits' section (listed in TOC on page 31). No evidence available."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Downgraded from 'no' to 'not_discussed' due to document truncation. Cannot verify absence of coverage in missing benefits section."
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document is truncated before the 'Employee Benefits' section (listed in TOC on page 31). No evidence available."
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Downgraded from 'no' to 'not_discussed' due to document truncation. Cannot verify absence of coverage in missing benefits section."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "hillsborough_county_public_schools": {
+    "schedule_present": "no",
+    "evidence": "Only references 'the district salary schedule under \"Instructional Represented Positions\"' (l.208) and 'basic salary schedule' procedures. Zero dollar figures anywhere; the 2 five-digit numbers are Tampa zip codes.",
+    "verdict": "CORRECT"
+  },
+  "los_angeles_unified_school_district": {
+    "schedule_present": "yes",
+    "evidence": "Full printed step x lane grids (l.16592+): step 20-22 x A/B/C Basis x lane columns e.g. '47,463 47,519 48,025...'; 'Preparation Salary Tables'. 5,595 salary numbers, 876 grid rows.",
+    "verdict": "MISS"
+  },
+  "jefferson_county_public_schools": {
+    "schedule_present": "no",
+    "evidence": "Article 27 'COMPENSATION SCHEDULES / Salary Schedule' (l.3293) describes Job Family III, Rank I-III, Step 0 and a 5% raise, but the actual rate tables are '[SEE ATTACHED TABLE]'. No dollar grid printed; 6 five-digit nums are KY zip codes.",
+    "verdict": "CORRECT"
+  },
+  "long_beach_unified_school_district": {
+    "schedule_present": "no",
+    "evidence": "l.1165-68 says pay is per 'Salary Schedules available at work sites' incorporated in Appendix B. Appendix B (l.4199) is 'PROVISIONS FOR ADMINISTRATION OF SALARY SCHEDULES' (placement rules only). 31 five-digit nums are Education Code cites/zip.",
+    "verdict": "CORRECT"
+  },
+  "prince_georges_county_public_schools": {
+    "schedule_present": "partial",
+    "evidence": "Lane/step structure fully described (l.2250+: BA, BA+30, MA, MA+30, MA+60, Doctorate; anniversary-date step progression; 'General Information Regarding All Salary Schedules') but zero dollar figures / no printed grid.",
+    "verdict": "CORRECT"
+  },
+  "orange_county_public_schools": {
+    "schedule_present": "partial",
+    "evidence": "Appendix A (l.4214) 'Salary Structure for Performance Pay / Open Range Schedule' gives only Minimum $49,375 - Maximum $114,287 (FL performance pay), not a step x lane grid. No extractable grid.",
+    "verdict": "CORRECT"
+  }
+}

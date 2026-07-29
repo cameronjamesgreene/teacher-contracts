@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "9",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "9",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / tenure-track teachers",
+    "evidence": "tenure-track teachers",
+    "page": "9",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "9",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Ed. Code 44801",
+    "page": "20",
+    "confidence": "high"
+  }
+}

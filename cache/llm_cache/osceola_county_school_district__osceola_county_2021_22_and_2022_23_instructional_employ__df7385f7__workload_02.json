@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30 (minimum of 60 when students are not present)",
+    "evidence": "The regular working day for teachers shall be seven and one-half (7 1/2) hours which shall include a minimum of thirty (30) minutes for lunch. Lunch on days when students are not present shall be a minimum of one (1) hour.",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Faculty meetings shall be held within the teacher's regular working day.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Teachers will not be required to ride buses or perform custodial functions.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

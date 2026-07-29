@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "$500 flat across-the-board increase (no percentage specified), effective May 1, 2011",
+    "evidence": "the Salary Schedule will be increased by $500 across the board ... effective May 1, 2011",
+    "page": "100",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "APPENDIX B - SUPPLEMENTS ... CATEGORY 1 - $5,460 effective July 1, 2007 ... CATEGORY 12 - $575 effective July 1, 2007 ... High School Advanced Placement (AP) Supplement - $50 per student passing an AP exam.",
+    "page": "131",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "The District’s Title I schools may be assign into four (4) or fewer tiers. Each tier of Title I District schools may generate a different Recruitment Incentive amount each school year... Tier One schools could be assigned a Recruitment Incentive of $5,000, Tier Two $4,000, Tier Three $3,000 and Tier Four $2,000 for that school year for new hires assigned to schools in those tiers...",
+    "page": "153",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "0.5% one-time general salary appreciation payment paid December 22, 2006; additional 1% general salary increase, totaling 2% for the 2006-2007 school year, applied to all bargaining unit members.",
+    "evidence": "A one time 0.5% general salary appreciation payment for the 2006-2007 School Year, to be paid to members of the bargaining unit on December 22, 2006. ... An additional general salary increase of 1% for the 2006-2007 School Year. This revision creates a total general salary increase of 2% for the 2006-2007 School Year.",
+    "page": "M-1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Supervision of extracurricular after school activities, the compensation for which is not otherwise specified in this Agreement, shall be compensated at the rate of... sixteen dollars and fifty-three cents ($16.70) per hour for the 2006-2007 school year. Teachers performing the following tutoring/workshop services will be compensated as follows: 1. Curriculum writing/planning $15.00/hour 2. Workshop Presentation $20.00/hour... 4. Tutoring $20.00/hour",
+    "page": "M-5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall accrue on the basis of one (1) year for each year of continuous service in the district.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "A voluntary transfer is a teacher request for a change in teaching position. Procedures involve collaboratively negotiated guidelines, application via form/timeline, and seniority playing a key role (at least 50% of interviewees must be the most senior). Temporary/remainder contract positions are vacated for this process. Eligibility requires being recommended for reappointment, in-field, Highly Qualified, not on DROP/temporary contract, and meeting annual requirements.",
+    "evidence": "A voluntary transfer is a teacher request for a change in teaching position from one school to another.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "An involuntary transfer is a transfer from one school to another that is initiated by the Administration.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "If economic circumstances dictate a reduction, the Board must assign personnel to appropriate qualified positions. If unable to maintain all employees, the Board must immediately meet with the Union Association to establish an orderly method of reducing, retraining, and recalling affected employees.",
+    "evidence": "Should economic circumstances dictate a reduction in personnel, the Board shall take whatever steps are necessary to assign personnel to appropriate positions within the district for which they are qualified.",
+    "page": "26",
+    "confidence": "high"
+  }
+}

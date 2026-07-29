@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "Any Department Chairperson serving since 1981-82 whose factor has been retrogressed because of the new ranking of job responsibilities shall continue with the 1981-82 rate of pay until the current factor results in an increase.",
+      "subject_text": "Any Department Chairperson serving since 1981-82 whose factor has been retrogressed because of the new ranking of job responsibilities",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members serving as department chairs in 1987 88 and who continue in that position shall continue to be remunerated as appropriate at factor E or F.",
+      "subject_text": "Unit members serving as department chairs in 1987 88 and who continue in that position",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "High school librarians shall be given stipends at the 1-6 level.",
+      "subject_text": "High school librarians",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Intramural coaches will receive a weekly compensation based upon three percent (3%) of Class III, Step 7 at the intermediate level and Class III Step 8 at the high school level divided by 11.",
+      "subject_text": "Intramural coaches",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Intramural coaches at alternative sites shall receive compensation based on three percent (3%) of Class III, Step 8,",
+      "subject_text": "Intramural coaches at alternative sites",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Intramural coaches at alternative sites shall be excluded from provisions in 7.7.4.1.2 below.",
+      "subject_text": "Intramural coaches at alternative sites",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Exclusion from a provision grants separate treatment; benefits workers by removing restrictive conditions."
+    },
+    {
+      "quote": "If there are more than fifty (50) participants in any intramural program, an additional coach may be added.",
+      "subject_text": "an additional coach",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Passive construction implies district discretion to hire/add staff based on participation thresholds."
+    }
+  ]
+}

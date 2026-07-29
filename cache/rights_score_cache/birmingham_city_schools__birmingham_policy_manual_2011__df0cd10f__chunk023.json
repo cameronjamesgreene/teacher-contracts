@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "Budgeted funds shall be expended in a fair and efficient manner in accordance with state laws and common accounting practices",
+      "subject_text": "Budgeted funds",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction; implicit agent is the Board/Superintendent administering district funds."
+    },
+    {
+      "quote": "they shall be expended in a manner that promotes equity in the investment of financial resources for all students",
+      "subject_text": "they",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Continuation of budget administration duty."
+    },
+    {
+      "quote": "The Superintendent shall, at least once per year, give the Board an overview of applicable developments in the field and his/her opinion as to their potential impact on the System.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

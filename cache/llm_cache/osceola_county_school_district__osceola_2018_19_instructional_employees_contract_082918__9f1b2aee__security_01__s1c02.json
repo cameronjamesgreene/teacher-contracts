@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers must submit a transfer form to the Superintendent and principal by March 1 for the next school year. Teachers on the list are not required to transfer, are considered first for vacancies they apply to, but the receiving principal makes the final recommendation.",
+    "evidence": "If a teacher desires a transfer to be effective the next school year, he or she must submit a transfer form (Appendix E) to the Superintendent and provide a copy to his/her principal. Teachers who desire a transfer for the next school year should submit the transfer form by March 1.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "In making involuntary transfers or reductions in force, teachers with the least certificated service in the School District shall be transferred or laid off first, providing the teachers transferred and the teachers remaining in the School District possess the necessary certification and qualifications...",
+    "page": "26",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Procedures include: Superintendent meeting with Association prior to Board action; voluntary transfers prioritized; involuntary actions based on least certificated service (tie-breakers: consecutive district years, then hire date); 30 days written notice (unless financial crisis); 18-month recall rights with 12-day acceptance window; and exemption for continuing contract teachers within 2 years of retirement.",
+    "evidence": "Any teacher who is to be laid off will be so notified in writing at least thirty (30) days before the effective date of the layoff unless a School District financial crisis exists. Such notice will include the proposed time schedule, the reasons for the proposed action, and his/her recall rights as set forth in this Article.",
+    "page": "26",
+    "confidence": "high"
+  }
+}

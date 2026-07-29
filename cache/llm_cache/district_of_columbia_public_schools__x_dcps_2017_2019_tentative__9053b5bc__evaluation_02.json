@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "yes",
+    "evidence": "if the Supervisor determines as a result of the DCPS evaluation process that a Teacher has an average score of less than 2.5 in Planning domain of the Teaching and Learning Framework, then the Supervisor may require the Teacher to submit daily lesson plans for review and comment until such time that the Teacher’s planning has satisfactorily improved.",
+    "page": "83",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends at page 43, so page 83 was not visible in the source text. However, the quoted passage directly describes a remediation step for teachers scoring below 2.5, explicitly supporting 'yes'. Article 2.5 (p. 19) also confirms professional development/support plans for teachers rated 'Minimally Effective.' No change to answer or confidence needed."
+  },
+  "evaluation_consequences_008": {
+    "answer": "yes",
+    "evidence": "DCPS shall retain the right to make the final excessing decision according to the following rubric: 1) Previous Year's Final Evaluation... Highest 50... Lowest 0. ... This option shall only be available to permanent status Teachers whose most recent evaluation score was “Effective” or higher.",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": "None."
+  }
+}

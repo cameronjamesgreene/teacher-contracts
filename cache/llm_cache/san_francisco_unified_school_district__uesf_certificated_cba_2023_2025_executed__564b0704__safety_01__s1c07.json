@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Within the first four weeks of each school year, unit members, in collaboration with school site administration, shall review student discipline policies and procedures. Said presentation shall also include (a) information regarding teacher rights and responsibilities relative to student discipline and (b) behavior strategies in support of a positive productive approach to school-wide intervention, such as positive behavior intervention and support.",
+    "page": "93",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "A teacher may suspend any pupil from their class for the remainder of the day of the suspension and the day following the suspension for disruption of school activities or willful denial of the valid authority of teachers or other school personnel.",
+    "page": "94",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

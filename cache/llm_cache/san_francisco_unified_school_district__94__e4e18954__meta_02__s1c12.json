@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "1. \"Authority for shared decision-making regarding district programs is derived from Restructuring Schools Initiative (RSI), and authority for shared decision-making regarding state supplementary programs is derived from the School-Based Program Coordination Act.\" (p. 140)\n2. \"1) There is a shared commitment to ongoing, tripartite (SFUSD, UESF, UASF) collaboration in the design and development of a new teacher induction program that corresponds to the legal mandates of SB2042.\" (p. 145)\n3. \"I and my current spouse have executed a marriage settlement agreement pursuant to Title II of Part 5 of Division 4 of the California Civil Code (or a predecessor statue, is applicable) which makes my earnings my separate property.\" (p. 151)\n4. \"If it is not against the law or rules (Ed Code, Board Policy, Union Contract, administrative regulations), it can be done.\" (p. 140)\n5. \"Waivers to the Ed Code, Board Policy, Union Contract and administrative regulations are initiated by the site through the Restructuring Council.\" (p. 140)",
+    "evidence": "Authority for shared decision-making regarding district programs is derived from Restructuring Schools Initiative (RSI), and authority for shared decision-making regarding state supplementary programs is derived from the School-Based Program Coordination Act.",
+    "page": "140, 145, 151",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

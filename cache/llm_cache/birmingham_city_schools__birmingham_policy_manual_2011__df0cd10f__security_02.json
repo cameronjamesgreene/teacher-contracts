@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Any employee terminated or demoted pursuant to this policy shall have the following recall rights to a position for which he or she is certified, for one (1) calendar year from the effective date of his or her termination or demotion: 1. Tenured employees dismissed through staff reductions will, for a period of one year, be given priority consideration for re-employment if qualified by certificate and competency in the area of need, and if the employee has re-applied to the system for employment, in reverse order of dismissal before nontenured employees in the same area are added to the staff. 2. Nontenured employees who have been dismissed through staff reduction and are qualified by certificate and competency in the area of need will, for a period of one year, be given priority consideration for re-employment in reverse order of dismissal before licensed employees in the same area are added to the staff.",
+    "page": "3092",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to match exact document text. Removed hallucinated phrase about 'five working days' from Stage 1."
+  },
+  "security_rif_criterion_008": {
+    "answer": "Certification (standard over provisional), followed by seniority (length of continuous contracted service); nontenured staff are dismissed first. Ties are broken by contract ratification date, then drawing of lots.",
+    "evidence": "When a reduction in force is necessary, the first employees to be dismissed will be nontenured persons within the class of personnel being reduced. ... criteria, in the order stated, will be used to determine which of the tenured teachers will be retained: 1. Certification in a teaching position which is being retained and is open. A tenured teacher with standard certification for the retained position will be given consideration over a tenured teacher with provisional certification. 2. Seniority in the length of continuous, full-time contracted certified employment in the district, beginning on the date the employee first reported to work. If, based upon these factors, two or more tenured faculty are equally qualified for the position, the following will determine the order of the RIF: 1. The date the Board ratified the contract. 2. If all of the above are equal, lots will be drawn.",
+    "page": "3092",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "“Continuing Service Status” (hereinafter “tenure” or “tenured”) means the status obtained by a teacher, instructor, principal, or supervisor who has met the statutory requirements. All tenure decisions for principals hired on or before June 30, 2000 are subject to the Tenure Act 16-24-1 through 16-24-8. Tenure decisions will be made based upon demonstrated excellence with respect to: 1. Communication 2. Collaboration 3. Assessment/Measurement/Evaluation 4. Organizing For Results 5. Planning 6. Federal/State/Local Laws and Policies 7. Problem-Solving 8. Innovation 9. Technology Management 10. School Operations and Management 11. Fiscal Leadership and Management 12. Management of Professional Responsibilities 13. Leadership of Human Resources 14. Academic Achievement 15. Parental Relations. Principals hired for the first time on or after July 1, 2000 will be subjected to the provisions as outlined in the Teacher Accountability Act.",
+    "page": "3036, 3092",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Certification of teachers and other personnel is determined by governing State laws and guidelines established by the State Board of Education.",
+    "page": "3010",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

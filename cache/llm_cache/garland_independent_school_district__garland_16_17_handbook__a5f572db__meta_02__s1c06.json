@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Senate Bill 1 passed in May 1995replaces the old State Sick Leave, and is given to all full-time employees at the rate of five days per year with no limit on accumulation.\n[NOTE: Senate Bill 1 eliminated “Personal Business Days.”]\nThe Texas Legislature enacted a law in 2001 that required the Teacher Retirement System of Texas to establish criteria for the approval of companies offering 403(b) investment products.\nState law provides that a teacher may resign no later than 45 days before the first day of instruction of the New Year without receiving the approval of the district.\nState law requires this distribution.\nState law requires that the identity of a person making a report of suspected child abuse or neglect is kept confidential.",
+    "evidence": "State law provides that a teacher may resign no later than 45 days before the first day of instruction of the New Year without receiving the approval of the district.",
+    "page": "71, 74, 79, 82",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The Family Medical Leave Act passed by the federal congress in 1994provides an employee leave for up to 60 working days for the following reasons:\nSection 403(b) of the Internal Revenue Service Code provides public education employees the opportunity to buy a tax-deferred annuity or mutual fund as a supplement to the Teacher Retirement System of Texas (TRS).\nGuidelines of the Fair Labor Standards Act (FLSA) shall apply to paraprofessional and auxiliary employees who are non-exempt and therefore subject to overtime/compensatory time rules.\nTeachers and other professionals are exempt from overtime/compensatory time rules of the FLSA and as such these rules do not apply.\nApproved miles in a vehicle not owned or substantially supported by the district will be reimbursed at the rate not to exceed the Internal Revenue Service annual allowable for mileage.\nIn compliance with the Children’s Internet Protection Act (CIPA), all students and faculty must watch the GISD on-line safety video.",
+    "evidence": "The Family Medical Leave Act passed by the federal congress in 1994provides an employee leave for up to 60 working days for the following reasons:",
+    "page": "71, 74, 76, 77, 79",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "- Family Medical Leave Act (FMLA)\n- Section 403(b) of the Internal Revenue Service Code\n- Fair Labor Standards Act (FLSA)\n- Internal Revenue Service annual allowable\n- Children’s Internet Protection Act (CIPA)",
+    "evidence": "The Family Medical Leave Act passed by the federal congress in 1994provides an employee leave for up to 60 working days for the following reasons:",
+    "page": "71",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,41 @@
+# SD_of_Philadelphia_2021-2024.pdf — High School Athletic Coach Salaries (9/1/20 - 9/1/23)
+# population: High School Athletic Coaches | is_teacher_schedule: False
+"# validation_warnings: duplicate step_labels: ['First Assistant', 'Second Assistant']; identical values across lanes ['9/1/20', '9/1/21', '9/1/22'] — one lane column was copied across slots (or a fabricated column duplicates its neighbour) instead of extracting each lane distinctly | audit confirmed"
+step,9/1/20,9/1/21,9/1/22,9/1/23
+Badminton Coach,2952,2952,2952,3040
+Baseball Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559
+Second Assistant,3222,3222,3222,3319
+Basketball Head Coach,7089,7089,7089,7302
+First Assistant,4427,4427,4427,4559
+Second Assistant,3222,3222,3222,3319
+Cheerleading Coach Fall,2952,2952,2952,3040
+Cheerleading Coach Winter,2952,2952,2952,3040
+Cross Country Head Coach,4427,4427,4427,4559
+First Assistant,4427,4427,4427,4559
+Field Hockey Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559
+Football Head Coach,8266,8266,8266,8514
+First Assistant,4427,4427,4427,4559
+Second Assistant,3222,3222,3222,3319
+Third Assistant,4396,4396,4396,4528
+Fourth Assistant,4396,4396,4396,4528
+Fifth Assistant,4396,4396,4396,4528
+Golf Coach,2952,2952,2952,3040
+Lacrosse Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559
+Soccer Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559
+Second Assistant,3222,3222,3222,3319
+Softball Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559
+Second Assistant,3222,3222,3222,3319
+Swimming Coach,4427,4427,4427,4559
+Tennis Coach,4427,4427,4427,4559
+Track and Field Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559
+Second Assistant,3222,3222,3222,3319
+Volleyball Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559
+Wrestling Head Coach,6173,6173,6173,6359
+First Assistant,4427,4427,4427,4559

@@ -1,0 +1,11 @@
+# Pittsburgh_10-15.pdf — Old Steps ()
+"# population: Certified Therapy Assistance (COTA), Physical Therapy Assistant (Old Steps) | is_teacher_schedule: False"
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+1:,26170
+2:,27970
+3:,29570
+4:,32660
+5:,33900
+6:,37190

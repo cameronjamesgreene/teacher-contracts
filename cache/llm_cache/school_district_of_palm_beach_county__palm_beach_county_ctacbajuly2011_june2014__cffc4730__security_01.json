@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "“SENIORITY” - The beginning date of continuous employment with the District in this bargaining unit, including approved leaves. If an employee leaves the unit for another position in the District and returns to a position in this bargaining unit within twelve (12) months, his/her seniority will be the original date of employment in this bargaining unit upon returning. If ties occur in the determination of seniority, they will be broken by the date on which employment was offered by the Division of Human Resources or the date of the Principal’s recommendation, whichever is earlier. If a tie remains, the determination of who has greater seniority shall be a coin toss and witnessed by an Association representative.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Voluntary transfers occur during the 'Voluntary Transfer Period' (first working day of second semester until UAT period begins). Employees must have 3+ years of service and hold a continuing or professional service contract. A transfer request packet must be submitted to the Principal/Director; applications are timely if postmarked/received within 7 days of posting. Principals must interview a minimum of 3 applicants (the 2 most senior qualifying applicants). Transfers outside the period require Principal and Area Superintendent approval. Hardship transfers are available for substantiated medical/personal issues.",
+    "evidence": "The 'Voluntary Transfer Period' shall begin the first teacher working day of the second semester each school year... the applying teacher is in at least his/her third year of employment with the District and will be on a continuing or a professional service contract... a transfer request packet (see Appendix K) will have been submitted to the Principal/Director... applications are considered timely if postmarked or received no later than seven (7) days after such vacancy is posted... Principal/Director... is required to interview a minimum of three (3) applicants... two (2) of those to be interviewed shall be the most senior applicants... Voluntary transfers may be made outside the voluntary transfer period provided both Principal and Area Superintendent approve...",
+    "page": "64-65",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "When an involuntary transfer is required, the administration shall provide assistance in finding an appropriate new position. The administration shall provide affected employees with a copy of all employee vacancies. Also, said employee(s) shall provide the Director of Instructional Employment with a list of three (3) schools in the County to which they prefer to be transferred. Only if no vacant positions exist at any of these three (3) listed schools shall the employee be involuntarily transferred to another available position.",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "Layoffs are triggered by enrollment declines, budgetary restrictions, reorganization, or other mutually agreed causes. The Board determines eliminated positions/areas; reductions are county-wide based on seniority and certification. Order of release: 1) employees with temporary/provisional certification; 2) fully certificated annual/probationary contract employees; 3) continuing/professional service contract employees. The Association must be notified before affected employees.",
+    "evidence": "In the event that a layoff becomes necessary due to declines in enrollment, budgetary restrictions, reorganization, or other cause as agreed to by the parties, the Board shall determine the positions/areas to be eliminated. Reduction shall be made on a county-wide basis and shall be based upon seniority and certification. Employees holding temporary or provisional certification will be the first released. Fully certificated annual/probationary contract employees, the next released. Continuing/profes[sional service/contract] employees, the next released. In the event that an employee is to be released, the Association shall be advised prior to the affected employee(s) being advised.",
+    "page": "71-72",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the complete paragraph regarding Association notification prior to employee advising, which directly supports the answer."
+  }
+}

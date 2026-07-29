@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Absences at official attendance time that collect state ADA funding (Education Code 25.087 and 19 TAC 129.21) and are not recorded as absences:\nPer Senate Bill 1, Section 26.004 (Access to Student Records), a parent is entitled access to all written records of a school district concerning the parent’s child, including:\nAll textbooks issued to a school district by the state of Texas are the property of the state as provided by TEC 31.102 – Title and Custody.\nThe district shall allow the student to use textbooks at school during each school day. (TEC 31.104 – Distribution and Handling).",
+    "evidence": "Absences at official attendance time that collect state ADA funding (Education Code 25.087 and 19 TAC 129.21) and are not recorded as absences:",
+    "page": "171, 173",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Aldine ISD will abide by the Children’s Internet Protection Act of 2001 (CIPA).\nTransmission of any material in violation of U. S. or state regulations including copyrighted, threatening, or obscene materials is prohibited.\nViolating this agreement or the Aldine ISD Acceptable Use Guidelines may result in legal action including, but not limited to, criminal prosecution under appropriate state and federal laws.",
+    "evidence": "Aldine ISD will abide by the Children’s Internet Protection Act of 2001 (CIPA).",
+    "page": "168, 169",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Children’s Internet Protection Act of 2001 (CIPA)",
+    "evidence": "Aldine ISD will abide by the Children’s Internet Protection Act of 2001 (CIPA).",
+    "page": "168, 169",
+    "confidence": "high"
+  }
+}

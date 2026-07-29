@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "2. \"Probationary employee\" is defined as that term is defined by § 36-26-101, Ala. Code (1975) and as construed by applicable ease law.",
+    "page": "3094",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "3. \"Length of service\" means the length of the most recent, uninterrupted period of continuous employment with the employing Board. Continuous employment will not be considered interrupted by holidays, vacation periods, summer recesses or approved leaves of absence; however, in computing length of service, the period of any approved leave of absence shall not be counted as part of the total continuous employment.",
+    "page": "3094",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "RIF is defined as dismissal for financial exigency, serious natural disaster, justifiable decrease in jobs, or good cause. Employees terminated for recall rights may reapply and receive priority consideration for one year; upon call back, they have five working days to accept. Non-probationary employees get priority for other vacant positions matching their skills.",
+    "evidence": "4. \"Reduction in Force\" or \"RIF\" means the dismissal of one or more employees for reasons of financial exigency, serious natural disaster, justifiable decrease in jobs in the system or other good and just cause... Any employee terminated pursuant to this policy in order to have recall rights, shall reapply to the system and such employee will be given priority consideration when the position from which he or she was terminated is posted by the Board for one (1) calendar year... Upon call back, the employee will be given five working days to accept employment. Furthermore, non-probationary employees will be given priority consideration in other vacant positions in the system whereby they possess the necessary skills to do the job.",
+    "page": "3093, 3094",
+    "confidence": "high"
+  }
+}

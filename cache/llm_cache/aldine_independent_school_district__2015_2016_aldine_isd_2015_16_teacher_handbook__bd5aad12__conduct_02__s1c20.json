@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "no",
+    "evidence": "The board of trustees of a school district or the governing body of an open-enrollment charter school has primary responsibility for ensuring that the district or school complies with all applicable requirements of state educational programs (TEC 7.028). ... A well-articulated scope and sequence of subjects in the four core areas with dual/concurrent courses... Prepare and implement lesson plans and learning activities which provide an effective educational program for each student",
+    "page": "181, 189",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Each campus is required to create procedures for maintaining a substitute teacher plan folder. As a result, each campus dictates the requirements of this plan which includes lesson plans, seating charts, specific instructions, etc. ... Prepare and implement lesson plans and learning activities which provide an effective educational program for each student",
+    "page": "180, 189",
+    "confidence": "high"
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

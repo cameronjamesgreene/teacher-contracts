@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "Tentative Agreement 2015-17 Teachers Contract",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "2015-2017",
+    "evidence": "2015-17 Teachers Contract",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "2015-17 Teachers Contract",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "tentative",
+    "evidence": "Tentative Agreement",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Review weighting of student caseloads by student needs as in the State’s weighting formula and the State’s new workload limits law.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as 'no'. The document explicitly references state law regarding student caseload weighting and workload limits on page 5, and notes that non-tenured evaluations are tied to state law on page 7."
+  }
+}

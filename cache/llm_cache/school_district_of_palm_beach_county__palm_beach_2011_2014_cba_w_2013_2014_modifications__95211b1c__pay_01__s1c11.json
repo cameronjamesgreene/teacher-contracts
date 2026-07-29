@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX A – SALARY SCHEDULE / For Classroom Teachers Association – CTA / 2013-14 Grandfathered Teachers’ Salary Schedule / Effective 7/1/13",
+    "page": "147",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2013-14",
+    "evidence": "2013-14 Salary Schedule / Effective 7/1/13",
+    "page": "147",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "actual years of teaching experience must be earned in or out of the District to achieve Step 19 on the salary schedule.",
+    "page": "149",
+    "confidence": "medium"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "The Parties agree that a new Performance Salary schedule that will be adopted as an open Range (Minimum-Maximum) Salary Schedule will be negotiated",
+    "page": "148",
+    "confidence": "medium"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

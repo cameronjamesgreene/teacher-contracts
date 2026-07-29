@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "7.06 Teacher Salary Schedule",
+    "page": "26",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "July 1, 2007",
+    "evidence": "Salary tables will improve by a 5.0% cost of living adjustment effective July 1, 2007.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "All eligible employees will receive their step increment effective July 1, 2007 or on their anniversary date.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Placement of employees on the salary schedule is based upon verified prior teaching experience including a maximum of two (2) years credit for appropriate military service.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

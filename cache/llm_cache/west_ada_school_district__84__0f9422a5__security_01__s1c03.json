@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "seniority (years of experience) as a certified employee in education in the District as recorded in the District Superintendent’s office.",
+    "page": "29",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Certified employees must submit written transfer requests by February 1 for the following year. Qualified candidates have ten days after a posting to contact the principal and schedule an interview. Qualification requires the required certification and credentials matching the principal's written job description. Candidates not on the transfer list must apply in writing to the principal or administrator.",
+    "evidence": "By February 1st of each school year, certified employees must request in writing a transfer to another building or a change of assignment applicable to the following year. / Employees on the transfer list who qualify for the opening shall have ten (10) calendar days after the date of posting to contact the building principal... and make an appointment for an interview. / A “qualified employee” is defined as one who has the required certification and whose credentials satisfy the requirements of the principal’s written job description.",
+    "page": "25-26",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Should it be necessary to transfer an employee from building to building or grade level or track and/or subject within buildings, as much notification as possible will be given, in writing, by the Superintendent or designee to the employee being transferred.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Triggered when the District modifies programs or services. Vacancies are first filled by transferring current certified staff. Retention is based on affirmative action goals and seniority (years of experience) within certification categories (Elementary K-5, Middle 6-8, High 9-12). Non-retained employees are placed in a one-year employment pool. Re-employment offers from the pool are made via certified/registered mail or personal contact, with a ten-day acceptance window.",
+    "evidence": "In the event the District modifies programs and services, the number of certified personnel that are required... shall be determined... / Certified employees will be retained for available positions within each category or specialty on the basis of District affirmative action goals and seniority (years of experience)... / Within each category or specialty the senior employee shall be retained. / All certified personnel who are not recommended for retention... shall be terminated from employment and placed in an employment pool for one (1) school year...",
+    "page": "29-30",
+    "confidence": "high"
+  }
+}

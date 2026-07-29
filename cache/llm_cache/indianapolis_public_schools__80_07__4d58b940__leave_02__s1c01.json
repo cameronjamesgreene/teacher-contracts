@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "5 consecutive working days with full pay for immediate family death within 14 days; 1 day with full pay for funeral of aunt, uncle, niece, or nephew.",
+    "evidence": "the employed teacher shall be allowed leave with full pay for up to five (5) consecutive working days within 14 calendar days following the date of such death. A teacher shall be allowed one (1) day's leave of absence with full pay to attend the funeral of an aunt, uncle, niece or nephew, and each similar relationship established by marriage.",
+    "page": "5",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Immediate family: husband, wife, child, grandchild, parents or guardian, grandparents, sister, brother, similar relationships by marriage, legal dependents. Also covers aunt, uncle, niece, nephew, and similar relationships by marriage.",
+    "evidence": "The immediate family is defined to include: husband, wife, child, grandchild, parents or guardian, grandparents, sister, brother, each similar relationship established by marriage, any other legal dependent, and any person for whom the teacher was a legal dependent. ... A teacher shall be allowed one (1) day's leave of absence with full pay to attend the funeral of an aunt, uncle, niece or nephew, and each similar relationship established by marriage.",
+    "page": "5",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "A leave of absence without pay spanning not more than two (2) consecutive school years shall be granted upon application to a teacher for child rearing purposes.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "A teacher who has a pregnancy-related disability is entitled to leave for the period of the disability. All such applications for granting and/or extending said leaves shall be accompanied by a statement from a licensed physician attesting to the inability of the teacher to continue her teaching duties. Accumulated sick leave may be used for any part of the disability leave. Any leave under this provision runs concurrently with FMLA.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Child Rearing. A leave of absence without pay spanning not more than two (2) consecutive school years shall be granted upon application to a teacher for child rearing purposes... Any leave under this provision runs concurrently with FMLA. Adoptive. An adopting teacher may request a short term adoptive leave under the provisions of the FMLA.",
+    "page": "8, 9",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Teachers should be aware that they also may qualify for leave under the terms of the Family and Medical Leave Act (FMLA)... FMLA leaves are unpaid; however, under certain circumstances a teacher may be required or permitted to utilize other paid leave provided by this Agreement concurrently with FMLA leave... When a teacher is on FMLA leave, he/she shall earn credit on the salary schedule as though the teacher had been actively teaching during the period of the leave. IPS will continue to pay its portion of all insurance coverages provided for in this Agreement while a teacher is on an FMLA leave.",
+    "page": "7",
+    "confidence": "high"
+  }
+}

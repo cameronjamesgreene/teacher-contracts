@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes; Group Health Plan, Blue Cross HMO/Kaiser Medical, Health Net Seniority Plus/Kaiser Senior Advantage medical plan. Eligible employees: All full-time unit members.",
+    "evidence": "15.3 Deduct $5 tenthly from each employee electing medical benefit coverage. / 15.23 During the term of this Agreement, the District shall make available benefit plans with provisions as are in the plans listed below: ... Blue Cross/Kaiser Evidence of Coverage ... Health Net Seniority Plus/Kaiser Senior Advantage medical plan",
+    "page": "86, 90",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "$5 tenthly for individual; $40 tenthly for spouse/dependents; $10 tenthly for other dependents.",
+    "evidence": "15.3 Deduct $5 tenthly from each employee electing medical benefit coverage. / 15.4 Deduct $40 tenthly from each employee electing medical benefit coverage for spouse or spouse and eligible dependents. / 15.5 Deduct $10 tenthly from each employee electing medical benefit coverage for eligible dependents other than spouse.",
+    "page": "86",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes; Spouse, eligible dependents other than spouse (children under 19, students 19-24, handicapped children, newborns), State Registered Domestic Partners.",
+    "evidence": "15.4 Deduct $40 tenthly from each employee electing medical benefit coverage for spouse or spouse and eligible dependents. / 15.9.6 The following are considered family dependents: (1) State Registered Domestic Partners / 15.9.1 Any unmarried child under age nineteen (19) years...",
+    "page": "86, 87, 88",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Group Health Plan, Blue Cross HMO/Kaiser Medical, Blue Cross Seniority Plus/Kaiser Senior Advantage medical, PPO/Non-PPO options.",
+    "evidence": "15.23.2 Blue Cross HMO/Kaiser Medical as described in (a) and (c) / 15.14 PPO providers shall be reimbursed at 100% of eligible charges... / 15.23.7 Blue Cross Seniority Plus/Kaiser Senior Advantage medical as described in (a) and (j)",
+    "page": "89, 90",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes; Delta Dental Group #6637, Met Life Dental, PacifiCare Dental Health Plan 'The Custom 300 Group Plan'. Eligibility: Unit members. Employer contribution: Not specified.",
+    "evidence": "15.23.d Delta Dental Group #6637—Maximum annual limit will increase to $2,000. / 15.23.f Met Life Dental / 15.23.e PacifiCare Dental Health Plan 'The Custom 300 Group Plan'",
+    "page": "90",
+    "confidence": "high"
+  }
+}

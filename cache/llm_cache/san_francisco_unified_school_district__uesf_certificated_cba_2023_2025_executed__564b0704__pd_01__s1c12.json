@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "In the interest of providing a pathway for teacher leadership as well as support for selected school sites, the District and the Union agree to establish a Master Teacher program of up to fifty (50) teachers. Teachers designated as Master Teachers shall receive additional compensation in the amount of Two Thousand Five Hundred Dollars ($2,500.00) annually and shall be provided with 0.2 FTE release time to assist other teachers at their schools or other District-designated sites.",
+    "page": "163-164",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "In the interest of providing a pathway for teacher leadership as well as support for selected school sites, the District and the Union agree to establish a Master Teacher program of up to fifty (50) teachers.",
+    "page": "163",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "4",
+    "evidence": "such unit member shall be allowed four (4) consecutive work days of absence from school without loss of salary.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "child, step child, parent, step-parent, parent-in-law, grandchild, brother, sister, husband, wife, legal guardian, son-in-law, daughter-in-law, grandparent, or anyone who has lived regularly in the household",
+    "evidence": "On the death of a child, step child, parent, step-parent , parent-in-law, grandchild, brother, sister, husband, wife, legal guardian, son-in-law, daughter-in-law, grandparent, or anyone who has lived regularly in the household of the unit member",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Sick leave shall be allowed in case of actual sickness or disability of the employee, necessary appointments with a physician or dentist or confinement to home because of quarantine and for temporary disabilities related to pregnancy. (Pregnancy itself is not considered a sickness warranting the granting of sick leave with pay. It is only disability resulting from the pregnancy for which sick leave may be allowed.)",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "To facilitate an adopted child's adjustment to a new home, a member of the unit with one or more years of service in Prince George's County who does not earn annual leave may use a maximum of five (5) consecutive days of sick leave.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

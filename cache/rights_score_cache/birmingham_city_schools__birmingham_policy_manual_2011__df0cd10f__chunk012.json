@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "During meetings, the Board shall observe Robert s Rules of Order, Newly Revised, except as otherwise provided by law or determined by the Board.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "At this organizational meeting, the superintendent serves as secretary to the Board",
+      "subject_text": "the superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Split from compound sentence joined by 'and'."
+    },
+    {
+      "quote": "and will preside with the first order of business being the election of the president.",
+      "subject_text": "the superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Split from compound sentence; subject implicit from prior clause."
+    },
+    {
+      "quote": "Upon election of a president, the superintendent relinquishes the chair.",
+      "subject_text": "the superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The president presides at Board meetings, performs all duties imposed by the statutes, and performs such other duties as may be prescribed by law or by action of the Board of Education.",
+      "subject_text": "The president",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Compound predicate treated as single entry for coherence."
+    },
+    {
+      "quote": "The president has the same right as other members to offer resolutions, to make or second motions, to discuss questions, and to vote thereon.",
+      "subject_text": "The president",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The vice president shall have the powers and duties of the president, in his or her absence, and such other powers and duties as the Board may from time to time determine.",
+      "subject_text": "The vice president",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

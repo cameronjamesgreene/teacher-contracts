@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "1. \"Instructional personnel are subject to suspension or dismissal as provided for in ss. 1012.33, 1012.335 and 1012.34, F.S.\" (p. 45)\n2. \"The procedure for suspension, dismissal and return to annual contract status for Continuing Contract teachers shall be governed by s. 1012.33(4), F.S.\" (p. 46)\n3. \"The hearing shall be conducted in accordance with ss. 120.569 and 120.57, F.S.\" (p. 46)\n4. \"Any such decision adverse to the employee may be appealed by the employee pursuant to s. 120.68, F.S.\" (p. 46)\n5. \"If a teacher who holds a professional service contract as provided in s. 1012.33, F.S. is not performing his or her duties in a satisfactory manner, the evaluator shall notify the teacher in writing of such determination.\" (p. 47)\n6. \"However, if a transfer is granted pursuant to ss 1012.27(1) and 1012.28(6), F.S., it does not extend the period for correcting performance deficiencies.\" (p. 47)\n7. \"The hearing shall be conducted in accordance with chapter 120, F.S.\" (p. 47)\n8. \"The Board shall adopt policies to ensure equal rights to all teachers as per the Florida Education Equity Act, Chapter 1000.05, F.S.\" (p. 49)\n9. \"The Board provides Workers’ Compensation benefits pursuant to Florida Statute, Chapter 440.\" (p. 58)",
+    "evidence": "Instructional personnel are subject to suspension or dismissal as provided for in ss. 1012.33, 1012.335 and 1012.34, F.S.",
+    "page": "45-58",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"When an employee is on an approved Family Medical Leave (FMLA), the employee is responsible only for payment of the portion of premium(s) the employee normally pays.\" (p. 57)",
+    "evidence": "When an employee is on an approved Family Medical Leave (FMLA), the employee is responsible only for payment of the portion of premium(s) the employee normally pays.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "FMLA (Family Medical Leave Act)",
+    "evidence": "When an employee is on an approved Family Medical Leave (FMLA), the employee is responsible only for payment of the portion of premium(s) the employee normally pays.",
+    "page": "57",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "send, display, or download offensive messages or pictures",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "use obscene language",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "harass, insult, or attack others",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "damage computers, computer systems, or computer networks (this includes changing workstation and printer configurations).",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "violate copyright laws",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "use other users' passwords",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "trespass in other's files, folders, or work",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "intentionally waste limited resources",
+      "subject_text": "the student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

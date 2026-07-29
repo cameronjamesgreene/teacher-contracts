@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "8:20 AM - 4:10 PM (8:00 AM - 3:30 PM on Professional Development Days)",
+    "evidence": "School Day: Teachers 8:20 - 4:10 ... Work Day/Professional Development Day: 8:00 - 3:30",
+    "page": "67",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two week period for instructional preparation",
+    "page": "67",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "At least 450 minutes per two-week period (minimum 45 minutes per day within the instructional day)",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two week period... A planning and preparation period under this section may not be less than 45 minutes within the instructional day.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "During a planning and preparation period, a classroom teacher may not be required to participate in any other activity.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

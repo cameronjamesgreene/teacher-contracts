@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Unit members who voluntarily accept a change in job assignment in lieu of layoff shall remain at the site at which they are working at the time of the layoff/change of job assignment if an opening exists at that time for which the unit member is qualified.",
+      "subject_text": "Unit members",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "All other factors from 11.6.3 being equal, the unit member who has the least seniority within the grade level or department or site from which a reassignment must take place shall be reassigned first.",
+      "subject_text": "the unit member who has the least seniority within the grade level or department or site from which a reassignment must take place",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "seniority",
+      "notes": "Passive construction implies management duty to follow seniority-based reassignment."
+    },
+    {
+      "quote": "As vacancies become known, they shall be posted at each open school site, Human Resources, and sent to the Association office.",
+      "subject_text": "they",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "The vacancy notice shall include the position, location (if known), level or subject matter of assignment, credential and other requirements, and the closing date of the posting period, which shall be a minimum of five (5) duty days after the initial posting date of the vacancy notice.",
+      "subject_text": "The vacancy notice",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Unit members may apply for transfer to any specific vacancy for which they are qualified during the time the vacancy is posted.",
+      "subject_text": "Unit members",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "Unit member-initiated transfers shall be reviewed and a decision made prior to filling vacancies.",
+      "subject_text": "Unit member-initiated transfers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    },
+    {
+      "quote": "If a vacancy occurs during the school year after the first semester or second trimester, and a unit member is selected to transfer to the assignment, such transfer may occur during the school year if both principals and the transferee agree.",
+      "subject_text": "such transfer",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "transfers",
+      "notes": "Permissions granted to principals regarding approval of mid-year transfers."
+    },
+    {
+      "quote": "If both principals do not agree, the selected unit member shall transfer at the end of the school year.",
+      "subject_text": "the selected unit member",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "transfers",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "16.6.1 Good faith efforts shall be made to maintain class sizes, which recognize the needs and requests of students, as well as the interests of the teachers and the schools. 16.7.3 Initial enrollment in these classes shall not exceed twenty-two (22) students. No additional students may be added to a class except to maintain a level of up to twenty (20) students per class.",
+    "page": "95-96",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

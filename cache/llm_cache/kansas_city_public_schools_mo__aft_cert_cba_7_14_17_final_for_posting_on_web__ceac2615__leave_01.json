@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "13",
+    "evidence": "Each employee in the Teachers’ Unit shall be given three (3) PTO days at the beginning of the school year. Employees of the Teachers’ Unit shall earn one (1) day (7.77 hours) per month for each month worked. These thirteen (13) PTO days will be preloaded at the beginning of the school year. (Sick leave is combined into PTO.)",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes; 200 days (pre-Jan 1, 2009) or 175 days (post-Jan 1, 2009)",
+    "evidence": "Sick leave allowance to which an employee becomes entitled but does not use during each school year shall be accumulated to a maximum of two hundred (200) days. / maximum of one hundred seventy-five (175) days.",
+    "page": "35",
+    "confidence": "high",
+    "coder_notes": "Article XII.G is truncated in the provided excerpt, but the quoted language directly states the accumulation caps."
+  },
+  "leave_sick_family_003": {
+    "answer": "Yes",
+    "evidence": "Each employee shall be allowed to use up to five (5) PTO days, or if the employee does not have five (5) days of PTO, an employee may take an unpaid leave of absence for up to a total of five (5) paid and unpaid combined because of the serious health condition of the employee’s grandparent, parent, sibling, spouse, child, grandchild, anyone of like relationship by marriage, or on a case-by-case analysis of an undefined relationship.",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": "Updated page reference to 30 for precise alignment with Article XI.D."
+  },
+  "leave_personal_days_004": {
+    "answer": "13",
+    "evidence": "Each employee in the Teachers’ Unit shall be given three (3) PTO days at the beginning of the school year. Employees of the Teachers’ Unit shall earn one (1) day (7.77 hours) per month for each month worked. These thirteen (13) PTO days will be preloaded at the beginning of the school year. (Personal leave is combined into PTO; no separate bank.)",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires 72-hour advance notice; blackout dates on first/last day of school or days before/after holidays (unless ill with doctor's note); requires PTO form and documentation if absent >3 consecutive days or misuse suspected; not for vacation/other employment/mission trips.",
+    "evidence": "employee will notify the principal... at least seventy-two (72) hours before he/she is to be absent... PTO cannot be used on the first or last day of school unless the employee is ill... cannot be used on the day before or after a school holiday unless the employee is ill... required to provide a doctor’s certificate... if he or she is absent more than three (3) consecutive days... PTO is not intended for: Vacation leave, To facilitate other employment opportunities, Mission trips",
+    "page": "28-29",
+    "confidence": "high",
+    "coder_notes": "Evidence consolidated to explicitly cover all restrictions and prohibited uses listed in the answer."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "No",
+    "evidence": "PTO days not used by the end of the current school year will accumulate each year. Upon separation from the District, employees in the Teachers’ Unit shall be issued payment for all earned, but unused sick days... (No annual cashout or transfer to sick leave; only paid out upon separation.)",
+    "page": "28-29, 35",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

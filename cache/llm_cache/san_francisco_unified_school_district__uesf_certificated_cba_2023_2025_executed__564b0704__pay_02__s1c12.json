@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Appendix A - Stipends lists multiple extra-duty assignments and amounts, including 'Afternoon Professional Development', 'Health Advocate', 'Nutrition, Physical Activity Teacher Leader', 'National Board Certified Teacher', 'PAR Coach', and 'Lead PAR Coach'.",
+    "page": "153-154",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "the District shall compensate each full-time certificated staff member at a hard-to-staff school an additional Two Thousand Dollars ($2,000.00) per school year (pro-rated for part-time service).",
+    "page": "164",
+    "confidence": "high"
+  }
+}

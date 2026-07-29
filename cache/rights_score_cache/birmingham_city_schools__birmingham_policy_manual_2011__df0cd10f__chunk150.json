@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "An anonymous report may not be the basis for imposing formal disciplinary action against a student.",
+      "subject_text": "An anonymous report",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "Reprisal or retaliation againstany person who reports an act of intimidation, violence, threat of violence or harassment is .peohibited.",
+      "subject_text": "Reprisal or retaliation againstany person who reports an act of intimidation, violence, threat of violence or harassment",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Source text contains OCR typo ('againstany', '.peohibited')."
+    },
+    {
+      "quote": "The Birmingham Board of Education will provide statistics for the Birmingham City Schools as a whole and for each individual school to       State Department of Education for posting on website of the State Department of Education.",
+      "subject_text": "The Birmingham Board of Education",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Administrative reporting duty to state agency."
+    },
+    {
+      "quote": "The identity of any student involved shall not included    the information submitted to the State Department of Education.",
+      "subject_text": "The identity of any student involved",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Grammatical error in source ('included' instead of 'be included')."
+    }
+  ]
+}

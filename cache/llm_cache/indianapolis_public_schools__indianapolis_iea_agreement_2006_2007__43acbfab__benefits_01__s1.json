@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "Yes. Plans: ISTA Trust Ambassador Care Plan, ISTA Trust Advantage HMO. Eligible group: Teachers and their dependents.",
+    "evidence": "The Board shall make available to teachers and their dependents hospitalization, surgical, major medical and emergency family insurance. ... (1) The ISTA Trust Ambassador Care Plan. (2) The ISTA Trust Advantage HMO.",
+    "page": "M-7",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Board annual maximum contributions vary by coverage tier: Employee $3,978.00; Employee/Child $5,342.40; Employee/Spouse $7,165.76; Family $7,691.08.",
+    "evidence": "the Board shall make the following annual maximum contribution for such coverage, and the employee shall pay any additional premiums: Employee $3,978.00; Employee/Child $5,342.40; Employee/Spouse $7,165.76; Family $7,691.08",
+    "page": "M-7",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employee pays any additional premiums beyond the Board's annual maximum contribution; specific dollar amounts are not stated.",
+    "evidence": "and the employee shall pay any additional premiums:",
+    "page": "M-7",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "Yes. Eligible categories: Employee, Employee and Child or Children, Employee and Spouse, and Employee and Family (Spouse and Children).",
+    "evidence": "Coverage shall be available on the basis of four (4) options: 1. Employee 2. Employee and Child or Children 3. Employee and Spouse 4. Employee and Family (Spouse and Children)",
+    "page": "M-7",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "ISTA Trust Ambassador Care Plan, ISTA Trust Advantage HMO.",
+    "evidence": "The ISTA Trust Ambassador Care Plan. ... The ISTA Trust Advantage HMO.",
+    "page": "M-7",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "Yes. Plan: ISTA Insurance Trust dental plan. Eligibility: Each teacher and dependents. Employer contribution: Board pays annual premium except $.21 paid by teacher.",
+    "evidence": "Each teacher and his/her dependents shall be covered by a dental insurance plan with the ISTA Insurance Trust ... The Board shall pay the annual premium with the exception of twenty-one cents ($.21) which shall be paid by the teacher.",
+    "page": "M-7",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "From time to time the Super.intendent may find it necessary to hire consultants or to offer consulting contracts to assist him/her in carrying out the policies and educational programs of the Birmingham City Schools.",
+      "subject_text": "the Super.intendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission_verb",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In such cases the Superintendent will make recommendations to the Board.",
+      "subject_text": "the Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Board may accept or reject those recommendations.",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In the case of a rejection, the Superintendent may make new recommendations.",
+      "subject_text": "the Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "No consultant will be hired nor any consulting contract awarded except as approved by the Board.",
+      "subject_text": "No consultant",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Passive construction imposing a hiring restriction; implicit agent is the district/board."
+    },
+    {
+      "quote": "The Superintendent has responsibility for implementing policies established by the Board.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "All personnel have an obligation to both implement and support these policies.",
+      "subject_text": "All personnel",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The Superintendent is expected to provide staff members and the community with opportunities to suggest new policies and policy improvements.",
+      "subject_text": "The Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Staff suggestions for policy modification should be presented to the Superintendent.",
+      "subject_text": "Staff suggestions",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "should",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction directing staff to submit suggestions."
+    }
+  ]
+}

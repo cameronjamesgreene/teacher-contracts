@@ -1,0 +1,5 @@
+"# Buffalo_contract_1999.pdf — SALARY SCHEDULE — Effective July 1, 1999 (July 1, 1999)"
+# population: Certified teachers | is_teacher_schedule: True
+# validation_warnings: none | audit confirmed
+step,BS,BS+10,BS+20,BS+30,BS+40,BS+50,MS,MS+10,MS+20,MS+30,DR
+1,28775,29652,30529,31406,32283,33160,34037,34914,35791,36668,37545

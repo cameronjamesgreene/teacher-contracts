@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "Average class size shall be determined on a building site basis... Class sizes for grades K-3 shall not exceed the limitations of Education Code Sections 41376 and 41378... An analysis of average class size by schools shall be made no later than the end of the third week... District shall establish a class size problem resolution committee",
+    "page": "45-47",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "31.0 students average target; statutory caps of 31 (K) and 30 (Gr 1-3)",
+    "evidence": "9.1.1.1 Elementary: 31.0 students",
+    "page": "45",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "Intermediate: 31.75 avg / 32.75 trigger; High School: 32.5 avg / 33.5 trigger",
+    "evidence": "9.1.1.2 Intermediate: 31.75 students / 9.1.1.3 High School: 32.5 students / 9.4.2 Intermediate: 32.75 students / 9.4.3 High School: 33.5 students",
+    "page": "45-46",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "If the average class size increases to (or exceeds) the following, additional staffing unit(s) (equivalent of one teacher) shall be provided... Relief may take the form of one or more of the following: a. Creation of an additional class b. Reduce class size through student program changes c. Provide aide assistance to the class",
+    "page": "46-47",
+    "confidence": "high"
+  }
+}

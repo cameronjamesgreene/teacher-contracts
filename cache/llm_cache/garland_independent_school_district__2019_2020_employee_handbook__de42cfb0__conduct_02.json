@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Lesson plans are required of all teachers. Check with the principal concerning when plans are due each week. All secondary teachers in the core areas (math, science, social studies, and English Language Arts/Reading) should enter lesson plans into the district online curriculum planner or use the form chosen on that campus.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Lesson plans are required of all teachers. Check with the principal concerning when plans are due each week.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "discussed_unclear",
+    "evidence": "Refrain from sharing political views, including those related to GISD or opinions on public issues not pertaining to GISD.",
+    "page": "54",
+    "confidence": "low",
+    "coder_notes": "The provided document excerpt ends at page 36, so the cited page 54 is unavailable. Unable to verify the evidence or confirm if political activity restrictions/protctions are explicitly addressed."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "discussed_unclear",
+    "evidence": "While the First Amendment protects an employee’s right to engage in social media, courts have also ruled that school districts can discipline employees if their speech disrupts school operations. ... Employees are responsible for their public conduct even when they are not acting as district employees. Employees will be held to the same professional standards in their public use of electronic communications as they are for any other public conduct.",
+    "page": "55, 61",
+    "confidence": "low",
+    "coder_notes": "The provided document excerpt ends at page 36, so cited pages 55 & 61 are unavailable. Additionally, the evidence addresses social media and public conduct standards rather than explicitly protecting personal affairs during non-duty hours."
+  }
+}

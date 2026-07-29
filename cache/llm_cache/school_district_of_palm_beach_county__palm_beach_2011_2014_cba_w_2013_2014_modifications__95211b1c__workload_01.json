@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "196",
+    "evidence": "The employee contract year shall be 196 days and is a ten (10) month contract.",
+    "page": "52",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "8:00 a.m. to 3:30 p.m., with one (1) hour for lunch",
+    "evidence": "The workday for all employees during pre-school, post-school, and all Teacher Work days during the regular school year shall be from 8:00 a.m. to 3:30 p.m., with one (1) hour for lunch.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Planning periods are provided for the purpose of instructional planning.",
+    "page": "54",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "One class period for middle/high school; 45 consecutive minutes or two 30-minute blocks for elementary",
+    "evidence": "Employees in middle, high schools and schools instructing adults, shall be scheduled a planning period equal in length to one (1) class period each regular student attendance day. Elementary school employees shall have a non-student contact planning period of forty-five (45) consecutive minutes, or two (2) blocks of thirty (30) consecutive minutes each regular student attendance day.",
+    "page": "54",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "An elementary employee shall not be required to forfeit the lesser of either three (3) planning periods or one hundred thirty-five (135) minutes of his/her planning time per month (September through May) to attend meetings initiated by the administration. Employees who lose their planning time when assigned by their Principal to cover other employee’s assignments... may be given compensatory time or have their planning period restored by the Principal within a two (2) week period",
+    "page": "54, 60",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "all employees shall have a duty-free lunch period scheduled each regular student attendance day... Such duty-free lunch period shall be no less than thirty (30) continuous minutes. While no duties will be assigned during this lunch period",
+    "page": "67",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

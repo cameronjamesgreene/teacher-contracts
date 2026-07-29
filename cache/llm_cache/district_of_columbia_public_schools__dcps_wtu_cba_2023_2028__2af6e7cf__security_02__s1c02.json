@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "All Teachers who are separated by DCPS according to the provisions of this article shall have the right to reapply to DCPS at any time... If rehired, such Teachers shall be placed on the next salary step for which they would have been eligible at the time of their separation. If rehired within one year of separation, such Teachers shall incur no break in service for pension purposes.",
+    "page": "Page | 28",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "points-based rubric combining evaluation rating, unique skills, other contributions, and length of service",
+    "evidence": "DCPS shall retain the right to make the final excessing decision according to the following rubric: 1) Previous Year’s Final Evaluation Rating (Highest 50, Second Highest 40, Third Highest 30, Fourth/Lowest 0), 2) Unique Skills and Qualifications (High 20, Medium 10, Low 0), 3) Other Contributions to the Local Educational Program (High 20, Medium 10, Low 0), 4) Length of Service (20+ Years 10, 10-19 Years 5, 1-9 Years 1)... The Teacher in the competitive area... with the lowest point value overall according to the rubric above shall be the first Teacher to be excessed.",
+    "page": "Page | 24",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Excessed permanent status Teachers shall have sixty (60) calendar days following the effective date of the excess to secure another placement... Options include: 1) $25,000 cash buyout, 2) Early Retirement for 20+ years, 3) Extra Year with full salary/benefits and PD/support. Requires substantial effort to interview at 5 schools. Rehired teachers placed on next salary step; no break in service for pension if rehired within one year.",
+    "page": "Page | 25",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

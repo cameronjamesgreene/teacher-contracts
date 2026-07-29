@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "9.10 'In any case of intimidation, assault, battery, abuse, or threat with bodily harm by an individual or group upon a teacher... the Board shall provide legal counsel... Teachers shall immediately report any such incidents to their principal.' 9.08 'The Board shall reimburse teachers for damage to clothing, dentures, eyeglasses, prosthetic devices, or artificial limbs where such damage occurs as a result of... assault and/or battery occurring on him/her suffered in the course of the legal performance of his/her assigned duties.' 10.03 'ILLNESS-IN-LINE-OF-DUTY LEAVE... Leave shall be authorized for a total not to exceed ten (10) days per year... with full pay.'",
+    "page": "33, 36, 37, 43",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "9.03 'The teacher shall make every effort to deter misbehavior prior to sending a student to the office; however, a teacher may temporarily exclude a student from class... Students shall be disciplined according to the School Board’s Code of Student Conduct.' 9.03-1 'A teacher may impose classroom discipline where necessary and may use reasonable force to protect himself or another staff member from attack...' 9.03-4 'State required discipline statistics will be made available for review annually by the faculty steering and discipline committees.'",
+    "page": "33, 34",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "9.03 'a teacher may temporarily exclude a student from class by sending the student to the principal's office when the grossness of the offense, the persistence of the misbehavior, or the disruptive effect of the behavior makes the continued presence of the student in the classroom intolerable.'",
+    "page": "33",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

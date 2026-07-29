@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The Association shall be provided two (2) hours of released time during pre-planning in order to sponsor an activity for Association representatives and teachers new to Osceola County.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": "Revised from not_discussed to yes. Section 4.22 explicitly provides released time to sponsor activities for teachers new to the county, constituting orientation/support."
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Where grade level chairpersons, team leaders, and/or department chairpersons are deemed necessary by the principal in elementary and middle schools, these persons will be selected by the teachers of that grade, team, or department. In the event of a tie, the tie shall be broken by the principal. High School Department Chairpersons will be selected by the principal after receiving recommendations from the department.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Confidence updated to high. The passage explicitly establishes the creation and selection process for teacher leadership roles (chairpersons, team leaders) at the school level."
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Confirmed not_discussed. The provided contract text does not contain a career ladder or advancement pathway. While the Table of Contents references an MOU on the PROPEL ladder, the MOU text itself is not included in the provided document."
+  }
+}

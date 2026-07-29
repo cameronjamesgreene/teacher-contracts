@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "An experienced teacher shall receive full credit on the salary schedule for the first ten years of public school teaching experience.",
+    "page": "12",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "An experienced teacher shall receive full credit on the salary schedule for the first ten years of public school teaching experience.",
+    "page": "12",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "yes",
+    "evidence": "All other teaching experience shall be evaluated by the Human Resources office and the amount of credit granted shall depend upon the extent to which such experience is equivalent to public school teaching.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "Contract teachers returning from military leave shall be granted credit on the salary schedule at the following rate: One step on the salary schedule for each year of military service, or major part thereof, not to exceed three years' credit.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

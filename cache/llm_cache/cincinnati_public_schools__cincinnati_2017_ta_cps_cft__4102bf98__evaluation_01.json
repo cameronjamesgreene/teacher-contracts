@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes; reference only (Section 210)",
+    "evidence": "Section 210 – Clean‐up to align with the current process\n a. Active NBCT Certification satisfies LT Evaluation requirement and Continuing Contract Evaluation requirements\n b. Teachers should get Observation Reports electronically within 15 days of the observation\n c. The post observation conference must be held within 15 days of the first formal observation of the year.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high. The document explicitly references LT and Continuing Contract evaluation requirements and post-observation procedures in Section 210, directly supporting the answer."
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

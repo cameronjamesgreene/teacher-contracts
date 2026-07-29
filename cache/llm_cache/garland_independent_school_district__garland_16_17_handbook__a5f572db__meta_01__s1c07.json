@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "The policy and any necessary procedures must be included annually in the student and employee handbooks",
+    "page": "89",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "DU",
+    "evidence": "Date Issued: 3/15/2012",
+    "page": "89",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "This policy is binding for the duration of the staff member’s employment in GISD until replaced by a subsequently promulgated, signed Staff Acceptable Use Policy.",
+    "page": "103",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code 11.252 [See BQ] / Education Code 37.0832(a)-(e) / Texas Education Code, §21.351",
+    "page": "89",
+    "confidence": "high"
+  }
+}

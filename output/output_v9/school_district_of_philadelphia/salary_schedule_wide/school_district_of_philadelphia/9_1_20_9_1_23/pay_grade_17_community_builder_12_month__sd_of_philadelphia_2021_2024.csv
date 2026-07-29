@@ -1,0 +1,10 @@
+# SD_of_Philadelphia_2021-2024.pdf — Pay Grade 17 - Community Builder - 12 Month (9/1/20 - 9/1/23)
+# population: Community Builders | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p152) — one grid's data may be contaminated from another; verify | audit confirmed
+step,9/1/20,9/1/21,9/1/22,9/1/23
+01,27677,28438,29362,30243
+02,28973,29770,30737,31659
+03,35132,36098,37271,38389
+04,37388,38416,39664,40854
+05,39558,40646,41967,43226
+06,49362,50719,52368,53939

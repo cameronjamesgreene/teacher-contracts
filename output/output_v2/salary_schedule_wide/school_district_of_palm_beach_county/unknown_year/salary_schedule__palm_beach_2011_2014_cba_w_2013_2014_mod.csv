@@ -1,0 +1,32 @@
+# Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf — Salary Schedule ()
+# population: Certified teachers (inferred from CTA reference in footnote) | is_teacher_schedule: True
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+step,value
+1,39000
+2,39100
+3,39500
+4,40000
+5,40724
+6,41500
+7,42700
+8,43900
+9,45000
+10,46110
+11,47308
+12,48354
+13,49670
+14,51447
+15,52990
+16,54448
+17,55952
+18,57211
+19,58452
+20,60029
+21,61532
+22,63632
+23,65346
+24,67151
+25,68987
+26,70800
+27,71800
+LS*,73750

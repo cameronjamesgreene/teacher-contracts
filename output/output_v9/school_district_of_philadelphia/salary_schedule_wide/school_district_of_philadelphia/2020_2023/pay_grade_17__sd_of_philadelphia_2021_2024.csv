@@ -1,0 +1,10 @@
+# SD_of_Philadelphia_2021-2024.pdf — Pay Grade 17 (2020-2023)
+# population: Professional/Technical staff | is_teacher_schedule: False
+# validation_warnings: cross_grid_duplicate: cell values are ~identical to a different schedule (Professional/Technical Salaries p156) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_contamination: a value column matches a column in a different schedule (p156) — one grid's data may be contaminated from another; verify | audit confirmed
+step,9/1/20,9/1/21,9/1/22,9/1/23
+01,27676,28437,29362,30243
+02,28973,29770,30738,31660
+03,35132,36098,37271,38389
+04,37388,38416,39665,40855
+05,39558,40646,41967,43226
+06,52312,53750,55497,57162

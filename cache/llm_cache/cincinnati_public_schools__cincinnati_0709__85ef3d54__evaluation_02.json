@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "yes",
+    "evidence": "\"PAEP has two components: (a) Induction designed to assist and evaluate teachers during their first year of service in the district; and (b) Intervention, intended to assist experienced teachers who exhibit serious teaching deficiencies.\"",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_consequences_008": {
+    "answer": "yes",
+    "evidence": "\"Before a teacher may be given a rating in a comprehensive evaluation that results in the teacher being non-renewed, terminated, placed in intervention, denied an increment or placed at a lower salary level...\" and \"A teacher who has previously held a continuing contract in Ohio shall become eligible for a continuing contract after serving a two-year period in the Cincinnati Public Schools, provided the teacher’s comprehensive evaluation has affirmed his/her place at career level or higher\"",
+    "page": "17, 19",
+    "confidence": "high",
+    "coder_notes": "Updated page reference for the first quote to 19 to accurately reflect document pagination."
+  }
+}

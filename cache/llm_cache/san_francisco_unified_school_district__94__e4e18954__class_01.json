@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "The Union and District agree to work together to create a process which, in consideration of limited monetary resources, produces the lowest class size possible. / Classes shall be balanced as quickly as administratively feasible by September 15th... possibility of capping school and class enrollments",
+    "page": "12, 14, 16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_elementary_max_002": {
+    "answer": "Kindergarten: 28, Grades 1-2: 24, Grade 3: 25, Grades 4-5: 30",
+    "evidence": "9.5.1.1 Kindergarten ........................................... 28 / 9.5.1.2 Grades 1-2............................................... 24 / 9.5.1.3 Grade 3.................................................... 25 / 9.5.1.4 Grades 4-5............................................... 30",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_secondary_max_003": {
+    "answer": "Middle/High: English/ESL/Reading/Math Lab 25, Foreign Language/Math/Science/Social Studies/Business Ed/Family Life/Any other 30, Art/Homemaking/Industrial Arts/Music 28, PE 37. Small Necessary High Schools: 25",
+    "evidence": "9.5.2.1 English .......................... 25 / 9.5.2.11 Physical Education ................................. 37 / 9.5.2.16 Any other .............................. 30 / 9.5.3.1 English .......................... 25 / 9.5.3.18 Any other .............................. 30 / 9.5.4.1 class size .............................. 25",
+    "page": "16-18",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "If the assignment of a student after the tenth (10th) day of school causes this number to be exceeded, the UBC shall be provided documentation describing the efforts made to place the student in a less crowded class. / After the initial enrollment verification, the principal shall meet with the UBC periodically to make every reasonable effort to balance class sizes. If the situation cannot satisfactorily be resolved at the site, the Central Office and the Union shall be alerted for possible resolution.",
+    "page": "13, 15",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Teachers are expected to following the Aldine ISD Framework for Discipline Management. Teachers are expected to implement the Campus Discipline Framework developed at each campus. Administrators have the responsibility to: ... Provide appropriate support for teachers in dealing with student discipline problems sent to the office",
+    "page": "189",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "a teacher may remove a pupil from class in order to maintain effective classroom discipline... The principal may not return the student to that teacher's class without the teacher's consent unless the committee established under Section 37.003 determines that such placement is the best or only alternative available.",
+    "page": "191",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

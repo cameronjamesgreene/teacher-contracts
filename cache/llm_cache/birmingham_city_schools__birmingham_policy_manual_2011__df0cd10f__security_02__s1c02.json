@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "All tenure decisions for principals hired on or before June 30, 2000 are subject to the Tenure Act 16-24-1 through 16-24-8. Tenure decisions will be made based upon demonstrated excellence with respect to: 1. Communication 2. Collaboration 3. Assessment/Measurement/Evaluation 4. Organizing",
+    "page": "3036",
+    "confidence": "medium"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Certification of teachers and other personnel is determined by governing State laws and guidelines established by the State Board of Education.",
+    "page": "3010",
+    "confidence": "high"
+  }
+}

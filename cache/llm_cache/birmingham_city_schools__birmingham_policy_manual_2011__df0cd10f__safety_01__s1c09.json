@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The safety and well being of·each child are major concerns of the Board. In addition to providing a safe environment...",
+    "page": "8020",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The board believes that all students have a right to learn in a safe and orderly environment based upon the principles of respect and consideration for the rights of others... To that end, the board adopts policy number 8111, Birmingham City Schools' Code of Student Conduct, as its policy on student discipline and behavior.",
+    "page": "8105",
+    "confidence": "medium"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "School personnel shall develop emergency procedures for evacuating schools in the case of fires and for providing shelter from tornadoes.",
+    "page": "8020",
+    "confidence": "medium"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

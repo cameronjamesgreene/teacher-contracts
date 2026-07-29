@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Teachers who enroll in voluntary life insurance... non-contributory life insurance programs",
+    "page": "40, 41",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "includes the option of both short and long-term disability.",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Insurance benefits will be provided for teachers on sabbatical leave. Insurance benefits will not be provided for teachers whose sabbatical leave has been extended, without pay, beyond the one-year leave. Insurance benefits will not be provided for teachers on a one-year leave of absence without pay.",
+    "page": "33, 34",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Teachers who retire early under the provisions and timelines of the Early Retirement Incentive Program for Teachers may continue to enroll in the District’s group medical and dental programs for five consecutive years... Teachers may participate in the district-sponsored life insurance program for five consecutive years",
+    "page": "43",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

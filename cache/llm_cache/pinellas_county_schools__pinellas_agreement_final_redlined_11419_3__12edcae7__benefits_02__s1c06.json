@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "The Board will provide Employee Only vision coverage to all benefit eligible employees at no cost (employees must enroll). Employees may elect to cover a spouse and/or dependents through voluntary payroll deduction or flex credits.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "The Board shall provide, to eligible employees, group term life insurance in the amount of one (1) times annual salary rounded up to the next one thousand dollars ($1,000) with a minimum amount of $15,000.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "purchase supplemental benefits including Dental, Vision, AD & D, Short-Term and Long-Term Disability, the Hospital Confinement Plan and the Health Care Reimbursement Account (HCRA).",
+    "page": "66",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "While on an approved, non-FMLA, unpaid leave of absence, employees are required to pay the entire cost of all insurance plans... When an employee is on an approved Family Medical Leave (FMLA), the employee is responsible only for payment of the portion of premium(s) the employee normally pays.",
+    "page": "67",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "An employee who retires with six (6) or more years of service and elects to receive a state retirement check or retirees under the FRS investment plan with thirty (30) or more years of service may participate in the retiree insurance program.",
+    "page": "67",
+    "confidence": "high"
+  }
+}

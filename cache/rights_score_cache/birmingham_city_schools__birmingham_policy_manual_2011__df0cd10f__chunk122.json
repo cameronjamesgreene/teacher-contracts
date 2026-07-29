@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "If you have any doubt about whether a contemplated activity is educational, you may consult with the person(s) designated by the School to help you decide if a use is appropriate.",
+      "subject_text": "you",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Don't transmit offensive or harassing messages, offer for sale or use any substance the possession or use of which is prohibited by the School District's Student Discipline Policy, view, transmit or download pornographic materials or materials that encourage others to violate the .law , intrude into the networks or computers of others, and download or transmit confidential, trade secret information, or copyrighted materials.",
+      "subject_text": "you",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Imperative clause listing prohibited network uses."
+    },
+    {
+      "quote": "Even if materials on the networks are not marked with the copyright symbol, you should assume that all materials are protected unless there is explicit permission on the materials to use them.",
+      "subject_text": "you",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "should",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Don't engage in defamation (harming another's reputation by lies), employ another's password or some other user identifier that misleads message recipients into believing that someone other than you is communicating or otherwise using herlhis access to the network or the Internet, upload a worm, virus, ''trojan horse,\" ''time bomb\" or other harmful form or\" programming or vandalism, participate in \"hacking\" activities or any form of unauthorized access to other computers, networks, or information systems.",
+      "subject_text": "you",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Imperative clause listing prohibited network uses."
+    },
+    {
+      "quote": "Don't disclose or share your password with others, don't impersonate another user.",
+      "subject_text": "you",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Students and other users may not sell or buy anything over the Internet.",
+      "subject_text": "Students and other users",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "You should not give others private· information about you or others, including credit card numbers and social security numbers.",
+      "subject_text": "You",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "should",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "All users must abide by rules of network etiquette, which include the following:",
+      "subject_text": "All users",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

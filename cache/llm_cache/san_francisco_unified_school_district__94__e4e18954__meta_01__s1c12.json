@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA (Teacher Contract)",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "139",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "139",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "UESF (United Educators of San Francisco) membership (certificated, classified, and united support personnel)",
+    "evidence": "All certificated and classified members of the bargaining unit represented by UESF shall be eligible to be donors or recipients",
+    "page": "150",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "139",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Ed Code; SB2042; Senate Bill 65; California Civil Code",
+    "page": "139, 145, 151",
+    "confidence": "high"
+  }
+}

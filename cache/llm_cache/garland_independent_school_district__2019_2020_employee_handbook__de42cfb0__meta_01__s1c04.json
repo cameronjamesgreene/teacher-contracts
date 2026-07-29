@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees",
+    "evidence": "All employees are expected to work together in a cooperative spirit to serve the best interests of the district...",
+    "page": "48",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "19 TAC 247.1(b)",
+    "page": "49",
+    "confidence": "high"
+  }
+}

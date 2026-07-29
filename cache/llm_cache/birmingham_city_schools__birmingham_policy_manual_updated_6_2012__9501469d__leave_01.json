@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The provided document contains only form feed/page break characters with no substantive text. Confirms that sick leave provisions are not discussed in this document."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The provided document contains only form feed/page break characters with no substantive text. Confirms that sick leave accrual provisions are not discussed in this document."
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The provided document contains only form feed/page break characters with no substantive text. Confirms that family illness provisions are not discussed in this document."
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The provided document contains only form feed/page break characters with no substantive text. Confirms that personal leave provisions are not discussed in this document."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The provided document contains only form feed/page break characters with no substantive text. Confirms that personal leave restrictions are not discussed in this document."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "The provided document contains only form feed/page break characters with no substantive text. Confirms that personal leave conversion provisions are not discussed in this document."
+  }
+}

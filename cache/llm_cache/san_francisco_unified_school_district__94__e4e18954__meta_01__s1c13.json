@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA / Side letter agreement",
+    "evidence": "2004-2007 Teacher Contract ... SIDE LETTER AGREEMENT",
+    "page": "158-161",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007 school years; July 1, 2006 – June 30, 2007 for side letter provisions",
+    "evidence": "2004-2007 Teacher Contract / effective July 1, 2006 / continue until June 30, 2007",
+    "page": "158-159",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff (UESF)",
+    "evidence": "United Educators of San Francisco (“UESF”) / 2004-2007 Teacher Contract",
+    "page": "158-159",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Incorporated by reference into the Teachers Agreement, this Side Letter is subject to Article 19 – Grievance Procedure of that Agreement.",
+    "page": "160",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "state proposition 10",
+    "page": "158",
+    "confidence": "medium"
+  }
+}

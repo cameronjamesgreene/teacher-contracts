@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "discussed_unclear",
+    "evidence": "Deliverables of collaborative planning (e.g., lesson plan, unit plan, formative assessment, data analysis, professional development, etc.) may be required to document that the collaborative planning time is beneficial and reduces teacher workload.",
+    "page": "17",
+    "confidence": "medium"
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "Any involvement of the School Board in the private or personal life of the teacher shall remain within the scope of the Florida Statutes.",
+    "page": "14",
+    "confidence": "high"
+  }
+}

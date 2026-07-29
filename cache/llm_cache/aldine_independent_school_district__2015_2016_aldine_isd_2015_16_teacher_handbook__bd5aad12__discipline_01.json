@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "\"Professional employees may be terminated from employment before the end of the contract period for good cause, as determined by the Board. Any one or more of the following reasons shall be sufficient for non-renewal of the contract of a Chapter 21 professional employee: a. For good cause, as determined by the Board...\"",
+    "page": "6-7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "\"Not later than the 10th day before the last day of instruction required under the contract, the Board shall give notice of its decision to terminate the employment... Persons employed under a probationary contract are not entitled a hearing...\" (Probationary); \"If the person whose employment is governed by Chapter 21... desires a hearing... notify the Board of Trustees in writing not later than the 15th day after... hearing shall be conducted before the Board of Trustees... person may have a representative, may hear evidence... cross-examine adverse witnesses...\" (Term); \"If a teacher receives notice of a proposed decision to terminate... before the end of the contract period... the teacher may file a request for a hearing conducted by a hearing examiner appointed by the Commissioner of Education.\" (During contract). Decision maker: Board of Trustees.",
+    "page": "4-7",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

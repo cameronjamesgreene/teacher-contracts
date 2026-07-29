@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "In addition to those provided for in this Agreement",
+    "page": "18",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2006-07 school year; Effective July 1, 2005; Effective July 1, 2006",
+    "evidence": "The annual rate of contribution for the 2006-07 school year shall be one (1) day of sick leave.",
+    "page": "18",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Professional employees / Unit I members (PGCEA)",
+    "evidence": "Unit I members",
+    "page": "22",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "this Agreement",
+    "page": "18",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "pursuant to Maryland Law.",
+    "page": "21",
+    "confidence": "high"
+  }
+}

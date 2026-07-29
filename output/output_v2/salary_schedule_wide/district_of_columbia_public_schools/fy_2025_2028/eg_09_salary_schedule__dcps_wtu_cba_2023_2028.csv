@@ -1,0 +1,8 @@
+# DCPS_WTU_CBA_2023-2028.pdf — EG 09 Salary Schedule (FY 2025 - 2028)
+# population: EG 09 | is_teacher_schedule: False
+"# validation_warnings: duplicate step_labels: ['Bachelors']; identical values across steps ['Bachelors', 'Bachelors', 'Bachelors', 'Bachelors'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,Step 1,Step 2,Step 3,Step 4,Step 5,Step 6,Step 7,Step 8,Step 9,Step 10-16,Above,17-18 Yrs Service,19-20 Yrs Service
+Bachelors,78131,80747,83356,85972,88585,91198,93811,96426,99039,101654,103170,105696,109229
+Bachelors,78131,80747,83356,85972,88585,91198,93811,96426,99039,101654,103170,105696,109229
+Bachelors,78131,80747,83356,85972,88585,91198,93811,96426,99039,101654,103170,105696,109229
+Bachelors,78131,80747,83356,85972,88585,91198,93811,96426,99039,101654,103170,105696,109229

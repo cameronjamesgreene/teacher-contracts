@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Teachers who meet the above criterion and who have completed two consecutive years in a full-time assignment and are in the third consecutive year of a full-time assignment are permanent.",
+    "page": "1",
+    "confidence": "medium"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "The Fresno Unified School District shall employ only persons qualified as stipulated in the Education Code to teach in Adult Education.",
+    "page": "1",
+    "confidence": "medium"
+  }
+}

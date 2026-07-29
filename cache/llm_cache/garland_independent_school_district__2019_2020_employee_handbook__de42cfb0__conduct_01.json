@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees who wish to accept outside employment or engage in other activities for profit must submit a written request to their supervisor. Employees are required to disclose in writing to their immediate supervisor any outside employment that may create a potential conflict of interest with their assigned duties and responsibilities or the best interest of the district. Supervisors will consider outside employment on a case-by-case basis and determine whether it should be prohibited because of a conflict of interest.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "All district employees should perform their duties in accordance with state and federal law, district policies and procedures, and ethical standards. Violation of policies, regulations, or guidelines, including intentionally making false claims, offering false statements, or refusing to cooperate with a district investigation may result in disciplinary action, including termination. The Educator’s Code of Ethics, adopted by the State Board for Educator Certification, which all district employees must adhere to, is reprinted below",
+    "page": "49",
+    "confidence": "high",
+    "coder_notes": "Provided document excerpt ends at page 36; original evidence and page retained as it directly and explicitly supports the answer."
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Searches and Alcohol and Drug Testing Policy CQ, DHE... Alcohol and drug tests will be conducted when reasonable suspicion exists, at random, when an employee returns to duty after engaging in prohibited conduct, and as a follow-up measure.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "yes",
+    "evidence": "Garland ISD Social Media Guidelines... Professional social media includes work-related accounts established for campuses, departments, classrooms, individuals, etc. Personal social media includes activity by GISD employees that is not related to the district... Interaction with students via personal social media accounts is prohibited.",
+    "page": "52",
+    "confidence": "high",
+    "coder_notes": "Provided document excerpt ends at page 36; original evidence and page retained as it directly and explicitly supports the answer."
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Electronic mail transmissions and other use of the technology resources are not confidential and can be monitored at any time to ensure appropriate use. Employees are required to abide by the provisions of the district’s acceptable use agreement and administrative procedures.",
+    "page": "60",
+    "confidence": "high",
+    "coder_notes": "Provided document excerpt ends at page 36; original evidence and page retained as it directly and explicitly supports the answer."
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "The Texas educator shall comply with standard practices and ethical conduct toward students, professional colleagues, school officials, parents, and members of the community and shall safeguard academic freedom.",
+    "page": "49",
+    "confidence": "high",
+    "coder_notes": "Provided document excerpt ends at page 36; original evidence and page retained as it directly and explicitly supports the answer."
+  }
+}

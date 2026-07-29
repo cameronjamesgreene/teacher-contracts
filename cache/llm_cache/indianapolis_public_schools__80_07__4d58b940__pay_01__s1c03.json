@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX A ... SALARY SCHEDULES ... The salary scale for the 2007-2008 and 2009-2010 school years shall be as shown following paragraph 9 of this Appendix A.",
+    "page": "37-39",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2007-2008 and 2009-2010 school years",
+    "evidence": "The salary scale for the 2007-2008 and 2009-2010 school years shall be as shown following paragraph 9 of this Appendix A.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

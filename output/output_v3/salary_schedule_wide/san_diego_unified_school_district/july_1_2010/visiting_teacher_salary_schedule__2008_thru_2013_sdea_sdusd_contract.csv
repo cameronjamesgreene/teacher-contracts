@@ -1,0 +1,11 @@
+"# 2008-thru-2013-SDEA-SDUSD-Contract.pdf — VISITING TEACHER SALARY SCHEDULE (July 1, 2010)"
+"# population: visiting teachers, visiting military science instructors, visiting child development center teachers, and retired district unit members | is_teacher_schedule: False"
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+step,value
+Day-to-Day Visiting Teachers (Regular School Term),134.64
+Long-Term Visiting Teachers (Regular School Term),150.47
+Master Visiting Teacher,175.84
+Day-to-Day Visiting Teachers (Summer School and Intersession),117.21
+Long-Term Visiting Teachers (Full-Day Program) (Summer School and Intersession),133.86
+Day-to-Day Visiting Teachers (Early Childhood Education Program),115.68
+Long-Term Visiting Teachers (Early Childhood Education Program),123.68

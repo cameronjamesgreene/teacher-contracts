@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick leave may be used for the following reasons only: • Employee illness • Illness in the employee’s immediate family",
+    "page": "32",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "State law entitles all employees to five days of paid state personal leave per year.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Nondiscretionary (illness, emergency, death, military) vs. discretionary (advance planning required); written request needed for discretionary; prohibited on state-mandated assessment days; supervisors may restrict other discretionary days; prorated upon separation.",
+    "evidence": "State personal leave may be used for two general purposes: nondiscretionary and discretionary. ... No employee shall be granted discretionary use of state personal leave on days scheduled for state-mandated assessments. Individual supervisors may also restrict the use of state personal use for discretionary purpose on other days. ... state personal leave will be prorated based on the actual time employed.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

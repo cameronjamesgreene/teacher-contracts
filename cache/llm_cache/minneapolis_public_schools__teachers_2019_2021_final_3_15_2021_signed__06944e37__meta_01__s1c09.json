@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Minneapolis Board of Education and the Minneapolis Federation of Teachers to fulfill this state requirement.",
+    "page": "85",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (Minneapolis Federation of Teachers)",
+    "evidence": "PDP is: 1. for all teachers tenured and non-tenured",
+    "page": "83",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "ensure staff receives appropriate relicensure credit for PDP work as outlined in the Teachers Contract.",
+    "page": "89",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "The provided text is fully legible, properly formatted, and contains no scanning artifacts.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Minnesota State Law (§122A.41) on Peer Review requires all Minnesota school districts to develop and use a peer review process.",
+    "page": "85",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "- \"In accordance with Legislative Act 94-820,a student under 19 years of age may have his/her driver's licenses suspended for possession of a firearm on school premises.\"\n- \"In accordance with Legislative Act 94-817, possession of a deadly weapon on school premises with intent to do bodily harm is a Class C felony.\"\n- \"To provide and maintain a safe and secure environment for students, staff and visitors, the Board supports the requirement of The Alabama Administrative Code, section 290-030-010-06, to permit law enforcement agencies to make periodic, unannounced visits to any school within the Birmingham City School System.\"\n- \"LEGAL REF: The Code of Alabama, 16-1-24-1; The Alabama Administrative Code, 290-030-010-06.\"",
+    "evidence": "\"In accordance with Legislative Act 94-820,a student under 19 years of age may have his/her driver's licenses suspended for possession of a firearm on school premises.\"",
+    "page": "8135, 8206",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "- \"The Birmingham Board of Education acknowledges and adheres to the federal guidelines of the ''No Child Left Behind\" (NCLB) Act of2001.\"\n- \"In compliance with the requirements of the Public Law 103-382; Improving America's Schools 'Act of 1994; Part F. Section 14601, Gun -Free Requirements and Alabama Legislative Acts.\"\n- \"LEGAL REF: Sec. 1702, Gun-free .School Zone Act of 1990, 18 U.S. Code 921; Public Law 103-382;. \"Improving America's Schools Act of 1994,\" Part F, Section 14601, Gun-Free Requirements: Legislative Act 94-820, 94-817\"",
+    "evidence": "\"The Birmingham Board of Education acknowledges and adheres to the federal guidelines of the ''No Child Left Behind\" (NCLB) Act of2001.\"",
+    "page": "8135, 8205",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "\"No Child Left Behind\" (NCLB) Act of 2001; Public Law 103-382 (Improving America's Schools Act of 1994), Part F, Section 14601; Sec. 1702, Gun-free School Zone Act of 1990, 18 U.S. Code 921.",
+    "evidence": "\"The Birmingham Board of Education acknowledges and adheres to the federal guidelines of the ''No Child Left Behind\" (NCLB) Act of2001.\"",
+    "page": "8135, 8205",
+    "confidence": "high"
+  }
+}

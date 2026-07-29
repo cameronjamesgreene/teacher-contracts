@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "A teacher new to the Fresno Unified School District with previous teaching experience in an accredited school in grades Kindergarten through twelve will be given credit for one level for each year of teaching up to the maximum on the salary schedule",
+    "page": "67",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "A teacher new to the Fresno Unified School District with previous teaching experience in an accredited school in grades Kindergarten through twelve will be given credit for one level for each year of teaching up to the maximum on the salary schedule",
+    "page": "67",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "A teacher entering the Fresno Unified School District shall receive credit for military service upon the basis of one level for each two (2) years of military service, service in Vista or Peace Corps, with a limit of two (2) levels to be attained. This credit is not allowed unless the service interrupted tenure as a teacher in a public school system.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "discussed_unclear",
+    "evidence": "The Doctorate, BA + 90, MA, and National Board Certification and Career Increment additional sums shall be applicable to all certificated personnel on placement factors. The additional sums shall be added to the salary determined by the annual salary placement factor times placement on Salary Schedule A.",
+    "page": "71",
+    "confidence": "medium"
+  }
+}

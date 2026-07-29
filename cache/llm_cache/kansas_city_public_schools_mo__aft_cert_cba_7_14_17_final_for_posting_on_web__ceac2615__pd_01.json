@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "\"Secondary team/department members shall select their respective team leader/department chairperson using the following process: i) Select the team leader/department chairperson and submit his/her name to the principal. The principal shall approve or disallow the individual selected... 3. Team leaders/department chairpersons shall be compensated at the rate shown on the extra pay schedule.\" Appendix B lists roles/stipends including \"Department Chair- Max 7 per HS $825.00\", \"Middle Level Content Leader\", and \"PD Chair $750.00 per semester.\"",
+    "page": "38, 47-48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

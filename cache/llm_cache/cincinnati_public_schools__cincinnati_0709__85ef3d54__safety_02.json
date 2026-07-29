@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "However, neither parents nor other visitors shall be permitted to interrupt class or come to a teacher's room during class time unless they have made an appointment with the teacher. Parents and other visitors shall be required to check in at the school office.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

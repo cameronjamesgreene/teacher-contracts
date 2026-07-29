@@ -1,0 +1,11 @@
+# Pittsburgh_10-15.pdf — Sign Language Interpreter --- 192-day school year (2010-2014)
+# population: Sign Language Interpreter | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p26) — one grid's data may be contaminated from another; verify | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase
+1-,"26,170","26,670","27,170","27,670","28,170","28,670","13,520"
+2-,"27,970","28,470","28,970","29,470","29,970","30,470","11,720"
+3-,"29,570","30,070","30,570","31,070","31,570","32,070","10,120"
+4-,"32,660","33,160","33,660","34,160","34,660","35,160","7,030"
+5-,"33,900","34,400","34,900","35,400","35,900","36,400","5,790"
+6-,"37,190","37,690","37,990","38,490","38,990","39,490","2,500"

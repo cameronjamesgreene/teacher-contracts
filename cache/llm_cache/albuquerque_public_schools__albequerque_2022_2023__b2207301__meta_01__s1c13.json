@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "MOU",
+    "evidence": "J.17 School Psychologist Role and Responsibility Task Force                                  Memorandum of Understanding",
+    "page": "131",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2021-2022 through 2023-2024; some provisions through 2025-2026",
+    "evidence": "During the 2021-2022 school year ATF and APS agree to establish... 2022-2024 school years... by the 2025/2026 school year",
+    "page": "131, 139, 140",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "ATF members (certificated staff, counselors, nurses, support staff)",
+    "evidence": "Albuquerque Teachers Federation (“ATF”), and Albuquerque Public Schools Human Resources Department (“APS”)",
+    "page": "135",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "APS and ATF agree to the following changes in Article 21: Student Discipline as a good faith effort in the transition from traditional consequence -based practice to restorative ones.",
+    "page": "139",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "130",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "pursuant to the School Personnel Act, NMSA 22-10A-27 for discharges or pursuant to NMSA 22-10A-24 for terminations.",
+    "page": "135",
+    "confidence": "high"
+  }
+}

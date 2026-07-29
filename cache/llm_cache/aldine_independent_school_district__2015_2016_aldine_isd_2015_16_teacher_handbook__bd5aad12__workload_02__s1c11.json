@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Office Personnel 8 ½ hours including 30 minute lunch. non-professional staff should clock out and back in when taking their 30 minute lunch break.",
+    "page": "90",
+    "confidence": "medium"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Teacher and paraprofessional duty time will be determined by the building principal. A duty roster will be given to each teacher and one will be posted in the office. Special duty is a vital part of every teacher’s and paraprofessional’s responsibility.",
+    "page": "90",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "APPENDIX C: Supplements ... Pursuant to Section 1012.22(1)(c)4.b., Florida Statutes, both parties agree to review this supplements schedule annually and bargain collaboratively supplements that identify instructional personnel entitled to differentiated pay based upon factors, including, but not limited to, additional responsibilities, school demographics, critical shortage areas, and level of lob performance difficultes.",
+    "page": "87",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "The ESE supplement will be distributed to the following ESE teaching assignments: ASD, InD, EBD, Pre-K ESE, Hearing Impaired, Behavioral Center Schools (all instructional positions) (i.e. DJJ, ARC), Behavior Specialists ... The amount of the ESE supplement will be Index 20.",
+    "page": "88",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

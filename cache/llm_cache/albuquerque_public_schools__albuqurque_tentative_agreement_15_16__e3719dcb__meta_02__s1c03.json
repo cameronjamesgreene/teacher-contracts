@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Basic equipment for school nurses shall include a computer with internet access and printer w/ paper (to access the District student information system and print out reports and immunization records) and a fireproof, locking file cabinet (to maintain medical records per HIPAA federal regulations). JROTC Instructors shall have an extended contract and salary as provided in federal regulations.",
+    "evidence": "Basic equipment for school nurses shall include a computer with internet access and printer w/ paper (to access the District student information system and print out reports and immunization records) and a fireproof, locking file cabinet (to maintain medical records per HIPAA federal regulations). JROTC Instructors shall have an extended contract and salary as provided in federal regulations.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "HIPAA federal regulations; federal regulations (referenced regarding JROTC instructor contracts and salaries)",
+    "evidence": "Basic equipment for school nurses shall include a computer with internet access and printer w/ paper (to access the District student information system and print out reports and immunization records) and a fireproof, locking file cabinet (to maintain medical records per HIPAA federal regulations). JROTC Instructors shall have an extended contract and salary as provided in federal regulations.",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "It is the sale responsibility of the affected student, or the parent or guardian of the affected student.rto report incidences of harassment or other violations of this policy.",
+      "subject_text": "the affected student, or the parent or guardian of the affected student",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Complaints will be documented and investigated in accordance with the guidelines listed in.theCode of Student Conduct.",
+      "subject_text": "Complaints",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The principal or designee will conference with the victim and parent/guardian to discuss safety and community resources.",
+      "subject_text": "The principal or designee",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

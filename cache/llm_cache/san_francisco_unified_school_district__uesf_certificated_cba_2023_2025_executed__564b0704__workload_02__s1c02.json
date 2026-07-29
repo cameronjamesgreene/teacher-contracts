@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Teachers shall be provided a duty-free lunch period, equivalent in length to the lunch period of the teachers’ students, exclusive of passing periods, or thirty (30) consecutive minutes, whichever is longer.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Site-based meetings shall not exceed eight (8) hours per month for all TK-12 teachers, inclusive of faculty meetings but including at least two (2) hours per month for grade level planning time.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "The site administrator of each school may require teachers to perform related duties on a reasonable and equitably distributed basis among teachers, such time to be considered part of the work week described above. Such duties may include after school parent or student events, athletic events, and activities.",
+    "page": "12",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,15 @@
+"# Pittsburgh_10-15.pdf — Preschool Teachers (Early Childhood), Level II Salary Schedules (June 2010)"
+"# population: Preschool Teachers (Early Childhood), Level II | is_teacher_schedule: True"
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p28) — one grid's data may be contaminated from another; verify | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase
+1-,31940,32940,33440,33940,34440,34440,14240
+2-,35030,36030,36530,37030,37530,37530,12500
+3-,38120,39120,39620,40120,40620,40620,10850
+4-,41210,42210,42710,43210,43710,43710,9200
+5-,42450,43450,43950,44450,44950,44950,11770
+6-,43680,44680,45180,45680,46180,46180,10540
+7-,45030,46030,46530,47030,47530,47530,9190
+8-,46470,47470,47970,48470,48970,48970,7750
+9-,47910,48410,48910,49410,49910,54220,6310
+10-,51720,52720,53220,53720,54220,54220,2500

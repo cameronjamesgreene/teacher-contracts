@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes; Appendix B",
+    "evidence": "Salary tables and pay rates are located in Appendix B.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": "Removed extraneous teacher classifications from the Stage 1 answer as they are not explicitly listed in the provided excerpt for Appendix B. The core answer remains valid."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2005-2006 and 2006-2007",
+    "evidence": "11.2 2005-2006 Salary Adjustments; 11.3 2006-2007 Salary Adjustments",
+    "page": "29-30",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "yes; One rating increase for a complete school year of service, effective with the percentage salary increase. Career Increments A-E require three complete school years at the prior rating.",
+    "evidence": "Members of the bargaining unit who meet the requirements for an increment (one rating increase for a complete school year of service) for any school year shall receive that increment during that school year effective the same date as the percentage salary increase. (p. 32) A member of the bargaining unit who is placed at the top rating in a classification having a Career Increment A shall be entitled to placement at Career Increment A after having served three (3) complete school years during which final placement was the top rating of that classification. (p. 33)",
+    "page": "32-33",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include 11.8.3 Career Increment requirements to fully support the answer. Removed '75% of required days' as it is not explicitly stated in the provided excerpt for increments."
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "A newly-appointed probationary teacher shall receive year-for-year credit for verified outside teaching in full-time permanent or probationary teacher, temporary, categorical, emergency or long-term substitute status.",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Stage 1 answer claimed 'yes' and cited page 33, but the provided document excerpt cuts off at 11.8.5 on page 33. The specific section on prior experience credit is absent. Changed to not_discussed per audit guidelines."
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "No mention of performance/merit pay in the provided excerpt. Article 16 (Evaluation) begins on page 49 and is not included."
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

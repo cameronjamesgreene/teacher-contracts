@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes. Schedule title: Appendix A – Salary Matrices; Covered year: 2022-2023; Covered employee group: Albuquerque Teachers Federation Bargaining Unit (Level 1, 2, 3 educators, Therapist Assistants, Community School Coordinators, Behavior Management Specialists); Appendix: A (pages 97-103).",
+    "evidence": "APPENDIX A – SALARY MATRICES ... Salary matrices for the 2022-2023 school year for the Albuquerque Teachers Federation Bargaining Unit",
+    "page": "97",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2022-2023",
+    "evidence": "Salary matrices for the 2022-2023 school year for the Albuquerque Teachers Federation Bargaining Unit",
+    "page": "97",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes. Experience is credited based on verified hours per school year (570 hours for 184-day contracts, 600 for 194-day, 785 for 206-day). Hours may not be totaled across years. Substitute teaching is not recognized. Employee responsible for verification. Placement also references Article 10 for additional criteria.",
+    "evidence": "Five hundred seventy (570) hours of verified experience in a single school year will count as a year of experience for one hundred eighty-four (184)-day contracts... Substitute teaching is not recognized as teaching experience.",
+    "page": "97",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

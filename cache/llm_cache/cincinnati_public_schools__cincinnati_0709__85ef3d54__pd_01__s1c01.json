@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The Federation shall have the exclusive right to participate in the New Teacher Orientation, or similar summer inservice program, which may replace the New Teacher Orientation and shall have the opportunity to meet separately with new teachers.",
+    "page": "2",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  }
+}

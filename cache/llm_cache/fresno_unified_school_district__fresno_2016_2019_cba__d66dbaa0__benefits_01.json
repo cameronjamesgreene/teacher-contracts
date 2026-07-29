@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The District shall provide District paid coverage (less the applicable employee contribution) for bargaining unit members and eligible dependents as specified within this Article and in the FUSD Employee Health Care Plan Document.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "The District contributes a total of $17,789 annually per active employee effective July 1, 2017, plus an automatic annual increase based on the percentage increase in the District's base grant revenues (BGR). An additional $3,000,000 was allocated for the 2015-2016 school year.",
+    "evidence": "Effective as of July 1, 2017... the District shall increase the annual per active employee contribution to the Health Fund for a total amount of $17,789. / District’s contribution to the Health Fund... shall be automatically increased by the percentage figure representing the effective, ongoing dollar increase to the District’s base grant revenues (BGR) / increase the annual contribution to the health fund in the amount of three million ($3,000,000) dollars.",
+    "page": "23, 24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employees contribute a monthly Health Plan Reserve Assessment of $10.00. Detailed monthly contributions/assessments are referenced in the FUSD Plan document or online. A 90-10 plan option is available, with the District covering premium increases through 2018-19.",
+    "evidence": "all eligible active employees and pre-65-year-old retirees shall contribute a Health Plan Reserve Assessment of $10.00 per month. / Specific information regarding monthly contributions, assessments, co-pays and deductibles for all plan coverages can be found in the FUSD Plan document or at jhmbhealthconnect.com. / add a 90-10 health insurance plan option with out of pocket maximums of $2,500 for the single plan and $5,000 for the family plan. ... The District shall maintain these benefit levels (90-10 and $2,500/$5,000) and pay any health insurance premium increase for the employees through the term of this contract ending 2018-19, contingent upon approval from JHMB.",
+    "page": "27, 23",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly include the 90-10 plan provision and district premium coverage commitment that were in the answer but missing from the original quote."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "The District shall not prohibit any bargaining unit members from enrolling all eligible dependents as defined by the eligibility requirements of the FUSD Employee Health Care Plan Document.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "A 90-10 health insurance plan option (with out-of-pocket maximums of $2,500 single/$5,000 family) and the Kaiser Permanente health plan.",
+    "evidence": "add a 90-10 health insurance plan option with out of pocket maximums of $2,500 for the single plan and $5,000 for the family plan. / Kaiser Permanente health plan",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "Yes. Dental coverage is available and can be changed during the annual open enrollment period. Employer contribution details are referenced to the FUSD Employee Health Care Plan Document.",
+    "evidence": "The open enrollment period will also be the time in which plan coverage (Dental and Vision) may be changed.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

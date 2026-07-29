@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "All Teachers serving in elementary schools shall receive two hundred twenty-five (225) minutes per week for planning periods.",
+      "subject_text": "All Teachers serving in elementary schools",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "The planning periods shall be scheduled during the normal workday, as defined in this Agreement.",
+      "subject_text": "The planning periods",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Passive construction implies an implicit management duty to schedule periods during the workday."
+    },
+    {
+      "quote": "The Supervisor, in consultation with the SCAC, shall implement the following options, in the order provided below, to achieve the two hundred twenty-five (225) minutes for planning periods.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "The Supervisor shall proceed to the next option only if the previous option cannot be achieved.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers receive 45-minute planning periods five days a week.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers receive planning time four days a week.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers receive planning time three days a week.",
+      "subject_text": "Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "This option shall be implemented only for those teachers for whom the Supervisor is unable to achieve the required minimum of 225 minutes of weekly planning time through use of option 1, option 2, or option 3 of this section.",
+      "subject_text": "This option",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Passive construction implies management implementation requirement."
+    },
+    {
+      "quote": "In such case, each Teacher affected shall be provided a minimum of 225 minutes per week of individual planning time using the following procedures.",
+      "subject_text": "each Teacher affected",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": "Passive construction grants teachers the right to receive planning time."
+    }
+  ]
+}

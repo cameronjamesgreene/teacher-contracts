@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "If a remedy exists under Article 6, Section 202 of the Education Article of the Annotated Code of Maryland, it is understood that actions taken under that article and section are not subject to the grievance and arbitration procedure in Article 5 of this Agreement.",
+    "evidence": "If a remedy exists under Article 6, Section 202 of the Education Article of the Annotated Code of Maryland, it is understood that actions taken under that article and section are not subject to the grievance and arbitration procedure in Article 5 of this Agreement.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The Elementary and Secondary Education Act (No Child Left Behind Act of 2001) (NCLB) now requires that all school districts employ only “highly qualified” teachers, as defined by the Act. The Elementary and Secondary Education Act also imposes additional specific “quality” requirements on elementary and secondary teachers.",
+    "evidence": "The Elementary and Secondary Education Act (No Child Left Behind Act of 2001) (NCLB) now requires that all school districts employ only “highly qualified” teachers, as defined by the Act. The Elementary and Secondary Education Act also imposes additional specific “quality” requirements on elementary and secondary teachers.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Elementary and Secondary Education Act; No Child Left Behind Act of 2001 (NCLB)",
+    "evidence": "The Elementary and Secondary Education Act (No Child Left Behind Act of 2001) (NCLB) now requires that all school districts employ only “highly qualified” teachers, as defined by the Act.",
+    "page": "26",
+    "confidence": "high"
+  }
+}

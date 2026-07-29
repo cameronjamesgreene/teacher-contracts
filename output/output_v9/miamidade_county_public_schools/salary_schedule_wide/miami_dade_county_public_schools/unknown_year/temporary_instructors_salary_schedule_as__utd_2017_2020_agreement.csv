@@ -1,0 +1,9 @@
+# UTD_2017-2020_Agreement.pdf — TEMPORARY INSTRUCTORS' SALARY SCHEDULE (AS) ()
+"# population: emergency, paraprofessional and pool temporary instructors | is_teacher_schedule: False"
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p122) — one grid's data may be contaminated from another; verify | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+Pool,123
+Temporary Instructor - Degreed,97
+Temporary Instructor - Associate Degree,71
+Paraprofessional (High School or Equivalent),62

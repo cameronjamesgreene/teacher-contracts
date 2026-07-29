@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Unit members who bring personal property to the work site to be used as an integral part of and necessary to the educational program shall be reimbursed for any verified loss, damage or destruction by malicious acts of others including arson, burglary, or vandalism.",
+      "subject_text": "Unit members who bring personal property to the work site to be used as an integral part of and necessary to the educational program",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "The reimbursement value shall be determined as of the time of the verified loss",
+      "subject_text": "The reimbursement value",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "shall include normal allowance for depreciation.",
+      "subject_text": "The reimbursement value",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Reasonable care shall be taken by the unit member to adequately protect such property while it is on school property.",
+      "subject_text": "Reasonable care",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Reimbursement shall be conditioned upon the absence of negligence by the unit member.",
+      "subject_text": "Reimbursement",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Only personal property in excess of $25.00 shall be considered for reimbursement.",
+      "subject_text": "Only personal property in excess of $25.00",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The maximum reimbursement for any one incident shall be $1,000.00.",
+      "subject_text": "The maximum reimbursement for any one incident",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Requests for reimbursements of amounts over $1,000.00 shall be submitted to the Superintendent,",
+      "subject_text": "Requests for reimbursements of amounts over $1,000.00",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "who shall consider the request and render a decision.",
+      "subject_text": "who",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

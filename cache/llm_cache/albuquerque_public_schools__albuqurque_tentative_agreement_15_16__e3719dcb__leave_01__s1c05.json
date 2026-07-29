@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 days (183/184-day contracts); 12 days (208-day contract)",
+    "evidence": "a. Those employed for one hundred eighty-three (183) days – 10 days... b. Those employed for one hundred eighty-four (184) days – 10 days... c. Those employed for two hundred and eight (208) days – 12 days",
+    "page": "Article 17.L.1",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, it accumulates; cap is 1300 work hours.",
+    "evidence": "accumulating up to 1300 work hours.",
+    "page": "Article 17.L.1",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Up to three (3) days of sick leave may be used by a teacher for each serious illness of a member of that teacher's immediate family",
+    "page": "Article 17.E.1",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "1",
+    "evidence": "One (1) day of leave with pay each year is granted to an employee for personal matters",
+    "page": "Article 17.H.1",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires special leave slip submission at least 3 days prior; not subject to principal approval except emergencies; reason need not be stated.",
+    "evidence": "Except in emergency situations, this leave is not subject to principal approval, however the employee must submit a special leave slip to his or her supervisor at least three (3) days prior to the date the leave will be taken. The teacher need not state the reason for taking leave under this section.",
+    "page": "Article 17.H.2",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "This leave may be accumulated up to five (5) days, including leave earned under Article 6, A.15.",
+    "page": "Article 17.H.1",
+    "confidence": "high"
+  }
+}

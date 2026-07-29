@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "Recommendations to the Labor/Management Evaluation Committee that is charged with developing a new evaluation procedure for certificated personnel shall also include recommendations for changes in the PAR program.",
+    "page": "165",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "California Standards for the Teaching Profession (as Modified for use in San Francisco Unified School District); Peer Assistance and Review (PAR) program",
+    "evidence": "Appendix D - California Standards for the Teaching Profession (as Modified for use in San Francisco Unified School District)",
+    "page": "158",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "\"needs improvement\", \"meets standards/basic\", \"proficient\"",
+    "evidence": "Teachers who receive a “needs improvement” rating for two consecutive semesters shall be eligible to be referred to the PAR program",
+    "page": "165",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

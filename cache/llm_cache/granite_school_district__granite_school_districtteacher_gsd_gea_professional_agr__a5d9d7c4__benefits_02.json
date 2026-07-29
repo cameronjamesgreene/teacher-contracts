@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Insurance coverage (medical, life, etc.)... Voluntary life insurance becomes effective when approved by the carrier... non-contributory life insurance programs",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "Effective 1/1/93, the majority of currently employed teachers will convert to a new accumulative sick leave program, which includes both short and long-term disability.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "up to 60% of final contract salary, plus 0.005 times final base salary times years of service, and establishment of a 403(b) program for district-sponsored early retirement monies",
+    "evidence": "up to 60% of the amount of the retiring teacher’s final full-time contract salary. ... .005 times the final base salary ... times the number of years of service ... District will establish a 403(b) program for the deposit of district sponsored early retirement monies",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "The medical, surgical, hospitalization, and life insurance program will be provided for teachers on sabbatical leave. ... will not be provided for teachers whose sabbatical leave has been extended, without pay, beyond the one-year leave.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

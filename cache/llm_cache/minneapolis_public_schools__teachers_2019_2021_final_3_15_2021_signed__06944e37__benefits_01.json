@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The District agrees to offer group insurance benefits that include health, dental, life and long-term disability coverage.",
+    "page": "152",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "District pays full cost of lower/lowest cost employee-only plan. For dependent coverage, District contributes $5,050 above employee-only cost (effective 1/1/2015) or $5,650 above (effective 1/1/2017).",
+    "evidence": "9.4.2 ...the District will pay the full cost of the cost towards the lower/lowest cost employee-only plan(s)... 9.4.3 ...the District shall contribute 5,050 above the full cost of employee only coverage... Effective January 1, 2017, the District shall contribute $5,650 above...",
+    "page": "153",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Up to $600 annual maximum for employee-only coverage. For dependent coverage, employee pays the difference between the District contribution and the total family plan cost.",
+    "evidence": "teacher will contribute up to $600 annual maximum (up to $30 per pay check maximum) towards the highest cost plan premium less the cost of the lower cost plan premium. ... The teacher shall pay the difference between the District contribution and the total cost of the family health plan coverage.",
+    "page": "153",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Teachers may enroll in employee only or dependent coverage. Sections 9.4.3, 9.4.4, and 9.4.5 specify rules for dependent, married couple, and domestic partner coverage respectively.",
+    "page": "153",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "The District agrees to offer group insurance benefits that include health, dental, life and long-term disability coverage. ... 9.5 Dental Insurance: ... The employee’s annual contribution for dental coverage shall be as follows: a. Employee only: $100.00 annually...",
+    "page": "152, 154",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

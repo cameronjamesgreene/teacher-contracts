@@ -1,0 +1,5 @@
+# Pittsburgh_10-15.pdf — Salary Schedule (All are at top step.) (2010-2014)
+# population: Not specified | is_teacher_schedule: False
+# validation_warnings: label_not_in_source: 'Total Increase^1' — this row/column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase^1
+Top Step,76700,78200,79700,81200,82700,84200,7500 / 9.78%

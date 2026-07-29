@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "System-owned vehicles shall be used only for school purposes or as specified or authorized by the Board.",
+      "subject_text": "System-owned vehicles",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Employees operating motor vehicles belonqing to the System are required to be qualified licensed drivers",
+      "subject_text": "Employees operating motor vehicles belonqing to the System",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "are expected to operate vehicles in a careful manner with due reqard for school property, private property; and the riqhts of others.",
+      "subject_text": "Employees operating motor vehicles belonqing to the System",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Drivers of school-owned vehicles shall be covered by liability insurance in such ~ts      as the Board may frmD time to time deteDmine.",
+      "subject_text": "Drivers of school-owned vehicles",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Any citizen seeking to inspect andlor obtain copies of the board's public writings should contact the Superintendent's Office to request a copy of the Board's Open Record's Act Request Form and the procedures by which the information will be provided.",
+      "subject_text": "Any citizen seeking to inspect andlor obtain copies of the board's public writings",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "should",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Procedural policy statement regarding public records access."
+    },
+    {
+      "quote": "A long-range facility planning program, developed by the administrative staff and updated continuously and reviewed at least annually, will be available as a data base for site acquisitions, planning new facilities, enlarging present facilities, remodeling existing facilities, and disposing of unneeded buildings and grounds.",
+      "subject_text": "A long-range facility planning program, developed by the administrative staff and updated continuously and reviewed at least annually",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "this long-range plan vUl be ba.ed on information available throush governmentalagencies, frOID.chool records. principal. and other available sources.",
+      "subject_text": "this long-range plan",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Contains OCR errors but conveys a planning requirement."
+    }
+  ]
+}

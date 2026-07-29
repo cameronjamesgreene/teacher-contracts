@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against provided text. The document covers Board administration, Superintendent duties, and various Personnel policies (grievances, evaluations, leave, layoffs), but contains no provisions regarding teacher work days, workday length, planning/preparation time, or lunch duty."
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against provided text. The document covers Board administration, Superintendent duties, and various Personnel policies (grievances, evaluations, leave, layoffs), but contains no provisions regarding teacher work days, workday length, planning/preparation time, or lunch duty."
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against provided text. The document covers Board administration, Superintendent duties, and various Personnel policies (grievances, evaluations, leave, layoffs), but contains no provisions regarding teacher work days, workday length, planning/preparation time, or lunch duty."
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against provided text. The document covers Board administration, Superintendent duties, and various Personnel policies (grievances, evaluations, leave, layoffs), but contains no provisions regarding teacher work days, workday length, planning/preparation time, or lunch duty."
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against provided text. The document covers Board administration, Superintendent duties, and various Personnel policies (grievances, evaluations, leave, layoffs), but contains no provisions regarding teacher work days, workday length, planning/preparation time, or lunch duty."
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified against provided text. The document covers Board administration, Superintendent duties, and various Personnel policies (grievances, evaluations, leave, layoffs), but contains no provisions regarding teacher work days, workday length, planning/preparation time, or lunch duty."
+  }
+}

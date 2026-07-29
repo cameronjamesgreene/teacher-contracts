@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10",
+    "evidence": "Teachers actively employed with the District at the start of the school year shall be granted a credit of ten (10) days of sick leave allowance beginning the first day of active employment.",
+    "page": "166",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates and carries over without limit; no cap stated",
+    "evidence": "A teacher shall be permitted to carry forward the unused portion of sick leave without limit.",
+    "page": "166",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Teachers may use their accumulated sick leave for major illness or injury (major defined as: one of a serious nature with the possibility of complications and/or death) of a member of the immediate family... Teachers may use accumulated sick leave for illness or injury of their children.",
+    "page": "166",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "Three (3) non-cumulative personal leave days, deducted from sick leave, may be taken and shall be granted each year... Two (2) additional non-cumulative personal leave days, deducted from sick leave, may be taken and shall be granted each year.",
+    "page": "170",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Non-cumulative; requires at least one day prior notice for non-emergencies to arrange substitutes; no explanation, forms, or approval required; not for vacation or extending breaks. For emergencies, written notification may be requested after leave is taken.",
+    "evidence": "Whenever possible in non-emergency situations... the teacher should provide prior notification of dates of absence for personal leave to the principal/supervisor at least one day prior so that sub arrangements can be made. Personal leave is not vacation and is not used to extend breaks such as winter or spring break.",
+    "page": "170",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes, Article XVIII Evaluation (reference only)",
+    "evidence": "ARTICLE XVIII EVALUATION... The parties agree that the evaluation timelines, guidelines, and documents as they appear in the District Academic Achievement Plan as approved by the Board of School Commissioners on August 31, 2000, are the documents that shall govern those evaluated under this Article.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "District Academic Achievement Plan (and Appendix D)",
+    "evidence": "...evaluation timelines, guidelines, and documents as they appear in the District Academic Achievement Plan as approved by the Board of School Commissioners on August 31, 2000, are the documents that shall govern those evaluated under this Article. (See Appendix D.)",
+    "page": "32",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

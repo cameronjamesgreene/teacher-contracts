@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "JROTC Instructors shall have an extended contract and salary as provided in federal regulations.",
+    "evidence": "JROTC Instructors shall have an extended contract and salary as provided in federal regulations.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal regulations",
+    "evidence": "federal regulations",
+    "page": "30",
+    "confidence": "high"
+  }
+}

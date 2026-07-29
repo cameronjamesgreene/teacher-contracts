@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "yes",
+    "evidence": "Written notice shall be given to the building principal when it is known in advance that the certified employee will be unable to perform his/her duties satisfactorily. The notice shall indicate the medical reason and the approximate dates of expected absence.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": "Changed from 'no'/'not_discussed' to 'yes'. Article X, Section E explicitly specifies the procedure for reporting teacher absences (written notice to the principal with medical reason and dates), directly addressing the 'absence reporting' part of the question. Stage 1 missed this passage."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.",
+    "evidence": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.\n\nAll other reviews shall be executed to ensure compliance with city, state, and federal regulations;",
+    "evidence": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.\n\nAll other reviews shall be executed to ensure compliance with city, state, and federal regulations;",
+    "page": "6, 8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family Medical Leave Act (FMLA)",
+    "evidence": "An employee who has used up all current and accumulated days of sick leave allowance, and who has used up all leave available pursuant to the Family Medical Leave Act, who presents a request supported by a doctor’s statement that he/she is unable to return to work for medical reasons, may be placed by administrative action on extended health leave as required up to the remainder of a current semester.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": "Corrected initial answer which incorrectly stated no federal laws were cited by name. The document explicitly cites the Family Medical Leave Act on page 32."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "2. Teacher Assault by Student a. Recommendation, Report, and Hearing b. Assistance in Student Assault Cases",
+    "page": "52",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "1. Student Discipline a. Compliance with District Code of Conduct and State Law h. Assistance for Classroom Management",
+    "page": "50",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "A teacher shall have the right to remove from class pupils exhibiting disruptive behavior with reasons submitted in writing as soon as possible.",
+    "page": "51",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "",
+    "confidence": "high"
+  }
+}

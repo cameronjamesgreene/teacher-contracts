@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "A. At the beginning of each school year, each certified employee shall be credited with ten (10) days or more of sick leave allowance as referred to in this Article at B, 1 or as allowed by Idaho Code 33-1216.",
+    "evidence": "A. At the beginning of each school year, each certified employee shall be credited with ten (10) days or more of sick leave allowance as referred to in this Article at B, 1 or as allowed by Idaho Code 33-1216.",
+    "page": "19",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "E. Parental leave will not be granted beyond the Family Medical Leave Act more than once in a 36-month period.",
+    "evidence": "E. Parental leave will not be granted beyond the Family Medical Leave Act more than once in a 36-month period.",
+    "page": "20",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family Medical Leave Act",
+    "evidence": "E. Parental leave will not be granted beyond the Family Medical Leave Act more than once in a 36-month period.",
+    "page": "20",
+    "confidence": "high"
+  }
+}

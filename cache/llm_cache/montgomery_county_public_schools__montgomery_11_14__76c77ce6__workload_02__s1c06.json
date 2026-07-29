@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Unit members’ lunch period shall be no less than 30 minutes in length.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "School-based unit members may be required to remain after the end of the unit members’ day without compensation for no more than three hours per month to attend faculty or other meetings, which will commence 15 minutes after the students’ day. No single meeting will last more than one and one-half hours.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Some non-instructional time is occupied with supervision of students prior to and after the official student day.",
+    "page": "36",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "Yes. The document requires \"just cause\" for permanent employees and protection from actions that are \"arbitrary or capricious\" for probationary employees. Covered actions include written reprimand, suspension, and disciplinary discharge.",
+    "evidence": "The standard for disciplining permanent employees shall be just cause. The standard for disciplining probationary employees shall be not arbitrary or capricious, as opposed to at will.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "Yes. Grounds include unsatisfactory performance, unprofessional conduct, and violations of school laws/regulations. Notice requires written charges with specific evidence at least 10 school days prior to the effective date. Hearing/representation rights allow reviewing documents, meeting with the Chancellor's representatives, submitting a written reply within 5 days, and having a WTU rep at meetings. Grievances may be heard at Step 2 by a neutral hearing officer or appealed to arbitration. Timelines require initiation within 45 school days and investigation completion within 55 calendar days. The decision maker is the official taking the action (Chancellor/designee), subject to Step 2 or arbitration review.",
+    "evidence": "the official taking the action shall provide the employee with advance written notice of the charge[s], which shall include a specific statement of the evidence supporting such charge[s], no later than ten (10) school days prior to the effective date of the discipline.",
+    "page": "37",
+    "confidence": "high"
+  }
+}

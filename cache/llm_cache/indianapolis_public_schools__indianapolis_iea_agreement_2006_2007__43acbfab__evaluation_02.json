@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "discussed_unclear",
+    "evidence": "...they are on a Performance Improvement Plan...",
+    "page": "10",
+    "confidence": "low",
+    "coder_notes": "Changed from not_discussed to discussed_unclear. The document explicitly names a 'Performance Improvement Plan' as a condition for evaluation, but does not describe the plan's structure or how it applies to low-rated teachers."
+  },
+  "evaluation_consequences_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Confirmed that Article XVIII details evaluation frequency, pilot programs, and committees but does not link evaluation results to tenure, layoff priority, transfers, or compensation."
+  }
+}

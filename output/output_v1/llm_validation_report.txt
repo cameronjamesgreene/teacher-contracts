@@ -1,0 +1,183 @@
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_01_main.csv: 10 main rows
+  missing main fields: 292
+    pay_step_increment_003_answer
+    pay_step_increment_003_evidence
+    pay_step_increment_003_page
+    pay_step_increment_003_confidence
+    pay_prior_experience_005_answer
+    pay_prior_experience_005_evidence
+    pay_prior_experience_005_page
+    pay_prior_experience_005_confidence
+    pay_performance_pay_006_answer
+    pay_performance_pay_006_evidence
+    pay_performance_pay_006_page
+    pay_performance_pay_006_confidence
+    pay_performance_pay_007_answer
+    pay_performance_pay_007_evidence
+    pay_performance_pay_007_page
+    pay_performance_pay_007_confidence
+    pay_cost_of_living_007_answer
+    pay_cost_of_living_007_evidence
+    pay_cost_of_living_007_page
+    pay_cost_of_living_007_confidence
+  extra main fields: 804
+    pay_salary_steps_003_answer
+    pay_salary_steps_003_evidence
+    pay_salary_steps_003_page
+    pay_salary_steps_003_confidence
+    pay_salary_lanes_004_answer
+    pay_salary_lanes_004_evidence
+    pay_salary_lanes_004_page
+    pay_salary_lanes_004_confidence
+    pay_lane_names_005_answer
+    pay_lane_names_005_evidence
+    pay_lane_names_005_page
+    pay_lane_names_005_confidence
+    pay_ba_start_006_answer
+    pay_ba_start_006_evidence
+    pay_ba_start_006_page
+    pay_ba_start_006_confidence
+    pay_ma_start_007_answer
+    pay_ma_start_007_evidence
+    pay_ma_start_007_page
+    pay_ma_start_007_confidence
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_02_main.csv: 10 main rows
+  missing main fields: 292
+    pay_step_increment_003_answer
+    pay_step_increment_003_evidence
+    pay_step_increment_003_page
+    pay_step_increment_003_confidence
+    pay_prior_experience_005_answer
+    pay_prior_experience_005_evidence
+    pay_prior_experience_005_page
+    pay_prior_experience_005_confidence
+    pay_performance_pay_006_answer
+    pay_performance_pay_006_evidence
+    pay_performance_pay_006_page
+    pay_performance_pay_006_confidence
+    pay_performance_pay_007_answer
+    pay_performance_pay_007_evidence
+    pay_performance_pay_007_page
+    pay_performance_pay_007_confidence
+    pay_cost_of_living_007_answer
+    pay_cost_of_living_007_evidence
+    pay_cost_of_living_007_page
+    pay_cost_of_living_007_confidence
+  extra main fields: 804
+    pay_salary_steps_003_answer
+    pay_salary_steps_003_evidence
+    pay_salary_steps_003_page
+    pay_salary_steps_003_confidence
+    pay_salary_lanes_004_answer
+    pay_salary_lanes_004_evidence
+    pay_salary_lanes_004_page
+    pay_salary_lanes_004_confidence
+    pay_lane_names_005_answer
+    pay_lane_names_005_evidence
+    pay_lane_names_005_page
+    pay_lane_names_005_confidence
+    pay_ba_start_006_answer
+    pay_ba_start_006_evidence
+    pay_ba_start_006_page
+    pay_ba_start_006_confidence
+    pay_ma_start_007_answer
+    pay_ma_start_007_evidence
+    pay_ma_start_007_page
+    pay_ma_start_007_confidence
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_03_main.csv: 10 main rows
+  missing main fields: 292
+    pay_step_increment_003_answer
+    pay_step_increment_003_evidence
+    pay_step_increment_003_page
+    pay_step_increment_003_confidence
+    pay_prior_experience_005_answer
+    pay_prior_experience_005_evidence
+    pay_prior_experience_005_page
+    pay_prior_experience_005_confidence
+    pay_performance_pay_006_answer
+    pay_performance_pay_006_evidence
+    pay_performance_pay_006_page
+    pay_performance_pay_006_confidence
+    pay_performance_pay_007_answer
+    pay_performance_pay_007_evidence
+    pay_performance_pay_007_page
+    pay_performance_pay_007_confidence
+    pay_cost_of_living_007_answer
+    pay_cost_of_living_007_evidence
+    pay_cost_of_living_007_page
+    pay_cost_of_living_007_confidence
+  extra main fields: 804
+    pay_salary_steps_003_answer
+    pay_salary_steps_003_evidence
+    pay_salary_steps_003_page
+    pay_salary_steps_003_confidence
+    pay_salary_lanes_004_answer
+    pay_salary_lanes_004_evidence
+    pay_salary_lanes_004_page
+    pay_salary_lanes_004_confidence
+    pay_lane_names_005_answer
+    pay_lane_names_005_evidence
+    pay_lane_names_005_page
+    pay_lane_names_005_confidence
+    pay_ba_start_006_answer
+    pay_ba_start_006_evidence
+    pay_ba_start_006_page
+    pay_ba_start_006_confidence
+    pay_ma_start_007_answer
+    pay_ma_start_007_evidence
+    pay_ma_start_007_page
+    pay_ma_start_007_confidence
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_04_main.csv: 10 main rows
+  missing main fields: 292
+    pay_step_increment_003_answer
+    pay_step_increment_003_evidence
+    pay_step_increment_003_page
+    pay_step_increment_003_confidence
+    pay_prior_experience_005_answer
+    pay_prior_experience_005_evidence
+    pay_prior_experience_005_page
+    pay_prior_experience_005_confidence
+    pay_performance_pay_006_answer
+    pay_performance_pay_006_evidence
+    pay_performance_pay_006_page
+    pay_performance_pay_006_confidence
+    pay_performance_pay_007_answer
+    pay_performance_pay_007_evidence
+    pay_performance_pay_007_page
+    pay_performance_pay_007_confidence
+    pay_cost_of_living_007_answer
+    pay_cost_of_living_007_evidence
+    pay_cost_of_living_007_page
+    pay_cost_of_living_007_confidence
+  extra main fields: 804
+    pay_salary_steps_003_answer
+    pay_salary_steps_003_evidence
+    pay_salary_steps_003_page
+    pay_salary_steps_003_confidence
+    pay_salary_lanes_004_answer
+    pay_salary_lanes_004_evidence
+    pay_salary_lanes_004_page
+    pay_salary_lanes_004_confidence
+    pay_lane_names_005_answer
+    pay_lane_names_005_evidence
+    pay_lane_names_005_page
+    pay_lane_names_005_confidence
+    pay_ba_start_006_answer
+    pay_ba_start_006_evidence
+    pay_ba_start_006_page
+    pay_ba_start_006_confidence
+    pay_ma_start_007_answer
+    pay_ma_start_007_evidence
+    pay_ma_start_007_page
+    pay_ma_start_007_confidence
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_01_log.csv: 2340 log rows
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_02_log.csv: 2340 log rows
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_03_log.csv: 2340 log rows
+/Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output/llm_parts/worker_04_log.csv: 2340 log rows
+merged main rows: 40
+merged log rows: 9360
+question IDs: 106
+expected log rows: 4240
+WARNING: log row count does not equal documents times questions.
+blank main answer cells: 2920
+invalid confidence values: 0

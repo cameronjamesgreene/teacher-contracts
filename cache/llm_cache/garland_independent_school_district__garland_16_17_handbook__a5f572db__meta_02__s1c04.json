@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"Sexual abuse in the Texas Family Code is defined as any sexual conduct harmful to a child’s mental, emotional, or physical welfare as well as a failure to make a reasonable effort to prevent sexual conduct with a child.\" \"The Texas Whistleblower Act protects district employees who make good faith reports of violations of law by the district to an appropriate law enforcement authority.\" \"The Texas educator, in fulfilling responsibilities in the community, shall cooperate with parents and others to improve the public schools of the community. (19 TAC 247.1(b))\"",
+    "evidence": "\"Sexual abuse in the Texas Family Code is defined as any sexual conduct harmful to a child’s mental, emotional, or physical welfare as well as a failure to make a reasonable effort to prevent sexual conduct with a child.\"",
+    "page": "42, 50, 51",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"FMLA also includes a special leave entitlement that permits eligible employees to take up to 26 weeks of leave to care for a covered service member during a single 12-month period.\" \"The FMLA definitions of “serious injury or illness” for current service members and veterans are distinct from the FMLA definition of “serious health condition”.\" \"Do not violate the Family Educational Rights Privacy Act.\"",
+    "evidence": "\"FMLA also includes a special leave entitlement that permits eligible employees to take up to 26 weeks of leave to care for a covered service member during a single 12-month period.\"",
+    "page": "35, 45",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "FMLA; Family Educational Rights Privacy Act",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

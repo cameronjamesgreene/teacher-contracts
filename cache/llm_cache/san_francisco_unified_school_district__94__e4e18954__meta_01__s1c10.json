@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA / salary schedule",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "111",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007; effective 7/1/2005; covers 2006-2007 school year",
+    "evidence": "Effective 7/1/2005",
+    "page": "112",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff (K-12 fully credentialed teachers, Head Counselors/Deans, High School Department Heads, Child Development Program Teachers)",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "111",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "111",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "K-12 Fully Credentialed Teachers - per Education Code 45023.1",
+    "page": "112",
+    "confidence": "high"
+  }
+}

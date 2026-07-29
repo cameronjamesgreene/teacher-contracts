@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Texas law also requires that parents be notified if their child is assigned for more than 30 consecutive instructional days to a teacher who does not hold an appropriate teaching certificate.; State law entitles all employees to five days of paid state personal leave per year.",
+    "evidence": "Texas law also requires that parents be notified if their child is assigned for more than 30 consecutive instructional days to a teacher who does not hold an appropriate teaching certificate.",
+    "page": "25, 38",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Guidelines of the Fair Labor Standards Act (FLSA) shall apply to paraprofessional and auxiliary employees who are non-exempt and therefore subject to overtime/compensatory time rules.; Teachers and other professionals are exempt from the overtime/compensatory time rules of the FLSA.; In schools receiving Title I funds, the district is required by the Every Student Succeeds Act (ESSA) to notify parents at the beginning of each school year that they may request information regarding the professional qualifications of their child’s teacher.; ESSA also requires that parents be notified if their child has been assigned, or taught for four or more consecutive weeks by a teacher who does not meet applicable state certification or licensure requirements.; All district positions are classified as exempt or nonexempt according to federal law.; As of January 1, 2014, the Affordable Care Act (ACA) requires you to have health insurance for yourself and your dependents.; The district compensates overtime for nonexempt employees in accordance with federal wage and hour laws.; The Genetic Information Nondiscrimination Act of 2008 (GINA) prohibits employers and other entities covered by GINA Title II from requesting or requiring genetic information of individuals or their family members.; Health insurance benefits for employees on paid leave and leave designated under the Family and Medical Leave Act will be paid by the district as they were prior to the leave.; If an employee’s unpaid leave extends for more than six months, the district will provide the employee with notice of COBRA rights.",
+    "evidence": "Guidelines of the Fair Labor Standards Act (FLSA) shall apply to paraprofessional and auxiliary employees who are non-exempt and therefore subject to overtime/compensatory time rules.",
+    "page": "22, 25, 27, 28, 33, 38",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Fair Labor Standards Act (FLSA), Every Student Succeeds Act (ESSA), Affordable Care Act (ACA), Genetic Information Nondiscrimination Act of 2008 (GINA), Family and Medical Leave Act, COBRA",
+    "evidence": "Fair Labor Standards Act (FLSA), Every Student Succeeds Act (ESSA), Affordable Care Act (ACA), Genetic Information Nondiscrimination Act of 2008 (GINA), Family and Medical Leave Act, COBRA",
+    "page": "22, 25, 28, 38",
+    "confidence": "high"
+  }
+}

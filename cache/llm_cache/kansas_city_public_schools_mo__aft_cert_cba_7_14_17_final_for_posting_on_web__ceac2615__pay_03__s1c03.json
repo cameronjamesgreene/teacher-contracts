@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "yes",
+    "evidence": "Members of the Teachers’ Unit who successfully obtain National Board Certification will receive a payment of $3,500.00. Payment will be made within 45 days of when receipt of certification is submitted to the Division of human Resources. In addition, there will be a $3,500.00 adjustment to the salary schedule for any teacher or counselor who achieves National Board certification.",
+    "page": "33",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "A non-tenured teacher who has completed five consecutive years of satisfactory or better service has the right to file a grievance challenging the Board's decision not to renew his/her contract... a non-tenured teacher with less than 5 consecutive years... shall have the right to a hearing before a Board appointed referee... provided the teacher submits a written request to the Superintendent for such a hearing within 10 days of receiving written notice of the Superintendent's recommendation not to re-employ the teacher... The decision of the referee shall be in the form of a recommendation to the Board of Education.",
+    "page": "50",
+    "confidence": "high"
+  }
+}

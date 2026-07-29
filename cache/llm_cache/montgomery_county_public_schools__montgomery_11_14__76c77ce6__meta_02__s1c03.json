@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "6. Negotiations Law – Section 6-408 of the Education Article of the Annotated Code of Maryland. | Nothing in this Agreement is intended to deny or abrogate any of the powers or responsibilities of the Board of Education and the superintendent that have been assigned to them by any Maryland law or regulation of the State Board of Education. | Similarly, the Maryland Bridge to Excellence in Education Act increases the role of the state government.",
+    "evidence": "\"6. Negotiations Law – Section 6-408 of the Education Article of the Annotated Code of Maryland.\" \"Nothing in this Agreement is intended to deny or abrogate any of the powers or responsibilities of the Board of Education and the superintendent that have been assigned to them by any Maryland law or regulation of the State Board of Education.\" \"Similarly, the Maryland Bridge to Excellence in Education Act increases the role of the state government.\"",
+    "page": "7, 13, 17",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The No Child Left Behind Act of 2001 significantly changes the role of the federal government in education. | The No Child Left Behind Act of 2001, approved in January 2002, requires schools to demonstrate adequate yearly progress in achieving state standards for the school as a whole and for designated categories of students.",
+    "evidence": "\"The No Child Left Behind Act of 2001 significantly changes the role of the federal government in education.\" \"The No Child Left Behind Act of 2001, approved in January 2002, requires schools to demonstrate adequate yearly progress in achieving state standards for the school as a whole and for designated categories of students.\"",
+    "page": "17",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "No Child Left Behind Act of 2001",
+    "evidence": "\"The No Child Left Behind Act of 2001 significantly changes the role of the federal government in education.\"",
+    "page": "17",
+    "confidence": "high"
+  }
+}

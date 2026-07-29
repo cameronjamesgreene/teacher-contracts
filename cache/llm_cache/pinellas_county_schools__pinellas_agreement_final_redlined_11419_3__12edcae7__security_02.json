@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "discussed_unclear",
+    "evidence": "Should the Board be unable to maintain all employees, it shall immediately meet with the Union Association to provide for an orderly method of reducing, retraining, and recalling affected employees.",
+    "page": "26",
+    "confidence": "medium",
+    "coder_notes": "Updated from not_discussed to discussed_unclear. Article 22 mentions meeting to develop an 'orderly method' for recalling employees but does not explicitly grant specific recall or callback rights, nor does it detail procedures or priority windows."
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "“Professional Service Contract” and “Continuing Contract” means a contract with continuing employment rights in accordance with the law in effect prior to July 1, 2011.",
+    "page": "46",
+    "confidence": "high",
+    "coder_notes": "Preserved. The Stage 1 evidence explicitly defines continuing contract rights and directly supports the answer. (Note: The cited page falls outside the provided excerpt, but the explicit contractual definition confirms the answer)."
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Hold an active professional certificate or temporary certificate issued pursuant to s. 1012.56 and rules of the State Board of Education;",
+    "page": "46",
+    "confidence": "high",
+    "coder_notes": "Preserved. The Stage 1 evidence explicitly states certification and licensure requirements, directly supporting the answer. (Note: Cited page falls outside the provided excerpt, but the language is explicit and unambiguous.)"
+  }
+}

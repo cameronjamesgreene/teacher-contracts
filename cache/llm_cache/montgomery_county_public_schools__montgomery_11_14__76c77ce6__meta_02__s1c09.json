@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "It is understood that the committee shall utilize the bid process if required by state law or MCPS regulation to contract for outside services required to assist the committee. Pursuant to Section 6-407 (c) (2) of the Education Article of the Annotated Code of Maryland, the representation fee “may not exceed the annual dues of the members of the organization.” MCEA will base this determination on a review of financial records and other documents describing MCEA’s activities and will be guided by the language of the Education Article of the Annotated Code of Maryland, the United States Supreme Court decisions in Ellis v. BRAC and Abood v. Detroit Board of Education, and other relevant federal and state court decisions.",
+    "evidence": "Pursuant to Section 6-407 (c) (2) of the Education Article of the Annotated Code of Maryland, the representation fee “may not exceed the annual dues of the members of the organization.”",
+    "page": "57, 58",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The mileage rate will be adjusted to reflect any changes in mileage allowance regulations issued by the IRS. The Board of Education shall establish and maintain a Section 125 plan, which includes medical reimbursement and dependent care assistance flexible spending accounts, and premium conversion. Unit members will be eligible to participate in the currently available tax advantaged salary deferral plans (403b and 457) plans. MCEA will base this determination on a review of financial records and other documents describing MCEA’s activities and will be guided by the language of the Education Article of the Annotated Code of Maryland, the United States Supreme Court decisions in Ellis v. BRAC and Abood v. Detroit Board of Education, and other relevant federal and state court decisions.",
+    "evidence": "The mileage rate will be adjusted to reflect any changes in mileage allowance regulations issued by the IRS.",
+    "page": "53, 57, 58",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "IRS regulations, Section 125 plan, 403b and 457 plans, United States Supreme Court decisions in Ellis v. BRAC and Abood v. Detroit Board of Education.",
+    "evidence": "The Board of Education shall establish and maintain a Section 125 plan, which includes medical reimbursement and dependent care assistance flexible spending accounts, and premium conversion.",
+    "page": "53, 57, 58",
+    "confidence": "high"
+  }
+}

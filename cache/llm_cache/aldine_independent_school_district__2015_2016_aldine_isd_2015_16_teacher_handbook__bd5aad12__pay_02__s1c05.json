@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "V. CRITICAL NEEDS SUPPLEMENT Teachers can receive up to $4,500 based on the subject they teach and the number of classes taught in the critical needs area.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "3. Special Education (all levels): GAP, life skills, visually impaired, hearing impaired, autistic, and orientation and mobility $3,000",
+    "page": "21",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "2. 7th -12th Math and Science $3,000... 8. COMPASS Teachers – All teachers $3,000; Math and Science $6,000... 9. Health Science Teachers - $4,500",
+    "page": "21",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "1. Bilingual (all levels) $4,500... 5. English I and English II teacher stipends $3,000... 6. SEI teachers - $1,250 spring and $1,250 fall",
+    "page": "21",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

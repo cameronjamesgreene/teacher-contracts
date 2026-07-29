@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "I hereby acknowledge receipt of my personal copy of the Northside ISD Employee Handbook.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2012-2013",
+    "evidence": "Employee_HAndbook2012-2013.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all employees",
+    "evidence": "All District employees shall perform their duties in accordance with state and federal law, District policy, and ethical standards.",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "meta_document_scope_004": {
+    "answer": "not a contract",
+    "evidence": "I understand that no modifications to contractual relationships or alterations of at-will employment relationships are intended by this handbook.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code 37.083, 37.0831; Texas Controlled Substances Act; 28 TAC 169.2; Texas Family Code §8.210, 158.211",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

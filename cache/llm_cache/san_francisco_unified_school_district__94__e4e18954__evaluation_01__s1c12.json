@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "Appendix E outlines a 'standards-based, growth oriented evaluation system' and the Peer Assistance and Review program; references Article 41 for detailed procedures.",
+    "page": "144",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Standards-based, growth oriented evaluation system using San Francisco Teaching Standards (reflecting California Standards of the Teaching Profession) and the Peer Assistance and Review (PAR) program.",
+    "evidence": "develops and promotes a standards-based, growth oriented evaluation system for all teachers. We will implement Teaching Standards that reflect the California Standards of the Teaching Profession. The Peer Assistance and Review (PAR) Program",
+    "page": "144",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "4",
+    "evidence": "four formal assessments of PT performance and growth that occur during the year.",
+    "page": "146",
+    "confidence": "medium"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

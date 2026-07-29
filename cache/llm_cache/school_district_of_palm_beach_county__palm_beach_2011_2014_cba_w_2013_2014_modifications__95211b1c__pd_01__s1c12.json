@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Grade level Chair that as a function of this supplemental position... they may be required to assume and perform some additional leadership responsibilities at their school as assigned by the Principal.",
+    "page": "173",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "group health insurance",
+    "page": "85",
+    "confidence": "medium"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Board paid",
+    "evidence": "continued Board paid health insurance",
+    "page": "87",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employee share of cost",
+    "evidence": "employee shall be responsible for his/her share of insurance cost, where applicable.",
+    "page": "85",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Group",
+    "evidence": "group health insurance",
+    "page": "85",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "group health and dental insurance",
+    "page": "85",
+    "confidence": "high"
+  }
+}

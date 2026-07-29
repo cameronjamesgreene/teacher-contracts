@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "If the vacancy is not filled by the remaining members of the Board of Education within 30 days, the president, or the vice president in the absence of the president, shall notify the City Council",
+      "subject_text": "the president, or the vice president in the absence of the president",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Conditional procedural duty regarding board vacancy notification chain."
+    },
+    {
+      "quote": "which shall fill that vacancy by appointment by a majority of the members of the city council for the unexpired term.",
+      "subject_text": "which",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Continuation of vacancy filling procedure; 'which' refers to the City Council."
+    },
+    {
+      "quote": "If the vacancy is not filled by the city council within 30 days after notification, the local superintendent of education shall notify the State Superintendent of Education",
+      "subject_text": "the local superintendent of education",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Conditional procedural duty regarding board vacancy notification to state level."
+    },
+    {
+      "quote": "who shall fill the vacancy by appointment for the unexpired term.",
+      "subject_text": "who",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Continuation of vacancy filling procedure; 'who' refers to the State Superintendent of Education."
+    },
+    {
+      "quote": "Members of the Board may not be members of the Council",
+      "subject_text": "Members of the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Restriction prohibiting board members from holding concurrent seats on the city council."
+    }
+  ]
+}

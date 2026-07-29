@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Elementary employees will not suffer a reduction of their planning time as a result of this MOU, i.e. elementary employees are provided either one period of 45 minutes or two periods of 30 minutes each regular student attendance day per the CBA.",
+    "page": "170",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "one period of 45 minutes or two periods of 30 minutes for elementary teachers; daily 40 minutes for Virtual School teachers",
+    "evidence": "elementary employees are provided either one period of 45 minutes or two periods of 30 minutes each regular student attendance day per the CBA. / ... daily 40 minute planning period ...",
+    "page": "170; 187",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

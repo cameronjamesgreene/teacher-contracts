@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "185 total days per year for traditional/single-cycle schedules (180 student instructional days, 2 duty days, and 3 mandatory staff development days). Year-round schedules require 180 total days (175 student instructional, 2 duty, 3 staff development).",
+    "evidence": "All unit members in traditional and single-cycle schedule schools shall render 180 student instructional days of service, in addition to two (2) duty days and three (3) mandatory staff development days.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "No fixed daily hour count; length is determined by site administrator and conforms to Education Code Section 46201 plus additional annual minutes by grade level (1200/2000/300 mins/year), with flexible start/end times permitted.",
+    "evidence": "The site administrator shall determine the beginning and ending time for unit members... The instructional day for unit members shall conform with the required minutes provided in Education Code, Section 46201.",
+    "page": "40-41",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "All planning periods are intended to be used for teachers' preparation and are considered to be a professional obligation which shall be met at the site or other district facility.",
+    "page": "39-40",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "discussed_unclear",
+    "evidence": "The document references 'planning periods' and a 'common preparation period' but does not specify a set number of minutes, periods, or hours guaranteed per day or week for regular classroom teachers.",
+    "page": "39-40, 41",
+    "confidence": "medium"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Duties may not be assigned during the common preparation period in intermediate schools unless volunteers are first sought and unless such assignments are made on an equitable basis with other staff.",
+    "page": "41",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Each unit member shall have at least a 30 minute duty-free, uninterrupted lunch period exclusive of passing periods.",
+    "page": "39",
+    "confidence": "high"
+  }
+}

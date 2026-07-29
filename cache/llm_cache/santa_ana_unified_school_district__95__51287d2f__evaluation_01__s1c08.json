@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "Appendix D ... 1 – EVALUATION PLAN ... STANDARDS 1.0 - 5.0 ... STANDARD 6.0 Develops as a Professional Educator; 23.1.4 Evaluation Procedures: A minimum of two observations and one evaluation shall be provided per year.",
+    "page": "115, 125",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Standards 1.0 - 5.0 and Standard 6.0 (Develops as a Professional Educator)",
+    "evidence": "INDICATE STANDARDS BEING ADDRESSED: STANDARDS 1.0 - 5.0 ... STANDARD 6.0 Develops as a Professional Educator",
+    "page": "125",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "2 per year",
+    "evidence": "23.1.4 Evaluation Procedures: A minimum of two observations and one evaluation shall be provided per year.",
+    "page": "115",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

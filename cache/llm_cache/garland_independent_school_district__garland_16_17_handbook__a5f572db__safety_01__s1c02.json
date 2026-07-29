@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "no",
+    "evidence": "Certain employees who are involved in physical activities for students must maintain and submit to the district proof of current certification in first aid, cardiopulmonary resuscitation (CPR), the use of an automated external defibrillator (AED), concussion and extracurricular athletic activity safety.",
+    "page": "16",
+    "confidence": "medium"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

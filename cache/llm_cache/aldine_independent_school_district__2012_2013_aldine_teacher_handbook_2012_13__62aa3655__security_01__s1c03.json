@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "A person employed under a probationary contract has no expectation of employment and no property interest in a contract beyond the probationary period. A person employed under a term contract has no expectation of employment and no property interest in a contract beyond its term.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "the Board shall give written notice whether the Board proposes to renew or not to renew the contract not later than the 10th day before the last day of instruction... desires a hearing... notify the Board of Trustees in writing not later than the 15th day after... appeal to the Commissioner of Education",
+    "page": "5-6",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority: Length of continuous active service in the District. An authorized leave of absence shall not be considered as an interruption in continuous active service.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Triggers: financial exigency, reorganization, or program change. Criteria order: 1. Performance, 2. Certification/Licensure, 3. Reorganization/Program Change, 4. Seniority. Notice: written from Superintendent. Seniority role: tie-breaker/criterion 4; recall in reverse order of dismissal.",
+    "evidence": "reduction in force may take place when the Board determines that financial exigency exists or the Superintendent determines that a reorganization or program change is required... criteria are: 1. Performance... 2. Certification/Licensure... 3. Reorganization or Program Change... 4. Seniority... Superintendent shall provide each identified employee written notice... recall will be in reverse order of the dismissal.",
+    "page": "8-11",
+    "confidence": "high"
+  }
+}

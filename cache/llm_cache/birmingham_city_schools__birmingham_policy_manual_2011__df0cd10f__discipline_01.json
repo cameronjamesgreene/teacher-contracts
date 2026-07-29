@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "A reduction in force may take place when the Board determines that a financial exigency, program change, serious natural disaster or other legitimate business reason requires that the contract of one or more teachers, principals, or other professional employees be terminated. Such a determination constitutes the necessary cause for dismissal.",
+    "page": "3092",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The Board shall determine upon the recommendation of the Superintendent, the organizational levels to be reduced... When a reduction in force is necessary, the first employees to be dismissed will be nontenured persons within the class of personnel being reduced... Any reduction in personnel shall procedurally be accomplished in accordance with sees. 16-24-8to -10 Ala. Code (1975).",
+    "page": "3092",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly reference the procedural steps for dismissal/reduction in force, strengthening support for the 'procedures' question."
+  }
+}

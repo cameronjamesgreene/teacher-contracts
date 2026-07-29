@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The Board agrees to provide a comprehensive benefits program to include, but not limited to, health, dental, life, vision, accidental death and dismemberment and income protection insurance. Regular employees who work at least thirty (30) hours per week, job-share employees and employees who work two (2) part-time regular jobs totaling more than thirty (30) hours per week are eligible for benefits.",
+    "page": "56",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "80%",
+    "evidence": "The Board will pay approximately eighty (80%) of the annual health insurance premium for the duration of this Agreement.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Eligible married Board employees, both working for the district, who wish to be covered by the same health insurance plan and have at least one additional dependent (total of three persons), may select the two (2) board family option.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "Dental Coverage - The Board will contribute towards the cost of optional dental coverage.",
+    "page": "58",
+    "confidence": "high"
+  }
+}

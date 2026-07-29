@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes, Article 31 TEACHER EVALUATION outlines full procedures",
+    "evidence": "ARTICLE 31 TEACHER EVALUATION... Section A. Teacher Evaluation-General Provisions... Section B. Evaluation of Teachers on a Probationary Contract... Section C. Evaluation of Teachers on Annual Contract...",
+    "page": "36",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Teacher Evaluation System (aligned with s. 1012.34, F.S. and referencing iObservation/domain structure)",
+    "evidence": "Teacher Evaluation System: A collaborative system between teachers and administrators which focuses on increasing student learning growth by improving the quality of instructional services. The overall term used for the performance evaluation of a teacher.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "3 (probationary); 2 (annual/PSC/CC)",
+    "evidence": "Section B.1: 'There will be three (3) Formal Observations.' / Section C.1: 'All Annual, PSC and CC teachers will be evaluated annually and must have two (2) Formal Observations...'",
+    "page": "38",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "30",
+    "evidence": "Formal Observation: This consists of a pre-observation conference between the administrator and the teacher, the observation, (which should be a minimum of 30 minutes) and a post-observation conference with the teacher.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Highly Effective, Effective, Developing, or Unsatisfactory (first 3 years); Highly Effective, Effective, Needs Improvement, or Unsatisfactory (all other teachers)",
+    "evidence": "teachers in their first three (3) years of employment will be rated as either Highly Effective, Effective, Developing or Unsatisfactory. All other teachers will be rated as either Highly Effective, Effective, Needs Improvement or Unsatisfactory.",
+    "page": "37",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "Final Evaluation: This includes all components of the Teacher Evaluation System. Specifically, it includes the instructional practice score, the deliberate practice score and the student growth score.",
+    "page": "36",
+    "confidence": "high"
+  }
+}

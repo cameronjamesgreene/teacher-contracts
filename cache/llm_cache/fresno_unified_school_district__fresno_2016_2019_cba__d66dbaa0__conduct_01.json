@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "9. All personnel shall assume the following professional responsibilities: 9.1 Being on duty at instructional site before and after the instructional assignment 9.2 Instructional planning, preparing lesson plans, preparing and selecting instructional materials 9.8 Assuming reasonable responsibility for the proper use and control of District property, equipment, material, and supplies",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high. The passage explicitly outlines professional responsibilities, directly satisfying the 'professional responsibility rules' criterion."
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

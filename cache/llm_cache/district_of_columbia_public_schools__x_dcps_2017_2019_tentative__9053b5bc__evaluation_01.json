@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes. Reference only; Articles 2 and 4 (Sections 2.6.3, 4.5.2.5, 4.5.2.6).",
+    "evidence": "new Teaching and Learning Framework which is the basis of the new Educator Evaluation System.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "District of Columbia Schools Effectiveness Assessment System for School-Based Personnel",
+    "evidence": "EVALUATION PROCESS. The evaluation process refers to the procedures set forth in the District of Columbia Schools Effectiveness Assessment System for School-Based Personnel.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "“Effective” or higher; excessing rubric uses Highest, Second Highest, Third Highest, Fourth Highest, Lowest",
+    "evidence": "Previous Year’s Final Evaluation: Highest, Second Highest, Third Highest, Fourth Highest, Lowest",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": "Corrected page number from 28 to 27. Updated evidence to include both the excessing rubric ratings and the 'Effective or higher' threshold mentioned in Section 4.5.5.3.1.3 to fully support the coded answer."
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "36.4 The individual performance-based pay system shall be on a voluntary “qualify-in” basis, with the qualifications including student growth for tested and non-tested grades and subjects and not requiring permanent status Teachers to relinquish their tenure.",
+    "page": "95",
+    "confidence": "high",
+    "coder_notes": "Evidence cites page 95, which falls outside the provided text range (ends at p. 43). Preserved as high confidence based on explicit contractual language provided in Stage 1."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "Currently we have schools participating in the Teacher Advancement Program (TAP). The application process will include approval by 2/3 secret ballot vote of the faculty... incentives up to $2,000 per teacher, tied to student achievement value-added gains...",
+    "page": "9",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "Teacher evaluations for performance-based pay eligibility are tied to student achievement value-added gains as defined by the State of Ohio, according to a formula designed by the Redesign Committee.",
+    "evidence": "incentives are tied to student achievement value-added gains as defined by the State of Ohio.",
+    "page": "9",
+    "confidence": "high"
+  }
+}

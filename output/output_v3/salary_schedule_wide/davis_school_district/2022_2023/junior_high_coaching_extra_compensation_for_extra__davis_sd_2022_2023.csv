@@ -1,0 +1,9 @@
+# Davis_SD_2022-2023.pdf — JUNIOR HIGH COACHING EXTRA COMPENSATION FOR EXTRA DUTIES Fiscal Year 2022-2023 (2022-2023)
+# population: Junior High Coaches | is_teacher_schedule: False
+"# validation_warnings: identical values across steps ['Basketball', 'Wrestling', 'Volleyball', 'Track'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,Total Points,Coaches' Extra Compensation,Assistants' Extra Compensation
+Basketball,8,1637,1097
+Wrestling,8,1637,1097
+Volleyball,8,1637,1097
+Track,8,1637,1097
+Intramurals,7,1433,960

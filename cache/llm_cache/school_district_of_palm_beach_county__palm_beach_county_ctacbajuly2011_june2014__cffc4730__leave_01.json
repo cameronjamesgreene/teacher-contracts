@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "4 days at the start of the appointive year, plus 1 day per month thereafter",
+    "evidence": "entitled to four (4) days of sick leave as of the first day of permanent employment of each appointive year, and shall thereafter earn one (1) day of sick leave at the end of each calendar month",
+    "page": "75",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates/carries over with no cap",
+    "evidence": "Sick leave shall be cumulative from year to year, and there shall be no limit on the number of days of sick leave an employee may accrue.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick leave claims shall be honored as submitted by the employee for his/her own personal illness, as well as illness or death of father, mother, brother, sister, husband, wife, child, other close relative, or member of the employee's own household.",
+    "page": "75",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "6 days (deducted from accrued sick leave)",
+    "evidence": "six (6) days paid leave shall be allowed for personal reasons each year to be charged against accrued sick leave",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires 48 hours advance notice; not approved for days immediately preceding or following holidays (except emergencies, bereavement, religious observances, or graduations)",
+    "evidence": "employees shall request leave for personal reasons forty-eight (48) hours in advance to the Principal. Personal leave requests shall not be approved for any day immediately preceding or following a holiday.",
+    "page": "76",
+    "confidence": "medium",
+    "coder_notes": "Evidence explicitly supports the 48-hour notice and holiday restriction, but does not contain the listed exceptions (emergencies, bereavement, etc.). Confidence lowered to medium due to unquoted exceptions in the answer."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "six (6) days paid leave shall be allowed for personal reasons each year to be charged against accrued sick leave, provided that such leave be noncumulative.",
+    "page": "76",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

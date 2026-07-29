@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "180 instructional days, 2-3 duty days, and 3 staff development days (185-186 total work days depending on year)",
+    "evidence": "reflecting a school year of 186 work days (180 instructional days, 3 duty days, 3 staff development days). / reflecting a school year of 185 work days (180 instructional days, 2 duty days, 3 staff development days).",
+    "page": "24-25",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

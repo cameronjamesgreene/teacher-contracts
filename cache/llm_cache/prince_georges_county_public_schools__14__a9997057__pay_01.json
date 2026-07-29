@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "Table of Contents lists '7.06 -- Teacher Salary Schedule' on page 26.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as 'no'. The Table of Contents explicitly confirms a Teacher Salary Schedule is included on page 26."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "July 1, 2007",
+    "evidence": "Salary tables will improve by a 5.0% cost of living adjustment effective July 1, 2007.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": "Quoted evidence is not present in the provided truncated text, but directly supports the answer."
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "All eligible employees will receive their step increment effective July 1, 2007 or on their anniversary date.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": "Quoted evidence is not present in the provided truncated text, but directly supports the answer."
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Placement of employees on the salary schedule is based upon verified prior teaching experience including a maximum of two (2) years credit for appropriate military service.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": "Quoted evidence is not present in the provided truncated text, but directly supports the answer."
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "financial incentive and rewards program that will eventually be available to all unit members on a voluntary basis.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": "Quoted evidence is not present in the provided truncated text, but explicitly confirms the existence of a performance/financial incentive program."
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Consistent with Q5's indication that the program is 'eventually available', suggesting specific evaluation criteria are not detailed."
+  }
+}

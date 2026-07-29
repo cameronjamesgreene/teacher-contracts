@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Continuing teachers shall receive a one-step salary increment on the salary schedule for each year of successful teaching in the District until they reach the maximum step of their salary lane. Such salary increments shall be given at the beginning of each contract year by moving forward one step on the salary schedule all continuing contract teachers who successfully completed at least one-half year (.50 FTE) of contract teaching during the previous school year.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "An experienced teacher shall receive full credit on the salary schedule for the first ten years of public school teaching experience. Half-time (.50 FTE or more) regular contract teaching experience will be figured cumulatively in arriving at proper step placement. When there is a shortage of qualified candidates for a specific position, additional step credit for verified experience beyond ten years may be allowed by the Human Resources office.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

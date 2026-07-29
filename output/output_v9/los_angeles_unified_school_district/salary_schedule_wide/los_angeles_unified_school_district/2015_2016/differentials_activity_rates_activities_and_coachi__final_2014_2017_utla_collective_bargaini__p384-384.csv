@@ -1,0 +1,12 @@
+"# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — DIFFERENTIALS, ACTIVITY RATES (ACTIVITIES AND COACHING): (2015-2016)"
+# population: Coaches and Activity Leaders | is_teacher_schedule: False
+"# validation_warnings: only 7 cell(s) for 7 step(s) x 7 lane(s) (expected ~49); cross_grid_duplicate: cell values are ~identical to a different schedule (DIFFERENTIALS, ACTIVITY RATES (ACTIVITIES AND COACHING) p336) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_duplicate: cell values are ~identical to a different schedule (Differential, Activity (Activity and Coaching) p352) — distinct schedules should not share a value grid; verify each against its own page | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,1394,1401,1402,1403,1404,1407,1410
+1,973,,,,,,
+2,,1283,,,,,
+3,,,1691,,,,
+4,,,,2102,,,
+5,,,,,2311,,
+6,,,,,,2512,
+7,,,,,,,2811

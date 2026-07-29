@@ -1,0 +1,10 @@
+"# SD_of_Philadelphia_2021-2024.pdf — Pay Grade 559 - Classroom Assistant, Special Ed Assistant, Kindergarten Assistant, Teacher’s Assistant Without CDA ()"
+# population: Paraprofessionals | is_teacher_schedule: False
+"# validation_warnings: cross_grid_duplicate: cell values are ~identical to a different schedule (Pay Grade 559 - Teacher Assistant, Pre-K Without CDA p152) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_contamination: a value column matches a column in a different schedule (p152) — one grid's data may be contaminated from another; verify | audit confirmed"
+step,9/1/20,9/1/21,9/1/22,9/1/23
+01,,22073,22790,23474
+02,,22837,23579,24287
+03,,27427,28318,29168
+04,,29085,30030,30931
+05,,30615,31610,32558
+06,,33006,34079,35101

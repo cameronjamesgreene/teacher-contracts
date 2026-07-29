@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "An employee who has disability (income protection) insurance through the District shall not be required to exhaust his/her sick leave to be granted leave under this subsection (Sick Leave without Pay for Personal Illness or Illness/Death of a Family Member). In keeping with the District’s disability insurance carrier, an employee who has such insurance through the District may not receive both sick leave pay and disability benefits at the same time.",
+    "page": "102",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Family Medical Leave (FML) – Uncompensated, with continued Board paid health insurance, family medical leave (FML) shall be granted to any eligible employee in keeping with the provisions set forth in Appendix H.",
+    "page": "103",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

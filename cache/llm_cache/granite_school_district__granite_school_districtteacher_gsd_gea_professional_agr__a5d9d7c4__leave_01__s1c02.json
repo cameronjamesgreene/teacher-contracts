@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "Extended sick leave with full pay up to a maximum of 180 school days for any one illness, not limited to any one contract year, will be granted teachers.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "accumulates; cap 30 days for provisional teachers, cap not stated for regular teachers",
+    "evidence": "Ten days of sick leave will be granted annually with full pay, cumulative to thirty teaching days.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Special use of sick leave will be granted by the principal, with review by the appropriate Assistant Superintendent, in the event of serious illness of a member of the immediate family, or of any other person who is a member of the same household as the teacher.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "4",
+    "evidence": "Teachers are allocated four personal leave days each contract year.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "24-hour notice required; cannot be taken the day before/after a holiday or during the first/last week of school without principal approval; max 1-2 per school per day; not for job action or work stoppage",
+    "evidence": "A minimum of one day notice (24 hours) must be given to the principal before taking personal leave... Personal Leave should not be taken the day before or after a school holiday... or during the first or last week of school... Generally only one or two Personal Leave days per school, per school day can be approved... Personal Leave will not be granted in connection with any form of job action or work stoppage.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "Teachers who take no personal leave in a contract year will receive an amount equal to three times the current Substitute II rate. Teachers who take one personal leave day in a contract year will receive an amount equal to two times the current Substitute II rate. Teachers who take two personal leave days in a contract year will receive an amount equal to the current Substitute II rate. Teachers who take three personal leave days in a contract year will receive no additional amount.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

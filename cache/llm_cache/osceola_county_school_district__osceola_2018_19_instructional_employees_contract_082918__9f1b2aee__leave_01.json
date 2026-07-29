@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 days (10-month), 11 days (11-month), or 12 days (12-month); credited as 4 initially plus 1 per month.",
+    "evidence": "Each full-time teacher shall receive four (4) days of sick leave as of the first day of employment of the current contract year, and thereafter shall be credited with one (1) additional day of sick leave at the end of each month of employment to a maximum of ten (10) days for ten (10) month teachers, eleven (11) days for eleven (11) month teachers, and twelve (12) days for twelve (12) month teachers.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates indefinitely; no cap stated.",
+    "evidence": "The total unused portion of the annual sick leave shall be permitted to accumulate indefinitely.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Death or illness of father, mother, brother, sister, husband, wife, child, other close relative, or member of his/her own household.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "6",
+    "evidence": "Teachers shall be granted six (6) days of leave for personal reasons with pay per school year.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Must be notified in advance; limited to one (1) day during Summer School.",
+    "evidence": "Notification of leave for personal reasons shall be made in advance. Since Summer School is an extended portion beyond the regular school year, the use of personal leave shall be limited to one (1) day of the personal days in the contract.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "discussed_unclear",
+    "evidence": "Teachers implement the curriculum aligned with established measures of performance and internal, national, state, and local standards.",
+    "page": "16",
+    "confidence": "medium",
+    "coder_notes": "The quoted passage focuses on curriculum implementation and alignment with standards rather than explicitly granting or discussing teacher discretion over curriculum, content, or methods. The evidence is tangential to the question of 'teacher discretion', so revised from 'yes' to 'discussed_unclear'."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "40",
+    "confidence": "medium",
+    "coder_notes": "The provided document text is truncated after page 18, preventing verification of page 40. 'No' answer retained as no relevant text or requirements were found in the available portion of the contract."
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "The Board and the Association agree that they will not take any action against any unit member because of his/her participation in religious, political, or teacher organization activities conducted outside duty hours and off school property. He/she shall not use his/her professional contacts with students to further his/her own political aims or those of any individual or group.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": "Evidence directly and explicitly protects political activity outside duty hours while specifying restrictions on using professional contacts. Supports 'yes'."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "The personal life of a unit member shall be the concern of, and warrant the attention of, the Board only as it may directly prevent the unit member from properly performing his/her assigned functions during duty hours or violate local, state, national, or common law, or be prejudicial to his/her effectiveness in his/her teaching position.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly limits board oversight of personal life to duty hours and legal/professional effectiveness standards, directly supporting protection of non-duty hour conduct."
+  }
+}

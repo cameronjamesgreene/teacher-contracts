@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "Yes. Available to full-time/certified employees. Plans include Employee Health and Accident Insurance, Group Hospital and Surgery Insurance, and Medical Expense Reimbursement Plan.",
+    "evidence": "Monthly premium payments shall be applied as follows: 2. Employee Health and Accident Insurance... Each full-time professional employee may allocate this amount, for benefits for themselves and/or for their dependents among the following available benefits: 1. Group Hospital and Surgery Insurance... 7. Medical Expense Reimbursement Plan",
+    "page": "15",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Up to $446.51 per month for employer-paid fringe benefits; up to $600 per month for the Flexible Spending Plan.",
+    "evidence": "provide employer-paid fringe benefits up to $446.51 per month for the 2007-2008 contract year.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "$11.50 per month.",
+    "evidence": "Certified employees will pay $11.50 toward benefit costs per month.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "Yes, benefits may be allocated for dependents.",
+    "evidence": "Each full-time professional employee may allocate this amount, for benefits for themselves and/or for their dependents among the following available benefits:",
+    "page": "15",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Health and Accident Insurance, Group Hospital and Surgery Insurance, and Medical Expense Reimbursement Plan. Carriers and plans are mutually determined.",
+    "evidence": "Employee Health and Accident Insurance",
+    "page": "15",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "Yes.",
+    "evidence": "Employee Dental Insurance",
+    "page": "15",
+    "confidence": "high"
+  }
+}

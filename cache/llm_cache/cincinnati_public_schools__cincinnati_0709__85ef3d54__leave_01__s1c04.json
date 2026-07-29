@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "15 days (1.25 days per month)",
+    "evidence": "all full-time teachers shall accrue sick leave at the rate of one and one-fourth (1-1/4) day per month for each year under contract.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, cumulative without limitation; new hires after May 22, 2004 are capped at 200 days",
+    "evidence": "Unused sick leave shall be cumulative without limitation, with the exception of new hires after May 22nd, 2004. New hires will be limited to a 200-day cap.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "A teacher may use sick leave for absence due to personal illness, injury, pregnancy, and exposure to contagious diseases... and for absence due to illness, injury, or death of the teacher's immediate family.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "3 days (pro-rated: 1 day for hires between Jan-Mar, 0 for hires after Mar 31)",
+    "evidence": "Teachers may take up to three personal leave days.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires 2 days' notice for Tue-Thu; 10 days' notice for Mon/Fri, before/after recess/holiday, or in May/June; principal/ILT set a plan/cap on the number of teachers out on restricted days; emergencies exempt",
+    "evidence": "Personal leave shall be granted upon notification to the principal two days prior to leave on Tuesday through Thursday and ten days prior to leave on Monday or Friday, the day preceding or following a recess or holiday, or any day in May or June; except in cases of emergency.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "Any unused personal leave days shall be converted to sick leave on July 31. For any teacher who leaves the Board's employ during the school year, unused personal leave days shall be converted to sick leave upon separation.",
+    "page": "33",
+    "confidence": "high"
+  }
+}

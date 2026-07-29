@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "4 paid days per school year",
+    "evidence": "Teachers shall be granted up to a total of four (4) days of leave (in addition to sick leave) during each school year without loss of pay or benefits for funeral or bereavement purposes.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Extended leaves of absence with or without pay for periods in excess of thirty (30) days and not to exceed two (2) years may be granted by DCPS to permanent or probationary Teachers. Among the reasons, but not limited to, for which such leaves of absence may be used are the following: ... Maternity leave, Paternity leave, Adoption leave. ... A Teacher who is granted an extended leave of absence for maternity/paternity purposes may elect to use her accrued sick leave at the time she begins the extended leave of absence from duty.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Among the reasons, but not limited to, for which such leaves of absence may be used are the following: ... Maternity leave ... A Teacher who is granted an extended leave of absence for maternity/paternity purposes may elect to use her accrued sick leave at the time she begins the extended leave of absence from duty.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Among the reasons, but not limited to, for which such leaves of absence may be used are the following: ... Adoption leave ... A Teacher shall be permitted to return from maternity/paternity, adoption, or educational leave upon a thirty (30) day written notice of intent to return to work prior to the end of a semester.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Teachers shall receive benefits as provided in the Family and Medical Leave Act of 1993, as amended, and as provided in the District of Columbia Family and Medical Leave Act of 1990.",
+    "page": "58",
+    "confidence": "high"
+  }
+}

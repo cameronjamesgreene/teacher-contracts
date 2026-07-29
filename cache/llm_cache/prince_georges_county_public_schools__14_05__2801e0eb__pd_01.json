@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Teachers designated through written correspondence by the division of Human Resources as Mentor Teachers, in addition to their normal teaching assignment, will receive a stipend of $500.00 per teacher mentored during the school year. Assignment, training, and responsibilities will be coordinated through the Department of Staff Development.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "A Faculty Advisory Council is to be established in every school not later than September 15. The Faculty Advisory Council shall consist of: 1. The Head Faculty Representative who shall act as Chair; and, 2. A group of unit members elected by the faculty at the rate of one for every ten (10) unit members or portion thereof... The purpose of the FAC is to provide the teachers with a vehicle in which they may discuss school operating procedures, curriculum development, scheduling of meetings, instructional programs, budget requests and any other areas of professional concern. Its function shall be solely to advise the Principal of any given school on internal matters...",
+    "page": "6",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

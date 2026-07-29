@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "All employees are required by state law to report any suspected child abuse or neglect to a law enforcement agency, Child Protective Services, or appropriate state agency (e.g., state agency operating, licensing, certifying, or registering a facility) within 48 hours of the event that led to the suspicion.\nState law specifies that an employee may not delegate to or rely on another person to make the report.\nUnder state law, any person reporting or assisting in the investigation of reported child abuse or neglect is immune from liability unless the report is made in bad faith or with malicious intent.\nSexual abuse in the Texas Family Code is defined as any sexual conduct harmful to a child’s mental, emotional, or physical welfare as well as a failure to make a reasonable effort to prevent sexual conduct with a child.\nFelony possession or conspiracy to possess, or any misdemeanor or felony transfer, sale, distribution, or conspiracy to transfer, sell, or distribute any controlled substance defined in Chapter 481 of the Health and Safety Code;\nEmployees who use or are under the influence of alcohol or illegal drugs as defined by the Texas Controlled Substances Act during working hours may be dismissed.\nState law prohibits smoking or using tobacco products on all district-owned property and at school-related or school-sanctioned activities, on or off campus.",
+    "evidence": "All employees are required by state law to report any suspected child abuse or neglect to a law enforcement agency, Child Protective Services, or appropriate state agency (e.g., state agency operating, licensing, certifying, or registering a facility) within 48 hours of the event that led to the suspicion.",
+    "page": "49",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Compliance with the Public Information Act and the Family Educational Rights and Privacy Act (FERPA), including retention and confidentiality of student records. [See Policies CPC and FL]\n[This notice complies with the requirements of the federal Drug-Free Workplace Act (41 U.S.C. 702).]\nEmployees are expected to comply with the provisions of federal copyright law relating to the unauthorized use, reproduction, distribution, performance, or display of copyrighted materials (i.e., printed material, videos, computer data and programs, etc.).",
+    "evidence": "[This notice complies with the requirements of the federal Drug-Free Workplace Act (41 U.S.C. 702).]",
+    "page": "57",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family Educational Rights and Privacy Act (FERPA); federal Drug-Free Workplace Act (41 U.S.C. 702); federal copyright law",
+    "evidence": "federal Drug-Free Workplace Act (41 U.S.C. 702)",
+    "page": "57",
+    "confidence": "high"
+  }
+}

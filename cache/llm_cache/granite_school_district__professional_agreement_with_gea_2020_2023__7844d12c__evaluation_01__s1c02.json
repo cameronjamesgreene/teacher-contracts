@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "Yes, Article 14 (reference only)",
+    "evidence": "14.1 Teachers will be evaluated under the provisions of the Utah Administrative code 53G.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Utah Administrative code 53G",
+    "evidence": "14.1 Teachers will be evaluated under the provisions of the Utah Administrative code 53G.",
+    "page": "24",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

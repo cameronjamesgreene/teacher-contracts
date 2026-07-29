@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Within the parameters established by the Agreement, it shall be the responsibility and prerogative of the Board to establish the schedule and courses of instruction to be offered to students at all grade levels.",
+    "page": "53",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Secondary class teaching assignments shall not include classes requiring more than two (2) separate academic preparations or distinctly different lesson plans per day unless the teacher voluntarily accepts an additional preparation. [moved to article 21]",
+    "page": "54",
+    "confidence": "medium"
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "Teachers will be allowed to leave school on election days for purposes of voting provided they have no student responsibilities and provided they are registered voters in the municipality or area in which the election is to be held.[moved to article 27]",
+    "page": "54",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

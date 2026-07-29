@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Negotiated Agreement Between Prince George’s County Educators’ Association And The Board Of Education Of Prince George’s County",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2006 to June 30, 2007",
+    "evidence": "for the period of July 1, 2006 through June 30, 2007.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Unit I (certificated employees)",
+    "evidence": "This Agreement affects those certificated employees who are members of Unit I, hereinafter referred to as “Unit I employee.”",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "shall be valid and binding for the duration of this Agreement.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "In accordance with Education Article, Annotated Code of Maryland, Section 6-410",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

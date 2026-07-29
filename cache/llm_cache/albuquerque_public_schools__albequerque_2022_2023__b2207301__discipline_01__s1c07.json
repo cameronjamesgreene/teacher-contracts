@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Article 13.D (p.68-69): principal sends letter notifying educator of decision to initiate Intensive Evaluation for unsatisfactory performance; Superintendent approves; case review by principal/admins recommends HR administrative action. Article 15.B (p.71): recall requires written notice; 30-day request/15-day acceptance windows for reinstatement.",
+    "page": "68-69, 71",
+    "confidence": "high"
+  }
+}

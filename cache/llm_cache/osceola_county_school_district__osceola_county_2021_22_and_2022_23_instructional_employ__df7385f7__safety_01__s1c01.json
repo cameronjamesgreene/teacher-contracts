@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes. Committee: Faculty Steering Committee. Membership: 5-10 teachers elected by secret ballot. Complaint process: Teachers report hazards to the principal. Scope: Health and safety, student discipline, faculty meetings, school rules.",
+    "evidence": "3.01 The steering committee may be established in a school for considering various areas such as, but not limited to, student discipline, faculty meetings, school rules, and health and safety items. 3.02 Any steering committee thus created shall consist of not less than five (5) nor more than ten (10) teachers elected by secret ballot. 5.07 ... Teachers will report any health or safety hazards to the principal.",
+    "page": "8, 16",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes. Standards: Rooms kept clean and free from health/safety hazards; heating/cooling maintained by principal; priority given to poor indoor air quality including mold; quiet planning areas provided when practicable. Complaint process: Teachers report hazards to principal. Remediation responsibility: Principal takes necessary steps for HVAC; Board keeps instructional rooms clean; custodial staff maintains lounges on schedule.",
+    "evidence": "5.04 When practicable, teachers will be provided a quiet planning area in which to work. 5.07 The Board will keep all rooms, which are used for instructional purposes or preparation, clean and free from health and safety hazards. Each principal will take necessary steps to maintain the heating and cooling systems. Priority will be given to rectify schools with documented poor indoor air quality including mold. Teachers will report any health or safety hazards to the principal.",
+    "page": "16, 17",
+    "confidence": "high"
+  }
+}

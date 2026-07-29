@@ -1,0 +1,10 @@
+# SD_of_Philadelphia_2021-2024.pdf — Pay Grade 20 (2020-2023)
+# population: Professional/Technical staff | is_teacher_schedule: False
+"# validation_warnings: cross_grid_duplicate: cell values are ~identical to a different schedule (Pay Grade 20 - Administrative Technician, Employee Health Services Assistant, Fiscal Clerk, Payroll Processor II, Program Assistant, Recruitment Assistant p148) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_duplicate: cell values are ~identical to a different schedule (Professional/Technical Salaries p156) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_contamination: a value column matches a column in a different schedule (p148) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p156) — one grid's data may be contaminated from another; verify | audit confirmed"
+step,9/1/20,9/1/21,9/1/22,9/1/23
+01,30535,31375,32395,33367
+02,32098,32981,34053,35075
+03,38952,40024,41324,42564
+04,41640,42785,44176,45501
+05,44156,45370,46845,48250
+06,54478,55976,57795,59529

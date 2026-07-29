@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "Credit on the instructional salary schedule will be granted for all verified public school experience in accordance with state law.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "Where teachers have less than eight (8) years of Florida experience, \"out-of-county\" experience may be combined to a maximum of eight (8) years of credit. The term \"out-of-county\" includes full-time teaching experience outside Pinellas County...",
+    "page": "60",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "yes",
+    "evidence": "Where teachers have less than eight (8) years of Florida experience, \"out-of-county\" experience may be combined to a maximum of eight (8) years of credit. The term \"out-of-county\" includes full-time teaching experience outside Pinellas County...",
+    "page": "60",
+    "confidence": "medium"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "A maximum of three (3) years of credit is allowed for service in the armed forces of the United States subsequent to January 1, 1940.such credit to be included in the maximum of eight (8) years allowed for \"out-of-county\" credit.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

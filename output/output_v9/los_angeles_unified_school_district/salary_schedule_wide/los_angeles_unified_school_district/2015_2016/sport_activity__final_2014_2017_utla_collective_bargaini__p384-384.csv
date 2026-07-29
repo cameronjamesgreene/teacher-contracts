@@ -1,0 +1,22 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — Sport/Activity (2015-2016)
+# population: Coaches and Activity Leaders | is_teacher_schedule: False
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Rate
+Gymnastics,3
+School Athletics Coordination (Athletic Director),7
+Soccer: Head,6
+"Soccer: Assistant, J.V.",3
+Softball: Head,6
+"Softball: Assistant, J. V.",4
+Swimming: Head,4
+Swimming: Assistant,3(c)
+Tennis,4
+Track & Field: Head,6(b)
+Track & Field: Varsity (Assistant),6(b)
+Track & Field: Frosh/Soph (Assistant),4
+"""AA"" Track & Field",2 or 3(d)
+Volleyball: Head,5
+"Volleyball: Assistant, J.V.",3
+Waterpolo,3
+Wrestling,4

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Non-renewal notices will be delivered or mailed at least 60 calendar days prior to the end of the contract term of the individual teacher involved... served by personal delivery or by certified mail... advise the teacher that they may request an informal conference... Provisional or Career Contract Teachers may file a written request for an informal hearing within 15 calendar days... Regular Contract Teachers may file a written request for a formal hearing within 15 calendar days... hearing examiner will submit a recommended solution to the Board within twenty working days... Board will make a final disposition within forty-five calendar days",
+    "page": "36-38",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "A district-wide RIF is triggered when the District cannot place teachers at the end of the surplus process. Procedures require a meeting with the Association at least 10 days before final action. Unplaced teachers are evaluated based on endorsements, certifications, and district staffing needs (e.g., declining enrollments, core academic, ESL, gifted, coaching, language fluency). Teachers under a current written suspension notice are exempt from displacement. Tie-breakers rely on advanced degree and lane placement. Released teachers receive a first right of interview for qualified vacancies within six months via certified letter (7-day acceptance window); if rehired, they are placed on the step they would have earned had they not been released.",
+    "evidence": "A district-wide reduction in force occurs when the District is unable to place teachers at the end of the surplus process prior to the beginning of a new contract year. A meeting between the Superintendent, or designee, and a representative of the Association will be set at least 10 days prior to any final action... All unplaced teachers will be reviewed by the number of their respective endorsements and certifications according to the staffing needs of the District... Any teacher who has received a current (within the existing school year) written notice of suspension will not be eligible to displace another teacher. If a choice must be made between two or more teachers determined by the District to be equally well qualified for the position, the teacher with the most advanced degree and lane placement according to the teacher salary schedule will be retained. Teachers released through this process... shall be given the first right of interview for positions for which they are qualified that become available during the six months following their release. Notification... shall be made by a certified letter... advise the person that they have seven days after the postmarked date of the letter to accept or reject... If rehired under this section, teachers will be placed on the step they would have received if they had not been released.",
+    "page": "39",
+    "confidence": "high"
+  }
+}

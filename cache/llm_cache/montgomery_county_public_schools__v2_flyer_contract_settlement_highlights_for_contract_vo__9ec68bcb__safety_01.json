@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Any change to a student’s behavior management plan will be communicated to all impacted teachers.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Evidence directly supports the answer. Updated confidence to high."
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "Increased flexibility for teleworking during emergency closings of central office; ability to attend to personal business (short durations) without using leave for absences from their work site.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly addresses emergency closing procedures. Updated confidence to high."
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"State law regulates the maximum speed limit of buses to 55 M.P.H. on interstates and highways, outside the city limits.\"; \"The teacher of a class is responsible for assessing students for promotion based only on “academic achievement or demonstrated proficiency of the subject matter of the course or grade level” (TEC §28.021).\"; \"The above is from 19 TAC §76.1001, Subchapter AA.\"",
+    "evidence": "\"State law regulates the maximum speed limit of buses to 55 M.P.H. on interstates and highways, outside the city limits.\"; \"The teacher of a class is responsible for assessing students for promotion based only on “academic achievement or demonstrated proficiency of the subject matter of the course or grade level” (TEC §28.021).\"; \"The above is from 19 TAC §76.1001, Subchapter AA.\"",
+    "page": "154, 159",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"It is a federal law that aisles and all emergency exits on buses are kept clear at all times.\"",
+    "evidence": "\"It is a federal law that aisles and all emergency exits on buses are kept clear at all times.\"",
+    "page": "154",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "No specific federal statute, U.S. Code section, or federal regulation is cited by name or number. The document only contains a general reference to \"federal law\" regarding the requirement that bus aisles and emergency exits remain clear.",
+    "evidence": "\"It is a federal law that aisles and all emergency exits on buses are kept clear at all times.\"",
+    "page": "154",
+    "confidence": "high"
+  }
+}

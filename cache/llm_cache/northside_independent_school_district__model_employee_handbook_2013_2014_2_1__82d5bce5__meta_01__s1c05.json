@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Northside ISD Employee Handbook",
+    "page": "64",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Revised March 18, 2013",
+    "evidence": "Revised March 18, 2013",
+    "page": "64",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees",
+    "evidence": "Exit interviews will be scheduled for all employees leaving the district.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Exit interviews will be scheduled for all employees leaving the district.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Texas Family Code §8.210, 158.211",
+    "page": "65",
+    "confidence": "high"
+  }
+}

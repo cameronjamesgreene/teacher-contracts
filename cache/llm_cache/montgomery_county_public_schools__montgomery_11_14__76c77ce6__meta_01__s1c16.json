@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "109",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "FY 2011–FY 2014",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "109",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "MCEA members (Montgomery County Education Association / teachers)",
+    "evidence": "Montgomery County Education Association",
+    "page": "113",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding contract",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "109",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Document text is fully extracted and clearly readable throughout.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Workers’ Compensation Law, 24, 69–70, 71",
+    "page": "110",
+    "confidence": "high"
+  }
+}

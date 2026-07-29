@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "COLLECTIVE BARGAINING AGREEMENT",
+    "page": "i",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2017-2020 (through August 1, 2020)",
+    "evidence": "The term of this Agreement shall remain in effect until August 1, 2020",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers, counselors, and librarians",
+    "evidence": "unit consisting of teachers, counselors, school librarians and other full-time, certificated, non-supervisory employees",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "Nothing in this Agreement shall be interpreted as a waiver by the District of its rights and responsibilities",
+    "page": "4",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

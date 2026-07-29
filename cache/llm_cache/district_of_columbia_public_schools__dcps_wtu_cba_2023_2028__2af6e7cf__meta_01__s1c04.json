@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "DCPS_WTU_CBA_2023-2028.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2023-2028",
+    "evidence": "DCPS_WTU_CBA_2023-2028.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "13.1.1. All teachers are entitled to have knowledge of promotion policies and procedures.",
+    "page": "43",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "DCPS_WTU_CBA_2023-2028.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "N/A",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "15.1. Per D.C. Code § 1-617.18... 15.5. ...pursuant to Title 5 of the DCMR, Sections 1306.8-1306.13.",
+    "page": "44",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "class_size_limits_001": {
+    "answer": "discussed",
+    "evidence": "The Union recognizes that the Board has the authority to establish staffing targets for non-core curricula classes. If the Union believes that the staffing targets are exceeded, the appropriate Executive Director will be notified and will work with the Union to address possible solutions.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": "Stage 1 incorrectly coded as not_discussed. Article 10.F explicitly outlines a review procedure for staffing targets, requiring notification and collaboration to address solutions if exceeded.",
+    "question": "Does the document include class-size limits, caps, goals, or review procedures?"
+  },
+  "class_elementary_max_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "What elementary class-size maximums or targets are stated?"
+  },
+  "class_secondary_max_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "What middle or high school class-size maximums or targets are stated?"
+  },
+  "class_overage_remedy_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "",
+    "question": "Does the document provide remedies when class-size limits are exceeded?"
+  }
+}

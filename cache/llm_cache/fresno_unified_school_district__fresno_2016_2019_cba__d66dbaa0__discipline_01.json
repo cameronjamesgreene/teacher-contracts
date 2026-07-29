@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "No bargaining unit member will be disciplined, reduced in rank or compensation, nor otherwise subjected to adverse action as a result of alleged misconduct, without \"just cause\".",
+    "page": "38",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "That procedures and/or evidentiary documentation relevant to statutory dismissal proceedings are separate from the \". . . Progressive Discipline\" Article.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "The superintendent will establish and maintain an orderly plan",
+      "subject_text": "The superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "which shall include the web site for preserving and making board adopted policies accessible, together with administrative rules and regulations needed for their implementation.",
+      "subject_text": "which",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Policies which have been revised, or initially adopted must be sent to each school building and posted for all employees viewing within twenty days of revision or adoption.",
+      "subject_text": "Policies which have been revised, or initially adopted",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive voice; implicit agent is management responsible for policy distribution."
+    },
+    {
+      "quote": "Building administrators must keep a current copy of the complete policy manual in a centrally located and easily accessible area.",
+      "subject_text": "Building administrators",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Also, a current copy will be placed at the Central Public Library.",
+      "subject_text": "a current copy",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive voice; implicit management duty."
+    },
+    {
+      "quote": "The board shall conduct an annual evaluation of the superintendent's job performance.",
+      "subject_text": "The board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": ""
+    },
+    {
+      "quote": "The Board holds the superintendent responsible for carrying out Board policies and for keeping the Board informed on school operations.",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Establishes managerial authority and accountability structure rather than a specific actionable duty."
+    },
+    {
+      "quote": "The Board will assess its own performance annually according to goals established by the Board.",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "evaluation",
+      "notes": "Reconstructed from fragmented OCR text in the source chunk."
+    }
+  ]
+}

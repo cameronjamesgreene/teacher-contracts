@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "A material safety data sheet (MSDS) containing the information required by the Texas Hazard Communication Act of 1993 will be kept for each substance listed on the “Workplace Chemical List:” The school nurse will provide inservice training annually for all employees new to the campus who are affected by the Texas Hazard Communication Act of 1993. All employees affected by the Texas Hazard Communication Act of 1993 will be informed of the details of the Hazard Communication Program including an explanation of the labeling system and the material safety data sheets, and how employees can use the appropriate hazard information.",
+    "evidence": "A material safety data sheet (MSDS) containing the information required by the Texas Hazard Communication Act of 1993 will be kept for each substance listed on the “Workplace Chemical List:”",
+    "page": "32, 33",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "In compliance with Title IX of the Education Amendments of 1972, the Aldine ISD will not discriminate on the basis of sex or age in the employment of or admission to any education program or activity. Any substance listed in 29 CFR part 1910, subpart Z, Toxic and Hazardous Substances, Occupational Safety and Health Administration (OSHA); Threshold Limit Values for Chemical Substances and Physical Agents in the Work Environment, American Conference of Governmental Industrial Hygienists (ACGIH); Annual Report on Carcinogens, National Toxicology Program (NTP); or Monographs, International Agency for Research on Cancer. Monographs will be considered a health or physical hazard, and therefore, hazardous. The building principal is responsible for assuring compliance with this labeling requirement in accordance with a 29CFR 1910.1200. All employees, including temporary employees, working with or potentially exposed to hazardous chemicals will be appropriately informed and trained per 1910.1200 (h) concerning the potential hazards of the chemicals to which they may be exposed. The Aldine I.S.D. schools are inspected for asbestos in accordance with the federal Asbestos Hazard Emergency Response Act (AHERA). The applicable MSDS's, the text of the OSHA Hazard Communication Standard (1900.1200), the inventory list of hazardous chemicals, and this written program will be used as sources of information during the training session.",
+    "evidence": "In compliance with Title IX of the Education Amendments of 1972, the Aldine ISD will not discriminate on the basis of sex or age in the employment of or admission to any education program or activity.",
+    "page": "30-33",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Title IX of the Education Amendments of 1972; 29 CFR part 1910, subpart Z; 29CFR 1910.1200; 1910.1200 (h); OSHA Hazard Communication Standard (1900.1200); federal Asbestos Hazard Emergency Response Act (AHERA); §763.84",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

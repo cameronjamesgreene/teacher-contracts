@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30 minutes minimum",
+    "evidence": "The daily schedule on regular school days shall provide for a minimum of thirty (30) minutes for lunch time.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "The maximum number of mandatory meetings in elementary schools is eight (8) per month and the maximum number of mandatory meetings in secondary and postsecondary is five (5) per month.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "These duties include, but are not limited to health services, supervision of study halls, corridors, playgrounds, cafeterias, streets, sidewalks, and buses; collecting money from students; delivering books to classrooms; taking inventories; duplicating instructional and other materials; and other similar clerical functions.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

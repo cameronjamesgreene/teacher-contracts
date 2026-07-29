@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "5",
+    "evidence": "may be granted a leave of absence for up to five (5) consecutive days per event",
+    "page": "174",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Mother, father, sister, brother, spouse, significant other, child, aunt, uncle, niece, nephew, grandparents, grandchildren, in-laws, parents of spouse/significant other, anyone in a parent/child position, or household members immediately prior to illness/death.",
+    "evidence": "death of the teacher's mother, father, sister, brother, spouse, significant other, child, aunt, uncle, niece, nephew, grandparents, grandchildren, mother-in-law, father-in-law, son-in-law, daughter-in-law, sister-in-law/brother-in-law, parents of significant other, spouse's immediate family, anyone who has the position of parent or child, or any person who has been a member of the teacher's household immediately prior to the critical illness or death of the individual.",
+    "page": "174",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "For any leave of absence for maternity, paternity or adoption, teachers shall be able to access their earned sick leave during the parenting leave up to twelve (12) weeks.",
+    "page": "172",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Teachers returning from a medical leave of absence of any length, teachers shall be required to be required submit an additional “Request for Leave” form and the “Return to Work Authorization\" form from their doctor indicating that they have medical clearance to return to work.",
+    "page": "164",
+    "confidence": "medium",
+    "coder_notes": "Evidence relates to returning from medical leave rather than explicitly detailing pregnancy/disability leave provisions. Confidence lowered to medium due to indirect linkage, but retained 'yes' as it falls under standard leave administration clauses."
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "A leave of absence shall be granted to a teacher for the purpose of providing full-time parental care for a new-born or newly adopted child(ren).",
+    "page": "172",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "11.2.1 The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "page": "165",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

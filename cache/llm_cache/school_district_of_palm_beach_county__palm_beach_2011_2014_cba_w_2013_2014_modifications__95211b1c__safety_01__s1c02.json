@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Any case of assault upon an employee which occurs in the line of duty shall be promptly reported to the Principal. The Board shall provide legal advice to the employee... days lost up to the first twenty (20) days... shall not be deducted from any previously accumulated sick leave... Board will pay all medical and dental costs above that covered by all insurance... The District will reimburse an employee for clothing... Personal Property... Vehicles... maximum total liability of the Board pursuant to Section 10(a)... eight hundred dollars ($800.00) per occurrence",
+    "page": "25",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Student discipline is based upon the premise that students must adhere to the Student Code of Conduct of their respective school... Employees and administrators jointly assume the responsibility for taking a positive approach to discipline and to maintain constructive class/student control... each school shall use a Student Conduct Report... Principal shall use this report to advise the employee of the action taken.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "An employee may remove from his/her class a student who has been documented by the employee to repeatedly interfere with the employee's ability to communicate effectively... The placement review committee must render a decision with five (5) work days of the removal of the student from the employee's classroom... within forty-eight (48) hours... employee may appeal...",
+    "page": "23",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

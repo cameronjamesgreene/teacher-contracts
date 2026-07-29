@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "Professional compensation for teachers during the term of this Agreement shall be set forth in the Appendices, which are attached to and made a part of this Contract.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Credit on the salary schedule shall be given for all years of experience for teaching in other schools, including college teaching. ... Ninety-nine (99) teacher workdays in any one (1) regular school year shall be considered as one (1) year of credit.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "The parties agree to develop mutually a performance pay plan, including a specified amount of program funding, to comply with Florida Statutes.",
+    "page": "61",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

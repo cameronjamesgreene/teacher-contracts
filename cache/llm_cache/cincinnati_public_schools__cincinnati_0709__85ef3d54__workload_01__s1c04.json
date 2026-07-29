@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "Student days: 178; Records/Conference days: 3; Professional meeting days: 2; Paid holidays: 8; Total school year: 191",
+    "evidence": "Student Instructional/Attendance Days .178 ... Records/Conference Days 3 ... Professional Meeting Days 2 ... Paid Holidays 8 ... Total School Year 191",
+    "page": "29",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "420 consecutive minutes",
+    "evidence": "The teacher workday shall be no more than four hundred twenty (420) consecutive minutes per day, including a duty-free lunch period of thirty (30) minutes.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Elementary K-8 teachers shall be assigned preparation and/or conference time of 255 minutes per week.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Elementary K-8: 255 minutes/week; Grades 9-12: no less than 225 minutes/week; Team-based schools: no less than 3 class periods/week",
+    "evidence": "Elementary K-8 teachers shall be assigned preparation and/or conference time of 255 minutes per week. / All teachers in grades 9-12 shall be assigned no less than 225 minutes per week of preparation and/or conference time / ...no less than 3 class periods/week.",
+    "page": "25-27",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "This preparation and/or conference time shall not be assigned outside the limits of the students' school day. / Teachers shall not be required to remain at school beyond the contractual workday for team-based meetings unless compensated.",
+    "page": "26-27",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "...including a duty-free lunch period of thirty (30) minutes.",
+    "page": "25",
+    "confidence": "high"
+  }
+}

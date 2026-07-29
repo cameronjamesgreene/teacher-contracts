@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "The open enrollment period will also be the time in which plan coverage (Dental and Vision) may be changed.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "The District shall provide District paid life insurance coverage for bargaining unit members... Supplemental units of Insurance and dependent coverage are available at the bargaining unit member's expense.",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "The District shall provide paid Medical Health Plan benefits for retirees in accordance with the following provisions:",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

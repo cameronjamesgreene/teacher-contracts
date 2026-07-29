@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "In the event the parties fail to reach agreement during negotiations of this Section, the impasse process outlined in Florida Statutes Chapter 447 will be utilized to resolve any dispute or impasse. Such compensation shall be the daily rate of pay at retirement or death of the employee multiplied by the maximum percentage provided for by Florida Statute times the number of accumulated sick leave days. The Board and the Association agree that all negotiable items that should or could have been discussed during negotiations leading to this Agreement, were discussed, and that this Agreement represents all items agreed to and that no additional negotiations, unless stipulated in this Agreement, or required by Chapter 447, Part II, Florida Statutes, will be conducted during the life of this Agreement except by mutual consent of the parties.",
+    "evidence": "In the event the parties fail to reach agreement during negotiations of this Section, the impasse process outlined in Florida Statutes Chapter 447 will be utilized to resolve any dispute or impasse.",
+    "page": "112, 116, 126",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Nothing herein shall be construed as denying any eligible employee from continuing his/her insurance(s) as provided under Federal COBRA rule and regulations. An IRS Section 125 plan whereby a dependent care spending account will be established for each enrolling employee into which before-tax dollars may be deposited through payroll deductions. An IRS Section 125 plan whereby a medical/dental/vision expense spending account will be established for each enrolling employee into which before-tax dollars may be deposited through payroll deduction.",
+    "evidence": "Nothing herein shall be construed as denying any eligible employee from continuing his/her insurance(s) as provided under Federal COBRA rule and regulations.",
+    "page": "113, 117",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Federal COBRA rule and regulations, IRS Section 125",
+    "evidence": "Federal COBRA rule and regulations; IRS Section 125",
+    "page": "113, 117",
+    "confidence": "high"
+  }
+}

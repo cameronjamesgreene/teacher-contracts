@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Home and hospital teachers will be compensated for one hour of planning time for each six hours of teaching time.",
+    "page": "91",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "one hour of planning time for each six hours of teaching time",
+    "evidence": "Home and hospital teachers will be compensated for one hour of planning time for each six hours of teaching time.",
+    "page": "91",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

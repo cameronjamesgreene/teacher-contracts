@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Pinellas_PCTA_CBA_Final_04_12_22-06_30_25",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "April 12, 2022 to June 30, 2025",
+    "evidence": "Pinellas_PCTA_CBA_Final_04_12_22-06_30_25",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional employees/teachers",
+    "evidence": "instructional employees within the bargaining unit",
+    "page": "49",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The Board agrees to provide a comprehensive benefits program to include, but not limited to, health, dental, life, vision, accidental death and dismemberment and income protection insurance.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "s. 1012.33, 1012.335 and 1012.34, F.S.",
+    "page": "45",
+    "confidence": "high"
+  }
+}

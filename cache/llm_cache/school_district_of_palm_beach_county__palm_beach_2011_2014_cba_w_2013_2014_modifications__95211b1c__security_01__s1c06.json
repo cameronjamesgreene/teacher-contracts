@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "Seniority shall be determined as District-wide as defined in Article I, Section A, 16",
+    "page": "80",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Vacancies are posted on the District website as they occur, with a designated Voluntary Transfer Period from the first working day of the second semester until the UAT Placement Period begins. Applicants must have at least three years of District service. A transfer request packet must be submitted within seven days of posting. Principals screen applicants and must interview a minimum of three (prioritizing the two most senior qualified applicants), unless the applicant's latest evaluation is not effective/highly effective. Transfers outside the period require Principal and Area Superintendent approval. Hardship transfers are available for employees with one year of service facing serious medical/personal issues.",
+    "evidence": "The \"Voluntary Transfer Period\" shall begin the first teacher working day of the second semester each school year... the applying teacher is in at least his/her third year of employment... a transfer request packet... will have been submitted... applications are considered timely if postmarked or received electronically no later than seven (7) days after such vacancy is posted... Principal/Director... is required to interview a minimum of three (3) applicants... Two (2) of those to be interviewed shall be the most senior applicants... Hardship Transfer: An employee who has completed at least one year of service... may apply for a hardship transfer...",
+    "page": "78-79",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "When an involuntary transfer is required, the administration shall provide assistance in finding an appropriate new position. The administration shall provide affected employees with a copy of all school-based T-bargaining unit employee vacancies. Also, each employee shall provide the Director of Recruitment & Retention with a list of three (3) schools in the District to which he/she prefers to be transferred. Only if no vacant positions exist at any of these three (3) listed schools, shall the employee be involuntarily transferred to another vacant position unless the Principal exercises his/her right to refuse such employee pursuant to Fla. Stat. §1012.28(6)... If no placement is found for the employee after three (3) attempts, the affected employee will be placed as determined by the administration.",
+    "page": "87",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Layoffs are triggered by enrollment declines, budgetary restrictions, or reorganization, determined county-wide by the Board. The Association is notified before employees. Reductions follow a hierarchy based on certification status: (1) temporary/provisional, (2) annual/probationary, (3) continuing/professional service. Within each category, releases occur in ascending order of seniority. Affected employees are notified by certified mail and may be reassigned to open positions by seniority/certification. Laid-off employees are recalled for certified positions in descending seniority (Continuing/PSC first, then annual) for up to two years, with recall notices sent by certified mail and a 15-day response window. Repeated failure to respond three times moves an employee to the bottom of the recall list.",
+    "evidence": "The Board shall determine the specific work locations... reduction shall be made on a county-wide basis... Employees holding temporary or provisional certification will be the first released. Fully certificated annual/probationary contract employees, the next released. Continuing/professional service contract employees will be the last to be released. Within each... reductions shall be made such that persons in those areas having the least seniority will be the first released... notified by certified mail... Employees who have been laid-off shall be considered first for positions... recalled in descending order of seniority... recall rights shall not extend beyond two (2) years...",
+    "page": "87-88",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "60",
+    "evidence": "The workday for all employees during pre-school, post-school, and all Teacher Work days during the regular school year shall be from 8:00 a.m. to 3:30 p.m., with one (1) hour for lunch.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "employees who are not receiving a salary supplement (Dept./Grade Level Chairs or Team Leaders) may be required to spend time before or after the regular workday without earning compensatory time and/or additional compensation for the purpose of attending no more than two (2) meetings per month (September through May) initiated by the administration. Employees shall not be required to remain longer than ninety (90) minutes per month and not to exceed sixty (60) minutes at any one (1) meeting beyond the regular workday.",
+    "page": "55",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

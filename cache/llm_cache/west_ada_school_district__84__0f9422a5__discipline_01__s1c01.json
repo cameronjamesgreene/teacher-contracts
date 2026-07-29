@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "no",
+    "evidence": "No certified employee shall be reduced in rank or compensation, non-renewed, dismissed, terminated or deprived of any professional advantage without due process.",
+    "page": "6",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Category I contracts will not be renewed. If a certified employee employed on Category I contract has not been offered a subsequent contract he/she will automatically be terminated when his/her last paycheck is issued.",
+    "page": "9",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184 workdays (A-1, A-2, A-3 matrices); 194 days (Audiologists and Physical Therapists with clinical doctorates)",
+    "evidence": "For employees on the A-1, A-2 and A-3 salary matrices, the work year shall consist of one hundred eighty-four (184) workdays. / Audiologists and Physical Therapists with clinical doctorates... working a one hundred and ninety four (194) day year",
+    "page": "58, 59",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The parties have a mutual interest in ensuring that special education teachers receive sufficient preparation and planning time. / The District shall continue to schedule preparation time and lunch periods for teachers",
+    "page": "59, 60",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Teachers shall not be required to send students to another teacher (who has a class of students) in to get their preparation period.",
+    "page": "59",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "195 duty days",
+    "evidence": "The work year for all 10-month unit members shall not exceed 195 duty days.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "not at times that result in loss of guaranteed minimum planning time.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "not at times that result in loss of guaranteed minimum planning time.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Unit members will not be required to perform breakfast, lunch, or lunchtime recess duties.",
+    "page": "41",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 days chargeable to sick leave; additional days may be granted upon Superintendent approval.",
+    "evidence": "Teachers shall be allowed up to three (3) days of absence chargeable to sick leave for death in the immediate family or a permanent member of the household. Additional days may be allowed, chargeable to sick leave, upon approval of the Superintendent or his/her designee.",
+    "page": "33",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Immediate family or a permanent member of the household. Immediate family includes: parent, step-parent, child, spouse, sister, brother, grandparent, grandchild, parent-in-law, sister-in-law, brother-in-law, son-in-law, daughter-in-law, aunt, uncle, nephew and niece.",
+    "evidence": "Teachers shall be allowed up to three (3) days of absence chargeable to sick leave for death in the immediate family or a permanent member of the household. (Immediate family includes: parent, step-parent, child, spouse, sister, brother, grandparent, grandchild, parent-in-law, sister-in-law, brother-in-law, son-in-law, daughter-in-law, aunt, uncle, nephew and niece.)",
+    "page": "32-33",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "A teacher may use up to 30 days sick leave for absence due to the routine care and bonding with a newborn or newly adopted child.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "A teacher may use sick leave for absence due to personal illness, injury, pregnancy, and exposure to contagious diseases...",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "A teacher may use up to 30 days sick leave for absence due to the routine care and bonding with a newborn or newly adopted child.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

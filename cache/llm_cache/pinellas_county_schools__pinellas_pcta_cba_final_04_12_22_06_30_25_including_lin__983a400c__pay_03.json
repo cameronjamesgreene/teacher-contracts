@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "Credit on the instructional salary schedule will be granted for all verified public school experience in accordance with state law. / Hourly and/or part-time teaching experience in Pinellas County Schools, shall be allowed to teachers who subsequently are employed as regular full-time teachers. One (1) year of experience will be allowed for each fiscal year in which a teacher accrues at least nine hundred (900) hours.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": "Evidence directly and explicitly answers the question regarding in-district experience credit. The provided document text truncates before page 53, but the quoted passage from Stage 1 is unambiguous and directly supports the answer."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No evidence of out-of-district experience credit specifications found in the provided document text. Answer preserved as not_discussed."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No evidence of out-of-state experience credit specifications found in the provided document text. Answer preserved as not_discussed."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "A maximum of three (3) years of credit is allowed for service in the armed forces of the United States subsequent to January 1, 1940. / The Board and the Union agree to provide related work experience credit to employees whose service prior to employment meets the following criteria: 1. The work experience must have been in an area substantially similar to that which the employee is expected to perform.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": "Evidence directly and explicitly answers the question regarding military and public service credit. The provided document text truncates before page 53, but the quoted passage is unambiguous and directly supports the answer."
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of National Board certification or advanced certification pay found in the provided document text. Answer preserved as not_discussed."
+  }
+}

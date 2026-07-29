@@ -1,0 +1,72 @@
+{
+  "status_counts": {
+    "CORRECT": 10,
+    "PARTIAL": 0,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+  },
+  "items": [
+    {
+      "chunk": "4",
+      "doc": "fresno_unified_school_district",
+      "status": "CORRECT",
+      "note": "Verbatim at line 153. management/shall/active/obligation correct. protected=management is the self-directed-hiring-obligation default; acceptable."
+    },
+    {
+      "chunk": "27",
+      "doc": "fresno_unified_school_district",
+      "status": "CORRECT",
+      "note": "Verbatim at line 861 (quote truncated at 'the prog', matches 'the progress'). worker/will/active/obligation all correct; protected=management (report to PAR) reasonable."
+    },
+    {
+      "chunk": "48",
+      "doc": "fresno_unified_school_district",
+      "status": "CORRECT",
+      "note": "Verbatim at line 1382. 'Principals shall have the right'; management acting+protected, shall, active, right judgment all correct."
+    },
+    {
+      "chunk": "73",
+      "doc": "fresno_unified_school_district",
+      "status": "CORRECT",
+      "note": "Verbatim at line 2063 (truncated 'Associat'=Association). Board=management, bargaining members=worker, shall, active, obligation all correct."
+    },
+    {
+      "chunk": "92",
+      "doc": "fresno_unified_school_district",
+      "status": "CORRECT",
+      "note": "Verbatim at line 2530. 'may be waived by mutual agreement': passive, may, permission all correct. Party labels inherently ambiguous for mutual clauses; principal=mgmt is one party, defensible."
+    },
+    {
+      "chunk": "2",
+      "doc": "new_york_city_department_of_education",
+      "status": "CORRECT",
+      "note": "Verbatim at line 102. passive/shall/obligation/worker/compensation correct; 'not otherwise covered' is a descriptor not clause negation, negation=False right."
+    },
+    {
+      "chunk": "11",
+      "doc": "new_york_city_department_of_education",
+      "status": "CORRECT",
+      "note": "Verbatim at line 228 ('this section', matches; line 238 variant says 'this Agreement'). negation=True, active, shall; savings clause -> prohibition consistent; worker/compensation right."
+    },
+    {
+      "chunk": "19",
+      "doc": "new_york_city_department_of_education",
+      "status": "CORRECT",
+      "note": "Verbatim at line 353. team=other (joint PL Team), shall, active, obligation, professional_development all correct."
+    },
+    {
+      "chunk": "31",
+      "doc": "new_york_city_department_of_education",
+      "status": "CORRECT",
+      "note": "Verbatim at line 581. 'will be received': passive, will, worker, compensation correct; acting=other defensible (no by-agent in passive); right judgment reasonable."
+    },
+    {
+      "chunk": "41",
+      "doc": "new_york_city_department_of_education",
+      "status": "CORRECT",
+      "note": "Verbatim at line 1129. No modal -> modal empty correct; 'are eligible' active; statement_type 'other' deterministic; llm_judgment 'right' (eligibility=entitlement) reasonable; worker."
+    }
+  ],
+  "quote_fabrications": 0,
+  "notes": "All 10 quotes verbatim in OCR truth; 0 fabrications; quote_verified=True accurate throughout. Core features (acting/protected party, modal, voice, judgment) hold up. Only soft calls: mutual-clause party labels (c92) and passive-with-no-agent acting=other (c31) - both defensible."
+}

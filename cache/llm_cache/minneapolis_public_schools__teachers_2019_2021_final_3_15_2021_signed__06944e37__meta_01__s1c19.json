@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Tenured teachers who are officers of the bona fide bargaining unit or who are appointed as business agents may seek and shall be granted leaves of absence without pay for the purpose of performing legitimate duties for the organization.",
+    "page": "181",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (Minneapolis Federation of Teachers)",
+    "evidence": "Tenured teachers who are officers of the bona fide bargaining unit or who are appointed as business agents may seek and shall be granted leaves of absence without pay for the purpose of performing legitimate duties for the organization.",
+    "page": "181",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "Tenured teachers who are officers of the bona fide bargaining unit or who are appointed as business agents may seek and shall be granted leaves of absence without pay for the purpose of performing legitimate duties for the organization.",
+    "page": "181",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The District is committed to providing a clean, healthy, and safe learning environment for all students and staff.",
+    "page": "182",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "In accordance with Minnesota Statutes §124E.12, Subd. 6, written requests for charter school leaves received by February 1 shall be approved in accordance with this statute.",
+    "page": "181",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "doc": "portland_public_schools_me",
+  "grids_total": 19,
+  "status_counts": {
+    "CORRECT": 12,
+    "PARTIAL": 7,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+  },
+  "fabrication_class_present": true,
+  "over_extraction": true,
+  "per_grid": [
+    {"file": "2019_2020/experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv", "status": "PARTIAL", "note": "A-1 Exp 183: steps 1-30 match exactly, but final step 31 (62746/67829/70808/72561) truncated"},
+    {"file": "2019_2020/experience_based_salary_schedule__pea_contract_2019_2022_teachers__p47-47.csv", "status": "PARTIAL", "note": "Byte-identical duplicate of A-1 Exp (over-extraction); same step-31 truncation"},
+    {"file": "2019_2020/professional_learning_based_salary_schedule__pea_contract_2019_2022_teachers.csv", "status": "CORRECT", "note": "A-1 PLBSS 183: all 10 steps x 5 lanes match truth exactly"},
+    {"file": "2019_2020/professional_learning_based_salary_schedule__pea_contract_2019_2022_teachers__p47-47.csv", "status": "CORRECT", "note": "Byte-identical duplicate of A-1 PLBSS (over-extraction); values correct"},
+    {"file": "2019_2020/schedule_193_day_experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv", "status": "CORRECT", "note": "A-2 Exp 193: all 31 steps x 4 lanes match truth exactly (incl step 31)"},
+    {"file": "2019_2020/schedule_193_day_experience_based_salary_schedule__pea_contract_2019_2022_teachers__p48-48.csv", "status": "CORRECT", "note": "Byte-identical duplicate of A-2 Exp (over-extraction); values correct"},
+    {"file": "2019_2020/schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv", "status": "CORRECT", "note": "A-2 PLBSS 193: all 10 steps x 5 lanes match truth exactly"},
+    {"file": "2019_2020/schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p48-48.csv", "status": "CORRECT", "note": "Byte-identical duplicate of A-2 PLBSS (over-extraction); values correct"},
+    {"file": "2020_2021/experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv", "status": "PARTIAL", "note": "A-3 Exp 183: step 31 truncated AND step 30 D-col empty (73298 dropped)"},
+    {"file": "2020_2021/experience_based_salary_schedule__pea_contract_2019_2022_teachers__p49-49.csv", "status": "PARTIAL", "note": "Byte-identical duplicate of A-3 Exp (over-extraction); same truncation + empty cell"},
+    {"file": "2020_2021/experience_based_salary_schedule__pea_contract_2019_2022_teachers__p50-50.csv", "status": "PARTIAL", "note": "A-4 Exp 193 (label drops '193 Day'): steps 1-30 exact, step 31 truncated"},
+    {"file": "2020_2021/schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv", "status": "CORRECT", "note": "A-3 PLBSS 183: all 10 steps x 5 lanes match truth exactly"},
+    {"file": "2020_2021/schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p49-49.csv", "status": "CORRECT", "note": "Byte-identical duplicate of A-3 PLBSS (over-extraction); values correct"},
+    {"file": "2020_2021/schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv", "status": "CORRECT", "note": "A-4 PLBSS 193: all 10 steps x 5 lanes match truth exactly"},
+    {"file": "2020_2021/schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p50-50.csv", "status": "CORRECT", "note": "Byte-identical duplicate of A-4 PLBSS (over-extraction); values correct"},
+    {"file": "2021_2022/experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv", "status": "PARTIAL", "note": "A-5 Exp 183: steps 1-30 exact, step 31 (65923/71262/74393/76235) truncated"},
+    {"file": "2021_2022/experience_based_salary_schedule__pea_contract_2019_2022_teachers__p51-51.csv", "status": "PARTIAL", "note": "Byte-identical duplicate of A-5 Exp (over-extraction); same step-31 truncation"},
+    {"file": "2021_2022/schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv", "status": "CORRECT", "note": "A-5 PLBSS 183: all 10 steps x 5 lanes match truth exactly"},
+    {"file": "2021_2022/schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p51-51.csv", "status": "CORRECT", "note": "Byte-identical duplicate of A-5 PLBSS (over-extraction); values correct"}
+  ],
+  "notes": "19 files=10 distinct grids (9 base/page dup pairs)=over-extraction. Truncation: Exp grids drop step 31 (exc A-2); A-3 also drops step-30 D cell. Under-extraction: A-6 (193-Day 2021-22) missing. 'warnings:none' are false negatives on 7 truncated files. No year-col copies/shifts/garbled hdrs."
+}

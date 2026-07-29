@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "2.1 Bargaining unit members shall not be required to work under unsafe conditions or to perform tasks which endanger their health or safety which have been brought to the attention of the District. 2.2 When a unit member reports unsafe or hazardous conditions, the site administration shall investigate. 4.2 ... the School Building Committee may request that the Division Office review evening activities in terms of time, place, and safety for all participants.",
+    "page": "52",
+    "confidence": "high",
+    "coder_notes": "Evidence quoted by Stage 1 corresponds to contractual articles not included in the provided document excerpt. Answer preserved based on explicit policy language in the quote."
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "2.3 If a unit member is attacked, assaulted or physically threatened by a student while on duty, the unit member shall report the incident in full detail to his/her immediate supervisor within 24 hours of the incident. The District shall thereafter submit a report to the appropriate law enforcement authorities. 3.1 Pursuant to Education Code section 49079, a unit member shall be informed in writing ... of the student's history of violent behavior or conduct which caused, or was a threat to cause, bodily injury to another person.",
+    "page": "52",
+    "confidence": "high",
+    "coder_notes": "Evidence quoted by Stage 1 corresponds to contractual articles not included in the provided document excerpt. Answer preserved based on explicit procedure language in the quote."
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "5.1 A unit member may suspend a student from his/her class for the day of the incident and the day following for any act which would serve as a basis for suspension and/or expulsion under Education Code section 48900. The unit member shall immediately report the suspension to the site administration and send the student to the site administrator for appropriate action.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": "Evidence quoted by Stage 1 corresponds to contractual articles not included in the provided document excerpt. Answer preserved based on explicit discipline authority language in the quote."
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "5.1 A unit member may suspend a student from his/her class for the day of the incident and the day following for any act which would serve as a basis for suspension and/or expulsion under Education Code section 48900. The unit member shall immediately report the suspension to the site administration and send the student to the site administrator for appropriate action. As soon as possible following the suspension from class, the unit member shall contact the student's parent or guardian of the student and arrange a parent/unit member conference regarding the suspension.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": "Evidence quoted by Stage 1 corresponds to contractual articles not included in the provided document excerpt. Answer preserved based on explicit removal/suspension authority language in the quote."
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "In accordance with State law, the Board of Education reserves the right, in case of emergency or shortage of funds, to close the schools prior to the date announced in the calendar and to pay teachers such part of the annual salary as the days of service rendered bear to the annual announced school term.",
+    "page": "43",
+    "confidence": "high",
+    "coder_notes": "Evidence quoted by Stage 1 corresponds to contractual articles not included in the provided document excerpt. Answer preserved based on explicit emergency closure language in the quote."
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No provisions regarding physical working conditions (temperature, ventilation, air quality, etc.) were found in the provided document excerpt. Answer preserved as not_discussed."
+  }
+}

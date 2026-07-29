@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "The provided original document is blank (contains only form feed characters). No leave provisions are present or discussed."
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "The provided original document is blank (contains only form feed characters). No leave provisions are present or discussed."
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "The provided original document is blank (contains only form feed characters). No leave provisions are present or discussed."
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "The provided original document is blank (contains only form feed characters). No leave provisions are present or discussed."
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "The provided original document is blank (contains only form feed characters). No leave provisions are present or discussed."
+  },
+  "leave_fmla_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "The provided original document is blank (contains only form feed characters). No leave provisions are present or discussed."
+  }
+}

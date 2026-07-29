@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Principals will strive to assign teachers in the areas in which they are certified and experienced and where they meet highly qualified status as defined by the NCLB requirements. When unavoidable assignments for which the teacher would not be designated highly qualified under NCLB are to be considered, the principal and the teacher will first meet to discuss options to, and potential impacts of, the potential assignment. If prior to August 1, OHRD identifies a qualified new hire who meets the NCLB highly qualified definition for the assignment, the incumbent teacher may volunteer to be involuntarily transferred to a position for which he/she is highly qualified, and the new teacher may be placed in the assignment for which he/she meets the highly qualified requirements.",
+    "evidence": "Principals will strive to assign teachers in the areas in which they are certified and experienced and where they meet highly qualified status as defined by the NCLB requirements.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "NCLB",
+    "evidence": "NCLB",
+    "page": "45",
+    "confidence": "high"
+  }
+}

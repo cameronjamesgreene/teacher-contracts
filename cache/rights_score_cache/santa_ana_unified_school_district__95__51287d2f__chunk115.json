@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "Fully credentialed teachers employed on December 31, 2000, and serving in the following hard-to-fill positions shall receive an annual stipend of $800 beginning with the 2000-2001 school year.",
+      "subject_text": "Fully credentialed teachers employed on December 31, 2000, and serving in the following hard-to-fill positions",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "If a teacher works more than one semester, $800 shall be paid.",
+      "subject_text": "$800",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "If a teacher works less than a semester, $400 shall be provided.",
+      "subject_text": "$400",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Current employees without a credential and current fully-credentialed employees who agree to obtain a credential qualifying them for a hard-to-fill position shall receive upon completion of the credential the $800 stipend if assigned to a hard-to-fill position.",
+      "subject_text": "Current employees without a credential and current fully-credentialed employees who agree to obtain a credential qualifying them for a hard-to-fill position",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Current employees who possess a credential qualifying them for a hard-to-fill position but are not assigned to a hard-to-fill position shall receive the stipend in item 5 below if they transfer to a hard-to-fill position.",
+      "subject_text": "Current employees who possess a credential qualifying them for a hard-to-fill position but are not assigned to a hard-to-fill position",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    }
+  ]
+}

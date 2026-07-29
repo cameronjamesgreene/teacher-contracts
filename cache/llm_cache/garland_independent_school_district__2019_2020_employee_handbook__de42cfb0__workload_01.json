@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "8 hours for most teachers (e.g., K-5 8:00 a.m.–4:00 p.m.; Middle School 8:10 a.m.–4:10 p.m.; High School 7:15 a.m.–3:15 p.m.); variations exist for alternative campuses (AEC, ACE, PAC, GRCTC, Memorial Pathway/Non-Traditional).",
+    "evidence": "K-5 Teacher and staff 8:00 a.m. - 4:00 p.m.; Middle School Teacher and staff 8:10 a.m. - 4:10 p.m.; High School Teacher and staff 7:15 a.m. - 3:15 p.m.",
+    "page": "22-23",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two-week period for instructional preparation",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "At least 450 minutes per two-week period, with a minimum of 45 minutes within the instructional day.",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two-week period for instructional preparation... A planning and preparation period under this section may not be less than 45 minutes within the instructional day.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "During a planning and preparation period, a classroom teacher may not be required to participate in any other activity.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "no. Teachers are entitled to a duty-free lunch of at least 30 minutes, but the district may require them to supervise students during lunch one day a week when no other personnel are available.",
+    "evidence": "Teachers and librarians are entitled to a duty-free lunch period of at least 30 minutes. The district may require teachers to supervise students during lunch one day a week when no other personnel are available.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "AFT Certified CBA",
+    "page": "16",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2023-2026",
+    "evidence": "For the 2023-2024 School Year... 2024-2025... 2025-2026",
+    "page": "19",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certified Unit (teachers, counselors, librarians, ESL resource teachers, and other certified staff)",
+    "evidence": "employees in the Certified Unit represented by the Kansas City Federation of Teachers and School-Related Personnel (KCFT)",
+    "page": "33",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "Collective Bargaining Agreement",
+    "page": "16",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "According to state law, the first five (5) years of employment...",
+    "page": "30",
+    "confidence": "high"
+  }
+}

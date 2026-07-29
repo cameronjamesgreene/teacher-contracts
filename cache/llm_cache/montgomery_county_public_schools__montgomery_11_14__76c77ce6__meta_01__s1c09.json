@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "51",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "FY2011–FY 2014",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "51",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "MCEA unit members (teachers/certificated staff)",
+    "evidence": "MCEA/BOE CONTRACT; Unit members",
+    "page": "51",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "FY2011–FY 2014 MCEA/BOE CONTRACT",
+    "page": "51",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section 6-407 (c) (2) of the Education Article of the Annotated Code of Maryland",
+    "page": "58",
+    "confidence": "high"
+  }
+}

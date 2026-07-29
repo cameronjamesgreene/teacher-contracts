@@ -1,0 +1,15 @@
+"# Pittsburgh_10-15.pdf — Preschool Teachers (Early Intervention Special Education), Level III Salary Schedules (June 2010 - September 2014)"
+"# population: Preschool Teachers (Early Intervention Special Education), Level III (Bachelor's Degree) | is_teacher_schedule: True"
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p28) — one grid's data may be contaminated from another; verify | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,June 2010,September 2010,September 2011,September 2012,September 2013,September 2014,Total Increase
+1-,37120,37620,38120,38620,39120,39620,9870
+2-,38850,39350,39850,40350,40850,41350,9450
+3-,40300,40800,41300,41800,42300,42800,9350
+4-,41620,42120,42620,43120,43620,44120,9510
+5-,43070,43570,44070,44570,45070,45570,12180
+6-,44490,46300,47650,49130,54750,55250,10760
+7-,45800,47650,49130,50130,54750,55250,9450
+8-,47150,49130,50130,51130,54750,55250,8100
+9-,48630,50130,51130,52250,54750,55250,6620
+10-,52750,53250,53750,54250,54750,55250,2500

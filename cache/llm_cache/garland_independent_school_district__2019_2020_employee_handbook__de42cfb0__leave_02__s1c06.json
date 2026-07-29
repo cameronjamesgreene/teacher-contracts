@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Employees have several different types of leave available based on state requirements and local policy. At the beginning of the school year, each full-time employee is advanced a total of seven days of paid leave...",
+    "page": "84",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "no",
+    "evidence": "The document does not provide a separate provision for adoption, child care, or bonding leave beyond general leave categories and FMLA.",
+    "page": "84",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "The Family Medical Leave Act passed by the federal congress in 1994 provides an employee leave for up to 12 work weeks (60 working days)... up to 26 work weeks... To qualify for Family Medical Leave, an employee must: Be employed for at least 12 months has worked at least 1,250 hours in previous 12 months",
+    "page": "85",
+    "confidence": "high"
+  }
+}

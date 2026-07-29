@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Northside ISD Employee Handbook",
+    "page": "35",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2013-2014 school year (Revised March 18, 2013)",
+    "evidence": "Model_employee_handbook_2013-2014_(2)_(1).pdf / Revised March 18, 2013",
+    "page": "35",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All district employees",
+    "evidence": "All district employees should perform their duties in accordance with state and federal law...",
+    "page": "37",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "(19 TAC 247.1(b)) / Texas Open Meetings Act / Title IX of the Education Amendments of 1972",
+    "page": "35, 38, 41",
+    "confidence": "high"
+  }
+}

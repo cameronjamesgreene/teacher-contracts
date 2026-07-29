@@ -1,0 +1,44 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "PROFESSIONAL AGREEMENT between THE BOARD OF EDUCATION OF GRANITE SCHOOL DISTRICT and THE GRANITE EDUCATION ASSOCIATION INCORPORATED",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2011 through June 30, 2014",
+    "evidence": "Covering the Period July 1, 2011 through June 30, 2014",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All teachers (professional employees licensed by the State Board of Education)",
+    "evidence": "The appropriate unit for purposes of negotiating terms and conditions of employment is comprised of all teachers, as herein defined, employed by the Granite School District.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "This Agreement shall be a part of each individual teacher's contract.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Any discontinuance or curtailment of funds by the program's funding agency shall constitute the discontinuance of a particular service (i.e. program) within the meaning of Section 53A-8-107 Utah Code",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

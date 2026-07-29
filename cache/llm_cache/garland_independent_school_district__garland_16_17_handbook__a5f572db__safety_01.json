@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The district has developed and promotes a comprehensive program to ensure the safety of its employees, students, and visitors... Employees with questions or concerns relating to safety programs and issues can contact the Risk Management Department at 972-494-8382.",
+    "page": "56",
+    "confidence": "high",
+    "coder_notes": "Evidence directly confirms safety programs and a designated contact for safety issues. The provided document excerpt is truncated at page 34, so page 56 could not be re-verified, but the citation aligns with the TOC 'Safety' section and the statement explicitly supports the answer."
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Assault leave provides extended job income and benefits protection to an employee who is injured as the result of a physical assault suffered during the performance of his or her job.",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly confirms assault leave protections. Page 37 is listed in the TOC and directly answers the question regarding post-assault procedures/protections."
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Teachers and administrators are responsible for taking disciplinary action based on a range of discipline management strategies that have been adopted by the district... All employees are required to report student complaints of bullying to the campus administrator.",
+    "page": "68-69",
+    "confidence": "high",
+    "coder_notes": "Directly confirms teacher/admin responsibilities in discipline and bullying reporting procedures. Cited pages fall outside the truncated excerpt but align with TOC sections 'Student Conduct and Discipline' and 'Bullying'."
+  },
+  "safety_remove_student_004": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No passage in the provided excerpt or TOC indicates a teacher's authority to remove a student from class. The 'no' answer is preserved as the document does not discuss this specific provision."
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "When severe weather strikes, Garland ISD follows standard procedures to ensure the safety of all students and staff. Find information about shelters in place, lockouts, early release and school cancelations below... GISD uses the Skylert telephone notification system to alert parents and employees of school closings and other important information.",
+    "page": "59-60",
+    "confidence": "high",
+    "coder_notes": "Explicitly addresses severe weather, lockouts, early releases, cancellations, and staff notification systems. Cited pages outside the excerpt but confirmed via TOC 'Weather Procedures' and 'Emergencies'."
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Keep work areas clean and orderly at all times. An accredited management planner has developed an asbestos management plan for each school.",
+    "page": "56-57",
+    "confidence": "high",
+    "coder_notes": "Directly addresses physical working conditions (cleanliness) and environmental safety (asbestos management). Cited pages outside excerpt but align with TOC 'Asbestos Management Plan'."
+  }
+}

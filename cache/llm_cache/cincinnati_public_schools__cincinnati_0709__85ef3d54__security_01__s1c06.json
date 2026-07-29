@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "teachers with limited contracts shall be considered before those with continuing contracts.",
+    "page": "45",
+    "confidence": "medium"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "A non-tenured teacher who has completed five consecutive years of satisfactory or better service has the right to file a grievance challenging the Board's decision not to renew his/her contract and to pursue that grievance to final and binding arbitration.",
+    "page": "50",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall be defined in priority as follows: a. Years of Continuous Contractual Service... b. Years in Current Building... c. Years in Subject/Level... d. Years Employed as Certificated Teacher",
+    "page": "44",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Voluntary transfer requests from a building are granted if positions are available before a teacher is treated as surplus. Surplus teachers may express preference for existing vacancies. ESP positions require application by April 15, with screening panels reviewing qualifications. Seniority controls the choice when training, experience, and qualifications are substantially equal.",
+    "evidence": "Before a teacher is treated as “surplus”, voluntary transfer requests from that teacher's building shall be granted if the position is available.",
+    "page": "42",
+    "confidence": "medium"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "A teacher receiving an administrative transfer shall be informed in writing with the reasons delineated by the Superintendent or designee. Teachers may be surplussed due to decreased enrollment or a change in program offerings or school organization.",
+    "page": "40",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Procedures apply when there is declining enrollment, limited financial resources, or reduction/discontinuance of services. Criteria are applied in priority order: certification, contractual status, part-time status, qualifications, and seniority (based on continuous contractual years in classification, district, and state). Seniority serves as a tie-breaker. Non-teaching staff face system-wide reductions with seniority controls and reassignment rights to teaching roles. Laid-off employees retain 18 months of re-employment priority, with continuous service credited. The Board must provide prompt notice and offers re-training tuition reimbursement for science/math certification, with guaranteed re-employment if completed by September 1.",
+    "evidence": "When conditions such as declining student enrollment, limited financial resources, reduction in or discontinuance of selected services occur, it may be necessary to implement a “Reduction-in-Force” (RIF) procedure.",
+    "page": "45",
+    "confidence": "high"
+  }
+}

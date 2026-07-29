@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "\"as otherwise provided for in this Agreement.\"",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "WTU bargaining unit Teachers",
+    "evidence": "\"for all WTU bargaining unit Teachers.\"",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "\"The Parties agree that...\"",
+    "page": "66",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "\"crimes as defined in D.C. Code 22-3201 through 22-3217 and 33-601 through 33-603.\"",
+    "page": "56",
+    "confidence": "high"
+  }
+}

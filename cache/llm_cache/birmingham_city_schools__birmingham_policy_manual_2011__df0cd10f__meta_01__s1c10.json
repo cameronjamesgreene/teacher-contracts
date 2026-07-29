@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Undated as a whole; contains policy approval/revision dates from 1974 to 2010",
+    "evidence": "Approved: 10/27/09",
+    "page": "8207",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Regular School Bus Service - Students who live two or more miles from the school to which they have been assigned by the Board of Education will be provided school bus service.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "The Code of Alabama, 16-1-24-1; The Alabama Administrative Code, 290-030-010-06.",
+    "page": "8206",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Teachers shall be provided a duty-free lunch period, equivalent in length to the lunch period of the teachers’ students, exclusive of passing periods, or thirty (30) consecutive minutes, whichever is longer.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Teachers may be required to attend no more than two (2) faculty meetings per month, such time to be considered part of the work week described above.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "The site administrator of each school may require teachers to perform related duties on a reasonable and equitably distributed basis among teachers, such time to be considered part of the work week described above.",
+    "page": "9",
+    "confidence": "high"
+  }
+}

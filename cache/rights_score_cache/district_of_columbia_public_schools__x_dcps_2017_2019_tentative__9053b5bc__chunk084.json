@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "The Supervisor shall have the right call one (1) mandatory, introductory meeting for Teachers during the non-instructional days that precede the first day of school for students.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "This meeting shall be no more than three (3) hours in length, unless the SCAC and the Supervisor mutually agree to an extension.",
+      "subject_text": "This meeting",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers shall be provided with a minimum of one and half (1.5) days for planning and room preparation.",
+      "subject_text": "Teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    }
+  ]
+}

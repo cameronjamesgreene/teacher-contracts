@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "FTA/FUSD Tentative Agreement, June 5, 2014",
+    "page": "38",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2013 through June 30, 2016 (2013-14 through 2015-16)",
+    "evidence": "This Agreement shall remain in full force and effect from July 1, 2013 through June 30, 2016.",
+    "page": "50",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated employees (FTA members)",
+    "evidence": "For GE Teachers: ... bargaining unit members",
+    "page": "37",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "tentative agreement",
+    "evidence": "FTA/FUSD Tentative Agreement, June 5, 2014",
+    "page": "38",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code sections 56362- 56362.1",
+    "page": "37",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "DCPS_WTU_CBA_2023-2028.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "Effective upon DC Council approval through September 30, 2028",
+    "evidence": "This Agreement shall be effective as of the date of DC Council approval, and shall remain in full force and effect until the 30th day of September 2028.",
+    "page": "102",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (ET and EG teachers)",
+    "evidence": "for employees in the ET teachers' bargaining unit",
+    "page": "97",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "failure to provide the funds to meet the obligations of the Agreement pertaining to base salary, benefits (defined as the provisions governing optical, dental and legal benefits), and mutual consent, is a material breach of contract by DCPS.",
+    "page": "101",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "D.C. Official Code 1-611.06(d)",
+    "page": "92",
+    "confidence": "high"
+  }
+}

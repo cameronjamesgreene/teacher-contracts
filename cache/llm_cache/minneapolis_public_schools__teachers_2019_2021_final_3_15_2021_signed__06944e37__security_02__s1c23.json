@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Teachers who have been laid off and who retain rights to be recalled according to the Teacher Tenure Act MN Statute §122A.41 or the provisions contained in this Agreement shall receive first consideration for other positions in the District for which they are qualified.",
+    "page": "214",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Seniority",
+    "evidence": "Such notifications shall be sent to teachers in order of their seniority.",
+    "page": "214",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

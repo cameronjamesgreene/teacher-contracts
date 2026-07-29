@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "MCEA/BOE CONTRACT",
+    "page": "83",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2010 to June 30, 2014",
+    "evidence": "This Agreement shall be for the period beginning July 1, 2010, and ending June 30, 2014",
+    "page": "81",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated teachers, substitute teachers, and home and hospital teachers",
+    "evidence": "certificated and noncertificated substitute teachers",
+    "page": "82",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "their entire understandings are reflected in this Substitute Teachers' Contract.",
+    "page": "82",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Sections 6-401(c), 6-407(b), and 6-408(b) of the Education Article of the Annotated Code of Maryland as amended",
+    "page": "82",
+    "confidence": "high"
+  }
+}

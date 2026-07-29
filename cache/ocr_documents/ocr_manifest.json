@@ -1,0 +1,35 @@
+[
+  {
+    "district": "Santa Ana Unified School District",
+    "file_name": "Santa_Ana_2016-2019_Contract.pdf",
+    "document_id": "santa_ana_unified_school_district__santa_ana_2016_2019_contract__79de7c42",
+    "uuid": "1eb86aeb-5ff1-5361-b58e-577d487b6e49",
+    "pages": 152,
+    "pdf_bytes": 7626911,
+    "hydrated": true,
+    "ready": true,
+    "cached_pdftotext_chars": 0
+  },
+  {
+    "district": "Birmingham City Schools",
+    "file_name": "Birmingham_Policy_Manual_updated_6_2012.pdf",
+    "document_id": "birmingham_city_schools__birmingham_policy_manual_updated_6_2012__9501469d",
+    "uuid": "a3822cc1-924f-5786-8682-3057f86a3f69",
+    "pages": 286,
+    "pdf_bytes": 9027470,
+    "hydrated": true,
+    "ready": true,
+    "cached_pdftotext_chars": 0
+  },
+  {
+    "district": "West Ada School District",
+    "file_name": "Wes_Ada_Agreement_2022-2023.pdf",
+    "document_id": "west_ada_school_district__wes_ada_agreement_2022_2023__08e8a4c6",
+    "uuid": "3794bda0-aaab-5bb6-a034-61c49e0999ad",
+    "pages": 26,
+    "pdf_bytes": 12326509,
+    "hydrated": true,
+    "ready": true,
+    "cached_pdftotext_chars": 0
+  }
+]

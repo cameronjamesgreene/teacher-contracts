@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "not_discussed",
+    "evidence": "Evidence not found in provided document text. The provided document text cuts off at page 18, while Stage 1 attributed the quoted passage to page 42.",
+    "page": "N/A",
+    "confidence": "low",
+    "coder_notes": "Stage 1 quoted evidence is completely absent from the provided document. Unable to verify the claim. Downgraded to not_discussed due to missing supporting text."
+  }
+}

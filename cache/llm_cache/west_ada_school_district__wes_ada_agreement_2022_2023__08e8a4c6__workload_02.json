@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document text was blank/missing. The 'not_discussed' classification is correct as no content is present to evaluate."
+  },
+  "workload_meetings_limits_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document text was blank/missing. The 'not_discussed' classification is correct as no content is present to evaluate."
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original document text was blank/missing. The 'not_discussed' classification is correct as no content is present to evaluate."
+  }
+}

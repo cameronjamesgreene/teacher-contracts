@@ -1,0 +1,9 @@
+# Seattle_final_CBA_2018-2019.pdf — PARAPROFESSIONAL SUBSTITUTES (2018-2019)
+# population: Paraprofessional Substitutes | is_teacher_schedule: False
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p146) — one grid's data may be contaminated from another; verify | audit corrected this table
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Salary Schedule,Position,Days Worked,,Hourly Rate,Daily Rate
+1,SU1,,1-59 Days,$X,23.58,165.06
+2,SU1,,60-90 Days,$X*1.05,24.75,173.25
+3,SU1,,91-120 Days,$X*1.10,25.93,181.51
+4,SU1,,121+ Days,$X*1.15,27.11,189.77

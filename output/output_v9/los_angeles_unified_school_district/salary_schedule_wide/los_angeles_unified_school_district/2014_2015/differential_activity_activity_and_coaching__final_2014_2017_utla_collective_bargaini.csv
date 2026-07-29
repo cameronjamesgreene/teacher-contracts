@@ -1,0 +1,12 @@
+"# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — Differential, Activity (Activity and Coaching) (2014-2015)"
+# population: Activity and Coaching staff | is_teacher_schedule: False
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns); cross_grid_duplicate: cell values are ~identical to a different schedule (DIFFERENTIALS, ACTIVITY RATES (ACTIVITIES AND COACHING) p336) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_duplicate: cell values are ~identical to a different schedule (DIFFERENTIALS, ACTIVITY RATES (ACTIVITIES AND COACHING): p384) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_contamination: a value column matches a column in a different schedule (p336) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p368) — one grid's data may be contaminated from another; verify | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+1,973
+2,1283
+3,1691
+4,2102
+5,2311
+6,2512
+7,2811

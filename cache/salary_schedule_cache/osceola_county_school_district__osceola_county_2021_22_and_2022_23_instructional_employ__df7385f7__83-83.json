@@ -1,0 +1,123 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "APPENDIX A-1: Adjunct Hourly Pay Schedule",
+      "population": "Adjuncts / Hourly Paid Staff",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "2021-22 and 2022-23",
+      "lane_labels": [
+        "Hourly Rate of Pay"
+      ],
+      "step_labels": [
+        "Non-Certified Test Administrators (TABE, GED, CCC Lab Proctors)",
+        "Voc. 7 / FDLE Certified",
+        "Bachelor Degree",
+        "Advanced Degree",
+        "Vocational 7 Certification",
+        "Bachelor Degree",
+        "Master/ Advanced Degree",
+        "Recruit Class Instructor",
+        "Advanced/Specialized Course Instructor (Trust Funded)",
+        "Train the Trainer Courses (Trust Funded)",
+        "Registered Nurse",
+        "Bachelor of Science/Nursing (BSN)",
+        "Master of Science/Nursing (MSN)"
+      ],
+      "cells": [
+        {
+          "step": "Non-Certified Test Administrators (TABE, GED, CCC Lab Proctors)",
+          "lane": "Hourly Rate of Pay",
+          "value": "15.00",
+          "cell_code": null
+        },
+        {
+          "step": "Voc. 7 / FDLE Certified",
+          "lane": "Hourly Rate of Pay",
+          "value": "22.00",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelor Degree",
+          "lane": "Hourly Rate of Pay",
+          "value": "26.60",
+          "cell_code": null
+        },
+        {
+          "step": "Advanced Degree",
+          "lane": "Hourly Rate of Pay",
+          "value": "28.00",
+          "cell_code": null
+        },
+        {
+          "step": "Vocational 7 Certification",
+          "lane": "Hourly Rate of Pay",
+          "value": "26.60",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelor Degree",
+          "lane": "Hourly Rate of Pay",
+          "value": "28.00",
+          "cell_code": null
+        },
+        {
+          "step": "Master/ Advanced Degree",
+          "lane": "Hourly Rate of Pay",
+          "value": "30.00",
+          "cell_code": null
+        },
+        {
+          "step": "Recruit Class Instructor",
+          "lane": "Hourly Rate of Pay",
+          "value": "26.60",
+          "cell_code": null
+        },
+        {
+          "step": "Advanced/Specialized Course Instructor (Trust Funded)",
+          "lane": "Hourly Rate of Pay",
+          "value": "28.00",
+          "cell_code": null
+        },
+        {
+          "step": "Train the Trainer Courses (Trust Funded)",
+          "lane": "Hourly Rate of Pay",
+          "value": "32.00",
+          "cell_code": null
+        },
+        {
+          "step": "Registered Nurse",
+          "lane": "Hourly Rate of Pay",
+          "value": "26.60",
+          "cell_code": null
+        },
+        {
+          "step": "Bachelor of Science/Nursing (BSN)",
+          "lane": "Hourly Rate of Pay",
+          "value": "28.00",
+          "cell_code": null
+        },
+        {
+          "step": "Master of Science/Nursing (MSN)",
+          "lane": "Hourly Rate of Pay",
+          "value": "30.00",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Table lists hourly rates by position/category rather than a standard step/lane grid.",
+      "confidence": "high",
+      "validation_warnings": [
+        "duplicate step_labels: ['Bachelor Degree']",
+        "identical values across steps ['Bachelor Degree', 'Vocational 7 Certification', 'Bachelor Degree', 'Recruit Class Instructor', 'Registered Nurse'] — looks like one column copied across rows instead of each row's own data",
+        "identical values across steps ['Advanced Degree', 'Advanced/Specialized Course Instructor (Trust Funded)', 'Bachelor of Science/Nursing (BSN)'] — looks like one column copied across rows instead of each row's own data",
+        "identical values across steps ['Master/ Advanced Degree', 'Master of Science/Nursing (MSN)'] — looks like one column copied across rows instead of each row's own data",
+        "only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

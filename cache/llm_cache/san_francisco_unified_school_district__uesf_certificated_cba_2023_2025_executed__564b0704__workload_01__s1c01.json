@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "The length of the work year for all teachers shall be as follows: 184 days of service, except that department heads and deans/head counselors shall have 189 days of service, which includes the three (3) District professional development days.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7",
+    "evidence": "The length of the teacher work day, including preparation time and time regularly required before and after school, exclusive of the duty-free lunch period, shall be based on a work week of seven (7) hours per day or thirty-five hours per five (5) day week.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The length of the teacher work day, including preparation time and time regularly required before and after school, exclusive of the duty-free lunch period, shall be based on a work week of seven (7) hours per day or thirty-five hours per five (5) day week.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Included in the 7-hour workday; specific minutes not separated from instructional/other duties",
+    "evidence": "The length of the teacher work day, including preparation time and time regularly required before and after school, exclusive of the duty-free lunch period, shall be based on a work week of seven (7) hours per day or thirty-five hours per five (5) day week.",
+    "page": "11",
+    "confidence": "medium"
+  },
+  "workload_prep_protected_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Teachers shall be provided a duty-free lunch period, equivalent in length to the lunch period of the teachers’ students, exclusive of passing periods, or thirty (30) consecutive minutes, whichever is longer.",
+    "page": "11",
+    "confidence": "high"
+  }
+}

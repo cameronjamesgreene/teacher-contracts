@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "tentative agreement",
+    "evidence": "X_DCPS_2017_-_2019_tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "FY 2017, FY 2018, FY 2019 (2017-2018, 2018-2019 school years)",
+    "evidence": "FY 2017 - 2019 EG 09 Salary Schedule",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (WTU)",
+    "evidence": "The Washington Teachers’ Union / notify the WTU in writing",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "tentative",
+    "evidence": "X_DCPS_2017_-_2019_tentative.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "The Washington Teachers’ Union 1239 Pennsylvania Avenue, S.E.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

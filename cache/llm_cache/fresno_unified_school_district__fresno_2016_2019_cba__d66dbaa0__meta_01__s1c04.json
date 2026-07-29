@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Fresno_2016-2019_CBA.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Bargaining Unit Members / Teachers",
+    "evidence": "Unit members shall have a work day of 8 hours (480 minutes) in which to perform their on-site and off-site professional responsibilities.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "These provisions govern discipline for all bargaining unit members and supersede California Education Code Sections 44930, et.seq. to the extent those sections would otherwise be deemed applicable.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "California Education Code Sections 44930, et.seq.",
+    "page": "39",
+    "confidence": "high"
+  }
+}

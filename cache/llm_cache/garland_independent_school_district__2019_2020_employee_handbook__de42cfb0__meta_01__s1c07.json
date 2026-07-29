@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020",
+    "evidence": "The 2019-2020 budget and salary schedule have not approved by the school board at the time of printing.",
+    "page": "93",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "All employees (with teacher-specific provisions)",
+    "evidence": "Any District employee, agent, or contractor has an additional legal obligation to submit the oral or written report within 48 hours of learning of the facts giving rise to the suspicion.",
+    "page": "95",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "State law provides that a teacher may resign no later than 45 days before the first day of instruction of the new school year without receiving the approval of the district.",
+    "page": "91",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "The policy and any necessary procedures must be included annually in the student and employee handbooks and in the District improvement plan under Education Code 11.252 [See BQ]",
+    "page": "104",
+    "confidence": "high"
+  }
+}

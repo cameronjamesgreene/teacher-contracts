@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "The Board will make available to teachers, disability benefits, an indemnity dental insurance plan and vision insurance plan through payroll deduction at the teacher's expense, provided that the required minimum number of employees enroll.",
+    "page": "54",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "The Board shall provide for teachers a fully paid group life insurance plan... There shall be a provision for the purchase of additional insurance coverage to be paid by the teacher.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "DISABILITY INSURANCE .......................................................................15.03 ...................... 54",
+    "page": "54",
+    "confidence": "medium",
+    "coder_notes": "Evidence is a table of contents entry confirming disability insurance is covered, though it does not explicitly specify short-term or long-term. Answer remains yes as coverage is acknowledged."
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "A teacher on personal leave without pay may maintain coverage in group insurance programs as provided in this contract provided the insurance carrier permits. The teacher shall pay the premiums for such insurance programs on a monthly basis in advance of the month due.",
+    "page": "44",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Teachers retiring from Osceola County shall be allowed to remain as participants in-group health and life insurance programs covered by the Agreement until at least age 65.",
+    "page": "56",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

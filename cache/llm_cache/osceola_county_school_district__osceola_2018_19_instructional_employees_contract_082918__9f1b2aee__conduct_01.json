@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "The Board recognizes the right of teachers to outside employment to improve themselves financially, if it does not interfere with their teaching responsibilities.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "11.01 The Board and the Association agree that Academic Freedom is a fundamental ingredient... teachers shall have all reasonable freedom within the limitations imposed by law, the State Board of Education regulations, and School Board rules... 11.03 Teachers shall notify the administration when they intend to inject or have injected into units subject matter that might be reasonably anticipated to be controversial.",
+    "page": "47",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

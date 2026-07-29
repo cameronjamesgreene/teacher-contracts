@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Professional Agreement between the Board of Education of Granite School District and the Granite Education Association",
+    "page": "54",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2020 to June 30, 2023",
+    "evidence": "This Agreement shall be effective July 1, 2020 and shall continue in effect through June 30, 2023",
+    "page": "47",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "All teachers within the school shall be eligible to vote for and hold elective positions on the committee",
+    "page": "44",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "The specific provisions of this Agreement, and of other negotiated items, shall supersede any policy or directive of the Board which contradicts any such provision of this Agreement.",
+    "page": "47",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Utah Code 53G-11-5 School District and Utah Schools for the Deaf and Blind Employee Requirements",
+    "page": "57",
+    "confidence": "high"
+  }
+}

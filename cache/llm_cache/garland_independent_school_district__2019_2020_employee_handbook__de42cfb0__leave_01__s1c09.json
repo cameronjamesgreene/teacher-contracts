@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "1. The employee is absent more than five consecutive workdays because of personal illness or more than three consecutive workdays for illness in the immediate family;",
+    "page": "125",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "2",
+    "evidence": "All employees shall receive two paid local leave days per school year in accordance with administrative regulations.",
+    "page": "126",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Cannot be used on state-mandated assessment days; subject to supervisor approval considering impact on educational program/operations and substitute availability; supervisors may restrict on other days; must be requested in writing in advance.",
+    "evidence": "No employee shall be granted discretionary use of state personal leave on days scheduled for state-mandated assessments. Individual supervisors may also restrict the use of state personal leave for discretionary purposes on other days. These restrictions shall be communicated by individual supervisors to their employees.",
+    "page": "126",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "The employee shall be reimbursed for each day of unused state and local leave, to a maximum of 20 days, at the employee’s daily rate of pay immediately preceding retirement.",
+    "page": "129",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,15 @@
+# 84.pdf — Salary Schedule ()
+# population: stipend/extra-duty advisors and coordinators | is_teacher_schedule: False
+"# validation_warnings: identical values across steps ['Orchestra Advisor', 'Choir Advisor'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Cheerleading Advisor', 'Computer Coordinator'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Cheerleading Assistant Advisor', 'Spirit Club Advisor', 'Student Council Advisor'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Building Advisory Coordinator', 'Yearbook Advisor'] — looks like one column copied across rows instead of each row's own data | audit confirmed"
+step,I (0-3 years),II (4-6 years),III (7-9 years),IV (10-12 years),V (13(+) years)
+Orchestra Advisor,1096.04,1150.84,1205.64,1260.45,1315.25
+Cheerleading Advisor,1589.26,1668.72,1748.18,1827.65,1907.11
+Cheerleading Assistant Advisor,904.23,949.44,994.66,1039.87,1085.08
+Choir Advisor,1096.04,1150.84,1205.64,1260.45,1315.25
+Intramural Activities Advisor,685.03,719.28,753.53,787.78,822.03
+Spirit Club Advisor,904.23,949.44,994.66,1039.87,1085.08
+Building Advisory Coordinator,1370.05,1438.55,1507.06,1575.56,1644.06
+Computer Coordinator,1589.26,1668.72,1748.18,1827.65,1907.11
+Student Council Advisor,904.23,949.44,994.66,1039.87,1085.08
+Yearbook Advisor,1370.05,1438.55,1507.06,1575.56,1644.06
+Department Chair,1257.00,N/A,N/A,N/A,N/A

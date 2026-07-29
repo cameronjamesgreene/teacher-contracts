@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes. Schedule title: EG 09 Salary Schedule. Covered years: FY 2025-2028. Covered group: Washington Teacher's Union (Bachelors).",
+    "evidence": "Washington Teacher's Union\nEG 09 Salary Schedule\nFY 25 - 28",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "Fiscal Years 2025 through 2028. Effective dates: October 6, 2024 (FY25), October 5, 2025 (FY26), October 4, 2026 (FY27), and October 3, 2027 (FY28).",
+    "evidence": "FY 2025 Effective October 6, 2024... FY 2028 Effective October 3, 2027",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

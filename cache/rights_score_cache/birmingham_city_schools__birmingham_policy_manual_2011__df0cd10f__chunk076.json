@@ -1,0 +1,82 @@
+{
+  "clauses": [
+    {
+      "quote": "board shall not be liable for any error while acting in good faith to make the subject deductions.",
+      "subject_text": "board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In the event that a mistake is made on a paycheck, the School District will issue a corrected paycheck within ten (10 calendar days of its being notified of the error.",
+      "subject_text": "the School District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "In the event that a mistake is made on a paycheck, the School District will issue a corrected paycheck within ten (l0) days of its being notified of the error.",
+      "subject_text": "the School District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "In the event that a mistake is made on a paycheck, the School District will issue a corrected paycheck within ten (10) days of its being notified of the error.",
+      "subject_text": "the School District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "For any employee who does not work during any portion of any given year, such employee shall have deducted from his or her net salary the appropriate amount to cover his or her annual contribution for any benefits, which employees pay through payroll deduction, including his or her health insurance plan.",
+      "subject_text": "such employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "benefits",
+      "notes": ""
+    },
+    {
+      "quote": "Accordingly, the Board authorizes the Superintendent or his/her designee to approve attendance based on program needs and the availability of funds.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "professional_development",
+      "notes": ""
+    }
+  ]
+}

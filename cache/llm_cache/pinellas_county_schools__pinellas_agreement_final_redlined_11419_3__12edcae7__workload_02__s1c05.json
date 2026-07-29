@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Internal meetings shall be held to a minimum to allow maximum preparation time by teachers. ... teachers may be required to attend two (2) activities each semester outside the regular working day.",
+    "page": "53, 56",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "If said activity involves the control and supervision of students, the assignments shall be fairly and equitably distributed among the entire staff. All other non-voluntary activities outside the regular school day which involve the supervision of students will qualify the teacher for compensatory time or satisfactory supplemental compensation.",
+    "page": "53",
+    "confidence": "medium"
+  }
+}

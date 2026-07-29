@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "One way to ensure this culture exists throughout MCPS is through the full implementation of the Teachers Professional Growth System (PGS).",
+    "page": "8",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Teachers Professional Growth System (PGS)",
+    "evidence": "One way to ensure this culture exists throughout MCPS is through the full implementation of the Teachers Professional Growth System (PGS).",
+    "page": "8",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

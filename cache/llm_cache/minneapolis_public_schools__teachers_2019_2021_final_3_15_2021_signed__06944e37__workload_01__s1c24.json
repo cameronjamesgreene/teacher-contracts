@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "196",
+    "evidence": "196 duty days per year",
+    "page": "235",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 hours (8 hours per day less 30-minute duty-free lunch)",
+    "evidence": "7½ (8 hours per day less ½ hour duty free lunch).",
+    "page": "235",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "less ½ hour duty free lunch.",
+    "page": "235",
+    "confidence": "high"
+  }
+}

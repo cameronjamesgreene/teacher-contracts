@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Teachers shall be consulted regarding the selection of teaching materials.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Whenever practicable the teacher will ensure that lesson plans for student activities are available for the substitute for that particular day or number of days.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "All teachers shall have entire liberty of political action when not engaged actively in their teaching duties, provided such action is within the laws of the United States of America and the State of Florida; and further provided that such action does not impair their usefulness as a teacher.",
+    "page": "51",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "Any involvement of the School Board in the private or personal life of the teacher shall remain within the scope of the Florida Statutes.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

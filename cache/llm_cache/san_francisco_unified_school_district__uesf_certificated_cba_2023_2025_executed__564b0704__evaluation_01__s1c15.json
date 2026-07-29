@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "Attachment to Letter of Transmittal; partial procedure described (focuses on administrator's joint observation/assessment role), with reference to Article 41 for detailed coach procedures.",
+    "evidence": "This Attachment stipulates the role of the site administrator and/or principal in the review/evaluation of first year teachers, and of tenured teachers, participating in the PAR program... A detailed description of the coach’s role can be found in Article 41, Peer Assistance and Review, of the UESF Teachers Contract.",
+    "page": "205, 207",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Peer Assistance and Review (PAR) Program; San Francisco Teaching Standards (Standards 1-6)",
+    "evidence": "The Peer Assistance and Review (PAR) Program... Standards 1-6 of the San Francisco Teaching Standards.",
+    "page": "203, 205",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "Four formal assessments per year (includes joint formal classroom observation and pre/post-observation conferences)",
+    "evidence": "This is part of the four formal assessments of PT performance and growth that occur during the year.",
+    "page": "205",
+    "confidence": "medium"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "satisfactory performance; below standard; Not Meeting Standards",
+    "evidence": "...reach the threshold of satisfactory performance; ...performance continues to fall below standard; ...PT who is Not Meeting Standards at the time of that review.",
+    "page": "203, 205",
+    "confidence": "medium"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

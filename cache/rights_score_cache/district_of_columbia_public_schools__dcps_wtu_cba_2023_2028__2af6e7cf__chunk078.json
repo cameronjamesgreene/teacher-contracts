@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "The Building Representative (or her/his designee) is afforded no less than ten (10) minutes during each meeting to discuss WTU related business;",
+      "subject_text": "The Building Representative (or her/his designee)",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    },
+    {
+      "quote": "Attendance at such meetings is required",
+      "subject_text": "Attendance at such meetings",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "in the event of an emergency, the Teacher will be excused upon notification to the Supervisor or his/her designee.",
+      "subject_text": "the Teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "The Supervisor shall provide to Teachers an agenda at least twenty-four (24) hours in advance of each faculty meeting.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "No faculty meeting shall exceed one (1) hour in duration, nor extend beyond 4:30 PM, unless mutually agreed to by the Supervisor and the Building Representative.",
+      "subject_text": "No faculty meeting",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "The Supervisor shall have the right call one (1) mandatory, introductory meeting for Teachers during the non-instructional days that precede the first day of school for students.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": "Original text omits 'to' after 'right'."
+    },
+    {
+      "quote": "This meeting shall be no more than three (3) hours in length, unless the SCAC and the Supervisor mutually agree to an extension.",
+      "subject_text": "This meeting",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers shall be provided with a minimum of one and half (1.5) days for planning and room preparation.",
+      "subject_text": "Teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    }
+  ]
+}

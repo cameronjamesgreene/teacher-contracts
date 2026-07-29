@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Group health insurance coverage is provided through TRS-ActiveCare, the statewide public school employee health insurance program. ... Employees eligible for health insurance coverage include the following: • Employees who are active, contributing TRS members • Employees who are not contributing TRS members and who are regularly scheduled to work at least 10 hours per week",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "determined annually by the board of trustees",
+    "evidence": "The district’s contribution to employee insurance premiums is determined annually by the board of trustees.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "Detailed descriptions of insurance coverage, employee cost, and eligibility requirements are provided to all employees in a separate booklet.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": "Changed to not_discussed. The handbook explicitly states that employee cost details are provided in a separate booklet, meaning the premium/contribution amount is not discussed in this document."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "TRS-ActiveCare",
+    "evidence": "Group health insurance coverage is provided through TRS-ActiveCare, the statewide public school employee health insurance program.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "At their own expense, employees may enroll in supplemental insurance programs for Dental, eye and Cancer.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

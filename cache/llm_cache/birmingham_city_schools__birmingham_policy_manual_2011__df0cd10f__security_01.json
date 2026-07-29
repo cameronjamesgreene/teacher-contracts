@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "4. \"Continuing Service Status\" (hereinafter \"tenure\" or \"tenured\") means the status obtained by a teacher, instructor, principal, or supervisor who has met the statutory requirements.",
+    "page": "3092",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to match provided document text; original quote was absent but document explicitly defines continuing service status/tenure and references probationary/nonprobationary status in personnel policies."
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "4. If reductions beyond those achieved by attrition are necessary, length of service with the employing board shall govern.",
+    "page": "3093",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to match provided document text; explicit definition not found in excerpt but length of service/seniority is explicitly established as the governing factor for personnel reductions."
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Requests must be submitted in writing to the Superintendent, specifying certification/type and preferred worksites. Consideration periods are December (effective Jan 1) or April/May (effective next school year); other times at Superintendent's discretion. Board decides transfers based on Superintendent's recommendation and instructional program needs.",
+    "evidence": "\"Voluntary transfer requests will be considered in December... and if approved by the Board of Education, the effective date will be the first working day in January of the same school year. Or, the voluntary transfer will be considered in April/May, and if approved by the Board of Education, the effective date will be the first working day of the succeeding school year. Requests for transfer may be considered at other times of the year at the discretion of the superintendent. Such requests will be made in writing to the Superintendent or his/her designee. The assignment and transfer of personnel shall be decided by the Birmingham Board of Education on the recommendation of the Superintendent.\"",
+    "page": "3091",
+    "confidence": "high",
+    "coder_notes": "Corrected from not_discussed to specific answer; document explicitly details voluntary transfer procedures on page 3091."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "Certified staff RIF occurs for financial exigency, program change, natural disaster, or legitimate business reason, prioritizing attrition. Nontenured staff are dismissed first. Tenured staff retention is based on certification match, then length of seniority; ties broken by contract ratification date or lottery. Non-certified staff follow similar attrition-first approach, with probationary staff dismissed before nonprobationary, and nonprobationary based on least length of service (ties broken by performance/skill). Recalled employees have one-year priority re-employment rights.",
+    "evidence": "\"A reduction in force may take place when the Board determines that a financial exigency, program change, serious natural disaster or other legitimate business reason requires that the contract of one or more teachers... be terminated.\" and \"Any employee terminated or demoted pursuant to this policy shall have the following recall rights... for one (1) calendar year...\" and \"If reductions beyond those achieved by attrition are necessary, length of service with the employing board shall govern. Probationary employees will be the first to be terminated.\"",
+    "page": "3092, 3093",
+    "confidence": "high",
+    "coder_notes": "Expanded answer to cover both certified and non-certified procedures as detailed in the document; original answer omitted key certified personnel criteria."
+  }
+}

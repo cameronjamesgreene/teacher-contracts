@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "one year",
+    "evidence": "Such employees shall be issued a one-year probationary annual contract.",
+    "page": "103",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "no",
+    "evidence": "An employee who has held an annual contract, a continuing contract or professional service contract in any Florida district or who has held a teaching contract elsewhere shall be placed on the single column of the Teachers’ Salary Schedule...",
+    "page": "103",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "no",
+    "evidence": "employees must have held a State-issued teaching certificate during the period of private teaching employment",
+    "page": "101",
+    "confidence": "high"
+  }
+}

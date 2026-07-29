@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "express terms and conditions of this Collective Bargaining Agreement",
+    "page": "23",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "FY 2018 and 2019",
+    "evidence": "A. FINANCIAL PACKAGE FY 2018 & 2019",
+    "page": "33",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated Unit / Teachers’ Unit",
+    "evidence": "directly related to working conditions of employees in the Certificated Unit.",
+    "page": "23",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The decision of the arbitrator shall be final and binding on the Grievant, the Union, and KCPS",
+    "page": "27",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "subject to the workers’ compensation laws and procedures of the State of Missouri.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status_counts": {"CORRECT": 11, "PARTIAL": 1, "INCORRECT": 0, "UNVERIFIABLE": 0},
+  "items": [
+    {"qid": "meta_doc_type_001", "doc": "school_district_of_philadelphia", "status": "CORRECT", "note": "Title page confirms CBA between Philadelphia Federation of Teachers and School District of Philadelphia."},
+    {"qid": "pay_national_board_017", "doc": "school_district_of_philadelphia", "status": "CORRECT", "note": "Truth lines 2115-2117 verbatim: NBPTS certification -> $7,500 annual bonus for length of certification. Evidence real/on-point."},
+    {"qid": "workload_workday_length_002", "doc": "school_district_of_philadelphia", "status": "CORRECT", "note": "Truth line 3226: workday shall be seven (7) hours four (4) minutes incl duty-free lunch. Matches."},
+    {"qid": "security_seniority_definition_003", "doc": "school_district_of_philadelphia", "status": "CORRECT", "note": "Truth lines 1005-1039 define school system, location, and departmental seniority. Yes is accurate."},
+    {"qid": "pay_performance_pay_007", "doc": "school_district_of_philadelphia", "status": "CORRECT", "note": "No performance/merit/incentive-pay language anywhere in truth; traditional step-schedule contract. not_discussed accurate, no false negative."},
+    {"qid": "leave_absence_reporting_013", "doc": "school_district_of_philadelphia", "status": "CORRECT", "note": "Only AESOP substitute-service system named in PFT contact directory (line 241); no teacher absence-reporting/sub-request PROCEDURE clause in truth. not_discussed defensible."},
+    {"qid": "meta_doc_type_001", "doc": "seattle_public_schools", "status": "CORRECT", "note": "Header confirms SPS/SEA Certificated Non-Supervisory CBA 2018-2019."},
+    {"qid": "pay_national_board_017", "doc": "seattle_public_schools", "status": "CORRECT", "note": "Truth lines 3221-3223: NBPS comp at amount set by legislature; ESA employees receive $1,500/yr national cert. Matches exactly."},
+    {"qid": "workload_prep_minutes_004", "doc": "seattle_public_schools", "status": "CORRECT", "note": "Truth lines 5190-5192: elementary/K-8 min 160 min/week PCP; secondary equivalent of one full class period/day. Matches."},
+    {"qid": "security_rif_006", "doc": "seattle_public_schools", "status": "CORRECT", "note": "Truth line 4499 (RIF notice by early May) and 4525 (RIF employees, right to return in seniority order) plus displaced-pool provisions. Accurate."},
+    {"qid": "pay_hardtostaff_stem_010", "doc": "seattle_public_schools", "status": "CORRECT", "note": "No STEM-subject differential. Hard-to-Staff Positions clause (line 3349, $57,454 LMC pool) fills hard-to-fill POSITIONS, not a STEM-subject stipend. not_discussed correct for STEM as asked."},
+    {"qid": "benefits_disability_009", "doc": "seattle_public_schools", "status": "PARTIAL", "note": "No STD/LTD insurance plan in Group Insurance section, but Worker's Comp injury-on-duty salary continuation at 100% for 60 days (lines 3754-3784) + medical-disability leave up to 1 yr (3953-3955) constitute disability income/leave. not_discussed understates it; soft false negative."}
+  ],
+  "false_negatives": 1,
+  "notes": "Both docs fully coded in truth (no evident truncation loss). 11/12 CORRECT. Only soft FN: Seattle disability (Worker's Comp salary-continuation + medical-disability leave present; no STD/LTD insurance). Philadelphia not_discussed items hold up; no truncation-driven false negatives found."
+}

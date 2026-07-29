@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "5",
+    "evidence": "The Board agrees to grant to each employee up to five (5) days bereavement leave",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Grandfather, grandmother, father, mother, brother, sister, husband, wife, child, grandchild, foster or step child, father-in-law or mother-in-law, step-parent, step-sibling, aunt, uncle, cousin",
+    "evidence": "(grandfather, grandmother, father, mother, brother, sister, husband, wife, child, grandchild, foster or step child, father-in-law or mother-in-law, step-parent, step-sibling, aunt, uncle, cousin)",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Parental leave of absence for child rearing will be granted to certified employees, without pay for up to one (1) year.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Sick leave is to be used for absences caused by illness or physical disability, including childbearing... For a normal birth, six calendar weeks are the maximum time that sick leave can be used.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "no",
+    "evidence": "",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Parental leave will not be granted beyond the Family Medical Leave Act more than once in a 36-month period.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

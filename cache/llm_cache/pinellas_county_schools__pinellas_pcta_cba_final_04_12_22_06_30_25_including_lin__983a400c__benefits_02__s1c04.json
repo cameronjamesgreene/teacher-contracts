@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "The Board agrees to provide a comprehensive benefits program to include, but not limited to, health, dental, life, vision, accidental death and dismemberment and income protection insurance.",
+    "page": "55",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "Basic Board Life - The Board shall provide, to eligible employees, group term-life insurance in the amount of one (1) times annual salary rounded up to the next one thousand dollars ($1,000) with a minimum amount of fifteen thousand dollar ($15,000).",
+    "page": "56",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "The parties agree to provide benefits-eligible employees who do not elect health insurance up to seventy-five dollars ($75) a pay period in flex credits to be used to purchase supplemental benefits including dental, vision, AD & D, short-term and long-term disability, the Hospital Confinement Plan and the Health Care Reimbursement Account (HCRA).",
+    "page": "57",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "While on an approved, non-FMLA, unpaid leave of absence, employees are required to pay the entire cost of all insurance plans, including Board paid life insurance in order for coverage to continue.",
+    "page": "57",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "An employee covered under the Florida Retirement System Defined Benefit Plan who retires with six (6) or more years of service or eight (8) years of service if hired after July 1, 2011 and elects to receive a state retirement check is eligible to participate in the retiree insurance program.",
+    "page": "58",
+    "confidence": "high"
+  }
+}

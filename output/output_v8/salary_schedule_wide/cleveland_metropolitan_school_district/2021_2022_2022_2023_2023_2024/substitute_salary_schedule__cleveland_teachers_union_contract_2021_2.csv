@@ -1,0 +1,13 @@
+"# Cleveland_Teachers_Union_Contract_2021-2024.pdf — Substitute Salary Schedule (2021-2022, 2022-2023, 2023-2024)"
+# population: substitutes | is_teacher_schedule: False
+"# validation_warnings: label_not_in_source: '2021-2022 Effective July 1, 2021' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 Effective July 1, 2022' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 Effective July 1, 2023' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit corrected this table"
+step,"2021-2022 Effective July 1, 2021","2022-2023 Effective July 1, 2022","2023-2024 Effective July 1, 2023"
+Level 1,59676,61876,64076
+Level 2,60476,62676,64876
+Level 3,61276,63476,65676
+Level 4,62076,64276,66476
+Level 5,62876,65076,67276
+Experienced Substitute,56547,58747,60947
+Regular Substitute,57017,58727,59902
+A. Per Hour - Day-to-Day,16.03,16.51,16.84
+B. Per hour on the 6th day and each succeeding day in the same assignment,16.83,17.34,17.68

@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "Yes. Eligible group: teachers and their dependents. Plans: The Advantage Non-HMO and The Advantage HMO.",
+    "evidence": "The Board shall make available to teachers and their dependents hospitalization, surgical, major medical and emergency family insurance. Employees may select coverage from these two programs: (1) The Advantage Non-HMO. (2) The Advantage HMO.",
+    "page": "-22-",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Board provides annual maximum contributions: Employee $4,933.00; Employee/Child $6,727.00; Employee/Spouse $9,034.00; Family $9,658.00.",
+    "evidence": "Beginning January 1, 2009, for each employee electing coverage for himself/herself or including his/her dependents, the Board shall make the following annual maximum contribution for such coverage, and the employee shall pay any additional premiums: Employee $4,933.00; Employee/Child $6,727.00; Employee/Spouse $9,034.00; Family $9,658.00",
+    "page": "-22-",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Pay any additional premiums beyond the Board's maximum contribution.",
+    "evidence": "the Board shall make the following annual maximum contribution for such coverage, and the employee shall pay any additional premiums",
+    "page": "-22-",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "Yes. Coverage options for Employee and Child or Children, Employee and Spouse, and Employee and Family (Spouse and Children).",
+    "evidence": "Coverage shall be available on the basis of four (4) options: 1. Employee 2. Employee and Child or Children 3. Employee and Spouse 4. Employee and Family (Spouse and Children)",
+    "page": "-22-",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "Advantage Non-HMO and Advantage HMO.",
+    "evidence": "Employees may select coverage from these two programs: (1) The Advantage Non-HMO. (2) The Advantage HMO.",
+    "page": "-22-",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "Yes. Available to teachers and their dependents. Employer pays annual premium except $0.26, which is paid by the teacher.",
+    "evidence": "Each teacher and his/her dependents shall be covered by a dental insurance plan. The Board shall pay the annual premium with the exception of twenty-six cents ($.26) which shall be paid by the teacher.",
+    "page": "-23-",
+    "confidence": "high"
+  }
+}

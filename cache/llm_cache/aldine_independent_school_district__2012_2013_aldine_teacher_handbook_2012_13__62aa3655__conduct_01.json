@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Employees of the Aldine Independent School District are discouraged from sponsoring student tours/trips on non-school time. School time, materials, and equipment cannot be used to aid in recruiting students for such tours/trips by an employee",
+    "page": "160",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "ALDINE CODE OF ETHICS ... we shall perform our duties honestly, competently, efficiently, expediently, and harmoniously and in strict compliance with the ethical standards of our profession.",
+    "page": "194",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "yes",
+    "evidence": "Appearance at school or a school-related function while in possession of, or under the influence of, any narcotic, hallucinatory, hypnotic or sedative drug or any chemical, alcohol, or stimulant as defined by the Penal Code of the State of Texas, not prescribed by a licensed physician for the employee’s current illness.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Employees doing so commit job related misconduct and are subject to being discharged from employment for good cause... Use the Internet for educational or instructional purposes only.",
+    "page": "168-170",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

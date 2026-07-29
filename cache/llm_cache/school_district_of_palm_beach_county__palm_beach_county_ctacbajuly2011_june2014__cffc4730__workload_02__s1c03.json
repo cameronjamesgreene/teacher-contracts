@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "60",
+    "evidence": "with one (1) hour for lunch.",
+    "page": "43",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "attending no more than two (2) meetings per month (September through May) initiated by the administration. ... Employees shall not be required to remain longer than ninety (90) minutes per month and not to exceed sixty (60) minutes at any one (1) meeting beyond the regular workday.",
+    "page": "44",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

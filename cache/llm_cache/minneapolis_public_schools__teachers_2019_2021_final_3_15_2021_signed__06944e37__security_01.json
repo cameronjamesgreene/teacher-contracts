@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "Achievement of Tenure – Definition (MN Statute §122A.41): In the State of Minnesota, tenure is defined as continued service after the completion of three consecutive years of successful teaching.",
+    "page": "91",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence cites page 91, which falls outside the provided document excerpt (ends at page 29). Unable to verify or update."
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "A probationary teacher is deemed to have been reemployed for the ensuing school year, unless the school board in charge of such school gave such teacher notice in writing before July 1 of the termination of such employment... must not be discharged or demoted except for cause after a hearing",
+    "page": "248",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence cites page 248, which falls outside the provided document excerpt. Unable to verify or update."
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "Seniority means the greater number of years of consecutive employment as a teacher in the Minneapolis Public Schools unless herein otherwise specified.",
+    "page": "224",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence cites page 224, which falls outside the provided document excerpt. Unable to verify or update."
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "15.2.3 Online Posting System: All teachers who are interested in being considered for posted positions will log into the online posting system and apply for those positions at specific locations.",
+    "page": "200",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence cites page 200, which falls outside the provided document excerpt. Unable to verify or update."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "15.2.5 Excessed Teachers: Definition: Excessed status exists when there is a reduction in staffing at a school or site... 15.3.1 Teachers can be reassigned by the site administrator within the building.",
+    "page": "199",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence cites page 199, which falls outside the provided document excerpt. Unable to verify or update."
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "15.2.5 Staff Reductions: When staff reductions occur at the building, all teachers shall be canvassed in seniority order within their specific licensure area/department to determine which teachers shall be excessed.",
+    "page": "199",
+    "confidence": "low",
+    "coder_notes": "Stage 1 evidence cites page 199, which falls outside the provided document excerpt. Unable to verify or update."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified the document does not address teacher discretion over curriculum, lesson content, methods, or instructional materials. Only compensation for curriculum writing/planning is mentioned, which does not address discretion."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified the document does not require lesson plans or specify lesson-plan submission rules."
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified the document does not restrict or protect general political activity. Article XV, Section 6 provides released time for legislative matters, but this does not constitute a broader policy on political activity."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Verified the document does not contain provisions protecting teachers' personal affairs or conduct during non-duty hours."
+  }
+}

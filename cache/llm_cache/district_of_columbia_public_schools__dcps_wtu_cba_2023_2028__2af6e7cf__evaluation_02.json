@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "discussed_unclear",
+    "evidence": "2.5. Supports for Teachers Rated Minimally Effective\n\n2.5.1. DCPS will consult with the WTU on the development of professional development opportunities that will be made available to teachers rated as Minimally Effective.",
+    "page": "15",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 coded as not_discussed. Section 2.5.1 mentions professional development opportunities for minimally effective teachers, which relates to professional support, but does not describe a formal improvement or remediation plan. Revised to discussed_unclear due to weak/ambiguous evidence."
+  },
+  "evaluation_consequences_008": {
+    "answer": "yes",
+    "evidence": "DCPS shall retain the right to make the final excessing decision according to the following rubric: Category 1) Previous Year’s Final Evaluation... Highest 50... Lowest 0. The Teacher in the competitive area with the lowest point value overall according to the rubric above shall be the first Teacher to be excessed.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

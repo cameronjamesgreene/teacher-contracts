@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "1/2 day per 18 days worked",
+    "evidence": "Each year, personnel employed 100% of the day accrue personal local sick leave at a rate of one- half (1/2) day for each eighteen (18) days worked and/or using their state personal leave or their sick leave.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates indefinitely; no cap stated",
+    "evidence": "Beginning with the 2002-2003 school year, local sick leave accumulates indefinitely from year to year.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Employees may earn additional sick leave (\"local sick leave\") to be used for absences for an illness of the employee, an illness or the death of a member of the employee's immediate family, a family emergency, or a personal emergency.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "Beginning with the 1995-96 school year, five (5) days may be earned each year, accumulate indefinitely from year to year, and may be transferred to another school district (\"state personal\").",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Must be requested in writing by the 3rd working day prior; discretionary use limited to 15 days/academic year (max 10/semester); prohibited on blackout dates (weeks around start/end of school, holidays, in-service, STAAR exams, or when >5% staff absent).",
+    "evidence": "Requests to use state personal leave must be submitted in writing to immediate supervisors not later than the third working day prior to the date for which leave is sought... maximum number of days used for discretionary state personal leave... limited to fifteen (15), with no more than ten (10) of those fifteen (15) days being used in an academic semester. Discretionary state personal leave shall not be authorized or taken on the following key work days...",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "accumulate indefinitely from year to year, and may be transferred to another school district (\"state personal\"). Employees who retire... are eligible to be paid for not more than sixty (60) of the unused state personal leave, state sick leave and local sick leave, combined...",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

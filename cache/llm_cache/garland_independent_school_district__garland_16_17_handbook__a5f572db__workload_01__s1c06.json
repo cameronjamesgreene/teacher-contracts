@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "175 to 197",
+    "evidence": "Ten-month employees are those assigned to work 175 to 197 days per year.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 hours",
+    "evidence": "One work day equal 7.5 hours.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

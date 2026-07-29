@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "ARTICLE XII: TEACHER EVALUATION. Both parties agree that the Superintendent is charged by law to establish procedures for assessing the performance of duties and responsibilities of all instructional personnel.",
+    "page": "49",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Classroom Instructional Employees’ Evaluation System and Non-Classroom Instructional Personnel Evaluation (NCIPE)",
+    "evidence": "The Classroom Instructional Employees’ Evaluation System and Handbook and the Non-Classroom Instructional Employees’ Evaluation System and Handbook shall be online.",
+    "page": "49",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "1 annually (probationary: within 45 teaching days)",
+    "evidence": "All teachers must be evaluated annually. All probationary teachers shall receive an observation within the first forty-five (45) teaching days.",
+    "page": "49, 50",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Effective, Unsatisfactory",
+    "evidence": "Unsatisfactory final summative evaluation ratings. / final summative evaluation rating of less than “Effective”",
+    "page": "51, 52",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

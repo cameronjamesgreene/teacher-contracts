@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "The superintendent may delegate to other school personnel the exercise of any powers and the discharge of any duty assigned to the Superintendent by the Board under these policies.",
+      "subject_text": "The superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The delegation of power or duty, however, shall not relieve the superintendent of responsibility for any action taken under such delegation.",
+      "subject_text": "The delegation of power or duty",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Operatively restricts the removal of superintendent liability despite delegation."
+    },
+    {
+      "quote": "When the Superintendent anticipates he/she will be absent from the city for a period of time, the superintendent may designate a system employee to act on his/her behalf during the absence and to perform such duties and make such decisions as may be necessary.",
+      "subject_text": "the superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Contains a conditional subordinate clause; main clause grants designation authority."
+    },
+    {
+      "quote": "If such designation will last for a period of longer than 5 working days, the board shall be notified by letter in advance.",
+      "subject_text": "the board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction; implicit actor is superintendent/management."
+    }
+  ]
+}

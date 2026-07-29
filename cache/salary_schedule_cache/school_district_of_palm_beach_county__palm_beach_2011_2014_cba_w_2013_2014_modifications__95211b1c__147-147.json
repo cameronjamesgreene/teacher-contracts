@@ -1,0 +1,222 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Schedule",
+      "population": "Certified teachers (inferred from CTA reference in footnote)",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "",
+      "lane_labels": [],
+      "step_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "LS*"
+      ],
+      "cells": [
+        {
+          "step": "1",
+          "lane": null,
+          "value": "39000",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": null,
+          "value": "39100",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": null,
+          "value": "39500",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": null,
+          "value": "40000",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": null,
+          "value": "40724",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": null,
+          "value": "41500",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": null,
+          "value": "42700",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": null,
+          "value": "43900",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": null,
+          "value": "45000",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": null,
+          "value": "46110",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": null,
+          "value": "47308",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": null,
+          "value": "48354",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": null,
+          "value": "49670",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": null,
+          "value": "51447",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": null,
+          "value": "52990",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": null,
+          "value": "54448",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": null,
+          "value": "55952",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": null,
+          "value": "57211",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": null,
+          "value": "58452",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": null,
+          "value": "60029",
+          "cell_code": null
+        },
+        {
+          "step": "21",
+          "lane": null,
+          "value": "61532",
+          "cell_code": null
+        },
+        {
+          "step": "22",
+          "lane": null,
+          "value": "63632",
+          "cell_code": null
+        },
+        {
+          "step": "23",
+          "lane": null,
+          "value": "65346",
+          "cell_code": null
+        },
+        {
+          "step": "24",
+          "lane": null,
+          "value": "67151",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": null,
+          "value": "68987",
+          "cell_code": null
+        },
+        {
+          "step": "26",
+          "lane": null,
+          "value": "70800",
+          "cell_code": null
+        },
+        {
+          "step": "27",
+          "lane": null,
+          "value": "71800",
+          "cell_code": null
+        },
+        {
+          "step": "LS*",
+          "lane": null,
+          "value": "73750",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Footnote indicates a 2013-2014 MOU affected the longevity salary, though the table lists LS at $73,750. Population inferred from 'CTA' (Certified Teachers Association) reference.",
+      "confidence": "high",
+      "validation_warnings": [
+        "no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns)"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

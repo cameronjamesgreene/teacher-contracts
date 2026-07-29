@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "this board will ensure that principals, teachers and parents are given the opportunity to participate in decisions conceming the appropriate use and expenditures of classroom instructional support funds.",
+      "subject_text": "this board",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The superintendent shall give due consideration to the proposed school budgets in completing the system's cost center budget submitted for board approval.",
+      "subject_text": "The superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "At the end of the fiscal year this school board shall prepare a financial accountability report for each school and area vocational/technical center that shall include the amount of foundation program funds eamed, all funds expended, and any other financial data deemed necessary.",
+      "subject_text": "this school board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "A1mually,and as early as nece.sary data are available, the Superintendent will .~t a budget to the Board of Education for which the projected expenditure. do not exceed the projected revenues for the year.",
+      "subject_text": "the Superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Contains severe OCR artifacts in source text."
+    },
+    {
+      "quote": "The Board of Education will adopt a budget for which the anticipated . expenditures for the year do not exceed the projected revenues.",
+      "subject_text": "The Board of Education",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "A syst_ of internal controls will be maintained which will safequard all a•• ets, check the .ccuracy and reliability of the accounting data, prc.ote operational efficiency, an4 affect adherence to prescribed Board policies.",
+      "subject_text": "A syst_ of internal controls",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Passive construction; implicit agent is management/district."
+    },
+    {
+      "quote": "The Superintenclent will specify tho.se internal control procedure., 1Dclw!lngdata proce•• ing outpat, neces.ary for proper fiscal management.",
+      "subject_text": "The Superintenclent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Contains severe OCR artifacts in source text."
+    }
+  ]
+}

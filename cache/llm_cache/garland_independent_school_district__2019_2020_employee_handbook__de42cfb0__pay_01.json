@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "Employees should contact the Payroll Department (http://home.garlandisd.net/Payroll) for more information about the district’s pay schedules or their own pay.",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to a clearer passage that explicitly directs employees to Payroll for pay schedule information, confirming it is not included in the handbook."
+  },
+  "pay_salary_schedule_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

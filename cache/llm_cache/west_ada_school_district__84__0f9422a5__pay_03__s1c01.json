@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "New hires placement on the salary schedule will be according to the number of years of full time teaching, and credits earned after their teaching certificate.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "New hires placement on the salary schedule will be according to the number of years of full time teaching, and credits earned after their teaching certificate.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "New hires placement on the salary schedule will be according to the number of years of full time teaching, and credits earned after their teaching certificate.",
+    "page": "7",
+    "confidence": "high"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

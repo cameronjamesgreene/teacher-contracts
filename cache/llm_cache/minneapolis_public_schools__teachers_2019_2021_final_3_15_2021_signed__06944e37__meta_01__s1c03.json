@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "All teachers in the ECFE program shall be covered by the terms of the contract except as herein indicated.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Certificated staff",
+    "evidence": "Minneapolis Public School teachers regularly assigned to classroom teaching positions during the school year shall have an opportunity to teach in summer school and evening school assignments before other licensed persons are assigned.",
+    "page": "20",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "All teachers in the ECFE program shall be covered by the terms of the contract except as herein indicated.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "...Public Employment Labor Relations Act (PELRA) (MN Statute §179).",
+    "page": "22",
+    "confidence": "high"
+  }
+}

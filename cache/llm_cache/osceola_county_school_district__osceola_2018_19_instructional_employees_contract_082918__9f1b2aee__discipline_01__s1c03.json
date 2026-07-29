@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Employees covered by this agreement may be disciplined for just cause in the following ways:",
+    "page": "33",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "5. Termination - In those situations where the progressive disciplinary steps have not resulted in modification of the identified behavior, or where the employee commits a serious infraction, the employee may be terminated from employment. A termination must be made by recommendation of the Superintendent to the Board.",
+    "page": "34",
+    "confidence": "high"
+  }
+}

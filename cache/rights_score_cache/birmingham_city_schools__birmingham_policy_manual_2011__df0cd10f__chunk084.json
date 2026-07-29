@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Only after receipt of the aforesaid written documentation and attorney's opinion shall the superintendent present the matter to the Board for its approval.",
+      "subject_text": "the superintendent",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "the Board shall approve the item as custom software.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "any expenditure of funds by the Board sought to be made pursuant to the emergency purchases exception to Alabama's Competitive Bid Law shall be made only when the Board declares an emergency in writing and sets forth the nature of the danger to public health, safety or convenience involved in delay.",
+      "subject_text": "any expenditure of funds by the Board sought to be made pursuant to the emergency purchases exception to Alabama's Competitive Bid Law",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Complex conditional obligation regarding emergency purchases."
+    },
+    {
+      "quote": "The Board shall then immediately make these actions public,",
+      "subject_text": "The Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "This shall be done before the purchase of any materials or equipment or the performance of any work by contractors.",
+      "subject_text": "This",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Procedural timing requirement."
+    },
+    {
+      "quote": "such recommendation shall include the basis for the exemption,",
+      "subject_text": "such recommendation",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "such request shall specify the nature of the skills required and the reasons why the personality of the individual is critical.",
+      "subject_text": "such request",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "bids will be solicited",
+      "subject_text": "bids",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Procedural requirement for vendor relations."
+    },
+    {
+      "quote": "School personnel will neither solicit nor accept funds or gifts from vendors.",
+      "subject_text": "School personnel",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Ethics/prohibition on vendor payments."
+    }
+  ]
+}

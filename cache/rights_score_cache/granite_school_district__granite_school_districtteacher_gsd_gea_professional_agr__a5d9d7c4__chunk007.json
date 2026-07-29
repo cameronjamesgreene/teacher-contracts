@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "His or her efforts shall be limited to the issues at impasse.",
+      "subject_text": "His or her efforts",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Refers to the mediator's scope of efforts."
+    },
+    {
+      "quote": "The parties agree to cooperate with the mediator by meeting with him or her promptly and making available at his or her request any public records and data pertinent to the issues at impasse.",
+      "subject_text": "The parties",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint procedural duty regarding mediation."
+    },
+    {
+      "quote": "In the event that mediation efforts are not successful in resolving the issues, both parties shall make such further efforts to reach agreement as mutually agreed to by both negotiating teams.",
+      "subject_text": "both parties",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint procedural duty following unsuccessful mediation."
+    },
+    {
+      "quote": "The rules of procedure listed in this article may be changed at any time by mutual consent of both teams.",
+      "subject_text": "The rules of procedure listed in this article",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Joint authority to modify procedural rules."
+    },
+    {
+      "quote": "The teacher with a grievance must first attempt to resolve it informally by discussing the issue with the principal within ten working days after the teacher became aware of the act or condition upon which the grievance is based.",
+      "subject_text": "The teacher with a grievance",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Mandatory first step in grievance procedure."
+    },
+    {
+      "quote": "The principal shall have up to 10 working days after thus learning of the grievance to consider the matter and give the principal’s answer orally to the employee.",
+      "subject_text": "The principal",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Management duty to review and respond promptly."
+    },
+    {
+      "quote": "If the grievance is not resolved informally in step one, the teacher may file the grievance with the principal in writing within ten working days after receiving the answer in step one.",
+      "subject_text": "the teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "discipline",
+      "notes": "Grants teacher the right to escalate to written step."
+    },
+    {
+      "quote": "The principal shall have up to 10 working days after receiving the written grievance to investigate the matter, make a decision, and communicate the decision in writing to the teacher.",
+      "subject_text": "The principal",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Management duty to investigate and formally respond."
+    }
+  ]
+}

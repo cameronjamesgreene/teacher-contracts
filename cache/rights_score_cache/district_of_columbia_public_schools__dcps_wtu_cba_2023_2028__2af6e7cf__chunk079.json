@@ -1,0 +1,69 @@
+{
+  "clauses": [
+    {
+      "quote": "maximum class size shall not exceed the following:",
+      "subject_text": "maximum class size",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "maximum class size shall not exceed the following:",
+      "subject_text": "maximum class size",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "class_size",
+      "notes": "Applies to Learning Center environment."
+    },
+    {
+      "quote": "the WTU and DCPS agree to form a committee to review the possibility of developing and using a “weighted formula” for determining appropriate class size in DCPS.",
+      "subject_text": "the WTU and DCPS",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": "Joint obligation to establish a review committee."
+    },
+    {
+      "quote": "In addition, this committee will recommend solutions when DCPS is unable to meet the class size provisions.",
+      "subject_text": "this committee",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "class_size",
+      "notes": ""
+    },
+    {
+      "quote": "Individual Education Plan (IEP) caseloads shall not exceed fifteen (15) per Teacher.",
+      "subject_text": "Individual Education Plan (IEP) caseloads",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "class_size",
+      "notes": ""
+    }
+  ]
+}

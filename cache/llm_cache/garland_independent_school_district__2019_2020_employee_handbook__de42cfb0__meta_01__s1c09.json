@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "policy manual",
+    "evidence": "COMPENSATION AND BENEFITS DEC LEAVES AND ABSENCES (LOCAL)",
+    "page": "124",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020 school year (per filename); policy dates issued: 8/7/2015, 10/31/2013, 7/15/2015",
+    "evidence": "DATE ISSUED: 8/7/2015",
+    "page": "124",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all employees",
+    "evidence": "All employees shall receive two paid local leave days per school year",
+    "page": "126",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not a contract",
+    "evidence": "The process described in this policy shall not be construed to create new or additional rights beyond those granted by law or Board policy",
+    "page": "135",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable, legible, and properly formatted throughout the document.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Gov’t Code 617.005",
+    "page": "131",
+    "confidence": "high"
+  }
+}

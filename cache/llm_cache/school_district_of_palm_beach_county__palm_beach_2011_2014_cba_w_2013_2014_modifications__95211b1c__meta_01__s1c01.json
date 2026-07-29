@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "The Collective Bargaining Agreement Between The School District of Palm Beach County, Florida And The Palm Beach County Classroom Teachers Association",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2011 - June 30, 2014",
+    "evidence": "July 1, 2011 - June 30, 2014 INCLUDING THE 2012-2013 AND THE 2013-2014 APPROVED MODIFICATIONS",
+    "page": "i",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated non-administrative personnel (teachers, coordinators, counselors, librarians, substitutes, etc.)",
+    "evidence": "The Board recognizes the Association as the sole and exclusive negotiations representative of all certificated non-administrative personnel as defined herein.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Unless otherwise provided herein, this Agreement, as mutually modified, shall continue in full force and effect through June 30, 2014.",
+    "page": "v",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "8. \"PUBLIC EMPLOYEES RELATIONS ACT (PERA)\" - Chapter 447, Part II, Florida Statutes.",
+    "page": "11",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "evaluation_improvement_plan_007": {
+    "answer": "discussed_unclear",
+    "evidence": "The PAR Program is an intervention program designed to help improve the performance of experienced teachers who are having difficulties in the performance of their professional responsibilities. Support shall be offered to teachers experiencing difficulties in the performance of their professional job responsibilities in the following order of priority: 1.) Teachers on Intensive Evaluation 2.) Teachers on an Improvement Plan. Consulting Teacher provides non-evaluative intensive instructional support to the classroom teacher. Teachers on an Improvement Plan receive approximately 2-4 hours of intervention time a week.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Quoted evidence from Stage 1 is not present in the provided document excerpt. Unable to verify explicitly against the source text. Downgraded to discussed_unclear per audit guidelines for absent/weak evidence."
+  },
+  "evaluation_consequences_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

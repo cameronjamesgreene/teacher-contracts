@@ -1,0 +1,243 @@
+[
+  {
+    "file": "2014_2015_adult_hourly_rate_thr_schedule_4__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "333",
+    "cells_checked": 7,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "THR schedule (4%); all 7 rates match truth. Duplicate twin exists (..._p333-333) — base+page-pinned pair.",
+    "_summary": "Of 172 emitted grids, an estimated ~50 (range 45-60) are REAL distinct salary schedules; the other ~120 (~70%) are over-extraction. Drivers: (a) the full salary appendix is printed 3x — once per contract year (2014-15 ~pp326-350, 2015-16 ~pp360-390, 2016-17 ~pp395-410), so the same ~20 schedule types recur per year (real when values change annually, but many small flat differentials — coordinating 424/848, bilingual, activity 973-2811, one-time stipends 270/540 — are reprinted IDENTICALLY across all 3 years); (b) 56 of 172 files carry a __pNNN page suffix that duplicates a matching base file (page-pinned re-extractions); (c) multi-page big tables (D/T/L 'Special Services','Preparation Salary','(Continued)') fragment into several grids that belong to ONE schedule; (d) label-variant twins of the same table (differential_activity vs differentials_activity_rates, one_time_stipends vs table_5_one_time_stipends, pay_scale_group vs appendix_e, 5_differentials_coordinating vs differentials_coordinating, degree_differentials vs (L)_salary_table degree-diffs, additional/other/table_4 bilingual variants). Collapsing page-suffix + normalized-name groups already reduces 172 -> 114 (year,name) groups; folding continuation-fragments, variant-twins, and cross-year-identical small differentials brings real distinct schedules to ~50. In the 30-grid sample, 3 exact intra-sample duplicate pairs/sets were seen (coordinating ECC x2 same year; plus cross-year reprints)."
+  },
+  {
+    "file": "2014_2015_flat_hourly_rates__final_2014_2017_utla_collective_bargaini__p333-333.csv",
+    "source_page": "333",
+    "cells_checked": 3,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "47.27091/32.81845 match truth. 1 of 3 copies of 2014-15 flat rates (base, _p333, _p349) — page-split dups."
+  },
+  {
+    "file": "2014_2015_special_services_salary_d_table__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "338",
+    "cells_checked": 320,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Values & row placement (20D..33D) match truth exactly; but 10 column headers '1 (1st)/1 (2nd)..' are synthesized (label_not_in_source x10). Page fragment: steps 20-33 only."
+  },
+  {
+    "file": "2014_2015_special_services_salary_d_table_continue__final_2014_2017_utla_collective_bargaini__p357-357.csv",
+    "source_page": "357",
+    "cells_checked": 16,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Career-increment annual add-ons (2934.84/2631.24/2485.08/2293.92) match truth. One of 4 '(Continued)' fragments of the single 2014-15 D table."
+  },
+  {
+    "file": "additional_bilingual_master_plan_differentials_max__final_2014_2017_utla_collective_bargaini__p350-350.csv",
+    "source_page": "350",
+    "cells_checked": 3,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Single-lane (max per semester) values 1696/848/424 match truth. Has base+_p334+_p350 copies — page-split/variant dups."
+  },
+  {
+    "file": "bilingual_master_plan_differentials_maximum_semest__final_2014_2017_utla_collective_bargaini__p350-350.csv",
+    "source_page": "350",
+    "cells_checked": 3,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Single-lane values 2703/1352/689 match truth. Base+_p334+_p350 copies exist (page-split dups)."
+  },
+  {
+    "file": "differential_activity_activity_and_coaching__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "336",
+    "cells_checked": 7,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "973..2811 match truth. cross_grid_duplicate: same values as differentials_activity_rates twin AND reprinted identically in 2015-16/2016-17."
+  },
+  {
+    "file": "differentials_coordinating_early_childhood_center__final_2014_2017_utla_collective_bargaini__p335-335.csv",
+    "source_page": "335",
+    "cells_checked": 2,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "1393=424/1397=848 match truth. Identical values reprinted in 2015-16 coordinating grids (cross-year duplicate)."
+  },
+  {
+    "file": "employees_serving_in_place_of_preparation_salary_t__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "330",
+    "cells_checked": 6,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "179.96/40.47682/242.86 match truth, but 'Base Hourly Rate (6-hour day)' row duplicated 3x (interleaved single-column flattening)."
+  },
+  {
+    "file": "first_career_increment_completed_27l14__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "329",
+    "cells_checked": 9,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "L-table 1st career increment (74528..96890) matches truth. Same data also consolidated in maximum_rates (partial redundancy)."
+  },
+  {
+    "file": "maximum_rates_with_career_increments__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "327",
+    "cells_checked": 36,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "4 distinct increment blocks (78025/78621/80702/82062...) match truth. Overlaps split first/second/third/fourth_career_increment files (consolidated version)."
+  },
+  {
+    "file": "other_additional_bilingual_master_plan_differentia__final_2014_2017_utla_collective_bargaini__p335-335.csv",
+    "source_page": "335",
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Single-lane 1060/530/265/133 match truth. cross_grid_contamination flag; base+_p335 copies exist."
+  },
+  {
+    "file": "pay_scale_group__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "332",
+    "cells_checked": 36,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "19C/20 pay scale (58825...) matches truth. Same schedule as 2015-16/2016-17 'appendix_e' (this is 2014-15 Appendix E under a different label)."
+  },
+  {
+    "file": "summer_school_intersession__final_2014_2017_utla_collective_bargaini__p346-346.csv",
+    "source_page": "346",
+    "cells_checked": 8,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "33.41475/200.49... match truth. Per-year twin of 2015-16 summer_school_intersession."
+  },
+  {
+    "file": "article_xii_a_attendance_incentive_plan__final_2014_2017_utla_collective_bargaini__p153-153.csv",
+    "source_page": "153",
+    "cells_checked": 24,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Values match truth, BUT not a salary schedule: attendance-incentive/illness-leave payment table from main contract body (p153), spuriously extracted."
+  },
+  {
+    "file": "2015_2016_adult_hourly_rate_thr_schedule__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "365",
+    "cells_checked": 7,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Adult Positions rates (41.82879..54.62861) match truth. Duplicate twin ..._p381 exists."
+  },
+  {
+    "file": "2015_2016_preparation_salary_t_table__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "374",
+    "cells_checked": 252,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Big T-table steps 20-27, values match truth; but step-27 continuation split into 3 extra rows with garbled labels ('(continued) C Basis','(+ 98 points) A Basis')."
+  },
+  {
+    "file": "2015_2016_special_services_salary_d_table_continue__final_2014_2017_utla_collective_bargaini__p372-372.csv",
+    "source_page": "372",
+    "cells_checked": 230,
+    "cells_wrong": 115,
+    "status": "PARTIAL",
+    "audit_note": "Annual columns correct, but monthly columns REPLACED by duplicated annual values (header 1,1,2,2..); ~half cells wrong (monthly rates lost)."
+  },
+  {
+    "file": "5_differentials_coordinating_early_childhood_cente__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "366",
+    "cells_checked": 2,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "424/848 match. DUPLICATE of differentials_coordinating_early_childhood_center (same 2015-16 year & values)."
+  },
+  {
+    "file": "appendix_e__final_2014_2017_utla_collective_bargaini__p380-380.csv",
+    "source_page": "380",
+    "cells_checked": 36,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "19C/20 (62426...) match truth. 3 copies in 2015-16 (base,_p364,_p380) page-split dups; same schedule as 2014-15 pay_scale_group."
+  },
+  {
+    "file": "development_center_salary_v_table__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "363",
+    "cells_checked": 50,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Annual+monthly values (33447.../3225.00...) match truth, but interleaved monthly rows have blank step labels (duplicate '')."
+  },
+  {
+    "file": "differentials_coordinating_early_childhood_center__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "366",
+    "cells_checked": 2,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "424/848 match. DUPLICATE of 5_differentials_coordinating_early_childhood_cente (same year & values)."
+  },
+  {
+    "file": "employees_serving_in_place_of_development_center_e__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "362",
+    "cells_checked": 2,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "163.84/182.46 match truth."
+  },
+  {
+    "file": "flat_hourly_rates__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "381",
+    "cells_checked": 4,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "50.16427/42.66537/34.82721 match truth. Twin 2015_2016_flat_hourly_rates exists; cross_grid_contamination flag."
+  },
+  {
+    "file": "l_salary_table__final_2014_2017_utla_collective_bargaini__p377-377.csv",
+    "source_page": "377",
+    "cells_checked": 14,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Only degree-differential block (MA/DR 584/1168..) — base L-salary column absent; values duplicate the Degree Differentials tables (cross_grid_duplicate). Mislabeled fragment."
+  },
+  {
+    "file": "one_time_stipends__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "367",
+    "cells_checked": 2,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "1350=270/1352=540 match truth. Twin table_5_one_time_stipends (same 'Table 5')."
+  },
+  {
+    "file": "second_career_increment_after_5_yrs_on_first_c_i__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "359",
+    "cells_checked": 9,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "81798..106195 match truth. Also consolidated in maximum_rates 2015-16 (partial redundancy)."
+  },
+  {
+    "file": "summer_school_intersession__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "362",
+    "cells_checked": 8,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "34.08304/204.50... match truth. Twin ..._p378; per-year twin of 2014-15 summer school."
+  },
+  {
+    "file": "third_career_increment_after_5_yrs_on_second_c_i__final_2014_2017_utla_collective_bargaini__p361-361.csv",
+    "source_page": "361",
+    "cells_checked": 9,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "79481..103230 match truth. Also consolidated in maximum_rates (partial redundancy)."
+  },
+  {
+    "file": "2016_2017_preparation_salary_l_table_continued_l_s__final_2014_2017_utla_collective_bargaini.csv",
+    "source_page": "~400",
+    "cells_checked": 51,
+    "cells_wrong": 30,
+    "status": "INCORRECT",
+    "audit_note": "A/B/C-Basis career block (105558/82467/89339) repeated ~4x with identical values (should be 4 distinct increments) and merged with degree-diff block; duplicated/misassembled rows."
+  }
+]

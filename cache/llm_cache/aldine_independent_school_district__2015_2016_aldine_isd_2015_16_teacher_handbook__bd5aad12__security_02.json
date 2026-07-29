@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "Performance",
+    "evidence": "In order of implementation, the criteria are:\n\na. Performance: The order of implementation within the Performance criterion shall be as follows:",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "1 school year, renewable up to 2 additional one-year periods",
+    "evidence": "Probationary contracts shall be for one school year, and may be renewed for two additional one-year periods.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "The teacher applicant shall hold a valid teacher's certificate appropriate for his/her assignment and be a graduate of an approved college or university.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

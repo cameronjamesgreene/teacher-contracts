@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "having objectives and plans for the day; following prepared lesson plans based on district's official curriculum.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "Lesson plans are to be completed in the curriculum management system and submitted according to the campus plan weekly, and saved in the teacher online library. Lesson plans will be monitored weekly by the campus administrators and updated as needed by the classroom teachers.",
+    "page": "not_applicable",
+    "confidence": "low",
+    "coder_notes": "Cited evidence from page 35 is not present in the provided document excerpt. No supporting text found in available pages."
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "instructional employees not assigned full-time to the Virtual School who are selected by the Principal of the Virtual School to teach as part-time supplemental Virtual School teachers after their regular instructional duty hours, will be paid a monthly supplement of $1,250",
+    "page": "188",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "fully certified in and are assigned to teach ESE or Secondary Mathematics",
+    "page": "191",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "Secondary Mathematics, grade levels 6-12; Secondary Science, grade levels 6-12",
+    "page": "193",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "fully certified in Secondary Science, ESE or ESOL",
+    "page": "191",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "The District's Title I schools may be assigned into four (4) or fewer tiers. Each tier of Title I District schools may generate a different Recruitment Incentive amount each school year",
+    "page": "191",
+    "confidence": "high"
+  }
+}

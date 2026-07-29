@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "First Three Years",
+    "evidence": "Provisional Contract Teacher (First Three Years). This is a contract for the period from... to... only, with no right or expectation of continued employment.",
+    "page": "54",
+    "confidence": "medium"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "hold all necessary licensures legally required to be employed as a teacher; fails to obtain any required license and/or endorsement for the position for which Employee was hired.",
+    "page": "55",
+    "confidence": "high"
+  }
+}

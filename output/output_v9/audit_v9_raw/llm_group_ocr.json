@@ -1,0 +1,19 @@
+{
+  "status_counts": {"CORRECT": 12, "PARTIAL": 0, "INCORRECT": 0, "UNVERIFIABLE": 0},
+  "items": [
+    {"qid": "meta_doc_type_001", "doc": "fresno_unified_school_district", "status": "CORRECT", "note": "Title 'COLLECTIVE BARGAINING AGREEMENT' at line 1; classified as CBA correctly."},
+    {"qid": "benefits_health_001", "doc": "fresno_unified_school_district", "status": "CORRECT", "note": "Line 971: District-paid coverage + FUSD Employee Health Care Plan. Evidence exact."},
+    {"qid": "leave_absence_reporting_013", "doc": "fresno_unified_school_district", "status": "CORRECT", "note": "Line 537: notify site principal + secure substitute via procedure. Evidence exact; supports substitute-request procedure."},
+    {"qid": "evaluation_consequences_008", "doc": "fresno_unified_school_district", "status": "CORRECT", "note": "Line 885: eval outcome -> District may initiate dismissal proceedings/refer back. Evaluation drives consequential employment decision."},
+    {"qid": "pay_performance_pay_006", "doc": "fresno_unified_school_district", "status": "CORRECT", "note": "No merit/performance pay. Bonuses are degree-based ($100 MA), stipends for positions/credentials, EPES for extra duties, early-retirement incentive. Not a false negative."},
+    {"qid": "security_recall_007", "doc": "fresno_unified_school_district", "status": "CORRECT", "note": "No layoff/recall article; only an incidental 'applicable statutory reemployment period' mention (line 1088) in a retirement-tier context. not_discussed defensible."},
+    {"qid": "meta_doc_type_001", "doc": "new_york_city_department_of_education", "status": "CORRECT", "note": "Line 1: 'MEMORANDUM OF AGREEMENT (the MOA...)'. Evidence exact."},
+    {"qid": "pay_step_increment_003", "doc": "new_york_city_department_of_education", "status": "CORRECT", "note": "Line 102 (Sec 4 Longevity Increments): step increments referenced but advancement mechanism in Appendix A, not in text. 'discussed_unclear' apt."},
+    {"qid": "workload_nonteaching_duties_009", "doc": "new_york_city_department_of_education", "status": "CORRECT", "note": "Line 734 exact: Onsite Staff provide support and supervision to students. MOA also has lunchroom coordinator/dean supervision. Non-teaching duties confirmed."},
+    {"qid": "security_recall_007", "doc": "new_york_city_department_of_education", "status": "CORRECT", "note": "Line 1002 exact: positions restored within a year -> attendance teachers reemployed by seniority. Recall right confirmed."},
+    {"qid": "meta_federal_law_citations_009", "doc": "new_york_city_department_of_education", "status": "CORRECT", "note": "Only NY State law cited (Education Law 3012-c, CPLR Art 75); generic 'city, state or federal law' is not a statute citation. not_discussed for federal is accurate."},
+    {"qid": "leave_fmla_012", "doc": "new_york_city_department_of_education", "status": "CORRECT", "note": "No FMLA/family-medical/parental/maternity leave language anywhere in this MOA. Not a false negative."}
+  ],
+  "false_negatives": 0,
+  "notes": "All 12 items CORRECT. Substantive answers verified against exact OCR quotes; four 'not_discussed'/'discussed_unclear' answers checked for false negatives and none found (Fresno recall = incidental statutory mention only; no merit pay; NYC no federal statute cited, no FMLA in MOA)."
+}

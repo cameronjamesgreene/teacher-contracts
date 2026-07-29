@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "salary schedule",
+    "evidence": "Washington Teacher's Union EG 09 Salary Schedule FY 25 - 28",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "FY 2025 through FY 2028 (effective October 6, 2024 through October 3, 2027)",
+    "evidence": "FY 2025 Effective October 6, 2024... FY 2026 Effective October 5, 2025... FY 2027 Effective October 4, 2026... FY 2028 Effective October 3, 2027",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Washington Teacher's Union",
+    "evidence": "Washington Teacher's Union EG 09 Salary Schedule",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

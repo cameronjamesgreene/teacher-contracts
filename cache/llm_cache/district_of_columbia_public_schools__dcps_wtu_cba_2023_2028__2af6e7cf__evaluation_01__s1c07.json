@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "Sections 29.1, 29.3, and 36.6 reference performance evaluations for summer school qualification and salary step holds, but no teacher evaluation procedures are described in this section.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Minimally Effective, Effective",
+    "evidence": "Teachers who receive an evaluation score of Minimally Effective shall be held on their current salary step. Such Teachers who earn an evaluation scored of Effective or higher shall be immediately moved to the next step.",
+    "page": "94",
+    "confidence": "medium"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "no",
+    "evidence": "Section 36.4 references student growth for a voluntary performance-based pay qualification, but does not describe student growth as a component of the teacher evaluation system in this section.",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

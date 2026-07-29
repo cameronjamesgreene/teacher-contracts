@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes. Recall period: up to two (2) years. Order: former position first, then substantially similar vacant position. Notice method: phone call first, then certified letter. Response deadline: end of next business day for phone offer; 7 calendar days from postmark for letter. Benefit restoration: reinstatement without loss of prior seniority.",
+    "evidence": "MPS will place the teacher on a recall list for purposes of the teacher’s return to work for a period of up to two (2) years.",
+    "page": "243",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "3 years",
+    "evidence": "All teachers in the public schools in cities of the first class during the first three years of consecutive employment shall be deemed to be in a probationary period of employment",
+    "page": "247",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "After the completion of such probationary period, without discharge, such teachers as are thereupon reemployed shall continue in service and hold their respective position during good behavior and efficient and competent service and must not be discharged or demoted except for cause after a hearing.",
+    "page": "248",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Any applicant seeking a position must hold the proper license(s) listed for the position valid through the school year for which they are applying in order to be considered for positions.",
+    "page": "240",
+    "confidence": "high"
+  }
+}

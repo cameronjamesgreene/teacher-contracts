@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes; Appendix B; 2005-2006 and 2006-2007; tenure-track, K-12, probationary, temporary, categorical, emergency, substitute, and Child Development Program teachers.",
+    "evidence": "Salary tables and pay rates are located in Appendix B.",
+    "page": "29",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2005-2006 and 2006-2007",
+    "evidence": "11.2 2005-2006 Salary Adjustments; 11.3 2006-2007 Salary Adjustments",
+    "page": "29-30",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes; One rating increase for a complete school year of service (at least 75% of required days), effective the same date as the percentage salary increase. Career increments A-E require 3 complete school years at the prior rating.",
+    "evidence": "Members of the bargaining unit who meet the requirements for an increment (one rating increase for a complete school year of service) for any school year shall receive that increment during that school year effective the same date as the percentage salary increase.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes; Year-for-year credit for verified outside teaching in full-time permanent, probationary, temporary, categorical, emergency, or long-term substitute status. Nutrition education teachers capped at 5 increments. A 'year' requires at least 75% of required service. Multiple districts in one year may be combined.",
+    "evidence": "A newly-appointed probationary teacher shall receive year-for-year credit for verified outside teaching in full-time permanent or probationary teacher, temporary, categorical, emergency or long-term substitute status.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

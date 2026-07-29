@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "The following contract language will be subject to re-openers and review each within one year.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2018-2019",
+    "evidence": "Beginning with the 2018-2019 school year, the School Board adopted the Marzano Focused Model",
+    "page": "43",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "The teacher evaluation system is intended to evaluate the performance of duties and responsibilities of all teachers",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "The following contract language will be subject to re-openers and review each within one year.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "Formatted: Font: (Default) Arial, Font color: Accent 5",
+    "page": "39",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "Yes",
+    "evidence": "The evaluation forms and procedures to be used will comply with all requirements as set forth in Section 1012.34, F.S.",
+    "page": "41",
+    "confidence": "high"
+  }
+}

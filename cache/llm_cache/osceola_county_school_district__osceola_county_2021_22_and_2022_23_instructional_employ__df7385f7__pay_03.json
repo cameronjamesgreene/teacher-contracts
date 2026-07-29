@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "Credit on the salary schedule shall be given for all years of experience for teaching in other schools... Ninety-nine (99) teacher workdays in any one (1) regular school year shall be considered as one (1) year of credit.",
+    "page": "59",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "yes",
+    "evidence": "Credit for teaching experience outside the United States will be granted to those in international schools accredited by their respective accrediting associations as recognized by the Osceola School Board and who are eligible for Florida certification.",
+    "page": "59",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "A teacher on military leave shall be credited with up to four (4) years’ experience on the salary schedule upon return to duty.",
+    "page": "45",
+    "confidence": "high",
+    "coder_notes": "Updated page reference from 46 to 45 to align with provided text location."
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

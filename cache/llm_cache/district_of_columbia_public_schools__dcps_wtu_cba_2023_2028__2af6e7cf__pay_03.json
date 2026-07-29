@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends on page 41. The relevant sections for compensation and salary placement (Article 36, p. 92, and Salary Schedules, pp. 107-112 per the TOC) are not included in the provided text. Thus, no provisions regarding prior experience credit or advanced certification pay are discussed."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends on page 41. The relevant sections for compensation and salary placement (Article 36, p. 92, and Salary Schedules, pp. 107-112 per the TOC) are not included in the provided text. Thus, no provisions regarding prior experience credit or advanced certification pay are discussed."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends on page 41. The relevant sections for compensation and salary placement (Article 36, p. 92, and Salary Schedules, pp. 107-112 per the TOC) are not included in the provided text. Thus, no provisions regarding prior experience credit or advanced certification pay are discussed."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends on page 41. The relevant sections for compensation and salary placement (Article 36, p. 92, and Salary Schedules, pp. 107-112 per the TOC) are not included in the provided text. Thus, no provisions regarding prior experience credit or advanced certification pay are discussed."
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends on page 41. The relevant sections for compensation and salary placement (Article 36, p. 92, and Salary Schedules, pp. 107-112 per the TOC) are not included in the provided text. Thus, no provisions regarding prior experience credit or advanced certification pay are discussed."
+  }
+}

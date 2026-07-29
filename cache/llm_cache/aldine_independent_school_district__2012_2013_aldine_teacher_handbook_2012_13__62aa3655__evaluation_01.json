@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes - Section II.B.1 (Employment Contracts/General); references periodic written evaluations and PDAS/INVEST systems but does not provide a full procedure.",
+    "evidence": "Periodic written evaluations of employees’ performance shall be conducted and reviewed by the Superintendent of Schools or the Superintendent’s designee prior to the Superintendent’s annual submission of recommendations for renewal and nonrenewal.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": "Updated page number to 5 based on document footer."
+  },
+  "evaluation_system_002": {
+    "answer": "PDAS and INVEST",
+    "evidence": "\"PDAS observation record\" and \"INVEST observation document\"",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "Less Than Proficient, Needs Improvement, Ineffective",
+    "evidence": "\"cumulative domain rating score of less than proficient in one or more of the PDAS domains I, II, III, IV or persons whose most recent INVEST observation document reflects an overall rating of Needs Improvement or Ineffective in part A.\"",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": "Revised answer to strictly match explicitly quoted ratings in the text. 'Proficient' was removed as it is not explicitly stated in the provided passage."
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

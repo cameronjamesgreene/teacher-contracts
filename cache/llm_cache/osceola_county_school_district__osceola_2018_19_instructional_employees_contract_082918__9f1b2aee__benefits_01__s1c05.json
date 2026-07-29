@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "I understand I have voluntarily given up full Board paid medical insurance. The Board will pay half and I agree to participate in the group medical plan and pay half.",
+    "page": "105",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "half (50%)",
+    "evidence": "The Board will pay half and I agree to participate in the group medical plan and pay half.",
+    "page": "105",
+    "confidence": "medium"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "half (50%)",
+    "evidence": "I agree to participate in the group medical plan and pay half.",
+    "page": "105",
+    "confidence": "medium"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

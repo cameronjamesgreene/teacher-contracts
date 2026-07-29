@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "yes",
+    "evidence": "Effective July 1, 2016, all Certificated Salary Schedules shall be increased by three and one-half percent (3.5%). Effective July 1, 2017, all Certificated Salary Schedule shall be increased by two percent (2.0%). Effective July 1, 2018, all Certificated Salary Schedules shall be increased by one percent (1%).",
+    "page": "65",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "The EPES schedules shall be increased by the same percentage as applies to schedules effective July 1 of the following year. The extra pay amounts set forth on the EPES Additional Service Pay Schedule (i.e. pp. 110-119 in the 2010-2012 CBA) shall double with the exception of elementary athletic coaches which will triple.",
+    "page": "66",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "Stipends shall be established for teachers actually serving in a position in the following areas: 1.7.1 Special Education classes (including RSP), and Speech and Language Therapy: $1500 per year.",
+    "page": "66",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "Stipends shall be established for teachers actually serving in a position in the following areas: ... 1.7.2 Bi-lingual classes: $500 per year.",
+    "page": "66",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "Designated Schools Factor Placement Schedule below... 10 Days 11.993% 1.11993 195... 9 Days 11.419% 1.11419 194... 8 Days 10.845% 1.10845 193... 7 Days 10.270% 1.10270 192",
+    "page": "100",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

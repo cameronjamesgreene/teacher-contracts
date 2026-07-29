@@ -1,0 +1,18 @@
+{
+  "engine": "docling",
+  "engine_slug": "docling",
+  "finished_at": "2026-07-10T21:06:38.148209+00:00",
+  "host": "hpc-docling-gpu-1",
+  "method": "vlm-vision",
+  "output_chars": 802529,
+  "params": {
+    "gres": "gpu:1",
+    "image": "quay.io/docling-project/docling-serve-cu126:latest",
+    "in_flight": 1,
+    "note": "per-document timing not recorded; bracket spans the full run",
+    "workers": 2
+  },
+  "pdf_sha256": "310671ccf95de469c49b6eff6e29cb1727bd248491c02cb08a8f70ee65ca5b5e",
+  "schema_version": 1,
+  "started_at": "2026-07-10T20:54:46.973534+00:00"
+}

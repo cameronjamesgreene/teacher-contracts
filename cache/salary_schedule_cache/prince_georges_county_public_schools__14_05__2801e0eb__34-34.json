@@ -1,0 +1,894 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Schedule",
+      "population": "Certified Teachers",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "July 1, 2006 - June 30, 2007",
+      "lane_labels": [
+        "Prov",
+        "BA(a)",
+        "BA+30(b)",
+        "BA+45",
+        "MA+30(b)",
+        "MA+60(b,c)",
+        "DR & MA (b)"
+      ],
+      "step_labels": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "cells": [
+        {
+          "step": "01",
+          "lane": "Prov",
+          "value": "40534",
+          "cell_code": null
+        },
+        {
+          "step": "01",
+          "lane": "BA(a)",
+          "value": "45552",
+          "cell_code": null
+        },
+        {
+          "step": "01",
+          "lane": "BA+30(b)",
+          "value": "47691",
+          "cell_code": null
+        },
+        {
+          "step": "01",
+          "lane": "BA+45",
+          "value": "49931",
+          "cell_code": null
+        },
+        {
+          "step": "01",
+          "lane": "MA+30(b)",
+          "value": "52278",
+          "cell_code": null
+        },
+        {
+          "step": "01",
+          "lane": "MA+60(b,c)",
+          "value": "54735",
+          "cell_code": null
+        },
+        {
+          "step": "01",
+          "lane": "DR & MA (b)",
+          "value": "55280",
+          "cell_code": null
+        },
+        {
+          "step": "02",
+          "lane": "Prov",
+          "value": "40534",
+          "cell_code": null
+        },
+        {
+          "step": "02",
+          "lane": "BA(a)",
+          "value": "45552",
+          "cell_code": null
+        },
+        {
+          "step": "02",
+          "lane": "BA+30(b)",
+          "value": "47691",
+          "cell_code": null
+        },
+        {
+          "step": "02",
+          "lane": "BA+45",
+          "value": "49931",
+          "cell_code": null
+        },
+        {
+          "step": "02",
+          "lane": "MA+30(b)",
+          "value": "52278",
+          "cell_code": null
+        },
+        {
+          "step": "02",
+          "lane": "MA+60(b,c)",
+          "value": "54735",
+          "cell_code": null
+        },
+        {
+          "step": "02",
+          "lane": "DR & MA (b)",
+          "value": "55280",
+          "cell_code": null
+        },
+        {
+          "step": "03",
+          "lane": "Prov",
+          "value": "41729",
+          "cell_code": null
+        },
+        {
+          "step": "03",
+          "lane": "BA(a)",
+          "value": "46893",
+          "cell_code": null
+        },
+        {
+          "step": "03",
+          "lane": "BA+30(b)",
+          "value": "49098",
+          "cell_code": null
+        },
+        {
+          "step": "03",
+          "lane": "BA+45",
+          "value": "51406",
+          "cell_code": null
+        },
+        {
+          "step": "03",
+          "lane": "MA+30(b)",
+          "value": "53820",
+          "cell_code": null
+        },
+        {
+          "step": "03",
+          "lane": "MA+60(b,c)",
+          "value": "56351",
+          "cell_code": null
+        },
+        {
+          "step": "03",
+          "lane": "DR & MA (b)",
+          "value": "56914",
+          "cell_code": null
+        },
+        {
+          "step": "04",
+          "lane": "Prov",
+          "value": "42961",
+          "cell_code": null
+        },
+        {
+          "step": "04",
+          "lane": "BA(a)",
+          "value": "48277",
+          "cell_code": null
+        },
+        {
+          "step": "04",
+          "lane": "BA+30(b)",
+          "value": "50546",
+          "cell_code": null
+        },
+        {
+          "step": "04",
+          "lane": "BA+45",
+          "value": "52920",
+          "cell_code": null
+        },
+        {
+          "step": "04",
+          "lane": "MA+30(b)",
+          "value": "55411",
+          "cell_code": null
+        },
+        {
+          "step": "04",
+          "lane": "MA+60(b,c)",
+          "value": "58011",
+          "cell_code": null
+        },
+        {
+          "step": "04",
+          "lane": "DR & MA (b)",
+          "value": "58591",
+          "cell_code": null
+        },
+        {
+          "step": "05",
+          "lane": "Prov",
+          "value": "44227",
+          "cell_code": null
+        },
+        {
+          "step": "05",
+          "lane": "BA(a)",
+          "value": "49702",
+          "cell_code": null
+        },
+        {
+          "step": "05",
+          "lane": "BA+30(b)",
+          "value": "52037",
+          "cell_code": null
+        },
+        {
+          "step": "05",
+          "lane": "BA+45",
+          "value": "54481",
+          "cell_code": null
+        },
+        {
+          "step": "05",
+          "lane": "MA+30(b)",
+          "value": "57043",
+          "cell_code": null
+        },
+        {
+          "step": "05",
+          "lane": "MA+60(b,c)",
+          "value": "59724",
+          "cell_code": null
+        },
+        {
+          "step": "05",
+          "lane": "DR & MA (b)",
+          "value": "60320",
+          "cell_code": null
+        },
+        {
+          "step": "06",
+          "lane": "Prov",
+          "value": "45531",
+          "cell_code": null
+        },
+        {
+          "step": "06",
+          "lane": "BA(a)",
+          "value": "51164",
+          "cell_code": null
+        },
+        {
+          "step": "06",
+          "lane": "BA+30(b)",
+          "value": "53573",
+          "cell_code": null
+        },
+        {
+          "step": "06",
+          "lane": "BA+45",
+          "value": "56089",
+          "cell_code": null
+        },
+        {
+          "step": "06",
+          "lane": "MA+30(b)",
+          "value": "58727",
+          "cell_code": null
+        },
+        {
+          "step": "06",
+          "lane": "MA+60(b,c)",
+          "value": "61485",
+          "cell_code": null
+        },
+        {
+          "step": "06",
+          "lane": "DR & MA (b)",
+          "value": "62101",
+          "cell_code": null
+        },
+        {
+          "step": "07",
+          "lane": "Prov",
+          "value": "46875",
+          "cell_code": null
+        },
+        {
+          "step": "07",
+          "lane": "BA(a)",
+          "value": "52676",
+          "cell_code": null
+        },
+        {
+          "step": "07",
+          "lane": "BA+30(b)",
+          "value": "55153",
+          "cell_code": null
+        },
+        {
+          "step": "07",
+          "lane": "BA+45",
+          "value": "57745",
+          "cell_code": null
+        },
+        {
+          "step": "07",
+          "lane": "MA+30(b)",
+          "value": "6057",
+          "cell_code": null
+        },
+        {
+          "step": "07",
+          "lane": "MA+60(b,c)",
+          "value": "63300",
+          "cell_code": null
+        },
+        {
+          "step": "07",
+          "lane": "DR & MA (b)",
+          "value": "63930",
+          "cell_code": null
+        },
+        {
+          "step": "08",
+          "lane": "Prov",
+          "value": "48258",
+          "cell_code": null
+        },
+        {
+          "step": "08",
+          "lane": "BA(a)",
+          "value": "54228",
+          "cell_code": null
+        },
+        {
+          "step": "08",
+          "lane": "BA+30(b)",
+          "value": "56780",
+          "cell_code": null
+        },
+        {
+          "step": "08",
+          "lane": "BA+45",
+          "value": "59446",
+          "cell_code": null
+        },
+        {
+          "step": "08",
+          "lane": "MA+30(b)",
+          "value": "62242",
+          "cell_code": null
+        },
+        {
+          "step": "08",
+          "lane": "MA+60(b,c)",
+          "value": "65167",
+          "cell_code": null
+        },
+        {
+          "step": "08",
+          "lane": "DR & MA (b)",
+          "value": "65817",
+          "cell_code": null
+        },
+        {
+          "step": "09",
+          "lane": "Prov",
+          "value": "49682",
+          "cell_code": null
+        },
+        {
+          "step": "09",
+          "lane": "BA(a)",
+          "value": "55830",
+          "cell_code": null
+        },
+        {
+          "step": "09",
+          "lane": "BA+30(b)",
+          "value": "58457",
+          "cell_code": null
+        },
+        {
+          "step": "09",
+          "lane": "BA+45",
+          "value": "61201",
+          "cell_code": null
+        },
+        {
+          "step": "09",
+          "lane": "MA+30(b)",
+          "value": "64079",
+          "cell_code": null
+        },
+        {
+          "step": "09",
+          "lane": "MA+60(b,c)",
+          "value": "67088",
+          "cell_code": null
+        },
+        {
+          "step": "09",
+          "lane": "DR & MA (b)",
+          "value": "67758",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Prov",
+          "value": "51148",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "BA(a)",
+          "value": "57476",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "BA+30(b)",
+          "value": "60180",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "BA+45",
+          "value": "63007",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA+30(b)",
+          "value": "65968",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA+60(b,c)",
+          "value": "69066",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "DR & MA (b)",
+          "value": "69758",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Prov",
+          "value": "52656",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "BA(a)",
+          "value": "59170",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "BA+30(b)",
+          "value": "61955",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "BA+45",
+          "value": "64865",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA+30(b)",
+          "value": "67914",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA+60(b,c)",
+          "value": "71102",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "DR & MA (b)",
+          "value": "71814",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "BA+30(b)",
+          "value": "63783",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "BA+45",
+          "value": "66778",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA+30(b)",
+          "value": "69917",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA+60(b,c)",
+          "value": "73202",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "DR & MA (b)",
+          "value": "73934",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "BA+30(b)",
+          "value": "65666",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "BA+45",
+          "value": "68749",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA+30(b)",
+          "value": "71981",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA+60(b,c)",
+          "value": "75360",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "DR & MA (b)",
+          "value": "76113",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "BA+30(b)",
+          "value": "67603",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "BA+45",
+          "value": "70779",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA+30(b)",
+          "value": "74103",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA+60(b,c)",
+          "value": "77581",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "DR & MA (b)",
+          "value": "78358",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "BA+30(b)",
+          "value": "69596",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "BA+45",
+          "value": "72866",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA+30(b)",
+          "value": "76290",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA+60(b,c)",
+          "value": "79872",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "DR & MA (b)",
+          "value": "80672",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "BA+30(b)",
+          "value": "71651",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "BA+45",
+          "value": "75016",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA+30(b)",
+          "value": "78540",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA+60(b,c)",
+          "value": "82229",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "DR & MA (b)",
+          "value": "83053",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "BA+30(b)",
+          "value": "73763",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "BA+45",
+          "value": "77228",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA+30(b)",
+          "value": "80855",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA+60(b,c)",
+          "value": "84655",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "DR & MA (b)",
+          "value": "85503",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "BA+30(b)",
+          "value": "75938",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "BA+45",
+          "value": "79506",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA+30(b)",
+          "value": "83241",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA+60(b,c)",
+          "value": "87153",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "DR & MA (b)",
+          "value": "88023",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "BA+30(b)",
+          "value": "78180",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "BA+45",
+          "value": "81850",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA+30(b)",
+          "value": "85696",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA+60(b,c)",
+          "value": "89724",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "DR & MA (b)",
+          "value": "90621",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Prov",
+          "value": "54210",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "BA(a)",
+          "value": "60918",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "BA+30(b)",
+          "value": "80485",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "BA+45",
+          "value": "84269",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MA+30(b)",
+          "value": "88226",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MA+60(b,c)",
+          "value": "92370",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "DR & MA (b)",
+          "value": "93295",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Step 07, MA+30(b) value '6057' appears to be a typographical error in the source (likely 60587 based on adjacent progression). Population inferred as Certified Teachers from degree/step structure.",
+      "confidence": "high",
+      "validation_warnings": [
+        "identical values across steps ['01', '02'] — looks like one column copied across rows instead of each row's own data"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

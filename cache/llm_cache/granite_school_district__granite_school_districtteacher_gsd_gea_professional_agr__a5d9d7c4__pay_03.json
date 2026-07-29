@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The document specifies credit for 'public school teaching experience' generally (7.2.1.1-7.2.1.2) but does not explicitly distinguish in-district experience for initial placement."
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "All other teaching experience shall be evaluated by the Human Resources office and the amount of credit granted shall depend upon the extent to which such experience is equivalent to public school teaching.",
+    "page": "12",
+    "confidence": "medium",
+    "coder_notes": "Updated from not_discussed. The passage refers to 'All other teaching experience,' which covers out-of-district experience, but provides only an evaluation standard rather than specific credit rules."
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "All other teaching experience shall be evaluated by the Human Resources office and the amount of credit granted shall depend upon the extent to which such experience is equivalent to public school teaching.",
+    "page": "12",
+    "confidence": "medium",
+    "coder_notes": "Revised from yes. The evidence applies generally to 'all other teaching experience' rather than explicitly specifying out-of-state credit, making it indirect per audit guidelines."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "Contract teachers returning from military leave shall be granted credit on the salary schedule at the following rate: One step on the salary schedule for each year of military service, or major part thereof, not to exceed three years' credit.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

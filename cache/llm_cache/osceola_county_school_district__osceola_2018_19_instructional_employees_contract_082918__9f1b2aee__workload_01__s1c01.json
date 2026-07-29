@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Planning time is essential and will be granted to those teachers engaged in classroom instruction.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "one (1) regular period of instruction in middle and high school or equal to forty-five (45) consecutive minutes per day in elementary school",
+    "evidence": "The length of planning time shall be equal to one (1) regular period of instruction in middle and high school or equal to forty-five (45) consecutive minutes per day in elementary school.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Planning time shall be free of supervisory duty and appropriate to the instructional assignment.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

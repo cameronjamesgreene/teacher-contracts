@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "“Annual contract” means an employment contract for a period of one (1) school year that the Board may choose to award or not award without cause. “Probationary contract” means an employment contract for a period of one (1) school year awarded to teachers upon initial employment in the school district. ... “Professional Service Contract” and “Continuing Contract” means a contract with continuing employment rights in accordance with the law in effect prior to July 1, 2011.",
+    "page": "46-47",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly defines contract statuses. Note: Quoted pages are outside the provided excerpt, but the passage is direct and unambiguous."
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "This notification shall not be later than four (4) weeks prior to the end of the post-school year. ... To initiate the appeal, the teacher will submit a written request to the Assistant Superintendent for Human Resources who will schedule a meeting with the Area Superintendent, the teacher and his/her representative. ... Such determination shall be in their sole discretion and shall not require just cause.",
+    "page": "47-49",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly outlines nonrenewal notice and appeal procedures. Note: Quoted pages are outside the provided excerpt."
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority shall accrue on the basis of one (1) year for each year of continuous service in the district.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": "No changes made. Evidence directly supports the answer."
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "A voluntary transfer is a teacher request for a change in teaching position. Procedures involve collaboratively negotiated guidelines, application via form/timeline, and seniority playing a key role (at least 50% of interviewees must be the most senior). Temporary/remainder contract positions are vacated for this process. Eligibility requires being recommended for reappointment, in-field, Highly Qualified, not on DROP/temporary contract, and meeting annual requirements.",
+    "evidence": "A voluntary transfer is a teacher request for a change in teaching position from one school to another. ... The voluntary transfer process shall be consistent with the intent to Transfer application form and the corresponding timeline. ... A minimum of 50% of the applicants chosen for interview must be the most senior applicants. ... Positions which are filled at the conclusion of the school year by long-term substitutes, temporary or remainder of year probationary contracts in non-protected assignments shall be vacated for use in the voluntary and involuntary transfer process. ... A teacher who has not been recommended for reappointment ... is not eligible for a transfer.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include specific procedural criteria (timeline, seniority requirement, vacancy rules, eligibility restrictions) to comprehensively support the detailed answer."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "An involuntary transfer is a transfer from one school to another that is initiated by the Administration. ... Involuntary transfers will be made in the best interests of the school system ... Under no circumstances shall a teacher be involuntarily transferred for discriminatory or capricious reasons. ... The Board and the Union Association shall establish guidelines for the process of involuntary transfers which shall recognize the seniority of teachers ... Racial composition of the staff shall take precedence over seniority ... An involuntarily transferred teacher shall be recalled to the school ... if a position is available ...",
+    "page": "23",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include specific procedural criteria (best interests standard, non-discrimination clause, guideline establishment, seniority/racial precedence, and recall rights) to fully support the affirmative answer."
+  },
+  "security_rif_006": {
+    "answer": "If economic circumstances dictate a reduction, the Board must assign personnel to appropriate qualified positions. If unable to maintain all employees, the Board must immediately meet with the Union Association to establish an orderly method of reducing, retraining, and recalling affected employees.",
+    "evidence": "Should economic circumstances dictate a reduction in personnel, the Board shall take whatever steps are necessary to assign personnel to appropriate positions within the district for which they are qualified, consistent with this Agreement and law. Should the Board be unable to maintain all employees, it shall immediately meet with the Union Association to provide for an orderly method of reducing, retraining, and recalling affected employees.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include both steps of the RIF procedure (internal reassignment first, then union negotiation for reduction/recall) for completeness and direct alignment with the answer."
+  }
+}

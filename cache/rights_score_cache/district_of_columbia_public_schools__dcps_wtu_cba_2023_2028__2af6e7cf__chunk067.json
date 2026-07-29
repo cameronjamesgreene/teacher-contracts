@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Educational aides and school assistants, who are assigned to the school, shall be scheduled to assist teachers with cafeteria and playground duty.",
+      "subject_text": "Educational aides and school assistants",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Passive construction places scheduling duty on management; benefits workers by ensuring aide support for duties."
+    },
+    {
+      "quote": "Teachers will not be required to fill out any forms unless they are official DCPS forms or forms required by a government agency or forms devised jointly by SCAC and the Administration.",
+      "subject_text": "Teachers",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Negated obligation functions as a relief from duty, granting teachers a right to avoid non-mandatory paperwork."
+    },
+    {
+      "quote": "Adequate facilities and supplies will be made available in Teacher washrooms.",
+      "subject_text": "Adequate facilities and supplies",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Passive voice implies a management duty to provide adequate facilities."
+    },
+    {
+      "quote": "Dispensers for female needs shall be made available in an appropriate location in the school.",
+      "subject_text": "Dispensers for female needs",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Passive voice implies a management duty to provide hygiene supplies."
+    }
+  ]
+}

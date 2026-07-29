@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "No certificated position for credit classes in the Adult and Community Schools shall be filled by a teacher not employed by the District during the regular school term if there is a qualified applicant for such position who is employed by the District during the regular term.",
+      "subject_text": "No certificated position for credit classes in the Adult and Community Schools",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "In filling such positions, consideration will be given to a teacher's area of competence, major and minor fields of study, quality of performance, and ability to relate well with students.",
+      "subject_text": "consideration",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers employed in adult and community school credit classes shall be paid an hourly rate, according to their current contract salary as a regular teacher in the District, to a maximum hourly rate based on step six of the teacher’s salary lane.",
+      "subject_text": "Teachers employed in adult and community school credit classes",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Sick leave is to be taken only for illness, accident, or recuperation from the same.",
+      "subject_text": "Sick leave",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "It is the professional responsibility of every professional person to use this sick leave only for the purpose intended.",
+      "subject_text": "It",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "Ten days of sick leave will be granted annually with full pay, cumulative to thirty teaching days.",
+      "subject_text": "Ten days of sick leave",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "When the effective date of appointment of a teacher is before the beginning of the second semester of any school year, the teacher will be given credit for the full annual sick leave allowance.",
+      "subject_text": "the teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "When the effective date of appointment of a teacher is on or after the beginning of the second semester, the teacher will be given credit for five days’ sick leave allowance.",
+      "subject_text": "the teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    }
+  ]
+}

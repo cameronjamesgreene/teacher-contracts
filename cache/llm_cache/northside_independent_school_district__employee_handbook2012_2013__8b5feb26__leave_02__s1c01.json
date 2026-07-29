@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "Eligible employees can take up to 12 weeks of unpaid leave each year between September 1 and August 31 for the following reasons: The birth, adoption, or foster placement of a child",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Pregnancy and conditions related to pregnancy are treated the same as any other temporary disability.",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Eligible employees can take up to 12 weeks of unpaid leave each year between September 1 and August 31 for the following reasons: The birth, adoption, or foster placement of a child",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Employees who have been employed by the district for at least 12 months and have worked at least 1,250 hours in the 12 months immediately preceding the need for leave are eligible for family and medical leave.",
+    "page": "n/a",
+    "confidence": "high"
+  }
+}

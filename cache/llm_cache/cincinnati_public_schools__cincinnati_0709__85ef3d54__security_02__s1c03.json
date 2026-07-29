@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "Two years",
+    "evidence": "New teachers shall hold a Provisional License, successfully complete the Entry-Year Program and performance assessment within two years, and obtain a five year Professional License.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "Each teacher who has attained the career level in the TES of the Cincinnati Public Schools upon re-employment shall be offered a continuing contract, provided that teacher holds a valid eight-year Professional Ohio Teaching Certificate or five year professional license.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "New teachers shall hold a Provisional License, successfully complete the Entry-Year Program and performance assessment within two years, and obtain a five year Professional License. Teachers who have a certificate on file in the Human Resources Office, which needs to be renewed, shall be informed by the administration of the necessity to renew in January of the year of renewal.",
+    "page": "17",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "According to state law, the first five (5) years of employment of all certified employees entering the employment of school district shall be deemed a period of probation during which period all appointments of teachers shall expire at the end of the school year. ... On the first day of their sixth year, certified employees will attain permanent status.",
+    "page": "30, 32",
+    "confidence": "high",
+    "coder_notes": "Document explicitly defines probationary (first 5 years) and permanent (6th year) status. Changed from not_discussed to yes."
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "The Superintendent of Schools on or before the fifteenth (15th) day of April in each year shall notify probationary certified employees who will not be retained by the school district of the termination of their services.",
+    "page": "30",
+    "confidence": "high",
+    "coder_notes": "Document explicitly states the notice period for nonrenewal of probationary contracts. Changed from not_discussed to yes."
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "Seniority (length of service) shall be defined as the number of consecutive days of employment with the District. Such days shall include authorized absences. Seniority shall not be applicable in any circumstance where it is not explicitly defined or identified as a factor.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Procedures require a written request via the TalentEd Application between January 1–21 prior to the school year. Principals screen applicants, seniority is a factor, and after May 15, the receiving principal, employee, and sending principal must all agree to finalize the transfer.",
+    "evidence": "Procedure A: Voluntary Transfer\nMembers of the Certified Unit desiring to transfer to vacancies in another school or program for the following school year shall file a written request via the TalentEd Application... during the transfer window period of January 1 – January 21... In selecting transfer teacher candidates, seniority shall be a factor considered by the principal/HR in making a decision. After May 15, all parties involved must agree in order for the transfer to occur.",
+    "page": "27-28",
+    "confidence": "high",
+    "coder_notes": "Document explicitly outlines the voluntary transfer window, application process, principal screening, and multi-party agreement requirement. Changed from not_discussed to detailed answer."
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Procedure B. Involuntary Transfer\n1. Disciplinary – Disciplinary transfers, when necessary, shall be for just cause and shall follow a conference with HR.\n2. Other Involuntary Transfers\ni) School Closing – ... teachers will be scheduled by seniority\n3. Additional Involuntary Transfers – i) When other involuntary transfers are necessitated due to declining enrollment... Certified employees who volunteer must be meeting all certified employee expectations... When no certified employee or not enough certified employees volunteer, the certified employees with the least seniority... will have an opportunity to review a master list of all existing vacancies and will be asked to identify their top three choices for reassignment.",
+    "page": "28-29",
+    "confidence": "high",
+    "coder_notes": "Document explicitly describes involuntary transfer procedures for disciplinary, school closing, and declining enrollment scenarios. Changed from not_discussed to yes."
+  },
+  "security_rif_006": {
+    "answer": "For regular certified staff, layoff criteria are applied in order: certification, programmatic needs, seniority, and professional preparation. Permanent staff follow the same procedure after all qualified probationary staff are laid off. For summer school staff, reductions due to enrollment begin with the last employee hired at the site.",
+    "evidence": "B. Layoff\n1. When the Superintendent determines that layoff of probationary certified employees is necessary, the following criteria for selecting probationary certified employees to be placed on unrequested leave of absence shall be followed in the order listed below:\ni) Certification\nii) Programmatic needs...\niii) Seniority\niv) Professional preparation... Permanent certified employees with proper certification will follow the same recall/layoff procedure as probationary employees... If a reduction in summer school staff is necessary due to enrollment, the reduction shall begin with the last employee hired at the particular site.",
+    "page": "30, 51",
+    "confidence": "high",
+    "coder_notes": "Stage 1 answer only covered summer school. Updated to include the full RIF/layoff criteria for certified staff found in Articles VIII and IX."
+  }
+}

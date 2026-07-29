@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA (Appendix)",
+    "evidence": "teachers_2019-2021_final_3-15-2021_signed.pdf",
+    "page": "248",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2021",
+    "evidence": "teachers_2019-2021_final_3-15-2021_signed.pdf",
+    "page": "248",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "exclusive representative of the teachers in the district",
+    "page": "248",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extracted and legible throughout pages 248-256.",
+    "page": "248",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section V    Selected Minnesota Statutes ... 122A.60 ... Title IX, of the Educational Amendments of 1972, Section 504 of the Rehabilitation Act of 1973",
+    "page": "248",
+    "confidence": "high"
+  }
+}

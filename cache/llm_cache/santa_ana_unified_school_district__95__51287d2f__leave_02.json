@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 days paid (5 days if out of state or travel >250 miles); per incident",
+    "evidence": "Each unit member shall be granted three (3) duty days of paid absence, or five (5) duty days if out of state or travel of more than 250 miles one way is involved, for each bereavement due to the death of any member of his/her immediate family.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "mother, father, foster parents, legal guardians, grandmother, grandfather, grandchildren, great-grandchildren, spouse, son, son-in-law, daughter, daughter-in-law, brother, sister, spouse's siblings, relatives permanently living in household, only surviving blood relative, domestic partner",
+    "evidence": "Members of the immediate family means the mother, father, foster parents, legal guardians, grandmother, grandfather, grandchildren or great-grandchildren of the unit member or of the spouse of the unit member, and the spouse, son, son-in-law, daughter, daughter-in-law, brother or sister of the unit member, and brothers and sisters of the unit member's spouse, or any relative permanently living in the immediate household of the unit member, only surviving blood relative, domestic partner.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "No compensation or fringe benefits, unless paid by the employee, shall be paid to an employee while on parental leave.",
+    "page": "57",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Employees covered by this agreement shall be entitled to use personal illness leave (sick leave) as set forth in this agreement for disabilities caused or contributed to by pregnancy, miscarriage, childbirth, and recovery therefrom on the same terms and conditions governing leave of absence for other illnesses, injuries, or medical disabilities.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "Unit members may use fifteen (15) days of accumulated sick days for the birth or adoption of a child.",
+    "page": "51",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "10.3.2.1 Upon request, the District may provide a unit member an unpaid leave not to exceed one (1) year for the purpose of meeting responsibilities involving members of the immediate family.",
+    "page": "57",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

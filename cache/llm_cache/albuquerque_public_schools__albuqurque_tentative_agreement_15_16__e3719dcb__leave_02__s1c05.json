@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 days with pay; up to 2 additional paid days if funeral is out of state or requires 600+ mile round-trip. Not cumulative.",
+    "evidence": "Three (3) days leave with pay will be granted for death in the immediate family of a teacher. If requested by the teacher, two (2) additional days leave with pay will be granted if the funeral is out of state or requires a round-trip of six hundred (600) miles or more.",
+    "page": "Article 17.C.1",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Spouse, domestic partner, child, grandchild, parent, sister, brother, grandparent, son-in-law, daughter-in-law, sister-in-law, brother-in-law, mother-in-law, father-in-law, aunt, uncle, household members, or person in loco parentis. Travel extensions granted for out-of-state funerals or 600+ mile round-trips.",
+    "evidence": "The immediate family of a teacher is the spouse, domestic partner, child, grandchild, parent, sister, brother, grandparent, son-in-law, daughter-in-law, sister-in-law, brother-in-law, mother-in-law, father-in-law, aunt, uncle, others who reside in the same household with the teacher, or a person in loco parentis.",
+    "page": "Article 17.A.1",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Intermittent leave will be addressed according to FMLA law.",
+    "page": "Article 17.M",
+    "confidence": "medium"
+  }
+}

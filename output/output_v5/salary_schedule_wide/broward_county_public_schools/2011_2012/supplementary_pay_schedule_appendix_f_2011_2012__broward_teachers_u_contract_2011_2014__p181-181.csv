@@ -1,0 +1,35 @@
+# Broward_Teachers_U_Contract_2011_2014.pdf — SUPPLEMENTARY PAY SCHEDULE - APPENDIX F 2011-2012 (2011-2012)
+# population: Teachers | is_teacher_schedule: True
+"# validation_warnings: identical values across steps ['Professional Development Network', 'ROTC: Instructor Responsible for Equipment'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Rover - Year Round Education (Hallandale Elem. only)', 'Future Farmers of America', 'Future Business Leaders of America', 'Cooperative Education Club of FL'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['ESE Specialist', 'Speech/Language Pathologist'] — looks like one column copied across rows instead of each row's own data; identical values across steps ['Family Counselor', 'Speech Language Pathologist (National Clinical Certification)', 'Testing Coordinator'] — looks like one column copied across rows instead of each row's own data; only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+step,Amount
+Media Center Coordinator (Directing one [1] or more employees),359
+Additional Task Assignments,359-717
+School Social Worker,2835
+Psychologists,3815
+Intervention Team Leader,2521
+Instructional Coach,1161
+School Liaison,638
+Professional Development Network,652
+ESE District & Area Monitor/Specialist,1174
+ROTC: Instructor in Charge,1305
+ROTC: Instructor Responsible for Equipment,652
+Physical Education Networking Team (nine [9] people),1956
+Broward School Board At-Risk Certification (5),2217
+Guild Teachers (Mentoring other teachers for a total of fifty (50) hours,870
+Southeastern Consortium for Minorities in Engineering (SECME) (6),1462
+Rover - Year Round Education (Hallandale Elem. only),717
+Assistant Grade Level Chairperson - Year Round Education (Hallandale Elem. only),156 per employee in department (min 717)
+National Board for Professional Teaching Standards,The greater of 5% of base salary or 2438
+Broward County Recognition Program (BCRP),5% of base salary
+ESE Specialist,935
+Speech/Language Pathologist,935
+Family Counselor,1100
+Speech Language Pathologist (National Clinical Certification),1100
+Testing Coordinator,1100
+ESOL Coordinator (1-75 ESOL Students),675
+ESOL Coordinator (76-150 ESOL Students),900
+ESOL Coordinator (151 or more ESOL Students),1150
+Itinerant Visually Impaired Teachers,3000
+Future Farmers of America,717
+Future Business Leaders of America,717
+Cooperative Education Club of FL,717

@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "Professional Support Process (PSP) ............................................... 83, 101; Standards of Effective Instruction (SOEI) ... Introduction & Guidelines for Use ........................................................ 66",
+    "page": "264-265",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Standards of Effective Instruction (SOEI); Professional Support Process (PSP)",
+    "evidence": "Professional Support Process (PSP) ............................................... 83, 101; Standards of Effective Instruction (SOEI) ... Introduction & Guidelines for Use ........................................................ 66",
+    "page": "264-265",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

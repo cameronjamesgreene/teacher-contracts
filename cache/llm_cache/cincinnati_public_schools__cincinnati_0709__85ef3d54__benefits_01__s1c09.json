@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "Employees electing medical coverage shall choose a Health Maintenance Organization (HMO) or a Point of Service (POS) medical plan.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Board pays the premium minus the employee contribution amount shown on the schedule; for employees appointed for less than six-tenths (.6) time, the Board pays one-half (1/2) the cost.",
+    "evidence": "For employees appointed for six tenths (.6) time or more, less the dollar amount shown on the monthly employee contribution schedule below... For employees appointed for less than six-tenths (.6) time, the Board shall pay one-half (1/2) the cost of single, two person or family coverage.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employee contribution is a percentage of base salary: Co-Choice (Single 0.788%, Emp+1 1.575%, Family 2.206%); New Health (Single 0.797%, Emp+1 1.594%, Family 2.232%).",
+    "evidence": "The monthly employee contribution for coverage under Board group medical and dental plans shall be as set forth on the attached schedule.",
+    "page": "72",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Board will purchase or provide single, two person or family coverage... Working Spouse Provision... Spouses of employees who... are eligible for any other employer sponsored health coverage... cannot be enrolled as a dependent under the CPS health plan...",
+    "page": "71-72",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "HMO, POS, and self-insurance.",
+    "evidence": "Employees electing medical coverage shall choose a Health Maintenance Organization (HMO) or a Point of Service (POS) medical plan. ... Board may change the health (medical and/or dental) insurance carrier(s), or provide coverage through self-insurance",
+    "page": "71",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "Employees shall also be eligible for dental coverage on the same basis as described above. Coverage shall be equivalent to or better than Dental Care Plus DMO...",
+    "page": "71",
+    "confidence": "high"
+  }
+}

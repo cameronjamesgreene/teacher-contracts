@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "A reasonable loss of time, not to exceed ten (10) days, resulting from an assault on a Teacher shall not be deducted from the Teacher’s unused sick leave, provided that the Teacher has filed with the District the details of the assault and has filed a written report of the assault with the appropriate police department.",
+      "subject_text": "A reasonable loss of time, not to exceed ten (10) days, resulting from an assault on a Teacher",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "leave",
+      "notes": "Passive construction; implicit agent is District. Condition 'provided that...' is a dependent clause within the same sentence."
+    },
+    {
+      "quote": "Said sick leave shall be, when necessary, in addition to worker compensation leave provisions.",
+      "subject_text": "Said sick leave",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall provide the Teacher with administrative leave for court appearances related to such event.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall: 18.3.1.1. Pilot an advisory model that pairs Teachers (and other school adults) with small cohorts of students;",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Text includes section numbering from original document."
+    },
+    {
+      "quote": "DCPS shall pilot a new Student Support Team model (school-based committees that shall include administrators, Teachers, other school staff, and parents/guardians) to coordinate academic and behavioral interventions for students who are academically below grade level, chronically absent or tardy, or at-risk for grade-level retention;",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall pilot alternative school settings for students whose needs are not being met in the traditional classroom.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall provide professional development for all Teachers on student discipline.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "DCPS shall also support Teachers and Schools by: 18.4.2.1.1. Streamlining student discipline procedures and paperwork;",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Text includes section numbering from original document."
+    }
+  ]
+}

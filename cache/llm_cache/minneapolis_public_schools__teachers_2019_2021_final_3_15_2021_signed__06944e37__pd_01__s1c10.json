@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "Mentor/Induction: 'Teachers work with mentor(s) (if assigned)...' 'Achievement of Tenure (A of T) - Professional Induction For Teachers New To The District'. Duration: 'Probationary teachers must successfully complete this process by the end of their third year in the District.' Release Time: 'Sites will provide the equivalent of two days without loss of pay to probationary teachers for the purpose of observing classrooms...' 'Twenty hours of portfolio development...' 'Peer coaching class participation (maximum 16 hours), attended outside of the teacher duty day...' Stipend/Bonus: 'Effective January 1, 2012, upon Achievement of Tenure, teachers will receive a taxable $1,000 direct cash payment.' Meetings: 'Meet with Mentor, site and/or or District staff...', 'Meet with A of T PDP team...', 'Participate in periodic meetings with A of T team...', 'Progress Reports (Winter & Spring) each year.'",
+    "page": "91-94",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Role: 'Site PDP Coordinator' / 'Site teacher leadership position'. Selection: 'Teachers who are interested... may apply directly to the Site Leadership Team or Site Staff Development Committee... brief interview with the designated Site Leadership or Staff Development Committee.' Duties: 'organize PDP materials and activities at site.', 'coach those who need help getting their PDP completed', 'meet with Achievement of Tenure teachers in the fall...', 'coordinate Achievement of Tenure with principal, staff development chair, and building union steward'. Time/Comp: Not explicitly detailed in this section.",
+    "page": "89-90",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

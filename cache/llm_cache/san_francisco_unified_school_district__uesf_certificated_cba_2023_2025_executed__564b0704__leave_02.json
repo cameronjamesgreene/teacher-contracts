@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "3 paid working days for immediate family (plus 2 for extended travel); 1 paid working day for other relatives (plus 2 for extended travel)",
+    "evidence": "Such leave shall not exceed three (3) working days and shall be taken within thirty (30) calendar days after the death. Two (2) additional working days shall be granted if extended travel is required as a result of the death. For absence because of the death of any other person... leave shall be for not more than one (1) working day. Two (2) additional working days shall be granted if extended travel is required as a result of the person’s death.",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Parents, parents of domestic partner, grandparents, step-parents, spouse, domestic partner, children, adopted children, step-children, siblings, parents-in-law, sons/daughters-in-law, grandchildren, children for whom employee has parenting responsibilities, aunts, uncles, parents of teacher's son/daughter, and any relative living in immediate household.",
+    "evidence": "Immediate family shall include parents, parents of the domestic partner, grandparents, step-parents, spouse, domestic partner, children, adopted children, step-children, siblings, parents-in-law, sons-and daughters-in-law, grandchildren, children for whom the employee has parenting responsibilities, aunts, uncles, parents of the teacher’s son or daughter, and any relative living in the immediate household of the bargaining unit member.",
+    "page": "34",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "During the period of pregnancy disability leave, the unit member shall use/deduct the unit member’s earned and accumulated sick leave... A unit member may elect to utilize up to 12 weeks of child bonding leave...",
+    "page": "38",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "The District shall provide for leave of absence from duty for any teacher who is required to be absent from duties because of pregnancy, miscarriage, childbirth, and recovery therefrom. The length of the leave of absence, including the date on which the teacher shall resume duties, shall be determined by the teacher and the teacher’s physician.",
+    "page": "38",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "During each school year, unit members may elect to utilize up to 12 weeks of child bonding leave occasioned by the birth of the employee’s child, or the placement of a child with the employee in connection with the employee’s adoption or foster care of the child as provided by Education Code section 44977.5.",
+    "page": "38",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Employees who have completed one year (twelve months) of service for the District and at least 1,250 hours of service during the previous one year (twelve months) period, have the right to an unpaid leave of absence for up to 12 workweeks within a rolling 12-month period for the purpose of the employee’s own serious health condition, caring for a new baby, a newly adopted child or a newly placed foster child or for a child, spouse, or parent with a serious health condition.",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

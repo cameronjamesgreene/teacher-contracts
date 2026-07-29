@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "This provision is subject to IRS rulings, federal and/or state laws. | Eligible retired teachers and their spouses may remain in the active plan until they become Medicare eligible, and become eligible for the Medicare Supplement plan(s) and/or the Medicare Supplement plan(s) offered through Teachers Retirement Association (MN Statute §471.61 Subd. 2B). | No leaves shall be granted beyond a two (2) year duration, except for leaves under Sections 11.7.2 (military leaves) or 11.7.4 (Organizational and Public Service), long-term disability, charter school leave MN Statutes §124E.12, Subd.6, and teacher mobility leaves pursuant to MS §122A.46 and under Section 11.4.4 of this article. | Charter school leave: may be approved for up to five years with the appropriate documentation submitted to the Division of Human Resources each year, pursuant to state law.",
+    "evidence": "MN Statutes §124E.12, Subd.6, and teacher mobility leaves pursuant to MS §122A.46",
+    "page": "155, 156, 163, 164",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "This provision is subject to IRS rulings, federal and/or state laws. | Subject to the administrative requirements of the District, the carrier contracts, labor agreement, and state and federal law, Dependents may remain in the group until the retired employee is no longer eligible. | Also, teachers who have continuously participated in the District's health and/or dental insurance plans are eligible to continue coverage beyond the 18-month period under the CONSOLIDATED OMNIBUS BUDGET RECONCILIATION ACT (COBRA) . | As such, they are subject to state and federal withholding as well as standard Social Security and Medicare taxes. | Mileage for use of personal automobiles for approved business shall be reimbursed at the prevailing Internal Revenue Service Rate. | 11.2.1 The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "evidence": "The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "page": "155, 156, 158, 162, 165",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Internal Revenue Service (IRS), CONSOLIDATED OMNIBUS BUDGET RECONCILIATION ACT (COBRA), Family and Medical Leave Act (FMLA) of 1993.",
+    "evidence": "The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "page": "155, 156, 162, 165",
+    "confidence": "high"
+  }
+}

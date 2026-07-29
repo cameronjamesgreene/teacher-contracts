@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of outside employment, tutoring, or conflicts of interest in the provided text."
+  },
+  "conduct_ethics_002": {
+    "answer": "discussed_unclear",
+    "evidence": "Teachers are expected to adhere to professional standards in regards to attendance and punctuality, grooming, professional growth and renewal, collaboration and cooperation with other personnel.",
+    "page": "28",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 cited page 28, but the provided document text cuts off at page 24. Cannot verify the exact quote from the appended source. Changed to discussed_unclear due to missing evidence in the provided text."
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of drug, alcohol, or substance-abuse rules in the provided text."
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of social media regulation in the provided text."
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of acceptable-use, email, internet, or network technology rules in the provided text."
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Academic Freedom shall be guaranteed to teachers, and no arbitrary limitations shall be placed on study, investigation, presentation and interpretation of facts and ideas concerning man, human society, the physical and biological world, and other branches of learning, subject only to accepted standards of professional responsibility and to the Board's responsibility to govern the public schools.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "190",
+    "evidence": "(190 contract days)",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": "Updated page number from 16 to 17 to match document pagination."
+  },
+  "workload_workday_length_002": {
+    "answer": "7.5 hours",
+    "evidence": "The regular teacher workday shall be 7.5 hours with a duty-free lunch of at least 30 minutes between 10:00 a.m. and 2:00 p.m.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "If any teacher's preparation time is infringed by substituting for an absent teacher, he/she shall be granted compensatory time for all such loss",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "If any teacher's preparation time is infringed by substituting for an absent teacher, he/she shall be granted compensatory time for all such loss",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "duty-free lunch of at least 30 minutes between 10:00 a.m. and 2:00 p.m.",
+    "page": "29",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

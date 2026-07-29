@@ -1,0 +1,5 @@
+"# Buffalo_contract_1999.pdf — 1999-2000 SALARY SCHEDULE — Effective July 1, 1999 (1999-2000)"
+# population: Certified teachers | is_teacher_schedule: True
+"# validation_warnings: none | audit flagged unresolved issues: Severe truncation: The proposed extraction captures only the first 11 salary values for Step 1, ignoring the hundreds of additional salary figures present in the source text.; Structural flattening: The source presents all salary data in a single continuous sequence beginning with Step 1, without row breaks or step labels for subsequent steps. The proposed table stops at 11 cells, failing to account for the remaining steps and lanes.; Source truncation: The provided page text itself appears cut off mid-value at the end ('$286'), which prevents full grid reconstruction."
+step,BS,BS+10,BS+20,BS+30,BS+40,BS+50,MS,MS+10,MS+20,MS+30,DR
+1,28775,29652,30529,31406,32283,33160,34037,34914,35791,36668,37545

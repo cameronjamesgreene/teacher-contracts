@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "If a probationary certified employee on unrequested leave of absence under this policy is sent a recall notice, that teacher shall have ten (10) calendar days to affirmatively respond.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Certification",
+    "evidence": "the following criteria for selecting probationary certified employees to be placed on unrequested leave of absence shall be followed in the order listed below: i) Certification",
+    "page": "30",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "5 years",
+    "evidence": "the first five (5) years of employment of all certified employees entering the employment of school district shall be deemed a period of probation",
+    "page": "30",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "On the first day of their sixth year, certified employees will attain permanent status.",
+    "page": "32",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

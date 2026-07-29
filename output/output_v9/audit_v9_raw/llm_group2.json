@@ -1,0 +1,132 @@
+{
+  "status_counts": {
+    "CORRECT": 16,
+    "PARTIAL": 3,
+    "INCORRECT": 1,
+    "UNVERIFIABLE": 0
+  },
+  "items": [
+    {
+      "qid": "meta_doc_type_001",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "UTD-Miami-Dade contract 2017-2020; a CBA. Answer 'CBA' correct."
+    },
+    {
+      "qid": "benefits_disability_009",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "Sec 11 'Short Term Disability Benefit' (line 2104-2106) matches evidence verbatim. 'yes' correct."
+    },
+    {
+      "qid": "security_nonrenewal_002",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "Lines 5201-5211: dismissed/not reappointed employees may appeal to impartial ALJ; matches evidence exactly. 'yes' correct."
+    },
+    {
+      "qid": "pay_hardtostaff_stem_010",
+      "doc": "miamidade_county_public_schools",
+      "status": "PARTIAL",
+      "note": "FALSE NEG (soft): Sec 3 Critical Staff Shortage gives $1,200 stipend for shortage areas (line 7846-59) + Speech incentive. Not STEM-subject-named, but hard-to-staff pay exists; qid targets it."
+    },
+    {
+      "qid": "leave_parental_paid_009",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "Parental leave (line 2626+) is unpaid; 'with pay' clarified in 1.c/1.d as use of accrued sick/vacation/personal only. No paid leave beyond accrued. 'no' defensible."
+    },
+    {
+      "qid": "meta_doc_type_001",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "MCEA/BOE Contract 2015-2017; a CBA. 'Code CBA' correctly identifies CBA."
+    },
+    {
+      "qid": "leave_sick_accrual_002",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "Line 5712: 'Unused sick leave is accumulated on an unlimited basis.' Answer 'accumulates; unlimited (no cap)' correct."
+    },
+    {
+      "qid": "evaluation_consequences_008",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "Lines 2148-2157: PAR Panel recommends contract nonrenewal (probationary) / termination (tenured). Evaluation used in employment decisions. 'yes' correct."
+    },
+    {
+      "qid": "pay_prior_experience_005",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "No provision crediting prior/outside teaching experience for new-hire salary placement found; salary-credit provisions (6051,6102,6171) are for leave years of current members. 'not_discussed' holds."
+    },
+    {
+      "qid": "benefits_retiree_012",
+      "doc": "montgomery_county_public_schools",
+      "status": "PARTIAL",
+      "note": "FALSE NEG (soft): no retiree health/dental/life continuation, but MCPS supplemental pension (4764), 403b/457 (4725), and enhanced 35% sick-leave payout at retirement (5731) are 'other post-employment benefits' per question."
+    },
+    {
+      "qid": "meta_doc_type_001",
+      "doc": "orange_county_public_schools",
+      "status": "CORRECT",
+      "note": "Contract between Orange County School Board and OCCTA; a CBA. 'Code CBA' correct."
+    },
+    {
+      "qid": "benefits_life_008",
+      "doc": "orange_county_public_schools",
+      "status": "CORRECT",
+      "note": "Lines 3508-3511: Board provides no-cost term life w/ AD&D = annual base salary; plus voluntary life. Evidence verbatim. 'yes' correct."
+    },
+    {
+      "qid": "evaluation_ratings_005",
+      "doc": "orange_county_public_schools",
+      "status": "CORRECT",
+      "note": "Lines 2058-2061 confirm bands: Highly Effective 3.3-4.0, Effective 2.4-3.2, NI/Developing 1.5-2.3, Unsatisfactory 1.0-1.4. Exact match."
+    },
+    {
+      "qid": "pay_hardtostaff_stem_010",
+      "doc": "orange_county_public_schools",
+      "status": "PARTIAL",
+      "note": "FALSE NEG: line 3301-05 grants teachers certifiable in critical-needs mathematics/science full work-experience credit at hire = STEM-specific salary-placement advantage. 'not_discussed' misses it (scope: credit vs stipend)."
+    },
+    {
+      "qid": "conduct_ethics_002",
+      "doc": "orange_county_public_schools",
+      "status": "INCORRECT",
+      "note": "FALSE NEG: line 2218 cites 'Code of Ethics of the Education Profession of Florida'; Art XII Discipline enumerates conduct standards (misconduct in office, gross insubordination, etc., line 5553). Topic clearly discussed."
+    },
+    {
+      "qid": "meta_doc_type_001",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Agreement between Portland Board of Ed and Portland Education Association; a CBA. 'Code CBA' correct."
+    },
+    {
+      "qid": "leave_sick_days_001",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Line 1633: 'educators are granted fifteen (15) sick days per school year.' Answer '15' correct, evidence verbatim."
+    },
+    {
+      "qid": "evaluation_system_002",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Line 2988 names 'Performance Evaluation and Professional Growth System Guidebook' (Maine PEPG). Matches answer/evidence."
+    },
+    {
+      "qid": "pay_performance_pay_006",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "No evaluation-based pay: effectiveness ratings feed layoff/improvement plans (line 484,2982), not compensation; stipends are leadership/certification/extracurricular. 'no' correct."
+    },
+    {
+      "qid": "evaluation_observation_count_003",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Eval section (2975-3001) describes observation system but states no specific count; detail deferred to PEPG Guidebook. 'not_discussed' correct."
+    }
+  ],
+  "false_negatives": 4,
+  "notes": "20 items, 4 docs. 16 CORRECT. Weakness = false negatives on hard-to-staff/STEM pay (Miami shortage stipend; Orange math/science experience credit) and post-employment benefits (Montgomery pension/retirement sick-leave payout). Clear miss: Orange conduct_ethics ignored FL Code of Ethics + Art XII discipline standards. All substantive answers/evidence verified accurate."
+}

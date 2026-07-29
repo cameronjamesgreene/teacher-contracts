@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "no",
+    "evidence": "Violation of any policies, regulations, or guidelines may result in disciplinary action, including termination of employment.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Stage 1 evidence not located in provided text excerpt (likely from p. 41 or appendix in original PDF), but the quoted policy violation language directly supports the 'no' answer, as it ties termination to policy breaches rather than a 'just cause' standard. Answer preserved."
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Termination of Employment ...................................................................................... 63\nResignations............................................................................................................................... 63\nDismissal or Nonrenewal of Contract Employees ..................................................................... 63\nDismissal of Noncontract Employees........................................................................................ 63",
+    "page": "3",
+    "confidence": "high",
+    "coder_notes": "Revised from 'no' to 'yes'. The Table of Contents explicitly lists a 'Termination of Employment' section with dedicated subsections detailing procedures for resignation, dismissal, and nonrenewal of both contract and non-contract employees."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "Employees on probationary, term, and continuing contracts can be dismissed during the school year or nonrenewed at the end of the year according to the procedures outlined in district policies.",
+    "page": "not_specified",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Contract employees dismissed during the school year, suspended without pay, or subject to a reduction in force are entitled to receive notice of the recommended action, an explanation of the charges against them, and an opportunity for a hearing. The time lines and procedures to be followed when a suspension, termination, or nonrenewal occurs will be provided when a written notice is given to an employee.",
+    "page": "not_specified",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Procedures referenced to DF series policies. Contract employees subject to reduction in force are entitled to notice, an explanation of charges, and a hearing. Time lines and procedures will be provided with written notice.",
+    "evidence": "Contract employees dismissed during the school year, suspended without pay, or subject to a reduction in force are entitled to receive notice of the recommended action, an explanation of the charges against them, and an opportunity for a hearing. The time lines and procedures to be followed when a suspension, termination, or nonrenewal occurs will be provided when a written notice is given to an employee.",
+    "page": "not_specified",
+    "confidence": "medium"
+  }
+}

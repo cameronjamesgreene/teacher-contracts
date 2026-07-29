@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes. Recall period: 2 years. Order: Inverse order of placement on layoff. Notice method: Phone call, then certified letter if unreachable. Response deadline: End of next business day (phone) / 7 days postmark (letter). Benefit restoration: Retains seniority numbers, accumulated sick leave, salary schedule placement rights, and all other rights.",
+    "evidence": "A teacher placed on layoff shall have rights to reinstatement for a period of two (2) years... Reinstatement must be in the inverse order of placement on lay off... District shall notify qualified teachers of the availability of a position by first calling the teacher... If the teacher is not reached by phone, a certified letter... shall be sent... Within seven (7) days of the date of postmark... Teachers recalled to duty shall retain their seniority numbers, accumulated sick leave, salary schedule placement rights, and all other rights.",
+    "page": "213-215",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "seniority within specific licensure area/department",
+    "evidence": "When staff reductions occur at the building, all teachers shall be canvassed in seniority order within their specific licensure area/department to determine which teachers shall be excessed.",
+    "page": "199",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "3 years",
+    "evidence": "During the first three years, teachers new to the District will participate in the Achievement of Tenure Process.",
+    "page": "89",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "tenure is defined as continued service after the completion of three consecutive years of successful teaching.",
+    "page": "91",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "3.6.1 Licensure: Requirement: All teachers are required to hold an active teaching license in the State of Minnesota pursuant to MN Statute §122A.18. Only teachers with valid Minnesota licenses can teach, transfer, or teach summer school. All teachers are required to furnish valid Minnesota licenses in all field(s) for which they are employed.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

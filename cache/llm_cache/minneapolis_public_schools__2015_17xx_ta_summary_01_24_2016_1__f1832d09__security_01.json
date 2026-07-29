@@ -1,0 +1,44 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "The document outlines an Interview & Select (I&S) process for voluntary moves. It consists of two rounds: Round 1 for internal candidates with a current assignment, and Round 2 open to all teachers with a contract or valid license documentation. Teachers can only accept one move over the two rounds. Excessed staff rules still apply.",
+    "evidence": "Round 1 for internal candidates with current teaching assignment... Round 2 open to all teachers with a contract, with license or documentation indicating that a license will be valid July 1st... Teacher can only accept one assignment (one move) over the two rounds of I&S.",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Upon written request of the teacher, the site administrator shall provide written notification of educational reasons for the teacher’s internal reassignment within three (3) five calendar duty days... If the teacher feels that the site administrator’s decision does not support the best interests of students, the teacher shall have the right to appeal the reassignment through an in-district mediation process... referred to the appropriate Area Superintendent. The Area Superintendent will render a decision in writing within three (3) duty days... The teacher’s current assignment will be held... until the teacher receives the determination in writing",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

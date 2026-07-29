@@ -1,0 +1,93 @@
+[
+  {
+    "csv": "granite_school_district/2011_12/salary_schedule__granite_school_districtteacher_gsd_gea_p.csv",
+    "pdf": "Granite_School_DistrictTeacher_-_GSD_GEA_Professional_Agreement_2011-2014.pdf",
+    "label": "2011-12 Teacher Salary Schedule (Nine-Month Base Contract, 183 Days)",
+    "year": "2011-12",
+    "page": "PDF p45-46 (printed p45)",
+    "cells_checked": 10,
+    "cells_matched": 10,
+    "classification_ok": true,
+    "status": "PARTIAL",
+    "duplicate_of": "",
+    "note": "Genuine teacher base-salary schedule; all spot-checked cells (step4 Lane1=34081, step6=37312, step20 full row 48632/51419/55043/57272/60337/63405/64799) match source. Lanes labeled generically 'Lane 1..7' rather than source's LANE A(Bachelor's)..G(Doctorate). Missing steps 1-3 (captured in the unknown_year sibling CSV); steps 18-19 are blank in source too."
+  },
+  {
+    "csv": "granite_school_district/unknown_year/salary_schedule__granite_school_districtteacher_gsd_gea_p.csv",
+    "pdf": "Granite_School_DistrictTeacher_-_GSD_GEA_Professional_Agreement_2011-2014.pdf",
+    "label": "Salary Schedule () [blank year]",
+    "year": "MISSING (blank) — actually 2011-12",
+    "page": "PDF p45",
+    "cells_checked": 8,
+    "cells_matched": 8,
+    "classification_ok": true,
+    "status": "PARTIAL",
+    "duplicate_of": "",
+    "note": "Fragment of the SAME 2011-12 Granite schedule but only steps 1-3, with correct LANE A..G headers and the '+' stipend cells (e.g. step1 LANE A '31120 + 1884', step2 '32197 + 807') matching source. Year is blank '()' — FLAG missing year. Overlaps/complements the 2011_12 CSV (which holds steps 4-20); not an exact duplicate."
+  },
+  {
+    "csv": "indianapolis_public_schools/2009_2010/indianapolis_public_schools_salary_schedule_2009_2__80_07.csv",
+    "pdf": "80-07.pdf",
+    "label": "INDIANAPOLIS PUBLIC SCHOOLS SALARY SCHEDULE 2009/2010 Base",
+    "year": "2009/2010",
+    "page": "PDF p44 (printed -39-)",
+    "cells_checked": 10,
+    "cells_matched": 10,
+    "classification_ok": true,
+    "status": "CORRECT",
+    "duplicate_of": "",
+    "note": "Genuine certified-teacher base schedule; every row matches source exactly (step1 BS=35684, step25 Doctorate=71042, etc.). Pipeline's 'identical values across steps 20/21-24' warning is a real feature of the source (those rows ARE identical), and the BS-column plateau at 55,339 for steps 14-19 is genuine, not an extraction error."
+  },
+  {
+    "csv": "santa_ana_unified_school_district/2004_2005/appendix_b_santa_ana_unified_school_district_psych__95.csv",
+    "pdf": "95.pdf",
+    "label": "APPENDIX B — SANTA ANA UNIFIED SCHOOL DISTRICT PSYCHOLOGIST SALARY SCHEDULE 2004-2005",
+    "year": "2004-2005",
+    "page": "PDF p130 (printed p123)",
+    "cells_checked": 9,
+    "cells_matched": 9,
+    "classification_ok": true,
+    "status": "PARTIAL",
+    "duplicate_of": "santa_ana_unified_school_district/2004_2005/appendix_b_santa_ana_unified_school_district_psych__95__p130-131.csv",
+    "note": "SPECIALIZED POPULATION: this is the Psychologist salary schedule (Appendix B), NOT the general teacher schedule (which is Appendix A on the prior page). Values all match source (step1 SALARY=58960/DOC=59488 ... step16=87064/87592). Correctly classified is_teacher_schedule:False. Exact duplicate of the __p130-131 CSV."
+  },
+  {
+    "csv": "santa_ana_unified_school_district/2004_2005/appendix_b_santa_ana_unified_school_district_psych__95__p130-131.csv",
+    "pdf": "95.pdf",
+    "label": "APPENDIX B — SANTA ANA UNIFIED SCHOOL DISTRICT PSYCHOLOGIST SALARY SCHEDULE 2004-2005",
+    "year": "2004-2005",
+    "page": "PDF p130-131 (printed p123)",
+    "cells_checked": 9,
+    "cells_matched": 9,
+    "classification_ok": true,
+    "status": "PARTIAL",
+    "duplicate_of": "santa_ana_unified_school_district/2004_2005/appendix_b_santa_ana_unified_school_district_psych__95.csv",
+    "note": "Page-suffixed exact duplicate of the clean copy above; identical values, all verified against source. Specialized (psychologist) population, correctly flagged is_teacher_schedule:False. Note: the general TEACHER schedule (Appendix A) was NOT extracted for this district."
+  },
+  {
+    "csv": "west_ada_school_district/2007_2008/2007_2008_salary_schedule__84.csv",
+    "pdf": "84.pdf",
+    "label": "2007-2008 SALARY SCHEDULE (Meridian/West Ada, Levels 1-3)",
+    "year": "2007-2008",
+    "page": "PDF p8 (printed p7)",
+    "cells_checked": 10,
+    "cells_matched": 10,
+    "classification_ok": true,
+    "status": "PARTIAL",
+    "duplicate_of": "",
+    "note": "Genuine certified-teacher base schedule; spot-checked cells match source (step '3 A' row 32700/33927/35199/36519/37889/39309, step '5 C' BA+0=33927, step '13 H'=56940). Step-labels combine year+level letter ('0 A','5 C'). The stray small values (10 E BA+24=32509, 11 F BA+36=35850, 0 A BA+72=31519) look odd but ARE present verbatim in the source table, so faithfully extracted."
+  },
+  {
+    "csv": "west_ada_school_district/unknown_year/salary_schedule__84.csv",
+    "pdf": "84.pdf",
+    "label": "Salary Schedule () [blank year] — Supplemental Salary Schedule (advisor/coordinator stipends)",
+    "year": "MISSING (blank) — source contract is 2007-2008",
+    "page": "PDF p18-19 area (Supplemental Salary Schedule, Article IV)",
+    "cells_checked": 8,
+    "cells_matched": 8,
+    "classification_ok": true,
+    "status": "PARTIAL",
+    "duplicate_of": "",
+    "note": "NOT a teacher base-salary schedule — it is the Supplemental Salary Schedule of extra-duty/activity stipends (Orchestra Advisor 1096.04, Cheerleading Advisor 1589.26, Yearbook Advisor 1370.05, Department Chair 1257.00/N/A) matching source. Correctly flagged is_teacher_schedule:False. Year blank '()' — FLAG missing year. Pipeline's 'identical values across steps' warnings reflect genuinely-equal stipend rows in source (percent-of-base ties), not copy errors."
+  }
+]

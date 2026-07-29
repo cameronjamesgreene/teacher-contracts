@@ -1,0 +1,164 @@
+Syntax Error (680669): insufficient arguments for Marked Content
+Syntax Error (743822): insufficient arguments for Marked Content
+Syntax Error: Expected the default config, but wasn't able to find it, or it isn't a Dictionary
+Processing 19 document(s) ...
+[ 1/19] Granite_School_DistrictTeacher_-_GSD_GEA_Professional_Agreement_2011-2014.pdf ...
+      5/4 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 2/19] 95.pdf ...
+      1 schedule(s) found
+      -> appendix_b_santa_ana_unified_school_district_psych__95__p130-131.csv
+[ 3/19] X_DCPS_2017_-_2019_tentative.pdf ...
+      13/5 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 4/19] DCPS_WTU_CBA_2023-2028.pdf ...
+      13/5 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 5/19] Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf ...
+      2/2 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 6/19] Osceola_2018-19_INSTRUCTIONAL_EMPLOYEES__CONTRACT_082918.pdf ...
+      1/1 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 7/19] Montgomery_11-14.pdf ...
+      1/1 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 8/19] 14-05.pdf ...
+      5/5 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 9/19] 14.pdf ...
+      6/6 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[10/19] 84.pdf ...
+      6/6 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[11/19] 80-07.pdf ...
+      3/3 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[12/19] KC_AFT_CERTIFED_CBA-_FINAL_DRAFT_2023-2026.pdf ...
+      5/5 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[13/19] Pinellas_Agreement_-_Final_Redlined_11419(3).pdf ...
+      4/4 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[14/19] Albuqurque_tentative_agreement_15-16.pdf ...
+      12/12 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[15/19] Albequerque_2022-2023.pdf ...
+      7/7 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[16/19] teachers_2019-2021_final_3-15-2021_signed.pdf ...
+      16/16 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[17/19] Fresno_2016-2019_CBA.pdf ...
+      17/16 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[18/19] Palm_Beach_County_CTACBAJuly2011-June2014.pdf ...
+      11/11 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[19/19] Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf ...
+      9/9 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+
+1 schedule grid(s) -> /Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output_v2/salary_schedule_wide
+Document status summary: {'ok': 19}
+Processing 19 document(s) ...
+[ 1/19] Granite_School_DistrictTeacher_-_GSD_GEA_Professional_Agreement_2011-2014.pdf ...
+      2 schedule(s) found
+      -> salary_schedule__granite_school_districtteacher_gsd_gea_p.csv
+      -> salary_schedule__granite_school_districtteacher_gsd_gea_p.csv [audit corrected]
+[ 2/19] 95.pdf ...
+      1 schedule(s) found
+      -> appendix_b_santa_ana_unified_school_district_psych__95__p130-131.csv
+[ 3/19] X_DCPS_2017_-_2019_tentative.pdf ...
+      1/5 page-block(s) failed extraction/audit (will retry next run)
+      10 schedule(s) found
+      -> salary_schedule_10_month_cbu_maa_scv_s__x_dcps_2017_2019_tentative.csv
+      -> salary_schedule_11_month_cbu_maa_svc_r__x_dcps_2017_2019_tentative.csv
+      -> salary_schedule_12_month_cba_maa_svc_q__x_dcps_2017_2019_tentative.csv
+      -> salary_schedule_12_month_cba_maa_svc_q__x_dcps_2017_2019_tentative.csv
+      -> salary_schedule_10_month_cbu_maa_scv_s_adjustment__x_dcps_2017_2019_tentative.csv
+      -> salary_schedule_11_month_cbu_maa_svc_r__x_dcps_2017_2019_tentative.csv
+      -> salary_schedule_12_month_cba_maa_svc_q__x_dcps_2017_2019_tentative__p117-117.csv
+      -> salary_schedule_cbu_mab_svc_a01__x_dcps_2017_2019_tentative.csv
+      -> salary_schedule_cbu_mab_svc_a01__x_dcps_2017_2019_tentative__p118-118.csv
+      -> salary_schedule_cbu_mab_svc_a01__x_dcps_2017_2019_tentative__p118-118.csv
+[ 4/19] DCPS_WTU_CBA_2023-2028.pdf ...
+      2/5 page-block(s) failed extraction/audit (will retry next run)
+      10 schedule(s) found
+      -> salary_schedule_10_month__dcps_wtu_cba_2023_2028.csv
+      -> salary_schedule_12_month__dcps_wtu_cba_2023_2028.csv
+      -> salary_schedule_10_month__dcps_wtu_cba_2023_2028.csv
+      -> salary_schedule_11_month__dcps_wtu_cba_2023_2028.csv [audit corrected]
+      -> salary_schedule_10_month__dcps_wtu_cba_2023_2028.csv
+      -> salary_schedule_11_month__dcps_wtu_cba_2023_2028.csv
+      -> salary_schedule_12_month__dcps_wtu_cba_2023_2028__p113-113.csv
+      -> salary_schedule_10_month__dcps_wtu_cba_2023_2028.csv
+      -> salary_schedule_11_month__dcps_wtu_cba_2023_2028.csv
+      -> eg_09_salary_schedule__dcps_wtu_cba_2023_2028.csv
+[ 5/19] Osceola_County_2021-22_and_2022-23_Instructional_Employees_Contract_110221.pdf ...
+      1 schedule(s) found
+      -> appendix_a_1_adjunct_hourly_pay_schedule__osceola_county_2021_22_and_2022_23_instr.csv
+[ 6/19] Osceola_2018-19_INSTRUCTIONAL_EMPLOYEES__CONTRACT_082918.pdf ...
+      0 schedule(s) found
+[ 7/19] Montgomery_11-14.pdf ...
+      1 schedule(s) found
+      -> 10_month_salary_schedule__montgomery_11_14.csv
+[ 8/19] 14-05.pdf ...
+      1/5 page-block(s) failed extraction/audit (will retry next run)
+      3 schedule(s) found
+      -> salary_schedule__14_05.csv
+      -> salary_schedule__14_05__p35-37.csv
+      -> differential_schedule__14_05.csv
+[ 9/19] 14.pdf ...
+      2/6 page-block(s) failed extraction/audit (will retry next run)
+      1 schedule(s) found
+      -> salary_schedule__14.csv
+[10/19] 84.pdf ...
+      2/6 page-block(s) failed extraction/audit (will retry next run)
+      2 schedule(s) found
+      -> 2007_2008_salary_schedule__84.csv [audit corrected]
+      -> salary_schedule__84.csv
+[11/19] 80-07.pdf ...
+      1/3 page-block(s) failed extraction/audit (will retry next run)
+      1 schedule(s) found
+      -> indianapolis_public_schools_salary_schedule_2009_2__80_07.csv
+[12/19] KC_AFT_CERTIFED_CBA-_FINAL_DRAFT_2023-2026.pdf ...
+      4/5 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[13/19] Pinellas_Agreement_-_Final_Redlined_11419(3).pdf ...
+      0 schedule(s) found
+[14/19] Albuqurque_tentative_agreement_15-16.pdf ...
+      2/12 page-block(s) failed extraction/audit (will retry next run)
+      3 schedule(s) found
+      -> 2015_2016_salary_matrix_at_3__albuqurque_tentative_agreement_15_16.csv
+      -> salary_matrix_a_3__albuqurque_tentative_agreement_15_16.csv
+      -> appendix_a_6_2015_2016_salary_matrix_a_4_licensed__albuqurque_tentative_agreement_15_16.csv
+[15/19] Albequerque_2022-2023.pdf ...
+      2/7 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[16/19] teachers_2019-2021_final_3-15-2021_signed.pdf ...
+      3/16 page-block(s) failed extraction/audit (will retry next run)
+      3 schedule(s) found
+      -> schedule_c1_senior_high_athletics__teachers_2019_2021_final_3_15_2021_signe.csv
+      -> schedule_c2_middle_school_athletics__teachers_2019_2021_final_3_15_2021_signe.csv
+      -> schedule_c3_events_supporting_personnel__teachers_2019_2021_final_3_15_2021_signe.csv
+[17/19] Fresno_2016-2019_CBA.pdf ...
+      1/16 page-block(s) failed extraction/audit (will retry next run)
+      3 schedule(s) found
+      -> salary_schedule_full_credit_will_be_given_for_veri__fresno_2016_2019_cba.csv [audit corrected]
+      -> career_increment__fresno_2016_2019_cba.csv
+      -> salary_schedule_full_credit_will_be_given_for_veri__fresno_2016_2019_cba__p112-112.csv
+[18/19] Palm_Beach_County_CTACBAJuly2011-June2014.pdf ...
+      1 schedule(s) found
+      -> appendix_d_glades_supplement__palm_beach_county_ctacbajuly2011_june201.csv
+[19/19] Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf ...
+      4 schedule(s) found
+      -> salary_schedule__palm_beach_2011_2014_cba_w_2013_2014_mod.csv
+      -> appendix_b_supplements__palm_beach_2011_2014_cba_w_2013_2014_mod.csv
+      -> appendix_d_glades_supplement__palm_beach_2011_2014_cba_w_2013_2014_mod.csv
+      -> appendix_d_glades_supplement__palm_beach_2011_2014_cba_w_2013_2014_mod.csv
+
+46 schedule grid(s) -> /Users/camerongreene/Dropbox (Personal)/1. Barbara/contracts/contract_coding_CG/output_v2/salary_schedule_wide
+  4 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 19}

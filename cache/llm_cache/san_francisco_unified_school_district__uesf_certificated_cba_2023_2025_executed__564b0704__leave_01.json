@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 days (70 hours) for full-time teachers; 11 days (77 hours) for Early Education Department teachers.",
+    "evidence": "At the beginning of each school year, a teacher shall be credited with ten (10) days (seventy (70) hours) of sick leave allowance... An Early Education Department teacher working a 191 or 218 days calendar shall be credited with eleven (11) days (seventy-seven (77) hours) of sick leave allowance.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": "Updated page reference to 28 to match document."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, it accumulates/carries over. No maximum accumulation cap is stated in this section.",
+    "evidence": "A teacher who has accumulated sick leave in the District may make use of such leave while employed as an administrator or teacher of summer school session classes or schools in the same manner as in the regular school year.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "Yes, up to 5 days for immediate family illness, with a combined maximum of 7 days per year for immediate family illness when used with other personal/family matters.",
+    "evidence": "Each school year a teacher may use up to five (5) days of sick leave allowance for immediate family illness. In no event shall said utilization, when combined with immediate family illness provisions of Section 10.2.2.2, above, result in the utilization of more than seven (7) days per year of paid leave for immediate family illness.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "Up to 7 days per year, deducted from regular sick leave allowance.",
+    "evidence": "A teacher may use up to seven (7) days (forty-nine (49) hours) each school year of sick leave allowance for personal, legal, business, religious, household, family, or other matters which require absence during school hours.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": "Corrected terminology. Leave is deducted from sick leave allowance, not the 'Sick Leave Bank'."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires advance notice sufficient to secure a substitute; not available on District professional development days.",
+    "evidence": "Teachers are expected to give as much advance notice as possible, but in no event less than the amount needed to secure a substitute. Personal necessity leave shall not be available on District professional development days.",
+    "page": "27-28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

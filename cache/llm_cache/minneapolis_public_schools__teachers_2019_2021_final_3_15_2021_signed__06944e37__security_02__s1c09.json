@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "3 years",
+    "evidence": "During the first three years, teachers new to the District will participate in the Achievement of Tenure Process.",
+    "page": "89",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "discussed_unclear",
+    "evidence": "Tenured Teachers (MN Statute §122A.41): Tenured teachers follow the Professional Development Process as outlined in this section.",
+    "page": "89",
+    "confidence": "medium"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "hold a valid Minnesota license for teaching in elementary schools and meet applicable current legal requirements.",
+    "page": "82",
+    "confidence": "high"
+  }
+}

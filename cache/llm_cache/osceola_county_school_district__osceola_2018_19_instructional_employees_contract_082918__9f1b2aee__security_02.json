@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "A teacher who is laid off shall retain recall rights for eighteen months from the last day of regular employment. Laid off employees shall have the right to purchase employee benefits as provided through COBRA.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "seniority",
+    "evidence": "In making involuntary transfers or reductions in force, teachers with the least certificated service in the School District shall be transferred or laid off first... Least certificated service shall be determined initially by years of service to the School District, and if a tie occurs then shall be determined in the following manner: (1) by consecutive years of School District service then (2) by specific hire date.",
+    "page": "25",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "The Board will follow the provisions of granting a professional services contract to teachers as covered in Florida Statutes. Teachers who have previously held a continuing contract or professional services contract in Florida within the last five years shall be eligible for a professional services contract provided they have completed one (1) year of service in Osceola County and have been recommended by their principal and approved by the Board.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "It shall be the teacher's responsibility to maintain current certification.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

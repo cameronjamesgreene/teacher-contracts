@@ -1,0 +1,44 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "yes",
+    "evidence": "Teachers who teach full-time in the regular day program shall not teach more than six (6) hours per week in the evening program except when working as an evening program administrator.",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Each teacher is to be treated in a professional manner at all times. Teachers are to treat other employees of the system in a professional manner at all times.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high as the evidence directly quotes Article 16 (Professional Responsibility), explicitly addressing professional conduct rules."
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Both parties agree that no legitimate issue of controversy in our society should be excluded from the classroom. However, all sides of controversial issues must be presented.",
+    "page": "19",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

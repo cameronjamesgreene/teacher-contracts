@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "DCPS shall “pick up” within the meaning of Subsection 414 (h) (2) of the Internal Revenue Code, each bargaining unit Teacher’s contribution to the Teachers’ Retirement Fund.",
+    "evidence": "DCPS shall “pick up” within the meaning of Subsection 414 (h) (2) of the Internal Revenue Code, each bargaining unit Teacher’s contribution to the Teachers’ Retirement Fund.",
+    "page": "101",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Internal Revenue Code (Subsection 414(h)(2))",
+    "evidence": "DCPS shall “pick up” within the meaning of Subsection 414 (h) (2) of the Internal Revenue Code, each bargaining unit Teacher’s contribution to the Teachers’ Retirement Fund.",
+    "page": "101",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "2. Continuing Contracts and Professional Service Contracts: a. The District will continue to recognize Continuing Contracts of its employees who were issued these contracts without a break in employment since being issued by the District prior to July 1, 1984; and will continue to recognize Professional Service Contracts (PSC) of employees who were issued these contracts without a break in service/employment as a teacher since being issued by the District on or after July 1, 1984, but before July 1, 2011.",
+    "page": "196",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "1d. In addition, in order to be employed, re-employed or to remain employed by the District, the individual must hold an active professional certificate or temporary certificate issued pursuant to Fla. Stat. §1012.56 and rules of the State Board of Education.",
+    "page": "195",
+    "confidence": "high"
+  }
+}

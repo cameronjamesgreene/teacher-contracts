@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "4% restoration plus any state-funded COLA percentage for 2006-2007, applied to teachers and psychologists.",
+    "evidence": "For school year 2006-2007 the teachers’ and psychologists’ salary schedule shall be increased (restored) 4% (four percent)... In addition, the 2006-2007 will be increased by the same percentage as any funded COLA provided by the state to the base revenue limit per ADA received by the District during the 2004-2005 and 2005-2006 school years.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Article VII, Section 7.7 provides an 'Extra Service Assignments and Remuneration' schedule detailing factor bases and percentage tables for Department Chairpersons, Athletics, and Co-Curricular Assignments.",
+    "page": "25-29",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "25.1 Fully credentialed teachers employed on December 31, 2000, and serving in the following hard-to-fill positions shall receive an annual stipend of $800 beginning with the 2000-2001 school year. 25.1.1 Special Education including speech and language specialists and adapted P.E. teachers providing service pursuant to IEPs.",
+    "page": "118",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "25.1.2 Secondary math and science.",
+    "page": "118",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "The following stipends will be based on Class II, Step 5... BCLAD 5.0%... BCC 5.0%... CLAD 3.0%... Unit members holding a Bilingual or ELD certification... shall receive an annual stipend of $500.",
+    "page": "32-33",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "Each educator shall have a thirty (30) minute, duty free, uninterrupted lunch period exclusive of passing time",
+    "page": "15",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "educators shall not be required to attend collaboration meetings until and unless the two hundred twenty five (225)-minute minimum is met.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "A schedule will be developed yearly for student supervision assignments within the duty day. Duties must be scheduled equitably 1) Elementary school educators may be assigned before school, after school, or recess duty.",
+    "page": "14",
+    "confidence": "high"
+  }
+}

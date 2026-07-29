@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "disciplinary action may not be taken against an employee except for just cause, and this must be substantiated by clear and convincing evidence which supports the recommended disciplinary action.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

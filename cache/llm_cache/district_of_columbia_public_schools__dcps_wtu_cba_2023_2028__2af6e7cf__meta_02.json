@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "The chief executive officer of the District of Columbia Public Schools as designated pursuant to D.C. Code § 38-174.\nAll full-time employees who work a forty (40) hour week and fifty-two (52) weeks a year in a probationary or permanent status, who are rendering educational services and receive compensation pursuant to the “EG” salary schedule, excluding supervisors, management personnel, confidential employees, employees engaged in personnel work other than in purely clerical capacities, employees in the ET bargaining unit, any other personnel currently represented by a labor organization and employees engaged in administering the provisions of Title 1, Section 618 of the D.C. Code, in the job classifications listed below.\nA Teacher shall be permitted to obtain a copy of the material contained in her/his official personnel files pursuant to D.C. Code § 1-631.05.",
+    "evidence": "The chief executive officer of the District of Columbia Public Schools as designated pursuant to D.C. Code § 38-174.\nAll full-time employees who work a forty (40) hour week and fifty-two (52) weeks a year in a probationary or permanent status, who are rendering educational services and receive compensation pursuant to the “EG” salary schedule, excluding supervisors, management personnel, confidential employees, employees engaged in personnel work other than in purely clerical capacities, employees in the ET bargaining unit, any other personnel currently represented by a labor organization and employees engaged in administering the provisions of Title 1, Section 618 of the D.C. Code, in the job classifications listed below.\nA Teacher shall be permitted to obtain a copy of the material contained in her/his official personnel files pursuant to D.C. Code § 1-631.05.",
+    "page": "2, 6, 28",
+    "confidence": "high",
+    "coder_notes": "Added missing state law citation from page 28 (D.C. Code § 1-631.05)."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The term “Partnership Schools” shall mean DCPS schools operated by private, not-for-profit management companies under contracts with DCPS pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB). | All Partnership Schools shall be schools that are required to be restructured under NCLB. | DCPS shall provide written notice of potential school reform, inclusive of all options under NCLB for restructuring, to the WTU and all Teachers in the affected schools that have been identified.",
+    "evidence": "The term “Partnership Schools” shall mean DCPS schools operated by private, not-for-profit management companies under contracts with DCPS pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB). | All Partnership Schools shall be schools that are required to be restructured under NCLB. | DCPS shall provide written notice of potential school reform, inclusive of all options under NCLB for restructuring, to the WTU and all Teachers in the affected schools that have been identified.",
+    "page": "15, 16",
+    "confidence": "high",
+    "coder_notes": "Updated page reference to include page 15 where the NCLB notice requirement is stated."
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB)",
+    "evidence": "pursuant to 20 U.S.C. § 6316(b)(8)(B)(iii) of the No Child Left Behind Act (NCLB).",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

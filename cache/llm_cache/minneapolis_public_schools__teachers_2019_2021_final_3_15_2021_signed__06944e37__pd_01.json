@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The Minneapolis Federation of Teachers in collaboration with the Minneapolis Public Schools launched its professional continuum journey in 1984 with the start of a teacher mentoring program for first year teachers. ... supported by a District PAR mentor in the first year of teaching",
+    "page": "82",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "District Staff Development Advisory and Site Staff Development Committee. Duties: research/explore PD time, support teachers/teams, recommend to departments, facilitate site PD plans. Committee composition: majority teachers.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "twenty-one categories in the Professional Career Continuum | advance one (1) lane on the teacher salary schedule | eligible for a $1,000 stipend",
+    "page": "122, 123",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

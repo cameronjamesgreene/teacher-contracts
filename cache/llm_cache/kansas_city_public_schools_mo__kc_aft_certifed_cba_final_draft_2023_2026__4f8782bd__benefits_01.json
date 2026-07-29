@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The District shall provide at least one no cost plan to employees.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "District provides at least one no-cost plan; contributes the difference between a High Deductible Plan and the no-cost plan to an H.S.A.",
+    "evidence": "The District shall provide at least one no cost plan to employees. If an employee selects a High Deductible Plan, the difference between the cost of the plan and the no cost plan will be contributed to a Health Savings Account (H.S.A.) in the employee’s name.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employee pays the premium difference between the chosen plan and the no-cost option; dependent premium also paid via payroll deduction.",
+    "evidence": "Should the employee select a plan, other than the no-cost option, the employee will pay the premium difference between the chosen plan and the no-cost option. Employee share of premium cost and dependent premium cost shall be paid through payroll deduction.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Employee share of premium cost and dependent premium cost shall be paid through payroll deduction.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "High Deductible Plan",
+    "evidence": "If an employee selects a High Deductible Plan, the difference between the cost of the plan and the no cost plan will be contributed to a Health Savings Account (H.S.A.) in the employee’s name.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "Medical and Dental Benefits The District shall provide at least one no cost plan to employees.",
+    "page": "48",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

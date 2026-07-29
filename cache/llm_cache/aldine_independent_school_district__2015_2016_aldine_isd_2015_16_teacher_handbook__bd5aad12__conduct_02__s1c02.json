@@ -1,0 +1,26 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "following prepared lesson plans based on district's official curriculum.",
+    "page": "2",
+    "confidence": "high"
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "having objectives and plans for the day; following prepared lesson plans based on district's official curriculum.",
+    "page": "2",
+    "confidence": "high"
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

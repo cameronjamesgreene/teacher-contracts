@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "Local Leave - currently given at the rate of two days per year... d) Death in Family. State Personal Leave... five days per year... may be used for any reason. Extended Leave... 30 days... d) Death in Family",
+    "page": "71-72",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "Death in Family",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "The District shall require the employee to use temporary disability leave and paid leave, including compensatory time, concurrently with FMLA leave.",
+    "page": "72",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "The District shall require the employee to use temporary disability leave and paid leave, including compensatory time, concurrently with FMLA leave.",
+    "page": "72",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "yes",
+    "evidence": "placement of a child for adoption or foster care",
+    "page": "72",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "The Family Medical Leave Act passed by the federal congress in 1994provides an employee leave for up to 60 working days... To qualify for Family Medical Leave, an employee must: a) Be employed for at least 12 months b) Has worked at least 1,250 hours in previous 12 months",
+    "page": "72-73",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2004-2007",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (UESF unit members)",
+    "evidence": "UESF unit members",
+    "page": "70",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "2004-2007 Teacher Contract",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "19.2 A grievance shall mean a claimed violation, misinterpretation, or inequitable application of the terms and conditions of this agreement.",
+    "page": "60",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section 11007 of the Health and Safety Code",
+    "page": "65",
+    "confidence": "high"
+  }
+}

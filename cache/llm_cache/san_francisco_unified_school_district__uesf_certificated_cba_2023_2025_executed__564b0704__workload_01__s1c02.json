@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "discussed_unclear",
+    "evidence": "Every good faith effort will be made to schedule all IEP and IFSP conferences during the seven-hour workday.",
+    "page": "11",
+    "confidence": "medium"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "7.2.8.1.1 ... shall have a duty-free preparation period ... 7.2.8.1.3 ... shall have one hundred ninety (190) minutes of duty free preparation time",
+    "page": "13-14",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: equal in length to a teaching period, plus an additional 30 minutes/week; TK-5: 190 minutes/week (blocks ≥20 min); Central Support: 45 minutes/day",
+    "evidence": "7.2.8.1.1 (p.13); 7.2.8.1.3 (p.14); 7.2.8.2.1 (p.14)",
+    "page": "13-14",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Unit members in Support Services shall not be required to schedule services during their preparation time.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Teachers shall be provided a duty-free lunch period, equivalent in length to the lunch period of the teachers’ students, exclusive of passing periods, or thirty (30) consecutive minutes, whichever is longer.",
+    "page": "11",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS shall be prohibited from excessing a Teacher by changing the name of the Teacher’s position in an effort to artificially produce a change in the “local school program” without any material change in the subject matter of the position.",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "the Local School Advisory Team (LSAT) shall make a recommendation as to the area(s) of certification to be affected.",
+      "subject_text": "the Local School Advisory Team (LSAT)",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "The Personnel Committee shall make a recommendation to the supervisor as to the Teacher(s) to be affected.",
+      "subject_text": "The Personnel Committee",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "The Teachers in the affected area may provide evidence to the Personnel Committee for their consideration.",
+      "subject_text": "The Teachers in the affected area",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "permission",
+      "llm_judgment": "permission",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "The Supervisor shall consider the recommendations of the Personnel Committee",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "job_security",
+      "notes": "Split from conjunction with second independent clause."
+    },
+    {
+      "quote": "shall retain the right to make the final excessing decision.",
+      "subject_text": "The Supervisor",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": "Split from conjunction; subject implied from prior clause."
+    },
+    {
+      "quote": "DCPS shall retain the right to make the final excessing decision according to the following rubric:",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "job_security",
+      "notes": ""
+    },
+    {
+      "quote": "Individuals with DC residency at the time of excessing shall receive a five-year service credit.",
+      "subject_text": "Individuals with DC residency at the time of excessing",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Individuals with veteran status at the time of excessing shall also receive a five-year service credit.",
+      "subject_text": "Individuals with veteran status at the time of excessing",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "other",
+      "notes": ""
+    }
+  ]
+}

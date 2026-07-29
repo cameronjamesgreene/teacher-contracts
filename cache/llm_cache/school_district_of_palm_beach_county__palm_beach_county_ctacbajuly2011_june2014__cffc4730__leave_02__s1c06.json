@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "father, mother, brother, sister, husband, wife, child, other close relative, or member of the employee's own household.",
+    "evidence": "father, mother, brother, sister, husband, wife, child, other close relative, or member of the employee's own household.",
+    "page": "75",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "Paid leaves are provided for illness of the employee including childbirth, illness or death of a family member, personal business, vacation leave, in-line-of-duty, professional leave, jury duty, witness duty, temporary military leave, and temporary duty elsewhere leave.",
+    "page": "75",
+    "confidence": "medium"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "When an employee is on Family Medical Leave (FML), the District shall continue the employee’s group health and dental insurance in full effect as when",
+    "page": "84",
+    "confidence": "high"
+  }
+}

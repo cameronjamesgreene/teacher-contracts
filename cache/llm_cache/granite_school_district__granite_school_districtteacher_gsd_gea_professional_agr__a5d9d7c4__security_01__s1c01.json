@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "1.2 Provisional Contract Teacher shall mean all regularly assigned teachers working half-time or more each day who have not yet completed three continuous years of contract employment as a teacher in Granite School District. 1.3 Regular Contract Teacher shall mean all regularly assigned teachers (except specially funded program teachers), working half-time or more each day, and who have completed the provisional period described above. 1.4 Temporary Teacher shall mean all teachers who are employed after the first day of the second semester and all other teachers hired on a limited short-term basis.",
+    "page": "3",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Such non-renewals shall not be considered a violation of this Agreement and the teachers involved shall not be entitled to a formal hearing under the Utah Orderly School Termination Procedures Act.",
+    "page": "15",
+    "confidence": "medium"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "1.11 Seniority shall mean length of continuous and current employment as a teacher under contract in the District.",
+    "page": "3",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

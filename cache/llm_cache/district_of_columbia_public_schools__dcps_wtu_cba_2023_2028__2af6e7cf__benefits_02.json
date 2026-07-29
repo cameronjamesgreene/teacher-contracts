@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "DCPS agrees to contribute the following amounts per month, per Teacher, towards an optical insurance plan to be contracted by the WTU: ... $21.62 ... $24.33",
+    "page": "97",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates at page 41, preceding Article 37 (Benefits) where Stage 1 cites page 97. Stage 1 evidence is specific and directly supports 'yes'. Preserved."
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates before Article 37. No life insurance provisions found in provided text. Preserved."
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates before Article 37. No disability coverage provisions found in provided text. Preserved."
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates before Article 37. No employer retirement contribution details found in provided text. Preserved."
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates before Article 37. Article 17 in provided text does not address insurance continuation during leave. Preserved."
+  },
+  "benefits_retiree_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Document provided truncates before Article 37. No retiree benefits provisions found in provided text. Preserved."
+  }
+}

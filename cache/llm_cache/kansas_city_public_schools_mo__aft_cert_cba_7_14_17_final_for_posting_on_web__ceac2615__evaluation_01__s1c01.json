@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes - Article III.G, reference only",
+    "evidence": "The development of a new Teacher Performance Assessment will allow for the establishment of a Teacher Performance Assessment Advisory Committee.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Teacher Performance Assessment",
+    "evidence": "The Committee will annually review the Teacher Performance Assessment for updates/revisions",
+    "page": "8",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

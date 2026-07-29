@@ -1,0 +1,17 @@
+{
+  "clauses": [
+    {
+      "quote": "the Board shall not discriminate against a teacher on the basis of membership, non-membership, or official position in any teacher organization.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "teacher_rights_and_conduct",
+      "notes": ""
+    }
+  ]
+}

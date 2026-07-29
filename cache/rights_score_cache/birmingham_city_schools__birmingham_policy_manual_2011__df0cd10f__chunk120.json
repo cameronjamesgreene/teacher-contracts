@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "When using any Birmingham Public Schools Technology Resources, Including the Internet, I will not: send, display, or download offensive messages or pictures",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "use obscene language",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "harass, insult, or attack others",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "damage computers, computer systems, or computer networks this includes (changing workstation and printer confIgUrations)",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "violate copyright laws",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "use ather users' passwords",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "trespass in other users' files, folders, or worn",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "intentionally waste limited resources",
+      "subject_text": "I",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

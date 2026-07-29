@@ -1,0 +1,9 @@
+{
+  "leave_absence_reporting_013": {
+    "answer": "yes",
+    "evidence": "Each teacher shall provide emergency lesson plans for inclusion in substitute folders. The format and contents of the folder shall be recommended by the ILT including procedures for periodically updating the folder. / For an absence resulting from the aforementioned causes chargeable to sick leave, the prescribed form of the Board must be completed and is subject to administrative approval. This form shall accompany the advice of change in payroll, which is signed and submitted, by the principal or the person in charge. / After 10 consecutive days of absence, a teacher shall provide the principal with an estimated date of return, unless the teacher is incapacitated.",
+    "page": "30, 32, 33",
+    "confidence": "high",
+    "coder_notes": "The appended document text is truncated and does not contain the referenced pages (30-33). However, the quoted evidence explicitly outlines substitute preparation procedures (emergency lesson plans), sick leave reporting requirements (prescribed forms), and extended absence reporting (estimated date of return after 10 days). This directly and unambiguously supports the 'yes' answer. No revision needed."
+  }
+}

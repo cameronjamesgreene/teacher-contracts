@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Child Bonding Leave: During each school year, unit members may elect to utilize up to 12 weeks of child bonding leave occasioned by the birth of the employee’s child, or the placement of a child with the employee in connection with the employee’s adoption or foster care of the child as provided by Education Code section 44977.5. | Pursuant to Education Code section 44977.5, if an employee exhausts his/her earned and accumulated sick leave (section 10.2.2) prior to expiration of the 12 week child bonding leave, they shall be entitled to utilize extended sick leave as defined in section 10.2.4 for the balance of the 12 week period. | Pursuant to Education Code section 44977.5, in order to qualify for child bonding leave, employees must have completed one year (twelve months of service) for the District, but are not required to have at least 1,250 hours of service during the previous one year (twelve months) period. | When earned and accumulated or extended sick leave is used for the purpose of pregnancy disability, it is a separate entitlement from the twelve (12) weeks of child bonding leave (section 10.3.2) or leave under the California Family Rights Act (section 10.3.3. | There is no carry-over of unused leave FMLA, CFRA or bonding leave under Education Code section 44975 from one 12-month period to the next 12-month. | The 184-day work calendar is dependent upon the funding provisions of Education Code Section 44579.1. | Absences pursuant to Education Code Section 44981 relating to emergency leaves; | Teachers who do not meet the credential requirements of Education Code Section 45023.1 shall be placed on the emergency and intern teacher’s salary schedule. | Only professional preparation credits as defined by the California Administrative Code, Title 5, as were earned as part of the requirement for such credential, if taken prior to acquiring the credential, shall be accepted for the purpose of classification advancement.",
+    "evidence": "Child Bonding Leave: During each school year, unit members may elect to utilize up to 12 weeks of child bonding leave occasioned by the birth of the employee’s child, or the placement of a child with the employee in connection with the employee’s adoption or foster care of the child as provided by Education Code section 44977.5.",
+    "page": "39, 40, 42, 47, 49, 50",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Family Leave: Family Medical Leave Act (FMLA) and California Family Rights Act (CFRA) | The employee’s earned and accumulated sick leave (section 10.2.2) and the 100 days of extended sick leave (section 10.2.4) shall run concurrently with FMLA or CFRA leave when it is used for purposes of the employee’s own serious health condition, other than pregnancy disability. | There is no carry-over of unused leave FMLA, CFRA or bonding leave under Education Code section 44975 from one 12-month period to the next 12-month.",
+    "evidence": "The employee’s earned and accumulated sick leave (section 10.2.2) and the 100 days of extended sick leave (section 10.2.4) shall run concurrently with FMLA or CFRA leave when it is used for purposes of the employee’s own serious health condition, other than pregnancy disability.",
+    "page": "40",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family Medical Leave Act (FMLA)",
+    "evidence": "Family Medical Leave Act (FMLA)",
+    "page": "40",
+    "confidence": "high"
+  }
+}

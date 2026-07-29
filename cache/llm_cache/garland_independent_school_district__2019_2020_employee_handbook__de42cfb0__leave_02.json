@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The relevant section on page 45 is cut off in the provided text. Answer preserved as not_discussed."
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "Spouse; children (biological, adopted, foster, in-law, step, ward, in loco parentis); parents (stepparent, in-law, in loco parentis); siblings; grandparents; grandchildren; and any household member.",
+    "evidence": "For purposes of leave other than family and medical leave, immediate family is defined as the following: • Spouse • Son or daughter, including a biological, adopted, or foster child, a son-or daughter-in-law, a stepchild, a legal ward, or a child for whom the employee stands in loco parentis • Parent, stepparent, parent-in-law, or other individual who stands in loco parentis to the employee • Sibling, stepsibling, and sibling-in-law • Grandparent and grandchild • Any person residing in the employee’s household at the time of illness or death",
+    "page": "37",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_parental_paid_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Provided text ends at page 37, cutting off before detailed leave policies. Updated from 'no' to 'not_discussed' per instructions when evidence is absent."
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Provided text ends at page 37. The TOC lists 'Temporary Disability' on page 43, but the section is not included. Updated to 'not_discussed'."
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Provided text ends at page 37. No mention of adoption or childcare leave in the available excerpt. Updated to 'not_discussed'."
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "Family and Medical Leave Act (FMLA) General Provisions\nThe following text is from the federal notice, Employee Rights and Responsibilities Under the Family and Medical Leave Act.",
+    "page": "40",
+    "confidence": "high",
+    "coder_notes": "TOC confirms the existence of this section on page 40. Stage 1 evidence accurately reflects the handbook's content."
+  }
+}

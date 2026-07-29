@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "5.0%",
+    "evidence": "Salary tables will improve by a 5.0% cost of living adjustment effective July 1, 2007.",
+    "page": "26",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "A differential will be paid to eligible senior educators... $1,000.00. The stipend amount will be $750.00 for full time employees... Summer school teaching shall be four (4) hours and paid at the hourly rate of 1/1500 of regular teaching salary.",
+    "page": "25, 27-28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "conduct_ethics_002": {
+    "answer": "yes",
+    "evidence": "Teachers adhere to the educators' code of ethics in §247.2 of this title (relating to Code of Ethics and Standard Practices for Texas Educators), including following policies and procedures at their specific school placement(s).",
+    "page": "102",
+    "confidence": "high"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "yes",
+    "evidence": "Employees should have no expectation of personal privacy in any matters stored in, created, received, or sent through the GISD computer network. These are subject to review by the GISD at any time... Access is a privilege, not a right... Users may not use their accounts for non-school related activities including but not limited to: Using the Internet for financial gain, personal advertising, promotion, non-government related fundraising, or public relations; Political activity: lobbying for personal political purposes,; or Solicitation activities for personal or religious purposes.",
+    "page": "88",
+    "confidence": "high"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

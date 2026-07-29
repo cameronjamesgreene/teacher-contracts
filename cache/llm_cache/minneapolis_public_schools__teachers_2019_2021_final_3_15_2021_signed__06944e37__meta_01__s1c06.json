@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "provisions of this contract",
+    "page": "55",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2021",
+    "evidence": "teachers_2019-2021_final_3-15-2021_signed.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (MFT), Principals, ESPs, and Classified Staff",
+    "evidence": "Minneapolis Federation of Teachers (MFT)",
+    "page": "49",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "provisions of this contract",
+    "page": "55",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Each teaching team (i.e. four or more teachers with a common group of students) shall have a paid team leader... A team leader who is not a lead teacher shall receive a $3000 annual stipend. Lead teachers shall receive stipends above the salary to which they would otherwise be entitled. Curriculum Councils are elected bodies... Each Curriculum Council shall have a chairperson, which shall be a lead teacher position... pool of one hundred (100) days of released time",
+    "page": "7-8, 13, 14-15",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "The Career in Teaching Program shall include five career development levels: Level I Apprentice... Level II Novice... Level III Career... Level IV Advanced... Level V Accomplished... Lead teachers are selected from the advanced and accomplished levels... Lead teachers shall receive stipends above the salary to which they would otherwise be entitled.",
+    "page": "9, 13",
+    "confidence": "high"
+  }
+}

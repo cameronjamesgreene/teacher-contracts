@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "State law entitles all employees to five days of paid state personal leave per year.",
+    "page": "38",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Must be used in 0.5-day increments; earned comp time used first; discretionary leave requires written request and supervisor approval; prohibited on state-mandated assessment days; supervisor considers substitute availability and program impact.",
+    "evidence": "Paid leave must be used in one-half (0.5) day increments. Earned comp time must be used before any available paid local and state leave. No employee shall be granted discretionary use of state personal leave on days scheduled for state-mandated assessments at his or her campus.",
+    "page": "37-38",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "State personal leave, is transferable to other Texas school districts and generally transfers to education service centers.",
+    "page": "38",
+    "confidence": "high"
+  }
+}

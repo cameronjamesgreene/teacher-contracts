@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "All instructional personnel shall have certificates, duly recorded with the Superintendent of Schools, that legally qualify them for the work to which they are assigned. An employee shall have a ten-day grace period after the employee’s certificate or permit is void to renew, extend, or otherwise validate the certificate or permit before the district can suspend or terminate the employee.",
+    "page": "27",
+    "confidence": "high"
+  }
+}

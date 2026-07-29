@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "PAEP has two components: (a) Induction designed to assist and evaluate teachers during their first year of service in the district... Consulting teachers/Teacher Evaluator shall receive lead teacher stipends consistent with the CTP agreement. However, a consulting teacher/Teacher Evaluator who is not a lead teacher shall receive an annual stipend of $3000.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Each Curriculum Council shall have a chairperson, which shall be a lead teacher position. The Chairperson shall be selected by the Council's Steering Committee and approved by the Superintendent’s Designee... Further, a pool of one hundred (100) days of released time for professional development activities, conferences, or other legitimate activities of the Councils will be made available to them.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

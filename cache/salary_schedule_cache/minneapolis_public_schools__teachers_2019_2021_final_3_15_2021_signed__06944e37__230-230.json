@@ -1,0 +1,206 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "SCHEDULE C1 SENIOR HIGH ATHLETICS",
+      "population": "senior high athletics staff",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "Effective July 1, 2006",
+      "lane_labels": [],
+      "step_labels": [
+        "Athletic Director (for each: fall, winter, and spring)",
+        "Athletic Equipment Manager",
+        "Tier 1 Head Coach",
+        "Tier 1 Assistant Junior Varsity and Sophomore Coaches (65% head coach)",
+        "Tier 1 9th Grade Coaches (55% head coach)",
+        "Tier 1 Additional Assistant Coach (45% head coach)",
+        "Tier 2 Head Coach",
+        "Tier 2 Assistant Junior Varsity and Sophomore Coaches (65% head coach)",
+        "Tier 2 9th Grade Coaches (55% head coach)",
+        "Tier 3 Coach",
+        "Tier 4 Coach"
+      ],
+      "cells": [
+        {
+          "step": "Athletic Director (for each: fall, winter, and spring)",
+          "lane": null,
+          "value": "3751",
+          "cell_code": null
+        },
+        {
+          "step": "Athletic Equipment Manager",
+          "lane": null,
+          "value": "4928",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 1 Head Coach",
+          "lane": null,
+          "value": "5710",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 1 Assistant Junior Varsity and Sophomore Coaches (65% head coach)",
+          "lane": null,
+          "value": "3725",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 1 9th Grade Coaches (55% head coach)",
+          "lane": null,
+          "value": "3152",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 1 Additional Assistant Coach (45% head coach)",
+          "lane": null,
+          "value": "2579",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 2 Head Coach",
+          "lane": null,
+          "value": "4621",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 2 Assistant Junior Varsity and Sophomore Coaches (65% head coach)",
+          "lane": null,
+          "value": "3004",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 2 9th Grade Coaches (55% head coach)",
+          "lane": null,
+          "value": "2541",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 3 Coach",
+          "lane": null,
+          "value": "3512",
+          "cell_code": null
+        },
+        {
+          "step": "Tier 4 Coach",
+          "lane": null,
+          "value": "2403",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "",
+      "confidence": "high",
+      "validation_warnings": [
+        "no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns)"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    },
+    {
+      "has_table": true,
+      "schedule_label": "SCHEDULE C2 MIDDLE SCHOOL ATHLETICS",
+      "population": "middle school athletics staff",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "Effective July 1, 2008",
+      "lane_labels": [],
+      "step_labels": [
+        "Middle School Athletic Directors, per year",
+        "Middle School Athletic Directors, per sport",
+        "K-8 Athletic Directors, per year",
+        "K-8 Athletic Directors, per sport",
+        "Middle School Coaches",
+        "Middle School Coordinator",
+        "Middle School Assistants Football Coaches",
+        "K-8 Coaches"
+      ],
+      "cells": [
+        {
+          "step": "Middle School Athletic Directors, per year",
+          "lane": null,
+          "value": "2210",
+          "cell_code": null
+        },
+        {
+          "step": "Middle School Athletic Directors, per sport",
+          "lane": null,
+          "value": "368",
+          "cell_code": null
+        },
+        {
+          "step": "K-8 Athletic Directors, per year",
+          "lane": null,
+          "value": "1891",
+          "cell_code": null
+        },
+        {
+          "step": "K-8 Athletic Directors, per sport",
+          "lane": null,
+          "value": "315",
+          "cell_code": null
+        },
+        {
+          "step": "Middle School Coaches",
+          "lane": null,
+          "value": "1576",
+          "cell_code": null
+        },
+        {
+          "step": "Middle School Coordinator",
+          "lane": null,
+          "value": "1869",
+          "cell_code": null
+        },
+        {
+          "step": "Middle School Assistants Football Coaches",
+          "lane": null,
+          "value": "1051",
+          "cell_code": null
+        },
+        {
+          "step": "K-8 Coaches",
+          "lane": null,
+          "value": "1156",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "",
+      "confidence": "high",
+      "validation_warnings": [
+        "no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns)"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    },
+    {
+      "has_table": true,
+      "schedule_label": "SCHEDULE C3 EVENTS SUPPORTING PERSONNEL",
+      "population": "event support personnel",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "Effective July 1, 2005",
+      "lane_labels": [],
+      "step_labels": [
+        "Event Supervisor, Ticket Seller, Ticket Taker, Guard, Scorer, Timer, Event Judge, Clerk, Assistant Clerk"
+      ],
+      "cells": [
+        {
+          "step": "Event Supervisor, Ticket Seller, Ticket Taker, Guard, Scorer, Timer, Event Judge, Clerk, Assistant Clerk",
+          "lane": null,
+          "value": "25",
+          "cell_code": "per Game, Match or Meet"
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers may apply annually. Vacancy lists are posted by April 1. Requests are honored if consistent with law/system needs and approved by the receiving supervisor. Written notification of grant or denial is issued by July 14. Teachers must hold required certification. Interviews may occur at DCPS transfer fairs or with principals between April 1 and June 30. After July 15, transfers require current supervisor consent.",
+    "evidence": "4.2.1. A voluntary transfer is a change in a building assignment from one work location to another when initiated by a teacher. 4.2.3. Lists of vacancies... shall be prepared and posted on or before April 1 annually. 4.2.6. Written notification to teachers granted or denied a transfer shall be made assoon as a determination is made, but in no case later than July 14. 4.2.8. Teachers requesting a voluntary transfer may arrange to interview with school principals at a mutually agreeable time by one or both of the following: 4.2.8.1. At all “open” the DCPS transfer fairs; or 4.2.8.2. With principals between April 1 and June 30. 4.2.9. After July 15, Teachers shall have the right to execute a voluntary transfer provided the Teacher’s current Supervisor consents.",
+    "page": "21-22",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Transfers require consultation and discussion with the teacher (WTU representative may attend), followed by written notice containing reasons. Teachers receive two weeks' notice (or as timely as possible if less time is needed), plus at least three school days of non-instructional preparation duties with full pay protection. Logistical support for materials is provided. Transfers may occur due to inability to adapt to open-space environments or excessing, but not for disciplinary reasons. Teachers retain building seniority upon transfer.",
+    "evidence": "4.3.1. Involuntary transfers shall be made only after consultation and discussion with the Teacher involved... A Teacher who is involuntarily transferred shall be given two (2) weeks notice, except in those cases where the transfer must be made in less than two (2) weeks, the notice shall be given as timely as possible. The notice of the transfer shall contain the reasons therefore. Teachers who are involuntarily transferred shall be given at least 3 school days of non-instructional duties, prior to the transfer, at no loss in salary to prepare for transfer... 4.3.3. A Teacher may be granted a transfer because of the inability to adapt to the open space environment. 4.3.4. Involuntary transfers shall not be made for reasons of disciplinary action. 4.3.6. A teacher who is involuntarily transferred shall carry forward his or her building seniority.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "The document explicitly excludes Reduction in Force (RIF), defining an excess as a position elimination *not* classified as a RIF or abolishment. Instead, it outlines a Performance-Based Excessing Policy using a points rubric (evaluations, unique skills, contributions, length of service) to determine excess order. Affected teachers receive 10 days' written notice, 60 days to secure placement under mutual consent, and three options (buyout, early retirement, or a year to find a new placement) if permanent status teachers cannot secure placement.",
+    "evidence": "4.5.1.1. An excess is an elimination of a Teacher’s position at a particular school due to a decline in student enrollment, a reduction in the local school budget, a closing or consolidation, a restructuring, or a change in the local school program, when such an elimination is not a ‘reduction in force’ (RIF) or ‘abolishment.’ 4.5.2.5. DCPS shall retain the right to make the final excessing decision according to the following rubric: [rubric details] 4.5.3.1. DCPS shall provide written notification to all Teachers who are to be excessed at least (10) school days prior to the effective date of the excess. 4.5.5.1. Excessed permanent status Teachers shall have sixty (60) calendar days following the effective date of the excess to secure another placement in DCPS under mutual consent. 4.5.5.3. The Three (3) Options: 4.5.5.3.1. Option 1: Buyout... 4.5.5.3.2. Option 2: Early Retirement... 4.5.5.3.3. Option 3: A Year to Secure a New Placement",
+    "page": "23-25",
+    "confidence": "high"
+  }
+}

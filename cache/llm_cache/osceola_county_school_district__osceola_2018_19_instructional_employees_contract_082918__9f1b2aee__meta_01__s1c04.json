@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "This Agreement shall constitute the full and complete commitments between both parties and may be altered, changed, added to, deleted from, or modified only through the voluntary, mutual consent of the parties in a written and signed amendment to this Agreement.",
+    "page": "64",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2018-2019, until June 30, 2019",
+    "evidence": "This Contract shall become effective when ratified by the teachers, approved by the Board, and signed by the parties. This Contract shall be firm until and including June 30, 2019.",
+    "page": "65",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Instructional Employees / Teachers",
+    "evidence": "All teachers must be evaluated annually. The Classroom Instructional Employees’ Evaluation System and Handbook and the Non-Classroom Instructional Employees’ Evaluation System and Handbook shall be online.",
+    "page": "47",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This agreement shall constitute the full and complete commitments between both parties and may be altered, changed, added to, deleted from, or modified only through the voluntary, mutual consent of the parties in a written and signed amendment to this Agreement.",
+    "page": "64",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section 1012.34(5), Florida Statutes, requires the Superintendent to notify the department (Florida Department of Education) of any instructional employee who receives two (2) consecutive “Unsatisfactory” final summative evaluation ratings.",
+    "page": "49",
+    "confidence": "high"
+  }
+}

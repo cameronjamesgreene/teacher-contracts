@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "no",
+    "evidence": "This program is no longer operative since the state funds allocated for the Mentor Teacher Program were eliminated.",
+    "page": "67",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "School Site Councils (SSC)... 27.12 Lead teacher... The site manager will then make a selection and notify all interested teachers. ... All Lead teachers and substitute lead teachers shall earn the differential pursuant to Article 11.13.",
+    "page": "71, 78",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "yes",
+    "evidence": "creates a sequential career ladder for teachers, from recruitment, pre- credential, probationary, tenure, and other teacher classifications that may be subsequently bargained;",
+    "page": "59",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

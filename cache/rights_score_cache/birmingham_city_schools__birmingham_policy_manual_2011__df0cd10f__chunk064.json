@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "Testing also shall be required as soon as practicable after an accident on any employee involved in an accident that caused damage to property, for which the employee receives a moving violation citation, or when one or more motor vehicles incur disabling damage as a result of the accident requiring the vehicle to be transported away fram the scene by a tow truck or other-vehicle.",
+      "subject_text": "Testing",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Employees shall make themselves readily available for testing, absent the need for immediate medical attention.",
+      "subject_text": "Employees",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "No such employee shall use alcohol for eight (8) hours after the accident, or until after he/she undergoes a post-accident alcohol test, whichever occurs first.",
+      "subject_text": "No such employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Disciplinary action, including discharge, will be taken against any employee who fails to report an accident or refuses to submit to testing where required by law or School Board policy.",
+      "subject_text": "Disciplinary action, including discharge",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": ""
+    },
+    {
+      "quote": "All employees who undergo counseling or a rehabilitation program, or who are suspended or otherwise disciplined for substance abuse covered under this policy, will be subject to unannounced testing following their return to work.",
+      "subject_text": "All employees who undergo counseling or a rehabilitation program, or who are suspended or otherwise disciplined for substance abuse covered under this policy",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Employees subject to return-to-duty testing shall be tested at the frequency stipulated in an obeisance contract, or as scheduled by the MRO.",
+      "subject_text": "Employees subject to return-to-duty testing",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Employees who are suspended or otherwise disciplined for violating the School Board substance abuse policy cannot return to duty until a substance abuse test is produced with a valid negative result.",
+      "subject_text": "Employees who are suspended or otherwise disciplined for violating the School Board substance abuse policy",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "can",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

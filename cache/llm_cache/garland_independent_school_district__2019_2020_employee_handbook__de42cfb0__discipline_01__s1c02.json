@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "Employees in all other positions are employed at-will or by a contract that is not subject to the procedures for nonrenewal or termination under Chapter 21 of the Texas Education Code.",
+    "page": "18",
+    "confidence": "high"
+  }
+}

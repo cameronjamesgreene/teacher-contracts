@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes",
+    "evidence": "At their own expense, employees may enroll in supplemental insurance programs for Dental, eye and Cancer.",
+    "page": "20",
+    "confidence": "high"
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "This plan enables eligible employees to pay certain insurance premiums on a pretax basis (i.e., disability, accidental death and dismemberment, cancer and dread disease, dental, and additional term life insurance).",
+    "page": "20",
+    "confidence": "high"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes",
+    "evidence": "Health insurance benefits for employees on paid leave and leave designated under the Family and Medical Leave Act will be paid by the district as they were prior to the leave. Otherwise, the district does not pay any portion of insurance premiums for employees who are on unpaid leave.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "benefits_retiree_012": {
+    "answer": "discussed_unclear",
+    "evidence": "TRS retirees who are enrolled in TRS-Care (retiree health insurance program) and employees who are not contributing TRS members who are regularly scheduled to work less than 10 hours per week, are not eligible to participate in TRS-ActiveCare.",
+    "page": "20",
+    "confidence": "medium"
+  }
+}

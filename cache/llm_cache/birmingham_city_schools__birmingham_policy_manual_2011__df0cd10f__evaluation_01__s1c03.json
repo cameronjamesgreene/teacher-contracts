@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "A formal evaluation in which the employee is apprised in writing of his or her progress shall be conducted at least annually and entered along with employee comments int,o the personnel record.",
+    "page": "3030",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Professional Education Personnel Evaluation Program (PEPE) / Alabama Professional Educational Personnel Evaluation Program",
+    "evidence": "The Birmingham City School System accepts its responsibility as specified in Alabama State Board of Education Resolution I-1-f adopted January 11, 1990, for establishing policies and procedures for the Professional Education Personnel Evaluation Program in the schools under its jurisdiction.",
+    "page": "3030",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

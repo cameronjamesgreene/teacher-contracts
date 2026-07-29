@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "F: Work Related Assault Leave / Any member of the bargaining unit, acting in the course of his/her assigned duties, who sustains an injury of a duty-related assault, shall be eligible to “paid assault leave”... The court appearance of any employee so assaulted or called as a witness in connection with the prosecution of a work-related assault shall be without loss of pay or use of PTO days. / E: Reimbursement Funds / The District will maintain a fund to cover loss of employee’s personal property due to physical assaults... filed within one (1) week of the incident with the Risk Management Department",
+    "page": "41-42, 46",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

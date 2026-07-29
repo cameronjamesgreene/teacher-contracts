@@ -1,0 +1,144 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "APPENDIX B SANTA ANA UNIFIED SCHOOL DISTRICT PSYCHOLOGIST SALARY SCHEDULE 2004-2005",
+      "population": "Psychologists",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "2004-2005",
+      "lane_labels": [
+        "SALARY",
+        "DOCTORATE"
+      ],
+      "step_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "11",
+        "16"
+      ],
+      "cells": [
+        {
+          "step": "1",
+          "lane": "SALARY",
+          "value": "58960",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "DOCTORATE",
+          "value": "59488",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "SALARY",
+          "value": "61611",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "DOCTORATE",
+          "value": "62139",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "SALARY",
+          "value": "64385",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "DOCTORATE",
+          "value": "64913",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "SALARY",
+          "value": "67282",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "DOCTORATE",
+          "value": "67810",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "SALARY",
+          "value": "70307",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "DOCTORATE",
+          "value": "70835",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "SALARY",
+          "value": "73477",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "DOCTORATE",
+          "value": "73957",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "SALARY",
+          "value": "76825",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "DOCTORATE",
+          "value": "77353",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "SALARY",
+          "value": "81247",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "DOCTORATE",
+          "value": "81775",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "SALARY",
+          "value": "87064",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "DOCTORATE",
+          "value": "87592",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Table covers psychologist salary steps indexed by step number, with separate columns for baseline SALARY and DOCTORATE degrees. The schedule is for the 2004-2005 school year.",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

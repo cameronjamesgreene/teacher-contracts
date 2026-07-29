@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "yes. ISTAIT Plan \"B\" available to all teachers; employer contributes max $6.30 per employee per month, employee pays $.21 annually.",
+    "evidence": "Each teacher shall be covered by a vision care program paid for by the Board at a maximum Board contribution of six dollars and thirty cents ($6.30) per employee per month. Each teacher will pay twenty-one cents ($.21) annually. This program shall provide for eye examinations and lenses and frames every other year. The carrier shall be the ISTA Insurance Trust and the program shall be ISTAIT Plan \"B\" with no deductible.",
+    "page": "M-8",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the full section text referencing ISTAIT Plan \"B\" to fully support the plan name in the answer."
+  },
+  "benefits_life_008": {
+    "answer": "yes. $40,000 Group Term Life Insurance Plan; voluntary, with teachers contributing $.21 annually and the Board contributing the remainder.",
+    "evidence": "A forty thousand dollar ($40,000) Group Term Life Insurance Plan, with the ISTA Insurance Trust as the carrier and provider, shall be available on the same terms and conditions for all teachers. Teachers desiring to participate will contribute twenty-one cents ($.21) annually and the Board will contribute the remainder of the premiums.",
+    "page": "M-7",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the full plan description from Section 2 for completeness."
+  },
+  "benefits_disability_009": {
+    "answer": "yes. Long-term disability (ISTA Insurance Trust LTD Plan III); available to all teachers; Board contributes max $.33 per $100 salary per month; salary covered up to $60,000.",
+    "evidence": "Each teacher shall be covered by a long-term disability program, which will include the benefits as set forth in ISTA Insurance Trust LTD Plan III as implemented effective October 1, 1989, provided, however, that the maximum Board contribution shall not exceed $.33 per hundred per teacher per month. Effective October 1, 2000, the maximum annual salary covered for any teacher for this LTD program shall increase from $55,000 to $60,000.",
+    "page": "M-7",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the full paragraph referencing the LTD Plan III name and the $60,000 salary cap."
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "The Board pays the teacher's contribution to the Indiana State Teachers' Retirement Fund.",
+    "evidence": "The Board shall continue to pay, on behalf of each teacher, the teacher's contribution to the Indiana State Teachers' Retirement Fund.",
+    "page": "M-5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "yes. Insurance coverages continue during FMLA leave; IPS pays its portion of all insurance coverages.",
+    "evidence": "IPS will continue to pay its portion of all insurance coverages provided for in this Agreement while a teacher is on an FMLA leave.",
+    "page": "M-4",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "yes. Available to retirees before Medicare eligibility with 5 consecutive years of coverage prior to retirement; former employees must make monthly payments in advance.",
+    "evidence": "Eligibility for continuing in the insurance programs listed in this Article shall be available to those teachers who retire prior to becoming eligible to obtain coverage under Medicare, providing the applicant has had coverage in the program for five (5) consecutive years immediately prior to retirement... The former employee shall be required to make monthly payments in advance for such protection.",
+    "page": "M-8",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

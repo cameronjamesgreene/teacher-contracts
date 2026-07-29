@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes. Title: 2016-2017 SALARY SCHEDULE “A”; Covered Year: 2016-2017; Covered Employee Group: Not specified; Page/Appendix: 10-12",
+    "evidence": "2016-2017 SALARY SCHEDULE “A” – EFFECTIVE JULY 1, 2016 (2%)",
+    "page": "10-12",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2016-2017",
+    "evidence": "2016-2017 SALARY SCHEDULE “A” – EFFECTIVE JULY 1, 2016 (2%)",
+    "page": "10",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "16. Evaluation... 16.6 There shall be a long form and short form evaluation process. 16.7 The long form evaluation of regularly assigned classroom teachers... 16.12 Evaluation conference procedure",
+    "page": "49",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "San Francisco’s Peer Assistance and Review (PAR) Program / California Standards of the Teaching Profession",
+    "evidence": "16.1 Successful implementation of San Francisco’s Peer Assistance and Review (PAR) Program... The teacher evaluation system shall be based upon the California Standards of the Teaching Profession.",
+    "page": "49",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "Tenured: 1 or 2 per year; Probationary/temporary: 2 to 4 per year; Teachers with prior 'Unsatisfactory' or 'Improvement Needed' ratings: Minimum of 4 per year",
+    "evidence": "16.7.2 Table: Tenured teachers 1 or 2 per year; Probationary, temporary, categorical and emergency credentialed teachers 2 to 4 per year; Any teacher receiving 'Unsatisfactory' or 'Improvement Needed' Summary Evaluation for the previous year Minimum of 4 per year",
+    "page": "50",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "40 minutes or one full period, whichever is longer",
+    "evidence": "16.17 Each evaluation of a classroom teacher shall be based upon at least one observation lasting either forty (40) minutes or one full period, whichever is longer.",
+    "page": "52",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "Outstanding, Highly Satisfactory, Satisfactory, Improvement Needed, and Unsatisfactory",
+    "evidence": "16.29 All evaluation forms shall contain no ratings other than those jointly developed by the Union and the District: Outstanding, Highly Satisfactory, Satisfactory, Improvement Needed, and Unsatisfactory.",
+    "page": "54",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "no",
+    "evidence": "16.20 Evaluations shall not include the use of publisher norms established as a result of standardized tests.",
+    "page": "53",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

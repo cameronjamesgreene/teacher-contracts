@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184 days of service (contingent on state funding; reverts to 181 days if funding is reduced)",
+    "evidence": "The length of the work year for all teachers shall be 184 days of service... The 184 day work calendar is dependent upon the funding provisions of Education Code Section 44579.1.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "Seven (7) hours per day (or thirty-five hours per five-day week)",
+    "evidence": "The length of the teacher work day, including preparation time and time regularly required before and after school, exclusive of the duty-free lunch period, shall be based on a work week of seven (7) hours per day or thirty-five hours per five (5) day week.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Whenever the term “preparation time” or “preparation period” is used, it is to mean the time within the workday of teachers set aside for planning, grading papers, contacting parents and other instructional tasks to be determined by the teacher.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary teachers: equal to a teaching period. Elementary teachers: encouraged to provide relief time; pilot program provides 45 minutes weekly in 12 selected schools.",
+    "evidence": "Secondary – Within the workday, high school and middle school teachers shall have a duty-free preparation period equal in length to a teaching period. / At the twelve selected schools fourth and fifth grade teachers shall be provided 45 minutes of duty free preparation time weekly",
+    "page": "9",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "High school and middle school teachers shall have a duty-free preparation period equal in length to a teaching period. Preparation time is to mean the time within the workday set aside for planning, grading papers, contacting parents and other instructional tasks to be determined by the teacher.",
+    "page": "9",
+    "confidence": "medium"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Teachers shall be provided a duty-free lunch period, equivalent in length to the lunch period of the teachers’ students, exclusive of passing periods, or thirty (30) consecutive minutes, whichever is longer.",
+    "page": "8",
+    "confidence": "high"
+  }
+}

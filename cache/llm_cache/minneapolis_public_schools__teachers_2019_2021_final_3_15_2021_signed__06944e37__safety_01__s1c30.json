@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Environmental Health/Safety Complaints..................................... 183",
+    "page": "267",
+    "confidence": "medium"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Workers’ Compensation ... Assault ............................................................................. 162",
+    "page": "267",
+    "confidence": "medium"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Student Behavior ... Article 6........................................................................................................... 132",
+    "page": "266",
+    "confidence": "medium"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Work Site Construction ................................................................................. 183",
+    "page": "267",
+    "confidence": "medium"
+  }
+}

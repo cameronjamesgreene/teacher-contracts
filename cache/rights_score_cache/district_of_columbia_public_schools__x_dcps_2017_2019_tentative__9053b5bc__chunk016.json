@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "DCPS shall, in consultation with the WTU, develop and implement the following initiatives:",
+      "subject_text": "DCPS",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The parties agree to form a joint committee consisting of the Chancellor or a designee, the President of the WTU or a designee, and 3 representatives selected by the WTU President and 3 representatives selected by the Chancellor, to develop and implement a comprehensive mentoring and induction program.",
+      "subject_text": "The parties",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint procedural obligation to establish a committee."
+    },
+    {
+      "quote": "The joint committee shall develop and implement a mentoring and induction program by the beginning of the 2010 - 2011 school year that will:",
+      "subject_text": "The joint committee",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Sentence ends with a colon, introducing dependent sub-clauses."
+    }
+  ]
+}

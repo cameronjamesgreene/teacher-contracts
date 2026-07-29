@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "Yes, section 'Performance Evaluation' (Policy DN series); reference only.",
+    "evidence": "Evaluation of an employee’s job performance is a continuous process that focuses on improvement. Performance evaluation is based on an employee’s assigned job duties and other job-related criteria.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

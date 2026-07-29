@@ -1,0 +1,38 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "\"Pregnancy is considered a temporary disability.\"",
+    "page": "16",
+    "confidence": "high"
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "\"An employee who has been employed for at least 12 months and has worked at least 1,250 hours during the previous twelve-month period may take an unpaid family or medical leave of absence for a total of twelve work weeks during any twelve-month period.\"",
+    "page": "17",
+    "confidence": "high"
+  }
+}

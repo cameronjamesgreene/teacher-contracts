@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30 minutes (minimum on regular school days); 60 minutes on days when students are not in attendance",
+    "evidence": "The daily schedule on regular school days shall provide for a minimum of thirty (30) minutes for lunch time. One hour for lunch will be provided on days when students are not in attendance as described above.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "...address the number and types of “mandatory” meetings held at the school level. The written plan will be submitted to the instructional staff to be voted on by a secret ballot. It must be approved by the majority of the instructional staff voting on the schedule.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Non-Teaching Duties: These are duties which are supervisory or clerical in nature and do not fulfill primarily educational functions. These duties include, but are not limited to health services, supervision of study halls, corridors, playgrounds, cafeterias, streets, sidewalks, and buses; collecting money from students; delivering books to classrooms; taking inventories; duplicating instructional and other materials; and other similar clerical functions.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

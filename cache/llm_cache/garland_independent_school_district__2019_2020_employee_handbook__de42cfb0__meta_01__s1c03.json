@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "2019-2020_employee_handbook.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2019-2020",
+    "evidence": "2019 – 2020 SCHOOL YEAR",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "all employees",
+    "evidence": "All district employees will follow regular work schedules as outlined.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Texas law also requires that parents be notified if their child is assigned for more than 30 consecutive instructional days to a teacher who does not hold an appropriate teaching certificate.",
+    "page": "25",
+    "confidence": "high"
+  }
+}

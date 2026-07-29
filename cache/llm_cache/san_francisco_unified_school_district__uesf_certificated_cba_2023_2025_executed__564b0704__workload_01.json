@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "184",
+    "evidence": "The length of the work year for all teachers shall be as follows: 184 days of service, except that department heads and deans/head counselors shall have 189 days of service, which includes the three (3) District professional development days.",
+    "page": "10",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "7",
+    "evidence": "The length of the teacher work day, including preparation time and time regularly required before and after school, exclusive of the duty-free lunch period, shall be based on a work week of seven (7) hours per day or thirty-five hours per five (5) day week.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The length of the teacher work day, including preparation time and time regularly required before and after school, exclusive of the duty-free lunch period, shall be based on a work week of seven (7) hours per day or thirty-five hours per five (5) day week.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: equal in length to a teaching period, plus an additional 30 minutes/week; TK-5: 190 minutes/week (blocks ≥20 min); Central Support: 45 minutes/day",
+    "evidence": "7.2.8.1.1: 'Secondary – Within the workday, high school and middle school teachers shall have a duty-free preparation period equal in length to a teaching period, plus an additional 30 minutes of duty free preparation time each week...'\n7.2.8.1.3: 'TK/Elementary – Within the work day, TK-5 teachers shall have one hundred ninety (190) minutes of duty free preparation time during the work week, in blocks no smaller than twenty (20) minutes.'\n7.2.8.2.1: 'Unit members in Support Services... assigned to a central position shall have a block of forty-five (45) minutes of preparation time each day.'",
+    "page": "13-14",
+    "confidence": "high",
+    "coder_notes": "Replaced section references with exact quoted text to explicitly support the answer."
+  },
+  "workload_prep_protected_005": {
+    "answer": "no",
+    "evidence": "7.2.8.1: 'Whenever the term “preparation time” or “preparation period” is used, it is to mean the time within the workday of teachers set aside for planning, grading papers, contacting parents and other instructional tasks to be determined by the teacher.'",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": "Replaced empty evidence with contract definition showing preparation time tasks are determined by the teacher, indicating no explicit contractual restriction for meetings/coverage."
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Teachers shall be provided a duty-free lunch period, equivalent in length to the lunch period of the teachers’ students, exclusive of passing periods, or thirty (30) consecutive minutes, whichever is longer.",
+    "page": "11",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "180 instructional days, 2-3 duty days, and 3 staff development days (185-186 total work days depending on year)",
+    "evidence": "reflecting a school year of 186 work days (180 instructional days, 3 duty days, 3 staff development days). / reflecting a school year of 185 work days (180 instructional days, 2 duty days, 3 staff development days).",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_workday_length_002": {
+    "answer": "No fixed daily hour count; length is determined by site administrator and conforms to Education Code Section 46201 plus additional annual minutes by grade level (1200/2000/300 mins/year), with flexible start/end times permitted.",
+    "evidence": "The site administrator shall determine the beginning and ending time for unit members... The instructional day for unit members shall conform with the required minutes provided in Education Code, Section 46201.",
+    "page": "40-41",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "All planning periods are intended to be used for teachers' preparation and are considered to be a professional obligation which shall be met at the site or other district facility.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Duties may not be assigned during the common preparation period in intermediate schools unless volunteers are first sought and unless such assignments are made on an equitable basis with other staff.",
+    "page": "41",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Each unit member shall have at least a 30 minute duty-free, uninterrupted lunch period exclusive of passing periods.",
+    "page": "39",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

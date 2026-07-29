@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Discipline of teachers, including but not necessarily limited to, dismissal, reprimand, or suspension, shall be for just cause.",
+    "page": "45",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "Professional Service Contract teachers may be suspended or dismissed at any time during the term of the contract for just cause as provided above. The Board must notify the employee in writing... If the employee wishes to contest the charges, the employee must, within fifteen (15) days after receipt of the written notice, submit a written request for a hearing... Annual Contract teachers may be suspended or dismissed at any time during the term of the contract for just cause as provided above... submit a written request for a hearing to the Board. A direct hearing shall be conducted by the Board or a subcommittee thereof within sixty (60) days after receipt of the written request. A majority vote of the membership of the Board shall be required to sustain the Superintendent’s recommendation.",
+    "page": "46",
+    "confidence": "high"
+  }
+}

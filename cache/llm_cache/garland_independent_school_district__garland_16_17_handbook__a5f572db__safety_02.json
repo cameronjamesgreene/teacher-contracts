@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "Table of Contents explicitly lists 'Safety' (p. 56) and 'Visitors in the Workplace' (p. 57), confirming the document covers visitor controls and safety measures.",
+    "page": "4",
+    "confidence": "high",
+    "coder_notes": "Updated from not_discussed to yes. The Table of Contents explicitly references these topics, confirming their inclusion in the handbook."
+  },
+  "safety_weapons_008": {
+    "answer": "yes",
+    "evidence": "The District prohibits the use, possession, or display of any firearm, illegal knife, club, or prohibited weapon, as defined at FNCG, on District property at all times.",
+    "page": "57",
+    "confidence": "high",
+    "coder_notes": "Retained 'yes'. TOC confirms 'Possession of Firearms and Weapons' is covered on p. 57. The quoted evidence aligns with the TOC reference, though the specific text was omitted from the provided document snippet."
+  }
+}

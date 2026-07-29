@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "Elementary: 20 minutes before/15 minutes after; Secondary: 30 minutes before/20 minutes after",
+    "evidence": "Elementary teachers shall report to work no less than 20 minutes before the regular beginning time of the school day and shall remain on duty for at least 15 minutes after the closing time of school. Secondary teachers shall report to work no less than 30 minutes before the regular beginning time of the school day and shall remain on duty for at least 20 minutes after the regular closing time of school.",
+    "page": "18",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "The consultation period(s) shall be used for consultation, preparation, or other professional purposes.",
+    "page": "19",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: 1 consultation/preparation period per day. Elementary: 1 hour 45 minutes weekly base plus 45-minute block weekly, plus 1 hour 40 minutes early dismissal one day/week.",
+    "evidence": "normal full-time load is six (6) teaching periods plus one consultation/preparation period per day. Each teacher will be given an additional 45-minute block of time weekly. Students in Elementary schools will be dismissed from school one hour and forty minutes early one day a week.",
+    "page": "17, 20",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Planning time shall not be used for faculty meetings.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "All teachers shall have an uninterrupted, duty-free lunch period of at least 30 minutes daily, not counting passing time",
+    "page": "19",
+    "confidence": "high"
+  }
+}

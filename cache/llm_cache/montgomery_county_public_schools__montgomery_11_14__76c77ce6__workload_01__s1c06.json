@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "215",
+    "evidence": "■ The work year for classroom teachers, speech pathologists, occupational therapists, and physical therapists assigned to the Montgomery County Infants and Toddlers Program (MCITP) shall not exceed 215 duty days.",
+    "page": "39",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7 hours + lunch (school-based 10-month); 8 hours + lunch (central/field/12-month). Specific clock times are not stated, only that assignments ensure this length.",
+    "evidence": "normal workday at their school will be seven hours in addition to their duty-free lunch period. All 12-month personnel... will be assigned appropriate starting and dismissal times so that their normal workday will be eight hours in addition to their lunch period.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "requirement to provide a minimum of 3 hours and 45 minutes for individually managed planning and work.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Elementary: minimum 3 hours 45 minutes individually managed per regular workweek. Secondary: minimum 50 percent of total non-instructional time during student day individually managed.",
+    "evidence": "teacher schedules will include a minimum of 3 hours and 45 minutes of time that is for individually managed planning and work during regular workweeks. ... provide for a minimum of 50 percent of the total non-instructional time during the student day to be individually managed.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Parameters must take into account the other duties assigned to teachers and the requirement to provide a minimum of 3 hours and 45 minutes for individually managed planning and work. ... not at times that result in loss of guaranteed minimum individually managed time.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "duty-free lunch period. Unit members’ lunch period shall be no less than 30 minutes in length.",
+    "page": "35",
+    "confidence": "high"
+  }
+}

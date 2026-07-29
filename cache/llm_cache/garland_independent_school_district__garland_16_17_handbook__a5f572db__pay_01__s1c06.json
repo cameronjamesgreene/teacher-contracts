@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "no",
+    "evidence": "The state minimum salary schedule for teachers, librarians, nurses, and counselors approved by the 81st Legislature is on file in the office of the Executive Director of Human Resources.",
+    "page": "74",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2016-2017",
+    "evidence": "The 2016-2017 budget and salary schedule have not approved by the school board at the time of printing.",
+    "page": "80",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "no",
+    "evidence": "",
+    "page": "74",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_applicable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

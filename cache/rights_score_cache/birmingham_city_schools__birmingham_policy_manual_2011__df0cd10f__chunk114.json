@@ -1,0 +1,30 @@
+{
+  "clauses": [
+    {
+      "quote": "The Birmingham Board of Education shall provide appropriate opportunities for such training in accordance with State requirements and recommendations of the Superintendent.",
+      "subject_text": "The Birmingham Board of Education",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": ""
+    },
+    {
+      "quote": "Instructors are responsible for following all regul.aticms which detail the appropriatene.s, scheduling, cost, collection of fees or charges and release of school liability.",
+      "subject_text": "Instructors",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Contains OCR artifacts. Duty to comply with regulatory details primarily protects district liability and operational interests."
+    }
+  ]
+}

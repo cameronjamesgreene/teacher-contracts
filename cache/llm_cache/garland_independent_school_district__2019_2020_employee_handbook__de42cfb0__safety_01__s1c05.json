@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The district has developed and promotes a comprehensive program to ensure the safety of its employees, students, and visitors. The safety program includes guidelines and procedures for responding to emergencies and activities to help reduce the frequency of accidents and injuries.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "If the NWS issues a Warning for GISD’s tri-cities during school hours, the district may choose to lockout campuses and shelter students and staff in place. ... GISD uses the Skylert telephone notification system to alert parents and employees of school closings and other important information.",
+    "page": "70, 71",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

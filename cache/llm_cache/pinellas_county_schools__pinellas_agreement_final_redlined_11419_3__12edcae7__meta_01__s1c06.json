@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "ARTICLE 47 46 PINELLAS VIRTUAL INSTRUCTION PROGRAM",
+    "page": "61",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2018-2019 school year",
+    "evidence": "For the 2018-2019 school year, the following schools are Tier II schools:",
+    "page": "69",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / classroom teachers",
+    "evidence": "Teachers will work 37.5 hours per week and must be available to students by phone, text, video conferencing or email.",
+    "page": "62",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The Board and the Union agree that Virtual School Instructional Programs provide a vital alternative to traditional classroom instruction.",
+    "page": "61",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Pursuant to the Memorandum of Understanding required by Section 1001.42, F.S.",
+    "page": "68",
+    "confidence": "high"
+  }
+}

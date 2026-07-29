@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "No teacher will be disciplined, reprimanded, reduced in rank or compensation or deprived of any professional advantage without cause.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "The Board of Education will accept the resignation of any non-tenured Unit I employee submitted prior to May 1 without prejudice, provided that the said employee has not been recommended by the Superintendent for Termination or non-renewal due to cause.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": "Corrected page number to 12 based on document pagination. Updated confidence to high as Section 4.14 explicitly outlines termination and non-renewal procedures, providing direct and unambiguous support."
+  }
+}

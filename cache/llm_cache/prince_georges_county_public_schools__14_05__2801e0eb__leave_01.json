@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10-20 days depending on hire date and years of service (10 days base for post-July 1987 hires, 15 days for pre-1987 hires, plus up to 5 additional days based on tenure)",
+    "evidence": "An employee whose employment began on or after July 1, 1987... shall be entitled to ten (10) days of sick leave each year... After fifteen (15) years of employment, an employee would be entitled to five (5) additional days.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": "Document text provided truncates at section 4.17, before the relevant leave sections (pages 16-17). Cannot cross-reference with appended text, but Stage 1 quotes are highly specific and explicitly support the coded answer. Preserved."
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates without limit; transfer cap is 100 days",
+    "evidence": "Unused sick leave earned and credited to an employee as of July 1, 1977... may be accumulated from year to year without limit.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": "Document text provided truncates at section 4.17, before the relevant leave sections (pages 16-17). Cannot cross-reference with appended text, but Stage 1 quotes are highly specific and explicitly support the coded answer. Preserved."
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "A member of the unit with one or more years of service... may use a maximum of five (5) days annually of accumulated sick leave for serious illness of members of the family residing permanently in the household.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": "Document text provided truncates at section 4.17, before the relevant leave sections (pages 16-17). Cannot cross-reference with appended text, but Stage 1 quotes are highly specific and explicitly support the coded answer. Preserved."
+  },
+  "leave_personal_days_004": {
+    "answer": "4",
+    "evidence": "Unit members’ personal leave entitlements will be increased by one (1) day, effective July 1, 2005, to a maximum of four (4) days.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": "Document text provided truncates at section 4.17, before the relevant leave sections (pages 16-17). Cannot cross-reference with appended text, but Stage 1 quotes are highly specific and explicitly support the coded answer. Preserved."
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires reason and final approval if used immediately before/after holidays, vacations, or staff development days; prohibited on staff development days; prohibited during the last 5 days of the school term unless approved in writing",
+    "evidence": "Leave immediately before or after a holiday, emergency makeup, vacation or staff development day(s) may be requested for reason and must have final approval... 4. No personal leave will be granted on staff development days. 5. No personal leave will be granted during the last five (5) days of any school term except as may be approved in writing...",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": "Document text provided truncates at section 4.17, before the relevant leave sections (pages 16-17). Cannot cross-reference with appended text, but Stage 1 quotes are highly specific and explicitly support the coded answer. Preserved."
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "Unused personal leave will be transferred to accumulated sick leave at the end of the year.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": "Document text provided truncates at section 4.17, before the relevant leave sections (pages 16-17). Cannot cross-reference with appended text, but Stage 1 quotes are highly specific and explicitly support the coded answer. Preserved."
+  }
+}

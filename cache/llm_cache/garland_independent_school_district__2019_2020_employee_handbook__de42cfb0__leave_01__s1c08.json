@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Accumulated state sick leave shall be used only for the following: 1. Illness of the employee. 2. Illness of a member of the employee’s immediate family.",
+    "page": "119",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "5",
+    "evidence": "A district shall provide employees with five days per year of state personal leave",
+    "page": "119",
+    "confidence": "medium"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

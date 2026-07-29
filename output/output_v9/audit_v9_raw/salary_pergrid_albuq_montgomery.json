@@ -1,0 +1,146 @@
+[
+  {
+    "district": "Albuquerque",
+    "file": "2018_2019_salary_matrix_at_1__atf_negotiated_agreement_2018_19.csv",
+    "source_page": "72",
+    "cells_checked": 140,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "AT-1 steps 1-20 x7 lanes all match truth p72 exactly. Truth AT-1 schedule ends at step 20 (page 72), so grid is complete; no errors."
+  },
+  {
+    "district": "Albuquerque",
+    "file": "2018_2019_salary_matrix_at_1__atf_negotiated_agreement_2018_19__p72-72.csv",
+    "source_page": "72",
+    "cells_checked": 140,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Duplicate of no-suffix AT-1. Steps 1-20 x7 all match truth p72; schedule genuinely ends step 20. Complete, no errors."
+  },
+  {
+    "district": "Albuquerque",
+    "file": "appendix_a_2_2018_2019_salary_matrix_at_2__atf_negotiated_agreement_2018_19.csv",
+    "source_page": "73-74",
+    "cells_checked": 266,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "AT-2 steps 1-38 x7 all match truth exactly, but truth AT-2 runs to step 50 on page 74. Grid truncated: steps 39-50 (12 rows) missing."
+  },
+  {
+    "district": "Albuquerque",
+    "file": "appendix_a_2_2018_2019_salary_matrix_at_2__atf_negotiated_agreement_2018_19__p73-74.csv",
+    "source_page": "73-74",
+    "cells_checked": 266,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "Duplicate of no-suffix AT-2. Steps 1-38 x7 correct; truncated - truth p74 steps 39-50 not extracted despite p73-74 label."
+  },
+  {
+    "district": "Albuquerque",
+    "file": "appendix_a_3_2018_2019_salary_matrix_at_3__atf_negotiated_agreement_2018_19.csv",
+    "source_page": "75-76",
+    "cells_checked": 164,
+    "cells_wrong": 0,
+    "status": "PARTIAL",
+    "audit_note": "AT-3 steps 1-41 x4 all match truth p75 exactly; truncated - truth AT-3 continues steps 42-50 on page 76, not extracted."
+  },
+  {
+    "district": "Albuquerque",
+    "file": "appendix_a_3_2018_2019_salary_matrix_at_3__atf_negotiated_agreement_2018_19__p75-76.csv",
+    "source_page": "75-76",
+    "cells_checked": 164,
+    "cells_wrong": 3,
+    "status": "PARTIAL",
+    "audit_note": "AT-3 variant: steps 33-41 dropped; step 32 lanes MA+15/MA+45/Doc blank (truth 56374/57143/57696). Steps 1-31 & 42-50 correct. Validation flagged dropped_row."
+  },
+  {
+    "district": "Albuquerque",
+    "file": "appendix_a_5_2018_2019_salary_matrix_a_3_4_educati__atf_negotiated_agreement_2018_19.csv",
+    "source_page": "78",
+    "cells_checked": 160,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "A-3/4 Ed Diagnosticians/Psychologists steps 1-40 x4 all match truth p78 exactly. Schedule ends step 40. Complete, no errors."
+  },
+  {
+    "district": "Albuquerque",
+    "file": "appendix_a_5_2018_2019_salary_matrix_a_3_4_educati__atf_negotiated_agreement_2018_19__p78-78.csv",
+    "source_page": "78",
+    "cells_checked": 160,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Duplicate of no-suffix A.5. Steps 1-40 x4 all match truth p78; schedule ends step 40. Complete, no errors."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14.csv",
+    "source_page": "78",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Eff Sep 3 2016 sched, steps 1-25 x4 all match truth p78. BA blank steps 11-25 matches truth (BA maxes at step 10). Complete."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14__p78-78.csv",
+    "source_page": "78",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Duplicate of Sep 3 2016 sched. Steps 1-25 x4 match truth p78; BA blank steps 11-25 per truth. Complete."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14.csv",
+    "source_page": "79",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Eff Mar 3 2017 sched, steps 1-25 x4 all match truth p79. BA present steps 11-12 (66998/68338), blank steps 13-25 per truth. Complete."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14__p79-79.csv",
+    "source_page": "79",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Duplicate of Mar 3 2017 sched. Steps 1-25 x4 match truth p79; BA present steps 11-12, blank 13-25 per truth. Complete."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14.csv",
+    "source_page": "76",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Eff Nov 29 2014 sched, steps 1-25 x4 all match truth p76. BA blank steps 11-25 per truth. Complete, no errors."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14__p76-76.csv",
+    "source_page": "76",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Duplicate of Nov 29 2014 sched. Steps 1-25 x4 match truth p76; BA blank steps 11-25 per truth. Complete."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14.csv",
+    "source_page": "77",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Eff Oct 3 2015 sched, steps 1-25 x4 all match truth p77. BA blank steps 11-25 per truth. Complete, no errors."
+  },
+  {
+    "district": "Montgomery",
+    "file": "10_month_salary_schedule__mcea_contract_fy15_fy17_3_15_14__p77-77.csv",
+    "source_page": "77",
+    "cells_checked": 100,
+    "cells_wrong": 0,
+    "status": "CORRECT",
+    "audit_note": "Duplicate of Oct 3 2015 sched. Steps 1-25 x4 match truth p77; BA blank steps 11-25 per truth. Complete."
+  }
+]

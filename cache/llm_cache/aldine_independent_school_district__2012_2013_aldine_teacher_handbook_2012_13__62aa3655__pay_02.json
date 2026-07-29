@@ -1,0 +1,44 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "Special Education teachers for PPCD – 12th grades",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Stage 1 quoted evidence from page 28, which is not included in the provided document excerpt. The TOC indicates a 'Critical Needs Supplement' section on pages 28-29, but without the full text, no evidence can be verified. Changed to not_discussed."
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "Math teachers for 7th – 12th grades / Science teachers for 7th – 12th grades",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Stage 1 quoted evidence from page 28, which is not included in the provided document excerpt. Changed to not_discussed."
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "Bilingual teachers for all levels",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Stage 1 quoted evidence from page 28, which is not included in the provided document excerpt. Changed to not_discussed."
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

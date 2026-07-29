@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective Bargaining Agreement (CBA)",
+    "evidence": "The District and the Federation have established a self-funded Sick Leave Bank.",
+    "page": "83",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2022-2023",
+    "evidence": "Albequerque_2022-2023.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Educators / Federation members",
+    "evidence": "Any request made of the Public Education Department for deviation from state class size requirements... shall be made available to the Federation upon request.",
+    "page": "72",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Appeals shall be determined through Contract Administration on a case-by-case basis.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Workers' Compensation Act of New Mexico",
+    "page": "82",
+    "confidence": "high"
+  }
+}

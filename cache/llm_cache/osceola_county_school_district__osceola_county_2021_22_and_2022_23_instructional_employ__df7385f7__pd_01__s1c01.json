@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "The Association shall be provided two (2) hours of released time during pre-planning in order to sponsor an activity for Association representatives and teachers new to Osceola County.",
+    "page": "14",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Teachers shall comprise the majority and serve on the insurance, testing, discipline, textbooks, curriculum, building, and other committees upon which administrators and teachers mutually agree. Teachers serving on these committees will receive no additional compensation when such committees meet outside the regular workday.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

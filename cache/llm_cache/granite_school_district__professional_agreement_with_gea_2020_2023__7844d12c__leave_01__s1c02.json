@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10",
+    "evidence": "Ten days of sick leave will be granted annually with full pay.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accumulates; cap is 30 teaching days.",
+    "evidence": "Ten days of sick leave will be granted annually with full pay, cumulative to thirty teaching days.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Special use of sick leave will be reviewed by the principal, the Benefits Department, and granted by the appropriate Assistant Superintendent, in the event of serious illness of a member of the immediate family, or of any other person who is a member of the same household as the teacher.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

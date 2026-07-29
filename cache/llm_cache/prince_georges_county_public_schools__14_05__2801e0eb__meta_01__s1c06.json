@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "implementation of this section will begin upon ratiﬁcation of this Negotiated Agreement",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2006 - June 30, 2007",
+    "evidence": "July 1, 2006 - June 30, 2007",
+    "page": "30",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Unit I / Unit 1 (Professional/Certificated personnel)",
+    "evidence": "Unit I member",
+    "page": "23",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding",
+    "evidence": "upon ratiﬁcation of this Negotiated Agreement",
+    "page": "24",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium"
+  }
+}

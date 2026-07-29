@@ -1,0 +1,15 @@
+"# teachers_2019-2021_final_3-15-2021_signed.pdf — SCHEDULE C1 SENIOR HIGH ATHLETICS (Effective July 1, 2006)"
+# population: senior high athletics staff | is_teacher_schedule: False
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+step,value
+"Athletic Director (for each: fall, winter, and spring)",3751
+Athletic Equipment Manager,4928
+Tier 1 Head Coach,5710
+Tier 1 Assistant Junior Varsity and Sophomore Coaches (65% head coach),3725
+Tier 1 9th Grade Coaches (55% head coach),3152
+Tier 1 Additional Assistant Coach (45% head coach),2579
+Tier 2 Head Coach,4621
+Tier 2 Assistant Junior Varsity and Sophomore Coaches (65% head coach),3004
+Tier 2 9th Grade Coaches (55% head coach),2541
+Tier 3 Coach,3512
+Tier 4 Coach,2403

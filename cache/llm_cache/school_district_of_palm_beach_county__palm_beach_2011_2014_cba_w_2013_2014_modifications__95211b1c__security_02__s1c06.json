@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Such employees shall be recalled in descending order of seniority, with continuing/PSC contract employees being recalled first and then fully certificated annual contract employees. Such recall rights shall not extend beyond two (2) years after the actual layoff occurs. Employees being recalled shall be notified by certified mail and shall have fifteen (15) calendar days from the date of receipt to respond affirmatively.",
+    "page": "88",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "certification status followed by seniority",
+    "evidence": "Once specific positions and/or areas of certification and levels are determined, reduction shall be made on a county-wide basis as follows: a. Employees holding temporary or provisional certification will be the first released. b. Fully certificated annual/probationary contract employees, the next released. c. Continuing/professional service contract employees will be the last to be released. d. Within each of the items (a) through (c), reductions shall be made such that persons in those areas having the least seniority will be the first released.",
+    "page": "87",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "no",
+    "evidence": "Continuing/professional service contract employees will be the last to be released.",
+    "page": "87",
+    "confidence": "medium"
+  },
+  "security_certification_011": {
+    "answer": "no",
+    "evidence": "In elementary schools, employees shall be considered to be at two (2) levels and shall possess appropriate certification for that level.",
+    "page": "87",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "Article 13, EVALUATION PROCEDURES",
+    "page": "67",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Public Education Department regulations",
+    "evidence": "Educators will be evaluated each year of service as an educator as per Public Education Department regulations.",
+    "page": "68",
+    "confidence": "medium"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "2",
+    "evidence": "Educators have the right to request an alternative observer from the District for one of the two formal observations.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

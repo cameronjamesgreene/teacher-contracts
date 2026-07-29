@@ -1,0 +1,1379 @@
+{
+  "has_table": true,
+  "schedule_label": "Washington Teacher's Union ET-15 Salary Schedule - FY 2027 (Effective October 4, 2026); combines 10-Month, 11-Month, and 12-Month variants",
+  "school_year_or_effective_date": "FY 2027 (effective October 4, 2026; 3.0% adjustment)",
+  "lane_labels": [
+    "10 Month - Bachelors",
+    "10 Month - Bachelors + 15",
+    "10 Month - Bachelors + 30/Masters",
+    "10 Month - Masters + 30",
+    "10 Month - Masters + 60/PhD",
+    "11 Month - Bachelors",
+    "11 Month - Bachelors + 15",
+    "11 Month - Bachelors + 30/Masters",
+    "11 Month - Masters + 30",
+    "11 Month - Masters + 60/PhD",
+    "12 Month - Bachelors",
+    "12 Month - Bachelors + 15",
+    "12 Month - Bachelors + 30/Masters",
+    "12 Month - Masters + 30",
+    "12 Month - Masters + 60/PhD"
+  ],
+  "step_labels": [
+    "Step 1",
+    "Step 2",
+    "Step 3",
+    "Step 4",
+    "Step 5",
+    "Step 6",
+    "Step 7",
+    "Step 8",
+    "Step 9",
+    "Step 10",
+    "Step 11",
+    "Step 12-15",
+    "Step 16",
+    "17-18 Yrs Service",
+    "19-20 Yrs Service",
+    "21+ Yrs Service"
+  ],
+  "cells": [
+    {
+      "step": "Step 1",
+      "lane": "10 Month - Bachelors",
+      "value": "68577",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "10 Month - Bachelors",
+      "value": "68813",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "10 Month - Bachelors",
+      "value": "70224",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "10 Month - Bachelors",
+      "value": "72817",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "10 Month - Bachelors",
+      "value": "75385",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "10 Month - Bachelors",
+      "value": "77971",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "10 Month - Bachelors",
+      "value": "81256",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "10 Month - Bachelors",
+      "value": "84516",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "10 Month - Bachelors",
+      "value": "87799",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "10 Month - Bachelors",
+      "value": "91054",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "10 Month - Bachelors",
+      "value": "94326",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "10 Month - Bachelors",
+      "value": "100879",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "10 Month - Bachelors",
+      "value": "108740",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "70862",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "71982",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "73461",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "76039",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "78619",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "81208",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "84487",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "87762",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "91030",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "94311",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "97566",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "104133",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "10 Month - Bachelors + 15",
+      "value": "115246",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "73149",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "74835",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "78104",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "81375",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "84639",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "87922",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "91985",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "96030",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "100102",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "104148",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "108224",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "116335",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "126892",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "128349",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "130776",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "10 Month - Bachelors + 30/Masters",
+      "value": "134176",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "10 Month - Masters + 30",
+      "value": "75436",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "10 Month - Masters + 30",
+      "value": "78104",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "10 Month - Masters + 30",
+      "value": "81375",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "10 Month - Masters + 30",
+      "value": "84639",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "10 Month - Masters + 30",
+      "value": "87922",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "10 Month - Masters + 30",
+      "value": "91194",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "10 Month - Masters + 30",
+      "value": "95244",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "10 Month - Masters + 30",
+      "value": "99316",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "10 Month - Masters + 30",
+      "value": "103369",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "10 Month - Masters + 30",
+      "value": "107418",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "10 Month - Masters + 30",
+      "value": "111468",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "10 Month - Masters + 30",
+      "value": "119602",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "10 Month - Masters + 30",
+      "value": "130229",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "10 Month - Masters + 30",
+      "value": "131683",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "10 Month - Masters + 30",
+      "value": "134112",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "10 Month - Masters + 30",
+      "value": "137512",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "80005",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "81375",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "84639",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "87922",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "91194",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "92616",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "98523",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "102589",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "106642",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "110703",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "114745",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "123229",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "134478",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "135932",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "138362",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "10 Month - Masters + 60/PhD",
+      "value": "141761",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "11 Month - Bachelors",
+      "value": "75436",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "11 Month - Bachelors",
+      "value": "75693",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "11 Month - Bachelors",
+      "value": "77248",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "11 Month - Bachelors",
+      "value": "80097",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "11 Month - Bachelors",
+      "value": "82923",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "11 Month - Bachelors",
+      "value": "85768",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "11 Month - Bachelors",
+      "value": "89383",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "11 Month - Bachelors",
+      "value": "92966",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "11 Month - Bachelors",
+      "value": "96579",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "11 Month - Bachelors",
+      "value": "100160",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "11 Month - Bachelors",
+      "value": "103760",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "11 Month - Bachelors",
+      "value": "110968",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "11 Month - Bachelors",
+      "value": "119615",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "77947",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "79181",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "80807",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "83641",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "86482",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "89329",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "92937",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "96538",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "100135",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "103740",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "107322",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "114547",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "11 Month - Bachelors + 15",
+      "value": "126772",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "80465",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "82319",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "85916",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "89514",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "93104",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "96713",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "101183",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "105632",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "110115",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "114565",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "119046",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "127968",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "139581",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "141183",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "143854",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "11 Month - Bachelors + 30/Masters",
+      "value": "147593",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "11 Month - Masters + 30",
+      "value": "82978",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "11 Month - Masters + 30",
+      "value": "85916",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "11 Month - Masters + 30",
+      "value": "89514",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "11 Month - Masters + 30",
+      "value": "93104",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "11 Month - Masters + 30",
+      "value": "96713",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "11 Month - Masters + 30",
+      "value": "100313",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "11 Month - Masters + 30",
+      "value": "104770",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "11 Month - Masters + 30",
+      "value": "109247",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "11 Month - Masters + 30",
+      "value": "113707",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "11 Month - Masters + 30",
+      "value": "118159",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "11 Month - Masters + 30",
+      "value": "122616",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "11 Month - Masters + 30",
+      "value": "131562",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "11 Month - Masters + 30",
+      "value": "143252",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "11 Month - Masters + 30",
+      "value": "144852",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "11 Month - Masters + 30",
+      "value": "147523",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "11 Month - Masters + 30",
+      "value": "151262",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "88006",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "89514",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "93104",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "96713",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "100313",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "103913",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "108376",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "112849",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "117305",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "121774",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "126219",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "135552",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "147924",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "149528",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "152198",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "11 Month - Masters + 60/PhD",
+      "value": "155936",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "12 Month - Bachelors",
+      "value": "81270",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "12 Month - Bachelors",
+      "value": "81517",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "12 Month - Bachelors",
+      "value": "83026",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "12 Month - Bachelors",
+      "value": "85782",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "12 Month - Bachelors",
+      "value": "88519",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "12 Month - Bachelors",
+      "value": "91274",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "12 Month - Bachelors",
+      "value": "94774",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "12 Month - Bachelors",
+      "value": "98242",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "12 Month - Bachelors",
+      "value": "101737",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "12 Month - Bachelors",
+      "value": "105205",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "12 Month - Bachelors",
+      "value": "108691",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "12 Month - Bachelors",
+      "value": "115671",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "12 Month - Bachelors",
+      "value": "124043",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "83704",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "84896",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "86472",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "89216",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "91965",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "94721",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "98214",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "101701",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "105182",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "108677",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "112142",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "119136",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "12 Month - Bachelors + 15",
+      "value": "130973",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "86137",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "87920",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "91415",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "94901",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "98376",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "101871",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "106175",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "110505",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "114846",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "119153",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "122357",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "132130",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "143373",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "144831",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "147259",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "12 Month - Bachelors + 30/Masters",
+      "value": "150658",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "12 Month - Masters + 30",
+      "value": "88572",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "12 Month - Masters + 30",
+      "value": "91415",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "12 Month - Masters + 30",
+      "value": "94901",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "12 Month - Masters + 30",
+      "value": "98376",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "12 Month - Masters + 30",
+      "value": "101871",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "12 Month - Masters + 30",
+      "value": "105356",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "12 Month - Masters + 30",
+      "value": "109668",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "12 Month - Masters + 30",
+      "value": "114004",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "12 Month - Masters + 30",
+      "value": "118325",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "12 Month - Masters + 30",
+      "value": "122634",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "12 Month - Masters + 30",
+      "value": "126948",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "12 Month - Masters + 30",
+      "value": "135611",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "12 Month - Masters + 30",
+      "value": "146929",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "12 Month - Masters + 30",
+      "value": "148384",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "12 Month - Masters + 30",
+      "value": "150813",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "12 Month - Masters + 30",
+      "value": "154213",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "93440",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "94901",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "98376",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "101871",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "105356",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "108848",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "113162",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "117491",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "121808",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "126133",
+      "cell_code": null
+    },
+    {
+      "step": "Step 11",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "130435",
+      "cell_code": null
+    },
+    {
+      "step": "Step 12-15",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "139474",
+      "cell_code": null
+    },
+    {
+      "step": "Step 16",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "151450",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "152908",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "155336",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service",
+      "lane": "12 Month - Masters + 60/PhD",
+      "value": "158735",
+      "cell_code": null
+    }
+  ],
+  "notes": "Same layout as the FY2025/FY2026 ET-15 schedules: three side-by-side sub-tables by month-length, treated as separate lane groups sharing one Step/Longevity row axis. Longevity columns are 'N/A' for Bachelors and Bachelors+15 and omitted as cells. Source text cleanly extracted (not image-based).",
+  "confidence": "high",
+  "extraction_method": "text",
+  "page_start": 113,
+  "page_end": 113
+}

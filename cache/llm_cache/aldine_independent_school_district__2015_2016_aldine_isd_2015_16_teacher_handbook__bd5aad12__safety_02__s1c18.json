@@ -1,0 +1,14 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "All visitors must have prior approval of admission on campus before visiting classes. Parents and visitors must go through the campus security procedures before visiting classrooms.",
+    "page": "168",
+    "confidence": "high"
+  },
+  "safety_weapons_008": {
+    "answer": "yes",
+    "evidence": "Weapons are prohibited.",
+    "page": "161",
+    "confidence": "high"
+  }
+}

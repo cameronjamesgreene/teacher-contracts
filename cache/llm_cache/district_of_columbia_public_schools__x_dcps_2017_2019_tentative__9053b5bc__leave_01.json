@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "12 days (10-month teachers), 13.5 days (11-month teachers), 15 days (12-month teachers)",
+    "evidence": "Twelve (12) days (96 hours) of sick leave are posted at the beginning of each school year for ten (10) month teachers. / Fifteen days (15) days (120 hours) of sick leave are posted at the beginning of each school year for twelve (12) month Teachers / Thirteen and one half (13.5) days (108 hours) of sick leave are posted at the beginning of each school year for eleven (11) month teachers",
+    "page": "54-55",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Unused sick leave carries forward year-to-year; general leave is not cumulative. No maximum accumulation cap is stated.",
+    "evidence": "Unused sick leave shall be carried forward from year to year. / General leave shall not be cumulative. / All unused and unreturned sick leave shall be carried forward from year to year.",
+    "page": "54, 56",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

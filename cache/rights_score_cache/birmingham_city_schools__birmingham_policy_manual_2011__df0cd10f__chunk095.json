@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "quote": "Be may recommend to the Board for its consideration any change in the use of a school facility that may involve consolidation. closing and/or conversion to some other use when he believes such action will serve the best interest of the school system.",
+      "subject_text": "Be",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "OCR error likely 'He' referring to the Superintendent; grants discretionary authority over facility changes."
+    },
+    {
+      "quote": "a comprehensive study of the use of all school facilities may be conducted either by the Superintendent and his staff or. with the Board's approval. by other appropriate consultants or agencies.",
+      "subject_text": "a comprehensive study of the use of all school facilities",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Fragmented by OCR periods; implicit agent is management."
+    },
+    {
+      "quote": "Such a study will also include the appointment of a Task Force of lay citizens, parents and staff members as an advisory group.",
+      "subject_text": "Such a study",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Any study'conducted by the Superintendent and his staff or by outside consultants or agencies that gives consideration to the consolidation. closing and/or conversion of achool facilities to other use shall take into account the following criteria:",
+      "subject_text": "Any study'conducted by the Superintendent and his staff or by outside consultants or agencies that gives consideration to the consolidation. closing and/or conversion of achool facilities to other use",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "OCR artifacts present; imposes mandatory criteria for facility studies."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Such employees shall be recalled in descending order of seniority, with continuing/PSC contract employees being recalled first and then fully certificated annual contract employees. Such recall rights shall not extend beyond two (2) years after the actual layoff occurs. Employees being recalled shall be notified by certified mail and shall have fifteen (15) calendar days from the date of receipt to respond affirmatively.",
+    "page": "72",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "Combination of seniority and certification. Order of layoff: (1) temporary/provisional certification, (2) fully certificated annual/probationary contract, (3) continuing/professional contract.",
+    "evidence": "reduction shall be made on a county-wide basis and shall be based upon seniority and certification as further defined in this Section. ... Employees holding temporary or provisional certification will be the first released. Fully certificated annual/probationary contract employees, the next released.",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "4 years",
+    "evidence": "The exception to this provision is when an employee is offered and accepts a fourth year annual contract in keeping with all applicable laws, rules and regulations.",
+    "page": "73",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "continuing/professional service contract employees will be the last to be released. Any employee who is otherwise entitled to a professional service contract as set forth in 2 below shall not be deprived of same because of a transfer or reassignment. Any employee who holds a regular certificate... who has completed at least three (3) of the previous five (5) years in the District and who has been reappointed by the School Board, shall be issued a professional service contract...",
+    "page": "71, 73",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "An employee shall not be assigned to a grade level and/or subject area that is not within the scope of his/her certificate except in extenuating circumstances and with the specific approval of such out-of-field assignment by the Chief Personnel Officer.",
+    "page": "46",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "198",
+    "evidence": "It is understood that The these rates are for the established one hundred ninety eight (198) days, which is inclusive of six (6) paid holidays as determined in the Calendar Committee process.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Teachers shall be free to use the pre- and post-school planning time to prepare for the opening and closing of the school year within their own school except as follows:",
+    "page": "56",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Internal meetings shall be held to a minimum to allow maximum preparation time by teachers. In addition to the trade day option, twoOne days or four two half days during the pre-school period shall be designated as instructional excellence day and no meeting or activities will be scheduled by the Administration or Association.",
+    "page": "56",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

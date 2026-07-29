@@ -1,0 +1,7 @@
+# SD_of_Philadelphia_2021-2024.pdf — Extramural Sports Salaries (9/1/20 - 9/1/23)
+# population: Extramural Sports Coaches | is_teacher_schedule: False
+"# validation_warnings: identical values across lanes ['9/1/20', '9/1/21', '9/1/22'] — one lane column was copied across slots (or a fabricated column duplicates its neighbour) instead of extracting each lane distinctly | audit confirmed"
+step,9/1/20,9/1/21,9/1/22,9/1/23
+Bowling Coach (50 EC Hours),1994,1994,1994,2054
+Indoor Track Coach (Single Gender Team) (50 EC Hours),1994,1994,1994,2054
+Indoor Track Coach (Co-Ed Team) (75 EC Hours),2991,2991,2991,3081

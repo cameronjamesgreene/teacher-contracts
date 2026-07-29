@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "seniority as used in this Agreement shall be based upon the length of service in IPS with the seniority date to be the date on which the teacher first served as a teacher in the IPS.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "In the event of a reduction in force, IPS identifies the teaching areas to be reduced and selects the least senior teachers to be laid off based on length of IPS service. Laid-off teachers may displace the least senior teacher in another certified assignment. Teachers assigned to magnet schools/programs cannot be displaced by teachers from other schools/programs.",
+    "evidence": "IPS will identify the teaching areas to be reduced. IPS will identify the least senior teacher(s) in those areas. IPS will select the least senior teacher(s) to be laid off, and seniority shall be determinative. A teacher who is identified to be laid off shall be allowed to displace the least senior teacher in another teaching assignment for which that teacher is certified and has the ability to perform. Teachers who are assigned to any magnet schools/programs cannot be displaced in a reduction in force by teachers from other schools/programs.",
+    "page": "30-31",
+    "confidence": "high"
+  }
+}

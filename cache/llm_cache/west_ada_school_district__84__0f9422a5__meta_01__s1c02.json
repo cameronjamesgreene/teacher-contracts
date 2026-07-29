@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Meridian School District Supplemental Salary Schedule for Middle School Activities 2007-2008... ARTICLE V SECTION 125 CAFETERIA FLEXIBLE BENEFITS PLAN",
+    "page": "13",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2007-2008",
+    "evidence": "for the 2007-2008 contract year",
+    "page": "15",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certified employees (Meridian Education Association)",
+    "evidence": "Meridian Education Association Executive Committee",
+    "page": "15",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "The Board agrees to provide employer-paid fringe benefits up to $446.51 per month for the 2007-2008 contract year.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "as allowed by Idaho Code 33-1216.",
+    "page": "19",
+    "confidence": "high"
+  }
+}

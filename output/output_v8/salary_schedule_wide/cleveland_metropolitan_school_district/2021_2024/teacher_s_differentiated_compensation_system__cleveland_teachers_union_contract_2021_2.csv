@@ -1,0 +1,21 @@
+# Cleveland_Teachers_Union_Contract_2021-2024.pdf — Teacher's Differentiated Compensation System (2021-2024)
+# population: Teachers | is_teacher_schedule: True
+# validation_warnings: cross_grid_duplicate: cell values are ~identical to a different schedule (Teacher's Differentiated Compensation System Compensation Schedules p158) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_duplicate: cell values are ~identical to a different schedule (Teacher’s Differentiated Compensation System p158) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_duplicate: cell values are ~identical to a different schedule (Appendix A Compensation Schedules TEACHER’S DIFFERENTIATED COMPENSATION SYSTEM p158) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_contamination: a value column matches a column in a different schedule (p158) — one grid's data may be contaminated from another; verify | audit confirmed
+step,"2021-2022 (Effective July 1, 2021)","2022-2023 (Effective July 1, 2022)","2023-2024 (Effective July 1, 2023)"
+Level 1,47765,49198,50182
+Level 2,51802,53356,54423
+Level 3,57423,59145,60328
+Level 4,61541,63388,64655
+Level 5,66168,68153,69516
+Level 6,71484,73629,75101
+Level 7,74725,76967,78507
+Level 8,77361,79682,81276
+Level 9,80090,82492,84142
+Level 10,82508,84983,86683
+Level 11,84792,87335,89082
+Level 12,86927,89535,91325
+Level 13,88896,91563,93394
+Level 14,90685,93406,95274
+Level 15,92509,95285,97190
+Level 16,94360,97191,99135
+Level 17,96248,99135,101118

@@ -1,0 +1,13 @@
+{
+  "has_table": false,
+  "schedule_label": "",
+  "school_year_or_effective_date": "",
+  "lane_labels": [],
+  "step_labels": [],
+  "cells": [],
+  "notes": "Page 97 is the Appendix A narrative introduction to the salary matrices (explains base salaries for AT1/$50,000, AT2/$60,000, AT3/$70,000 and merger of A-2/A-3 matrices into AT1-3), not the matrix grid itself. The actual matrix tables (A.1, A.2, A.3, etc.) follow on subsequent pages.",
+  "confidence": "high",
+  "extraction_method": "text",
+  "page_start": 97,
+  "page_end": 97
+}

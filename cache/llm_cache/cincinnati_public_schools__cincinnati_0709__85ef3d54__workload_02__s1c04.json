@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "The teacher workday shall be no more than four hundred twenty (420) consecutive minutes per day, including a duty-free lunch period of thirty (30) minutes.",
+    "page": "25",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "there shall be no more than two (2) building wide staff meetings per month.",
+    "page": "28",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Such duties shall include monitoring bus arrivals or departure or student boarding, monitoring the cafeteria, playground, hallways or student restrooms.",
+    "page": "26",
+    "confidence": "high"
+  }
+}

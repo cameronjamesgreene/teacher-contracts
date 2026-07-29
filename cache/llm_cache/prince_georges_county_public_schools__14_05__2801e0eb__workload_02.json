@@ -1,0 +1,23 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "The period shall extend for at least thirty (30) minutes, unless the regular lunch period scheduled for students is for a lesser period of time, in which case, the unit members’ schedule may coincide with the students’, however, the Principal may schedule up to a thirty (30) minute duty free lunch period for teachers where the students’ lunch period is less than thirty (30) minutes.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Faculty and other teacher meetings shall require notification at least forty-eight (48) hours in advance except in emergencies, and shall not normally last more than one hour before or after the student day. Except in emergencies there shall be no more than two general faculty meetings per month excluding the months of September and June when three general faculty meetings may be held each month. Teachers will not be required to attend more than two meetings per month that extend beyond the normal duty day including the general faculty meetings nor will elementary teachers be required to attend more than four meetings per month during the teacher duty day unless there are unforeseen circumstances.",
+    "page": "9",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Monitors are hired for the express purpose of relieving teachers of certain non-instructional duties, during student lunch and recess periods, including but not limited to: supervising pupils in cafeteria, halls, lavatories and playgrounds. Teachers shall not be expected to perform custodial duties. However, the teacher shall be responsible for maintaining reasonable order and cleanliness in the classroom... The Principal of each school, with review of the Faculty Advisory Council, will work out an equitable duty load for all members of the faculty",
+    "page": "7, 9",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

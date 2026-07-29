@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Section 1.1.1 above is subject to continued funding of the Grade Span Adjustment/Class Size Reduction program by the State of California and implementation procedures and timelines specified in Education Code section 42238.02.",
+    "evidence": "Section 1.1.1 above is subject to continued funding of the Grade Span Adjustment/Class Size Reduction program by the State of California and implementation procedures and timelines specified in Education Code section 42238.02.",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Permanent unit members who have been with the District at least ten (10) consecutive years, who are \"highly qualified\" pursuant to the laws and regulations under \"No Child Left Behind\" (20 U.S.C. 7801, et. seq.) and whose most recent evaluation rating is \"meets\" standards may be evaluated up to every five years, provided the unit member and his/her evaluator consent. All references to \"Medicare\" refer to the Federal Medicare Law as described in Title 18 of the Social Security Act of 1964.",
+    "evidence": "Permanent unit members who have been with the District at least ten (10) consecutive years, who are \"highly qualified\" pursuant to the laws and regulations under \"No Child Left Behind\" (20 U.S.C. 7801, et. seq.) and whose most recent evaluation rating is \"meets\" standards may be evaluated up to every five years, provided the unit member and his/her evaluator consent. All references to \"Medicare\" refer to the Federal Medicare Law as described in Title 18 of the Social Security Act of 1964.",
+    "page": "8, 22",
+    "confidence": "high",
+    "coder_notes": "Added second federal law citation found on page 22 referencing the Social Security Act of 1964."
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "\"No Child Left Behind\" (20 U.S.C. 7801, et. seq.), Federal Medicare Law (Title 18 of the Social Security Act of 1964)",
+    "evidence": "\"No Child Left Behind\" (20 U.S.C. 7801, et. seq.), Federal Medicare Law (Title 18 of the Social Security Act of 1964)",
+    "page": "8, 22",
+    "confidence": "high",
+    "coder_notes": "Added second federal law citation found on page 22."
+  }
+}

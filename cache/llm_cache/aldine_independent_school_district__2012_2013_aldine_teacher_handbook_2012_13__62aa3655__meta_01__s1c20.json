@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Teacher Handbook 2012-2013",
+    "page": "153",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2012-2013",
+    "evidence": "Teacher Handbook 2012-2013",
+    "page": "153",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "All teachers are responsible for closing their windows, turning off the lights, and locking the door when leaving their room.",
+    "page": "155",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "State law regulates the maximum speed limit of buses to 55 M.P.H. on interstates and highways, outside the city limits. / The above is from 19 TAC §76.1001, Subchapter AA. / (TEC §28.021)",
+    "page": "154, 159",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7:00-3:00",
+    "evidence": "School Day: Teachers 7:00-3:00",
+    "page": "115",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Each classroom teacher is entitled to at least 450 minutes within each two week period for instructional preparation including parent-teacher conferences, evaluating students’ work and planning.",
+    "page": "114",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "450 minutes within each two week period",
+    "evidence": "at least 450 minutes within each two week period for instructional preparation",
+    "page": "114",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "During a planning and preparation period, a classroom teacher may not be required to participate in any other activity.",
+    "page": "114",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "no",
+    "evidence": "Teachers will be allowed to leave campus during lunch as long as they return to the campus on time.",
+    "page": "115",
+    "confidence": "high"
+  }
+}

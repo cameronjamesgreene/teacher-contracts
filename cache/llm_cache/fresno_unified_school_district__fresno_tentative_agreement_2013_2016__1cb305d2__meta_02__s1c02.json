@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "All references to \"Medicare\" refer to the Federal Medicare Law as described in Title 18 of the Social Security Act of 1964.",
+    "evidence": "All references to \"Medicare\" refer to the Federal Medicare Law as described in Title 18 of the Social Security Act of 1964.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Federal Medicare Law as described in Title 18 of the Social Security Act of 1964",
+    "evidence": "Federal Medicare Law as described in Title 18 of the Social Security Act of 1964",
+    "page": "22",
+    "confidence": "high"
+  }
+}

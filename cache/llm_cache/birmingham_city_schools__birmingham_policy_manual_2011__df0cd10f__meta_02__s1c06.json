@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "1. \"Instructional supply money allotted by the State will be distributed in accordance with State Law.\"\n2. \"Pursuant to section 13A-9-13.2 of the Alabama Code, persons will be officially notified when a check or instrument is issued to Birmingham City Schools and drawn upon a financial institution is dishonored.\"\n3. \"All purchasing will be done in conformity with the Alabama State Bid Law and with sound ethical business practice. (Alabama State Bid Law, Section 41-16-50 through Section 16-62, Code of Alabama, 1975).\"\n4. \"It is the policy of the Birmingham Board of Education (\"Board\") to adhere to the Alabama Open Records Act (Ala. Code Section 36-12-40), which provides in pertinent part that \"Every citizen has a right to inspect and take a copy of any public writing of this state, except as otherwise expressly provided by statue.\"\"\n5. \"In all cases, naming shall be in compliance with State Law.\"",
+    "evidence": "\"Instructional supply money allotted by the State will be distributed in accordance with State Law.\" (4105); \"Pursuant to section 13A-9-13.2 of the Alabama Code...\" (4200); \"All purchasing will be done in conformity with the Alabama State Bid Law... (Alabama State Bid Law, Section 41-16-50 through Section 16-62, Code of Alabama, 1975).\" (5020); \"It is the policy of the Birmingham Board of Education (\"Board\") to adhere to the Alabama Open Records Act (Ala. Code Section 36-12-40)...\" (5151); \"In all cases, naming shall be in compliance with State Law.\" (6150)",
+    "page": "4105, 4200, 5020, 5151, 6150",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

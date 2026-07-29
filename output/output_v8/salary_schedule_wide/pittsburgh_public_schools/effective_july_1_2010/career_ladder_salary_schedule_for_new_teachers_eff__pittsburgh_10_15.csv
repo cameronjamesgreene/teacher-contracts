@@ -1,0 +1,16 @@
+"# Pittsburgh_10-15.pdf — Career Ladder Salary Schedule for New Teachers Effective July 1, 2010 (Effective July 1, 2010)"
+# population: New Teachers | is_teacher_schedule: True
+# validation_warnings: suspicious_uniform_progression: column 'Level 2' increments by a constant every step — on OCR'd input this may be invented smoothing; verify against the source | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Level 1,Level 2,Level 3,Level 4
+Academy Step A,39000,,,
+Step 1,40000,,,
+Step 2,41000,,,
+Step 3,42000,,,
+Step 4,48000,,,
+Step 5,50000,55000,,
+Step 6,52000,58000,,
+Step 7,54000,61000,,
+Step 8,56000,64000,72000,80000
+Step 9,58000,67000,76000,90000
+Step 10,60000,70000,80000,100000

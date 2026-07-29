@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "\"this Agreement\"",
+    "page": "6",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2005-2006",
+    "evidence": "\"first instructional day of the 2005 through 2006 school year\"",
+    "page": "8",
+    "confidence": "medium"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Professional personnel / teachers / unit members (PGCEA)",
+    "evidence": "\"Professional personnel\"",
+    "page": "7",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "\"The arbitrator’s decision shall be final and binding on both parties\"",
+    "page": "6",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "\"laws of the State of Maryland\" / \"Maryland School Law\"",
+    "page": "6",
+    "confidence": "high"
+  }
+}

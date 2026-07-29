@@ -1,0 +1,44 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_life_008": {
+    "answer": "yes",
+    "evidence": "1. Employee $50,000 Term Life Insurance with accidental death and disbursement / 5. Group Term Life Insurance",
+    "page": "15",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_disability_009": {
+    "answer": "yes",
+    "evidence": "5. Employee Long Term Disability Insurance / Article VI SHORT TERM DISABILITY INSURANCE For each full time professional employee electing to purchase Short Term Disability Insurance, the Board agrees to pay up to $15.00 per month to defray the cost of the insurance.",
+    "page": "15, 16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_retiree_012": {
+    "answer": "no",
+    "evidence": "tender resignation and as such, shall no longer be entitled to any rights or privileges which they would have if they continued to be an employee of the District.",
+    "page": "27",
+    "confidence": "high",
+    "coder_notes": "Corrected page number from 26 to 27 to align with document pagination."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Coaching Cycles are intended to provide support to teachers to improve their practice whether in content knowledge, planning for instruction, or delivery methods (pedagogy of teaching and learning)... Selection of positions such as department head, pro-ed facilitator, site-based coach and any other position for which a stipend is paid shall be based upon criteria and a time frame established at the school level...",
+    "page": "32, 38",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

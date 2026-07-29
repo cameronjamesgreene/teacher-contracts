@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "7 hours and 30 minutes on regular school days; 7 hours on non-student days",
+    "evidence": "the regular school day for teachers is seven (7) hours and thirty (30) minutes. The regular school day on days when students are not in attendance... is seven (7) hours.",
+    "page": "30",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Uninterrupted Planning: This is time reserved for the teacher to use at their professional discretion for work-related activities.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "discussed_unclear",
+    "evidence": "Each school site will create a working subcommittee... to establish a planning time schedule and address the number and types of “mandatory” meetings held at the school level.",
+    "page": "31",
+    "confidence": "medium"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Uninterrupted Planning: This is time reserved for the teacher to use at their professional discretion for work-related activities.",
+    "page": "31",
+    "confidence": "medium"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "Lunch times are to be free from assigned duties or supervising students.",
+    "page": "31",
+    "confidence": "high"
+  }
+}

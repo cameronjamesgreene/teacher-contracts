@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Up to three (3) days of sick leave may be used by an educator for each serious illness of a member of that educator's immediate family or birth of a child of an educator.",
+    "page": "107",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "1",
+    "evidence": "One (1) day of leave with pay each year is granted to an educator for personal matters which require the educator's absence during school hours.",
+    "page": "107",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Accumulates up to 5 days; requires at least 3 school days' notice except in emergencies; reason need not be stated.",
+    "evidence": "This leave may be accumulated up to five (5) days. Except in emergency situations, the educator shall give at least three (3) school days' notice to the principal that leave will be taken under this section. The employee need not state the reason for taking leave under this section.",
+    "page": "107",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

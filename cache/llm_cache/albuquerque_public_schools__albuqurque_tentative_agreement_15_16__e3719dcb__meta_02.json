@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"Due to ongoing budgetary constraints and insufficient funding by the state to meet statutory class size limits, the parties agree that for School Year 2015-2016 class size limits may exceed those established in statute, and identified in Article 15.C. of the negotiated agreement, by up to 5% (see Table 1 below) as allowed per waiver issued by NM Secretary of Education.\" \"This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.\"",
+    "evidence": "\"Due to ongoing budgetary constraints and insufficient funding by the state to meet statutory class size limits, the parties agree that for School Year 2015-2016 class size limits may exceed those established in statute, and identified in Article 15.C. of the negotiated agreement, by up to 5% (see Table 1 below) as allowed per waiver issued by NM Secretary of Education.\" \"This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.\"",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Original answer correctly captured both relevant sentences citing state statutes/laws. Preserved."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.\" \"Basic equipment for school nurses shall include a computer with internet access and printer w/ paper (to access the District student information system and print out reports and immunization records) and a fireproof, locking file cabinet (to maintain medical records per HIPAA federal regulations).\"",
+    "evidence": "\"This Agreement shall be governed and construed according to federal law and the Constitution and laws of the State of New Mexico.\" \"Basic equipment for school nurses shall include a computer with internet access and printer w/ paper (to access the District student information system and print out reports and immunization records) and a fireproof, locking file cabinet (to maintain medical records per HIPAA federal regulations).\"",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated to include the additional sentence citing HIPAA federal regulations found in Article 5.K.3, which Stage 1 missed."
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "federal law; HIPAA federal regulations",
+    "evidence": "\"This Agreement shall be governed and construed according to federal law...\" \"...to maintain medical records per HIPAA federal regulations.\"",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Updated answer to explicitly list HIPAA federal regulations in addition to federal law, as both are cited in the document."
+  }
+}

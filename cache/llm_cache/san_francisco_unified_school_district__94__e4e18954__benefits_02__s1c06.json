@@ -1,0 +1,38 @@
+{
+  "benefits_vision_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "benefits_life_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "benefits_disability_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "benefits_retirement_contribution_010": {
+    "answer": "District contributes to STRS as if the teachers were full-time.",
+    "evidence": "Participating teachers and the District shall contribute to STRS as if the teachers were full-time.",
+    "page": "68",
+    "confidence": "medium"
+  },
+  "benefits_leave_continuation_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "benefits_retiree_012": {
+    "answer": "yes",
+    "evidence": "Employees hired before July 1, 2004... require 7-12 consecutive years; those hired on or after July 1, 2004, require 20 consecutive years for paid retiree health benefits.",
+    "page": "69",
+    "confidence": "high"
+  }
+}

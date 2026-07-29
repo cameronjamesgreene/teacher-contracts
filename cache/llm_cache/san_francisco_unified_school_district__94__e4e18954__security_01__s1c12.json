@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Voluntary transfer for those who do not sign-on to agreement.",
+    "evidence": "Voluntary transfer for those who do not sign-on to agreement",
+    "page": "148",
+    "confidence": "medium"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Involuntary transfer process for staff deemed not to be implementing or undermining the site plan. 1. it would be a site decision involving stakeholders 2. there must be an appeal process",
+    "page": "148",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

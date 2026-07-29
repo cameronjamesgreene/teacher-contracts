@@ -1,0 +1,13 @@
+{
+  "has_table": false,
+  "schedule_label": "",
+  "school_year_or_effective_date": "",
+  "lane_labels": [],
+  "step_labels": [],
+  "cells": [],
+  "notes": "Page 2 is the Table of Contents; it lists 'A Salary Schedule ... 49' as an appendix entry but contains no actual table data.",
+  "confidence": "high",
+  "extraction_method": "vision",
+  "page_start": 2,
+  "page_end": 2
+}

@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "The district has developed and promotes a comprehensive program to ensure the safety of its employees, students, and visitors. All employees shall adhere to District safety rules and regulations and shall report unsafe conditions or practices to the appropriate supervisor.",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Students are expected to follow the classroom rules, campus rules, and rules listed in the Student Handbook and Student Code of Conduct. Teachers and administrators are responsible for taking disciplinary action based on a range of discipline management strategies that have been adopted by the district.",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "The district may close schools because of bad weather or emergency conditions. When such conditions exist, the superintendent will make the official decision concerning the closing of the district’s facilities.",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Keep work areas clean and orderly at all times.",
+    "page": "n/a",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "10 for 10-month contract; 11 for 11-month; 12 for 235-day",
+    "evidence": "Each full-time employee shall be entitled to four (4) days of sick leave as of the first day of employment of each school year. Thereafter employees will earn one (1) day of sick leave for each month of employment, for a total of ten (10) sick days per current year for a ten (10) month contract, eleven (11) for eleven (11) month contract, and twelve (12) for 235 day employees",
+    "page": "10",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Accrues monthly (1 day/month); accumulates; no cap stated in this section",
+    "evidence": "Thereafter employees will earn one (1) day of sick leave for each month of employment... which shall be credited to the employee at the end of that month... Accumulated sick leave may be transferred from another Florida county upon request of the employee.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Sick Leave is to be used for illness of the employee or illness or death of an immediate family member and includes medical and related appointments.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "4",
+    "evidence": "Employees are entitled to four (4) days leave of absence for personal reasons, charged to unused sick leave.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires 2 days notice (unless emergency); minimum half-day; principal approval (can deny on inservice/pre-post holidays); not cumulative; charged to unused sick leave",
+    "evidence": "Notice of intent to take personal leave shall be made to the principal/supervisor two (2) days in advance... Personal leaves shall be for a period not less than one-half (1/2) of the assigned teacher work day. Personal leave shall not be cumulative from year to year... Principals/supervisors shall have the right to request reasons... and to deny such leave only when personal leave is being requested on an inservice/staff development day or pre- and post-holidays.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "Personal leave shall not be cumulative from year to year",
+    "page": "12",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes. Committee: District Behavior Committee and Health and Safety Committee. Membership: Equal labor/management representation appointed by Superintendent and MFT President; labor includes teachers and ESPs; district includes Operational/Security Services, Risk Management, Student Support Services, and Special Education. Complaint process: Teachers report concerns to district security, civil rights, or other officials; committees receive referrals and review district responses. Scope: Worksite safety, violent behavior, weapon possession, site behavior plans, and dangerous/unsafe student behaviors.",
+    "evidence": "Internal Resources include the District Behavior Committee, and the Health and Safety Committee receiving referrals of safety concerns and reviewing the responses from the District to concerns that have been reported by teachers... The District Behavior Committee will include equal representation of labor and management appointed by the Superintendent of schools and the MFT President. Labor representatives will include teachers and Educational Service Professionals (ESPs). District representatives will include Operational and Security Services, Risk Management, Student Support Services, and Special Education. The District Behavior Committee will meet monthly or more often as needed to discuss worksite safety issues... Serious, site specific concerns... multiple reports of assaults of student-on-student and student-on-teacher",
+    "page": "133",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "6.7.1 Physical Assault: In the event a teacher is physically assaulted by a student, parent, or other individual while in the performance of their duties, the teacher should inform the supervisor as soon as possible and the following procedure shall occur:",
+    "page": "136",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "Discipline Policy: Decide and support implementation / Make Recommendations to District, Advise and Implement policy. Behavior Plan: Set Parameters / Decide and implement. Establishes and maintains clear expectations for classroom and behavior management",
+    "page": "61, 68",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes. Grounds: violent behavior or serious disruption of education. Procedure: Teacher may temporarily remove student, immediately initiating an informal/formal assessment. Return rules: Student returns after appropriate interventions and discipline are determined.",
+    "evidence": "A process for a teacher to temporarily remove from the classroom any student who, in the teacher’s opinion, is exhibiting violent behavior or causing serious disruption of the educational process. This step will immediately initiate an informal/formal assessment process as appropriate to determine the circumstances of the behavior. A process for returning the student to the classroom after appropriate interventions and discipline have been determined.",
+    "page": "135",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "In the event of a student day or teacher duty day lost due to an emergency, teachers shall perform duties on that day or other such day in lieu thereof as the Board of Education or its designated representative shall determine if any, with prior consultation with the Minneapolis Federation of Teachers.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "To ensure that anticipated major renovation and major repair work is being conducted safely and without significant disruption to education and the health and well being of children and staff, representatives from Facilities and/or the project manager from the construction company shall inform staff through the site leadership team and building steward at least two weeks prior to the onset of the work.",
+    "page": "183",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "\"FY 2017 ET 15 Salary Schedule\"; \"FY 2018 ET 15 Salary Schedule\"; \"FY 2019 ET 15 Salary Schedule\"; \"FY 2017 - 2019 EG 09 Salary Schedule\"",
+    "page": "112-116",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "FY 2017, FY 2018, and FY 2019",
+    "evidence": "\"FY 2017 ET 15 Salary Schedule\"; \"FY 2018 ET 15 Salary Schedule\"; \"FY 2019 ET 15 Salary Schedule\"; \"FY 2017 - 2019 EG 09 Salary Schedule\"",
+    "page": "112-116",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "\"A Teacher, who is re-appointed, reassigned, or converted to an ET position within the bargaining unit shall be granted salary placement according to the number of years of full time teaching service... salary placement shall be limited to nine (9) years.\"",
+    "page": "100",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

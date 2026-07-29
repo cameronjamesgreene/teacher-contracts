@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Employees shall report unsafe or hazardous conditions to their Building Administrator or immediate supervisor.",
+    "page": "12",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "yes",
+    "evidence": "On days that schools are closed due to extreme weather conditions or emergencies, the administration will make every reasonable effort to notify employees of the closing by 5:15am.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Construction and Repairs – Reasonable effort will be made to notify the affected teachers and students to a suitable learning environment.",
+    "page": "9",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "\"The District cutoff date for determining classes with thirty-three (33) or more students will be the end of the 1st and 3rd reporting periods.\" \"Such mitigation may include, but not limited to, student reallocation and/or classified instructional aides.\" \"Class Size Report twice a year upon request.\" (p. 8-9)",
+    "page": "8-9",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "33-student cutoff/threshold for reporting; mitigation sought for Kindergarten.",
+    "evidence": "\"The District cutoff date for determining classes with thirty-three (33) or more students will be the end of the 1st and 3rd reporting periods.\" \"The District may seek to mitigate class sizes for teachers assigned to Kindergarten classes...\" (p. 8)",
+    "page": "8",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "No specific maximum stated; mitigation may be sought for grades 7-12 core curriculum classes.",
+    "evidence": "\"The District may seek to mitigate class sizes for teachers assigned to grades 7-12 core curriculum classes.\" (p. 8)",
+    "page": "8",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "\"Such mitigation may include, but not limited to, student reallocation and/or classified instructional aides.\" \"The District will provide FTA a Class Size Report twice a year upon request.\" (p. 8-9)",
+    "page": "8-9",
+    "confidence": "high"
+  }
+}

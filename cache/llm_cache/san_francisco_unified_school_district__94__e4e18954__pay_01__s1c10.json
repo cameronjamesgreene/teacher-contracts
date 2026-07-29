@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "\"B.1b. K-12 Fully Credentialed Teachers - per Education Code 45023.1 ... Class Annual Monthly Daily Occupation Rating Salary Salary Rate\"",
+    "page": "111",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2006-2007",
+    "evidence": "\"Effective 7/1/2005 2006-2007*\"",
+    "page": "111",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

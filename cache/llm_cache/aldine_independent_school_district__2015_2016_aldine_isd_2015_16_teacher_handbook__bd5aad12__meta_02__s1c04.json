@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "With the May 30, 1995 signing of Senate Bill 1 passed by the 74th Legislature, state sick leave benefits ceased to be earned. || If the employee was absent for five (5) or more consecutive days for personal illness or for three (3) or more consecutive days for an illness in the immediate family, the request for sick leave shall be accompanied by a \"Certification of Illness\" from a physician who is duly registered and licensed under the Medical Practice Act of Texas, a licensed doctor of dentistry, a licensed chiropractor, or a licensed podiatrist.",
+    "evidence": "With the May 30, 1995 signing of Senate Bill 1 passed by the 74th Legislature, state sick leave benefits ceased to be earned. || ...licensed under the Medical Practice Act of Texas...",
+    "page": "14, 15",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "A student or a student’s parents who believe that the student has been or is being sexually harassed or sexually abused may present a complaint regarding the sexual harassment or sexual abuse by reporting to the student’s principal, the principal’s designee, or the school’s school assistant superintendent (Title IX coordinator for students). || To the extent possible, employees are required to substitute accrued paid leave, including any paid vacation and personal, state, and local leave, for an equivalent portion of the 12 week period of FMLA leave, and the amount of time taken for paid leaves shall be deducted from the 12 weeks for leave available under the FMLA. || Compensatory time (comp time) used for an FMLA qualifying event may be counted against an employee’s 12-week leave entitlement.",
+    "evidence": "(Title IX coordinator for students) || FMLA leave || FMLA qualifying event",
+    "page": "12, 17",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Title IX, FMLA",
+    "evidence": "(Title IX coordinator for students) || FMLA leave",
+    "page": "12, 17",
+    "confidence": "high"
+  }
+}

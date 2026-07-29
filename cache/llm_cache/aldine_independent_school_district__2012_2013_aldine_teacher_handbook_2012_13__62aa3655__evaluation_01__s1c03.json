@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes - Section II.B.1 (Employment Contracts/General); references periodic written evaluations and PDAS/INVEST systems but does not provide a full procedure.",
+    "evidence": "Periodic written evaluations of employees’ performance shall be conducted and reviewed by the Superintendent of Schools or the Superintendent’s designee prior to the Superintendent’s annual submission of recommendations for renewal and nonrenewal.",
+    "page": "4",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "PDAS and INVEST",
+    "evidence": "\"PDAS observation record\" and \"INVEST observation document\"",
+    "page": "9",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "Proficient, less than proficient, Needs Improvement, Ineffective",
+    "evidence": "\"cumulative domain rating score of less than proficient\" and \"overall rating of Needs Improvement or Ineffective in part A\"",
+    "page": "9",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "employee handbook",
+    "evidence": "Teacher Handbook 2015-16",
+    "page": "125",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2015-2016",
+    "evidence": "Teacher Handbook 2015-16",
+    "page": "125",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "Teacher Handbook 2015-16",
+    "page": "125",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "medium"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "TEC Sec. 28.201 Student Achievement",
+    "page": "125",
+    "confidence": "high"
+  }
+}

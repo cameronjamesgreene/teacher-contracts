@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "3",
+    "evidence": "Teachers may take up to three personal leave days. ... Three (3) personal leave days shall be available for teachers who are employed before January 1 ... Any teacher employed between January and March 31 shall be allocated one (1) day ... Any teacher employed after March 31 shall not be allocated any days",
+    "page": "33",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Requires 2 days notice for Tuesday-Thursday leave, and 10 days notice for Monday/Friday leave, days preceding or following recess/holidays, or any day in May/June (except emergencies). The principal and ILT jointly develop a plan for caps per building on these dates.",
+    "evidence": "Personal leave shall be granted upon notification to the principal two days prior to leave on Tuesday through Thursday and ten days prior to leave on Monday or Friday, the day preceding or following a recess or holiday, or any day in May or June; except in cases of emergency. It shall be the responsibility of the principal and ILT to jointly develop a plan regarding the number of teachers who may be out on personal leave...",
+    "page": "33",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "yes",
+    "evidence": "Any unused personal leave days shall be converted to sick leave on July 31. For any teacher who leaves the Board's employ during the school year, unused personal leave days shall be converted to sick leave upon separation.",
+    "page": "33",
+    "confidence": "high"
+  }
+}

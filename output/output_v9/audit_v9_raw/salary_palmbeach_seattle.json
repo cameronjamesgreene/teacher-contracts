@@ -1,0 +1,24 @@
+{
+  "palm_beach": {
+    "grids_total": 10,
+    "status_counts": {
+      "CORRECT": 10,
+      "PARTIAL": 0,
+      "INCORRECT": 0,
+      "UNVERIFIABLE": 0
+    },
+    "fabrication_class_present": false,
+    "notes": "5 tables x2 dup, all match truth: Appendix A degree supp 3000/4500/4500/6000; Glades 3750/4750/5750; Appendix B categories 1-12; National Cert 2000/2000; New Hire 22 rows. Dropped-row/no-lane warnings are false positives."
+  },
+  "seattle": {
+    "grids_total": 12,
+    "status_counts": {
+      "CORRECT": 10,
+      "PARTIAL": 2,
+      "INCORRECT": 0,
+      "UNVERIFIABLE": 0
+    },
+    "fabrication_class_present": true,
+    "notes": "5 sub schedules x2 (cert teach/nurse, classif nurse, clerical, para) match truth; $X placeholders real, contamination warning false. 2 Appendix E grids PARTIAL: base drops job-code rows; p150-151 misreads SR CLASS ADVISOR 1125.54 vs 1422.54."
+  }
+}

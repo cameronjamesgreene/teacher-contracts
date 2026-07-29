@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "There shall be a systemwide joint health and safety committee composed of an equal number of representatives appointed by each party. The joint committee shall be empowered to hear any health and safety issue brought to its attention... Health and safety complaints shall not be subject to the grievance procedure in Article 5.",
+    "page": "10",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Any case of assault on a unit member by other than another unit member shall be promptly reported by the unit member to his/her immediate supervisor... the unit member will be paid his/her full salary, less the amount of any workers’ compensation award... In any suit or claim brought against the unit member... the Board shall provide legal counsel for the unit member and shall save him/her harmless",
+    "page": "24",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "All members of the faculty and administration must be consulted about the development of the policy... A unit member may retain a disruptive student after school on the same day that an incident occurs... When a disruptive student is removed from a classroom, the school’s comprehensive behavior management plan should be utilized to provide the most effective intervention",
+    "page": "9",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "When a student’s behavior seriously disrupts the instructional program to the detriment of other students, a unit member shall have the right to temporarily remove that student from class. The unit member will use a written referral form... The principal will make the final decision regarding the student’s return to class and will confer with the teacher regarding the decision.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Good indoor air quality is essential to teaching and learning... Unit members who are experiencing problems with the indoor air quality in their workplaces may request an investigation... Adequately ventilated and temperate (fully air-conditioned and heated) classrooms throughout the school year. When a school building or rooms are used... the facilities shall be properly cleaned and maintained",
+    "page": "10",
+    "confidence": "high"
+  }
+}

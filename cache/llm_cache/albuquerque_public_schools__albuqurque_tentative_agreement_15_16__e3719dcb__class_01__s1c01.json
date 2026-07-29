@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "Due to ongoing budgetary constraints and insufficient funding by the state to meet statutory class size limits, the parties agree that for School Year 2015-2016 class size limits may exceed those established in statute, and identified in Article 15.C. of the negotiated agreement, by up to 5% (see Table 1 below) as allowed per waiver issued by NM Secretary of Education.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "Kindergarten: 21; Grades 1-3 average: 23.1; Grades 4-6 average: 25.2. (Grade 1 has no cap listed but receives a full-time instructional assistant for loads of 21+).",
+    "evidence": "Kindergarten 21... Grades 1-3 -- The average class load at an individual elementary school shall not exceed 23.1 students. Grades 4-6 -- The average class load at an individual elementary school shall not exceed 25.2 students.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_secondary_max_003": {
+    "answer": "Grades 7-12: 168 daily teaching load. English 7-8: max 28.35 per class. English 9-12: max 31.5 per class.",
+    "evidence": "Grades 7-12 168... English 7-8 141.75/28.35 The daily teaching load shall not exceed 141.75 students with a maximum of 28.35 students per class. English 9-12 157.5/31.5 The daily teaching load shall not exceed 157.5 students with a maximum of 31.5 students per class.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "The teacher is entitled to an instructional assistant with a class load of 15 or more students. / The teacher is entitled to a full-time instructional assistant with a class load of 21 or more students.",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

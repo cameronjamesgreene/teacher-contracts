@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA (Collective Bargaining Agreement)",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2023 - June 30, 2025",
+    "evidence": "July 1, 2023 - June 30, 2025",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated employees / Teachers",
+    "evidence": "The Bargaining Unit consists of all certificated employees of the San Francisco Unified School District",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "have jointly entered into this contract under the Educational Employment Relations Act.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Government Code, Sections 3540 through 3549.3, also known as the Educational Employment Relations Act.",
+    "page": "1",
+    "confidence": "high"
+  }
+}

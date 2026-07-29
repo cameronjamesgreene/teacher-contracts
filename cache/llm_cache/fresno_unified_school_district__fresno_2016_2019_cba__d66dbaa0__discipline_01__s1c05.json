@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Was the degree of discipline administered by the agency in a particular case reasonably related to (a) the seriousness of the employee's proven offense and (b) the record of the employee in his or her service with the agency?",
+    "page": "43",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

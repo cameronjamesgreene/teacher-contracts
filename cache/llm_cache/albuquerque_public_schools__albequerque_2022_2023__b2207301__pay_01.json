@@ -1,0 +1,44 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX A – SALARY MATRICES .................................................................................. 97\n  Appendix A.1 2022-2023 Salary Matrix A1....................................................................... 98",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2022-2023",
+    "evidence": "Appendix A.1 2022-2023 Salary Matrix A1",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "Educators may claim eligibility for salary increments, National Board Certification, and bilingual and ESL endorsements by submitting a letter on or before September 15 followed by an official transcript as soon as possible to the Department of Human Resources",
+    "page": "28",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Credit on the salary matrix within job classifications shall be given for all years of qualified in-district experience, and all years of qualified out-of-district experience in a licensed educational role shall be credited.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_performance_pay_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "9.1.1 The Union and District agree to work together to create a process which, in consideration of limited monetary resources, produces the lowest class size possible. 9.2.2 Class Size Goals for a given class are those listed in Section 9.5. 9.6 The process of reducing class size and the reporting procedures established herein will be evaluated periodically, and, by mutual agreement, this article may be modified during the term of this contract.",
+    "page": "16-17, 23",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly cover caps/goals and review procedures as requested by the question, rather than just the process statement."
+  },
+  "class_elementary_max_002": {
+    "answer": "TK-Grade 3: 22 students/teacher; Grades 4-5: 30 students; Other combinations: lower of component grades. (TK goal: 1:11 ratio)",
+    "evidence": "9.5.1.1 TK – Grade 3………………………………………………22 (per section 9.3.1.1) 9.5.1.2 Grades 4-5………………………………………………………………… 30 9.5.1.3 Other combinations will have the lower class size of the component grades. 9.3.1.4 The District will have a goal to maintain a ratio of 1:11 in all TK classes.",
+    "page": "18, 20",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the 9.3.1.4 TK ratio goal referenced in the answer."
+  },
+  "class_secondary_max_003": {
+    "answer": "Middle: English/ELD/Reading/Math Lab: 25; World Lang/Math/Science/Health Ed/Business/CTE: 30; Social Studies: 55; Art/Homemaking/Industrial Arts/Music/Core Program: 28; PE: 37. High: English/ELD/Reading/Math Lab: 25; World Lang/Science/Health Ed/Career Ed: 30; Social Studies/Drivers Ed: 30; Trade/Industry: 25; Art/Homemaking/Industrial Arts/Music/CTE: 28; PE: 37.",
+    "evidence": "9.5.2 Middle Schools: English: 25; World Language: 30; Math: 30; Science: 30; Social Studies: 55; Art: 28; Business: 30; Homemaking: 28; Industrial Arts: 28; Music: 28; PE: 37; Core Program: 28; ELD: 25; Reading/Math Lab: 25; Health Ed: 30; CTE: 28. 9.5.3 High Schools: English: 25; World Language: 30; Math: 30; Science: 30; Social Studies: 30; Art: 28; Business: 30; Homemaking: 28; Industrial Arts: 28; Music: 28; PE: 37; Trade/Industry: 25; Drivers Ed: 30; ELD: 25; Reading/Math Lab: 25; Health Ed: 30; Career Ed: 30; CTE: 28.",
+    "page": "21-22",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to comprehensively support the detailed answer listing all secondary class size limits."
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "9.3.1.2 Due to exceptional circumstances an individual TK-3 class may, on occasion, be required to go one (1) over the limit specified in section 9.3.1.1. Prior to making the one-over student placement assignment, the District shall consult with the Union and explain all efforts that have been made to keep within the limit and why it was not possible to do so. 9.3.1.2.1 The teacher assigned the additional students shall receive $1,000 ($500 per semester) for the following activities: 9.3.1.2.3 Each teacher shall also receive two (2) days per semester of relief time as defined in contract section 7.2.6.1.5 for duty-free preparation.",
+    "page": "18",
+    "confidence": "high",
+    "coder_notes": "Verified evidence directly supports the answer. Retained exact section reference (7.2.6.1.5) as printed in the contract text."
+  }
+}

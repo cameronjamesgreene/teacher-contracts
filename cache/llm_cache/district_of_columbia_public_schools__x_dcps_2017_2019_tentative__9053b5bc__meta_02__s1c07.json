@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Retroactive payment of raises shall be made following ratification of this agreement by the WTU membership and approval by the DC Council, in accordance with D.C. Official Code 1-611.06(d).",
+    "evidence": "D.C. Official Code 1-611.06(d)",
+    "page": "94",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Itinerant Teachers shall be provided Metro fare or reimbursement for required use of a vehicle at the Internal Revenue Code’s recognized reimbursement rate. DCPS shall “pick up” within the meaning of Subsection 414 (h) (2) of the Internal Revenue Code, each bargaining unit Teacher’s contribution to the Teachers’ Retirement Fund.",
+    "evidence": "Internal Revenue Code",
+    "page": "97, 101",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Internal Revenue Code (specifically Subsection 414(h)(2) and the recognized reimbursement rate provision)",
+    "evidence": "Internal Revenue Code",
+    "page": "97, 101",
+    "confidence": "high"
+  }
+}

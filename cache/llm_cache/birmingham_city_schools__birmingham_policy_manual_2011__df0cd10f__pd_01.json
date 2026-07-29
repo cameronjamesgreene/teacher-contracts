@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Original document does not mention mentoring, induction, or orientation for new teachers. These provisions are absent from the provided policy manual."
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Original document does not create teacher leadership roles, instructional coaches, or practice-based councils or committees. These concepts are absent from the provided policy manual."
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": "Original document does not include a career ladder, advancement pathway, or differentiated career roles for teachers. These provisions are absent from the provided policy manual."
+  }
+}

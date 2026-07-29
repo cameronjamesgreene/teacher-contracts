@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes. Plan type varies by selection. Eligible employee group: regular employees working at least 30 hours per week, job-share employees, and two part-time employees totaling over 30 hours per week.",
+    "evidence": "The Board agrees to provide a comprehensive benefits program to include but not limited to health... Individual amounts will vary based on the plan selected. Eligibility - Regular employees who work at least thirty (30) hours per week, job-share employees and employees who work two (2) part time regular jobs totaling more than thirty (30) hours per week are eligible for benefits.",
+    "page": "64",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Approximately 80% of the annual health insurance premium.",
+    "evidence": "The Board will pay approximately 80% of the annual health insurance premium for the duration of this agreement.",
+    "page": "64",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes. Dependent eligibility follows the Beneflex Guide; married employees with at least one dependent may select the 'Two (2) Board family option'.",
+    "evidence": "Dependent eligibility guidelines will be in accordance with provisions outlined in the Beneflex Guide. Eligible married Board employees, both working for the District, who wish to be covered by the same health insurance plan and have at least one additional dependent (total of three persons), may select the Two (2) Board family option.",
+    "page": "64, 66",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes. Optional dental coverage is available, with the Board contributing toward the cost.",
+    "evidence": "The Board will contribute towards the cost of optional dental coverage. The annual amount will be determined through the bargaining process.",
+    "page": "68",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

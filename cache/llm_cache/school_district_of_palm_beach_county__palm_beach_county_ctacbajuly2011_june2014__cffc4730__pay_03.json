@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "all new employees will be granted all verified prior years of public and/or private school successful teaching experience not to exceed 25 years. ... including prior District experience; ... Employees must submit verification within ninety (90) days of the beginning date of employment in order to receive experience credit.",
+    "page": "100, 101",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "teaching experience for public school teaching outside the State of Florida, but within the United States provided that the experience is earned with a minimum of a Bachelor’s Degree; ... The District will treat years of teaching experience out of the District the same as years of experience within the District.",
+    "page": "101, 103",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "yes",
+    "evidence": "out-of-state experience which shall include special state/federal schools... Once verified, experience credit may not be revoked.",
+    "page": "101",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "yes",
+    "evidence": "All employees shall be given credit on the salary schedule for military service, as provided in Military Leave (Article V, Section D, 6).",
+    "page": "103",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_national_board_017": {
+    "answer": "Add $2,000 to Bachelor's annually",
+    "evidence": "National Board Certificate**  Add $2,000 to Bachelor’s **This amount will be paid annually to a holder of a valid National Board for Professional Teaching Standards (NBPTS) certificate, in addition to any supplement amount appropriated by the Florida Legislature.",
+    "page": "129",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

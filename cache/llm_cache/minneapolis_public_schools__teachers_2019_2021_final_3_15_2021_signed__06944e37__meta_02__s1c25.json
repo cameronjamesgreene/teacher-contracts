@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"The terms and conditions of a teacher's employment contract, including salary and salary increases, must be based either on the length of the school year or an extended school calendar under section 120A.415.\"\n\"A teacher electing to have a continuing contract based on the extended school calendar under section 120A.415 must participate in a total number of staff development days where the total number of such days equals the difference between the total number of days of student instruction and 240 days.\"\n\"Staff development programs provided during such days shall enable teachers to achieve the staff development outcomes under section 122A.60, subdivision 3.\"\n\"must include an option for teachers to develop and present a portfolio demonstrating evidence of reflection and professional growth, consistent with section 122A.18, subdivision 4, paragraph (b), and include teachers' own performance assessment based on student work samples and examples of teachers' work, which may include video among other activities for the summative evaluation;\"\n\"Data on individual teachers generated under this subdivision are personnel data under section 13.43.\"",
+    "evidence": "\"The terms and conditions of a teacher's employment contract, including salary and salary increases, must be based either on the length of the school year or an extended school calendar under section 120A.415.\"",
+    "page": "248",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"A probationary teacher whose first three years of consecutive employment are interrupted for active military service and who promptly resumes teaching consistent with federal reemployment timelines for uniformed service personnel under United States Code, title 38, section 4312(e), is considered to have a consecutive teaching experience for purposes of paragraph (a).\"",
+    "evidence": "\"A probationary teacher whose first three years of consecutive employment are interrupted for active military service and who promptly resumes teaching consistent with federal reemployment timelines for uniformed service personnel under United States Code, title 38, section 4312(e), is considered to have a consecutive teaching experience for purposes of paragraph (a).\"",
+    "page": "247",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "United States Code, title 38, section 4312(e)",
+    "evidence": "United States Code, title 38, section 4312(e)",
+    "page": "247",
+    "confidence": "high"
+  }
+}

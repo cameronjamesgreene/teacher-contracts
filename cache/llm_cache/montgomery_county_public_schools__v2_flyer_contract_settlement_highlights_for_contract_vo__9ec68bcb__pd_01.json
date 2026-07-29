@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "12. Creation of a Joint Professional Learning Committee (JPLC) replacing the “Professional Learning Cross-functional Team.” JPLC will help shape a system-wide vision for on-going & future professional learning, discuss and monitor adult learning in MCPS, and make recommendations to the superintendent to enhance instruction, and improve attraction and retention of a talented workforce. 10. For school leadership teams, roles should be rotated in order to build and share leadership; Interested staff can observe ILT meetings;",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

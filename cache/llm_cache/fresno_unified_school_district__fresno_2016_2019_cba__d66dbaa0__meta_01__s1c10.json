@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Collective Bargaining Agreement",
+    "evidence": "Upon the relinquishment or release of the stipend of the employee, the stipend shall follow the most recent language of the Collective Bargaining Agreement and shall be paid accordingly.",
+    "page": "113",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2018",
+    "evidence": "Effective July 1, 2018",
+    "page": "102",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Bargaining unit members / Teachers",
+    "evidence": "regular summer school contracts shall be paid based on the bargaining unit member’s hourly rate of pay.",
+    "page": "106",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "Upon the relinquishment or release of the stipend of the employee, the stipend shall follow the most recent language of the Collective Bargaining Agreement and shall be paid accordingly.",
+    "page": "113",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

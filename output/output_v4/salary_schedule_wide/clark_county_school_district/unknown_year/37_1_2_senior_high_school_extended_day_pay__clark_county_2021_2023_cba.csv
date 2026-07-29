@@ -1,0 +1,41 @@
+# Clark_County_2021-2023_CBA.pdf — 37-1-2 Senior High School - Extended Day Pay ()
+# population: Senior High School Extra Duty/Coaching Positions | is_teacher_schedule: False
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+step,value
+Head Football (M),093
+Head Basketball (M),093
+Head Baseball (M),079
+Head Track (M),084
+Head Wrestling (M),084
+Head Soccer (M),079
+Head Flag Football (W),079
+Head Tennis (M),054
+Head Golf (M),056
+Head Cross Country (M),068
+Head Swimming (M),063
+Head Volleyball (M),075
+Asst. Football (M),070
+Asst. Basketball (M),070
+Asst. Baseball (M),061
+Asst. Track(M),063
+Asst. Wrestling (M),063
+Asst. Soccer (M),059
+Asst. Volleyball (M),061
+9th Gr. Basketball (M),043
+9th Gr. Volleyball (M),038
+9th Gr. Basketball (W),043
+9th Gr. Volleyball (W),038
+9th Gr. Soccer,038
+Head Bowling (M & W),065
+Head Basketball (W),093
+Head Volleyball (W),075
+Head Softball (W),079
+Head Track (W),084
+Head Soccer (W),079
+Head Tennis (W),054
+Head Golf (W),056
+Head Cross Country (W),068
+Head Swimming (W),063
+Asst. Basketball (W),070
+Asst. Volleyball (W),061
+Asst. Softball (W),061

@@ -1,0 +1,30 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "The District shall set class size priorities as follows: K-3: 18 students 4-5: 24 students 6-12 Determined by site",
+    "page": "241",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_elementary_max_002": {
+    "answer": "K-3: 18 students; 4-5: 24 students",
+    "evidence": "K-3: 18 students 4-5: 24 students",
+    "page": "241",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_secondary_max_003": {
+    "answer": "Determined by site",
+    "evidence": "6-12 Determined by site",
+    "page": "241",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "one of the following options will be implemented, with the goal being a cost-neutral option: a. Co-teaching b. Additional Educational Support Professionals (ESPs) or Special Education Assistants (SEAs) c. Balancing class sizes among grade levels or subject area d. Adding licensed staff e. Reducing non-instructional duties f. Additional weekly preparation time g. Other methods created collaboratively",
+    "page": "241",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

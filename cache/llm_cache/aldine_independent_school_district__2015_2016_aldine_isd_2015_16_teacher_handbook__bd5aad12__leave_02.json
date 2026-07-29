@@ -1,0 +1,44 @@
+{
+  "leave_bereavement_days_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The provided document excerpt ends at page 11. The Table of Contents indicates bereavement leave is not listed, confirming it is not discussed in this handbook."
+  },
+  "leave_bereavement_relatives_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Same as above; bereavement leave details are not present or listed in the provided excerpt."
+  },
+  "leave_parental_paid_009": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The handbook references Family and Medical Leave of Absence (FMLA) as unpaid. No provision for paid parental, bonding, maternity, paternity, or adoption leave is mentioned."
+  },
+  "leave_pregnancy_disability_010": {
+    "answer": "yes",
+    "evidence": "\"Pregnancy is considered a temporary disability.\"",
+    "page": "16",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 evidence is on page 16, which falls outside the provided document excerpt (ends at page 11). However, the Table of Contents explicitly lists 'Temporary Disability Leave of Absence' on pages 16-17, strongly confirming the answer."
+  },
+  "leave_adoption_childcare_011": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The handbook does not provide specific adoption, childcare, or bonding leave benefits beyond standard sick leave and FMLA provisions."
+  },
+  "leave_fmla_012": {
+    "answer": "yes",
+    "evidence": "\"An employee who has been employed for at least 12 months and has worked at least 1,250 hours during the previous twelve-month period may take an unpaid family or medical leave of absence for a total of twelve work weeks during any twelve-month period.\"",
+    "page": "17",
+    "confidence": "medium",
+    "coder_notes": "Stage 1 evidence is on page 17, outside the provided excerpt. Table of Contents confirms 'Family and Medical Leave of Absence' is covered on pages 17-19, supporting the 'yes' answer."
+  }
+}

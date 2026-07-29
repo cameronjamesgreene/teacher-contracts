@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "Within twenty (20) duty days following the opening of school, a Standing Safety Committee shall be organized at each site, and a joint Safety Committee shall be organized at the District.",
+    "page": "76",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Once a unit member reports an unsafe, unhealthy, and/or unsanitary condition to her/his immediate supervisor, the District shall begin investigation within five (5) days. If the District finds an unsafe, unhealthy, and/or unsanitary condition, the District shall begin to take steps to correct the conditions within ten (10) duty days.",
+    "page": "76",
+    "confidence": "high"
+  }
+}

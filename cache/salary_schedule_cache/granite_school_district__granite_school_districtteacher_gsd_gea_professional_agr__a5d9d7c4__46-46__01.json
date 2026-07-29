@@ -1,0 +1,767 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Schedule",
+      "population": "Teachers",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "2011-12",
+      "lane_labels": [
+        "Lane 1",
+        "Lane 2",
+        "Lane 3",
+        "Lane 4",
+        "Lane 5",
+        "Lane 6",
+        "Lane 7"
+      ],
+      "step_labels": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "cells": [
+        {
+          "step": "4",
+          "lane": "Lane 1",
+          "value": "34081",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Lane 2",
+          "value": "35158",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Lane 3",
+          "value": "37042",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Lane 4",
+          "value": "37581",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Lane 5",
+          "value": "38927",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Lane 6",
+          "value": "40273",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Lane 7",
+          "value": "41619",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Lane 1",
+          "value": "35696",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Lane 2",
+          "value": "36773",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Lane 3",
+          "value": "38658",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Lane 4",
+          "value": "39196",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Lane 5",
+          "value": "40542",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Lane 6",
+          "value": "41888",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Lane 7",
+          "value": "43234",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Lane 1",
+          "value": "37312",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Lane 2",
+          "value": "38388",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Lane 3",
+          "value": "40273",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Lane 4",
+          "value": "40811",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Lane 5",
+          "value": "42157",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Lane 6",
+          "value": "43503",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Lane 7",
+          "value": "44849",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Lane 1",
+          "value": "38927",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Lane 2",
+          "value": "40004",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Lane 3",
+          "value": "41888",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Lane 4",
+          "value": "42426",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Lane 5",
+          "value": "43772",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Lane 6",
+          "value": "45118",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Lane 7",
+          "value": "46464",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Lane 1",
+          "value": "40542",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Lane 2",
+          "value": "41619",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Lane 3",
+          "value": "43503",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Lane 4",
+          "value": "44042",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Lane 5",
+          "value": "45388",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Lane 6",
+          "value": "46734",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Lane 7",
+          "value": "48080",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Lane 1",
+          "value": "42157",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Lane 2",
+          "value": "43234",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Lane 3",
+          "value": "45118",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Lane 4",
+          "value": "45657",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Lane 5",
+          "value": "47003",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Lane 6",
+          "value": "48352",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Lane 7",
+          "value": "49745",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Lane 1",
+          "value": "43772",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Lane 2",
+          "value": "44849",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Lane 3",
+          "value": "46734",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Lane 4",
+          "value": "47272",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Lane 5",
+          "value": "48631",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Lane 6",
+          "value": "50025",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Lane 7",
+          "value": "51418",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Lane 1",
+          "value": "45388",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Lane 2",
+          "value": "46464",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Lane 3",
+          "value": "48352",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Lane 4",
+          "value": "48909",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Lane 5",
+          "value": "50303",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Lane 6",
+          "value": "51697",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Lane 7",
+          "value": "53090",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Lane 1",
+          "value": "47003",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Lane 2",
+          "value": "48080",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Lane 3",
+          "value": "50025",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Lane 4",
+          "value": "50582",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Lane 5",
+          "value": "51975",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Lane 6",
+          "value": "53369",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Lane 7",
+          "value": "54764",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Lane 1",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Lane 2",
+          "value": "49747",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Lane 3",
+          "value": "51697",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Lane 4",
+          "value": "52255",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Lane 5",
+          "value": "53648",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Lane 6",
+          "value": "55042",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Lane 7",
+          "value": "56436",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Lane 1",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Lane 2",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Lane 3",
+          "value": "53369",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Lane 4",
+          "value": "53927",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Lane 5",
+          "value": "55321",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Lane 6",
+          "value": "56714",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Lane 7",
+          "value": "58109",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Lane 1",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Lane 2",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Lane 3",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Lane 4",
+          "value": "55599",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Lane 5",
+          "value": "56993",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Lane 6",
+          "value": "58388",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Lane 7",
+          "value": "59781",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Lane 1",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Lane 2",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Lane 3",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Lane 4",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Lane 5",
+          "value": "58665",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Lane 6",
+          "value": "60060",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Lane 7",
+          "value": "61453",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Lane 1",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Lane 2",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Lane 3",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Lane 4",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Lane 5",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Lane 6",
+          "value": "61732",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Lane 7",
+          "value": "63126",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Lane 1",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Lane 2",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Lane 3",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Lane 4",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Lane 5",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Lane 6",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Lane 7",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Lane 1",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Lane 2",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Lane 3",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Lane 4",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Lane 5",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Lane 6",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Lane 7",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Lane 1",
+          "value": "48632",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Lane 2",
+          "value": "51419",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Lane 3",
+          "value": "55043",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Lane 4",
+          "value": "57272",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Lane 5",
+          "value": "60337",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Lane 6",
+          "value": "63405",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Lane 7",
+          "value": "64799",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Corrected structural issue: source table has 7 distinct salary columns (lanes) per step, which were incorrectly flattened into a single column in the proposed extraction. Column headers are missing from this page. Schedule footnotes indicate a $4,200 legislative salary adjustment on all steps and a $600 annual Title I stipend for teachers at Title I schools.",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": false,
+      "audit_issues": [
+        "WRONG AXIS ORIENTATION / MISSING COLUMNS: The source clearly contains 7 salary columns (lanes) per step, but the proposed extraction flattened them into a single column with lane: null and omitted lane_labels entirely.",
+        "DUPLICATE STEP LABELS: Because columns were flattened, each step's 7 values were listed sequentially under the same step label with null lanes, creating a misleading single-column structure.",
+        "MISSING LANE LABELS: No column headers were extracted despite 7 distinct value columns per row."
+      ],
+      "audit_corrected": true
+    }
+  ],
+  "extraction_method": "text"
+}

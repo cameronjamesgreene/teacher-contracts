@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "Article II, Section K.10: 'Establishing and conducting an evaluation program to determine the effectiveness and competence of all District employees.' [Page 8]",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": "Replaced weak committee-review evidence with the Management Rights clause. The clause explicitly states the district retains the right to establish the evaluation program, confirming that specific procedures are not detailed in the CBA."
+  },
+  "evaluation_system_002": {
+    "answer": "Certified Evaluation Assessment / performance assessment tool",
+    "evidence": "Article III, Section VII: 'The Committee will annually review the Certified Evaluation Assessment for updates/revisions, which shall serve as recommendations but are not binding on the administration in revising the performance assessment tool.' [Page 12]",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly names the evaluation framework. Confidence upgraded to high."
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no",
+    "evidence": "Such committees will address issues related to teacher compensation, professional development, evaluation and other topics mutually agreed upon by the President and the Superintendent.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Answer preserved as 'no'. The document only references evaluation as a potential topic for joint committees/task forces, not as a described procedure."
+  },
+  "evaluation_system_002": {
+    "answer": "not_discussed",
+    "evidence": "6. PAR Process a. APS and ATF will present jointly to principals at a designated time at the beginning of each school year. The presentation will include, but not be limited to: ... 2.) The PAR Program.",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "Stage 1 cited 'PAR Process' but this term and any supporting evidence are completely absent from the provided document text. Corrected to not_discussed."
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of formal observation requirements or counts found in the document."
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No mention of observation duration or minimum length found."
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No rating categories or performance levels for evaluation are discussed."
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No reference to student growth, test scores, or value-added metrics in an evaluation context."
+  }
+}

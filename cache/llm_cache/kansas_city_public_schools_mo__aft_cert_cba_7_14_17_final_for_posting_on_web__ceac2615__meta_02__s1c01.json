@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.",
+    "evidence": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.",
+    "page": "8",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.\n\nAll other reviews shall be executed to ensure compliance with city, state, and federal regulations;",
+    "evidence": "Academic freedom shall be accorded to teachers, subject to the requirement that teachers teach within the District curriculum, MSIP standards as outlined by the state of Missouri, and as further defined by federal law.\n\nAll other reviews shall be executed to ensure compliance with city, state, and federal regulations;",
+    "page": "6, 8",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "None cited by specific name; the document only makes general references to 'federal law' and 'federal regulations'.",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,906 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "Salary Matrix A-3",
+      "population": "Educational Diagnosticians and Transition Specialists",
+      "is_teacher_schedule": false,
+      "school_year_or_effective_date": "2015-2016",
+      "lane_labels": [
+        "MA",
+        "MA+15",
+        "MA+45",
+        "Doctorate"
+      ],
+      "step_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "cells": [
+        {
+          "step": "1",
+          "lane": "MA",
+          "value": "48410",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MA+15",
+          "value": "51500",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MA+45",
+          "value": "54590",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "Doctorate",
+          "value": "57680",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MA",
+          "value": "48411",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MA+15",
+          "value": "51501",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MA+45",
+          "value": "54591",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "Doctorate",
+          "value": "57681",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MA",
+          "value": "48894",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MA+15",
+          "value": "52015",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MA+45",
+          "value": "55136",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "Doctorate",
+          "value": "58257",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MA",
+          "value": "48895",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MA+15",
+          "value": "52016",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MA+45",
+          "value": "55137",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "Doctorate",
+          "value": "58258",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MA",
+          "value": "48896",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MA+15",
+          "value": "52017",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MA+45",
+          "value": "55138",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "Doctorate",
+          "value": "58259",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MA",
+          "value": "48897",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MA+15",
+          "value": "52018",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MA+45",
+          "value": "55139",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "Doctorate",
+          "value": "58260",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MA",
+          "value": "48898",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MA+15",
+          "value": "52019",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MA+45",
+          "value": "55140",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "Doctorate",
+          "value": "58261",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MA",
+          "value": "49872",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MA+15",
+          "value": "53054",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MA+45",
+          "value": "56239",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "Doctorate",
+          "value": "59421",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MA",
+          "value": "51464",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MA+15",
+          "value": "54646",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MA+45",
+          "value": "57830",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "Doctorate",
+          "value": "61014",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA",
+          "value": "53054",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA+15",
+          "value": "54647",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA+45",
+          "value": "57831",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "Doctorate",
+          "value": "61015",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA",
+          "value": "53055",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA+15",
+          "value": "56239",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA+45",
+          "value": "59421",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "Doctorate",
+          "value": "62605",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA",
+          "value": "53056",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA+15",
+          "value": "56240",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA+45",
+          "value": "59422",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "Doctorate",
+          "value": "62606",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA",
+          "value": "53057",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA+15",
+          "value": "56241",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA+45",
+          "value": "59423",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "Doctorate",
+          "value": "62607",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA",
+          "value": "53058",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA+15",
+          "value": "56242",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA+45",
+          "value": "59424",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "Doctorate",
+          "value": "62608",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA",
+          "value": "53059",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA+15",
+          "value": "56243",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA+45",
+          "value": "59425",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "Doctorate",
+          "value": "62609",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA",
+          "value": "53061",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA+15",
+          "value": "56244",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA+45",
+          "value": "59426",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "Doctorate",
+          "value": "62610",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA",
+          "value": "54115",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA+15",
+          "value": "57300",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA+45",
+          "value": "60482",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "Doctorate",
+          "value": "63665",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA",
+          "value": "54116",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA+15",
+          "value": "57301",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA+45",
+          "value": "60483",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "Doctorate",
+          "value": "63666",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA",
+          "value": "57300",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA+15",
+          "value": "60482",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA+45",
+          "value": "63665",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "Doctorate",
+          "value": "66850",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MA",
+          "value": "57301",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MA+15",
+          "value": "60483",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "MA+45",
+          "value": "63666",
+          "cell_code": null
+        },
+        {
+          "step": "20",
+          "lane": "Doctorate",
+          "value": "66851",
+          "cell_code": null
+        },
+        {
+          "step": "21",
+          "lane": "MA",
+          "value": "60482",
+          "cell_code": null
+        },
+        {
+          "step": "21",
+          "lane": "MA+15",
+          "value": "63665",
+          "cell_code": null
+        },
+        {
+          "step": "21",
+          "lane": "MA+45",
+          "value": "66850",
+          "cell_code": null
+        },
+        {
+          "step": "21",
+          "lane": "Doctorate",
+          "value": "70032",
+          "cell_code": null
+        },
+        {
+          "step": "22",
+          "lane": "MA",
+          "value": "60483",
+          "cell_code": null
+        },
+        {
+          "step": "22",
+          "lane": "MA+15",
+          "value": "63666",
+          "cell_code": null
+        },
+        {
+          "step": "22",
+          "lane": "MA+45",
+          "value": "66851",
+          "cell_code": null
+        },
+        {
+          "step": "22",
+          "lane": "Doctorate",
+          "value": "70033",
+          "cell_code": null
+        },
+        {
+          "step": "23",
+          "lane": "MA",
+          "value": "63665",
+          "cell_code": null
+        },
+        {
+          "step": "23",
+          "lane": "MA+15",
+          "value": "66850",
+          "cell_code": null
+        },
+        {
+          "step": "23",
+          "lane": "MA+45",
+          "value": "70032",
+          "cell_code": null
+        },
+        {
+          "step": "23",
+          "lane": "Doctorate",
+          "value": "73216",
+          "cell_code": null
+        },
+        {
+          "step": "24",
+          "lane": "MA",
+          "value": "63666",
+          "cell_code": null
+        },
+        {
+          "step": "24",
+          "lane": "MA+15",
+          "value": "66851",
+          "cell_code": null
+        },
+        {
+          "step": "24",
+          "lane": "MA+45",
+          "value": "70033",
+          "cell_code": null
+        },
+        {
+          "step": "24",
+          "lane": "Doctorate",
+          "value": "73217",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "MA",
+          "value": "66850",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "MA+15",
+          "value": "70032",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "MA+45",
+          "value": "73216",
+          "cell_code": null
+        },
+        {
+          "step": "25",
+          "lane": "Doctorate",
+          "value": "76399",
+          "cell_code": null
+        },
+        {
+          "step": "26",
+          "lane": "MA",
+          "value": "71093",
+          "cell_code": null
+        },
+        {
+          "step": "26",
+          "lane": "MA+15",
+          "value": "74277",
+          "cell_code": null
+        },
+        {
+          "step": "26",
+          "lane": "MA+45",
+          "value": "77461",
+          "cell_code": null
+        },
+        {
+          "step": "26",
+          "lane": "Doctorate",
+          "value": "80643",
+          "cell_code": null
+        },
+        {
+          "step": "27",
+          "lane": "MA",
+          "value": "71094",
+          "cell_code": null
+        },
+        {
+          "step": "27",
+          "lane": "MA+15",
+          "value": "74278",
+          "cell_code": null
+        },
+        {
+          "step": "27",
+          "lane": "MA+45",
+          "value": "77462",
+          "cell_code": null
+        },
+        {
+          "step": "27",
+          "lane": "Doctorate",
+          "value": "80644",
+          "cell_code": null
+        },
+        {
+          "step": "28",
+          "lane": "MA",
+          "value": "71095",
+          "cell_code": null
+        },
+        {
+          "step": "28",
+          "lane": "MA+15",
+          "value": "74280",
+          "cell_code": null
+        },
+        {
+          "step": "28",
+          "lane": "MA+45",
+          "value": "77463",
+          "cell_code": null
+        },
+        {
+          "step": "28",
+          "lane": "Doctorate",
+          "value": "80645",
+          "cell_code": null
+        },
+        {
+          "step": "29",
+          "lane": "MA",
+          "value": "71096",
+          "cell_code": null
+        },
+        {
+          "step": "29",
+          "lane": "MA+15",
+          "value": "74281",
+          "cell_code": null
+        },
+        {
+          "step": "29",
+          "lane": "MA+45",
+          "value": "77464",
+          "cell_code": null
+        },
+        {
+          "step": "29",
+          "lane": "Doctorate",
+          "value": "80646",
+          "cell_code": null
+        },
+        {
+          "step": "30",
+          "lane": "MA",
+          "value": "71097",
+          "cell_code": null
+        },
+        {
+          "step": "30",
+          "lane": "MA+15",
+          "value": "74282",
+          "cell_code": null
+        },
+        {
+          "step": "30",
+          "lane": "MA+45",
+          "value": "77465",
+          "cell_code": null
+        },
+        {
+          "step": "30",
+          "lane": "Doctorate",
+          "value": "80647",
+          "cell_code": null
+        },
+        {
+          "step": "31",
+          "lane": "MA",
+          "value": "71098",
+          "cell_code": null
+        },
+        {
+          "step": "31",
+          "lane": "MA+15",
+          "value": "74283",
+          "cell_code": null
+        },
+        {
+          "step": "31",
+          "lane": "MA+45",
+          "value": "77465",
+          "cell_code": null
+        },
+        {
+          "step": "31",
+          "lane": "Doctorate",
+          "value": "80648",
+          "cell_code": null
+        },
+        {
+          "step": "32",
+          "lane": "MA",
+          "value": "71099",
+          "cell_code": null
+        },
+        {
+          "step": "32",
+          "lane": "MA+15",
+          "value": "74284",
+          "cell_code": null
+        },
+        {
+          "step": "32",
+          "lane": "MA+45",
+          "value": "77466",
+          "cell_code": null
+        },
+        {
+          "step": "32",
+          "lane": "Doctorate",
+          "value": "80649",
+          "cell_code": null
+        },
+        {
+          "step": "33",
+          "lane": "MA",
+          "value": "71100",
+          "cell_code": null
+        },
+        {
+          "step": "33",
+          "lane": "MA+15",
+          "value": "74285",
+          "cell_code": null
+        },
+        {
+          "step": "33",
+          "lane": "MA+45",
+          "value": "77467",
+          "cell_code": null
+        },
+        {
+          "step": "33",
+          "lane": "Doctorate",
+          "value": "80650",
+          "cell_code": null
+        },
+        {
+          "step": "34",
+          "lane": "MA",
+          "value": "71101",
+          "cell_code": null
+        },
+        {
+          "step": "34",
+          "lane": "MA+15",
+          "value": "74286",
+          "cell_code": null
+        },
+        {
+          "step": "34",
+          "lane": "MA+45",
+          "value": "77468",
+          "cell_code": null
+        },
+        {
+          "step": "34",
+          "lane": "Doctorate",
+          "value": "80651",
+          "cell_code": null
+        },
+        {
+          "step": "35",
+          "lane": "MA",
+          "value": "71101",
+          "cell_code": null
+        },
+        {
+          "step": "35",
+          "lane": "MA+15",
+          "value": "74286",
+          "cell_code": null
+        },
+        {
+          "step": "35",
+          "lane": "MA+45",
+          "value": "77468",
+          "cell_code": null
+        },
+        {
+          "step": "35",
+          "lane": "Doctorate",
+          "value": "80651",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "",
+      "confidence": "high",
+      "validation_warnings": [
+        "identical values across steps ['34', '35'] — looks like one column copied across rows instead of each row's own data"
+      ],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

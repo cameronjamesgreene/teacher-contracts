@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes",
+    "evidence": "20.1.6.2 Develop new teacher training and support programs pursuant to Education Code section 44506(c)(5).",
+    "page": "109",
+    "confidence": "medium"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "20.1.6 SAEA and SAUSD shall through a committee... 20.1.6.6 SAEA appointees shall receive $200 for each meeting attended. | Appendix A: Academic Coaches $2759.00/yr.",
+    "page": "109, 122",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

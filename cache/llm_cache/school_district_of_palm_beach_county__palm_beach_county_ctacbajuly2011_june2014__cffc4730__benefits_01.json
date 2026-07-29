@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "District insurance plans... Health Insurance",
+    "page": "17, 20",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to explicitly include 'Health Insurance' from page 20, which directly supports the answer. Original quote was slightly vague."
+  },
+  "benefits_health_contribution_002": {
+    "answer": "Board paid",
+    "evidence": "continued Board paid health insurance",
+    "page": "87",
+    "confidence": "medium",
+    "coder_notes": "Confidence set to medium as the cited page (87) is outside the provided document excerpt (ends at page 60). Verification relies on the Stage 1 quote."
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "Employee share of cost",
+    "evidence": "employee shall be responsible for his/her share of insurance cost, where applicable.",
+    "page": "85",
+    "confidence": "medium",
+    "coder_notes": "Confidence set to medium as the cited page (85) is outside the provided document excerpt (ends at page 60)."
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Employee plus children $740.00... Employee plus spouse $735.00... Employee plus full family $1,080.00... An employee eligible for benefits is eligible to enroll his/her eligible domestic partner in the medical plan.",
+    "page": "107, 111",
+    "confidence": "medium",
+    "coder_notes": "Confidence set to medium as the cited pages (107, 111) are outside the provided document excerpt (ends at page 60)."
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "High Option HMO, Low Option HMO, and PPO",
+    "evidence": "Such medical plans shall consist of a High Option Health Maintenance Organization (HMO) Plan, a Preferred Provider Organization (PPO) Plan, and a Low Option HMO Plan.",
+    "page": "105",
+    "confidence": "medium",
+    "coder_notes": "Confidence set to medium as the cited page (105) is outside the provided document excerpt (ends at page 60)."
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "group health and dental insurance",
+    "page": "85",
+    "confidence": "medium",
+    "coder_notes": "Confidence set to medium as the cited page (85) is outside the provided document excerpt (ends at page 60)."
+  }
+}

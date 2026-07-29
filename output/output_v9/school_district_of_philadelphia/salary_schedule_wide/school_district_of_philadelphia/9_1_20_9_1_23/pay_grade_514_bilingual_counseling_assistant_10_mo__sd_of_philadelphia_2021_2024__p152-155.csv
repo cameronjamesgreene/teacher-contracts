@@ -1,0 +1,10 @@
+# SD_of_Philadelphia_2021-2024.pdf — Pay Grade 514 - Bilingual Counseling Assistant - 10 Month (9/1/20 - 9/1/23)
+# population: Paraprofessionals | is_teacher_schedule: False
+"# validation_warnings: cross_grid_duplicate: cell values are ~identical to a different schedule (Social Services Field Representative, Pre-K p152) — distinct schedules should not share a value grid; verify each against its own page; cross_grid_contamination: a value column matches a column in a different schedule (p152) — one grid's data may be contaminated from another; verify | audit flagged unresolved issues: Values for steps 02-06 are fabricated/copy-pasted from the adjacent Social Services Field Representative schedule. The source page only lists Step 01 for Pay Grade 514 with values 23,509 / 24,155 / 24,940 / 25,688."
+step,9/1/20,9/1/21,9/1/22,9/1/23
+01,23509,24155,24940,25688
+02,24551,25227,26046,26828
+03,29584,30397,31385,32327
+04,31317,32178,33224,34221
+05,33049,33958,35061,36113
+06,43982,45192,46660,48060

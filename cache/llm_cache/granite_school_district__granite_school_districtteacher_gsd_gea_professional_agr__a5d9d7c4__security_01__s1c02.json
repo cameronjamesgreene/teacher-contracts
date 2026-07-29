@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "yes",
+    "evidence": "Provisional contract teachers are employed for a specified period of time only, as defined in the Special Employment Contract that they sign. Provisional contract teachers shall have no right or expectation of continued employment beyond the term specified in their Special Employment Contract.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "yes",
+    "evidence": "Any such curtailment or discontinuance of funds shall justify non-renewal of teacher contracts in that program. Such non-renewals shall not be considered a violation of this Agreement and the teachers involved shall not be entitled to a formal hearing under the Utah Orderly School Termination Procedures Act.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "yes",
+    "evidence": "District seniority of teachers shall be considered for purposes of school, schedule, program, grade level, or year round track assignments. ... the teacher with the greatest length of continuous and current contract service in the District shall be appointed.",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers apply via written request to HR between April 1 and June 1 (or Summer form by June 15). Deadline is the fifth calendar date after posting. Selection prioritizes qualifications, then current district employment, then seniority (length of continuous service). Notify within 10 days; non-approved applicants may request reason and interview with HR director.",
+    "evidence": "Teachers desiring a transfer to a posted position must submit a written request to the Human Resources director... The application deadline date shall be the fifth calendar date following publication... Selection among applicants... based on the relative qualifications... If equally well qualified... first consideration shall be given to applicants who are currently employed... teacher with the greatest length of continuous and current contract service... shall be appointed.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "Before recommending a teacher transfer, the principal and/or the appropriate School Accountability Services administrator will meet with the teacher involved to discuss the proposed transfer and the reasons thereof. No administrative transfer will be made arbitrarily, capriciously, or without a written explanation... If the teacher objects... the teacher may request a meeting... Administrative transfers... will take effect only after approval by the appropriate Assistant Superintendent.",
+    "page": "28",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Surplus/RIF occurs due to enrollment decline, school closure, or program change. A call for volunteers is made first; if none, surplus is determined by program needs and qualifications, with least seniority as a tie-breaker. Requires written explanation, principal-teacher conference, and Superintendent approval. Written notice by April 1 (elementary) or April 20 (secondary).",
+    "evidence": "Transfers of surplus teachers may become necessary... because of enrollment decline, school closure, or change in school program. When... makes necessary the transfer of surplus teachers, a call for volunteers shall be made... teacher with the least seniority in the District will be declared surplus. No teacher will be declared surplus without an explanation... before recommending that a teacher be declared surplus, the principal will confer with the teacher... Written notice of surplus status will be given, when possible, by April 1 for elementary teachers and by April 20 for secondary teachers.",
+    "page": "27",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "no",
+    "evidence": "may be cause for disciplinary action.",
+    "page": "41",
+    "confidence": "medium"
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "may result in disciplinary action, including termination.",
+    "page": "41",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "yes",
+    "evidence": "Credit on the salary matrix within job classifications shall be given for all years of qualified in-district experience, and all years of qualified out-of-district experience in a licensed educational role shall be credited.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "yes",
+    "evidence": "Credit on the salary matrix within job classifications shall be given for all years of qualified in-district experience, and all years of qualified out-of-district experience in a licensed educational role shall be credited.",
+    "page": "24",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "The document credits 'out-of-district' experience but does not explicitly distinguish or specify a separate rule for out-of-state experience."
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": "No provision in the document explicitly addresses crediting military service or general public service for initial salary placement on the matrix."
+  },
+  "pay_national_board_017": {
+    "answer": "Differential based on state unit value x 1.5; if state funding discontinued, $2,000.00.",
+    "evidence": "Teachers who are certified by the National Board for Professional Teaching Standards shall receive a differential. The State of New Mexico provides funding for a differential for board certified teachers based on the state’s unit value multiplied by a factor of 1.5. Should the state discontinue funding this differential, board-certified teachers shall receive a differential of $2,000.00 as long as the certificate is held.",
+    "page": "32",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

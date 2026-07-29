@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "7 total (5 State Personal Leave + 2 Local Leave)",
+    "evidence": "At the beginning of the school year, each full-time employee is advanced a total of seven days of paid leave of which five are required by the state and two are provided by local policy.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, accumulates with no limit on accumulation.",
+    "evidence": "State Personal Leave - ... given to all full-time employees at the rate of five days per year with no limit on accumulation. ... Local Leave ... continues to be given at the rate of two days per year with no limit on its accumulation during continuous service in Garland ISD.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "yes",
+    "evidence": "Local Leave ... may be used for reasons as defined in Board Policy DEC (Local). Currently these reasons are: ... b) Family Illness ... State Personal Leave ... may be used for any reason.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "5 (State Personal Leave) + 2 (Local Leave) = 7 total; note that 'Personal Business Days' were eliminated.",
+    "evidence": "At the beginning of the school year, each full-time employee is advanced a total of seven days of paid leave of which five are required by the state and two are provided by local policy. [NOTE: Senate Bill 1 eliminated “Personal Business Days.”]",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Documentation required for absences longer than five consecutive days; may not be taken for discretionary reasons on days scheduled for state-mandated assessments.",
+    "evidence": "Documentation may be required on any absence longer than five (5) consecutive days. ... This leave may not be taken for a discretionary reason on days scheduled for state-mandated assessments.",
+    "page": "71",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "no",
+    "evidence": "after September 1, 2001, a retiring employee may purchase at full, current actuarial cost one year of Teacher Retirement System service credit for fifty (50) days of unused state leave (including “old” state sick leave plus “new” state personal leave.)",
+    "page": "73",
+    "confidence": "high"
+  }
+}

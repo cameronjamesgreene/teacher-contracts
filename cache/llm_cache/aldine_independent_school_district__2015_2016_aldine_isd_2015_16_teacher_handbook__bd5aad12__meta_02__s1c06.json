@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Raffles, lotteries and other games of chance are prohibited by State Law, and shall not be conducted on school property or by school organizations.\nTEC§ Sec. 25.085 states that “a child shall attend school each school day for the entire period the program of instruction is provided”.\nA child shall not have unexcused absences on 10 or more days or parts of days within a six month period in the same school year or on three or more days or parts of days within a four-week period from school (Family Code Sec. 51.03).\nbe or have ever been in the conservatorship of the Department of Family and Protective Services following an adversary hearing under Section 262.01, Family Code.",
+    "evidence": "TEC§ Sec. 25.085 states that “a child shall attend school each school day for the entire period the program of instruction is provided”.",
+    "page": "33; 35; 40",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "D. be homeless, as defined by 42 U.S.C. Section 11302 and/or;",
+    "evidence": "D. be homeless, as defined by 42 U.S.C. Section 11302 and/or;",
+    "page": "40",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "42 U.S.C. Section 11302",
+    "evidence": "D. be homeless, as defined by 42 U.S.C. Section 11302 and/or;",
+    "page": "40",
+    "confidence": "high"
+  }
+}

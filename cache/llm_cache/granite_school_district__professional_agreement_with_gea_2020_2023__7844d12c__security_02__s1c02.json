@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Program and staffing needs of the school and relative qualifications of the teaching staff (least seniority as tie-breaker)",
+    "evidence": "decisions as to which teachers will be declared surplus shall be based on the program and staffing needs of the school and the relative qualifications of the teaching staff to fill the available positions.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "Specified period per Special Employment Contract; three-year provisional period for Specially Funded Program teachers",
+    "evidence": "Provisional contract teachers are employed for a specified period of time only, as defined in the Special Employment Contract that they sign. ... completed their three-year provisional period",
+    "page": "16",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "regular contract teachers doing satisfactory work will be continued in employment on a year-to-year basis until they retire.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Before reporting for duty, teachers employed under this Agreement shall comply with all necessary licensure and/or endorsement requirements of the Utah State Board of Education. The licenses specified above must be registered with Human Resources within thirty days following the beginning date of employment.",
+    "page": "15",
+    "confidence": "high"
+  }
+}

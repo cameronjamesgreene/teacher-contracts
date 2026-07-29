@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"The Birmingham Board of Education is further regulated by the \\\"Lewis Spratt Act.\\\" (Acts 2001-204; 2002-22)\" \"The main work of the committee will consist of an annual comprehensive review of all the system's policies to determine if they are current in terms of the Alabama Code, City Codes and Federal Laws.\" \"The adoption of revision of any policy shall be done in accordance with Title 16-11-.18, Code of Alabama.\" \"(Alabama Code 16-1-30)\" \"Postings will follow Ala. Code § 16-22-15 Posting Vacancies Law (or as revised).\" \"Tenure decisions for principals hired on or before June 30, 2000 are subject to the Tenure Act 16-24-1 through 16-24-8.\" \"Principals hired for the first time on or after July 1, 2000 will be subjected to the provisions as outlined in the Teacher Accountability Act. (Alabama Code 16-24B-1 through 16-24B-8)\" \"Leave for performing military service will be granted consistent with, and subject to, the provisions of the Uniformed Services Employment and Reemployment Rights Act of 1994, 38 U.S.C. 4301 et.seq., Alabama Code 31-2-13 (as amended), and Alabama Code 31-12-1, et seq.\" \"said guidelines and procedures must include those provisions required by law, as found in Alabama Code, 16-22-9 (1975).\" \"Any reduction in personnel shall procedurally be accomplished in accordance with sees. 16-24-8to -10 Ala. Code (1975).\" \"pursuant to this policy constitutes the necessary cause for dismissal required by § 36-26-102 Ala. Code (1975).\"",
+    "evidence": "\"The Birmingham Board of Education is further regulated by the \\\"Lewis Spratt Act.\\\" (Acts 2001-204; 2002-22)\"",
+    "page": "1010",
+    "confidence": "high",
+    "coder_notes": "Removed vague references to 'state laws' that did not cite specific statutes. Updated answer to include only explicit citations of state laws/statutes found throughout the document. Evidence and page updated to reflect the first clear citation."
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"Leave for performing military service will be granted consistent with, and subject to, the provisions of the Uniformed Services Employment and Reemployment Rights Act of 1994, 38 U.S.C. 4301 et.seq.\" \"The Birmingham Board of Education certifies its compliance with Public Law 103-3, the Family and Medical Leave Act (FMLA).\" \"The Birmingham Board of Education desires that all new and existing teachers and paraprofessionals employed by the Board be 'highly qualified' in accordance with the provisions of The No Child Left Behind Act of 2001, 20 U.S.C. §§ 6301, et.seq., as amended, ('NCLBA')\"",
+    "evidence": "\"Leave for performing military service will be granted consistent with, and subject to, the provisions of the Uniformed Services Employment and Reemployment Rights Act of 1994, 38 U.S.C. 4301 et.seq.\"",
+    "page": "3050",
+    "confidence": "high",
+    "coder_notes": "Stage 1 answer relied on vague general references to 'Federal Laws'. Revised to quote only sentences that explicitly cite specific federal laws/statutes."
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Uniformed Services Employment and Reemployment Rights Act (USERRA), Family and Medical Leave Act (FMLA), The No Child Left Behind Act of 2001 (NCLBA)",
+    "evidence": "\"The Birmingham Board of Education certifies its compliance with Public Law 103-3, the Family and Medical Leave Act (FMLA).\"",
+    "page": "3050",
+    "confidence": "high",
+    "coder_notes": "Stage 1 answer incorrectly listed only generic terms. Updated to list the specific federal laws explicitly cited in the document."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "28",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "If the PAR Panel recommends contract termination for a tenured teacher, the teacher will be given the opportunity to appear before the PAR Panel. If the teacher chooses to appear, the principal also will have the opportunity to present information. A majority vote of the PAR Panel shall be required to overturn its preliminary recommendation and uphold the teacher. If the PAR Panel affirms its original recommendation for dismissal, that recommendation will be forwarded to the superintendent.",
+    "page": "28",
+    "confidence": "high"
+  }
+}

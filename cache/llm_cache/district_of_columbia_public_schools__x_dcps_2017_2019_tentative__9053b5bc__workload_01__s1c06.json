@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "All secondary school teachers shall be given at least five (5) daily planning periods per week that are equal in length to a class period",
+    "page": "73",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "Secondary: ≥5 periods/week equal to class period. Other/Elementary: 30-min morning blocks (60 or 90 min total) or 3 days/week (45 or 30 min/day).",
+    "evidence": "All secondary school teachers shall be given at least five (5) daily planning periods per week that are equal in length to a class period",
+    "page": "73",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "In instances where a special subject Teacher is not available to provide coverage for a Teacher’s scheduled planning period, the building Supervisor shall: Seek a substitute; Utilize an alternative planning schedule; and/or Implement an alternative planning mechanism",
+    "page": "72",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "yes",
+    "evidence": "In secondary schools, each Teacher shall have a duty-free lunch period equal in length to a full teaching period... A duty-free lunch period shall not include the supervision of students.",
+    "page": "73",
+    "confidence": "high"
+  }
+}

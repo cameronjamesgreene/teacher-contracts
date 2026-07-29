@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The Board of Education shall implement a Medical Care Program for eligible employees and their eligible dependents.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "75% for the first eight (8) years of employment and 80% thereafter",
+    "evidence": "The Board shall pay 75% for the first eight (8) years of employment and 80% thereafter of the cost of the premiums for the Medical Care Program.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "The Board of Education shall implement a Medical Care Program for eligible employees and their eligible dependents.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "HMO",
+    "evidence": "Employees enrolled in a participating Health Maintenance Organization (HMO) as of January 31, 1995 may, at their option, continue such coverage until such time as they voluntarily elect to discontinue participation in an HMO.",
+    "page": "22",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "The Board of Education shall provide a Dental Insurance Program for eligible Unit I members and their eligible dependents.",
+    "page": "22",
+    "confidence": "high"
+  }
+}

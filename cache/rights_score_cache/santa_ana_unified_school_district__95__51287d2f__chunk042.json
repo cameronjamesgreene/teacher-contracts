@@ -1,0 +1,95 @@
+{
+  "clauses": [
+    {
+      "quote": "The specific dates for Open House, Back-to-School Night, and parent conferences shall be determined by the District.",
+      "subject_text": "The specific dates for Open House, Back-to-School Night, and parent conferences",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Subject is dates, but duty falls on District."
+    },
+    {
+      "quote": "Alterations to these dates may be made by sites with mutual agreement between administration and a majority of site-assigned unit members.",
+      "subject_text": "Alterations to these dates",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "may",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": "Passive voice; sites/administration have discretion subject to mutual agreement."
+    },
+    {
+      "quote": "The site administration shall notify the District in writing no less than 20 duty days prior to the changes.",
+      "subject_text": "The site administration",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "The District shall, on a timely basis, forward a copy of all changes to the Association.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Prorated sick leave shall be provided for those unit members working beyond a regular contract as follows:",
+      "subject_text": "Prorated sick leave",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "leave",
+      "notes": "Introduces benefit table; creates right to prorated sick leave for extended contracts."
+    },
+    {
+      "quote": "Each unit member shall have at least a 30 minute duty-free, uninter-rupted lunch period exclusive of passing periods.",
+      "subject_text": "Each unit member",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "The instructional day for unit members shall conform with the required minutes provided in Education Code, Section 46201.",
+      "subject_text": "The instructional day for unit members",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": "Subject is 'instructional day', but duty falls on management to schedule accordingly."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Itinerant Teachers shall be provided Metro fare or reimbursement for required use of a vehicle at the Internal Revenue Code’s recognized reimbursement rate.",
+      "subject_text": "Itinerant Teachers",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "Teachers using privately owned vehicles must obtain authorization through their immediate Supervisor",
+      "subject_text": "Teachers using privately owned vehicles",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "submit the required documentation of travel.",
+      "subject_text": "Teachers using privately owned vehicles",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Subject implied from preceding clause."
+    },
+    {
+      "quote": "A Teacher who is enrolled in graduate coursework or a relevant dual certification program shall be reimbursed at the rate of $200 per credit hour, not to exceed $1,800 per year",
+      "subject_text": "A Teacher who is enrolled in graduate coursework or a relevant dual certification program",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "The tuition reimbursement shall be paid within sixty (60) School Days following completion of the coursework.",
+      "subject_text": "The tuition reimbursement",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "obligation",
+      "topic": "compensation",
+      "notes": ""
+    },
+    {
+      "quote": "The Teacher shall be required to work in DCPS for a minimum of three (3) years after receiving the reimbursement.",
+      "subject_text": "The Teacher",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "s/he shall be obligated to return the compensation to DCPS on a prorated basis.",
+      "subject_text": "s/he",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "A Teacher who is a certified classroom Teacher, and who achieves a second certification in secondary math, secondary science, or special education (or other subjects, as determined by DCPS) shall receive a non-pensionable, one-time bonus of $1,500",
+      "subject_text": "A Teacher who is a certified classroom Teacher, and who achieves a second certification in secondary math, secondary science, or special education (or other subjects, as determined by DCPS)",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": ""
+    }
+  ]
+}

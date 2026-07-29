@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes",
+    "evidence": "ARTICLE V EVALUATION PROCEDURES",
+    "page": "8",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "California Standards for the Teaching Profession (CSTP)",
+    "evidence": "site administration shall primarily assist unit members in meeting the California Standards for the Teaching Profession (CSTP).",
+    "page": "8",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "No more than two (2) formal observations per evaluation",
+    "evidence": "Unit members shall have no more than two (2) formal observations per each evaluation.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "15 to 60 minutes",
+    "evidence": "Formal classroom observations shall last for at least fifteen (15) minutes and no more than sixty (60) minutes.",
+    "page": "11",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "“Below Standard”, “Unsatisfactory”, and “Satisfactory”",
+    "evidence": "A Standard is identified as “unsatisfactory” if it has three (3) or more elements marked as “Below Standard”.",
+    "page": "9",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

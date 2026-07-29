@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "The degree of specificity of these lesson plans shall be determined by the teacher in accordance with the approved curriculum and must be sufficient to be easily interpreted by a supply teacher if the need should arise. Teachers, parents, and the community are encouraged to suggest and utilize materials with the due consideration of reasonable financial limitations. No course of study shall be eliminated nor new course added without approval of the Board. Neither shall any basic alteration or reduction of a course of study be made without Board approval.",
+    "page": "7040, 7100, 7050",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "All teachers are required to develop written lesson plans for each class they are assigned. The degree of specificity of these lesson plans shall be determined by the teacher in accordance with the approved curriculum and must be sufficient to be easily interpreted by a supply teacher if the need should arise. Such lesson plans are to be made available to the principal and/or other school system supervisory personnel for inspection upon request.",
+    "page": "7040",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

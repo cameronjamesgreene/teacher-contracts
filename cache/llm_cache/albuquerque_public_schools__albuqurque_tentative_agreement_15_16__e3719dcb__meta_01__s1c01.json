@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Tentative agreement",
+    "evidence": "APS/ATF Agreements for Ratification 2015-2016",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2015-2016 School Year",
+    "evidence": "For the 2015/16 School Year, the parties agree to a continuation of district-wide and site-based professional development and teacher preparation.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (all licensed employees on Salary Schedules AT-1, AT-2, AT-3, A-2, A-3, and A-4)",
+    "evidence": "The term \"teacher\" for the purpose of this Agreement shall mean all licensed employees whose salaries are based on Salary Schedules AT-1, AT-2, AT-3, A-2, A-3, and A-4 unless specified otherwise herein.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Tentative agreement (binding upon ratification)",
+    "evidence": "All agreements reached as a result of such negotiations shall be tentative until ratification by both parties is effected pursuant to the ratification procedures as set forth in Board Policy H.1.",
+    "page": "1",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Source: New Mexico Public School Code, Section 22-10A-20 (2003)",
+    "page": "1",
+    "confidence": "high"
+  }
+}

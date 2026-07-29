@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "30",
+    "evidence": "All teachers shall have an uninterrupted, duty-free lunch period of at least 30 minutes daily, not counting passing time, except for teachers with assigned lunch-time responsibilities.",
+    "page": "19",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "Faculty meetings shall not exceed two per month, except when cleared by a School Leadership and Improvement Director in collaboration with the Executive Director of the Association and/or in the event of an emergency. Faculty meetings shall not exceed one per month beginning in the 2021-2022 school year.",
+    "page": "19",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Assigned supervisory duty, or other duty, shall not exceed 10 minutes in any lunch period. In order to assist in lunch-time supervisory duties... the District will budget an amount of money annually for lunch supervision programs.",
+    "page": "19",
+    "confidence": "high"
+  }
+}

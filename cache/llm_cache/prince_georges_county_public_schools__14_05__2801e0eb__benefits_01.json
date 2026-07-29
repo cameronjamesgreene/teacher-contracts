@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "any hospitalization, dental insurance, optical insurance, life insurance or health maintenance organization plans as the Board may have available for its employees",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_contribution_002": {
+    "answer": "75% for the first eight (8) years of employment and 80% thereafter",
+    "evidence": "The Board shall pay 75% for the first eight (8) years of employment and 80% thereafter of the cost of the premiums for the Medical Care Program.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "The Board of Education shall implement a Medical Care Program for eligible employees and their eligible dependents.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "HMO, hospitalization/medical",
+    "evidence": "hospitalization ... or health maintenance organization plans",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "dental insurance",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

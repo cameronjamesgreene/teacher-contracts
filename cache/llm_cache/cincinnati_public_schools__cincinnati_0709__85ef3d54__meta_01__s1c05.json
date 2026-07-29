@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "§230 Teacher Absence; §240 Teaching Conditions; §250 Teacher Transfer Procedures",
+    "page": "32-41",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "1992–93 to 1995-96 school years",
+    "evidence": "Effective for transfers that occur for the 1992–93 school year",
+    "page": "41",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers",
+    "evidence": "§230 Teacher Absence; Bargaining unit member identified by the Federation",
+    "page": "32-41",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "contract teacher; Board and Federation agree that teachers and principals should have a greater role",
+    "page": "41",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "ORC §3319.141; Section 5923.05, Ohio Revised Code; Ohio Revised Code 3319.14",
+    "page": "32-35",
+    "confidence": "high"
+  }
+}

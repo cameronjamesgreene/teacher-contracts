@@ -1,0 +1,38 @@
+{
+  "conduct_outside_employment_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "conduct_ethics_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "conduct_drug_alcohol_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "conduct_social_media_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "conduct_acceptable_use_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "low"
+  },
+  "conduct_academic_freedom_007": {
+    "answer": "yes",
+    "evidence": "Academic Freedom shall be guaranteed to teachers, and no arbitrary limitations shall be placed on study, investigation, presentation and interpretation of facts and ideas concerning man, human society, the physical and biological world, and other branches of learning, subject only to accepted standards of professional responsibility and to the Board's responsibility to govern the public schools.",
+    "page": "12",
+    "confidence": "high"
+  }
+}

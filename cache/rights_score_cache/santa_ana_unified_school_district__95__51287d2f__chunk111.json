@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "The cost shall be equally shared by the District and the Association.",
+      "subject_text": "The cost",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint duty to share costs, likely referring to union dues or benefits from the preceding clause."
+    },
+    {
+      "quote": "The District shall not reduce or eliminate any current District Office procedures, Board Policies, or Administrative Regulations on items that are within the scope of representation as defined by Chapter 10.7, Section 3543.2 of the Government Code and final PERB decisions, that would adversely affect a unit member unless previously discussed with the Association or otherwise provided by the express terms of this Agreement.",
+      "subject_text": "The District",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "prohibition_verb",
+      "llm_judgment": "prohibition",
+      "topic": "other",
+      "notes": "Prohibits unilateral changes to representation procedures that adversely affect unit members without prior discussion."
+    },
+    {
+      "quote": "the parties hereto shall, upon request within forty (40) duty days, commence meeting and negotiating with respect to the means of compliance therewith, if either party deems it necessary to renegotiate and requests such in writing.",
+      "subject_text": "the parties hereto",
+      "acting_party": "other",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint obligation to renegotiate upon a change in law or decision affecting the agreement's compliance."
+    }
+  ]
+}

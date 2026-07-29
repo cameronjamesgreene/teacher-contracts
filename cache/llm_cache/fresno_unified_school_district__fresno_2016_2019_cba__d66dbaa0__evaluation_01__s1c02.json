@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes; Article 16 - Evaluation and Professional Standards, full procedure",
+    "evidence": "ARTICLE 16 - EVALUATION AND PROFESSIONAL STANDARDS ... SECTION 1 - Evaluation ... 4. Evaluation Plan Procedures and Timelines ... 5. Classroom Observation Procedures and Timelines ... 6. Formative and Summative Evaluation Procedures and Timelines",
+    "page": "15",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "California Standards for the Teaching Profession (CSTP) and CSTP Continuum",
+    "evidence": "The parties shall use the California Standards for the Teaching Profession (CSTP); and the jointly developed Continuum of Standards for the Teaching Profession, which includes the CSTP Indicators (CSTP Continuum), will serve as a guide for reflective practice, continuous improvement, and evaluation.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "At least one observation prior to the end of November; at least four formal observations prior to a 'Does Not Meet Standards' rating on the summative evaluation.",
+    "evidence": "At least one (1) observation shall occur prior to the end of each November. / At least 4 formal observations shall take place prior to a “Does Not Meet Standards” rating in any area of the 6 CSTP’s on the summative evaluation.",
+    "page": "17",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "“Demonstrates Expertise,” “Meets Standards”, “Growth Expected,” or “Not Meeting Standards”",
+    "evidence": "Unit members shall receive an overall rating of “Demonstrates Expertise,” “Meets Standards”, “Growth Expected,” or “Not Meeting Standards” in each of the six standards of the CSTP.",
+    "page": "16",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes; student learning/progress, pre-tests, end-of-course tests, multiple formative and District wide benchmark assessments, objective performance-based assessments, student learning objectives, and student performance on English language proficiency assessments",
+    "evidence": "criteria for every teacher evaluation shall include the use of multi-faceted evidence of teacher practice, student learning, and professional contributions to determine the level of teacher effectiveness in measuring progress of students towards established standards of expected student achievement, such as student results on pre-tests, end-of-course tests, multiple formative and District wide benchmark assessments, objective performance-based assessments; student learning objectives; student performance on English language proficiency assessments.",
+    "page": "16",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "has_table": true,
+  "schedule_label": "Washington Teacher's Union EG-09 Salary Schedule, FY 2025-2028 (single 'Bachelors' education level/position class)",
+  "school_year_or_effective_date": "FY 2025-2028",
+  "lane_labels": [
+    "FY 2025 (effective Oct 6, 2024; 2.0%)",
+    "FY 2026 (effective Oct 5, 2025; 3.0%)",
+    "FY 2027 (effective Oct 4, 2026; 3.0%)",
+    "FY 2028 (effective Oct 3, 2027; 4.0%)"
+  ],
+  "step_labels": [
+    "Step 1",
+    "Step 2",
+    "Step 3",
+    "Step 4",
+    "Step 5",
+    "Step 6",
+    "Step 7",
+    "Step 8",
+    "Step 9",
+    "Step 10-16",
+    "17-18 Yrs Service (BA/BS+30 & Above)",
+    "19-20 Yrs Service (BA/BS+30 & Above)",
+    "21+ Yrs Service (BA/BS+30 & Above)"
+  ],
+  "cells": [
+    {
+      "step": "Step 1",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "70814",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "73184",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "75549",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "77920",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "80288",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "82657",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "85025",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "87395",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "89763",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10-16",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "92134",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "93507",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "95796",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2025 (effective Oct 6, 2024; 2.0%)",
+      "value": "98999",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "72938",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "75379",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "77816",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "80257",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "82697",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "85136",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "87576",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "90016",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "92456",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10-16",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "94898",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "96313",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "98670",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2026 (effective Oct 5, 2025; 3.0%)",
+      "value": "101969",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "75126",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "77641",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "80150",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "82665",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "85178",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "87691",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "90203",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "92717",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "95230",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10-16",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "97744",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "99202",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "101630",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2027 (effective Oct 4, 2026; 3.0%)",
+      "value": "105028",
+      "cell_code": null
+    },
+    {
+      "step": "Step 1",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "78131",
+      "cell_code": null
+    },
+    {
+      "step": "Step 2",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "80747",
+      "cell_code": null
+    },
+    {
+      "step": "Step 3",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "83356",
+      "cell_code": null
+    },
+    {
+      "step": "Step 4",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "85972",
+      "cell_code": null
+    },
+    {
+      "step": "Step 5",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "88585",
+      "cell_code": null
+    },
+    {
+      "step": "Step 6",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "91198",
+      "cell_code": null
+    },
+    {
+      "step": "Step 7",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "93811",
+      "cell_code": null
+    },
+    {
+      "step": "Step 8",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "96426",
+      "cell_code": null
+    },
+    {
+      "step": "Step 9",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "99039",
+      "cell_code": null
+    },
+    {
+      "step": "Step 10-16",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "101654",
+      "cell_code": null
+    },
+    {
+      "step": "17-18 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "103170",
+      "cell_code": null
+    },
+    {
+      "step": "19-20 Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "105696",
+      "cell_code": null
+    },
+    {
+      "step": "21+ Yrs Service (BA/BS+30 & Above)",
+      "lane": "FY 2028 (effective Oct 3, 2027; 4.0%)",
+      "value": "109229",
+      "cell_code": null
+    }
+  ],
+  "notes": "EG-09 is a single-lane schedule (only 'Bachelors' education level listed, unlike the multi-lane ET-15 schedules), so fiscal year is used as the lane axis instead of education level/lane. Source text cleanly extracted (not image-based).",
+  "confidence": "high"
+}

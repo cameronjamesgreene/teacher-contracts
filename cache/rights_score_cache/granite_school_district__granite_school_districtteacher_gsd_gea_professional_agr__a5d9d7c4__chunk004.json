@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "Pursuant to state law, the Board may enter into individual employment contracts without violating this Agreement.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "may",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "permission",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "Therefore, the Board will provide opportunities for the involvement and participation of teachers individually and through the Association in planning and developing the best possible programs for students and teachers of the District.",
+      "subject_text": "the Board",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": ""
+    },
+    {
+      "quote": "however, any individual teacher shall have the right to present grievances with or without representation b",
+      "subject_text": "any individual teacher",
+      "acting_party": "worker",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "rights_active",
+      "llm_judgment": "right",
+      "topic": "discipline",
+      "notes": "Truncated at end of chunk."
+    }
+  ]
+}

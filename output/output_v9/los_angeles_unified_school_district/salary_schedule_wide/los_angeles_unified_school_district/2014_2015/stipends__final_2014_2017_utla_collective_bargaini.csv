@@ -1,0 +1,9 @@
+# Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf — STIPENDS (2014-2015)
+"# population: Staff receiving stipends (Literacy Training, Math Training, Mentor Principal) | is_teacher_schedule: False"
+# validation_warnings: cross_grid_contamination: a value column matches a column in a different schedule (p385) — one grid's data may be contaminated from another; verify; cross_grid_contamination: a value column matches a column in a different schedule (p401) — one grid's data may be contaminated from another; verify | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+"Stipend, Literacy Training/Professional Dev. Rate 1 (1405)",102
+"Stipend, Math Training/Professional Dev. Rate 1 (1406)",102
+"Stipend, Mentor Principal, Rate 1 (1423)",2040
+"Stipend, Mentor Principal, Rate 2 (1424)",3060

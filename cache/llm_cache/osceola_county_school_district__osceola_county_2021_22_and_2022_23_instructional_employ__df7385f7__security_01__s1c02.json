@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Teachers desiring a transfer for the next school year must submit a transfer form (Appendix E) to the Superintendent and a copy to their principal by March 1. They may also apply for transfers at any time. Teachers on the transfer list are considered first for vacancies they specifically apply for, though the receiving principal makes the final recommendation. A teacher on the list is not required to transfer or obtain principal approval.",
+    "evidence": "If a teacher desires a transfer to be effective the next school year, he or she must submit a transfer form (Appendix E) to the Superintendent and provide a copy to his/her principal. Teachers who desire a transfer for the next school year should submit the transfer form by March 1.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "If no, or not enough employees volunteer for transfer, those with the least certificated service in the School District will be placed at other worksites providing the teachers transferred and the teachers remaining in the school possess the necessary certification and qualifications and have clearly demonstrated the ability to meet both the requirements of the position in question and the program needs of the school.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "If a RIF is recommended, the Superintendent meets with the Association before Board action. Transfers are voluntary first. Involuntary layoff/transfer applies to teachers with the least certificated service first (determined by years of service, consecutive years, then hire date). Written notice must be given at least 30 days before layoff (unless financial crisis), including schedule, reasons, and recall rights. Recall rights last 18 months. Recalled teachers have 12 days to accept. Recall occurs in reverse order of layoff before hiring new teachers. Continuing/professional services contract teachers within 2 years of normal retirement are exempt from RIF layoff.",
+    "evidence": "Any teacher who is to be laid off will be so notified in writing at least thirty (30) days before the effective date of the layoff unless a School District financial crisis exists. Such notice will include the proposed time schedule, the reasons for the proposed action, and his/her recall rights as set forth in this Article.",
+    "page": "28",
+    "confidence": "high"
+  }
+}

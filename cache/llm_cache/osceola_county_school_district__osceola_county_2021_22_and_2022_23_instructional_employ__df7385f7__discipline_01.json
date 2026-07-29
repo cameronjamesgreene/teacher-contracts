@@ -1,0 +1,16 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "All teachers shall be guaranteed due process and no disciplinary action shall be taken without just cause.",
+    "page": "13",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "In those situations where the progressive disciplinary steps have not resulted in modification of the identified behavior, or where the employee commits a serious infraction, the employee may be terminated from employment. A termination must be made by recommendation of the Superintendent to the Board.",
+    "page": "36",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

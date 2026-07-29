@@ -1,0 +1,13 @@
+{
+  "has_table": false,
+  "schedule_label": "",
+  "school_year_or_effective_date": "",
+  "lane_labels": [],
+  "step_labels": [],
+  "cells": [],
+  "notes": "Page 43 is Article 9, the Mentor/PAR Assistance and Review Program description; no salary table content.",
+  "confidence": "high",
+  "extraction_method": "vision",
+  "page_start": 43,
+  "page_end": 43
+}

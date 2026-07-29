@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "For any teacher in Year 1, 2, or 3 – who has not made satisfactory progress, and who has received support from an assigned mentor for a minimum of three months, a referral will be made to Human Resources with the recommendation to discontinue employment.",
+    "page": "93",
+    "confidence": "medium"
+  }
+}

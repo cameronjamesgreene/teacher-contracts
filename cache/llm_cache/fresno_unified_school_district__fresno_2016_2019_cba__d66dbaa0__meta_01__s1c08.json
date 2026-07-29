@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Fresno_2016-2019_CBA.pdf",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2016-2019",
+    "evidence": "Fresno_2016-2019_CBA.pdf / For 2015-2016 and subsequent years",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Bargaining unit members",
+    "evidence": "bargaining unit member",
+    "page": "79",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "contained within this contract beginning at Level III.",
+    "page": "81",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "Usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "Yes",
+    "evidence": "Pursuant to Education Code section 49079",
+    "page": "87",
+    "confidence": "high"
+  }
+}

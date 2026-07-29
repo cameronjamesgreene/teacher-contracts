@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "Teachers shall report, in writing as soon as possible to their principal /supervisor, any assault suffered in connection with their employment.",
+    "page": "22",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The Board, Administration, and Association believe that educators need to be able to teach without disruptions from disorderly students and are in full support of teachers, principals, and school staff in their duties to operate safe, orderly schools and classrooms under reasonable rules governing school conduct. Appropriate disciplinary measures should be assessed to students when students make false allegations against an employee that have an affect or impact on the teacher’s employment. Refer to Administrative Memo #106.",
+    "page": "21",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include the full Article 12 text for completeness. Explicitly addresses disruptive student behavior and references administrative procedures for discipline."
+  },
+  "safety_remove_student_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "Each school will be provided with well-ventilated, clean, adequate, separate rest rooms for men and women teachers.",
+    "page": "17",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

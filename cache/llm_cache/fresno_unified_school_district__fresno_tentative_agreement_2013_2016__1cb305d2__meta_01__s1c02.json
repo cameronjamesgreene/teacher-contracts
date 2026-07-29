@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "Tentative agreement",
+    "evidence": "FTA/FUSD Tentative Agreement, June 5, 2014",
+    "page": "11",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2013-14 through 2015-16",
+    "evidence": "2013-14 through 2015-16 w/Reopeners",
+    "page": "11",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "bargaining unit members",
+    "evidence": "A bargaining unit member must be employed 50% or more to be eligible for FUSD's Health and Life Insurance Plans.",
+    "page": "15",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Tentative agreement",
+    "evidence": "FTA/FUSD Tentative Agreement, June 5, 2014",
+    "page": "11",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "All references to 'Medicare' refer to the Federal Medicare Law as described in Title 18 of the Social Security Act of 1964.",
+    "page": "22",
+    "confidence": "high"
+  }
+}

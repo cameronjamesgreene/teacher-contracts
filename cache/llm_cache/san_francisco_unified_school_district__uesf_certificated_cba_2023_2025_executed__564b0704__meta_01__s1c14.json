@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "187",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "July 1, 2023 to June 30, 2025",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "187",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Certificated staff",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated)",
+    "page": "187",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "UESF Collective Bargaining Agreement (Certificated) July 1st, 2023 thru June 30th, 2025",
+    "page": "187",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Education Code Sections 52012, 52852, and 54724 require that a school site council be established at each school that participates in SIP, SBCP or SB 65",
+    "page": "194",
+    "confidence": "high"
+  }
+}

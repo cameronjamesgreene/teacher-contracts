@@ -1,0 +1,44 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes",
+    "evidence": "14.5 Labor/Management Health and Safety Committee (LMHSC) ... 14.5.1 The District and UESF shall establish a labor/management safety committee which shall meet on a regular basis to discuss and consider appropriate means of resolving safety and student discipline issues. ... A complaint by a teacher or Building Representative that there has been a violation of the safety of students, teachers or other employees shall be made to the site administrator as promptly as possible. The complaint shall be reduced to written form. The site administrator/designee shall provide a written response as to the disposition of the complaint to complainant, the UBC and the Labor/Management Health And Safety Committee (LMHSC) unless the matter has been turned over to the LMHSC, in which case the LMHSC shall provide the response.",
+    "page": "41, 43",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_assault_protection_002": {
+    "answer": "yes",
+    "evidence": "14.4.1 ... teachers shall promptly report cases of attack assault or menace suffered by them in connection with their employment to their principal or immediate supervisor and to the appropriate law enforcement authorities. ... 14.4.3 The District shall give direct legal and other related assistance in accordance with applicable law for any assault upon the teacher while acting in the discharge of his/her duties. ... 14.4.4 When absence arises out of or from such assault or injury, the teacher shall not forfeit any sick leave. ... 14.4.5 The District shall reimburse a teacher for damage or theft of personal property when said damage or theft results from attack, assault or menace, robbery or vandalism when said damage or theft occurs in the line of duty, including pupil supervision, without fault of the teacher.",
+    "page": "42",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "22.1.1 A safe and orderly learning environment is a major priority of the parties. Such an environment requires that disruptive behavior be dealt with safely, fairly, and consistently, and in a manner that incorporates progressive disciplinary measures to the extent required by law. 22.2 District support and assistance... 22.7 Informing Bargaining Unit Member",
+    "page": "65-67",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "22.3.1 A teacher may suspend any pupil from his or her class for the remainder of the day of the suspension and the day following the suspension for disruption of school activities or willful denial of the valid authority of teachers or other school personnel.",
+    "page": "65",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": "Scanned full provided document. Article 6.8 addresses emergency coverage for teacher absences, but no provisions exist regarding school-wide closures, lockdowns, or inclement weather procedures. Answer preserved as not_discussed."
+  },
+  "safety_environment_006": {
+    "answer": "yes",
+    "evidence": "14.2.8 The District shall make reasonable efforts to keep facilities free of unwanted rodents, pest, and insects such as ants, roaches and fleas. ... 14.2.10 As the District renovates, builds or otherwise makes improvements to school buildings, the District shall make all reasonable efforts to provide a functioning, monitored central office intercom service at the site and telephone jacks to major area that do not already have telephone service. ... 14.3 Harmful Chemicals – Removal and cleanup of hazardous materials, shall be handled in accordance with all applicable federal and state laws and regulations that apply to California K-12 public schools by persons specially trained in such procedures.",
+    "page": "42",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

@@ -1,0 +1,15 @@
+"# Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf — APPENDIX B - SUPPLEMENTS (July 1, 2007)"
+"# population: Supplemental positions (coaching, club advisors, athletic directors, etc.) | is_teacher_schedule: False"
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit confirmed"
+step,value
+Category 1,5460
+Category 2,4915
+Category 3,4110
+Category 4,3275
+Category 5,3015
+Category 6,2500
+Category 7,2185
+Category 8,1925
+Category 9,1640
+Category 10,1145
+Category 11,835

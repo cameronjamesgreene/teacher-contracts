@@ -1,0 +1,38 @@
+{
+  "workload_work_year_days_001": {
+    "answer": "198",
+    "evidence": "Instructional contracts shall be for a period of one hundred and ninety-eight (198) days.",
+    "page": "44",
+    "confidence": "high"
+  },
+  "workload_workday_length_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "workload_prep_guarantee_003": {
+    "answer": "yes",
+    "evidence": "Teachers shall be free to use the pre- and post-school planning time to prepare for the opening and closing of the school year within their own school except as follows:",
+    "page": "49",
+    "confidence": "high"
+  },
+  "workload_prep_minutes_004": {
+    "answer": "pre- and post-school planning time",
+    "evidence": "Teachers shall be free to use the pre- and post-school planning time to prepare for the opening and closing of the school year within their own school except as follows:",
+    "page": "49",
+    "confidence": "high"
+  },
+  "workload_prep_protected_005": {
+    "answer": "yes",
+    "evidence": "Internal meetings shall be held to a minimum to allow maximum preparation time by teachers. ... two (2) days or four (4) half days during the pre-school period shall be designated as instructional excellence day and no meeting or activities will be scheduled by the Administration or Union.",
+    "page": "49",
+    "confidence": "high"
+  },
+  "workload_lunch_duty_free_006": {
+    "answer": "not_discussed",
+    "evidence": "The parties agree to discuss daily schedules including lunch breaks, uninterrupted planning, covering classes for absent teachers, evaluations and other issues which may be raised by the staff members.",
+    "page": "48",
+    "confidence": "medium"
+  }
+}

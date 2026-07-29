@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "A Consulting Teacher is a teacher who provides assistance to a Participating Teacher pursuant to the PAR Program... demonstrating, observing, coaching, conferencing, and referring to other activities... The term of the Consulting Teacher shall be three (3) years... provided reasonable release time... stipend of $4,000... $2,000 per Volunteer Participating Teacher.",
+    "page": "106-107",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

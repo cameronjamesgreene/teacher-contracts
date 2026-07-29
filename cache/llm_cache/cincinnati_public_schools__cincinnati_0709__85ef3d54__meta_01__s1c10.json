@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "This contract shall expire on December 31, 2009",
+    "page": "80",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "January 1, 2007 to December 31, 2009",
+    "evidence": "Effective this 1st day of January 2007\nThis contract shall expire on December 31, 2009",
+    "page": "80",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers (Cincinnati Federation of Teachers)",
+    "evidence": "Cincinnati Federation of Teachers",
+    "page": "80",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "Binding agreement",
+    "evidence": "This contract may be amended by mutual written agreement of the Board and the Federation.",
+    "page": "79",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Section 124.39 of the Ohio Revised Code",
+    "page": "77",
+    "confidence": "high"
+  }
+}

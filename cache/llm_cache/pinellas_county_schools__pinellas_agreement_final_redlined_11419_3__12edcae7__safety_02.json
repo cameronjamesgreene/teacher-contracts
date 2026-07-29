@@ -1,0 +1,16 @@
+{
+  "safety_security_measures_007": {
+    "answer": "yes",
+    "evidence": "The administration shall cooperate with teachers in screening visitors wishing to visit classrooms within their building.",
+    "page": "16",
+    "confidence": "high",
+    "coder_notes": "Corrected page number to 16 to match document pagination. Evidence explicitly supports visitor controls."
+  },
+  "safety_weapons_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

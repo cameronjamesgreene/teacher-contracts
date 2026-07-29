@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "The District shall make available to each eligible employee an option of medical health plans.",
+    "page": "105",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "District pays monthly premiums ranging from $322.50 to $1,130.00 depending on plan tier, coverage type, full/part-time status, and rewards status.",
+    "evidence": "Effective January 1, 2012 and thereafter, the District will pay the following towards monthly medical insurance premium cost for employees enrolled in the High Option HMO Plan or the PPO Plan: ... Employee plus full family $1,130.00",
+    "page": "107-108",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "$50.00 minimum monthly premium",
+    "evidence": "effective January 1, 2012 full-time and part-time employees enrolled in any of the District’s Medical Plans will pay a minimum monthly premium payment of $50.00.",
+    "page": "108",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "Employee plus children $740.00... Employee plus spouse $735.00... Employee plus full family $1,080.00... An employee eligible for benefits is eligible to enroll his/her eligible domestic partner in the medical plan.",
+    "page": "107, 111",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "High Option HMO, Low Option HMO, and PPO",
+    "evidence": "Such medical plans shall consist of a High Option Health Maintenance Organization (HMO) Plan, a Preferred Provider Organization (PPO) Plan, and a Low Option HMO Plan.",
+    "page": "105",
+    "confidence": "high"
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "The District will also make available choices of dental plans, including a Managed Dental Plan and a Preferred Provider (PPO) Plan to be paid by the employee with pre-tax dollars through payroll deduction.",
+    "page": "105",
+    "confidence": "high"
+  }
+}

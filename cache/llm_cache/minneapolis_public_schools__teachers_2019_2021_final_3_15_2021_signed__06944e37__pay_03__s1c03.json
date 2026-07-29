@@ -1,0 +1,32 @@
+{
+  "pay_experience_credit_indistrict_013": {
+    "answer": "discussed_unclear",
+    "evidence": "Upon filing an appropriate, valid Minnesota teaching license, the teacher shall be placed on the step and lane appropriate to teaching experience in the District and applicable prior experience.",
+    "page": "25",
+    "confidence": "low"
+  },
+  "pay_experience_credit_outofdistrict_014": {
+    "answer": "discussed_unclear",
+    "evidence": "Upon filing an appropriate, valid Minnesota teaching license, the teacher shall be placed on the step and lane appropriate to teaching experience in the District and applicable prior experience.",
+    "page": "25",
+    "confidence": "low"
+  },
+  "pay_experience_credit_outofstate_015": {
+    "answer": "discussed_unclear",
+    "evidence": "Upon filing an appropriate, valid Minnesota teaching license, the teacher shall be placed on the step and lane appropriate to teaching experience in the District and applicable prior experience.",
+    "page": "25",
+    "confidence": "low"
+  },
+  "pay_experience_credit_military_public_016": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_national_board_017": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

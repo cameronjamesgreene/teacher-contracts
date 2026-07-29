@@ -1,0 +1,23 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "1. \"In accordance with Education Article, Annotated Code of Maryland, Section 6-410, PGCEA, or any group of employees represented by the PGCEA, shall be prohibited from calling, or directing, or abetting any strike, slow down or any action which interferes with the operation of the schools.\"\n2. \"Nothing contained herein shall be deemed to supersede any provision of the Constitution or the Code of Maryland.\"\n3. \"The Board of Education of Prince George’s County, hereafter referred to as the “Board”, recognizes the Prince George’s County Educators’ Association, hereinafter referred to as “PGCEA”, pursuant to Title 6 Education Article of the Annotated Code of Maryland, as the sole and exclusive bargaining representative of Unit I.\"\n4. \"Negotiations Law: Education Article, Annotated Code of Maryland, Subtitle 4 of Title 6.\"",
+    "evidence": "1. \"In accordance with Education Article, Annotated Code of Maryland, Section 6-410, PGCEA, or any group of employees represented by the PGCEA, shall be prohibited from calling, or directing, or abetting any strike, slow down or any action which interferes with the operation of the schools.\"\n2. \"Nothing contained herein shall be deemed to supersede any provision of the Constitution or the Code of Maryland.\"\n3. \"The Board of Education of Prince George’s County, hereafter referred to as the “Board”, recognizes the Prince George’s County Educators’ Association, hereinafter referred to as “PGCEA”, pursuant to Title 6 Education Article of the Annotated Code of Maryland, as the sole and exclusive bargaining representative of Unit I.\"\n4. \"Negotiations Law: Education Article, Annotated Code of Maryland, Subtitle 4 of Title 6.\"",
+    "page": "1, 1, 2, 5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

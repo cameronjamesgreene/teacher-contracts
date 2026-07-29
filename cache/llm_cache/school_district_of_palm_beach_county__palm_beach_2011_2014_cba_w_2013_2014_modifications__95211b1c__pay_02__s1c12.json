@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Supplemental Complexity Pay... complexity pay will be allocated over the number of pay periods each Instructional employee has elected for that school year... CPX Rating 2 $2,000 3 $4,000",
+    "page": "174, 186",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "yes",
+    "evidence": "Teacher 'Complexity' Pay Formula driven stipend designed to provide differentiated pay based on factors, e.g., high priority location... CPX Rating 2 $2,000 3 $4,000",
+    "page": "183, 186",
+    "confidence": "high"
+  }
+}

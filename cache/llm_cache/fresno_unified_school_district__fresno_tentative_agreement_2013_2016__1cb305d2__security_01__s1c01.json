@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "priority will g<;> to e person having greatest seniority in th~ Dilltrict Center Supervisors",
+    "page": "3",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Early Childhood Teachers currently employed by the District having a valid California teaching credential shall have opportunity to enter the District's voluntary transfer pool for the purpose of interviewing for permanent openings. After the District has met its needs in transfer of permanent teachers, in accordance with the teacher transfer article in this Agreement, Early-Childhood Teachers shall be given preference for other permanent openings, if determined qualified by the District and well recommended.",
+    "evidence": "Early Childhood Teachers currently employed l ~the District having a valid California tcaqhing credential shall hnve opport '1Jity tn enter the Dfatricfs . voluntmy trm>Sfer pool for 1he purpose of ihterv ewing for pennanent openings.",
+    "page": "2",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

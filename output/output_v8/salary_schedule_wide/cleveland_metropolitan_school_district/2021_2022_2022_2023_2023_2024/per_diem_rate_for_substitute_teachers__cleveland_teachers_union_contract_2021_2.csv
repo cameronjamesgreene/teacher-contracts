@@ -1,0 +1,6 @@
+"# Cleveland_Teachers_Union_Contract_2021-2024.pdf — Per Diem Rate for Substitute Teachers (2021-2022, 2022-2023, 2023-2024)"
+# population: Substitute Teachers | is_teacher_schedule: False
+"# validation_warnings: label_not_in_source: '2021-2022 (Effective July 1, 2021)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2022-2023 (Effective July 1, 2022)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: '2023-2024 (Effective July 1, 2023)' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed"
+step,"2021-2022 (Effective July 1, 2021)","2022-2023 (Effective July 1, 2022)","2023-2024 (Effective July 1, 2023)"
+A. Per Day,145.73,150.11,153.11
+B. Per day on the 6th day and each succeeding day,162.49,167.37,170.71

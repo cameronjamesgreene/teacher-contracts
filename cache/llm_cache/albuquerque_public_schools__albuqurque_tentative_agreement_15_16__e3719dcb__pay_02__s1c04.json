@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Coaches of interscholastic sports in the senior high schools will receive a differential for the following assignments: a. Head Football ………………………… $5,452 b. Assistant Football …………….............. $3,359",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "Special Education Department Heads at the High School, Middle School and Elementary levels. a. Differentials shall be based on the size of the team (department) as follows: 1. Teams with 4 - 15 members - $2,800 2. Teams with 16 or more members - $3,100",
+    "page": "n/a",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "yes",
+    "evidence": "A differential of $4,243 will be provided to each high school MESA program director. A differential of $1,805 will be provided to each middle school MESA program leader.",
+    "page": "n/a",
+    "confidence": "medium"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

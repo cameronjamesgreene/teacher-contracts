@@ -1,0 +1,7 @@
+"# UTD_2017-2020_Agreement.pdf — A0 Salary Schedule (Effective July 1, 2015)"
+# population: Instructional Personnel | is_teacher_schedule: True
+# validation_warnings: cross_grid_duplicate: cell values are ~identical to a different schedule (Section 3. Salary Schedule p223) — distinct schedules should not share a value grid; verify each against its own page | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,10 Month,12 Month,Adult/Vocational
+Min,41000,47622,49200
+Max,72720,84465,87264

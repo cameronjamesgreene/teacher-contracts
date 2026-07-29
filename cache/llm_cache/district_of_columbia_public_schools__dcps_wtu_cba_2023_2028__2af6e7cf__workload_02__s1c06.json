@@ -1,0 +1,20 @@
+{
+  "workload_lunch_minutes_007": {
+    "answer": "45 to 60 (Athletic Trainers)",
+    "evidence": "24.7.11. Athletic Trainers shall be provided with a duty-free meal period each day of no less than 45 minutes and no more than 60 minutes.",
+    "page": "85",
+    "confidence": "high"
+  },
+  "workload_meetings_limits_008": {
+    "answer": "yes",
+    "evidence": "No faculty meeting shall exceed one (1) hour in duration, nor extend beyond 4:30 PM, unless mutually agreed to by the Supervisor and the Building Representative.",
+    "page": "72",
+    "confidence": "high"
+  },
+  "workload_nonteaching_duties_009": {
+    "answer": "yes",
+    "evidence": "Itinerant special subject teachers shall not be required to perform any of the following: ... General clerical work. / A secondary Teacher may be assigned to a duty in lieu of a teaching period.",
+    "page": "75, 82",
+    "confidence": "high"
+  }
+}

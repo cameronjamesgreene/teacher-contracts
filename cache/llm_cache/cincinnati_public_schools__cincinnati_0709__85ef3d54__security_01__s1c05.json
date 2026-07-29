@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "32",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "32",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "\"seniority shall control the choice.\"",
+    "page": "40",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Voluntary transfers are processed in two rounds. Teachers apply for specific vacancies and list up to five priority choices. Applications are evaluated by joint interview panels (principal and elected teachers), with selection requiring principal-panel agreement. Considerations include certification, qualifications, racial balance, and seniority as a tiebreaker. Teachers returning from leave or surplus status receive priority placement. Refusals require written reasons within 30 days. Racial balance denials are capped at two consecutive years, and team commitments may require a two-to-three-year service obligation.",
+    "evidence": "\"There shall be two distinct transfer periods, Round 1 and Round 2.\"",
+    "page": "38",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "\"A teacher receiving an administrative transfer shall be informed in writing with the reasons delineated by the Superintendent or designee.\"",
+    "page": "41",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "The document outlines 'Surplussing' procedures for staff reductions caused by decreased enrollment or program/school organizational changes. Priority steps include granting available voluntary transfers, allowing certificated surplus teachers to displace junior teachers within the building (with team-based school exceptions), and giving surplus teachers preference for existing vacancies. Seniority controls placement choices when qualifications and racial balance are equal. Relocation and merger provisions allow staff consolidation or transfer to new sites.",
+    "evidence": "\"Teachers may be surplussed due to decreased enrollment or a change in program offerings or school organization.\"",
+    "page": "41",
+    "confidence": "high"
+  }
+}

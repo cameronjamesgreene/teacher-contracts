@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Teachers use and adapt resources, technologies, and standards-aligned instructional materials to promote student success in meeting learning goals. Teachers design lessons to meet the needs of diverse learners, adapting methods when appropriate.",
+    "page": "96",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "yes",
+    "evidence": "Lesson plans are required of all teachers. Check with the principal concerning when plans are due each week.",
+    "page": "20",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "The district will not directly or indirectly discourage employees from participating in political affairs... Use of district resources including work time for political activities is prohibited.",
+    "page": "56",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

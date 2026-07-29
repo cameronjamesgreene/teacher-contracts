@@ -1,0 +1,23 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "yes; Mentor assignment: assigned to each new teacher. Duration: 3-year induction program. Release time: full-time release from the classroom. Stipend: not specified in this section. Required meetings/training: initial 2-3 days on classroom management and effective teaching techniques, plus ongoing support throughout the 3-year program.",
+    "evidence": "Require the participation of all teachers within their first three years of service in DCPS. ... Recruit, develop, and assign mentor teachers with the newest staff to ensure that each new Teacher is assigned a mentor. ... Provide ongoing support and mentoring for all new teachers throughout the 3-year induction program. / MENTOR TEACHERS. Teachers who have been released from the classroom on a full-time basis to mentor new Teachers to DCPS.",
+    "page": "5, 16",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes; Role name: Instructional Coach. Selection/Qualifications: formally trained and certified on the new DCPS Teaching and Learning Framework. Duties: sole responsibility to provide job-embedded professional development; no evaluative duties. Time: full-time. Compensation reference: ET 15 pay plan.",
+    "evidence": "every DCPS School shall be provided with a full-time Instructional Coach, whose sole responsibility shall be to provide professional development in a job-embedded manner. Instructional Coaches shall be formally trained and certified on the new DCPS Teaching and Learning Framework and shall have no evaluative duties and play no role in any Teacher’s evaluation. / Instructional Coach ET 15",
+    "page": "8, 17",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

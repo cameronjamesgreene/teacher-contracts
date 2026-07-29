@@ -1,0 +1,504 @@
+{
+  "tables": [
+    {
+      "has_table": true,
+      "schedule_label": "10-Month Salary Schedule",
+      "population": "10-month certified teachers / Unit members",
+      "is_teacher_schedule": true,
+      "school_year_or_effective_date": "Effective July 1, 2008",
+      "lane_labels": [
+        "BA",
+        "MA/MEQ",
+        "MA+30",
+        "MA+60"
+      ],
+      "step_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "cells": [
+        {
+          "step": "1",
+          "lane": "BA",
+          "value": "46410",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MA/MEQ",
+          "value": "51128",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MA+30",
+          "value": "52630",
+          "cell_code": null
+        },
+        {
+          "step": "1",
+          "lane": "MA+60",
+          "value": "53990",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "BA",
+          "value": "47125",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MA/MEQ",
+          "value": "51986",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MA+30",
+          "value": "54200",
+          "cell_code": null
+        },
+        {
+          "step": "2",
+          "lane": "MA+60",
+          "value": "55562",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "BA",
+          "value": "48538",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MA/MEQ",
+          "value": "53987",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MA+30",
+          "value": "56286",
+          "cell_code": null
+        },
+        {
+          "step": "3",
+          "lane": "MA+60",
+          "value": "57701",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "BA",
+          "value": "49995",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MA/MEQ",
+          "value": "56066",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MA+30",
+          "value": "58454",
+          "cell_code": null
+        },
+        {
+          "step": "4",
+          "lane": "MA+60",
+          "value": "59922",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "BA",
+          "value": "51494",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MA/MEQ",
+          "value": "58225",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MA+30",
+          "value": "60704",
+          "cell_code": null
+        },
+        {
+          "step": "5",
+          "lane": "MA+60",
+          "value": "62229",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "BA",
+          "value": "53478",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MA/MEQ",
+          "value": "60466",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MA+30",
+          "value": "63041",
+          "cell_code": null
+        },
+        {
+          "step": "6",
+          "lane": "MA+60",
+          "value": "64625",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "BA",
+          "value": "55537",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MA/MEQ",
+          "value": "62794",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MA+30",
+          "value": "65469",
+          "cell_code": null
+        },
+        {
+          "step": "7",
+          "lane": "MA+60",
+          "value": "67114",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "BA",
+          "value": "57674",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MA/MEQ",
+          "value": "65212",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MA+30",
+          "value": "67990",
+          "cell_code": null
+        },
+        {
+          "step": "8",
+          "lane": "MA+60",
+          "value": "69697",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "BA",
+          "value": "59895",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MA/MEQ",
+          "value": "67723",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MA+30",
+          "value": "70607",
+          "cell_code": null
+        },
+        {
+          "step": "9",
+          "lane": "MA+60",
+          "value": "72381",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "BA",
+          "value": "62201",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA/MEQ",
+          "value": "70330",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA+30",
+          "value": "73325",
+          "cell_code": null
+        },
+        {
+          "step": "10",
+          "lane": "MA+60",
+          "value": "75167",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA/MEQ",
+          "value": "73038",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA+30",
+          "value": "76148",
+          "cell_code": null
+        },
+        {
+          "step": "11",
+          "lane": "MA+60",
+          "value": "78061",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA/MEQ",
+          "value": "75850",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA+30",
+          "value": "79079",
+          "cell_code": null
+        },
+        {
+          "step": "12",
+          "lane": "MA+60",
+          "value": "81066",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA/MEQ",
+          "value": "78770",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA+30",
+          "value": "82124",
+          "cell_code": null
+        },
+        {
+          "step": "13",
+          "lane": "MA+60",
+          "value": "84187",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA/MEQ",
+          "value": "81802",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA+30",
+          "value": "85285",
+          "cell_code": null
+        },
+        {
+          "step": "14",
+          "lane": "MA+60",
+          "value": "87428",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA/MEQ",
+          "value": "84256",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA+30",
+          "value": "87844",
+          "cell_code": null
+        },
+        {
+          "step": "15",
+          "lane": "MA+60",
+          "value": "90051",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA/MEQ",
+          "value": "86785",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA+30",
+          "value": "90480",
+          "cell_code": null
+        },
+        {
+          "step": "16",
+          "lane": "MA+60",
+          "value": "92753",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA/MEQ",
+          "value": "89388",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA+30",
+          "value": "93194",
+          "cell_code": null
+        },
+        {
+          "step": "17",
+          "lane": "MA+60",
+          "value": "95535",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA/MEQ",
+          "value": "92069",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA+30",
+          "value": "95990",
+          "cell_code": null
+        },
+        {
+          "step": "18",
+          "lane": "MA+60",
+          "value": "98402",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "BA",
+          "value": null,
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA/MEQ",
+          "value": "94832",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA+30",
+          "value": "98870",
+          "cell_code": null
+        },
+        {
+          "step": "19",
+          "lane": "MA+60",
+          "value": "101354",
+          "cell_code": null
+        }
+      ],
+      "continues_on_lookahead_page": false,
+      "notes": "Step increases not implemented during FY 2011 per note. BA lane values are omitted in source for steps 11-19.",
+      "confidence": "high",
+      "validation_warnings": [],
+      "audit_matched": true,
+      "audit_issues": [],
+      "audit_corrected": false
+    }
+  ],
+  "extraction_method": "text"
+}

@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "system-wide seniority, as defined in the Definitions section, shall be the prime consideration in employment if all other factors are equal.",
+    "page": "90",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "DCPS uses performance-based excessing and mutual consent instead of RIF for Fall Equalization/Spring Excessing. RIF requires prior discussion/consultation with WTU, LSAT explores alternatives, and written justification if Supervisor departs from LSAT. Post-RIF, DCPS hosts job fairs, posts vacancies, and requires principals to interview 2 affected teachers before other candidates. Affected teachers retain reapplication rights, next-step salary placement, and no pension break if rehired within a year.",
+    "evidence": "DCPS intends not to use the reduction in force (RIF) or abolishment procedures in cases commonly known as “Fall Equalization,” “Spring Excessing,” or in any other excess as defined in this Agreement. In these situations, DCPS intends to use the performance- based excessing and mutual consent provisions of this Agreement. After DCPS has made a decision to effectuate any reduction in force... DCPS shall consult with the WTU regarding implementation. As vacancies arise after the effective date of a reduction in force or abolishment, DCPS will require principals to interview 2 appropriately qualified Teachers who lost their positions as a result of the reduction in force or abolishment before considering any other candidate to fill a vacancy for the remainder of the school year. All Teachers who are separated by DCPS according to the provisions of this article shall have the right to reapply to DCPS at any time. If rehired within one year of separation, such Teachers shall incur no break in service for pension purposes.",
+    "page": "100-101",
+    "confidence": "high"
+  }
+}

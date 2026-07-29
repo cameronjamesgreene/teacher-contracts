@@ -1,0 +1,38 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_sick_accrual_002": {
+    "answer": "Yes, accumulates. Cap is 200 days (document states 'two hundred (20) days') for employees hired prior to Jan 1, 2009, and 175 days for those hired after Jan 1, 2009.",
+    "evidence": "Sick leave allowance to which an employee becomes entitled but does not use during each school year shall be accumulated to a maximum of two hundred (20) days. ... accumulated to a maximum of one hundred seventy-five (175) days.",
+    "page": "36",
+    "confidence": "high"
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_days_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "clauses": [
+    {
+      "quote": "Failure of the WTU’s agents to do so shall constitute a violation of this Agreement.",
+      "subject_text": "Failure of the WTU’s agents to do so",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Legal consequence clause classifying an action as a contract violation rather than granting a direct entitlement or duty."
+    },
+    {
+      "quote": "For the purposes of this Agreement, an employee who is absent from work without permission, or who abstains wholly or in part from the full performance of his/her duties in his/her normal manner without permission, on the date or dates when a strike occurs, shall be presumed to have engaged in such strike on such date or dates.",
+      "subject_text": "an employee",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "teacher_rights_and_conduct",
+      "notes": "Establishes a rebuttable legal presumption operating against the worker regarding strike participation."
+    },
+    {
+      "quote": "Any Teacher who participates in any slowdown, strike, work stoppage, or other similar activity shall be subject to discipline or discharge with the right to appeal through the grievance and arbitration procedure only as to the determination of the question of whether the employee so disciplined or discharged did, in fact, participate in, support or encourage the strike, work stoppage or slowdown.",
+      "subject_text": "Any Teacher who participates in any slowdown, strike, work stoppage, or other similar activity",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "discipline",
+      "notes": "Imposes disciplinary liability on participating teachers while explicitly limiting the scope of any appeal to factual participation only."
+    },
+    {
+      "quote": "such provision shall not be applicable or performed or enforced",
+      "subject_text": "such provision",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": true,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Part of a severance/savings clause negating the enforcement of provisions found contrary to law."
+    },
+    {
+      "quote": "substitute language, if any, shall be subject to negotiation between the parties.",
+      "subject_text": "substitute language, if any",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Mandates joint negotiation to replace language found illegal."
+    },
+    {
+      "quote": "all other provisions of this Agreement shall continue in effect.",
+      "subject_text": "all other provisions of this Agreement",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "other",
+      "topic": "other",
+      "notes": "Standard savings clause preserving the remainder of the contract if a provision is severed."
+    },
+    {
+      "quote": "The parties agree that by mutual consent they will consult and negotiate on matters not covered by this Agreement, which are proper subjects for collective bargaining.",
+      "subject_text": "The parties",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint duty to bargain on open or matters-not-covered issues."
+    },
+    {
+      "quote": "The 2016-2017 raises shall be paid retroactively to all DCPS employees who are members of the WTU bargaining unit upon approval of this Agreement by the DC Council, all WTU bargaining unit members who retired during the 2016-2017 school year, and the estates of all WTU bargaining unit members who died during the 2016-2017 school year, in accordance with D.C. Official Code 1-611.06(d).",
+      "subject_text": "The 2016-2017 raises",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Passive construction; management bears the implicit duty to execute retroactive payments to qualifying workers."
+    },
+    {
+      "quote": "Retroactive payment of raises shall be made following ratification of this agreement by the WTU membership and approval by the DC Council.",
+      "subject_text": "Retroactive payment of raises",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "compensation",
+      "notes": "Passive construction establishing management's procedural duty to process payments upon specified conditions."
+    }
+  ]
+}

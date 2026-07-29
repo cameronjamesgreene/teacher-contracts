@@ -1,0 +1,38 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "yes | Article 15, Section A (overview described; full procedure referenced in Professional Growth System Handbook)",
+    "evidence": "ARTICLE 15 Evaluation ... A In the PGS, the formal evaluation process is seen as a tool for continuous improvement. ... The details of the evaluation processes are included in the Professional Growth System Handbook.",
+    "page": "33",
+    "confidence": "high"
+  },
+  "evaluation_system_002": {
+    "answer": "Professional Growth System (PGS)",
+    "evidence": "Through the Professional Growth System (PGS), MCPS and MCEA aspire to achieve the highest performance possible of every student and educator by raising the quality of instruction in the schools.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_ratings_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "evaluation_student_growth_006": {
+    "answer": "yes",
+    "evidence": "Data for this report is gathered from formal and informal observations, and should also include a variety of other sources. Some examples of these include samples of student work, student achievement, lesson plans, parent communication, and student and parent surveys.",
+    "page": "33",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "clauses": [
+    {
+      "quote": "Contract teachers with less than full-time FTE will be expected to perform their prorated share of consultation/preparation time",
+      "subject_text": "Contract teachers with less than full-time FTE",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "and to assume their pro-rated share of necessary professional duties.",
+      "subject_text": "Contract teachers with less than full-time FTE",
+      "acting_party": "worker",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "obligation_verb",
+      "llm_judgment": "obligation",
+      "topic": "workload",
+      "notes": ""
+    },
+    {
+      "quote": "Contractual leave benefits will be extended to cover the extra period for teachers who have agreed to teach an extra period during the regular school day.",
+      "subject_text": "Contractual leave benefits",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "leave",
+      "notes": ""
+    },
+    {
+      "quote": "In the event the Board of Education approves a school-day schedule different from the day described in 7.7.1 or 7.7.2, the District and Association will jointly develop an FTE calculation grid.",
+      "subject_text": "the District and Association",
+      "acting_party": "other",
+      "protected_party": "other",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "Joint duty between management and union."
+    },
+    {
+      "quote": "Each school will be provided with well-ventilated, clean, adequate, separate rest rooms for men and women teachers.",
+      "subject_text": "Each school",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "There shall be a furnished room in each school to be used as a faculty lounge.",
+      "subject_text": "There",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": "Existential 'there' clause functioning as a district obligation."
+    },
+    {
+      "quote": "Each school shall have telephone service available to teachers that provides privacy of conversation.",
+      "subject_text": "Each school",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "shall",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    },
+    {
+      "quote": "Space in the parking lot at each school will be reserved for the parking of teachers' cars.",
+      "subject_text": "Space in the parking lot at each school",
+      "acting_party": "management",
+      "protected_party": "worker",
+      "modal": "will",
+      "negation": false,
+      "voice": "passive",
+      "verb_lexical_category": "rights_passive",
+      "llm_judgment": "right",
+      "topic": "safety_and_working_conditions",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "class_size_limits_001": {
+    "answer": "yes",
+    "evidence": "The Board and the Association hereby agree that subject to building limitations, budget and program requirements, action will be taken to maintain favorable class size in accordance with Board of Education policy and reduce classes which exceed by more than 10% the County-wide class size average based upon the 1973-74 ﬁgures only when the average exceeds twenty-ﬁve (25) for that grade level or subject ﬁeld.",
+    "page": "21",
+    "confidence": "high"
+  },
+  "class_elementary_max_002": {
+    "answer": "Not specifically separated; refers to Board policy. Conditional target applies when county-wide average exceeds 25 for that grade level or subject field.",
+    "evidence": "maintain favorable class size in accordance with Board of Education policy and reduce classes which exceed by more than 10% the County-wide class size average based upon the 1973-74 ﬁgures only when the average exceeds twenty-ﬁve (25) for that grade level or subject ﬁeld.",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "class_secondary_max_003": {
+    "answer": "Not specifically separated; same conditional provision applies to all grade levels or subject fields (county average exceeding 25).",
+    "evidence": "reduce classes which exceed by more than 10% the County-wide class size average based upon the 1973-74 ﬁgures only when the average exceeds twenty-ﬁve (25) for that grade level or subject ﬁeld.",
+    "page": "21",
+    "confidence": "medium"
+  },
+  "class_overage_remedy_004": {
+    "answer": "yes",
+    "evidence": "the teacher after consultation with the Principal may request a review by the FAC. If after a review... determines by a majority vote that further adjustment in class size is essential, the FAC or the teacher may request a review by the Regional Executive Director who will recommend appropriate adjustments... FAC may refer the matter to the Superintendent of Schools for ﬁnal action.",
+    "page": "21",
+    "confidence": "high"
+  }
+}

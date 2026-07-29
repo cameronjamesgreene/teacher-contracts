@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "$500 flat across-the-board increase (no percentage specified), effective May 1, 2011",
+    "evidence": "the Salary Schedule will be increased by $500 across the board ... effective May 1, 2011",
+    "page": "100",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "yes",
+    "evidence": "Supplemental salaries shall be paid in accordance with Appendix B",
+    "page": "104",
+    "confidence": "medium"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

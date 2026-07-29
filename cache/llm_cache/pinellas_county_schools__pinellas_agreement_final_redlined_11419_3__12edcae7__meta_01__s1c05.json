@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "...collective bargaining agreement...",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2015-2016, 2016-2017, 2018-2019",
+    "evidence": "The 2018-2019 salary schedule for instructional staff... The 2015-2016 Grandfathered Salary Schedule... negotiations over salary for the 2016-2017 school year.",
+    "page": "58",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "Teachers / Instructional personnel",
+    "evidence": "...instructional employees within the bargaining unit. ...salary schedule for instructional staff... equal rights to all teachers...",
+    "page": "55, 58",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding agreement",
+    "evidence": "...collective bargaining agreement, policies, procedures, laws or applicable regulations including adopted salary schedules, shall be given no effect nor form the basis for any claim whatsoever against the Board.",
+    "page": "59",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "Text is fully extractable with clear paragraphs, page numbers (50-62), and formatting codes.",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "...Sections 1012.33, 1012.335 and 1012.34, Florida Statutes. ...Sec. 1012.33(4), F.S. ...Chapter 1000.05 F.S.",
+    "page": "50, 55",
+    "confidence": "high"
+  }
+}

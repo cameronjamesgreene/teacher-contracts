@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Teachers may be suspended or dismissed for cause under the provisions of the Orderly School Termination Procedures Act, Title 53A, Chapter 8, Utah Code Annotated.",
+    "page": "35",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "ARTICLE 19 SUSPENSION, TERMINATION AND NON-RENEWAL OF CONTRACT... 19.4 Termination of Contract during Contract Term... 19.5 Nonrenewal of Regular Contract Teachers... 19.7 Formal Hearing for Regular Contract Teachers",
+    "page": "35",
+    "confidence": "high"
+  }
+}

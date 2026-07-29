@@ -1,0 +1,38 @@
+{
+  "meta_doc_type_001": {
+    "answer": "CBA",
+    "evidence": "Palm_Beach_2011-2014_CBA_w_2013-2014_modifications.pdf",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_effective_dates_002": {
+    "answer": "2011-2014",
+    "evidence": "no data collected prior to the school year 2011 -2012 will be used in this process.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_bargaining_unit_003": {
+    "answer": "CTA bargaining unit / T-bargaining unit",
+    "evidence": "No CTA bargaining unit member shall evaluate another member of the CTA bargaining unit.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "meta_document_scope_004": {
+    "answer": "binding",
+    "evidence": "Any grievance filed pursuant to this Section will follow the procedures set forth in Article VII of the Agreement",
+    "page": "35",
+    "confidence": "high"
+  },
+  "meta_text_usability_005": {
+    "answer": "usable",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "meta_cites_state_law_006": {
+    "answer": "yes",
+    "evidence": "Fla. Stat. §1012.34: Section 7",
+    "page": "31",
+    "confidence": "high"
+  }
+}

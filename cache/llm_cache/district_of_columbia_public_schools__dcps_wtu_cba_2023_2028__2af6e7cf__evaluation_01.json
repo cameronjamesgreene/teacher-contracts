@@ -1,0 +1,44 @@
+{
+  "evaluation_procedure_001": {
+    "answer": "no, reference only (Sections 2.4.1.2.2, 2.4.1.5.1.5, 2.6.3, 4.5.2.5)",
+    "evidence": "Instructional Coaches shall be formally trained and certified on the new DCPS Teaching and Learning Framework and shall have no evaluative duties and play no role in any Teacher’s evaluation.",
+    "page": "14",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_system_002": {
+    "answer": "District of Columbia Schools Effectiveness Assessment System for School-Based Personnel",
+    "evidence": "The evaluation process refers to the procedures set forth in the District of Columbia Schools Effectiveness Assessment System for School-Based Personnel.",
+    "page": "2",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_count_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_observation_duration_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "evaluation_ratings_005": {
+    "answer": "Minimally Effective; Effective or higher; Highest, Second Highest, Third Highest, Fourth Highest, Lowest",
+    "evidence": "DCPS will consult with the WTU on the development of professional development opportunities that will be made available to teachers rated as Minimally Effective. ... Category 1) Previous Year’s Final Evaluation: Highest (50), Second Highest (40), Third Highest (30), Fourth Highest (0), Lowest (0).",
+    "page": "15, 24",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to include rating categories from the excessing rubric (Section 4.5.2.5) to explicitly support all listed performance levels."
+  },
+  "evaluation_student_growth_006": {
+    "answer": "no",
+    "evidence": "Section 36.4 references student growth for a voluntary performance-based pay qualification, but does not describe student growth as a component of the teacher evaluation system in this section.",
+    "page": "not_applicable",
+    "confidence": "medium",
+    "coder_notes": ""
+  }
+}

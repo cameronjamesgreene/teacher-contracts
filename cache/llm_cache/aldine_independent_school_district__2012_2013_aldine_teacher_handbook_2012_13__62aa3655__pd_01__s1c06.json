@@ -1,0 +1,20 @@
+{
+  "pd_new_teacher_mentoring_001": {
+    "answer": "no",
+    "evidence": "All newly-hired instructional personnel shall obtain a grade appropriate ESL endorsement within two years of employment. ... All new instructional personnel who do not hold a valid ESL certification shall attend an ESL training academy.",
+    "page": "27",
+    "confidence": "high"
+  },
+  "pd_teacher_leadership_002": {
+    "answer": "yes",
+    "evidence": "Faculty Advisory Committees (FAC)... review campus procedures and policies. Campus Improvement Council... serve solely in an advisory role to the school's principal. Campus Improvement Steering Committee (CISC)... assisting in the decision making process in the following areas: budgeting, planning, curriculum, staffing patterns, staff development. District Level Educational Advisory Committees (DEAC) and Vertical Educational Advisory Committees (VEAC)... advisory capacity in establishing and reviewing district's educational goals, objectives, and major district-wide classroom instructional programs.",
+    "page": "34-35",
+    "confidence": "high"
+  },
+  "pd_career_ladder_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

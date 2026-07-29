@@ -1,0 +1,30 @@
+{
+  "conduct_curriculum_autonomy_008": {
+    "answer": "yes",
+    "evidence": "Within the bounds of Board policies and administrative regulations, as well as adopted state and district curriculums, teachers shall have the opportunity to utilize best practices in employing their teaching methodologies that address students’ different learning styles. Teachers shall also have the discretion to use supplemental materials and develop supplementary lessons aligned with California content standards and district adopted core curriculum.",
+    "page": "8",
+    "confidence": "high",
+    "coder_notes": "Updated evidence to Section 6.2.2, which explicitly addresses teacher discretion over teaching methodologies, supplemental materials, and supplementary lessons."
+  },
+  "conduct_lesson_plans_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "conduct_political_activity_010": {
+    "answer": "yes",
+    "evidence": "With respect to professional employment, the religious, political, and private life of any member of the bargaining unit shall not be grounds for disciplinary action except as it may directly prevent them from effectively performing properly assigned functions during the work day.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": "Corrected from not_discussed to yes. Section 6.1 explicitly protects teachers' political activity and private life from disciplinary action."
+  },
+  "conduct_non_duty_hours_011": {
+    "answer": "yes",
+    "evidence": "With respect to professional employment, the religious, political, and private life of any member of the bargaining unit shall not be grounds for disciplinary action except as it may directly prevent them from effectively performing properly assigned functions during the work day.",
+    "page": "7",
+    "confidence": "high",
+    "coder_notes": "Corrected from not_discussed to yes. Section 6.1 explicitly protects teachers' private life and conduct during non-duty hours."
+  }
+}

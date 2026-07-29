@@ -1,0 +1,132 @@
+{
+  "status_counts": {
+    "CORRECT": 16,
+    "PARTIAL": 4,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+  },
+  "items": [
+    {
+      "chunk": "4",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.311-312). Board=management, shall, active, obligation all correct."
+    },
+    {
+      "chunk": "45",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.2093-2095). worker/worker, may, active, permission all correct."
+    },
+    {
+      "chunk": "80",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.3664-3666). 'shall be eligible to' -> llm_judgment=right is reasonable vs deterministic obligation."
+    },
+    {
+      "chunk": "117",
+      "doc": "miamidade_county_public_schools",
+      "status": "PARTIAL",
+      "note": "Verbatim (l.5214-5216). Voice=active questionable: leading predicate 'shall not be employed' is passive. Negation/prohibition correct."
+    },
+    {
+      "chunk": "163",
+      "doc": "miamidade_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim substring (l.7124-7125, drops leading conditional). may, passive, permission correct."
+    },
+    {
+      "chunk": "2",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.168-169). Board=management holds the right, shall, active, right all correct."
+    },
+    {
+      "chunk": "34",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.1542-1543). unit member=worker, principal=management, shall, active, obligation correct."
+    },
+    {
+      "chunk": "69",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.2992). shall not exceed=prohibition/cap, negation True, worker protected correct."
+    },
+    {
+      "chunk": "106",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.4590-4591). MCPS=management, will, active, obligation correct."
+    },
+    {
+      "chunk": "135",
+      "doc": "montgomery_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim substring (l.5769). shall, active, obligation; negation False correct for this clause."
+    },
+    {
+      "chunk": "2",
+      "doc": "orange_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.100-101). parties=other, shall, active, obligation correct."
+    },
+    {
+      "chunk": "19",
+      "doc": "orange_county_public_schools",
+      "status": "PARTIAL",
+      "note": "Verbatim (l.1088-1089). Voice=active questionable: 'shall not be required' is passive (cf. c56 labeled passive). right/negation correct."
+    },
+    {
+      "chunk": "38",
+      "doc": "orange_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.1874). management/worker, shall, passive, negation True; llm_judgment=prohibition correctly overrides keyword 'permission'."
+    },
+    {
+      "chunk": "56",
+      "doc": "orange_county_public_schools",
+      "status": "PARTIAL",
+      "note": "Verbatim (l.2650). Party tags off: protected_party=management for a duty imposed on teachers (should be worker). may/passive/obligation ok."
+    },
+    {
+      "chunk": "72",
+      "doc": "orange_county_public_schools",
+      "status": "CORRECT",
+      "note": "Verbatim (l.3354-3355). worker acting, shall, active, obligation correct; protected=management defensible."
+    },
+    {
+      "chunk": "6",
+      "doc": "portland_public_schools_me",
+      "status": "PARTIAL",
+      "note": "Verbatim (l.153-155). protected_party=management wrong: right to request assistance benefits the personnel (worker). llm_judgment=right correct."
+    },
+    {
+      "chunk": "20",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Verbatim (l.743-744). may, active, permission; worker contributions reasonable."
+    },
+    {
+      "chunk": "32",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Verbatim (l.1191-1192). No modal (empty) correct; parties=other, statement_type=other, llm=obligation reasonable."
+    },
+    {
+      "chunk": "43",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Verbatim (l.1615-1617). management acting, worker protected, will, passive, obligation correct."
+    },
+    {
+      "chunk": "58",
+      "doc": "portland_public_schools_me",
+      "status": "CORRECT",
+      "note": "Verbatim fragment (l.3323). educator=worker, shall, active, obligation correct; short but subject recoverable."
+    }
+  ],
+  "quote_fabrications": 0,
+  "notes": "All 20 quotes verified verbatim in truth (0 fabrications; quote_verified=True accurate throughout). 4 PARTIAL: 2 voice errors on 'shall not be employed/required' passive constructions labeled active (Miami c117, Orange c19); 2 party-tag errors (Orange c56 protected=management for teacher duty; Portland c6 protected=management for worker's right). LLM correctly overrides keyword statement_type in Orange c38 (permission->prohibition) and several right/obligation reads."
+}

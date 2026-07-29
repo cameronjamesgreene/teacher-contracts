@@ -1,0 +1,44 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "three-year freeze on healthcare premium cost shifts to employees",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Evidence explicitly confirms healthcare premium adjustments for employees, directly supporting availability. Confidence increased to high."
+  },
+  "benefits_health_contribution_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dependent_health_004": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "benefits_dental_006": {
+    "answer": "yes",
+    "evidence": "New coverage for previously excluded dental implants (not in contract language but will be in the plan description from the healthcare provider).",
+    "page": "1",
+    "confidence": "high",
+    "coder_notes": "Updated confidence to high. The passage explicitly references dental implant coverage, directly confirming dental insurance availability."
+  }
+}

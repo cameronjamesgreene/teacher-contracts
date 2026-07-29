@@ -1,0 +1,43 @@
+{
+  "clauses": [
+    {
+      "quote": "The FEP is primarily responsible for ensuring the full implementation of this collective bargaining agreement.",
+      "subject_text": "The FEP",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": null,
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "other",
+      "notes": "FEP likely a joint district-union committee; duty assigned to ensure CBA implementation."
+    },
+    {
+      "quote": "It will also work to build collaborative relationships among stakeholders (Teachers, administrators, parents, students and others) in order to create a healthy climate for improved learning.",
+      "subject_text": "It",
+      "acting_party": "management",
+      "protected_party": "management",
+      "modal": "will",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Pronoun 'It' refers to the FEP from the preceding clause; collaborative duty related to school climate."
+    },
+    {
+      "quote": "all educational programs offered by DCPS and taught by Teachers must align with the Office of the State Superintendent of Education’s academic standards, provide equitable opportunity, have the appropriate resources, and be comprehensive and rigorous.",
+      "subject_text": "all educational programs offered by DCPS and taught by Teachers",
+      "acting_party": "other",
+      "protected_party": "management",
+      "modal": "must",
+      "negation": false,
+      "voice": "active",
+      "verb_lexical_category": "plain",
+      "llm_judgment": "obligation",
+      "topic": "professional_development",
+      "notes": "Operative clause extracted from the parties' agreement; imposes joint duty on district/teachers regarding curriculum alignment and rigor."
+    }
+  ]
+}

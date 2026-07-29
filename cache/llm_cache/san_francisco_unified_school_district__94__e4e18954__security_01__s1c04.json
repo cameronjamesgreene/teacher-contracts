@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "discussed_unclear",
+    "evidence": "11.8.7 Newly-appointed probationary teachers... 11.8.8 Temporary, categorical or emergency teachers... 15.2.2 Probationary teachers shall normally fulfill their full two (2) year probationary period in the same assignment.",
+    "page": "34, 46",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "15.3.7.5 In the event that the above criteria appear equal, the transfer decision shall be based upon District-wide seniority.",
+    "page": "47",
+    "confidence": "medium"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "Applies to tenure-track teachers. Requires filing two envelopes with HR for vacancy lists. Vacancies posted ≥10 workdays. Regular cycle: 1st posting April 1 (15-day interview, May 1 notice); 2nd posting May 5 (15-day interview, June 5 notice). Out-of-cycle: 10-day posting. Principal interviews/recommends. Criteria: 1) Program needs, 2) Affirmative action, 3) New environment, 4) Qualifications, 5) District-wide seniority if tied. Written reasons for denial upon request.",
+    "evidence": "15.3 Teacher-initiated transfer (voluntary)... First posting period — On April 1st... Second posting period — On May 5th... Criteria for voluntary transfer — The following criteria, in the order listed...",
+    "page": "46, 47",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "Based on legitimate educational needs. Selection uses District seniority, credentials, qualifications, and racial/ethnic balance. Teachers may indicate preferences and interview. No consecutive transfers unless school closure/program elimination. Requires written reasons listing less-senior retained teachers. Grants one day released time upon request.",
+    "evidence": "15.5 Involuntary transfers... Selection of tenure-track teachers to be consolidated shall be based on District seniority... No teacher shall be involuntarily transferred two (2) consecutive years without the existence of special circumstances... A teacher to be consolidated shall be given reasons in writing.",
+    "page": "47",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "Staff reduction is handled through consolidation (involuntary transfer due to excess permanent teachers). Procedures include priority placement for unplaced consolidated staff, right to interview, and written justification. Related timelines and priority rankings are detailed in Sections 15.1.5 and 15.5.",
+    "evidence": "15.1.4 A consolidation is an involuntary transfer for the reason that there are more permanent teachers assigned to a site or program than the teacher allocation can support.",
+    "page": "45",
+    "confidence": "high"
+  }
+}

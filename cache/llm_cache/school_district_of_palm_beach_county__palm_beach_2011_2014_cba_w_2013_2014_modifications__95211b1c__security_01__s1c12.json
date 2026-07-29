@@ -1,0 +1,38 @@
+{
+  "security_probation_001": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_nonrenewal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_seniority_definition_003": {
+    "answer": "discussed_unclear",
+    "evidence": "upon timely receipt of such written request to their Prindpal, each affected employee will be UAT'd and according to his/her seniority will be placed at another District school in keeping with the provisions of Article IV, Section E4 of the CBA and this MOU",
+    "page": "173",
+    "confidence": "high"
+  },
+  "security_voluntary_transfer_004": {
+    "answer": "T-bargaining employees assigned to budgeted positions at four pilot schools may voluntarily place themselves on a Unit Adjustment Transfer (UAT) list by notifying their Principal in writing on or before March 25 that they wish to be UAT'd to another District school for the following school year. Eligible employees may also seek a Voluntary Transfer to any of these schools having a posted vacancy pursuant to Article IV, Section C of the CBA.",
+    "evidence": "T-bargaining employees assigned to budgeted positions at these four (4) pilot schools wishing to be reassigned to another District school may voluntarily place themselves on a Unit Adjustment Transfer (UAT) list by notifying their Principal in writing on or before March 25 that they wish to be UAT'd to another District school for the following school year. Upon timely receipt of such written request to their Prindpal, each affected employee will be UAT'd and according to his/her seniority will be placed at another District school in keeping with the provisions of Article IV, Section E4 of the CBA and this MOU. ... Eligible T-bargaining employees in the District may seek a Voluntary Transfer to any of these four (4) pilot schools having a posted vacancy pursuant to Article IV, Section Cof the CBA",
+    "page": "173",
+    "confidence": "high"
+  },
+  "security_involuntary_transfer_005": {
+    "answer": "yes",
+    "evidence": "with the concurrence of the Area Superintendent, each Principal may Involuntarily Transfer T-bargaining employees in keeping with the provisions of Article IV, Section G of the CBA.",
+    "page": "173",
+    "confidence": "high"
+  },
+  "security_rif_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

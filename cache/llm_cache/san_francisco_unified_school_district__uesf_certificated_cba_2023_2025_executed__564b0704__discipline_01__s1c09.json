@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "28.1.2 Teachers shall not be disciplined without just cause.",
+    "page": "120",
+    "confidence": "high"
+  },
+  "discipline_dismissal_002": {
+    "answer": "yes",
+    "evidence": "28.1.1 Disciplinary action in the form of dismissal shall be in accordance with the appropriate provisions of the Education Code. 28.1.5 Prior to administering any formal discipline subsequent to the oral and/or written reprimands, a teacher shall be provided notice and an opportunity to be heard. Notice shall include a statement of the incident(s) or misconduct which form the basis for disciplinary action and a statement of the discipline to be imposed. Such notice shall be given within five (5) working days of the decision to administer formal discipline. 28.1.9 Prior to suspending a teacher without pay for more than two (2) weeks a hearing shall take place at the Assistant Superintendent level.",
+    "page": "120-121",
+    "confidence": "high"
+  }
+}

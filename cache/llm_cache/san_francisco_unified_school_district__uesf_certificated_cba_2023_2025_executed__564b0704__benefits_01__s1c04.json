@@ -1,0 +1,38 @@
+{
+  "benefits_health_001": {
+    "answer": "yes",
+    "evidence": "A teacher on unpaid leave of absence may continue health and welfare benefits",
+    "page": "37",
+    "confidence": "high"
+  },
+  "benefits_health_contribution_002": {
+    "answer": "up to $323.72/month for employee plus one dependent; up to $498.72/month for family coverage",
+    "evidence": "The District shall make the following monthly one-twelfth [1/12] annual contributions for eligible unit members who have dependents enrolled for medical insurance coverage: up to $323.72/month for employee plus one dependent; up to $498.72/month for family coverage.",
+    "page": "44",
+    "confidence": "high"
+  },
+  "benefits_health_employee_premium_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  },
+  "benefits_dependent_health_004": {
+    "answer": "yes",
+    "evidence": "eligible unit members who have dependents enrolled for medical insurance coverage: up to $323.72/month for employee plus one dependent; up to $498.72/month for family coverage.",
+    "page": "44",
+    "confidence": "high"
+  },
+  "benefits_health_plan_type_005": {
+    "answer": "discussed_unclear",
+    "evidence": "health and welfare benefits",
+    "page": "37",
+    "confidence": "medium"
+  },
+  "benefits_dental_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high"
+  }
+}

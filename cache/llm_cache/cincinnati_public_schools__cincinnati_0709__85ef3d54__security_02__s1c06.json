@@ -1,0 +1,32 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "Entitlement re-employment shall remain in effect for eighteen (18) months. / Surplus teachers shall have the right to return to their original school... return can be accomplished within two (2) years of the original transfer / Teachers who are re-employed for the following school year shall suffer no interruption of health or term life coverage provided they complete the re-training",
+    "page": "43, 46, 47",
+    "confidence": "high"
+  },
+  "security_rif_criterion_008": {
+    "answer": "Certification; Contractual Status; Part-Time Employment; Training, Experience and Individual Qualifications; Seniority",
+    "evidence": "The following criteria are to be applied in order of priority as listed: a. Certification: Appropriate certification... b. Contractual Status... c. Part-Time Employment... d. Training, Experience and Individual Qualifications e. Seniority",
+    "page": "45",
+    "confidence": "high"
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "security_tenure_rules_010": {
+    "answer": "yes",
+    "evidence": "teachers with limited contracts shall be considered before those with continuing contracts. / A non-tenured teacher who has completed five consecutive years of satisfactory or better service has the right to file a grievance challenging the Board's decision not to renew his/her contract",
+    "page": "45, 50",
+    "confidence": "high"
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "Certification: Appropriate certification for the grade level, subject matter to be taught and/or for the position classification. / reimburse such teachers for tuition expenses... to complete the required coursework for a temporary teaching certificate",
+    "page": "45, 46",
+    "confidence": "high"
+  }
+}

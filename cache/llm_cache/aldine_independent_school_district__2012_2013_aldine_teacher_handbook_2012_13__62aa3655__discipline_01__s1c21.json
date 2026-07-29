@@ -1,0 +1,14 @@
+{
+  "discipline_just_cause_001": {
+    "answer": "yes",
+    "evidence": "Employees doing so commit job related misconduct and are subject to being discharged from employment for good cause",
+    "page": "168",
+    "confidence": "medium"
+  },
+  "discipline_dismissal_002": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

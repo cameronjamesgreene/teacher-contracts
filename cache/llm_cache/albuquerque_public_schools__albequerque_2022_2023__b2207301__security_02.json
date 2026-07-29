@@ -1,0 +1,37 @@
+{
+  "security_recall_007": {
+    "answer": "yes",
+    "evidence": "For a period of one (1) year after the effective date of the termination... the District shall offer to such person any position(s)... Any person selected for recall shall be given written notice of the recall. Failure to accept the position in writing within fifteen (15) calendar days of the mailing of the recall notice shall constitute forfeiture... Any educator recalled within one year under this section shall not lose any seniority",
+    "page": "72",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_rif_criterion_008": {
+    "answer": "3 full-contract years of service; seniority controls if qualifications are equal",
+    "evidence": "Certified school instructors with fewer than three (3) full-contract, consecutive years of service shall be laid off before educators having three (3) or more full-contract, consecutive years of service... Qualifications being equal, seniority in the District shall control.",
+    "page": "71",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_probation_length_009": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_tenure_rules_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "security_certification_011": {
+    "answer": "yes",
+    "evidence": "In order to qualify and be employed in a teaching position in the District, an applicant must have at least a bachelor's degree and must have a valid teaching license, an occupational license, or be enrolled in an approved alternative licensure program from the State of New Mexico.",
+    "page": "12",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

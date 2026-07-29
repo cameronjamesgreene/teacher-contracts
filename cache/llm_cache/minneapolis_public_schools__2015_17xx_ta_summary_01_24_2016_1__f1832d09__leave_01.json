@@ -1,0 +1,44 @@
+{
+  "leave_sick_days_001": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_accrual_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_sick_family_003": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_days_004": {
+    "answer": "5 (3 non-cumulative + 2 additional, deducted from sick leave)",
+    "evidence": "\"Personal Leave: Three (3) non-cumulative personal leave days, deducted from sick leave, may be taken and shall be granted each year for incidents involving special obligations or emergencies that cannot be scheduled on non-duty days and are not available under other leave provisions. Two (2) additional non-cumulative personal leave days, deducted from sick leave, may be taken and shall be granted each year.\"",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_restrictions_005": {
+    "answer": "Non-cumulative; limited to incidents involving special obligations or emergencies that cannot be scheduled on non-duty days and are not available under other leave provisions. Using the 2 additional days reduces daily pay by $120.",
+    "evidence": "\"...incidents involving special obligations or emergencies that cannot be scheduled on non-duty days and are not available under other leave provisions... Two (2) additional non-cumulative personal leave days... If teachers use these additional personal leave days, their pay will be reduced by $120 per day...\"",
+    "page": "5",
+    "confidence": "high",
+    "coder_notes": ""
+  },
+  "leave_personal_conversion_006": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_discussed",
+    "confidence": "high",
+    "coder_notes": ""
+  }
+}

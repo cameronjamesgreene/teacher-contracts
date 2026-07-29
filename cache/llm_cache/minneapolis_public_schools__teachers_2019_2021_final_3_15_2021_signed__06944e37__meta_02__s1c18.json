@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "Teachers who are tenured are eligible for mobility leave as defined in MN statute §122A.46.",
+    "evidence": "Teachers who are tenured are eligible for mobility leave as defined in MN statute §122A.46.",
+    "page": "172",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "evidence": "The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "page": "165",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Family and Medical Leave Act (FMLA) of 1993",
+    "evidence": "The Family and Medical Leave Act (FMLA) of 1993 is a federal law that provides employees additional rights while on leave of absence.",
+    "page": "165",
+    "confidence": "high"
+  }
+}

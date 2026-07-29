@@ -1,0 +1,38 @@
+{
+  "pay_cost_of_living_007": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_extra_duty_schedule_008": {
+    "answer": "no",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_sped_009": {
+    "answer": "yes",
+    "evidence": "Teachers who teach in Intensive Global Support 1 (IGS1), Intensive Global Support 2 (IGS2), Social Communication Support (SCS1 or SCS2 or SCS3), Social Emotional Support 1 (SES1), and Social Emotional Support 2 (SES2) classes shall be paid five one-hundredths (.05) of the individual teacher’s contracted salary.",
+    "page": "26",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_stem_010": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_other_011": {
+    "answer": "yes",
+    "evidence": "Teachers who possess a current Bilingual and/or ESL endorsement shall receive a differential of $500.00 effective the beginning of the school year.",
+    "page": "31",
+    "confidence": "high"
+  },
+  "pay_hardtostaff_schools_012": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  }
+}

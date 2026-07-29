@@ -1,0 +1,38 @@
+{
+  "pay_salary_schedule_001": {
+    "answer": "yes",
+    "evidence": "APPENDIX A: Ten Month Instructional Salary Schedule",
+    "page": "71",
+    "confidence": "high"
+  },
+  "pay_salary_schedule_002": {
+    "answer": "2021-22 and 2022-23 school years",
+    "evidence": "This Contract shall be firm until and including June 30, 2023.",
+    "page": "68",
+    "confidence": "high"
+  },
+  "pay_step_increment_003": {
+    "answer": "yes",
+    "evidence": "If the projected unrestricted revenue per weighted student for the general fund is less than the projected costs to implement full step, then the parties understand that full step will not be granted and will negotiate for any potential salary increase.",
+    "page": "63",
+    "confidence": "high"
+  },
+  "pay_prior_experience_005": {
+    "answer": "yes",
+    "evidence": "Vocational experience (not teaching experience) may be allowed on a year-to-year basis... to a maximum of ten (10) years... excluding years for which one is receiving retirement benefits. / Each teacher participating in a job share shall receive one-half (1/2) year credit for each year taught for salary purposes... Verification of experience for current teachers must be received by the Board within one (1) year from date of hire...",
+    "page": "62, 84, 88",
+    "confidence": "high"
+  },
+  "pay_performance_pay_006": {
+    "answer": "yes",
+    "evidence": "The parties agree to develop mutually a performance pay plan, including a specified amount of program funding... / supplements that identify instructional personnel entitled to differentiated pay based upon factors, including... level of lob performance difficulties. / Osceola Virtual School (Professional Compensation) – A base salary of $500...",
+    "page": "64, 87, 64",
+    "confidence": "high"
+  },
+  "pay_performance_pay_007": {
+    "answer": "discussed_unclear",
+    "evidence": "The document references 'level of job performance difficulties' for supplements and an agreement to develop a plan, but does not detail the specific evaluation process, ratings, or measures used to determine performance-pay eligibility.",
+    "page": "87, 64",
+    "confidence": "medium"
+  }
+}

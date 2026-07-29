@@ -1,0 +1,37 @@
+{
+  "status_counts": {
+    "CORRECT": 21,
+    "PARTIAL": 4,
+    "INCORRECT": 0,
+    "UNVERIFIABLE": 0
+  },
+  "items": [
+    {"chunk": "5", "doc": "albuquerque_public_schools", "status": "CORRECT", "note": "Supremacy clause verified verbatim. acting=other(Agreement), shall/active/obligation all correct."},
+    {"chunk": "26", "doc": "albuquerque_public_schools", "status": "CORRECT", "note": "Verified. Teachers may move to Career Pathway; worker/may/permission/compensation all correct."},
+    {"chunk": "51", "doc": "albuquerque_public_schools", "status": "CORRECT", "note": "Verified. Mentors will receive release time; worker/will/active/right/PD all sound."},
+    {"chunk": "75", "doc": "albuquerque_public_schools", "status": "PARTIAL", "note": "Quote verified. But protected=management wrong (beneficiaries are students->other); voice 'are expected' is arguably passive not active."},
+    {"chunk": "92", "doc": "albuquerque_public_schools", "status": "PARTIAL", "note": "Quote verified. Mgmt is actor (prorates), but affected party is teachers, so protected should be worker not management."},
+    {"chunk": "3", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "Verified. Contract governs terms; other/worker/shall/active/obligation all correct."},
+    {"chunk": "18", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "Verified. 'shall have the right'; llm_judgment=right correctly overrides deterministic obligation. Good."},
+    {"chunk": "36", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "Verified. Association may request days; worker/may/permission/leave all correct."},
+    {"chunk": "55", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "Verified. Board shall make arrangements for employees; management/worker/shall/obligation/benefits correct."},
+    {"chunk": "72", "doc": "hillsborough_county_public_schools", "status": "CORRECT", "note": "Verified. Electing employees shall sign up; worker/shall/obligation/compensation correct."},
+    {"chunk": "5", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "Verified (line-gutter noise stripped). MOUs may modify; other/may/permission correct."},
+    {"chunk": "21", "doc": "jefferson_county_public_schools", "status": "PARTIAL", "note": "Quote verified. negation/prohibition/protected=mgmt(employer right) sound, but 'is not impacted/abrogated/diminished' is passive; voice=active is wrong."},
+    {"chunk": "41", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "Verified. Postings accessible to candidates; other/worker/will/obligation/transfers sound."},
+    {"chunk": "57", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "Verified. Consultants will work; worker duty, management as correlative protected party is defensible; will/active/obligation correct."},
+    {"chunk": "75", "doc": "jefferson_county_public_schools", "status": "CORRECT", "note": "Verified. Should exhaust grievance procedure; worker/should/obligation, protected=mgmt sound; topic discipline ok."},
+    {"chunk": "4", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "Verified. District shall insure liability; management/worker/shall/active/obligation correct."},
+    {"chunk": "15", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "Verified. District shall hold harmless PAR panel/consulting teacher; management/worker/shall/obligation correct."},
+    {"chunk": "24", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "Verified; page header 'XII-3' split sentence but wording faithful. 'shall not include'; negation/prohibition/active correct."},
+    {"chunk": "37", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "Verified. Credit will be granted to new employee; other/worker/will/passive/right/compensation correct."},
+    {"chunk": "52", "doc": "long_beach_unified_school_district", "status": "CORRECT", "note": "Verified. Determination made by Asst Superintendent; management/shall/passive/obligation correct."},
+    {"chunk": "25", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "Verified. 'may be revised only by mutual agreement'; may/passive correct. llm_judgment=prohibition (vs permission) is a defensible read of 'only by'."},
+    {"chunk": "90", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "Verified. Employee to remain assigned; worker duty, protected=mgmt correlative ok; obligation/discipline correct."},
+    {"chunk": "153", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "Verified. Hours shall be restored to returning employee; other/worker/shall/passive/right/leave correct."},
+    {"chunk": "226", "doc": "los_angeles_unified_school_district", "status": "CORRECT", "note": "Verified. Replacement warrant will be issued; management/worker/will/passive/obligation/compensation correct."},
+    {"chunk": "291", "doc": "los_angeles_unified_school_district", "status": "PARTIAL", "note": "Quote verified. Mgmt is payer/actor but employees are affected party; protected should be worker not management."}
+  ],
+  "quote_fabrications": 0,
+  "notes": "All 25 quotes faithful to source; quote_verified=True accurate throughout (0 fabrications). Jefferson/LongBeach truth files carry line-number/page-header gutters that the extractor correctly stripped. 4 PARTIALs = feature slips: protected_party mislabeled 'management' where a worker is the affected beneficiary (Alb92, LAUSD291, Alb75-students), plus one voice error (Jeff21 passive tagged active)."
+}

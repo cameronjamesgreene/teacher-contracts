@@ -1,0 +1,20 @@
+{
+  "meta_state_law_citations_007": {
+    "answer": "\"The Alabama Constitution requires the Legislature to establish and maintain public schools throughout the State.\" \"Responsive to this mandate, the Legislature has provided for City Boards of Education to administer and supervise the public schools of each city.\" \"Accordingly, the Birmingham City Board of Education is a constitutionally authorized entity of the Legislature and is subject to state laws and to regulations of the State.\" \"The Birmingham Board of Education is further regulated by the \\\"Lewis Spratt Act.\\\" (Acts 2001-204; 2002-22)\" \"Members of the Birmingham Board of Education are elected by districts that correspond with the Birmingham City Council districts in accordance with state law for terms of office, which shall expire at the same prescribed time as the expiration of the corresponding terms of office of the then current city council members.\" \"Unexpired terms of more than one year shall be filled by special election called as provided by state law.\" \"The Board, functioning within the framework of laws, court decisions, State School Board regulations and similar mandates from the state and national levels of government, fulfills its mission as the governing body of the School System by acting as follows in the execution of its duties:\" \"to be familiar with state school laws, State Board of Education regulations, policies, rules and regulations of the Birmingham School System;\" \"The president presides at Board meetings, performs all duties imposed by the statutes, and performs such other duties as may be prescribed by law or by action of the Board of Education.\" \"(4) Make reports as may be required by law, by the board, or by rules and regulations of the State Board of Education.\" \"The main work of the committee will consist of an annual comprehensive review of all the system's policies to determine if they are current in terms of the Alabama Code, City Codes and Federal Laws.\" \"It shall review and evaluate all relevant sections of the Education Laws of Alabama and relevant Federal statutes and regulations and make recommendations for changes and modifications of those statutes to improve the delivery of educational services.\" \"The adoption of revision of any policy shall be done in accordance with Title 16-11-.18, Code of Alabama.\"",
+    "evidence": "The adoption of revision of any policy shall be done in accordance with Title 16-11-.18, Code of Alabama.",
+    "page": "1010",
+    "confidence": "high"
+  },
+  "meta_cites_federal_law_008": {
+    "answer": "\"Ensuring that all employees are highly qualified as defined by State and Federal Laws.\" \"The main work of the committee will consist of an annual comprehensive review of all the system's policies to determine if they are current in terms of the Alabama Code, City Codes and Federal Laws.\" \"It shall review and evaluate all relevant sections of the Education Laws of Alabama and relevant Federal statutes and regulations and make recommendations for changes and modifications of those statutes to improve the delivery of educational services.\"",
+    "evidence": "Ensuring that all employees are highly qualified as defined by State and Federal Laws.",
+    "page": "1005",
+    "confidence": "high"
+  },
+  "meta_federal_law_citations_009": {
+    "answer": "Federal Laws; Federal statutes and regulations",
+    "evidence": "Ensuring that all employees are highly qualified as defined by State and Federal Laws.",
+    "page": "1005",
+    "confidence": "high"
+  }
+}

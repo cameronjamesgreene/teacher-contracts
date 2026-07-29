@@ -1,0 +1,38 @@
+{
+  "safety_health_committee_001": {
+    "answer": "yes. Complaint process exists; teachers may report unsafe conditions to the Principal, Regional Executive Director, or PGCEA President/Superintendent. No safety committee mentioned.",
+    "evidence": "Teachers are encouraged to bring to the attention of the Principal conditions which they consider may be unsafe for students or teachers, for review and, as appropriate, for referral to the appropriate school authority. Thereafter, if the teacher is still concerned, the teacher may request further review by the Regional Executive Director. If in a specific situation the President of PGCEA believes further consideration is appropriate, the President may request review by the Superintendent of Schools.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "safety_assault_protection_002": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_student_discipline_003": {
+    "answer": "yes",
+    "evidence": "The maintenance of normal school classroom discipline is the responsibility of the teacher. Procedures for handling disruptive students both within and without the classroom will be developed in accordance with County educational policy in each school by the Principal or duly appointed designee and the faculty.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "safety_remove_student_004": {
+    "answer": "yes",
+    "evidence": "When in the judgement of the teacher a student’s behavior makes the operation of the class impossible, the teacher shall complete the appropriate Discipline Referral Form and the student may be excluded from the class until the teacher and Principal or the Principal’s designee have held a conference.",
+    "page": "13",
+    "confidence": "high"
+  },
+  "safety_emergency_closure_005": {
+    "answer": "not_discussed",
+    "evidence": "",
+    "page": "not_applicable",
+    "confidence": "high"
+  },
+  "safety_environment_006": {
+    "answer": "yes. Provision of air-conditioned faculty room and requirement that rest rooms be kept clean. Common facilities must be maintained in orderly condition. No specific standards for temperature, ventilation, air quality, acoustics, or construction disruption.",
+    "evidence": "A furnished air-conditioned room to be reserved for the exclusive use of faculty... The rest room is to be kept clean and adequately supplied. It is understood that common facilities used by the staff must be maintained in an orderly condition by those using the facilities.",
+    "page": "13",
+    "confidence": "high"
+  }
+}
