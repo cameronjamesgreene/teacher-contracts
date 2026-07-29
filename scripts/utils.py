@@ -24,7 +24,7 @@ from typing import Iterable
 # level deeper than the file itself.
 ROOT = Path(__file__).resolve().parents[2]
 WORK = Path(__file__).resolve().parents[1]
-PDF_ROOT = ROOT / "nctq_contracts"
+PDF_ROOT = WORK / "raw"
 CODEBOOK = WORK / "extraction_elements_reduced.md"
 README = WORK / "readme.md"
 TEXT_DIR = WORK / "cache" / "extracted_text"
@@ -763,5 +763,4 @@ def answer_question(question: Question, doc: Document, metadata: dict[str, str])
         "confidence": confidence,
         "coder_notes": "Full-text keyword/synonym match; verify manually for publication." if confidence != "high" else "",
     }
-
 
