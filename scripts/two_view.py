@@ -38,6 +38,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor
 from typing import Optional
 
@@ -201,12 +202,47 @@ def _union(a: dict, b: dict, text_norm: str) -> tuple:
     return a, "neither:A"
 
 
+_SECTION_RE = re.compile(
+    r"^\s*(ARTICLE|APPENDIX|EXHIBIT|ADDENDUM|SCHEDULE|MEMORANDUM|SIDE\s+LETTER)\b",
+    re.I | re.M)
+
+
+def _semantic_sections(text: str, budget: int) -> list:
+    """Split an over-long document at article/appendix boundaries, not mid-sentence.
+
+    Measured on the full 1,190-document corpus: **22% of documents exceed the single-call
+    input budget** (median 254k chars, p90 697k, max 2.95M). A plain cap_text() truncation
+    leaves View A structurally blind to everything past the cut — and the audit's own finding
+    is that the missed provisions cluster in back-of-document appendices and MOUs, i.e.
+    precisely the region truncation discards.
+
+    Sections break on real headings so a provision is not severed mid-clause, and carry a
+    page of overlap so a boundary-straddling provision is visible in both.
+    """
+    if len(text) <= budget:
+        return [text]
+    bounds = [m.start() for m in _SECTION_RE.finditer(text)]
+    sections, start = [], 0
+    while start < len(text):
+        hard_end = min(start + budget, len(text))
+        if hard_end >= len(text):
+            sections.append(text[start:])
+            break
+        # Last heading that fits; fall back to a hard cut if a section is itself oversized.
+        cut = max([b for b in bounds if start + budget // 2 < b <= hard_end], default=hard_end)
+        sections.append(text[start:cut])
+        start = max(cut - 3000, start + 1)
+    return sections
+
+
 def code_document(client, document_id: str, text: str, questions: list,
                   con=None, progress=None) -> dict:
     """Code every question for one document. Returns {qid: record}."""
     con = con or corpus.get_con()
     text_norm = norm_ws(text)
-    doc_view = "DOCUMENT:\n" + cap_text(text)
+    budget = len(cap_text(text))
+    sections = _semantic_sections(text, budget)
+    doc_view = "DOCUMENT:\n" + sections[0]
 
     batches = [questions[i:i + QUESTIONS_PER_BATCH]
                for i in range(0, len(questions), QUESTIONS_PER_BATCH)]
@@ -220,21 +256,38 @@ def code_document(client, document_id: str, text: str, questions: list,
         retrieved = corpus.passages(document_id, terms, k=FTS_TOPK,
                                     con=corpus.get_con())
 
-        # The two views are independent, so run them concurrently. Real in-flight limits
-        # are enforced centrally by som_client.GOVERNOR, not here.
-        with ThreadPoolExecutor(max_workers=2) as ex:
-            fa = ex.submit(_ask, client, doc_view, batch, "viewA", document_id)
-            fb = (ex.submit(_ask, client, "KEYWORD-RETRIEVED PAGES:\n" + retrieved,
-                            batch, "viewB", document_id)
-                  if retrieved else None)
-            a = fa.result()
-            b = fb.result() if fb else {q.qid: dict(_FALLBACK) for q in batch}
+        # The views are independent, so run them concurrently. Real in-flight limits are
+        # enforced centrally by som_client.GOVERNOR, not here. On an over-long document
+        # View A becomes several section calls rather than one truncated call.
+        jobs = [("viewA", "DOCUMENT (section %d of %d):\n%s" % (i + 1, len(sections), sec))
+                for i, sec in enumerate(sections)]
+        if retrieved:
+            jobs.append(("viewB", "KEYWORD-RETRIEVED PAGES:\n" + retrieved))
+        with ThreadPoolExecutor(max_workers=len(jobs)) as ex:
+            results = list(ex.map(
+                lambda j: (j[0], _ask(client, j[1], batch, j[0], document_id)), jobs))
+
+        # Fold the section answers into a single View A verdict first: a provision found in
+        # ANY section is found, and a section that does not contain it correctly says
+        # not_discussed about its own text. Folding with the same quote-gated union keeps one
+        # rule for both axes.
+        a = {q.qid: dict(_FALLBACK) for q in batch}
+        b = {q.qid: dict(_FALLBACK) for q in batch}
+        for tag, res in results:
+            target = b if tag == "viewB" else a
+            for q in batch:
+                if _substantive(target[q.qid]):
+                    cand, _ = _union(target[q.qid], res[q.qid], text_norm)
+                    target[q.qid] = cand
+                else:
+                    target[q.qid] = res[q.qid]
 
         merged = {}
         for q in batch:
             rec, prov = _union(a[q.qid], b[q.qid], text_norm)
             rec = dict(rec)
-            rec["_provenance"] = prov
+            rec["_provenance"] = prov + ("" if len(sections) == 1
+                                         else ":A-of-%d-sections" % len(sections))
             merged[q.qid] = rec
         return merged
 

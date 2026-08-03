@@ -191,3 +191,47 @@ At 8 questions per batch with reasoning on, a coding call spends ~4,900 reasonin
 answer tokens. A 6,000-token budget truncated 34 of 144 calls, and each truncation costs a
 full re-generation. `max_tokens` is only a cap — unused headroom is free — so under-budgeting
 is far more expensive than over-budgeting.
+
+---
+
+## 7. Full-corpus survey (1,190 documents, 125,993 pages)
+
+The whole `nctq_contracts` tree is now hydrated and on the HPC. Free per-page character
+counts across all of it (no API calls):
+
+| bucket | docs | share |
+|---|---|---|
+| clean (born-digital) | 974 | 81.8% |
+| **scanned** | **185** | **15.5%** |
+| ambiguous | 24 | 2.0% |
+| extraction failed | 6 | 0.5% |
+| still a 0-byte stub | 1 | 0.1% |
+
+**OCR bill: 8,792 pages ≈ 2.1 hours wall** at the measured 6.9s/page × concurrency 8, plus
+≤960 vision calls to adjudicate the ambiguous band.
+
+**Full coding run: 1,159 codable documents × ~61 calls = 70,699 calls ≈ 4.0 days wall** at
+the measured 12.2 calls/min. That rate is set by the 14-permit governor against a shared
+endpoint, so the lever is either a negotiated concurrency window or coding a subset.
+
+### The correction that matters: 22% of documents exceed the single-call budget
+
+Document sizes across the full corpus are much larger than the 62-document sample suggested:
+median 254k chars, **p90 697k, max 2.95M**. Against `MAX_INPUT_TOKENS = 80000`
+(≈448k chars), **214 of 974 clean documents (22%) overflow — not the ~5% estimated earlier.**
+
+`two_view` previously called `cap_text()` there, i.e. silently truncated, leaving View A
+structurally blind past the cut. That is the worst possible failure mode for this corpus,
+because the audit's own finding is that missed provisions cluster in back-of-document
+appendices and MOUs — exactly what truncation discards. Over-long documents are now split at
+`ARTICLE|APPENDIX|EXHIBIT|ADDENDUM|SCHEDULE|MEMORANDUM|SIDE LETTER` boundaries with 3k of
+overlap, View A runs per section, and the section verdicts fold together under the same
+quote-gated union used across views.
+
+### Seven documents need attention before a full run
+
+Six fail `pdftotext` outright and one is still a Dropbox stub:
+`anne_arundel…taaac_negotiated_agreement_july_2019`, `anoka_hennepin…anoka_contract`,
+`detroit…dft_july_1_2021_june_`, `kansas_city…2008_2011_teachers_7777`,
+`oklahoma_city…okc_2018_2019`, `san_diego…full_text_tentative_2014_to`, and
+`san_bernardino…2019_ta_san_bernadino` (0 bytes — needs re-hydrating).
