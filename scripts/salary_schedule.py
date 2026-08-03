@@ -1089,6 +1089,95 @@ def _dedup_label(sch: dict) -> str:
                    + str(sch.get("population") or "")).lower()
 
 
+def _provenance_key(sch: dict) -> tuple:
+    """Where this grid physically came from: (page range, panel band, label).
+
+    Value-signature dedup alone cannot fix over-extraction, because it compares WHAT was
+    read rather than WHERE it was read from. LAUSD emitted 172 grids for ~50 real schedules
+    because the same physical table, re-read from a page-split or a re-extraction pass, has
+    a slightly different value multiset each time (one dropped cell defeats Counter equality)
+    and so survives as a "distinct" schedule.
+
+    Two extractions of the same physical region ARE the same grid regardless of whether their
+    cell sets came out byte-identical. The panel band matters because side-by-side panels are
+    genuinely different schedules printed on the same pages.
+    """
+    return (sch.get("page_start"), sch.get("page_end"),
+            sch.get("panel_band"), _dedup_label(sch))
+
+
+def dedup_by_provenance(schedules: list[dict]) -> tuple[list[dict], int]:
+    """Collapse grids extracted from the same physical region, keeping the richest one.
+
+    Runs BEFORE the value-signature dedup: provenance is the stronger identity claim, and
+    resolving it first stops near-duplicate re-reads of one table from being compared against
+    each other as if they were separate schedules.
+    """
+    kept: dict = {}
+    order: list = []
+    dropped = 0
+    for sch in schedules:
+        key = _provenance_key(sch)
+        if key[0] is None:                       # no page provenance -> cannot judge; keep
+            order.append(id(sch))
+            kept[id(sch)] = sch
+            continue
+        prior = kept.get(key)
+        if prior is None:
+            kept[key] = sch
+            order.append(key)
+            continue
+        dropped += 1
+        # Keep whichever read recovered more of the table, preferring one that resolved a
+        # school year over one that did not.
+        better = (len(sch.get("cells") or []) > len(prior.get("cells") or [])
+                  or (not prior.get("school_year_or_effective_date")
+                      and sch.get("school_year_or_effective_date")))
+        if better:
+            kept[key] = sch
+    return [kept[k] for k in order if k in kept], dropped
+
+
+_YEAR_RE = re.compile(r"\b(20\d{2})\s*[-–—/]\s*(20\d{2}|\d{2})\b")
+_FY_RE = re.compile(r"\bFY\s*(20\d{2})\b", re.I)
+_EFF_RE = re.compile(
+    r"\beffective\s+(?:date\s+)?(?:on\s+|as\s+of\s+)?"
+    r"([A-Z][a-z]+\.?\s+\d{1,2},?\s+20\d{2}|\d{1,2}/\d{1,2}/\d{2,4})", re.I)
+
+
+def resolve_schedule_year(sch: dict, page_text: str) -> str:
+    """Best available (school_year | effective date) for filing this grid.
+
+    This is the largest MEASURED salary defect: in the full-census audit, 5 of the 10 failing
+    grids had 100% correct cell values and failed only because they were filed under the
+    wrong year or an `unknown_year` folder. The year is almost always printed on the page
+    ("FY 2025 ET-15 Salary Schedule", "Effective Oct 6, 2024"); the extractor just wasn't
+    required to find it. Prefer what the model already resolved, then the grid's own label,
+    then the page text.
+    """
+    if str(sch.get("school_year_or_effective_date") or "").strip():
+        return str(sch["school_year_or_effective_date"]).strip()
+    haystacks = [str(sch.get("schedule_label") or ""), str(sch.get("population") or ""),
+                 page_text or ""]
+    for hay in haystacks:
+        m = _YEAR_RE.search(hay)
+        if m:
+            end = m.group(2)
+            end = end if len(end) == 4 else "20" + end
+            return f"{m.group(1)}_{end}"
+    for hay in haystacks:
+        m = _FY_RE.search(hay)
+        if m:
+            return f"fy_{m.group(1)}"
+    for hay in haystacks:
+        m = _EFF_RE.search(hay)
+        if m:
+            y = re.search(r"20\d{2}", m.group(1))
+            if y:
+                return f"effective_{y.group(0)}"
+    return ""
+
+
 def dedup_identical_schedules(schedules: list[dict]) -> tuple[list[dict], int]:
     """Remove grids whose numeric value-multiset is IDENTICAL to one already kept AND that
     carry the SAME schedule label/population — the byte-identical page-split reprints and
@@ -1324,7 +1413,15 @@ def _extract_block_via_segments(
             # permanently locking it in as "no table".
             n_failed += 1
             continue
-        block_tables.extend(t for t in tables if t.get("has_table", True))
+        for t in tables:
+            if not t.get("has_table", True):
+                continue
+            # Segment index doubles as the panel band: for a structured read each segment IS
+            # one pdfplumber grid (an x-band on a side-by-side page), so (pages, band) is a
+            # stable physical address for this table. dedup_by_provenance uses it to collapse
+            # re-reads of one table without merging two panels that genuinely differ.
+            t.setdefault("panel_band", sub_idx)
+            block_tables.append(t)
     if not block_tables and end > start and pdf_path.stat().st_size > 0:
         for pg in range(start, end + 1):
             pcache = CACHE_DIR / f"{document_id}__{pg}-{pg}__page.json"
@@ -1381,6 +1478,9 @@ def process_document(
             entry.setdefault("extraction_method", method)
             entry.setdefault("page_start", start)
             entry.setdefault("page_end", end)
+            # Carry a slice of the source page text so the writer can recover the school
+            # year / effective date when the extraction didn't state one.
+            entry.setdefault("_page_text", "\f".join(pages[start - 1:end])[:6000])
             schedules.append(entry)
 
     def suspect(tables: list[dict]) -> bool:
@@ -1488,6 +1588,11 @@ def process_document(
     # identical differentials) before the cross-grid checks and the writer, so a multi-page
     # appendix reprinted once per contract year doesn't emit the same schedule N times.
     if len(schedules) > 1:
+        # Provenance first: two reads of the SAME physical region are one grid even when
+        # their cell sets differ slightly, which value-signature dedup cannot see.
+        schedules, n_prov = dedup_by_provenance(schedules)
+        if n_prov:
+            print(f"  deduped {n_prov} re-read(s) of the same page/panel region")
         schedules, n_dup = dedup_identical_schedules(schedules)
         if n_dup:
             print(f"  deduped {n_dup} identical page-split/reprint grid(s)")
@@ -1512,7 +1617,12 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
     grouped by district then by the school year/effective date the table itself
     states, so every schedule for a given district-year sits in one folder."""
     district_slug = slugify(district, 60) or "unknown_district"
-    year_slug = slugify(schedule.get("school_year_or_effective_date") or "", 40) or "unknown_year"
+    # Fall back to reading the year off the page before giving up and filing under
+    # unknown_year: mis-filing was the single largest measured salary defect (5 of the 10
+    # failing grids in the full-census audit had 100% correct cells and only the wrong
+    # folder), and the year is nearly always printed on the schedule page itself.
+    year_slug = slugify(
+        resolve_schedule_year(schedule, schedule.get("_page_text", "")), 40) or "unknown_year"
     out_dir = WIDE_DIR / district_slug / year_slug
     out_dir.mkdir(parents=True, exist_ok=True)
     slug = slugify(schedule.get("schedule_label") or f"schedule_{schedule['page_start']}", 50)
