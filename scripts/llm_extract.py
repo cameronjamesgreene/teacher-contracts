@@ -994,6 +994,16 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    # Register the request-hash cache + telemetry sink. som_client only records calls when
+    # a sink is registered, so this must happen at every entry point or a real run produces
+    # no cache and no telemetry (which is how the first v11 smoke test ran).
+    try:
+        import store
+        store.get_store().start_run(notes="llm_extract")
+    except Exception as exc:      # never let instrumentation stop a run
+        print(f"  [store] telemetry unavailable: {exc}")
+
+
     client = get_client()
 
     print("Reading codebook and sample ...")

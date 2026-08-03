@@ -464,16 +464,57 @@ def split_into_subtasks(block_text: str) -> list[str]:
 
 # ── PDF rendering ────────────────────────────────────────────────────────────────
 
+_PAGE_COUNT_CACHE: dict = {}
+
+
+def pdf_page_count(pdf_path: Path) -> int:
+    """True page count of the PDF itself, cached.
+
+    This is NOT the same number as len(text.split("\\f")). Page indices everywhere else in
+    this module come from form-feed segments in the extracted text, and the two disagree
+    routinely — Alpine 2014-15 yields 40 text segments for a 39-page PDF, because pdftotext
+    emits a trailing form feed. Any index derived from the text and then handed to pdftoppm
+    can therefore point past the end of the document.
+    """
+    key = str(pdf_path)
+    if key not in _PAGE_COUNT_CACHE:
+        try:
+            out = subprocess.run(["pdfinfo", str(pdf_path)],
+                                 capture_output=True, text=True, timeout=120).stdout
+            m = re.search(r"^Pages:\s+(\d+)", out, re.M)
+            _PAGE_COUNT_CACHE[key] = int(m.group(1)) if m else 0
+        except Exception:
+            _PAGE_COUNT_CACHE[key] = 0
+    return _PAGE_COUNT_CACHE[key]
+
+
 def render_pages_to_images(
     pdf_path: Path, start: int, end: int, tmp_dir: Path, dpi: int | None = None,
 ) -> list[Path]:
+    """Render [start, end] to PNGs, clamped to pages the PDF actually has.
+
+    Previously this ran pdftoppm with check=True on an unvalidated range, so a page index
+    one past the end (the lookahead page of a block ending on the last page) raised
+    CalledProcessError and killed the whole document's salary run. Rendering nothing is a
+    recoverable outcome — the caller already treats an empty image list as "vision found
+    no table" — whereas an exception is not.
+    """
+    n = pdf_page_count(pdf_path)
+    if n:
+        start, end = max(1, min(start, n)), max(1, min(end, n))
+    if end < start:
+        return []
     prefix = tmp_dir / "page"
-    subprocess.run(
+    r = subprocess.run(
         ["pdftoppm", "-png", "-r", str(dpi or SALARY_RENDER_DPI),
          "-f", str(start), "-l", str(end), str(pdf_path), str(prefix)],
-        check=True,
+        check=False, capture_output=True, text=True,
     )
-    return sorted(tmp_dir.glob("page*.png"))
+    images = sorted(tmp_dir.glob("page*.png"))
+    if r.returncode != 0 and not images:
+        print(f"  render failed p{start}-{end} of {pdf_path.name} "
+              f"({(r.stderr or '').strip()[:80]}) — skipping this block")
+    return images
 
 
 def render_pages_rotated(
@@ -1502,7 +1543,11 @@ def process_document(
         Concurrency itself is governed centrally in som_client, not here."""
         start, end = block
         block_text = "\f".join(pages[start - 1:end])
-        lookahead_page = end + 1 if end + 1 <= len(pages) else None
+        # Bound the lookahead by BOTH the text's page count and the PDF's real one: those
+        # two disagree whenever pdftotext emits a trailing form feed, and the lookahead is
+        # the index most likely to fall in the gap.
+        _npdf = pdf_page_count(pdf_path) or len(pages)
+        lookahead_page = end + 1 if end + 1 <= min(len(pages), _npdf) else None
         has_pdf = pdf_path.stat().st_size > 0
         blocks_failed = 0
 
@@ -1709,6 +1754,16 @@ def main() -> None:
     parser.add_argument("--file", help="Process a single PDF: file name within --district")
     parser.add_argument("--max-docs", type=int, default=None, help="Limit number of documents processed")
     args = parser.parse_args()
+
+    # Register the request-hash cache + telemetry sink. som_client only records calls when
+    # a sink is registered, so this must happen at every entry point or a real run produces
+    # no cache and no telemetry (which is how the first v11 smoke test ran).
+    try:
+        import store
+        store.get_store().start_run(notes="salary_schedule")
+    except Exception as exc:      # never let instrumentation stop a run
+        print(f"  [store] telemetry unavailable: {exc}")
+
 
     client = get_client()
 
