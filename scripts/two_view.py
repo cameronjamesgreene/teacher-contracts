@@ -235,10 +235,41 @@ def _semantic_sections(text: str, budget: int) -> list:
     return sections
 
 
+def ensure_indexed(document_id: str, text: str, con=None) -> bool:
+    """Guarantee this document is in the FTS5 index, indexing it on the fly if not.
+
+    THIS GUARD EXISTS BECAUSE ITS ABSENCE COST A WHOLE RUN. corpus.passages() returns ""
+    for an unindexed document, `retrieved` is then falsy, View B is skipped, and the
+    two-view union silently degrades to a single view — with no error, no warning, and
+    output that looks entirely normal. A corpus-wide run had been coding at single-view
+    recall for exactly this reason: the text had been extracted but never indexed.
+
+    Self-healing beats detecting: the caller already holds the text, so indexing costs
+    milliseconds and removes the failure mode rather than reporting it.
+    """
+    con = con or corpus.get_con()
+    row = con.execute("SELECT 1 FROM doc WHERE document_id=?", (document_id,)).fetchone()
+    if row:
+        return True
+    try:
+        parts = document_id.split("__")
+        corpus.index_document(document_id, text,
+                              district=parts[0] if parts else "",
+                              file_name=parts[1] if len(parts) > 1 else "",
+                              con=con)
+        print(f"  [two_view] indexed {document_id} on demand (was missing from corpus.sqlite)")
+        return True
+    except Exception as exc:
+        print(f"  [two_view] WARNING: could not index {document_id} ({exc}); "
+              f"View B disabled — this document is coded at SINGLE-VIEW recall")
+        return False
+
+
 def code_document(client, document_id: str, text: str, questions: list,
                   con=None, progress=None) -> dict:
     """Code every question for one document. Returns {qid: record}."""
     con = con or corpus.get_con()
+    indexed = ensure_indexed(document_id, text, con)
     text_norm = norm_ws(text)
     budget = len(cap_text(text))
     sections = _semantic_sections(text, budget)
@@ -246,6 +277,8 @@ def code_document(client, document_id: str, text: str, questions: list,
 
     batches = [questions[i:i + QUESTIONS_PER_BATCH]
                for i in range(0, len(questions), QUESTIONS_PER_BATCH)]
+
+    nonlocal_missing: list = []      # batches that ran without View B
 
     def run_batch(batch: list) -> dict:
         terms: list = []
@@ -263,6 +296,12 @@ def code_document(client, document_id: str, text: str, questions: list,
                 for i, sec in enumerate(sections)]
         if retrieved:
             jobs.append(("viewB", "KEYWORD-RETRIEVED PAGES:\n" + retrieved))
+        else:
+            # No passages: either the terms genuinely match nothing, or the document is
+            # missing from the index. ensure_indexed() rules out the second, so this is a
+            # real miss -- but it still means this batch ran single-view, and that has to
+            # show up per answer, not just in stdout.
+            nonlocal_missing.append(batch[0].qid if batch else "?")
         with ThreadPoolExecutor(max_workers=len(jobs)) as ex:
             results = list(ex.map(
                 lambda j: (j[0], _ask(client, j[1], batch, j[0], document_id)), jobs))
@@ -288,6 +327,10 @@ def code_document(client, document_id: str, text: str, questions: list,
             rec = dict(rec)
             rec["_provenance"] = prov + ("" if len(sections) == 1
                                          else ":A-of-%d-sections" % len(sections))
+            if not retrieved:
+                rec["_provenance"] += ":NO-VIEW-B"
+                rec["coder_notes"] = (str(rec.get("coder_notes", "")) +
+                                      " [single-view: retrieval returned no passages]").strip()
             merged[q.qid] = rec
         return merged
 

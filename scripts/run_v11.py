@@ -28,6 +28,8 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import atexit
+import signal
 import subprocess
 import sys
 import time
@@ -58,17 +60,66 @@ def resolve(document_id: str) -> tuple:
     return None, None
 
 
+# Every coder subprocess this driver starts, so none can outlive it.
+#
+# A coder orphaned by a killed driver keeps running, keeps calling the API, and keeps
+# WRITING INTO THE OUTPUT DIRECTORY of whatever run comes next -- which is exactly what
+# happened between two v11 runs: a stale salary_schedule from a killed run interleaved its
+# output with the replacement run's, so one document's results were a mix of two code
+# versions. `pkill -f` from outside is inherently racy against a process that has not been
+# exec'd yet; owning the children is not.
+_CHILDREN: set = set()
+
+
+def _reap(*_args) -> None:
+    for proc in list(_CHILDREN):
+        if proc.poll() is None:
+            try:
+                os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
+            except Exception:
+                try:
+                    proc.kill()
+                except Exception:
+                    pass
+    for proc in list(_CHILDREN):
+        try:
+            proc.wait(timeout=10)
+        except Exception:
+            pass
+
+
+atexit.register(_reap)
+for _sig in (signal.SIGINT, signal.SIGTERM, signal.SIGHUP):
+    try:
+        signal.signal(_sig, lambda s, f: (_reap(), sys.exit(128 + s)))
+    except (ValueError, OSError):
+        pass
+
+
 def run_step(name: str, cmd: list, env: dict, log: Path, timeout: int) -> dict:
     t = time.time()
     with open(log, "a", encoding="utf-8") as fh:
         fh.write(f"\n{'='*70}\n### {name}\n{' '.join(cmd)}\n{'='*70}\n")
         fh.flush()
+        proc = None
         try:
-            r = subprocess.run(cmd, stdout=fh, stderr=subprocess.STDOUT,
-                               env=env, timeout=timeout, cwd=str(SCRIPTS))
-            ok, code = r.returncode == 0, r.returncode
+            # start_new_session puts the child in its own process group, so _reap can take
+            # down the coder AND anything it spawned (pdftoppm, pdftotext) in one signal.
+            proc = subprocess.Popen(cmd, stdout=fh, stderr=subprocess.STDOUT,
+                                    env=env, cwd=str(SCRIPTS), start_new_session=True)
+            _CHILDREN.add(proc)
+            code = proc.wait(timeout=timeout)
+            ok = code == 0
         except subprocess.TimeoutExpired:
             ok, code = False, "timeout"
+            if proc is not None:
+                try:
+                    os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+                except Exception:
+                    proc.kill()
+        finally:
+            if proc is not None:
+                _CHILDREN.discard(proc)
     return {"step": name, "ok": ok, "code": code, "seconds": round(time.time() - t, 1)}
 
 
