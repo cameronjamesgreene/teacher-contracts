@@ -1,0 +1,20 @@
+# Caches and generated artifacts — large, regenerable, machine-specific
+cache/
+output/
+output_v*/
+output_new*/
+logs/
+ocr_test_output/
+archive/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Secrets
+scripts/som_api_key.txt
+
+# Source PDFs and bulk binaries
+*.pdf
+*.zip
+*.sas7bdat
