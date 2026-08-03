@@ -14,6 +14,13 @@ Finder, and processes whatever is actually present.
 existing gold set is four documents of which two are Utah districts and two are single-
 district state systems. Stratifying on state, document type and page count is what makes the
 next audit generalise.
+
+SCANNED DOCUMENTS ARE HANDLED IN-BAND, not flagged for a human. Detection and OCR both run
+remotely against the SOM API via ocr_remote.py, so they inherit the concurrency governor,
+retry handling and telemetry. Detection is two-stage: a free per-page character count, then
+a vision call on the ambiguous band — which is what catches a page with a typed heading and
+a scanned table, the case a character threshold is structurally unable to see. Pass
+--no-ocr to fall back to flag-and-skip.
 """
 
 from __future__ import annotations
@@ -117,7 +124,21 @@ def select_stratified(rows: list, n: int, already: set,
     return picked
 
 
-def ingest_one(path: Path, district: str) -> dict:
+_OCR_CLIENT = None
+
+
+def get_ocr_client():
+    """One shared client per process, so every OCR call goes through the same
+    som_client governor as the coders rather than opening its own connection pool."""
+    global _OCR_CLIENT
+    if _OCR_CLIENT is None:
+        from som_client import get_client
+        _OCR_CLIENT = get_client()
+    return _OCR_CLIENT
+
+
+def ingest_one(path: Path, district: str, do_ocr: bool = True,
+               client=None) -> dict:
     """Extract text for one hydrated PDF and index it. Returns a status record."""
     document_id = utils.document_id_for(district, path.name) \
         if hasattr(utils, "document_id_for") else None
@@ -144,10 +165,21 @@ def ingest_one(path: Path, district: str) -> dict:
         text = ocr_override.read_text(encoding="utf-8", errors="ignore")
         source = "ocr"
     elif len(text) / pages < SCAN_CHARS_PER_PAGE:
-        # Flagged, not blocked. Auto-OCR in utils blocks up to AUTO_OCR_WAIT_S (4200s) per
-        # document; at corpus scale that is fatal, so OCR is a separate queued pass.
-        return {"document_id": document_id, "status": "needs_ocr", "pages": pages,
-                "chars": len(text), "chars_per_page": round(len(text) / pages, 1)}
+        if not do_ocr:
+            return {"document_id": document_id, "status": "needs_ocr", "pages": pages,
+                    "chars": len(text), "chars_per_page": round(len(text) / pages, 1)}
+        # OCR remotely, in-band. utils' own AUTO_OCR path is not used here: it blocks up to
+        # AUTO_OCR_WAIT_S (4200s) per document waiting on a lockfile, which at corpus scale
+        # is fatal. ocr_remote drives the SOM API directly under the shared governor.
+        import ocr_remote
+        res = ocr_remote.build_override(client or get_ocr_client(), path, document_id)
+        if res.get("status") != "ocr_written":
+            return {"document_id": document_id, "status": f"ocr_{res.get('status')}",
+                    "pages": pages, "chars": len(text),
+                    "chars_per_page": round(len(text) / pages, 1)}
+        text = (CACHE_DIR / "ocr_text" / f"{document_id}.txt").read_text(
+            encoding="utf-8", errors="ignore")
+        source = "som_ocr"
     else:
         source = "pdftotext"
 
@@ -192,7 +224,7 @@ def stage_for_hydration(picked: list, staging: Path) -> Path:
     return staging / STAGING_MANIFEST
 
 
-def ingest_staged(staging: Path) -> dict:
+def ingest_staged(staging: Path, do_ocr: bool = True) -> dict:
     """Extract + index every hydrated file in the staging folder, using each file's ORIGINAL
     path for its document_id so IDs match the rest of the corpus."""
     man = staging / STAGING_MANIFEST
@@ -210,7 +242,7 @@ def ingest_staged(staging: Path) -> dict:
             counts["still_placeholder"] += 1
             still_stubs.append(staged_name)
             continue
-        res = ingest_one(p, district)
+        res = ingest_one(p, district, do_ocr=do_ocr)
         counts[res["status"]] += 1
         if res["status"] == "needs_ocr":
             needs_ocr.append(res)
@@ -231,6 +263,8 @@ def main() -> int:
                     help="extract + index a hydrated staging folder")
     ap.add_argument("--skip-districts", metavar="FILE",
                     help="file of district names already present elsewhere, to deprioritise")
+    ap.add_argument("--no-ocr", action="store_true",
+                    help="flag scanned documents instead of OCRing them remotely")
     ap.add_argument("--root", default=str(PDF_ROOT))
     args = ap.parse_args()
     root = Path(args.root)
@@ -274,7 +308,7 @@ def main() -> int:
             print("  folders in place instead. Nothing is lost either way.")
 
     if args.ingest_staged:
-        res = ingest_staged(Path(args.ingest_staged))
+        res = ingest_staged(Path(args.ingest_staged), do_ocr=not args.no_ocr)
         print("\nstaged ingest: " + " | ".join(f"{k}={v}" for k, v in
                                                sorted(res["counts"].items())))
         if res["still_placeholder"]:
@@ -283,7 +317,7 @@ def main() -> int:
             for nme in res["still_placeholder"][:10]:
                 print(f"  {nme}")
         if res["needs_ocr"]:
-            print(f"\n{len(res['needs_ocr'])} scanned document(s) need the olmocr2 pass:")
+            print(f"\n{len(res['needs_ocr'])} scanned document(s) OCR did not resolve:")
             for d in res["needs_ocr"][:10]:
                 print(f"  {d['document_id'][:60]:62s} {d['chars_per_page']:>6} chars/page")
         corpus.rebuild_term_df(corpus.get_con())
@@ -298,7 +332,7 @@ def main() -> int:
             if r["placeholder"]:
                 counts["needs_hydration"] += 1
                 continue
-            res = ingest_one(r["path"], r["district"])
+            res = ingest_one(r["path"], r["district"], do_ocr=not args.no_ocr)
             counts[res["status"]] += 1
             if res["status"] == "needs_ocr":
                 needs.append(res)
