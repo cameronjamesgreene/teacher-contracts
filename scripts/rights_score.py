@@ -67,13 +67,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from utils import OUT_DIR, PDF_ROOT, TEXT_DIR, WORK, extract_text, norm_ws, quote_present
 from som_client import (
     MAX_TOKENS, MODEL, budgeted_max_tokens, create_with_retries, get_client,
+    reasoning_kwargs,
 )
 from salary_schedule import MAIN_DATASET, document_id_for
 
 CACHE_DIR = WORK / "cache" / "rights_score_cache"
 
-CHUNK_SIZE = int(os.environ.get("RIGHTS_CHUNK_SIZE", "3000"))
-CHUNK_OVERLAP = int(os.environ.get("RIGHTS_CHUNK_OVERLAP", "400"))
+# 3000/400 was chosen when som_client believed the context window was 32k tokens and
+# clamped max_tokens to 16000, so a dense chunk's clause JSON truncated. The real window is
+# 131k (see som_client), and a 3000-char chunk uses ~0.4% of it: the median 253k-char
+# document cost ~96 extraction calls and the largest ~456. 12000 is a 4x call reduction and
+# is deliberately a middle step — raise toward 20000 only with clause recall measured at
+# each step, since larger chunks trade call count against attention dilution.
+CHUNK_SIZE = int(os.environ.get("RIGHTS_CHUNK_SIZE", "12000"))
+CHUNK_OVERLAP = int(os.environ.get("RIGHTS_CHUNK_OVERLAP", "1200"))
 # For extremely long documents, optionally cap how many (slow) extraction chunks a
 # single document is broken into by enlarging each chunk. 0 disables the cap (fixed
 # CHUNK_SIZE — the default, so normal-length docs are unaffected). When set, the doc
@@ -90,22 +97,23 @@ MAX_CONCURRENCY = int(os.environ.get("RIGHTS_CONCURRENCY", "8"))
 # Clauses are classified in a second LLM pass; this many per classification call.
 CLASSIFY_BATCH_SIZE = int(os.environ.get("RIGHTS_CLASSIFY_BATCH", "30"))
 
-# Extraction is a mechanical linguistic-feature task, so the slow chain-of-thought
-# can be reserved for the classification pass. This toggle controls whether the
-# extraction call disables the reasoning model's thinking, for a large speedup:
-#   "on"  (default) — leave reasoning on. Safe / no behavior change; this is the
-#                     baseline until an A/B accuracy check clears "off".
-#   "off" — pass the vLLM chat-template switch to disable thinking on extraction.
-# Only the extraction call is affected; classification always keeps reasoning on.
-EXTRACT_REASONING = os.environ.get("RIGHTS_EXTRACT_REASONING", "on").strip().lower()
+# Extraction is a mechanical linguistic-feature task (copy the clause, tag its modal,
+# voice, and acting party), so the slow chain-of-thought is reserved for classification.
+#   "off" (default) — disable thinking on extraction. Measured ~10x faster per call; the
+#                     chat-template switch is confirmed working against api.som.chat
+#                     (reasoning_tokens drops 221 -> 0 on a control prompt).
+#   "on"  — the previous default. Set RIGHTS_EXTRACT_REASONING=on to A/B clause recall.
+# Only the extraction call is affected; classification and re-verification, which are
+# genuine judgment calls, always keep reasoning on.
+EXTRACT_REASONING = os.environ.get("RIGHTS_EXTRACT_REASONING", "off").strip().lower()
 
 
 def _reasoning_off_kwargs() -> dict:
     """extra_body that disables the reasoning model's chain-of-thought, or {} when
-    reasoning is left on. Kept in one place so the A/B toggle is a single switch and
-    the exact vLLM parameter can be corrected once probed against api.som.chat."""
+    reasoning is left on. Delegates to som_client.reasoning_kwargs so the exact vLLM
+    parameter lives in exactly one place."""
     if EXTRACT_REASONING == "off":
-        return {"extra_body": {"chat_template_kwargs": {"enable_thinking": False}}}
+        return {"extra_body": reasoning_kwargs(False)}
     return {}
 
 # ── modal strength + classification tables (the Table A.3 / verb-lexicon analogue) ──

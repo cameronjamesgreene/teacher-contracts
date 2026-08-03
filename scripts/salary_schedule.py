@@ -82,6 +82,7 @@ import subprocess
 import sys
 import tempfile
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
@@ -93,7 +94,17 @@ except Exception:  # bare venvs without pdfplumber fall back to the flat-text pa
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from utils import OCR_TEXT_DIR, OUT_DIR, PDF_ROOT, ROOT, TEXT_DIR, WORK, extract_text, norm_ws, slugify
-from som_client import MAX_TOKENS, MODEL, create_with_retries, get_client
+from som_client import (
+    MAX_TOKENS, MODEL, budgeted_max_tokens, create_with_retries, get_client,
+    reasoning_kwargs,
+)
+
+# Vision calls carry base64 page images whose token cost the char-based estimator cannot
+# see, so they get a fixed, generous output budget instead of a computed one. Text calls
+# are budgeted from their actual prompt. Both replace the old `max_tokens=MAX_TOKENS`
+# (32000 against what the client believed was a 32000-token window) — a reasoning model
+# given a 32k budget will spend it, and these were the slowest calls in the pipeline.
+VISION_MAX_OUTPUT = int(os.environ.get("SALARY_VISION_MAX_OUTPUT", "8000"))
 
 MAIN_DATASET = OUT_DIR / "llm_main_dataset.csv"
 CACHE_DIR = WORK / "cache" / "salary_schedule_cache"
@@ -104,6 +115,12 @@ WIDE_DIR = OUT_DIR / "salary_schedule_wide"
 # many pages so no extraction call is handed dozens of pages. Override with
 # SALARY_MAX_BLOCK_PAGES.
 MAX_BLOCK_PAGES = int(os.environ.get("SALARY_MAX_BLOCK_PAGES", "4"))
+# Heading blocks are independent of one another (the cross-grid checks deliberately run
+# after all blocks are collected), so they can be extracted concurrently. This was the
+# largest single source of dead wall-clock in this coder: a 62-page appendix splits into
+# ~16 blocks that were extracted strictly one at a time, each blocking on a reasoning-model
+# call. The real in-flight ceiling is enforced centrally by som_client.GOVERNOR.
+SALARY_BLOCK_CONCURRENCY = int(os.environ.get("SALARY_BLOCK_CONCURRENCY", "6"))
 # DPI for rasterizing pages on the vision path. Higher DPI separates the columns of
 # dense side-by-side multi-lane salary tables more cleanly. Override with SALARY_DPI.
 SALARY_RENDER_DPI = int(os.environ.get("SALARY_DPI", "220"))
@@ -507,19 +524,28 @@ def _page_framing(start: int, end: int, lookahead_page: int | None) -> str:
     return framing
 
 
-def call_text_llm(client, doc_label: str, text: str, start: int, end: int) -> dict:
+def call_text_llm(client, doc_label: str, text: str, start: int, end: int,
+                  reasoning: bool = True, document_id: str = "") -> dict:
+    """Read a salary grid out of page text.
+
+    `reasoning=False` is passed by the structured (pdfplumber) path, where the input is
+    already a 2-D pipe table and the job is transcription rather than layout inference —
+    measured ~10x faster with no reasoning to do. The flat-text fallback keeps reasoning on
+    because it must infer the grid from an unstructured stream of numbers.
+    """
+    user = (f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
+            f"---PAGE TEXT---\n{text}\n---END---")
     return create_with_retries(
         client,
+        _stage="salary_text", _document_id=document_id,
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=budgeted_max_tokens(SCHEDULE_SYSTEM_PROMPT, user),
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": SCHEDULE_SYSTEM_PROMPT},
-            {"role": "user", "content": (
-                f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
-                f"---PAGE TEXT---\n{text}\n---END---"
-            )},
+            {"role": "user", "content": user},
         ],
+        extra_body=reasoning_kwargs(reasoning),
     )
 
 
@@ -539,8 +565,9 @@ def call_vision_llm(
         content.append({"type": "image_url", "image_url": {"url": image_to_data_url(p)}})
     return create_with_retries(
         client,
+        _stage="salary_vision",
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=VISION_MAX_OUTPUT,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": SCHEDULE_SYSTEM_PROMPT},
@@ -878,18 +905,18 @@ def hard_review_warnings(table: dict) -> list[str]:
 def call_text_audit_llm(
     client, doc_label: str, text: str, start: int, end: int, proposed_tables: list[dict],
 ) -> dict:
+    user = (f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
+            f"PROPOSED EXTRACTION (to audit):\n{json.dumps(proposed_tables, indent=2)}\n\n"
+            f"---PAGE TEXT---\n{text}\n---END---")
     return create_with_retries(
         client,
+        _stage="salary_text_audit",
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=budgeted_max_tokens(AUDIT_SYSTEM_PROMPT, user),
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": AUDIT_SYSTEM_PROMPT},
-            {"role": "user", "content": (
-                f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
-                f"PROPOSED EXTRACTION (to audit):\n{json.dumps(proposed_tables, indent=2)}\n\n"
-                f"---PAGE TEXT---\n{text}\n---END---"
-            )},
+            {"role": "user", "content": user},
         ],
     )
 
@@ -911,8 +938,9 @@ def call_vision_audit_llm(
         content.append({"type": "image_url", "image_url": {"url": image_to_data_url(p)}})
     return create_with_retries(
         client,
+        _stage="salary_vision_audit",
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=VISION_MAX_OUTPUT,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": AUDIT_SYSTEM_PROMPT},
@@ -1283,7 +1311,11 @@ def _extract_block_via_segments(
         )
         tables, failed = _extract_and_audit(
             cache_path, method,
-            lambda seg=segment: call_text_llm(client, file_name, seg, start, end),
+            # Structured (pdfplumber pipe-table) input is already 2-D: transcription, not
+            # layout inference, so reasoning is off. Flat text keeps it on.
+            lambda seg=segment: call_text_llm(client, file_name, seg, start, end,
+                                              reasoning=(method != "structured"),
+                                              document_id=document_id),
             lambda hinted, seg=segment: call_text_audit_llm(client, file_name, seg, start, end, hinted),
             source_text=segment,
         )
@@ -1362,10 +1394,17 @@ def process_document(
         # signal set with write_wide_grid via hard_review_warnings().
         return any(hard_review_warnings(t) for t in tables)
 
-    for start, end in blocks:
+    def process_block(block: tuple) -> tuple:
+        """Extract one heading block. Pure w.r.t. document state: returns
+        (start, end, block_tables, method, n_failed) so the caller can collect in document
+        order regardless of completion order. Blocks are independent — the cross-grid checks
+        below deliberately run only after every block is in — so they can run concurrently.
+        Concurrency itself is governed centrally in som_client, not here."""
+        start, end = block
         block_text = "\f".join(pages[start - 1:end])
         lookahead_page = end + 1 if end + 1 <= len(pages) else None
         has_pdf = pdf_path.stat().st_size > 0
+        blocks_failed = 0
 
         # Choose this salary block's PRIMARY read:
         #   A. pdfplumber recovers a clean grid (born-digital) -> STRUCTURED: exact cell
@@ -1432,6 +1471,16 @@ def process_document(
                 ):
                     block_tables, method = vtables, "vision"
 
+        return start, end, block_tables, method, blocks_failed
+
+    if len(blocks) > 1 and SALARY_BLOCK_CONCURRENCY > 1:
+        with ThreadPoolExecutor(max_workers=min(SALARY_BLOCK_CONCURRENCY, len(blocks))) as ex:
+            results = list(ex.map(process_block, blocks))
+    else:
+        results = [process_block(b) for b in blocks]
+
+    for start, end, block_tables, method, nf in results:
+        blocks_failed += nf
         if block_tables:
             collect(block_tables, method, start, end)
 
