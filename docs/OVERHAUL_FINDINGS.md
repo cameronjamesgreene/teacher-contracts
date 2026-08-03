@@ -106,9 +106,46 @@ passage that describes lesson-plan format, where the auditor judged the topic no
 Requiring a verified quote before single-view adoption recovers only 3 of the 40
 (precision 0.837 → 0.846), so ungrounded quoting is not the mechanism.
 
-The most likely cause is the `INCORPORATION BY REFERENCE COUNTS` paragraph added to the
-system prompt on the strength of four cases. **A/B that paragraph next**; it is a two-line
-change and the single highest-value open experiment.
+### That A/B has now been run, and the hypothesis was wrong
+
+The suspected cause was an `INCORPORATION BY REFERENCE COUNTS` paragraph added to the system
+prompt on the strength of four cases. Replacing it with the opposite, strict standard (the
+document must state the substance; a bare cross-reference is `discussed_unclear`) barely
+moves anything:
+
+| | reference counts | strict |
+|---|---|---|
+| recall_substantive | 0.962 | 0.944 |
+| precision_substantive | 0.837 | 0.852 |
+| answer_accuracy | 0.726 | 0.720 |
+| fixes of documented failures | 31/52 | 28/52 |
+
+Paired McNemar: 15 vs 13 discordant, **p = 0.85 — no detectable difference.** The prompt
+paragraph is not what costs the precision. The strict standard is kept because it matches the
+project's coding rule, not because it measurably helps.
+
+Two candidates remain for the 40 false positives, and they need the expanded gold set to
+separate: (a) the model genuinely over-reads topical text as a provision, or (b) some of the
+audit's `not_discussed` labels are themselves misses. `conduct_lesson_plans_009` is a concrete
+instance of (b) — the run codes `yes` with a verified quote describing the required lesson-plan
+components, on a question the audit marked not_discussed.
+
+## 4b. The determinism floor, measured
+
+The strict/loose A/B doubles as a repeatability measurement, because the two runs differ only
+by one prompt paragraph:
+
+```
+424 answered cells, two runs
+  answer text differs        104  (24.5%)
+  substantive/not_discussed    27  ( 6.4%)   <- the floor
+```
+
+**Any A/B whose effect is smaller than ~6 percentage points is inside the noise**, and the
+strict-vs-loose difference is below it. `temperature`, `top_p` and `seed` are still unset;
+setting them will reduce this but cannot eliminate it, because vLLM's continuous batching
+changes reduction order with batch composition. Design experiments to survive it: prefer
+paired comparisons on identical cells, and treat any single-run delta under 6pp as unproven.
 
 ## 5. Throughput, measured on the HPC against the worst case
 
