@@ -110,16 +110,43 @@ The most likely cause is the `INCORPORATION BY REFERENCE COUNTS` paragraph added
 system prompt on the strength of four cases. **A/B that paragraph next**; it is a two-line
 change and the single highest-value open experiment.
 
-## 5. What is not yet measured
+## 5. Throughput, measured on the HPC against the worst case
+
+Benchmark run on the **three largest documents in the corpus**, full 106-question codebook:
+
+```
+dallas_independent_school_district   1,986,997 chars   274.0s
+los_angeles_unified_school_district  1,569,260 chars   394.1s
+cleveland_metropolitan_school_dist   1,073,717 chars   259.6s
+                                     TOTAL 927.6s = 5.15 min/document
+```
+
+| | baseline | now |
+|---|---|---|
+| wall-clock per document | 66.3 min (995 min / 15 docs) | **5.15 min** |
+| model calls per document | ~425 | **61** |
+| error rate | 10-restart budget needed | 3 of 182 calls (1.6%) |
+| rate-limit events | supervisor kill/pause/restart × 26 | **0** |
+| peak in-flight | 15 processes, mostly idle-waiting | 10 (cap 14) |
+
+**~13x faster on the hardest documents in the corpus**, and the baseline's 66.3 min was an
+average over a mixed set, so the like-for-like gain on typical documents is larger. The gain
+comes from 7x fewer calls and from keeping the concurrency budget actually saturated, not
+from raising it — peak in-flight stayed at 10 against a cap of 14.
+
+One long tail worth noting: `max_latency = 215s` on a single call. Worth investigating
+before scaling, since it sits under a 900s read timeout.
+
+## 6. What is not yet measured
 
 - **The determinism floor.** `temperature`/`seed` are still unset. Identical configurations
   produced different answers across repeated runs during development (Palm Beach flipped
   between `yes` and `not_discussed` on three separate runs). Until the run-to-run flip rate
   is quantified, any A/B smaller than that floor is noise. This is the next thing to run.
-- **Wall-clock at scale.** The 4-document run took 962s from a laptop over the public
-  internet; the same code on the HPC login node was ~4x faster per call. A like-for-like
-  comparison against the 995-minute/15-document baseline has to run on the HPC.
 - **Salary and rights** changes are unit-tested but not yet scored against grid-level gold.
+- **Prefix caching** is unconfirmed: the endpoint does not return
+  `usage.prompt_tokens_details.cached_tokens`, so the document-first prompt reordering could
+  not be verified as effective. It is harmless either way.
 
 ## 6. Sizing note for anyone re-tuning
 
