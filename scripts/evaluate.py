@@ -116,8 +116,10 @@ def score_run(run_id: str, st: Optional[store.Store] = None,
         "answer_accuracy_ci95": _boot(_acc),
         "false_negatives": fn,
         "false_positives": fp,
+        # Denominator and numerator must both be restricted to substantive answers, or a
+        # not_discussed record that carried a stray quote inflates the rate above 1.0.
         "quote_verified_rate": round(
-            sum(1 for c in cells if c["quote_verified"]) /
+            sum(1 for c in cells if c["quote_verified"] and _substantive(c["answer"])) /
             max(1, sum(1 for c in cells if _substantive(c["answer"]))), 3),
     }
 

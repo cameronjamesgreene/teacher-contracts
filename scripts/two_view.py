@@ -53,6 +53,10 @@ QUESTIONS_PER_BATCH = int(os.environ.get("LLM_QUESTIONS_PER_BATCH", "8"))
 VIEW_CONCURRENCY = int(os.environ.get("LLM_VIEW_CONCURRENCY", "8"))
 FTS_TOPK = int(os.environ.get("LLM_FTS_TOPK", "12"))
 ESCALATE = os.environ.get("LLM_ESCALATE", "1") == "1"
+# Require a source-verified quote before one view may override the other's not_discussed.
+# This is the recall/precision dial for the union rule -- see _union() for the measured
+# trade-off. Default on: an ungrounded assertion is worse than an admitted uncertainty.
+REQUIRE_VERIFIED = os.environ.get("LLM_REQUIRE_VERIFIED", "1") == "1"
 
 MISSING = {"not_discussed", "discussed_unclear", "", "none", "null", "no_answer"}
 
@@ -168,10 +172,26 @@ def _union(a: dict, b: dict, text_norm: str) -> tuple:
         rank_a = _CONF_RANK.get(a.get("confidence"), 1)
         rank_b = _CONF_RANK.get(b.get("confidence"), 1)
         return (a, "both:A") if rank_a >= rank_b else (b, "both:B")
-    if a_ok:
+    # Single-view adoption is where the union spends precision, so it is the knob. Measured
+    # on the 4-document gold set: the union lifted recall on substantive provisions from
+    # 0.765 to 0.962 (false negatives 50 -> 8) and fixed 31 of the 52 cells the human audit
+    # had marked wrong -- but precision fell from 1.000 to 0.837 (40 new false positives, 37
+    # of them carrying quotes that DO verify against the source). The model is finding real
+    # text and over-reading it as a provision. Requiring a verified quote before one view may
+    # override the other's not_discussed is the cheapest brake; set REQUIRE_VERIFIED=0 to
+    # maximise recall instead, at a further precision cost.
+    if a_ok and (a_q or not REQUIRE_VERIFIED):
         return (a, "only:A" + ("" if a_q else ":unverified"))
-    if b_ok:
+    if b_ok and (b_q or not REQUIRE_VERIFIED):
         return (b, "only:B" + ("" if b_q else ":unverified"))
+    if a_ok or b_ok:
+        # Substantive but unverifiable: record it as unclear rather than asserting it, and
+        # keep the text so a human can adjudicate.
+        src = a if a_ok else b
+        return ({**src, "answer": "discussed_unclear",
+                 "coder_notes": (str(src.get("coder_notes", "")) +
+                                 " [downgraded: no verbatim quote located in source]").strip()},
+                "unverified:downgraded")
     # Neither view found it: prefer whichever gave a real negative over a failed call.
     if str(a.get("answer")).lower() == "no_answer" and str(b.get("answer")).lower() != "no_answer":
         return b, "neither:B"
