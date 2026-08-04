@@ -82,6 +82,7 @@ import subprocess
 import sys
 import tempfile
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
@@ -93,7 +94,17 @@ except Exception:  # bare venvs without pdfplumber fall back to the flat-text pa
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from utils import OCR_TEXT_DIR, OUT_DIR, PDF_ROOT, ROOT, TEXT_DIR, WORK, extract_text, norm_ws, slugify
-from som_client import MAX_TOKENS, MODEL, create_with_retries, get_client
+from som_client import (
+    MAX_TOKENS, MODEL, budgeted_max_tokens, create_with_retries, get_client,
+    reasoning_kwargs,
+)
+
+# Vision calls carry base64 page images whose token cost the char-based estimator cannot
+# see, so they get a fixed, generous output budget instead of a computed one. Text calls
+# are budgeted from their actual prompt. Both replace the old `max_tokens=MAX_TOKENS`
+# (32000 against what the client believed was a 32000-token window) — a reasoning model
+# given a 32k budget will spend it, and these were the slowest calls in the pipeline.
+VISION_MAX_OUTPUT = int(os.environ.get("SALARY_VISION_MAX_OUTPUT", "8000"))
 
 MAIN_DATASET = OUT_DIR / "llm_main_dataset.csv"
 CACHE_DIR = WORK / "cache" / "salary_schedule_cache"
@@ -104,6 +115,12 @@ WIDE_DIR = OUT_DIR / "salary_schedule_wide"
 # many pages so no extraction call is handed dozens of pages. Override with
 # SALARY_MAX_BLOCK_PAGES.
 MAX_BLOCK_PAGES = int(os.environ.get("SALARY_MAX_BLOCK_PAGES", "4"))
+# Heading blocks are independent of one another (the cross-grid checks deliberately run
+# after all blocks are collected), so they can be extracted concurrently. This was the
+# largest single source of dead wall-clock in this coder: a 62-page appendix splits into
+# ~16 blocks that were extracted strictly one at a time, each blocking on a reasoning-model
+# call. The real in-flight ceiling is enforced centrally by som_client.GOVERNOR.
+SALARY_BLOCK_CONCURRENCY = int(os.environ.get("SALARY_BLOCK_CONCURRENCY", "6"))
 # DPI for rasterizing pages on the vision path. Higher DPI separates the columns of
 # dense side-by-side multi-lane salary tables more cleanly. Override with SALARY_DPI.
 SALARY_RENDER_DPI = int(os.environ.get("SALARY_DPI", "220"))
@@ -447,16 +464,57 @@ def split_into_subtasks(block_text: str) -> list[str]:
 
 # ── PDF rendering ────────────────────────────────────────────────────────────────
 
+_PAGE_COUNT_CACHE: dict = {}
+
+
+def pdf_page_count(pdf_path: Path) -> int:
+    """True page count of the PDF itself, cached.
+
+    This is NOT the same number as len(text.split("\\f")). Page indices everywhere else in
+    this module come from form-feed segments in the extracted text, and the two disagree
+    routinely — Alpine 2014-15 yields 40 text segments for a 39-page PDF, because pdftotext
+    emits a trailing form feed. Any index derived from the text and then handed to pdftoppm
+    can therefore point past the end of the document.
+    """
+    key = str(pdf_path)
+    if key not in _PAGE_COUNT_CACHE:
+        try:
+            out = subprocess.run(["pdfinfo", str(pdf_path)],
+                                 capture_output=True, text=True, timeout=120).stdout
+            m = re.search(r"^Pages:\s+(\d+)", out, re.M)
+            _PAGE_COUNT_CACHE[key] = int(m.group(1)) if m else 0
+        except Exception:
+            _PAGE_COUNT_CACHE[key] = 0
+    return _PAGE_COUNT_CACHE[key]
+
+
 def render_pages_to_images(
     pdf_path: Path, start: int, end: int, tmp_dir: Path, dpi: int | None = None,
 ) -> list[Path]:
+    """Render [start, end] to PNGs, clamped to pages the PDF actually has.
+
+    Previously this ran pdftoppm with check=True on an unvalidated range, so a page index
+    one past the end (the lookahead page of a block ending on the last page) raised
+    CalledProcessError and killed the whole document's salary run. Rendering nothing is a
+    recoverable outcome — the caller already treats an empty image list as "vision found
+    no table" — whereas an exception is not.
+    """
+    n = pdf_page_count(pdf_path)
+    if n:
+        start, end = max(1, min(start, n)), max(1, min(end, n))
+    if end < start:
+        return []
     prefix = tmp_dir / "page"
-    subprocess.run(
+    r = subprocess.run(
         ["pdftoppm", "-png", "-r", str(dpi or SALARY_RENDER_DPI),
          "-f", str(start), "-l", str(end), str(pdf_path), str(prefix)],
-        check=True,
+        check=False, capture_output=True, text=True,
     )
-    return sorted(tmp_dir.glob("page*.png"))
+    images = sorted(tmp_dir.glob("page*.png"))
+    if r.returncode != 0 and not images:
+        print(f"  render failed p{start}-{end} of {pdf_path.name} "
+              f"({(r.stderr or '').strip()[:80]}) — skipping this block")
+    return images
 
 
 def render_pages_rotated(
@@ -507,19 +565,28 @@ def _page_framing(start: int, end: int, lookahead_page: int | None) -> str:
     return framing
 
 
-def call_text_llm(client, doc_label: str, text: str, start: int, end: int) -> dict:
+def call_text_llm(client, doc_label: str, text: str, start: int, end: int,
+                  reasoning: bool = True, document_id: str = "") -> dict:
+    """Read a salary grid out of page text.
+
+    `reasoning=False` is passed by the structured (pdfplumber) path, where the input is
+    already a 2-D pipe table and the job is transcription rather than layout inference —
+    measured ~10x faster with no reasoning to do. The flat-text fallback keeps reasoning on
+    because it must infer the grid from an unstructured stream of numbers.
+    """
+    user = (f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
+            f"---PAGE TEXT---\n{text}\n---END---")
     return create_with_retries(
         client,
+        _stage="salary_text", _document_id=document_id,
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=budgeted_max_tokens(SCHEDULE_SYSTEM_PROMPT, user),
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": SCHEDULE_SYSTEM_PROMPT},
-            {"role": "user", "content": (
-                f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
-                f"---PAGE TEXT---\n{text}\n---END---"
-            )},
+            {"role": "user", "content": user},
         ],
+        extra_body=reasoning_kwargs(reasoning),
     )
 
 
@@ -539,8 +606,9 @@ def call_vision_llm(
         content.append({"type": "image_url", "image_url": {"url": image_to_data_url(p)}})
     return create_with_retries(
         client,
+        _stage="salary_vision",
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=VISION_MAX_OUTPUT,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": SCHEDULE_SYSTEM_PROMPT},
@@ -878,18 +946,18 @@ def hard_review_warnings(table: dict) -> list[str]:
 def call_text_audit_llm(
     client, doc_label: str, text: str, start: int, end: int, proposed_tables: list[dict],
 ) -> dict:
+    user = (f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
+            f"PROPOSED EXTRACTION (to audit):\n{json.dumps(proposed_tables, indent=2)}\n\n"
+            f"---PAGE TEXT---\n{text}\n---END---")
     return create_with_retries(
         client,
+        _stage="salary_text_audit",
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=budgeted_max_tokens(AUDIT_SYSTEM_PROMPT, user),
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": AUDIT_SYSTEM_PROMPT},
-            {"role": "user", "content": (
-                f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
-                f"PROPOSED EXTRACTION (to audit):\n{json.dumps(proposed_tables, indent=2)}\n\n"
-                f"---PAGE TEXT---\n{text}\n---END---"
-            )},
+            {"role": "user", "content": user},
         ],
     )
 
@@ -911,8 +979,9 @@ def call_vision_audit_llm(
         content.append({"type": "image_url", "image_url": {"url": image_to_data_url(p)}})
     return create_with_retries(
         client,
+        _stage="salary_vision_audit",
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=VISION_MAX_OUTPUT,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": AUDIT_SYSTEM_PROMPT},
@@ -1059,6 +1128,95 @@ def _dedup_label(sch: dict) -> str:
     that came out identical, must not be dropped)."""
     return norm_ws(str(sch.get("schedule_label") or "") + " "
                    + str(sch.get("population") or "")).lower()
+
+
+def _provenance_key(sch: dict) -> tuple:
+    """Where this grid physically came from: (page range, panel band, label).
+
+    Value-signature dedup alone cannot fix over-extraction, because it compares WHAT was
+    read rather than WHERE it was read from. LAUSD emitted 172 grids for ~50 real schedules
+    because the same physical table, re-read from a page-split or a re-extraction pass, has
+    a slightly different value multiset each time (one dropped cell defeats Counter equality)
+    and so survives as a "distinct" schedule.
+
+    Two extractions of the same physical region ARE the same grid regardless of whether their
+    cell sets came out byte-identical. The panel band matters because side-by-side panels are
+    genuinely different schedules printed on the same pages.
+    """
+    return (sch.get("page_start"), sch.get("page_end"),
+            sch.get("panel_band"), _dedup_label(sch))
+
+
+def dedup_by_provenance(schedules: list[dict]) -> tuple[list[dict], int]:
+    """Collapse grids extracted from the same physical region, keeping the richest one.
+
+    Runs BEFORE the value-signature dedup: provenance is the stronger identity claim, and
+    resolving it first stops near-duplicate re-reads of one table from being compared against
+    each other as if they were separate schedules.
+    """
+    kept: dict = {}
+    order: list = []
+    dropped = 0
+    for sch in schedules:
+        key = _provenance_key(sch)
+        if key[0] is None:                       # no page provenance -> cannot judge; keep
+            order.append(id(sch))
+            kept[id(sch)] = sch
+            continue
+        prior = kept.get(key)
+        if prior is None:
+            kept[key] = sch
+            order.append(key)
+            continue
+        dropped += 1
+        # Keep whichever read recovered more of the table, preferring one that resolved a
+        # school year over one that did not.
+        better = (len(sch.get("cells") or []) > len(prior.get("cells") or [])
+                  or (not prior.get("school_year_or_effective_date")
+                      and sch.get("school_year_or_effective_date")))
+        if better:
+            kept[key] = sch
+    return [kept[k] for k in order if k in kept], dropped
+
+
+_YEAR_RE = re.compile(r"\b(20\d{2})\s*[-–—/]\s*(20\d{2}|\d{2})\b")
+_FY_RE = re.compile(r"\bFY\s*(20\d{2})\b", re.I)
+_EFF_RE = re.compile(
+    r"\beffective\s+(?:date\s+)?(?:on\s+|as\s+of\s+)?"
+    r"([A-Z][a-z]+\.?\s+\d{1,2},?\s+20\d{2}|\d{1,2}/\d{1,2}/\d{2,4})", re.I)
+
+
+def resolve_schedule_year(sch: dict, page_text: str) -> str:
+    """Best available (school_year | effective date) for filing this grid.
+
+    This is the largest MEASURED salary defect: in the full-census audit, 5 of the 10 failing
+    grids had 100% correct cell values and failed only because they were filed under the
+    wrong year or an `unknown_year` folder. The year is almost always printed on the page
+    ("FY 2025 ET-15 Salary Schedule", "Effective Oct 6, 2024"); the extractor just wasn't
+    required to find it. Prefer what the model already resolved, then the grid's own label,
+    then the page text.
+    """
+    if str(sch.get("school_year_or_effective_date") or "").strip():
+        return str(sch["school_year_or_effective_date"]).strip()
+    haystacks = [str(sch.get("schedule_label") or ""), str(sch.get("population") or ""),
+                 page_text or ""]
+    for hay in haystacks:
+        m = _YEAR_RE.search(hay)
+        if m:
+            end = m.group(2)
+            end = end if len(end) == 4 else "20" + end
+            return f"{m.group(1)}_{end}"
+    for hay in haystacks:
+        m = _FY_RE.search(hay)
+        if m:
+            return f"fy_{m.group(1)}"
+    for hay in haystacks:
+        m = _EFF_RE.search(hay)
+        if m:
+            y = re.search(r"20\d{2}", m.group(1))
+            if y:
+                return f"effective_{y.group(0)}"
+    return ""
 
 
 def dedup_identical_schedules(schedules: list[dict]) -> tuple[list[dict], int]:
@@ -1283,7 +1441,11 @@ def _extract_block_via_segments(
         )
         tables, failed = _extract_and_audit(
             cache_path, method,
-            lambda seg=segment: call_text_llm(client, file_name, seg, start, end),
+            # Structured (pdfplumber pipe-table) input is already 2-D: transcription, not
+            # layout inference, so reasoning is off. Flat text keeps it on.
+            lambda seg=segment: call_text_llm(client, file_name, seg, start, end,
+                                              reasoning=(method != "structured"),
+                                              document_id=document_id),
             lambda hinted, seg=segment: call_text_audit_llm(client, file_name, seg, start, end, hinted),
             source_text=segment,
         )
@@ -1292,7 +1454,15 @@ def _extract_block_via_segments(
             # permanently locking it in as "no table".
             n_failed += 1
             continue
-        block_tables.extend(t for t in tables if t.get("has_table", True))
+        for t in tables:
+            if not t.get("has_table", True):
+                continue
+            # Segment index doubles as the panel band: for a structured read each segment IS
+            # one pdfplumber grid (an x-band on a side-by-side page), so (pages, band) is a
+            # stable physical address for this table. dedup_by_provenance uses it to collapse
+            # re-reads of one table without merging two panels that genuinely differ.
+            t.setdefault("panel_band", sub_idx)
+            block_tables.append(t)
     if not block_tables and end > start and pdf_path.stat().st_size > 0:
         for pg in range(start, end + 1):
             pcache = CACHE_DIR / f"{document_id}__{pg}-{pg}__page.json"
@@ -1349,6 +1519,9 @@ def process_document(
             entry.setdefault("extraction_method", method)
             entry.setdefault("page_start", start)
             entry.setdefault("page_end", end)
+            # Carry a slice of the source page text so the writer can recover the school
+            # year / effective date when the extraction didn't state one.
+            entry.setdefault("_page_text", "\f".join(pages[start - 1:end])[:6000])
             schedules.append(entry)
 
     def suspect(tables: list[dict]) -> bool:
@@ -1362,10 +1535,21 @@ def process_document(
         # signal set with write_wide_grid via hard_review_warnings().
         return any(hard_review_warnings(t) for t in tables)
 
-    for start, end in blocks:
+    def process_block(block: tuple) -> tuple:
+        """Extract one heading block. Pure w.r.t. document state: returns
+        (start, end, block_tables, method, n_failed) so the caller can collect in document
+        order regardless of completion order. Blocks are independent — the cross-grid checks
+        below deliberately run only after every block is in — so they can run concurrently.
+        Concurrency itself is governed centrally in som_client, not here."""
+        start, end = block
         block_text = "\f".join(pages[start - 1:end])
-        lookahead_page = end + 1 if end + 1 <= len(pages) else None
+        # Bound the lookahead by BOTH the text's page count and the PDF's real one: those
+        # two disagree whenever pdftotext emits a trailing form feed, and the lookahead is
+        # the index most likely to fall in the gap.
+        _npdf = pdf_page_count(pdf_path) or len(pages)
+        lookahead_page = end + 1 if end + 1 <= min(len(pages), _npdf) else None
         has_pdf = pdf_path.stat().st_size > 0
+        blocks_failed = 0
 
         # Choose this salary block's PRIMARY read:
         #   A. pdfplumber recovers a clean grid (born-digital) -> STRUCTURED: exact cell
@@ -1432,6 +1616,16 @@ def process_document(
                 ):
                     block_tables, method = vtables, "vision"
 
+        return start, end, block_tables, method, blocks_failed
+
+    if len(blocks) > 1 and SALARY_BLOCK_CONCURRENCY > 1:
+        with ThreadPoolExecutor(max_workers=min(SALARY_BLOCK_CONCURRENCY, len(blocks))) as ex:
+            results = list(ex.map(process_block, blocks))
+    else:
+        results = [process_block(b) for b in blocks]
+
+    for start, end, block_tables, method, nf in results:
+        blocks_failed += nf
         if block_tables:
             collect(block_tables, method, start, end)
 
@@ -1439,6 +1633,11 @@ def process_document(
     # identical differentials) before the cross-grid checks and the writer, so a multi-page
     # appendix reprinted once per contract year doesn't emit the same schedule N times.
     if len(schedules) > 1:
+        # Provenance first: two reads of the SAME physical region are one grid even when
+        # their cell sets differ slightly, which value-signature dedup cannot see.
+        schedules, n_prov = dedup_by_provenance(schedules)
+        if n_prov:
+            print(f"  deduped {n_prov} re-read(s) of the same page/panel region")
         schedules, n_dup = dedup_identical_schedules(schedules)
         if n_dup:
             print(f"  deduped {n_dup} identical page-split/reprint grid(s)")
@@ -1458,13 +1657,80 @@ def process_document(
 
 # ── output writers ───────────────────────────────────────────────────────────────
 
+# The audit pass's own words when it concludes the extraction is not supported by the page.
+# When it says this, the grid must NOT be published as data.
+_FABRICATION_PHRASES = (
+    "appears to be fabricated", "is fabricated", "not present in the provided",
+    "does not appear in the source", "no tabular schedule", "not supported by the source",
+    "invented", "hallucinat",
+)
+
+
+def _audit_says_fabricated(schedule: dict) -> str:
+    """Return the audit's fabrication verdict, or "" if it did not make one.
+
+    MEASURED: Polk County's Appendix C grid was published with its own audit note reading
+    "The proposed extraction appears to be fabricated or extracted from a page not
+    provided" — 17 rows of hourly rates that occur ZERO times in the 126-page source. The
+    pipeline detected the fabrication correctly and then wrote it to the dataset anyway,
+    because nothing consumed that verdict. Detecting a defect and publishing it regardless
+    is worse than not detecting it: it launders the error through a file that looks like
+    every other grid.
+    """
+    blob = " ".join([
+        " ".join(str(x) for x in (schedule.get("audit_issues") or [])),
+        " ".join(str(x) for x in (schedule.get("validation_warnings") or [])),
+        str(schedule.get("notes") or ""),
+    ]).lower()
+    for phrase in _FABRICATION_PHRASES:
+        if phrase in blob:
+            return phrase
+    return ""
+
+
+def _data_signature(schedule: dict) -> str:
+    """Hash of the grid's actual values + lane/step labels, ignoring title and provenance."""
+    cells = sorted(
+        f"{c.get('step_label','')}|{c.get('lane_label','')}|{c.get('value','')}"
+        for c in (schedule.get("cells") or [])
+    )
+    return hashlib.md5("\n".join(cells).encode("utf-8")).hexdigest()
+
+
+# Data signatures already written in this process, so the same grid is emitted once.
+_WRITTEN_SIGNATURES: dict = {}
+
+
 def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
     """Writes to output/salary_schedule_wide/<district>/<school year>/<schedule>.csv —
     grouped by district then by the school year/effective date the table itself
     states, so every schedule for a given district-year sits in one folder."""
     district_slug = slugify(district, 60) or "unknown_district"
-    year_slug = slugify(schedule.get("school_year_or_effective_date") or "", 40) or "unknown_year"
-    out_dir = WIDE_DIR / district_slug / year_slug
+    # Fall back to reading the year off the page before giving up and filing under
+    # unknown_year: mis-filing was the single largest measured salary defect (5 of the 10
+    # failing grids in the full-census audit had 100% correct cells and only the wrong
+    # folder), and the year is nearly always printed on the schedule page itself.
+    year_slug = slugify(
+        resolve_schedule_year(schedule, schedule.get("_page_text", "")), 40) or "unknown_year"
+
+    # A grid the audit pass judged unsupported goes to _quarantine/, not into the dataset.
+    verdict = _audit_says_fabricated(schedule)
+    out_dir = (WIDE_DIR / "_quarantine" / district_slug if verdict
+               else WIDE_DIR / district_slug / year_slug)
+    if verdict:
+        print(f"  QUARANTINED {schedule.get('schedule_label','?')!r}: audit verdict "
+              f"matched {verdict!r} — not published as data")
+
+    # Emit each distinct grid once. The page-by-page retry re-extracts a block's pages
+    # individually, so the same table arrives twice under different page ranges (e.g.
+    # `__p109-109`); provenance dedup keeps both because the ranges differ, and value-
+    # signature dedup keeps both when the labels differ. 11 of 50 v11 files were redundant
+    # copies. Signature is over VALUES and labels only, so a genuine reprint under a
+    # different year still collapses to one file.
+    sig = _data_signature(schedule)
+    if not verdict and sig in _WRITTEN_SIGNATURES:
+        return _WRITTEN_SIGNATURES[sig]
+
     out_dir.mkdir(parents=True, exist_ok=True)
     slug = slugify(schedule.get("schedule_label") or f"schedule_{schedule['page_start']}", 50)
     pdf_slug = slugify(Path(file_name).stem, 40)
@@ -1517,6 +1783,7 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
             w.writerow(["step", "value"])
             for step in steps:
                 w.writerow([step, grid.get((step, ""), "")])
+    _WRITTEN_SIGNATURES[sig] = path
     return path
 
 
@@ -1550,6 +1817,16 @@ def main() -> None:
     parser.add_argument("--file", help="Process a single PDF: file name within --district")
     parser.add_argument("--max-docs", type=int, default=None, help="Limit number of documents processed")
     args = parser.parse_args()
+
+    # Register the request-hash cache + telemetry sink. som_client only records calls when
+    # a sink is registered, so this must happen at every entry point or a real run produces
+    # no cache and no telemetry (which is how the first v11 smoke test ran).
+    try:
+        import store
+        store.get_store().start_run(notes="salary_schedule")
+    except Exception as exc:      # never let instrumentation stop a run
+        print(f"  [store] telemetry unavailable: {exc}")
+
 
     client = get_client()
 

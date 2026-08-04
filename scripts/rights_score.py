@@ -67,13 +67,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from utils import OUT_DIR, PDF_ROOT, TEXT_DIR, WORK, extract_text, norm_ws, quote_present
 from som_client import (
     MAX_TOKENS, MODEL, budgeted_max_tokens, create_with_retries, get_client,
+    reasoning_kwargs,
 )
 from salary_schedule import MAIN_DATASET, document_id_for
 
 CACHE_DIR = WORK / "cache" / "rights_score_cache"
 
-CHUNK_SIZE = int(os.environ.get("RIGHTS_CHUNK_SIZE", "3000"))
-CHUNK_OVERLAP = int(os.environ.get("RIGHTS_CHUNK_OVERLAP", "400"))
+# 3000/400 was chosen when som_client believed the context window was 32k tokens and
+# clamped max_tokens to 16000, so a dense chunk's clause JSON truncated. The real window is
+# 131k (see som_client), and a 3000-char chunk uses ~0.4% of it: the median 253k-char
+# document cost ~96 extraction calls and the largest ~456. 12000 is a 4x call reduction and
+# is deliberately a middle step — raise toward 20000 only with clause recall measured at
+# each step, since larger chunks trade call count against attention dilution.
+CHUNK_SIZE = int(os.environ.get("RIGHTS_CHUNK_SIZE", "12000"))
+CHUNK_OVERLAP = int(os.environ.get("RIGHTS_CHUNK_OVERLAP", "1200"))
 # For extremely long documents, optionally cap how many (slow) extraction chunks a
 # single document is broken into by enlarging each chunk. 0 disables the cap (fixed
 # CHUNK_SIZE — the default, so normal-length docs are unaffected). When set, the doc
@@ -90,22 +97,23 @@ MAX_CONCURRENCY = int(os.environ.get("RIGHTS_CONCURRENCY", "8"))
 # Clauses are classified in a second LLM pass; this many per classification call.
 CLASSIFY_BATCH_SIZE = int(os.environ.get("RIGHTS_CLASSIFY_BATCH", "30"))
 
-# Extraction is a mechanical linguistic-feature task, so the slow chain-of-thought
-# can be reserved for the classification pass. This toggle controls whether the
-# extraction call disables the reasoning model's thinking, for a large speedup:
-#   "on"  (default) — leave reasoning on. Safe / no behavior change; this is the
-#                     baseline until an A/B accuracy check clears "off".
-#   "off" — pass the vLLM chat-template switch to disable thinking on extraction.
-# Only the extraction call is affected; classification always keeps reasoning on.
-EXTRACT_REASONING = os.environ.get("RIGHTS_EXTRACT_REASONING", "on").strip().lower()
+# Extraction is a mechanical linguistic-feature task (copy the clause, tag its modal,
+# voice, and acting party), so the slow chain-of-thought is reserved for classification.
+#   "off" (default) — disable thinking on extraction. Measured ~10x faster per call; the
+#                     chat-template switch is confirmed working against api.som.chat
+#                     (reasoning_tokens drops 221 -> 0 on a control prompt).
+#   "on"  — the previous default. Set RIGHTS_EXTRACT_REASONING=on to A/B clause recall.
+# Only the extraction call is affected; classification and re-verification, which are
+# genuine judgment calls, always keep reasoning on.
+EXTRACT_REASONING = os.environ.get("RIGHTS_EXTRACT_REASONING", "off").strip().lower()
 
 
 def _reasoning_off_kwargs() -> dict:
     """extra_body that disables the reasoning model's chain-of-thought, or {} when
-    reasoning is left on. Kept in one place so the A/B toggle is a single switch and
-    the exact vLLM parameter can be corrected once probed against api.som.chat."""
+    reasoning is left on. Delegates to som_client.reasoning_kwargs so the exact vLLM
+    parameter lives in exactly one place."""
     if EXTRACT_REASONING == "off":
-        return {"extra_body": {"chat_template_kwargs": {"enable_thinking": False}}}
+        return {"extra_body": reasoning_kwargs(False)}
     return {}
 
 # ── modal strength + classification tables (the Table A.3 / verb-lexicon analogue) ──
@@ -139,7 +147,26 @@ def modal_strength_for(modal: str | None, verb_category: str) -> float:
     return 0.0
 
 
-def classify_statement_type(modal: str | None, negation: bool, verb_category: str) -> str:
+# Verbs that are LEXICALLY prohibitive. The double-negative branch below is only valid when
+# the clause negates one of these ("shall not be prohibited" => permission). It is NOT valid
+# for an ordinary negated action verb, and the two are easy to confuse.
+#
+# MEASURED FAILURE: the extraction pass uses verb_lexical_category='prohibition_verb' to mean
+# "this clause expresses a prohibition", while this rule assumed it meant "the main verb is a
+# prohibition-lexicon verb". Combined with negation=True that manufactured a double negative,
+# so ALL 378 negation+prohibition_verb clauses derived as "permission" — including
+# "You shall not use threats", "you shall not report to work", and just-cause and
+# non-discrimination language. The LLM's own holistic judgment called 311 of those 378
+# "prohibition", i.e. the rule and the model disagreed on 82% of the path and the rule was
+# the one that was wrong.
+_LEXICAL_PROHIBITION_VERBS = (
+    "prohibit", "forbid", "ban", "bar ", "barred", "preclude", "disallow", "proscribe",
+    "enjoin", "restrict", "deny", "prevent",
+)
+
+
+def classify_statement_type(modal: str | None, negation: bool, verb_category: str,
+                            quote: str = "") -> str:
     """Table A.3 analogue: combine negation + modal class + verb-lexical-category
     into one of obligation/prohibition/permission/right, or "other" if none fit."""
     modal_class = (
@@ -166,6 +193,11 @@ def classify_statement_type(modal: str | None, negation: bool, verb_category: st
         if verb_category == "obligation_verb":
             return "right"        # "may not be required" — relief from a duty is a right
         if verb_category == "prohibition_verb":
+            # Only a genuine double negative if the clause actually negates a prohibition
+            # VERB. Otherwise this is an ordinary negated action = a prohibition, and
+            # reading it as "permission" inverts the polarity of the provision.
+            if quote and not any(v in quote.lower() for v in _LEXICAL_PROHIBITION_VERBS):
+                return "prohibition"
             return "permission"   # "shall not be prohibited" — double negative
         if verb_category == "permission_verb":
             return "prohibition"  # "shall not be allowed"
@@ -728,7 +760,8 @@ def classify_and_score(clause: dict) -> dict:
     elif _INANIMATE_SUBJ_RE.match(clause.get("subject_text") or ""):
         acting = "other"
     verb_category = clause.get("verb_lexical_category") or "plain"
-    statement_type = classify_statement_type(modal, negation, verb_category)
+    statement_type = classify_statement_type(modal, negation, verb_category,
+                                             clause.get("quote") or "")
     weight = modal_strength_for(modal, verb_category) if statement_type != "other" else 0.0
     return {
         **clause,
@@ -952,6 +985,7 @@ def process_document(
     skipped = len(chunks) - len(extract_items)
     all_clauses: list[dict] = []
     failed_chunks = 0
+    malformed_clauses = 0
 
     def fetch_raw(item: tuple[int, str]) -> tuple[int, dict | None]:
         """Return (chunk_index, raw) for one chunk, using the cache when present.
@@ -978,6 +1012,14 @@ def process_document(
                 failed_chunks += 1
                 continue
             for clause in raw.get("clauses", []):
+                # The model occasionally returns a bare string (or null) where a clause
+                # object belongs. Assuming every element is a dict crashed an entire
+                # document on one malformed element -- Polk County lost all four steps'
+                # rights output to a single stray string. A malformed clause should cost
+                # that clause, not the document.
+                if not isinstance(clause, dict):
+                    malformed_clauses += 1
+                    continue
                 clause["chunk_index"] = i
                 # Deterministic statement_type now (needs only the mechanical fields);
                 # it is handed to the classification pass and re-derived identically by
@@ -986,6 +1028,7 @@ def process_document(
                     (clause.get("modal") or "").strip().lower() or None,
                     bool(clause.get("negation")),
                     clause.get("verb_lexical_category") or "plain",
+                    clause.get("quote") or "",
                 )
                 all_clauses.append(clause)
 
@@ -1013,6 +1056,12 @@ def process_document(
 
     if skipped:
         print(f"      (skipped {skipped}/{len(chunks)} empty/appendix chunks)")
+    if malformed_clauses:
+        # Visible, not swallowed: skipping a malformed element is the right recovery, but a
+        # document quietly losing clauses to schema drift would be indistinguishable from a
+        # document that genuinely contains fewer.
+        print(f"      {malformed_clauses} malformed clause element(s) skipped "
+              f"(model returned a non-object where a clause was expected)")
     return scored, "ok", failed_chunks, len(chunks)
 
 
@@ -1151,6 +1200,16 @@ def main() -> None:
         help="Limit number of documents processed (only applies to the full-sample default run)",
     )
     args = parser.parse_args()
+
+    # Register the request-hash cache + telemetry sink. som_client only records calls when
+    # a sink is registered, so this must happen at every entry point or a real run produces
+    # no cache and no telemetry (which is how the first v11 smoke test ran).
+    try:
+        import store
+        store.get_store().start_run(notes="rights_score")
+    except Exception as exc:      # never let instrumentation stop a run
+        print(f"  [store] telemetry unavailable: {exc}")
+
 
     targets = load_targets(args)
     client = get_client()
