@@ -21,3 +21,4 @@ scripts/som_api_key.txt
 
 # Audit workbooks ARE tracked: they are the only surviving record of v1-v10 quality
 !output*/audit_report*.xlsx
+scripts/hydrate_list.txt
