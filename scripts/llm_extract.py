@@ -91,18 +91,9 @@ STAGE2_DOC_CHARS = 50_000   # chars of the original document passed to Stage 2 (
 # RELEVANT sections) — the dominant cost on long docs (LA: 40 sections x 23 batches = 920
 # calls). Falls back to all sections for a batch with no keyword hit, so recall is preserved;
 # Stage-2 (full-doc verification) and the not_discussed recovery pass are further backstops.
-# Default ON (v9): the always-run recovery pass keyword-window re-scans the WHOLE doc for every
-# not_discussed answer, so retrieval's section-skipping cannot introduce a silent false negative
-# while it cuts Stage-1 calls ~40-77%. Set LLM_RETRIEVAL=0 to force the exhaustive pass.
-LLM_RETRIEVAL = os.environ.get("LLM_RETRIEVAL", "1") == "1"
+# Default OFF pending an accuracy A/B; enable for large-corpus throughput.
+LLM_RETRIEVAL = os.environ.get("LLM_RETRIEVAL", "0") == "1"
 LLM_RETRIEVAL_TOPK = int(os.environ.get("LLM_RETRIEVAL_TOPK", "8"))  # sections/batch to keep
-
-# ── two-view coding (default) ─────────────────────────────────────────────────────────────
-# Replaces the chunk x sub-batch x recovery x reconciliation path below with a whole-document
-# view plus an FTS5 BM25 retrieval view, unioned and gated on quote verification, then a
-# never-silent escalation for anything still coded not_discussed. See two_view.py for the
-# measurements that motivate it. Set LLM_TWO_VIEW=0 to run the legacy path for an A/B.
-TWO_VIEW = os.environ.get("LLM_TWO_VIEW", "1") == "1"
 
 # Category batch order must match the prefix order in extraction_elements_reduced.md.
 BATCH_ORDER = [
@@ -156,11 +147,6 @@ Coding rules:
     (e.g. out-of-state salary credit inside a general "Salary Schedule" article, email/
     acceptable-use rules inside a "Technology" or general-conduct section, layoff order
     inside a seniority section). Retrieve by meaning, not by matching the heading.
-  • ADOPTION BY REFERENCE COUNTS. A document that names, cites, or incorporates an external
-    code, standard, statute, framework, or plan (e.g. "the Code of Ethics of the Education
-    Profession of Florida", the "Danielson Framework", a named 403(b)/pension plan) IS
-    discussing that topic — code "yes"/the named value with the citation as evidence, never
-    not_discussed. Do not require the document to reproduce the referenced text in full.
   • Quote evidence verbatim. Note when a provision appears to restate statute
     rather than a district-negotiated benefit.
   • If a provision varies by year, employee type, step, lane, or classification,
@@ -199,9 +185,6 @@ document text. For each answer:
      evidence uses conditional language, exceptions, or applies to a subset of
      employees. If the evidence clearly and directly states a specific value
      (number, percentage, date, policy name), preserve the specific answer.
-   — Adoption by reference counts: a citation to a named external code, standard,
-     statute, framework, or plan is a valid provision — keep the "yes"/named value,
-     do NOT downgrade it merely because the referenced text is not reproduced in full.
 4. Assign or revise the confidence rating:
    — high: evidence directly and unambiguously states the answer.
    — medium: evidence strongly suggests the answer but requires minor inference.
@@ -590,12 +573,7 @@ def _recover_missed_answers(
     evidence quote when it is actually present in the document — the self-contradiction
     signal behind a 'no' that cites an on-topic passage — and (2) the question's codebook
     keywords (several hits). Adoption requires the focused re-read to return a DIFFERENT,
-    document-supported answer, so a genuine not_discussed/no is never overturned.
-
-    2C backstop — never a silent false negative: when recovery LOCATED the topic's keyword
-    windows (so the topic's own terms occur in the document) but still could not confirm an
-    answer, the surviving not_discussed is marked for a human glance in coder_notes. This is
-    the honest way to bound the residual — a small flagged set, not a silent negative."""
+    document-supported answer, so a genuine not_discussed/no is never overturned."""
     recovered = 0
     for q in batch_qs:
         rec = result.get(q.qid)
@@ -610,26 +588,14 @@ def _recover_missed_answers(
             ew = _evidence_window(full_text, ev)
             if ew:
                 windows.append(ew)
-        kw_windows = _keyword_windows(full_text, terms_from_question(q))
-        windows += kw_windows
-        adopted = False
+        windows += _keyword_windows(full_text, terms_from_question(q))
         for window in windows:
             got = _reask_on_window(client, doc, q, cat, window, full_text_norm)
             if got and _normalize_answer(got["answer"]) != orig:
                 got["coder_notes"] = (str(got.get("coder_notes", "")) + " [recall-recovery]").strip()
                 result[q.qid] = got
                 recovered += 1
-                adopted = True
                 break
-        # 2C — topic keywords were located in the document but no answer could be confirmed;
-        # flag the surviving not_discussed for review rather than shipping a silent negative.
-        if not adopted and kw_windows and orig == "not_discussed":
-            note = str(rec.get("coder_notes", "") or "")
-            if "[review:" not in note:
-                rec["coder_notes"] = (
-                    note + " [review: topic keywords located in document but no confirmable "
-                    "answer — verify this is not a false negative]"
-                ).strip()
     return recovered
 
 
@@ -752,21 +718,7 @@ def _process_document(
       cache/llm_cache/{document_id}__{cat}_{idx:02d}__s1c{ci:02d}.json
     so an interrupted run resumes at the next uncached chunk rather than
     re-querying everything.
-
-    With LLM_TWO_VIEW=1 (the default) this whole path is bypassed in favour of
-    two_view.code_document -- whole-document + FTS5 retrieval, unioned and quote-gated.
-    The legacy path is kept, and selectable with LLM_TWO_VIEW=0, because the recovery and
-    reconciliation passes it contains do recover real answers; removing them should be an
-    A/B result, not an assumption.
     """
-    if TWO_VIEW:
-        import two_view
-        coded = two_view.code_document(
-            client, doc.document_id, doc.text,
-            [q for _, _, batch in subbatches for q in batch],
-        )
-        return coded, 0, len(subbatches)
-
     # Use the full document text — no truncation. The chunker splits it into
     # DOC_CHUNK_SIZE sections so each Stage-1 call stays within a manageable
     # context window, and every part of even a very long document gets read.
@@ -784,16 +736,11 @@ def _process_document(
 
     merged: dict[str, dict] = {}
     batches_failed = 0
-    # Subbatches loaded from cache skip the in-loop recovery below (which only runs on a fresh
-    # call). Collect them so recovery still runs post-loop on a resumed/re-run doc — the v9 bug
-    # was that recovery NEVER ran for cached subbatches, so the recall fix was silently inert.
-    recovery_pending: list[tuple[str, list[Question]]] = []
 
     for cat, idx, batch_qs in subbatches:
         final_cache = CACHE_DIR / f"{doc.document_id}__{cat}_{idx:02d}.json"
         if final_cache.exists():
             result = json.loads(final_cache.read_text(encoding="utf-8"))
-            recovery_pending.append((cat, batch_qs))
         else:
             # Stage 1: one call per document section, results merged across sections.
             chunk_s1_results: list[dict[str, dict]] = []
@@ -890,18 +837,6 @@ def _process_document(
         section_note = f" ({n_chunks} sections)" if n_chunks > 1 else ""
         print(f"      {cat} batch {idx}: {n} question{'s' if n != 1 else ''} done{section_note}")
 
-    # L-A/L-C (cache path) — run false-negative recovery for subbatches that were loaded from
-    # cache and therefore skipped the in-loop recovery. Fresh subbatches already recovered above
-    # (and cached the recovered result); this catches resumed/re-run docs so recovery is applied
-    # exactly once per subbatch regardless of cache state.
-    n_rec_cached = 0
-    for cat, batch_qs in recovery_pending:
-        n_rec_cached += _recover_missed_answers(
-            client, doc, batch_qs, cat, merged, full_text, full_text_norm,
-        )
-    if n_rec_cached:
-        print(f"      recovery (cache-loaded subbatches) recovered {n_rec_cached} answer(s)")
-
     # L-B — cross-question reconciliation over the full document: recover a
     # not_discussed/"no" whose sibling question already quoted the provision (siblings
     # split across separate subbatches can't see each other). Runs on every invocation,
@@ -993,16 +928,6 @@ def main() -> None:
         help="Process specific document(s) instead of the full sample. May be repeated.",
     )
     args = parser.parse_args()
-
-    # Register the request-hash cache + telemetry sink. som_client only records calls when
-    # a sink is registered, so this must happen at every entry point or a real run produces
-    # no cache and no telemetry (which is how the first v11 smoke test ran).
-    try:
-        import store
-        store.get_store().start_run(notes="llm_extract")
-    except Exception as exc:      # never let instrumentation stop a run
-        print(f"  [store] telemetry unavailable: {exc}")
-
 
     client = get_client()
 

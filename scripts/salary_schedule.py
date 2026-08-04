@@ -82,7 +82,6 @@ import subprocess
 import sys
 import tempfile
 from collections import Counter
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
@@ -94,17 +93,7 @@ except Exception:  # bare venvs without pdfplumber fall back to the flat-text pa
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from utils import OCR_TEXT_DIR, OUT_DIR, PDF_ROOT, ROOT, TEXT_DIR, WORK, extract_text, norm_ws, slugify
-from som_client import (
-    MAX_TOKENS, MODEL, budgeted_max_tokens, create_with_retries, get_client,
-    reasoning_kwargs,
-)
-
-# Vision calls carry base64 page images whose token cost the char-based estimator cannot
-# see, so they get a fixed, generous output budget instead of a computed one. Text calls
-# are budgeted from their actual prompt. Both replace the old `max_tokens=MAX_TOKENS`
-# (32000 against what the client believed was a 32000-token window) — a reasoning model
-# given a 32k budget will spend it, and these were the slowest calls in the pipeline.
-VISION_MAX_OUTPUT = int(os.environ.get("SALARY_VISION_MAX_OUTPUT", "8000"))
+from som_client import MAX_TOKENS, MODEL, create_with_retries, get_client
 
 MAIN_DATASET = OUT_DIR / "llm_main_dataset.csv"
 CACHE_DIR = WORK / "cache" / "salary_schedule_cache"
@@ -115,12 +104,6 @@ WIDE_DIR = OUT_DIR / "salary_schedule_wide"
 # many pages so no extraction call is handed dozens of pages. Override with
 # SALARY_MAX_BLOCK_PAGES.
 MAX_BLOCK_PAGES = int(os.environ.get("SALARY_MAX_BLOCK_PAGES", "4"))
-# Heading blocks are independent of one another (the cross-grid checks deliberately run
-# after all blocks are collected), so they can be extracted concurrently. This was the
-# largest single source of dead wall-clock in this coder: a 62-page appendix splits into
-# ~16 blocks that were extracted strictly one at a time, each blocking on a reasoning-model
-# call. The real in-flight ceiling is enforced centrally by som_client.GOVERNOR.
-SALARY_BLOCK_CONCURRENCY = int(os.environ.get("SALARY_BLOCK_CONCURRENCY", "6"))
 # DPI for rasterizing pages on the vision path. Higher DPI separates the columns of
 # dense side-by-side multi-lane salary tables more cleanly. Override with SALARY_DPI.
 SALARY_RENDER_DPI = int(os.environ.get("SALARY_DPI", "220"))
@@ -168,19 +151,6 @@ tables together, and do not split one continuous table into multiple entries. Ex
 every such table completely even when the page is dense with several large tables — \
 a page having a lot of content is not a reason to return fewer tables, fewer rows, or \
 fewer cells than are actually present.
-
-CRITICAL — SIDE-BY-SIDE PANELS: two or more panels are often printed side by side in the \
-SAME horizontal band, each with its OWN lane/degree header (e.g. a "Bachelor's or \
-Equivalent" panel on the left and a "Master's or Equivalent" panel on the right, then a \
-"Master's + 30" panel left and a "Doctorate" panel right below), and EACH panel has its \
-OWN "Step" column and its own effective-date/year columns. In flat text these panels \
-interleave on one physical line (e.g. "01 47,192 48,490 50,066 51,568  01 48,580 49,916 \
-51,539 53,085" is step 01 of the LEFT panel followed by step 01 of the RIGHT panel). You \
-MUST read each panel separately and emit it as its OWN table (or its own set of lanes). \
-The left and right panels are DIFFERENT lanes with DIFFERENT values — NEVER read one \
-panel twice, never copy the left panel's numbers into the right (or vice versa), and never \
-merge the two panels' step rows into one. When two panels share a step number on one line, \
-the first value-group belongs to the left panel and the second to the right.
 
 For each table, identify:
   - schedule_label: its title or caption, exactly as written (e.g. "Appendix A Salary
@@ -464,57 +434,16 @@ def split_into_subtasks(block_text: str) -> list[str]:
 
 # ── PDF rendering ────────────────────────────────────────────────────────────────
 
-_PAGE_COUNT_CACHE: dict = {}
-
-
-def pdf_page_count(pdf_path: Path) -> int:
-    """True page count of the PDF itself, cached.
-
-    This is NOT the same number as len(text.split("\\f")). Page indices everywhere else in
-    this module come from form-feed segments in the extracted text, and the two disagree
-    routinely — Alpine 2014-15 yields 40 text segments for a 39-page PDF, because pdftotext
-    emits a trailing form feed. Any index derived from the text and then handed to pdftoppm
-    can therefore point past the end of the document.
-    """
-    key = str(pdf_path)
-    if key not in _PAGE_COUNT_CACHE:
-        try:
-            out = subprocess.run(["pdfinfo", str(pdf_path)],
-                                 capture_output=True, text=True, timeout=120).stdout
-            m = re.search(r"^Pages:\s+(\d+)", out, re.M)
-            _PAGE_COUNT_CACHE[key] = int(m.group(1)) if m else 0
-        except Exception:
-            _PAGE_COUNT_CACHE[key] = 0
-    return _PAGE_COUNT_CACHE[key]
-
-
 def render_pages_to_images(
     pdf_path: Path, start: int, end: int, tmp_dir: Path, dpi: int | None = None,
 ) -> list[Path]:
-    """Render [start, end] to PNGs, clamped to pages the PDF actually has.
-
-    Previously this ran pdftoppm with check=True on an unvalidated range, so a page index
-    one past the end (the lookahead page of a block ending on the last page) raised
-    CalledProcessError and killed the whole document's salary run. Rendering nothing is a
-    recoverable outcome — the caller already treats an empty image list as "vision found
-    no table" — whereas an exception is not.
-    """
-    n = pdf_page_count(pdf_path)
-    if n:
-        start, end = max(1, min(start, n)), max(1, min(end, n))
-    if end < start:
-        return []
     prefix = tmp_dir / "page"
-    r = subprocess.run(
+    subprocess.run(
         ["pdftoppm", "-png", "-r", str(dpi or SALARY_RENDER_DPI),
          "-f", str(start), "-l", str(end), str(pdf_path), str(prefix)],
-        check=False, capture_output=True, text=True,
+        check=True,
     )
-    images = sorted(tmp_dir.glob("page*.png"))
-    if r.returncode != 0 and not images:
-        print(f"  render failed p{start}-{end} of {pdf_path.name} "
-              f"({(r.stderr or '').strip()[:80]}) — skipping this block")
-    return images
+    return sorted(tmp_dir.glob("page*.png"))
 
 
 def render_pages_rotated(
@@ -565,28 +494,19 @@ def _page_framing(start: int, end: int, lookahead_page: int | None) -> str:
     return framing
 
 
-def call_text_llm(client, doc_label: str, text: str, start: int, end: int,
-                  reasoning: bool = True, document_id: str = "") -> dict:
-    """Read a salary grid out of page text.
-
-    `reasoning=False` is passed by the structured (pdfplumber) path, where the input is
-    already a 2-D pipe table and the job is transcription rather than layout inference —
-    measured ~10x faster with no reasoning to do. The flat-text fallback keeps reasoning on
-    because it must infer the grid from an unstructured stream of numbers.
-    """
-    user = (f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
-            f"---PAGE TEXT---\n{text}\n---END---")
+def call_text_llm(client, doc_label: str, text: str, start: int, end: int) -> dict:
     return create_with_retries(
         client,
-        _stage="salary_text", _document_id=document_id,
         model=MODEL,
-        max_tokens=budgeted_max_tokens(SCHEDULE_SYSTEM_PROMPT, user),
+        max_tokens=MAX_TOKENS,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": SCHEDULE_SYSTEM_PROMPT},
-            {"role": "user", "content": user},
+            {"role": "user", "content": (
+                f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
+                f"---PAGE TEXT---\n{text}\n---END---"
+            )},
         ],
-        extra_body=reasoning_kwargs(reasoning),
     )
 
 
@@ -606,9 +526,8 @@ def call_vision_llm(
         content.append({"type": "image_url", "image_url": {"url": image_to_data_url(p)}})
     return create_with_retries(
         client,
-        _stage="salary_vision",
         model=MODEL,
-        max_tokens=VISION_MAX_OUTPUT,
+        max_tokens=MAX_TOKENS,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": SCHEDULE_SYSTEM_PROMPT},
@@ -651,10 +570,7 @@ _STRUCTURED_HEADER = (
     "Transcribe every cell EXACTLY as positioned — each column is a distinct lane/year, each "
     "row a distinct step. NEVER copy one column's values into another column, never drop a "
     "column or row, never merge columns. The first row is the column headers; the first cell "
-    "of each later row is that row's step/level label. This block may hold SEVERAL stacked "
-    "panels for different lanes/degrees (a lane/degree name printed on its own row, then that "
-    "panel's step rows); split them into separate lanes/tables by those interior header rows, "
-    "and never copy one panel's values into another. Extract all of it:"
+    "of each later row is that row's step/level label. Extract all of it:"
 )
 
 
@@ -667,35 +583,13 @@ def _grid_to_pipe(rows: list) -> str:
     )
 
 
-_TWO_STEP_HEADER_RE = re.compile(r"\bstep\b", re.I)
-
-
-def _has_side_by_side_panels(pg) -> bool:
-    """True when a page lays two or more salary panels SIDE-BY-SIDE in one horizontal band
-    (v9: Philadelphia p141 — Bachelor's|Master's, then M+30|Doctorate, each with its own
-    "Step 9/1/20 ..." header). The tell is a single physical text line carrying the word
-    "Step" (or a repeated date header) more than once — the left and right panels' headers
-    printed on the same y. Whole-page find_tables interleaves such panels into one garbled
-    wide grid and the extractor copies one lane into another; splitting by x fixes it."""
-    try:
-        txt = pg.extract_text() or ""
-    except Exception:
-        return False
-    for line in txt.splitlines():
-        if len(_TWO_STEP_HEADER_RE.findall(line)) >= 2:
-            return True
-    return False
-
-
 def extract_structured_grids(pdf_path: Path, start: int, end: int) -> list[str]:
     """pdfplumber-recovered salary grids on pages [start,end] (1-based), each serialized as
     an aligned pipe-table string. Recovers the real rows x columns from the PDF's character
     COORDINATES (not flat pdftotext), keeping year/lane columns distinct. Tries a ruled-line
     strategy first (best for bordered schedules), then a text strategy for borderless ones.
-    Pages with SIDE-BY-SIDE panels are split into left/right x-bands first so each panel's
-    columns stay distinct (v9 Philadelphia fix). Returns [] if pdfplumber is unavailable, the
-    page is a scanned image (no vector text), or no salary-like grid is found — callers then
-    fall back to the flat-text/vision path."""
+    Returns [] if pdfplumber is unavailable, the page is a scanned image (no vector text), or
+    no salary-like grid is found — callers then fall back to the flat-text path."""
     if _pdfplumber is None:
         return []
     grids: list[str] = []
@@ -703,31 +597,22 @@ def extract_structured_grids(pdf_path: Path, start: int, end: int) -> list[str]:
         with _pdfplumber.open(str(pdf_path)) as pdf:
             for pageno in range(start, min(end, len(pdf.pages)) + 1):
                 pg = pdf.pages[pageno - 1]
-                # A side-by-side page is read one x-band (panel column) at a time so the two
-                # panels' year/lane columns never interleave into one garbled wide grid.
-                if _has_side_by_side_panels(pg):
-                    w = pg.width
-                    regions = [pg.crop((0, 0, w / 2, pg.height)),
-                               pg.crop((w / 2, 0, w, pg.height))]
-                else:
-                    regions = [pg]
-                for region in regions:
-                    for ts in _PP_STRATEGIES:
+                for ts in _PP_STRATEGIES:
+                    try:
+                        tables = pg.find_tables(table_settings=ts)
+                    except Exception:
+                        continue
+                    found = []
+                    for t in tables:
                         try:
-                            tables = region.find_tables(table_settings=ts)
+                            rows = t.extract()
                         except Exception:
                             continue
-                        found = []
-                        for t in tables:
-                            try:
-                                rows = t.extract()
-                            except Exception:
-                                continue
-                            if _grid_is_salary(rows):
-                                found.append(_grid_to_pipe(rows))
-                        if found:  # first strategy that yields salary grids wins for this region
-                            grids.extend(found)
-                            break
+                        if _grid_is_salary(rows):
+                            found.append(_grid_to_pipe(rows))
+                    if found:  # first strategy that yields salary grids wins for this page
+                        grids.extend(found)
+                        break
     except Exception:
         return []
     return grids
@@ -911,53 +796,24 @@ def validate_table(table: dict, source_text: str | None = None) -> list[str]:
             "(step → value only, with no separate degree, year, or category columns)"
         )
 
-    # Header-without-data (dropped-row): a table that carries a title/lane/step header but
-    # holds no readable numeric cell is a grid whose data row(s) were dropped at extraction
-    # (v9: Miami section_g header-only, missing 600/840; Philadelphia PG526 empty grid). Flag
-    # as escalation-grade so it is re-extracted / manual-reviewed, not emitted as an "empty"
-    # schedule that reads as confirmed.
-    n_numeric = sum(1 for c in cells
-                    if c.get("value") not in ("", None)
-                    and any(ch.isdigit() for ch in str(c.get("value"))))
-    if n_numeric == 0 and (lanes or steps or table.get("schedule_label")):
-        warnings.append(
-            "no data rows: table has a header/label but zero numeric cells — a data row "
-            "was dropped; re-extract or verify against source"
-        )
-
     return warnings
-
-
-# Escalation-grade validation warnings: structural signals that flat-text / structured /
-# vision extraction likely lost or duplicated data. A grid still carrying one of these AFTER
-# all extraction + audit is NOT "audit confirmed" — write_wide_grid marks it MANUAL REVIEW so
-# a fabricated-but-plausible grid the LLM audit blessed (v9: Philadelphia lane/year copies) is
-# visible rather than silent. Shared by suspect() (escalation) and write_wide_grid (reporting).
-_HARD_REVIEW_SIGNALS = ("across lanes", "expected ~", "possible_dropped_row",
-                        "missing step", "no data rows", "cross_grid_duplicate")
-
-
-def hard_review_warnings(table: dict) -> list[str]:
-    """Escalation-grade subset of a table's validation_warnings (empty if structurally sound)."""
-    return [w for w in (table.get("validation_warnings") or [])
-            if any(s in w for s in _HARD_REVIEW_SIGNALS)]
 
 
 def call_text_audit_llm(
     client, doc_label: str, text: str, start: int, end: int, proposed_tables: list[dict],
 ) -> dict:
-    user = (f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
-            f"PROPOSED EXTRACTION (to audit):\n{json.dumps(proposed_tables, indent=2)}\n\n"
-            f"---PAGE TEXT---\n{text}\n---END---")
     return create_with_retries(
         client,
-        _stage="salary_text_audit",
         model=MODEL,
-        max_tokens=budgeted_max_tokens(AUDIT_SYSTEM_PROMPT, user),
+        max_tokens=MAX_TOKENS,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": AUDIT_SYSTEM_PROMPT},
-            {"role": "user", "content": user},
+            {"role": "user", "content": (
+                f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
+                f"PROPOSED EXTRACTION (to audit):\n{json.dumps(proposed_tables, indent=2)}\n\n"
+                f"---PAGE TEXT---\n{text}\n---END---"
+            )},
         ],
     )
 
@@ -979,9 +835,8 @@ def call_vision_audit_llm(
         content.append({"type": "image_url", "image_url": {"url": image_to_data_url(p)}})
     return create_with_retries(
         client,
-        _stage="salary_vision_audit",
         model=MODEL,
-        max_tokens=VISION_MAX_OUTPUT,
+        max_tokens=MAX_TOKENS,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": AUDIT_SYSTEM_PROMPT},
@@ -1122,115 +977,16 @@ def _signature_overlap(a: Counter, b: Counter) -> float:
     return sum((a & b).values()) / max(sum(a.values()), sum(b.values()))
 
 
-def _dedup_label(sch: dict) -> str:
-    """Normalized schedule identity used to decide whether an identical-value grid is a safe
-    verbatim REPRINT (same schedule, drop the copy) or a mis-extraction (a DIFFERENT schedule
-    that came out identical, must not be dropped)."""
-    return norm_ws(str(sch.get("schedule_label") or "") + " "
-                   + str(sch.get("population") or "")).lower()
-
-
-def _provenance_key(sch: dict) -> tuple:
-    """Where this grid physically came from: (page range, panel band, label).
-
-    Value-signature dedup alone cannot fix over-extraction, because it compares WHAT was
-    read rather than WHERE it was read from. LAUSD emitted 172 grids for ~50 real schedules
-    because the same physical table, re-read from a page-split or a re-extraction pass, has
-    a slightly different value multiset each time (one dropped cell defeats Counter equality)
-    and so survives as a "distinct" schedule.
-
-    Two extractions of the same physical region ARE the same grid regardless of whether their
-    cell sets came out byte-identical. The panel band matters because side-by-side panels are
-    genuinely different schedules printed on the same pages.
-    """
-    return (sch.get("page_start"), sch.get("page_end"),
-            sch.get("panel_band"), _dedup_label(sch))
-
-
-def dedup_by_provenance(schedules: list[dict]) -> tuple[list[dict], int]:
-    """Collapse grids extracted from the same physical region, keeping the richest one.
-
-    Runs BEFORE the value-signature dedup: provenance is the stronger identity claim, and
-    resolving it first stops near-duplicate re-reads of one table from being compared against
-    each other as if they were separate schedules.
-    """
-    kept: dict = {}
-    order: list = []
-    dropped = 0
-    for sch in schedules:
-        key = _provenance_key(sch)
-        if key[0] is None:                       # no page provenance -> cannot judge; keep
-            order.append(id(sch))
-            kept[id(sch)] = sch
-            continue
-        prior = kept.get(key)
-        if prior is None:
-            kept[key] = sch
-            order.append(key)
-            continue
-        dropped += 1
-        # Keep whichever read recovered more of the table, preferring one that resolved a
-        # school year over one that did not.
-        better = (len(sch.get("cells") or []) > len(prior.get("cells") or [])
-                  or (not prior.get("school_year_or_effective_date")
-                      and sch.get("school_year_or_effective_date")))
-        if better:
-            kept[key] = sch
-    return [kept[k] for k in order if k in kept], dropped
-
-
-_YEAR_RE = re.compile(r"\b(20\d{2})\s*[-–—/]\s*(20\d{2}|\d{2})\b")
-_FY_RE = re.compile(r"\bFY\s*(20\d{2})\b", re.I)
-_EFF_RE = re.compile(
-    r"\beffective\s+(?:date\s+)?(?:on\s+|as\s+of\s+)?"
-    r"([A-Z][a-z]+\.?\s+\d{1,2},?\s+20\d{2}|\d{1,2}/\d{1,2}/\d{2,4})", re.I)
-
-
-def resolve_schedule_year(sch: dict, page_text: str) -> str:
-    """Best available (school_year | effective date) for filing this grid.
-
-    This is the largest MEASURED salary defect: in the full-census audit, 5 of the 10 failing
-    grids had 100% correct cell values and failed only because they were filed under the
-    wrong year or an `unknown_year` folder. The year is almost always printed on the page
-    ("FY 2025 ET-15 Salary Schedule", "Effective Oct 6, 2024"); the extractor just wasn't
-    required to find it. Prefer what the model already resolved, then the grid's own label,
-    then the page text.
-    """
-    if str(sch.get("school_year_or_effective_date") or "").strip():
-        return str(sch["school_year_or_effective_date"]).strip()
-    haystacks = [str(sch.get("schedule_label") or ""), str(sch.get("population") or ""),
-                 page_text or ""]
-    for hay in haystacks:
-        m = _YEAR_RE.search(hay)
-        if m:
-            end = m.group(2)
-            end = end if len(end) == 4 else "20" + end
-            return f"{m.group(1)}_{end}"
-    for hay in haystacks:
-        m = _FY_RE.search(hay)
-        if m:
-            return f"fy_{m.group(1)}"
-    for hay in haystacks:
-        m = _EFF_RE.search(hay)
-        if m:
-            y = re.search(r"20\d{2}", m.group(1))
-            if y:
-                return f"effective_{y.group(0)}"
-    return ""
-
-
 def dedup_identical_schedules(schedules: list[dict]) -> tuple[list[dict], int]:
-    """Remove grids whose numeric value-multiset is IDENTICAL to one already kept AND that
-    carry the SAME schedule label/population — the byte-identical page-split reprints and
-    cross-year-identical differentials that inflate the grid count (v9 audit: LA 172 grids
-    ~70% duplicates from `__pNNN` page splits; Portland 19 = 10 distinct + 9 dup pairs;
-    Philadelphia's `unknown_year` grids duplicate their `9_1_20` siblings; Miami's section_3
-    == a0). Exact-multiset match only, so grids with genuinely different numbers are always
-    kept. Two grids with identical values but DIFFERENT labels are a mis-extraction (one copied
-    from the other), NOT a reprint — they are KEPT and flagged so the cross-grid resolver can
-    re-extract the distinct one; dropping would lose real data (v9: Fresno JROTC career-
-    increment was silently dropped as a copy of the Teachers grid). When a same-label duplicate
-    carries an explicit school year and the kept copy does not, the year-labelled copy wins."""
+    """Remove grids whose numeric value-multiset is IDENTICAL to one already kept — the
+    byte-identical page-split reprints and cross-year-identical differentials that inflate
+    the grid count (v9 audit: LA 172 grids ~70% duplicates from `__pNNN` page splits;
+    Portland 19 = 10 distinct + 9 dup pairs; Philadelphia's `unknown_year` grids duplicate
+    their `9_1_20` siblings; Miami's section_3 == a0). Exact-multiset match only, so grids
+    with genuinely different numbers (different years/populations, continuation fragments)
+    are always kept — this never merges distinct schedules, it only drops verbatim copies.
+    When a duplicate carries an explicit school year and the kept copy does not, the
+    year-labelled copy is preferred (drops the `unknown_year` twin)."""
     kept: list[dict] = []
     kept_sigs: list[Counter] = []
     dropped = 0
@@ -1240,12 +996,6 @@ def dedup_identical_schedules(schedules: list[dict]) -> tuple[list[dict], int]:
             kept.append(sch); kept_sigs.append(sig); continue
         match = next((i for i, ks in enumerate(kept_sigs) if ks == sig), None)
         if match is None:
-            kept.append(sch); kept_sigs.append(sig); continue
-        if _dedup_label(sch) != _dedup_label(kept[match]):
-            # Same values, different schedule label → mis-extraction, NOT a reprint. Keep both
-            # so the document-level cross-grid resolver (flag_cross_grid_duplicates →
-            # reextract_disambiguated, or a MANUAL-REVIEW flag on OCR docs) can handle the
-            # distinct one; dropping here would lose real data (v9: Fresno JROTC == Teachers).
             kept.append(sch); kept_sigs.append(sig); continue
         dropped += 1
         if not (kept[match].get("school_year_or_effective_date") or "").strip() and \
@@ -1336,13 +1086,7 @@ def resolve_cross_grid_duplicates(
         if not text_is_ocr:
             for k in (i, j):
                 sch = schedules[k]
-                # 2B — re-extract ANY method member of a cross-grid duplicate, not just
-                # vision. A structured/flat-text grid that came out identical to a different
-                # schedule conflated the two at parse time (v9: Fresno JROTC == Teachers on
-                # a born-digital page); an independent high-DPI vision re-read disambiguates
-                # it. Only adopted when it materially changes (a known-wrong duplicate has
-                # nothing to lose), so a correct grid is never replaced by a worse read.
-                if k in reextracted:
+                if k in reextracted or sch.get("extraction_method") != "vision":
                     continue
                 reextracted.add(k)
                 fixed = reextract_disambiguated(
@@ -1353,7 +1097,6 @@ def resolve_cross_grid_duplicates(
                                 "population", "validation_warnings"):
                         if key in fixed:
                             sch[key] = fixed[key]
-                    sch["extraction_method"] = "vision"  # adopted a vision re-read
         if _signature_overlap(_value_signature(schedules[i]),
                               _value_signature(schedules[j])) >= 0.95:
             _add_cross_grid_warning(schedules[i], schedules[j])
@@ -1441,11 +1184,7 @@ def _extract_block_via_segments(
         )
         tables, failed = _extract_and_audit(
             cache_path, method,
-            # Structured (pdfplumber pipe-table) input is already 2-D: transcription, not
-            # layout inference, so reasoning is off. Flat text keeps it on.
-            lambda seg=segment: call_text_llm(client, file_name, seg, start, end,
-                                              reasoning=(method != "structured"),
-                                              document_id=document_id),
+            lambda seg=segment: call_text_llm(client, file_name, seg, start, end),
             lambda hinted, seg=segment: call_text_audit_llm(client, file_name, seg, start, end, hinted),
             source_text=segment,
         )
@@ -1454,15 +1193,7 @@ def _extract_block_via_segments(
             # permanently locking it in as "no table".
             n_failed += 1
             continue
-        for t in tables:
-            if not t.get("has_table", True):
-                continue
-            # Segment index doubles as the panel band: for a structured read each segment IS
-            # one pdfplumber grid (an x-band on a side-by-side page), so (pages, band) is a
-            # stable physical address for this table. dedup_by_provenance uses it to collapse
-            # re-reads of one table without merging two panels that genuinely differ.
-            t.setdefault("panel_band", sub_idx)
-            block_tables.append(t)
+        block_tables.extend(t for t in tables if t.get("has_table", True))
     if not block_tables and end > start and pdf_path.stat().st_size > 0:
         for pg in range(start, end + 1):
             pcache = CACHE_DIR / f"{document_id}__{pg}-{pg}__page.json"
@@ -1519,37 +1250,24 @@ def process_document(
             entry.setdefault("extraction_method", method)
             entry.setdefault("page_start", start)
             entry.setdefault("page_end", end)
-            # Carry a slice of the source page text so the writer can recover the school
-            # year / effective date when the extraction didn't state one.
-            entry.setdefault("_page_text", "\f".join(pages[start - 1:end])[:6000])
             schedules.append(entry)
 
     def suspect(tables: list[dict]) -> bool:
         # Warnings that mean flat-text/structured extraction likely lost or duplicated
         # data, so the 2-D vision path should be tried: a lane column copied across slots,
-        # a table returned with far fewer cells than its step x lane grid implies, a step
-        # sequence with an interior/tail GAP (a long matrix truncated at a page break — v9:
-        # Albuquerque AT-3 dropped steps 33-50; Portland 183-day tables dropped a step), or
-        # a header-only grid whose data row was dropped (v9: Miami section_g). Vision reads
-        # the full multi-page image and recovers the missing rows. Shares the escalation
-        # signal set with write_wide_grid via hard_review_warnings().
-        return any(hard_review_warnings(t) for t in tables)
+        # a table returned with far fewer cells than its step x lane grid implies, or a
+        # step sequence with an interior/tail GAP — the signature of a long matrix that
+        # spans a page break and got truncated (v9 audit: Albuquerque AT-3 dropped steps
+        # 33-50; Portland 183-day tables dropped a step). Vision reads the full multi-page
+        # image and recovers the missing rows.
+        sig = ("across lanes", "expected ~", "possible_dropped_row", "missing step")
+        return any(any(s in w for s in sig)
+                   for t in tables for w in (t.get("validation_warnings") or []))
 
-    def process_block(block: tuple) -> tuple:
-        """Extract one heading block. Pure w.r.t. document state: returns
-        (start, end, block_tables, method, n_failed) so the caller can collect in document
-        order regardless of completion order. Blocks are independent — the cross-grid checks
-        below deliberately run only after every block is in — so they can run concurrently.
-        Concurrency itself is governed centrally in som_client, not here."""
-        start, end = block
+    for start, end in blocks:
         block_text = "\f".join(pages[start - 1:end])
-        # Bound the lookahead by BOTH the text's page count and the PDF's real one: those
-        # two disagree whenever pdftotext emits a trailing form feed, and the lookahead is
-        # the index most likely to fall in the gap.
-        _npdf = pdf_page_count(pdf_path) or len(pages)
-        lookahead_page = end + 1 if end + 1 <= min(len(pages), _npdf) else None
+        lookahead_page = end + 1 if end + 1 <= len(pages) else None
         has_pdf = pdf_path.stat().st_size > 0
-        blocks_failed = 0
 
         # Choose this salary block's PRIMARY read:
         #   A. pdfplumber recovers a clean grid (born-digital) -> STRUCTURED: exact cell
@@ -1616,16 +1334,6 @@ def process_document(
                 ):
                     block_tables, method = vtables, "vision"
 
-        return start, end, block_tables, method, blocks_failed
-
-    if len(blocks) > 1 and SALARY_BLOCK_CONCURRENCY > 1:
-        with ThreadPoolExecutor(max_workers=min(SALARY_BLOCK_CONCURRENCY, len(blocks))) as ex:
-            results = list(ex.map(process_block, blocks))
-    else:
-        results = [process_block(b) for b in blocks]
-
-    for start, end, block_tables, method, nf in results:
-        blocks_failed += nf
         if block_tables:
             collect(block_tables, method, start, end)
 
@@ -1633,11 +1341,6 @@ def process_document(
     # identical differentials) before the cross-grid checks and the writer, so a multi-page
     # appendix reprinted once per contract year doesn't emit the same schedule N times.
     if len(schedules) > 1:
-        # Provenance first: two reads of the SAME physical region are one grid even when
-        # their cell sets differ slightly, which value-signature dedup cannot see.
-        schedules, n_prov = dedup_by_provenance(schedules)
-        if n_prov:
-            print(f"  deduped {n_prov} re-read(s) of the same page/panel region")
         schedules, n_dup = dedup_identical_schedules(schedules)
         if n_dup:
             print(f"  deduped {n_dup} identical page-split/reprint grid(s)")
@@ -1657,80 +1360,13 @@ def process_document(
 
 # ── output writers ───────────────────────────────────────────────────────────────
 
-# The audit pass's own words when it concludes the extraction is not supported by the page.
-# When it says this, the grid must NOT be published as data.
-_FABRICATION_PHRASES = (
-    "appears to be fabricated", "is fabricated", "not present in the provided",
-    "does not appear in the source", "no tabular schedule", "not supported by the source",
-    "invented", "hallucinat",
-)
-
-
-def _audit_says_fabricated(schedule: dict) -> str:
-    """Return the audit's fabrication verdict, or "" if it did not make one.
-
-    MEASURED: Polk County's Appendix C grid was published with its own audit note reading
-    "The proposed extraction appears to be fabricated or extracted from a page not
-    provided" — 17 rows of hourly rates that occur ZERO times in the 126-page source. The
-    pipeline detected the fabrication correctly and then wrote it to the dataset anyway,
-    because nothing consumed that verdict. Detecting a defect and publishing it regardless
-    is worse than not detecting it: it launders the error through a file that looks like
-    every other grid.
-    """
-    blob = " ".join([
-        " ".join(str(x) for x in (schedule.get("audit_issues") or [])),
-        " ".join(str(x) for x in (schedule.get("validation_warnings") or [])),
-        str(schedule.get("notes") or ""),
-    ]).lower()
-    for phrase in _FABRICATION_PHRASES:
-        if phrase in blob:
-            return phrase
-    return ""
-
-
-def _data_signature(schedule: dict) -> str:
-    """Hash of the grid's actual values + lane/step labels, ignoring title and provenance."""
-    cells = sorted(
-        f"{c.get('step_label','')}|{c.get('lane_label','')}|{c.get('value','')}"
-        for c in (schedule.get("cells") or [])
-    )
-    return hashlib.md5("\n".join(cells).encode("utf-8")).hexdigest()
-
-
-# Data signatures already written in this process, so the same grid is emitted once.
-_WRITTEN_SIGNATURES: dict = {}
-
-
 def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
     """Writes to output/salary_schedule_wide/<district>/<school year>/<schedule>.csv —
     grouped by district then by the school year/effective date the table itself
     states, so every schedule for a given district-year sits in one folder."""
     district_slug = slugify(district, 60) or "unknown_district"
-    # Fall back to reading the year off the page before giving up and filing under
-    # unknown_year: mis-filing was the single largest measured salary defect (5 of the 10
-    # failing grids in the full-census audit had 100% correct cells and only the wrong
-    # folder), and the year is nearly always printed on the schedule page itself.
-    year_slug = slugify(
-        resolve_schedule_year(schedule, schedule.get("_page_text", "")), 40) or "unknown_year"
-
-    # A grid the audit pass judged unsupported goes to _quarantine/, not into the dataset.
-    verdict = _audit_says_fabricated(schedule)
-    out_dir = (WIDE_DIR / "_quarantine" / district_slug if verdict
-               else WIDE_DIR / district_slug / year_slug)
-    if verdict:
-        print(f"  QUARANTINED {schedule.get('schedule_label','?')!r}: audit verdict "
-              f"matched {verdict!r} — not published as data")
-
-    # Emit each distinct grid once. The page-by-page retry re-extracts a block's pages
-    # individually, so the same table arrives twice under different page ranges (e.g.
-    # `__p109-109`); provenance dedup keeps both because the ranges differ, and value-
-    # signature dedup keeps both when the labels differ. 11 of 50 v11 files were redundant
-    # copies. Signature is over VALUES and labels only, so a genuine reprint under a
-    # different year still collapses to one file.
-    sig = _data_signature(schedule)
-    if not verdict and sig in _WRITTEN_SIGNATURES:
-        return _WRITTEN_SIGNATURES[sig]
-
+    year_slug = slugify(schedule.get("school_year_or_effective_date") or "", 40) or "unknown_year"
+    out_dir = WIDE_DIR / district_slug / year_slug
     out_dir.mkdir(parents=True, exist_ok=True)
     slug = slugify(schedule.get("schedule_label") or f"schedule_{schedule['page_start']}", 50)
     pdf_slug = slugify(Path(file_name).stem, 40)
@@ -1749,15 +1385,10 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
         grid[(cell.get("step", ""), cell.get("lane") or "")] = cell.get("value", "")
 
     warnings = schedule.get("validation_warnings") or []
-    hard = hard_review_warnings(schedule)
     if schedule.get("audit_corrected"):
         audit_note = "audit corrected this table"
     elif schedule.get("audit_matched") is False:
         audit_note = "audit flagged unresolved issues: " + "; ".join(schedule.get("audit_issues") or [])
-    elif hard:
-        # The LLM audit blessed it, but a deterministic structural signal survived — do NOT
-        # report "audit confirmed" (v9: Philadelphia lane/year copies passed the LLM audit).
-        audit_note = "MANUAL REVIEW — unresolved structural issue(s): " + "; ".join(hard)
     else:
         audit_note = "audit confirmed"
 
@@ -1768,10 +1399,7 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
         w.writerow([f"# population: {schedule.get('population', '')} | "
                     f"is_teacher_schedule: {schedule.get('is_teacher_schedule', '')}"])
         w.writerow([f"# validation_warnings: {'; '.join(warnings) or 'none'} | {audit_note}"])
-        if hard:
-            w.writerow(["# MANUAL REVIEW RECOMMENDED: unresolved structural issue(s) — "
-                        + "; ".join(hard)])
-        elif schedule.get("extraction_method") == "vision":
+        if schedule.get("extraction_method") == "vision":
             w.writerow(["# MANUAL REVIEW RECOMMENDED: extracted from page image (not "
                         "machine-readable text) — verify values, column names, and row "
                         "counts against the original PDF"])
@@ -1783,7 +1411,6 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
             w.writerow(["step", "value"])
             for step in steps:
                 w.writerow([step, grid.get((step, ""), "")])
-    _WRITTEN_SIGNATURES[sig] = path
     return path
 
 
@@ -1817,16 +1444,6 @@ def main() -> None:
     parser.add_argument("--file", help="Process a single PDF: file name within --district")
     parser.add_argument("--max-docs", type=int, default=None, help="Limit number of documents processed")
     args = parser.parse_args()
-
-    # Register the request-hash cache + telemetry sink. som_client only records calls when
-    # a sink is registered, so this must happen at every entry point or a real run produces
-    # no cache and no telemetry (which is how the first v11 smoke test ran).
-    try:
-        import store
-        store.get_store().start_run(notes="salary_schedule")
-    except Exception as exc:      # never let instrumentation stop a run
-        print(f"  [store] telemetry unavailable: {exc}")
-
 
     client = get_client()
 

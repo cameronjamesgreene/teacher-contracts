@@ -67,20 +67,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from utils import OUT_DIR, PDF_ROOT, TEXT_DIR, WORK, extract_text, norm_ws, quote_present
 from som_client import (
     MAX_TOKENS, MODEL, budgeted_max_tokens, create_with_retries, get_client,
-    reasoning_kwargs,
 )
 from salary_schedule import MAIN_DATASET, document_id_for
 
 CACHE_DIR = WORK / "cache" / "rights_score_cache"
 
-# 3000/400 was chosen when som_client believed the context window was 32k tokens and
-# clamped max_tokens to 16000, so a dense chunk's clause JSON truncated. The real window is
-# 131k (see som_client), and a 3000-char chunk uses ~0.4% of it: the median 253k-char
-# document cost ~96 extraction calls and the largest ~456. 12000 is a 4x call reduction and
-# is deliberately a middle step — raise toward 20000 only with clause recall measured at
-# each step, since larger chunks trade call count against attention dilution.
-CHUNK_SIZE = int(os.environ.get("RIGHTS_CHUNK_SIZE", "12000"))
-CHUNK_OVERLAP = int(os.environ.get("RIGHTS_CHUNK_OVERLAP", "1200"))
+CHUNK_SIZE = int(os.environ.get("RIGHTS_CHUNK_SIZE", "3000"))
+CHUNK_OVERLAP = int(os.environ.get("RIGHTS_CHUNK_OVERLAP", "400"))
 # For extremely long documents, optionally cap how many (slow) extraction chunks a
 # single document is broken into by enlarging each chunk. 0 disables the cap (fixed
 # CHUNK_SIZE — the default, so normal-length docs are unaffected). When set, the doc
@@ -97,23 +90,22 @@ MAX_CONCURRENCY = int(os.environ.get("RIGHTS_CONCURRENCY", "8"))
 # Clauses are classified in a second LLM pass; this many per classification call.
 CLASSIFY_BATCH_SIZE = int(os.environ.get("RIGHTS_CLASSIFY_BATCH", "30"))
 
-# Extraction is a mechanical linguistic-feature task (copy the clause, tag its modal,
-# voice, and acting party), so the slow chain-of-thought is reserved for classification.
-#   "off" (default) — disable thinking on extraction. Measured ~10x faster per call; the
-#                     chat-template switch is confirmed working against api.som.chat
-#                     (reasoning_tokens drops 221 -> 0 on a control prompt).
-#   "on"  — the previous default. Set RIGHTS_EXTRACT_REASONING=on to A/B clause recall.
-# Only the extraction call is affected; classification and re-verification, which are
-# genuine judgment calls, always keep reasoning on.
-EXTRACT_REASONING = os.environ.get("RIGHTS_EXTRACT_REASONING", "off").strip().lower()
+# Extraction is a mechanical linguistic-feature task, so the slow chain-of-thought
+# can be reserved for the classification pass. This toggle controls whether the
+# extraction call disables the reasoning model's thinking, for a large speedup:
+#   "on"  (default) — leave reasoning on. Safe / no behavior change; this is the
+#                     baseline until an A/B accuracy check clears "off".
+#   "off" — pass the vLLM chat-template switch to disable thinking on extraction.
+# Only the extraction call is affected; classification always keeps reasoning on.
+EXTRACT_REASONING = os.environ.get("RIGHTS_EXTRACT_REASONING", "on").strip().lower()
 
 
 def _reasoning_off_kwargs() -> dict:
     """extra_body that disables the reasoning model's chain-of-thought, or {} when
-    reasoning is left on. Delegates to som_client.reasoning_kwargs so the exact vLLM
-    parameter lives in exactly one place."""
+    reasoning is left on. Kept in one place so the A/B toggle is a single switch and
+    the exact vLLM parameter can be corrected once probed against api.som.chat."""
     if EXTRACT_REASONING == "off":
-        return {"extra_body": reasoning_kwargs(False)}
+        return {"extra_body": {"chat_template_kwargs": {"enable_thinking": False}}}
     return {}
 
 # ── modal strength + classification tables (the Table A.3 / verb-lexicon analogue) ──
@@ -147,26 +139,7 @@ def modal_strength_for(modal: str | None, verb_category: str) -> float:
     return 0.0
 
 
-# Verbs that are LEXICALLY prohibitive. The double-negative branch below is only valid when
-# the clause negates one of these ("shall not be prohibited" => permission). It is NOT valid
-# for an ordinary negated action verb, and the two are easy to confuse.
-#
-# MEASURED FAILURE: the extraction pass uses verb_lexical_category='prohibition_verb' to mean
-# "this clause expresses a prohibition", while this rule assumed it meant "the main verb is a
-# prohibition-lexicon verb". Combined with negation=True that manufactured a double negative,
-# so ALL 378 negation+prohibition_verb clauses derived as "permission" — including
-# "You shall not use threats", "you shall not report to work", and just-cause and
-# non-discrimination language. The LLM's own holistic judgment called 311 of those 378
-# "prohibition", i.e. the rule and the model disagreed on 82% of the path and the rule was
-# the one that was wrong.
-_LEXICAL_PROHIBITION_VERBS = (
-    "prohibit", "forbid", "ban", "bar ", "barred", "preclude", "disallow", "proscribe",
-    "enjoin", "restrict", "deny", "prevent",
-)
-
-
-def classify_statement_type(modal: str | None, negation: bool, verb_category: str,
-                            quote: str = "") -> str:
+def classify_statement_type(modal: str | None, negation: bool, verb_category: str) -> str:
     """Table A.3 analogue: combine negation + modal class + verb-lexical-category
     into one of obligation/prohibition/permission/right, or "other" if none fit."""
     modal_class = (
@@ -193,11 +166,6 @@ def classify_statement_type(modal: str | None, negation: bool, verb_category: st
         if verb_category == "obligation_verb":
             return "right"        # "may not be required" — relief from a duty is a right
         if verb_category == "prohibition_verb":
-            # Only a genuine double negative if the clause actually negates a prohibition
-            # VERB. Otherwise this is an ordinary negated action = a prohibition, and
-            # reading it as "permission" inverts the polarity of the provision.
-            if quote and not any(v in quote.lower() for v in _LEXICAL_PROHIBITION_VERBS):
-                return "prohibition"
             return "permission"   # "shall not be prohibited" — double negative
         if verb_category == "permission_verb":
             return "prohibition"  # "shall not be allowed"
@@ -470,17 +438,7 @@ each clause, identify:
    be paid 1/5 of the rate" — the operative "shall be paid" is affirmative => negation=false).
    Also, "No later than / No fewer than / No more than / No greater than X" is an
    affirmative floor/ceiling, NOT negation.
-6. voice — "active" or "passive". Decide from the OPERATIVE verb only:
-   - PASSIVE = a form of "be"/"get" + a PAST PARTICIPLE, where the grammatical subject
-     RECEIVES the action. A modal and/or negation do NOT change this — "shall be notified",
-     "shall not be employed", "shall not be required", "must be relieved", "may be
-     reassigned", and copular "is not impacted / abrogated / diminished / affected" are ALL
-     passive. Do not call a clause active just because it has "shall"/"will"/"not".
-   - ACTIVE = the subject performs the verb: "the teacher receives", "the Board shall
-     provide", and relative-clause verbs like "an employee who left" / "who will be
-     returning" (the subject does the leaving/returning) are active.
-   - Judge the MAIN clause verb, not a subordinate one; when the main predicate is
-     be+participle, it is passive regardless of surrounding words.
+6. voice — "active" or "passive".
 7. verb_lexical_category — classify the main verb phrase as one of:
    - "obligation_verb": be required, be expected, be compelled, be obliged,
      be obligated, have to, ought to, or a clear paraphrase
@@ -521,16 +479,8 @@ You will receive a JSON array of clauses, each with an "index". For each clause 
 three fields, keyed by that same index:
 
 1. protected_party — which side ULTIMATELY BENEFITS from this clause, regardless of
-   who the grammatical subject is. Binary: "worker" or "management".
-   DO NOT DEFAULT protected_party TO THE ACTING PARTY'S SIDE — that is the most common
-   error. Instead ask WHO THE CLAUSE ACTS UPON OR FOR: the party whose position is
-   strengthened, shielded, or served. When MANAGEMENT is the actor (pays, prorates,
-   provides, assigns, evaluates, notifies) and the effect lands on teachers/employees,
-   protected_party is WORKER, not management (e.g. "the district shall prorate the
-   teacher's salary", "the District shall pay employees for X" — acting_party=management,
-   protected_party=worker). A right or permission a WORKER may exercise (e.g. "a teacher
-   may request assistance") protects the WORKER even though exercising it is the worker's
-   own act. Match protected_party to the beneficiary, not the subject/actor. Then watch for:
+   who the grammatical subject is. Binary: "worker" or "management". Usually matches
+   the acting party's natural beneficiary, but watch for divergence:
    - A management OBLIGATION or PROHIBITION usually protects workers (e.g. "the
      district shall not assign more than 3 hours of duty-free lunch supervision to
      teachers" — acting_party=management, protected_party=worker).
@@ -592,43 +542,6 @@ Return one entry for every input clause, preserving its index.\
 """
 
 
-REVERIFY_SYSTEM_PROMPT = """\
-You are re-checking a SMALL set of already-classified contract clauses that an automated screen
-flagged as error-prone on two specific features. Scrutinize ONLY these and correct them if
-wrong. For each clause you get its verbatim quote plus its current tags. Re-decide, from the
-quote alone:
-
-1. voice — "active" or "passive". PASSIVE = the operative verb is a form of be/get + a PAST
-   PARTICIPLE and the subject RECEIVES the action; a modal and/or "not" do NOT make it active
-   ("shall be notified", "shall not be employed", "shall not be required", "must be relieved",
-   "is not impacted / abrogated / diminished" are ALL passive). ACTIVE = the subject performs
-   the verb ("the teacher receives", "an employee who left / who will be returning", "the Board
-   shall provide").
-2. acting_party — "worker" | "management" | "other" (the party carrying out the verb). On a
-   PASSIVE clause the grammatical subject is the RECIPIENT, not the actor: use the "by <X>"
-   agent if named, else the implicit agent (usually management for duties imposed on the
-   district). An inanimate/impersonal subject ("this Agreement", "Section 5") is "other".
-3. protected_party — "worker" | "management": WHO ULTIMATELY BENEFITS, i.e. whom the clause
-   acts upon or for. DO NOT default this to the acting party. When management is the actor
-   (pays, prorates, provides, assigns, evaluates) and the effect lands on teachers/employees,
-   protected_party is WORKER. A management obligation/prohibition usually protects the worker;
-   a worker obligation/prohibition usually protects management; a right/permission protects
-   whoever holds or exercises it.
-4. llm_judgment — "obligation" | "prohibition" | "permission" | "right" | "other": your own
-   holistic read (a management duty that happens to benefit workers is an "obligation", not a
-   "right").
-
-Return ONLY a valid JSON object, no markdown fences:
-{
-  "reverified": [
-    {"index": 0, "voice": "active|passive", "acting_party": "worker|management|other",
-     "protected_party": "worker|management", "llm_judgment": "..."}
-  ]
-}
-Return one entry for every input clause, preserving its index.\
-"""
-
-
 def call_extract_llm(client, doc_label: str, chunk: str, chunk_index: int, total_chunks: int) -> dict:
     user_str = (
         f"Document: {doc_label}\nChunk {chunk_index} of {total_chunks}.\n\n"
@@ -661,26 +574,6 @@ def call_classify_llm(client, doc_label: str, clauses_payload: list[dict]) -> di
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": CLASSIFY_SYSTEM_PROMPT},
-            {"role": "user", "content": user_str},
-        ],
-    )
-
-
-def call_reverify_llm(client, doc_label: str, clauses_payload: list[dict]) -> dict:
-    """Focused re-verification of flagged clauses' voice / acting_party / protected_party /
-    llm_judgment (reasoning left on)."""
-    user_str = (
-        f"Document: {doc_label}\n\nRe-check each flagged clause below and return corrected "
-        f"voice, acting_party, protected_party, and llm_judgment, keyed by its index.\n\n"
-        f"---CLAUSES---\n{json.dumps(clauses_payload, ensure_ascii=False)}\n---END---"
-    )
-    return create_with_retries(
-        client,
-        model=MODEL,
-        max_tokens=budgeted_max_tokens(REVERIFY_SYSTEM_PROMPT, user_str),
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": REVERIFY_SYSTEM_PROMPT},
             {"role": "user", "content": user_str},
         ],
     )
@@ -760,8 +653,7 @@ def classify_and_score(clause: dict) -> dict:
     elif _INANIMATE_SUBJ_RE.match(clause.get("subject_text") or ""):
         acting = "other"
     verb_category = clause.get("verb_lexical_category") or "plain"
-    statement_type = classify_statement_type(modal, negation, verb_category,
-                                             clause.get("quote") or "")
+    statement_type = classify_statement_type(modal, negation, verb_category)
     weight = modal_strength_for(modal, verb_category) if statement_type != "other" else 0.0
     return {
         **clause,
@@ -796,20 +688,6 @@ def _dedup_by_quote(clauses: list[dict]) -> list[dict]:
             seen.add(q)
         out.append(clause)
     return out
-
-
-def _fallback_protected_party(clause: dict) -> str:
-    """Deterministic protected_party for a clause the classifier dropped (no entry for its
-    index) — better than a blank field. Standard Hohfeld heuristic: an obligation/prohibition
-    protects the party OPPOSITE the actor; a right/permission protects the actor's own side;
-    an inanimate/other actor defaults to the worker as beneficiary."""
-    acting = (clause.get("acting_party") or "").strip().lower()
-    st = (clause.get("statement_type") or "").strip().lower()
-    if acting not in ("worker", "management"):
-        return "worker"
-    if st in ("obligation", "prohibition"):
-        return "management" if acting == "worker" else "worker"
-    return acting
 
 
 def _classify_clauses(client, document_id: str, file_name: str, clauses: list[dict]) -> None:
@@ -855,104 +733,9 @@ def _classify_clauses(client, document_id: str, file_name: str, clauses: list[di
                     by_index[idx] = item
         for j, c in enumerate(batch):
             cl = by_index.get(j, {})
-            # No-blank guard: when the classifier drops a clause (returns no entry for its
-            # index — v9: Prince George's c1 had blank judgment + protected_party), fall back
-            # to deterministic values rather than emitting empty fields.
-            c["protected_party"] = cl.get("protected_party") or _fallback_protected_party(c)
-            c["llm_judgment"] = cl.get("llm_judgment") or (c.get("statement_type") or "")
+            c["protected_party"] = cl.get("protected_party") or ""
+            c["llm_judgment"] = cl.get("llm_judgment") or ""
             c["topic"] = cl.get("topic") or ""
-
-
-# 2A — targeted re-verification. A clause is re-checked only when it lands in a v9 error zone,
-# so the paid second pass runs on a small minority of clauses, not all of them.
-_PASSIVE_RISK_RE = re.compile(
-    r"\b(?:shall|will|may|must|should|can|could|might)\s+(?:not\s+)?be\s+\w+ed\b"
-    r"|\b(?:is|are|was|were|been|being)\s+(?:not\s+)?\w+ed\b",
-    re.I,
-)
-
-
-def _needs_reverify(c: dict) -> bool:
-    """Flag a clause for focused re-verification when it hits a v9 error zone:
-    (1) MISSED PASSIVE — a be+past-participle / modal(+not)+be pattern in the quote but voice
-        tagged active (v9: "shall not be employed/required", "is not impacted" read active), or
-    (2) PROTECTED DEFAULTED TO ACTOR — protected_party equals acting_party on an obligation or
-        prohibition, where the beneficiary is usually the OTHER side (v9: management duty tagged
-        protected=management instead of worker)."""
-    quote = c.get("quote", "") or ""
-    voice = (c.get("voice") or "").strip().lower()
-    acting = (c.get("acting_party") or "").strip().lower()
-    protected = (c.get("protected_party") or "").strip().lower()
-    st = (c.get("statement_type") or "").strip().lower()
-    if voice != "passive" and _PASSIVE_RISK_RE.search(quote):
-        return True
-    if protected and protected == acting and acting in ("worker", "management") \
-            and st in ("obligation", "prohibition"):
-        return True
-    return False
-
-
-def _reverify_ambiguous_clauses(
-    client, document_id: str, file_name: str, clauses: list[dict],
-) -> int:
-    """Focused second pass over ONLY the clauses `_needs_reverify` flags. Re-decides voice /
-    acting_party / protected_party / llm_judgment with a targeted prompt and adopts the
-    corrections in place; the downstream classify_and_score then re-derives statement_type and
-    the passive acting-party backstop from the corrected voice. Batched + cached; runs only on
-    the flagged minority so the added cost stays small. Returns the number of clauses changed."""
-    flagged = [(idx, c) for idx, c in enumerate(clauses) if _needs_reverify(c)]
-    if not flagged:
-        return 0
-    batches = [flagged[i:i + CLASSIFY_BATCH_SIZE] for i in range(0, len(flagged), CLASSIFY_BATCH_SIZE)]
-
-    def run_batch(item: tuple[int, list]) -> tuple[int, dict | None]:
-        bi, batch = item
-        cache_path = CACHE_DIR / f"{document_id}__reverify{bi:03d}.json"
-        if cache_path.exists():
-            try:
-                return bi, json.loads(cache_path.read_text(encoding="utf-8"))
-            except Exception:
-                pass
-        payload = [
-            {"index": j, "quote": c.get("quote", ""), "voice": c.get("voice", ""),
-             "acting_party": c.get("acting_party", ""),
-             "protected_party": c.get("protected_party", ""),
-             "statement_type": c.get("statement_type", ""),
-             "llm_judgment": c.get("llm_judgment", "")}
-            for j, (_, c) in enumerate(batch)
-        ]
-        try:
-            raw = call_reverify_llm(client, file_name, payload)
-        except Exception:
-            return bi, None
-        cache_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
-        return bi, raw
-
-    with ThreadPoolExecutor(max_workers=MAX_CONCURRENCY) as pool:
-        results = dict(pool.map(run_batch, enumerate(batches, start=1)))
-
-    changed = 0
-    for bi, batch in enumerate(batches, start=1):
-        raw = results.get(bi)
-        by_index: dict[int, dict] = {}
-        if raw and "error" not in raw:
-            for item in raw.get("reverified", []):
-                if isinstance(item.get("index"), int):
-                    by_index[item["index"]] = item
-        for j, (_, c) in enumerate(batch):
-            rv = by_index.get(j)
-            if not rv:
-                continue
-            touched = False
-            for field in ("voice", "acting_party", "protected_party", "llm_judgment"):
-                val = (rv.get(field) or "").strip()
-                if val and val != (c.get(field) or ""):
-                    c[field] = val
-                    touched = True
-            if touched:
-                changed += 1
-                c["reverified"] = True
-    return changed
 
 
 def process_document(
@@ -985,7 +768,6 @@ def process_document(
     skipped = len(chunks) - len(extract_items)
     all_clauses: list[dict] = []
     failed_chunks = 0
-    malformed_clauses = 0
 
     def fetch_raw(item: tuple[int, str]) -> tuple[int, dict | None]:
         """Return (chunk_index, raw) for one chunk, using the cache when present.
@@ -1012,14 +794,6 @@ def process_document(
                 failed_chunks += 1
                 continue
             for clause in raw.get("clauses", []):
-                # The model occasionally returns a bare string (or null) where a clause
-                # object belongs. Assuming every element is a dict crashed an entire
-                # document on one malformed element -- Polk County lost all four steps'
-                # rights output to a single stray string. A malformed clause should cost
-                # that clause, not the document.
-                if not isinstance(clause, dict):
-                    malformed_clauses += 1
-                    continue
                 clause["chunk_index"] = i
                 # Deterministic statement_type now (needs only the mechanical fields);
                 # it is handed to the classification pass and re-derived identically by
@@ -1028,7 +802,6 @@ def process_document(
                     (clause.get("modal") or "").strip().lower() or None,
                     bool(clause.get("negation")),
                     clause.get("verb_lexical_category") or "plain",
-                    clause.get("quote") or "",
                 )
                 all_clauses.append(clause)
 
@@ -1037,12 +810,6 @@ def process_document(
 
     # Phase 2 — CLASSIFICATION: reasoning pass adding protected_party/llm_judgment/topic.
     _classify_clauses(client, document_id, file_name, deduped)
-
-    # Phase 2b — targeted re-verification (2A): re-check only the voice/party error-prone
-    # clauses (missed passive, protected_party defaulted to the actor) with a focused prompt.
-    n_rev = _reverify_ambiguous_clauses(client, document_id, file_name, deduped)
-    if n_rev:
-        print(f"      re-verified {n_rev} ambiguous clause(s)")
 
     # Phase 3 — deterministic scoring (modal_strength + statement_type_match) plus a
     # quote-presence guard: mark whether each clause's quote is actually found in the
@@ -1056,12 +823,6 @@ def process_document(
 
     if skipped:
         print(f"      (skipped {skipped}/{len(chunks)} empty/appendix chunks)")
-    if malformed_clauses:
-        # Visible, not swallowed: skipping a malformed element is the right recovery, but a
-        # document quietly losing clauses to schema drift would be indistinguishable from a
-        # document that genuinely contains fewer.
-        print(f"      {malformed_clauses} malformed clause element(s) skipped "
-              f"(model returned a non-object where a clause was expected)")
     return scored, "ok", failed_chunks, len(chunks)
 
 
@@ -1200,16 +961,6 @@ def main() -> None:
         help="Limit number of documents processed (only applies to the full-sample default run)",
     )
     args = parser.parse_args()
-
-    # Register the request-hash cache + telemetry sink. som_client only records calls when
-    # a sink is registered, so this must happen at every entry point or a real run produces
-    # no cache and no telemetry (which is how the first v11 smoke test ran).
-    try:
-        import store
-        store.get_store().start_run(notes="rights_score")
-    except Exception as exc:      # never let instrumentation stop a run
-        print(f"  [store] telemetry unavailable: {exc}")
-
 
     targets = load_targets(args)
     client = get_client()
