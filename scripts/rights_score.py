@@ -960,6 +960,7 @@ def process_document(
     skipped = len(chunks) - len(extract_items)
     all_clauses: list[dict] = []
     failed_chunks = 0
+    malformed_clauses = 0
 
     def fetch_raw(item: tuple[int, str]) -> tuple[int, dict | None]:
         """Return (chunk_index, raw) for one chunk, using the cache when present.
@@ -986,6 +987,14 @@ def process_document(
                 failed_chunks += 1
                 continue
             for clause in raw.get("clauses", []):
+                # The model occasionally returns a bare string (or null) where a clause
+                # object belongs. Assuming every element is a dict crashed an entire
+                # document on one malformed element -- Polk County lost all four steps'
+                # rights output to a single stray string. A malformed clause should cost
+                # that clause, not the document.
+                if not isinstance(clause, dict):
+                    malformed_clauses += 1
+                    continue
                 clause["chunk_index"] = i
                 # Deterministic statement_type now (needs only the mechanical fields);
                 # it is handed to the classification pass and re-derived identically by
@@ -1021,6 +1030,12 @@ def process_document(
 
     if skipped:
         print(f"      (skipped {skipped}/{len(chunks)} empty/appendix chunks)")
+    if malformed_clauses:
+        # Visible, not swallowed: skipping a malformed element is the right recovery, but a
+        # document quietly losing clauses to schema drift would be indistinguishable from a
+        # document that genuinely contains fewer.
+        print(f"      {malformed_clauses} malformed clause element(s) skipped "
+              f"(model returned a non-object where a clause was expected)")
     return scored, "ok", failed_chunks, len(chunks)
 
 
