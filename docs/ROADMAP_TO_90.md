@@ -105,7 +105,9 @@ Only after Phase 0–3 hold on the gold set:
 
 ---
 
-## MEASURED 2026-08-04: the failures are mostly CAPABILITY, not retrieval
+## SUPERSEDED — see the model bake-off below. Scaling the model does NOT fix these.
+
+## MEASURED 2026-08-04 (first pass): the failures are mostly CAPABILITY, not retrieval
 
 Before requesting a GPU allocation, we ran the cheap decisive experiment: take documented
 false negatives and hand Qwen **the exact passage containing the answer**, 2–3.5k chars, no
@@ -140,3 +142,54 @@ n=6, chosen from documented failures, so this measures the hard tail rather than
 It does not tell us the *size* of the capability gap, only that it dominates the errors we
 have. Phase 0's random sample is still required to size it. But it is enough to justify the
 GPU allocation conversation, and enough to stop spending effort on retrieval.
+
+
+---
+
+## CORRECTION 2026-08-04: bigger models do NOT fix these failures
+
+Before requesting a GPU allocation, we ran the same 6 passages against three larger models
+via OpenRouter. Total cost: **$0.006**.
+
+| model | active params | score |
+|---|---|---|
+| `Qwen3.6-35B-A3B` (production) | ~3B | 2/6 |
+| `qwen3-30b-a3b-instruct` (control, same class) | ~3B | 2/6 |
+| `qwen3-32b` **dense** | 32B (**10x**) | 2/6 |
+| `qwen3-235b-a22b` | 22B (**7x**) | 3/6 |
+
+**A 235B model with seven times the active parameters scores essentially the same.** The
+capability hypothesis in the section above is not supported. Do not request GPUs on it.
+
+### Why — and this is the real finding
+
+Reading the disputed passages directly shows the ground truth itself is contested.
+
+**Guilford "probation length".** The passage lists eligibility criteria for North Carolina's
+one-/two-/four-year contract system: *"have been employed by the Board as a teacher for at
+least three consecutive years"* is a **prerequisite for a two-year contract**, not a stated
+probationary period. NC eliminated career status in 2013. Four independent models answering
+`not_discussed` are arguably **more correct than the Claude auditor**, who inferred "3 years"
+from a contract-eligibility rule.
+
+**OKC performance pay.** *"Student Achievement Bonuses: $500.00 for each student that scores
+a 3, 4, or 5."* This is plainly performance pay tied to student outcomes, and **every model
+missed it**, including the 235B. That one is a genuine extraction failure — but it is not
+fixed by scale either.
+
+### What actually binds
+
+**We do not have trustworthy labels.** The v11 "truth" is one model's judgment, and it
+disagrees with four other models on cases we then treated as established failures. Two
+conclusions follow:
+
+1. **Phase 0 is not merely first, it is the only defensible starting point.** Every accuracy
+   number and every improvement claim so far rests on ground truth that has never been
+   human-adjudicated. The disagreement above is not noise around a known answer — it is
+   disagreement about what the answer *is*.
+2. **Some of the "70–80% accuracy" gap is label disagreement, not model error.** Until a
+   human adjudicates a random sample, we cannot tell the two apart, and we will keep
+   "fixing" things that were never broken.
+
+The cheap experiment did its job: **$0.006 prevented a GPU allocation request built on a
+false premise.** Run experiments in this order.
