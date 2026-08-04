@@ -1657,6 +1657,50 @@ def process_document(
 
 # ── output writers ───────────────────────────────────────────────────────────────
 
+# The audit pass's own words when it concludes the extraction is not supported by the page.
+# When it says this, the grid must NOT be published as data.
+_FABRICATION_PHRASES = (
+    "appears to be fabricated", "is fabricated", "not present in the provided",
+    "does not appear in the source", "no tabular schedule", "not supported by the source",
+    "invented", "hallucinat",
+)
+
+
+def _audit_says_fabricated(schedule: dict) -> str:
+    """Return the audit's fabrication verdict, or "" if it did not make one.
+
+    MEASURED: Polk County's Appendix C grid was published with its own audit note reading
+    "The proposed extraction appears to be fabricated or extracted from a page not
+    provided" — 17 rows of hourly rates that occur ZERO times in the 126-page source. The
+    pipeline detected the fabrication correctly and then wrote it to the dataset anyway,
+    because nothing consumed that verdict. Detecting a defect and publishing it regardless
+    is worse than not detecting it: it launders the error through a file that looks like
+    every other grid.
+    """
+    blob = " ".join([
+        " ".join(str(x) for x in (schedule.get("audit_issues") or [])),
+        " ".join(str(x) for x in (schedule.get("validation_warnings") or [])),
+        str(schedule.get("notes") or ""),
+    ]).lower()
+    for phrase in _FABRICATION_PHRASES:
+        if phrase in blob:
+            return phrase
+    return ""
+
+
+def _data_signature(schedule: dict) -> str:
+    """Hash of the grid's actual values + lane/step labels, ignoring title and provenance."""
+    cells = sorted(
+        f"{c.get('step_label','')}|{c.get('lane_label','')}|{c.get('value','')}"
+        for c in (schedule.get("cells") or [])
+    )
+    return hashlib.md5("\n".join(cells).encode("utf-8")).hexdigest()
+
+
+# Data signatures already written in this process, so the same grid is emitted once.
+_WRITTEN_SIGNATURES: dict = {}
+
+
 def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
     """Writes to output/salary_schedule_wide/<district>/<school year>/<schedule>.csv —
     grouped by district then by the school year/effective date the table itself
@@ -1668,7 +1712,25 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
     # folder), and the year is nearly always printed on the schedule page itself.
     year_slug = slugify(
         resolve_schedule_year(schedule, schedule.get("_page_text", "")), 40) or "unknown_year"
-    out_dir = WIDE_DIR / district_slug / year_slug
+
+    # A grid the audit pass judged unsupported goes to _quarantine/, not into the dataset.
+    verdict = _audit_says_fabricated(schedule)
+    out_dir = (WIDE_DIR / "_quarantine" / district_slug if verdict
+               else WIDE_DIR / district_slug / year_slug)
+    if verdict:
+        print(f"  QUARANTINED {schedule.get('schedule_label','?')!r}: audit verdict "
+              f"matched {verdict!r} — not published as data")
+
+    # Emit each distinct grid once. The page-by-page retry re-extracts a block's pages
+    # individually, so the same table arrives twice under different page ranges (e.g.
+    # `__p109-109`); provenance dedup keeps both because the ranges differ, and value-
+    # signature dedup keeps both when the labels differ. 11 of 50 v11 files were redundant
+    # copies. Signature is over VALUES and labels only, so a genuine reprint under a
+    # different year still collapses to one file.
+    sig = _data_signature(schedule)
+    if not verdict and sig in _WRITTEN_SIGNATURES:
+        return _WRITTEN_SIGNATURES[sig]
+
     out_dir.mkdir(parents=True, exist_ok=True)
     slug = slugify(schedule.get("schedule_label") or f"schedule_{schedule['page_start']}", 50)
     pdf_slug = slugify(Path(file_name).stem, 40)
@@ -1721,6 +1783,7 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
             w.writerow(["step", "value"])
             for step in steps:
                 w.writerow([step, grid.get((step, ""), "")])
+    _WRITTEN_SIGNATURES[sig] = path
     return path
 
 
