@@ -102,3 +102,41 @@ Only after Phase 0–3 hold on the gold set:
 1. **Which output matters most?** rights is 60% of runtime at 29% strict. If it is secondary to the 106 questions, it should be deprioritised or redesigned rather than repaired.
 2. **Is human review acceptable in the loop?** If yes, target "90% accurate + trustworthy flags" and the path is short. If it must be fully automated, Phase 2.2 becomes mandatory.
 3. **Can we get a GPU allocation for a larger model?** This is the biggest untested lever and needs Kyle.
+
+---
+
+## MEASURED 2026-08-04: the failures are mostly CAPABILITY, not retrieval
+
+Before requesting a GPU allocation, we ran the cheap decisive experiment: take documented
+false negatives and hand Qwen **the exact passage containing the answer**, 2–3.5k chars, no
+retrieval involved. If it answers correctly, the pipeline failure was retrieval. If it still
+fails, no amount of retrieval engineering will fix it.
+
+| case | passage contains | Qwen, given the passage |
+|---|---|---|
+| OKC emergency closure | Article XIII, four sections | **recovered** |
+| Polk return rights | §21.6 return from leave | **recovered** |
+| OKC performance pay | *"$500.00 for each student that scores a 3, 4, or 5"* | still `not_discussed` |
+| Guilford probation length | *"at least three consecutive years"* / *"five consecutive years"* | still `not_discussed` |
+| Polk medical/pregnancy leave | *"may be granted up to one (1) year of medical leave"* | still `not_discussed` |
+| Polk class size | *"optimum class size is an important aspect"* | `no` (arguable — a goal, not a limit) |
+
+**2 of 6 were retrieval failures. 4 of 6 persist with the answer directly in front of the
+model**, and at least 3 of those are unambiguous — the required string is verbatim in a
+2–3k-char passage.
+
+### What this changes
+
+- The retrieval work (FTS5 second view, never-silent escalation, semantic sectioning)
+  addresses roughly **a third** of the failure mass. It was worth doing and it is done.
+- The remaining two thirds are the model not extracting an answer that is plainly present.
+  More prompt engineering, more views and more retrieval cannot fix that.
+- Combined with the requirement that the pipeline be **fully automated** (no human review of
+  flagged cells), a capacity upgrade moves from optional to **the critical path**.
+
+### Caveats
+
+n=6, chosen from documented failures, so this measures the hard tail rather than the corpus.
+It does not tell us the *size* of the capability gap, only that it dominates the errors we
+have. Phase 0's random sample is still required to size it. But it is enough to justify the
+GPU allocation conversation, and enough to stop spending effort on retrieval.
