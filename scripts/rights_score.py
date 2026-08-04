@@ -147,7 +147,26 @@ def modal_strength_for(modal: str | None, verb_category: str) -> float:
     return 0.0
 
 
-def classify_statement_type(modal: str | None, negation: bool, verb_category: str) -> str:
+# Verbs that are LEXICALLY prohibitive. The double-negative branch below is only valid when
+# the clause negates one of these ("shall not be prohibited" => permission). It is NOT valid
+# for an ordinary negated action verb, and the two are easy to confuse.
+#
+# MEASURED FAILURE: the extraction pass uses verb_lexical_category='prohibition_verb' to mean
+# "this clause expresses a prohibition", while this rule assumed it meant "the main verb is a
+# prohibition-lexicon verb". Combined with negation=True that manufactured a double negative,
+# so ALL 378 negation+prohibition_verb clauses derived as "permission" — including
+# "You shall not use threats", "you shall not report to work", and just-cause and
+# non-discrimination language. The LLM's own holistic judgment called 311 of those 378
+# "prohibition", i.e. the rule and the model disagreed on 82% of the path and the rule was
+# the one that was wrong.
+_LEXICAL_PROHIBITION_VERBS = (
+    "prohibit", "forbid", "ban", "bar ", "barred", "preclude", "disallow", "proscribe",
+    "enjoin", "restrict", "deny", "prevent",
+)
+
+
+def classify_statement_type(modal: str | None, negation: bool, verb_category: str,
+                            quote: str = "") -> str:
     """Table A.3 analogue: combine negation + modal class + verb-lexical-category
     into one of obligation/prohibition/permission/right, or "other" if none fit."""
     modal_class = (
@@ -174,6 +193,11 @@ def classify_statement_type(modal: str | None, negation: bool, verb_category: st
         if verb_category == "obligation_verb":
             return "right"        # "may not be required" — relief from a duty is a right
         if verb_category == "prohibition_verb":
+            # Only a genuine double negative if the clause actually negates a prohibition
+            # VERB. Otherwise this is an ordinary negated action = a prohibition, and
+            # reading it as "permission" inverts the polarity of the provision.
+            if quote and not any(v in quote.lower() for v in _LEXICAL_PROHIBITION_VERBS):
+                return "prohibition"
             return "permission"   # "shall not be prohibited" — double negative
         if verb_category == "permission_verb":
             return "prohibition"  # "shall not be allowed"
@@ -736,7 +760,8 @@ def classify_and_score(clause: dict) -> dict:
     elif _INANIMATE_SUBJ_RE.match(clause.get("subject_text") or ""):
         acting = "other"
     verb_category = clause.get("verb_lexical_category") or "plain"
-    statement_type = classify_statement_type(modal, negation, verb_category)
+    statement_type = classify_statement_type(modal, negation, verb_category,
+                                             clause.get("quote") or "")
     weight = modal_strength_for(modal, verb_category) if statement_type != "other" else 0.0
     return {
         **clause,
@@ -1003,6 +1028,7 @@ def process_document(
                     (clause.get("modal") or "").strip().lower() or None,
                     bool(clause.get("negation")),
                     clause.get("verb_lexical_category") or "plain",
+                    clause.get("quote") or "",
                 )
                 all_clauses.append(clause)
 
