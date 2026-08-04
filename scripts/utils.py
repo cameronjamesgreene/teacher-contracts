@@ -30,14 +30,21 @@ README = WORK / "readme.md"
 TEXT_DIR = WORK / "cache" / "extracted_text"
 OCR_TEXT_DIR = WORK / "cache" / "ocr_text"
 # Autonomous OCR: extract_text() decides on its own whether a document needs OCR (from the
-# native-text density) and builds the override via hybrid_ocr, so no manual OCR staging is ever
-# needed. AUTO_OCR=0 disables it (fall back to the old behaviour of only reading a pre-built
+# native-text density) and builds the override remotely via the SOM vision model, so no manual
+# OCR staging, GPU allocation or ocr-examples checkout is ever needed. AUTO_OCR=0 disables it (fall back to the old behaviour of only reading a pre-built
 # override). A page with fewer than AUTO_OCR_MIN_CHARS non-space chars counts as scanned; OCR
 # fires when at least AUTO_OCR_MIN_SCANNED pages are scanned OR the whole document is.
 AUTO_OCR = os.environ.get("AUTO_OCR", "1") == "1"
 AUTO_OCR_MIN_CHARS = int(os.environ.get("AUTO_OCR_MIN_CHARS", "50"))
 AUTO_OCR_MIN_SCANNED = int(os.environ.get("AUTO_OCR_MIN_SCANNED", "3"))
-AUTO_OCR_WAIT_S = int(os.environ.get("AUTO_OCR_WAIT_S", "4200"))  # concurrent-caller wait cap
+# The waiter timeout was sized for an olmocr2/SLURM build that could take over an hour.
+# SOM-API OCR runs at ~7s/page across 8 concurrent pages, so a 300-page scan finishes in
+# minutes; 4200s of blocking per document is fatal at corpus scale.
+AUTO_OCR_WAIT_S = int(os.environ.get("AUTO_OCR_WAIT_S", "900"))   # concurrent-caller wait cap
+# "som"  -> transcribe via the SOM vision model through som_client (default: governed,
+#           cached, instrumented, no GPU allocation or ocr-examples checkout required)
+# "olmocr2" -> the legacy hybrid_ocr/vLLM-on-SLURM path, kept for comparison
+AUTO_OCR_ENGINE = os.environ.get("AUTO_OCR_ENGINE", "som").strip().lower()
 # Output version dir. Override with CONTRACT_OUT_DIR to target a fresh run (e.g.
 # output_v4) without disturbing the previous version's CSVs.
 OUT_DIR = WORK / os.environ.get("CONTRACT_OUT_DIR", "output_v3")
@@ -263,8 +270,21 @@ def _autoocr_override(path: Path, text_path: Path, native: str) -> str | None:
         try:
             district, file_name = path.parent.name, path.name
             print(f"  [auto-ocr] {file_name}: {scanned}/{total} page(s) scanned — building OCR override…")
-            import hybrid_ocr              # lazy import: avoids a utils<->hybrid_ocr load cycle
-            hybrid_ocr.build(district, file_name, AUTO_OCR_MIN_CHARS)
+            if AUTO_OCR_ENGINE == "som":
+                # OCR through the SOM API, like every other model call: governed concurrency,
+                # retry classification, request-hash cache and telemetry. The previous path
+                # shelled out to olmocr2 via `uv run ... --use-hpc`, which needs the
+                # ocr-examples checkout, a vLLM GPU worker and a SLURM allocation, and which
+                # gave the caller no visibility into cost or failure.
+                import ocr_remote          # lazy: avoids a utils<->ocr_remote load cycle
+                from som_client import get_client
+                res = ocr_remote.build_override(
+                    get_client(), path, text_path.stem)
+                print(f"  [auto-ocr] {file_name}: {res.get('status')} "
+                      f"({res.get('pages_ocred', 0)} page(s) transcribed)")
+            else:
+                import hybrid_ocr          # lazy import: avoids a utils<->hybrid_ocr load cycle
+                hybrid_ocr.build(district, file_name, AUTO_OCR_MIN_CHARS)
         except Exception as exc:
             print(f"  [auto-ocr] build FAILED for {path.name}: {exc} — using native text")
         finally:

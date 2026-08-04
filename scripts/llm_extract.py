@@ -97,6 +97,13 @@ STAGE2_DOC_CHARS = 50_000   # chars of the original document passed to Stage 2 (
 LLM_RETRIEVAL = os.environ.get("LLM_RETRIEVAL", "1") == "1"
 LLM_RETRIEVAL_TOPK = int(os.environ.get("LLM_RETRIEVAL_TOPK", "8"))  # sections/batch to keep
 
+# ── two-view coding (default) ─────────────────────────────────────────────────────────────
+# Replaces the chunk x sub-batch x recovery x reconciliation path below with a whole-document
+# view plus an FTS5 BM25 retrieval view, unioned and gated on quote verification, then a
+# never-silent escalation for anything still coded not_discussed. See two_view.py for the
+# measurements that motivate it. Set LLM_TWO_VIEW=0 to run the legacy path for an A/B.
+TWO_VIEW = os.environ.get("LLM_TWO_VIEW", "1") == "1"
+
 # Category batch order must match the prefix order in extraction_elements_reduced.md.
 BATCH_ORDER = [
     "meta", "pay", "benefits", "leave", "workload",
@@ -745,7 +752,21 @@ def _process_document(
       cache/llm_cache/{document_id}__{cat}_{idx:02d}__s1c{ci:02d}.json
     so an interrupted run resumes at the next uncached chunk rather than
     re-querying everything.
+
+    With LLM_TWO_VIEW=1 (the default) this whole path is bypassed in favour of
+    two_view.code_document -- whole-document + FTS5 retrieval, unioned and quote-gated.
+    The legacy path is kept, and selectable with LLM_TWO_VIEW=0, because the recovery and
+    reconciliation passes it contains do recover real answers; removing them should be an
+    A/B result, not an assumption.
     """
+    if TWO_VIEW:
+        import two_view
+        coded = two_view.code_document(
+            client, doc.document_id, doc.text,
+            [q for _, _, batch in subbatches for q in batch],
+        )
+        return coded, 0, len(subbatches)
+
     # Use the full document text — no truncation. The chunker splits it into
     # DOC_CHUNK_SIZE sections so each Stage-1 call stays within a manageable
     # context window, and every part of even a very long document gets read.
@@ -972,6 +993,16 @@ def main() -> None:
         help="Process specific document(s) instead of the full sample. May be repeated.",
     )
     args = parser.parse_args()
+
+    # Register the request-hash cache + telemetry sink. som_client only records calls when
+    # a sink is registered, so this must happen at every entry point or a real run produces
+    # no cache and no telemetry (which is how the first v11 smoke test ran).
+    try:
+        import store
+        store.get_store().start_run(notes="llm_extract")
+    except Exception as exc:      # never let instrumentation stop a run
+        print(f"  [store] telemetry unavailable: {exc}")
+
 
     client = get_client()
 
