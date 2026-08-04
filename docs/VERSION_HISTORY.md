@@ -1,6 +1,16 @@
 # Version history — what survives, and what does not
 
-## The honest answer: there is NO code history for v1–v10.
+## Corrected 2026-08-04: v10 *is* preserved on GitHub.
+
+The `teacher-contracts` repo (github.com/cameronjamesgreene/teacher-contracts, commit
+`f85690b` "first upload to git for meeting with Kyle") contains a full snapshot of the
+pipeline whose `scripts/*.py` are **byte-identical to the v10 baseline** — som_client,
+llm_extract, salary_schedule, rights_score and utils all match commit `d1da2c3` exactly.
+So v10 code is recoverable, and a v10-vs-v11 diff is possible.
+
+v1–v9 remain unrecoverable. The statement below applies to those.
+
+## There is no code history for v1–v9.
 
 `git init` was run on 2026-08-03, at the start of the v11 work. The first commit
 (`d1da2c3`, "Baseline: v10 pipeline as deployed") is a snapshot of v10 as it stood that
@@ -11,10 +21,11 @@ CACHES, not code.
 
 Consequences, stated plainly:
 
-* We cannot diff v9 against v10, or reproduce any pre-v11 result.
+* We cannot diff v8 against v9, or reproduce any pre-v10 result. (v10 vs v11 IS diffable,
+  via the teacher-contracts snapshot.)
 * We cannot attribute an accuracy change to a code change for any version before v11.
 * The rights polarity inversion found in the v11 audit is present in `classify_statement_type`
-  as of the v10 baseline commit, but we cannot say when it was introduced.
+  in the v10 snapshot, but we still cannot say when it was introduced.
 * Every audit workbook v1–v10 grades a code state that no longer exists in retrievable form.
 
 ## What DOES survive: results and audits
@@ -48,10 +59,20 @@ Every change is committed with the measurement that motivated it. `store.py` rec
 every cache entry, so a result can be traced to the code that produced it. That was not
 true for any earlier version.
 
-## Recommended, not yet done
+## Done 2026-08-04
 
-1. `git tag v11` at the current commit, and tag each future version at its run commit.
-2. Push to a private remote. Right now the only copy of the history is this laptop; the HPC
-   has the working tree but not the `.git` directory.
-3. Commit the audit workbooks alongside the code that produced them (currently `output_v*/`
-   is gitignored as bulk output, so the workbooks are untracked).
+1. Tagged `v11`; pushed tag to the remote.
+2. Pushed the full 17-commit history to
+   `github.com/cameronjamesgreene/teacher-contracts` as branch **`v11-overhaul`**.
+   `main` is untouched and still holds the v10 snapshot, so the two are directly comparable.
+3. Audit workbooks for every version are now force-tracked in git — previously they sat
+   untracked under gitignored `output_v*/` directories and were the only surviving record of
+   v1–v10 quality.
+
+## Still recommended
+
+* Tag each future version at the commit that produced its run, rather than reconstructing
+  from mtimes afterwards.
+* `teacher-contracts` tracks 9,279 `cache/*.json` files and carries a 417 MB `.git`. Those
+  are regenerable API-response caches; gitignoring them would shrink the repo substantially.
+  This overhaul's repo excludes them deliberately (56 tracked files).
