@@ -1,0 +1,18 @@
+{
+  "review_id": "32dc72085d9228d2",
+  "a": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Nine A.4 (Teacher Employment) expressly defines the term: 'The term “permanent” for purposes of this Section shall be interpreted to mean “for the remainder of the work year in which the vacancy occurs”', and A.5/A.7 describe temporary replacement and temporary assignment status - all on PDF page 15 (printed footer 14), so status yes is right for both. Both quote the same verbatim sentence; A's page 15 is the correct PDF page, B's page 14 is the printed footer (off by one). A's narrative caveat is also accurate: 'probationary' appears only as 'Non-probationary teachers' (PDF p. 25, Article Fifteen B.2) and 'continuing contract' only in the recall-list sentence on PDF p. 17, with no tenure/provisional definition anywhere; the question is existence-only, so no value is owed."
+}

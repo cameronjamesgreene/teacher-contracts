@@ -1,0 +1,18 @@
+{
+  "review_id": "06048cd8e3f90d29",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "no",
+    "page": "yes",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Twenty A.1 sits on PDF page 28 (printed footer 27, so footers run one behind): 1-1/2 days per month from September 1 through June 1 (ten months) \"provided, however, that a teacher shall not accumulate more than fifteen (15) sick leave days during the entire year,\" so 15 is the correct figure; the only subset variation is Appendix J (PDF pp50-51), where job sharers get \"fifteen (half) sick days, pro-rated for months of service,\" still fifteen days. A's value and verbatim quote (including the governing fifteen-day proviso) are right, but its page 27 is the printed footer, not the PDF page (PDF p27 is the dues-deduction article). B's 18 is wrong — it multiplies 1.5 by twelve months — and its quote is cut off mid-sentence before the fifteen-day cap that governs the annual total, so it cannot support the stated value. Both records are unacceptable."
+}

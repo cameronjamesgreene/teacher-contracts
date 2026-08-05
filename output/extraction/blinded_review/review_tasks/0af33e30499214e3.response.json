@@ -1,0 +1,18 @@
+{
+  "review_id": "0af33e30499214e3",
+  "a": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Twenty A.1 expressly permits sick leave 'to care for sick family members for up to five (5) days,' so the status is yes for both; the question asks only whether the provision exists, so no value is owed (A's added 'five (5) days' is nonetheless accurate). Both quotes are verbatim, but the clause is on PDF page 28 (printed footer 27): A's page 28 is correct and B's page 27 is the printed number, off by one. Article Twenty Two D separately grants unpaid leave up to one year to care for a sick immediate family member, which does not disturb the sick-leave answer."
+}

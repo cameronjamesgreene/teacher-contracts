@@ -1,0 +1,18 @@
+{
+  "review_id": "8d0333ff4ea306af",
+  "a": {
+    "status": "no",
+    "value": "no",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Employee premium sharing is plainly discussed, so A's not_discussed is wrong: Article Six B.1 (PDF p12) says the District pays \"an amount not to exceed eighty-seven and one half percent (87.5%) of the monthly premium\" of Blue Choice (95% for an approved optional plan), Article Five (PDF p9) gives part-time secondary teachers \"one-half of the insurance benefits provided in Article Six,\" and Appendix J item 9 (PDF p50) offers insurance \"@ 85% / 15%.\" B's quote is verbatim from Appendix J item 4 (PDF p50), but its value covers only job sharers and omits the governing 87.5%/12.5% split and the other stated variations, so the value is incomplete; its page 57 is the printed footer, and the footer runs +7 ahead of the PDF page in the appendices (printed 44 on PDF p45 jumps to printed 53 on PDF p46 because the plan-description appendices are missing from the file), so the PDF page is 50. Both candidates are unacceptable."
+}

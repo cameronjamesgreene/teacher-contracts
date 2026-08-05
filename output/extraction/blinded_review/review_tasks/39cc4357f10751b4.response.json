@@ -1,0 +1,18 @@
+{
+  "review_id": "39cc4357f10751b4",
+  "a": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "The provision exists: Article Fifteen (Teacher Evaluation) A. ('If a teacher's performance fails to meet expectations, the written evaluation will identify the problem areas and the teacher will be encouraged towards improvement.') and, more operatively, B.3, where after evaluation deficiencies 'shall immediately be brought to the attention of the teacher' and the Supervisor/Principal/Superintendent 'shall determine appropriate corrective action designed to help correct such deficiencies and shall provide assistance to implement such action' - both on PDF page 25 (printed footer 24). A's quote is verbatim and on point but its cited page 24 is the Vacancies and Promotions article; the citation follows the printed footer, a consistent -1 offset from the PDF page. B's not_discussed is wrong; searches for improvement, remediation, corrective action, deficien*, assistance, support plan, and unsatisfactory return the Article Fifteen language above, so no owed evidence/page is excused."
+}

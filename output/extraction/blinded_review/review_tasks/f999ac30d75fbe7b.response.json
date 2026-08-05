@@ -1,0 +1,18 @@
+{
+  "review_id": "f999ac30d75fbe7b",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "The voluntary-transfer procedure is Article Fourteen F (Vacancies and Promotions): the March 1 written request for a change of school and/or grade assignment and the 11-years-or-more May 4 option for vacancies posted April 20, with ten requests granted on seniority and more at the Superintendent's sole discretion, transfers made at the close of the year - the paragraph runs from PDF page 24 (printed footer 23) onto PDF page 25. A's value is complete and its verbatim single-sentence quote sits entirely on PDF page 24, matching its cited page. B's value is substantively correct but its evidence is a stitched three-fragment quote with ellipses spanning two paragraphs and PDF pages 24-25, and its cited page 23 is the printed footer of PDF page 24 (that PDF page holds only Involuntary Transfer F/G and Article Fourteen A-B). Note neither answer mentions Appendix J (PDF p. 51), where a terminated job share lets teachers 're-apply for another teaching vacancy in the district'; I treated that as a re-application right rather than a separate voluntary-transfer procedure."
+}

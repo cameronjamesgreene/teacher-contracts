@@ -1,0 +1,56 @@
+{
+  "0_incumbent": {
+    "questions": 38,
+    "status": 0.6579,
+    "required": 0.6053,
+    "completeness": 0.5219,
+    "page": 0.6579,
+    "evidence": 0.6053,
+    "overall": 0.2895
+  },
+  "A_sweep": {
+    "questions": 38,
+    "status": 0.8684,
+    "required": 0.7368,
+    "completeness": 0.5219,
+    "page": 0.7895,
+    "evidence": 1.0,
+    "overall": 0.6842
+  },
+  "B_verify": {
+    "questions": 38,
+    "status": 0.9474,
+    "required": 0.8684,
+    "completeness": 0.7605,
+    "page": 0.9211,
+    "evidence": 1.0,
+    "overall": 0.8421
+  },
+  "E_ensemble": {
+    "questions": 38,
+    "status": 0.9474,
+    "required": 0.9211,
+    "completeness": 0.7737,
+    "page": 0.9211,
+    "evidence": 1.0,
+    "overall": 0.8947
+  },
+  "F_ensemble_plus_subset": {
+    "questions": 38,
+    "status": 0.9474,
+    "required": 0.9211,
+    "completeness": 0.7974,
+    "page": 0.9211,
+    "evidence": 1.0,
+    "overall": 0.8947
+  },
+  "baseline": {
+    "questions": 38,
+    "status": 0.8421,
+    "required": 0.7368,
+    "completeness": 0.4693,
+    "page": 0.1316,
+    "evidence": 0.7105,
+    "overall": 0.0789
+  }
+}

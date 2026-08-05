@@ -1,0 +1,18 @@
+{
+  "review_id": "a1770dad6300c847",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "no"
+  },
+  "reviewer_notes": "The document names two health plans: Article Six A (PDF p12) \"Hospital/Medical Insurance coverage under the Blue Cross - Blue Shield \\\"Blue Choice\\\" Plan\" with Option I/Option II co-pays, and the paragraph on PDF p13 \"The parties have agreed to replace the current Matthew Thornton “Classic” Plan with Matthew Thornton Blue Benefit Plan\" (the table of contents also lists a “Blue Choice” Plan and a Matthew Thorton Blue Plan appendix, though those appendix pages are missing from the PDF). A's value is therefore correct and complete, but its evidence stitches two sentences from two different pages (PDF p12 and PDF p13) into one continuous quote, and its cited page 11 contains neither sentence (PDF p11 is Article Five compensation; footer numbers run one behind the PDF page here). B's quote and page 12 are correct, but its value omits the Matthew Thornton Blue Benefit Plan. Neither record is acceptable as coded data."
+}

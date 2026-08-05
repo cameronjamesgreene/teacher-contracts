@@ -1,0 +1,18 @@
+{
+  "review_id": "f695627de56f11a6",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Twelve (Teaching Hours and Teaching Load) is the only workday provision: A.1 leaves student starting/dismissal times to the Board with the proviso that \"no change in the present schedule will increase the length of the teacher day,\" A.2.a requires teachers on site fifteen minutes before student admission (PDF page 19, footer \"18\") and A.2.b fifteen minutes after dismissal (PDF page 20). Searches for hours-per-day, level-specific schedules, clock times, job share (Appendix J), specialist MOUs (Appendices K-L) and psychologist work-day appendices found no total-hours figure and no differing figure by school level, so the 15-minute framing is the correct value; neither candidate notes A.2.e, which exempts School Psychologists from 2.a and 2.b. A quotes A.2.a contiguously and verbatim with the correct PDF page 19. B's quote is stitched across PDF pages 19 and 20 with an ellipsis replacing the governing \"length of the teacher day\" language, and its page 18 is the printed footer of page 19, so it is off by one."
+}

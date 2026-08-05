@@ -1,0 +1,6 @@
+document_id,district,pdf_pages,questions,substantive,coverage,self_flagged_ungrounded,verbatim,contiguous,on_page,problem_count
+manchester_school_district__83__de5d62c9,Manchester School District,54,38,35,0.9211,0,1.0,1.0,1.0,0
+anoka_hennepin_school_district__17_19_ta__e39ab993,Anoka–Hennepin School District,4,106,14,0.1321,0,1.0,1.0,1.0,0
+providence_public_school_district__91__9ff4b251,Providence Public School District,84,106,77,0.7264,0,1.0,1.0,0.987,1
+dallas_independent_school_district__33__d7be4a6c,Dallas Independent School District,739,106,87,0.8208,0,1.0,0.9885,0.954,3
+pittsburgh_public_schools__pittsburgh_10_15__bdfabcd4,Pittsburgh Public Schools,34,106,40,0.3774,1,0.975,0.975,0.95,2

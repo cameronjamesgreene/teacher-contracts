@@ -1,0 +1,18 @@
+{
+  "review_id": "7e38a8a841a34dac",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Eleven B.2-B.3 (Individual Teacher Contracts) sets the probationary term: annual automatic renewal 'during the period of said teacher's first three (3) years of continuous employment', and 'After three (3) years of continuous employment by said Board, the contract shall continue in force from year to year' with termination only for enumerated causes. This restates the New Hampshire statutory three-year baseline (RSA 189:14-a), but the document states it itself, so it is discussed and the value of three years is right for both. Both quotes are verbatim (page-spanning stitch across B.2 and B.3), but the text sits on PDF page 19, not the page 18 both candidates report: printed footers in this PDF run one behind the PDF page (footer '18' = PDF 19). Both records fail on the page field only."
+}

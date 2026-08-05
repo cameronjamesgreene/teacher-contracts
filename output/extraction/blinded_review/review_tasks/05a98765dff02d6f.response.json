@@ -1,0 +1,18 @@
+{
+  "review_id": "05a98765dff02d6f",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "reviewer_notes": "Article Twenty One D. (Temporary Leaves of Absence, with full pay) grants \"Five (5) consecutive days leave of absence because of death in the immediate family of the teacher only\" plus \"one (1) day of leave to attend the funeral of a relative not listed in the preceding sentence\"; this paragraph sits on PDF page 31 (printed footer \"30\"), and appears nowhere else in the document. Both candidates report the day counts correctly, but A cites page 30, which is the printed footer number rather than the PDF page, so its page is off by one; A's ellipsis also drops the proviso that two of the five days may be reserved for settling the decedent's estate, though the day counts it quotes are verbatim. B quotes paragraph D contiguously and verbatim with the correct PDF page 31, so B is acceptable as coded data."
+}

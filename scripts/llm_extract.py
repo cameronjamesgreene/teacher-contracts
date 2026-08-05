@@ -26,7 +26,7 @@ Outputs:
 
 Calls the SOM API (an OpenAI-compatible chat completions endpoint), the same as
 salary_schedule.py and rights_score.py. See som_client.py for the key/model
-setup (SOM_API_KEY env var or scripts/som_api_key.txt).
+setup (SOM_HPC_LLM_API_KEY preferred; SOM_API_KEY or scripts/som_api_key.txt also work).
 
 Usage:
     python3 llm_extract.py                          # run the full 40-document sample

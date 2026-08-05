@@ -1,0 +1,18 @@
+{
+  "review_id": "51b2fd983ff1fd56",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "The provision exists: Article Twenty One A.2 says 'If during any school year a teacher uses no personal leave and no sick leave, that teacher shall be eligible for an additional bonus day under the provisions which are set forth in the Article Twenty D., Sick Leave of this Agreement,' and Article Twenty D lets that bonus be taken as a per-diem cash payment or a day off; Article Twenty One H reinforces this by protecting eligibility for 'a sick leave incentive day.' A's not_discussed is therefore wrong and its empty evidence/page are owed but absent (searches run: 'unused personal leave', 'personal leave bonus day', 'buy back sick days', 'per diem payment unused', 'conversion of unused days', 'personal days paid'). B's status and verbatim quote are right, but A.2 is on PDF page 31 (printed footer 30), so B's page 30 is the printed number and off by one. BOTH candidates are unacceptable as coded data."
+}

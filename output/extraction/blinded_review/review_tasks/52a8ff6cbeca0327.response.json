@@ -1,0 +1,18 @@
+{
+  "review_id": "52a8ff6cbeca0327",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Twenty A.1 (SICK LEAVE) states verbatim 'Sick leave days may be accumulated from year to year with a maximum limit of one hundred and twenty (120) days.' That clause sits on PDF page 28, whose printed footer reads 27, so printed numbers run one behind PDF pages throughout this agreement. A's page 28 is right; B's page 27 is the printed footer and is off by one. 120 is the only stated carry-over cap: the same paragraph separately caps in-year earning at fifteen (15) days, Article Twenty B caps the retirement payout at ninety (90) days, and Appendix J (PDF p. 50-51) has job sharers accruing sick leave at half-day rates with no different carry-over cap, so neither candidate's value omits a group variation."
+}

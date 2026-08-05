@@ -1,0 +1,18 @@
+{
+  "review_id": "50c7d02dd926c237",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Fifteen, TEACHER EVALUATION, begins on PDF page 25 (printed footer 24) and describes procedures in detail: open monitoring/observation, evaluation 'in accordance with the Evaluation Handbook in effect at the time', a pre-observation meeting on the upcoming week's instructional plan, delivery of the evaluative report within fifteen working days, the Interim Assessment conference waiver, and a required conference before any Professional Assessment Instrument is filed (Art. Fifteen A-B.3, pp. 25-26). A's 'not_discussed' is therefore wrong (searches on evaluat*, observation, assessment, instrument, handbook, probationar* all land on p.25), and it supplies no evidence or page. B's status is right and its quote is verbatim from Art. Fifteen B.1, but it cites page 24: that is the printed footer number, one behind the PDF page, which is 25. The document names no student-growth or test-score component (no hits for 'student growth', 'test score', 'achievement', 'summative', 'value-added'). Both candidates are unacceptable as coded data."
+}

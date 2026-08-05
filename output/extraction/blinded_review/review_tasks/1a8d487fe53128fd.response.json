@@ -1,0 +1,18 @@
+{
+  "review_id": "1a8d487fe53128fd",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "yes",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "na",
+    "page": "na",
+    "overall": "yes"
+  },
+  "reviewer_notes": "Searches for dependent, spouse, husband/wife, family, domestic partner, subscriber, single/two-person/family tier, and survivor coverage (both regex over the form-feed text and document-scoped FTS on \"dependent coverage insurance\", \"spouse family coverage\", \"domestic partner\", \"family plan single two person premium\") turn up no clause extending health coverage to dependents: Article Six (PDF pp12-13) sets one premium share with no coverage tiers, spouse appears only in the assignment article (PDF p18) and the bereavement definition of immediate family (PDF p31), and the plan-description appendices are physically absent from this PDF (printed footer jumps 44 -> 53 between PDF pp45-46). A's quote is real and its page 11 is the correct PDF page (printed footer 10), but Article Five.I's Dependent Care Reimbursement Plan is a dependent-care/premium-conversion/FSA package \"for the benefit of the members of the bargaining unit,\" not dependent health coverage, so it supports a different provision; the quote also carries a \"Section I states\" label and a trailing ellipsis. B's not_discussed is the defensible reading."
+}

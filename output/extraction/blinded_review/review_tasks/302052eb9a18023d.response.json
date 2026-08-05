@@ -1,0 +1,18 @@
+{
+  "review_id": "302052eb9a18023d",
+  "a": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Six, Insurance, Section A, PDF page 12 (printed footer 11): 'The Board agrees to provide Hospital/Medical Insurance coverage under the Blue Cross - Blue Shield \"Blue Choice\" Plan', confirmed by pdftotext -f 12 against the PDF itself; Section B.2 on PDF page 13 adds that 'All teachers shall be covered from the first day of employment', so status yes is right for both. The question asks only whether coverage exists, so no value is owed. Both quotes are the governing sentence (A joins the line break 'Blue Cross -/Blue Shield' without the space, a whitespace-only artifact, which I did not treat as an alteration). A's page 12 is the correct PDF page; B's page 11 is the printed footer number, one less than the PDF page, so B's page fails."
+}

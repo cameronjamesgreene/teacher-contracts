@@ -1,0 +1,18 @@
+{
+  "review_id": "f9073480f750d26f",
+  "a": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Six B.1 on PDF page 12 (printed footer 11) states two employer shares in consecutive paragraphs: 'not to exceed eighty-seven and one half percent (87.5%) of the monthly premium of Blue Cross-Blue Shield \"Blue Choice\" Plan' and, for an approved optional plan, 'ninety-five percent (95%) of that plan's premiums'. Appendix J, Job Share Agreement, PDF page 50 states further splits for job-sharing teachers: item 4, 'The teachers' share will be 50% of the District's share plus the regular employee share', and item 9, if one job-share partner declines district insurance the other 'will have the option of taking insurance @ 85% / 15%'. A's value gives only 87.5% and omits both the 95% optional-plan figure and the Appendix J job-share splits; B's value gives 87.5% and 95% but still omits the Appendix J job-share splits, so both values are incomplete. Both quotes are verbatim from PDF page 12 (B's is two contiguous paragraphs, no omitted governing words); A's cited page 11 is the printed footer, one less than the PDF page, while B's page 12 is correct."
+}
