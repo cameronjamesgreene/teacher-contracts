@@ -1,0 +1,18 @@
+{
+  "review_id": "99699ff7cec510c0",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Twenty Two, Extended Leaves of Absence, PDF page 32 (printed footer 31) contains both B: military leave 'a teacher will be placed on the salary schedule at the level which would have been achieved had that teacher remained actively employed' and C(sic, sec. B): the same placement rule for teachers who join 'the Peace Corps, VISTA, or National Teacher Corps', so the provision is plainly discussed and A's not_discussed is wrong (searched 'military service credit salary', 'prior service credit experience', 'armed forces induction', 'years of service placement salary schedule'; the hits confirm presence, not absence). B's quote is verbatim from PDF page 32 but its cited page 31 is the printed footer number, one less than the PDF page, so the page fails; B also captures only the military clause and not the parallel public-service (Peace Corps/VISTA) clause in the same article. Question is existence-only, so no value is owed from either candidate."
+}

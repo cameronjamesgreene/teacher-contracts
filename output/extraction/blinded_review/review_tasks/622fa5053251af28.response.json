@@ -1,0 +1,18 @@
+{
+  "review_id": "622fa5053251af28",
+  "a": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "The document does specify absence reporting and substitute provisions: Article Twenty One A.1 on PDF page 30 states \"In the event of an emergency, the teacher will follow the normal sick leave procedure for calling in\" (and requires personal leave to be requested five school days in advance); Article Twelve A.3 on PDF page 20 states \"The Board will use every reasonable effort to provide a substitute teacher whenever a teacher is absent\"; Article Twenty A. on PDF pages 28-29 requires a physician's certificate for absences of three days or more; Article Nine F. on PDF pages 17-18 governs substitute call lists. Searches run: \"absence notify report principal\", \"substitute teacher absent provide\", \"sick leave procedure calling in notice\" (plus full-text scans for \"calling in\", \"notify\", \"substitute\"), all of which surface these provisions, so B's not_discussed is wrong and owed evidence/page are missing. A's quoted sentence is verbatim and on the correct PDF page 30, despite the \"A. 1. ...\" label prefix."
+}

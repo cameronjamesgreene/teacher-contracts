@@ -1,0 +1,18 @@
+{
+  "review_id": "f048f31fb636ae7c",
+  "a": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Appendix B contains three separately dated schedules: 'FY'08 Teacher Salary Schedule 10/1/2007' (PDF p.42), 'FY'09 ... 9/1/08' (PDF p.43), and 'FY'10 ... 9/1/09' (PDF p.44), inside a contract effective July 1, 2007 to June 30, 2010 (PDF p.5 title block; Article Twenty Seven, PDF p.40). A's quote and page are exact for the FY'10 table, but its value covers only FY2010 and omits the FY'08 and FY'09 schedules, so the extracted value is materially incomplete. B's coverage range is correct and its quote is verbatim, but the quoted line 'MEA CONTRACT July 1, 2007 through June 30, 2010' sits on PDF page 5 (printed footer '4'), so the reported page 4 is off by one (footers in this PDF run one behind PDF pages throughout); schedule-specific headers on pp.42-44 would have been the better evidence. Both records fail as coded data."
+}

@@ -1,0 +1,18 @@
+{
+  "review_id": "34ddfa49e1e666e1",
+  "a": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Five I. reads \"The Board agrees to maintain a Dependent Care Reimbursement Plan, A Premium Conversion Plan and Health Care Reimbursement Plan in accordance with current federal laws and regulations. The Plans will be maintained ... as long as they are approved by the Internal Revenue Service and in compliance with applicable Federal laws and regulations.\" Confirmed verbatim on PDF page 11 (pdftotext -f 11), printed footer \"10\", so A's page 11 is right and B's page 10 is the printed footer (offset of one). Both values are incomplete for a \"quote all sentences\" question: neither includes Article Twenty-Two's \"NOTE: The parties agree to execute a memorandum of understanding agreeing to accept the Board's policy regarding FMLA leave...\" (PDF p. 34), the document's only named federal statute; B additionally drops the second half of the Article Five I. paragraph, the clause that actually invokes the IRS and \"applicable Federal laws and regulations.\" Both candidates are therefore wrong, though A is materially closer (right page, full paragraph)."
+}

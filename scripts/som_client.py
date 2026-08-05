@@ -1,8 +1,9 @@
 """Shared Yale SOM API client setup (OpenAI-compatible endpoint) and retry helper.
 
 Used by salary_schedule.py and rights_score.py instead of each defining their own
-copy of the client setup / retry logic. The key is read from som_api_key.txt next
-to this script (override with the SOM_API_KEY env var). The only model available on
+copy of the client setup / retry logic. The preferred key is SOM_HPC_LLM_API_KEY;
+SOM_API_KEY and som_api_key.txt next to this script remain compatibility fallbacks.
+The only model available on
 this endpoint as of this writing, Qwen3.6-35B-A3B-FP8, is a reasoning model that
 emits a long chain-of-thought (returned separately as reasoning_content) before its
 final JSON answer, so MAX_TOKENS is set high to give it room to finish; truncated or
@@ -69,13 +70,13 @@ def cap_text(text: str, reserve_output: int = MIN_OUTPUT_TOKENS,
 
 def get_client():
     import openai
-    api_key = os.environ.get("SOM_API_KEY")
+    api_key = os.environ.get("SOM_HPC_LLM_API_KEY") or os.environ.get("SOM_API_KEY")
     if not api_key and SOM_API_KEY_FILE.exists():
         api_key = SOM_API_KEY_FILE.read_text(encoding="utf-8").strip()
     if not api_key:
         raise SystemExit(
-            f"Error: no SOM API key found. Set the SOM_API_KEY environment variable, "
-            f"or create {SOM_API_KEY_FILE} containing the key, and re-run."
+            "Error: no SOM API key found. Set SOM_HPC_LLM_API_KEY (preferred) or "
+            f"SOM_API_KEY, or create {SOM_API_KEY_FILE} containing the key, and re-run."
         )
     return openai.OpenAI(api_key=api_key, base_url=SOM_BASE_URL, timeout=600.0)
 

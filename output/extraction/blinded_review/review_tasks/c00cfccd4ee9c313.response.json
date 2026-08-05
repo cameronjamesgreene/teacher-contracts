@@ -1,0 +1,18 @@
+{
+  "review_id": "c00cfccd4ee9c313",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "no",
+    "page": "yes",
+    "overall": "no"
+  },
+  "reviewer_notes": "The lunch-period provision is Article Twelve C.1 on PDF page 21 (printed footer 20): 'All teachers in the junior and senior high schools will have a duty-free lunch period. Elementary teachers shall have a duty-free lunch period of at least twenty (20) minutes.' 'lunch' appears only on PDF pages 8, 9 and 21 in the whole document. A quotes C.1 verbatim, correctly reports 20 minutes for elementary and no stated duration for secondary, and correctly flags the separate Article Five A.2.a half-hour paid lunch; page 21 is right. B's '30' comes from Article Five A.2.a, which applies only to 'any teacher hired to continue work beyond that teacher's normal contract year' working four or more hours - an extended-work pay rule, not the regular duty-free lunch period - so the value is wrong and omits the stated 20-minute elementary lunch; the quote is verbatim and PDF page 8 does contain it, so page is right but the evidence governs a different provision."
+}

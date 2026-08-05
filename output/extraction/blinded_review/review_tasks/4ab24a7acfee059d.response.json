@@ -1,0 +1,18 @@
+{
+  "review_id": "4ab24a7acfee059d",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "The topic is plainly discussed, so A's not_discussed is wrong and its empty evidence/page are not excused: Appendix A.A creates a mentor program of at least two teachers and Appendix A.B an ESEA joint study committee on teacher evaluation, teaching load and professional development (PDF p. 41); Appendix B pays Plus.33 Mentors and Plus.22 Building Level Instructional Coordinators (PDF pp. 42-44); Art. Seven C creates a joint study committee on National Board certification (PDF p. 14); Art. Twenty-Two references the District Staff Development Committee (DISCO) (PDF p. 31); Appendix K creates the Special Education and Subject Matter Specialists Joint Committees (PDF p. 52); Department Heads/Building Level Instructional Coordinators have a distinct 185-day work year (Art. Twelve B.3-B.4, PDF p. 21). Searches run before rejecting absence: mentor/instructional coach/program, council/committee/professional development, department head/stipend, lead teacher/master teacher/differentiated, plus text scans for 'team leader', 'career ladder', 'coach'. B's status is right and all three quotes are verbatim and on point, but every cited page is the printed footer number rather than the PDF page: footer 40 = PDF 41 (ESEA), footer 41 = PDF 42 (Plus.22 list), footer 59 = PDF 52 (Appendix K). The offset is not fixed (+1 through PDF p. 45, then footers jump 44 to 53), and cited page 59 does not exist at all since the PDF has only 54 pages, so page fails and the record is not acceptable as coded."
+}

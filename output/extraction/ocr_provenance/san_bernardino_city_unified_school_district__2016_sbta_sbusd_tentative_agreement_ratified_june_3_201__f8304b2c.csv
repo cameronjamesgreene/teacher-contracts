@@ -1,0 +1,9 @@
+page,engine,reason,agreement,disputed,dropped
+1,olmocr2,figures agree (1.0); prose-preferred engine,1.0,0,
+2,apple_vision,only surviving engine,,0,olmocr2
+3,olmocr2,figures agree (1.0); prose-preferred engine,1.0,0,
+4,olmocr2,figures agree (1.0); prose-preferred engine,1.0,0,
+5,apple_vision,only surviving engine,,0,olmocr2
+6,apple_vision,only surviving engine,,0,olmocr2
+7,olmocr2,figures agree (1.0); prose-preferred engine,1.0,0,
+8,olmocr2,figures agree (1.0); prose-preferred engine,1.0,0,

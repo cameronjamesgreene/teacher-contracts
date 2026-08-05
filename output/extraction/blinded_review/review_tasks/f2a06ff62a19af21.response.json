@@ -1,0 +1,18 @@
+{
+  "review_id": "f2a06ff62a19af21",
+  "a": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "no",
+    "value": "no",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Federal law is referenced in this contract, so B's not_discussed is wrong: Article Five I. \"in accordance with current federal laws and regulations ... approved by the Internal Revenue Service and in compliance with applicable Federal laws and regulations\" (PDF p. 11), and Article Twenty-Two's \"NOTE: The parties agree to execute a memorandum of understanding agreeing to accept the Board's policy regarding FMLA leave\" (PDF p. 34). Searches for \"federal laws regulations\", \"Internal Revenue Service\", \"FMLA Family Medical Leave\", plus regex sweeps for federal/U.S.C./Title VII/COBRA/ERISA/Section 125 across all 54 pages confirm the topic is present, so B's derived fields are scored no rather than na. A's quote is verbatim but its answer \"None specifically cited\" misses FMLA, a named federal statute, and its page 10 is the printed footer of PDF page 11 (offset of one). Both candidates are wrong."
+}

@@ -1,0 +1,294 @@
+# Blinded contract-answer review: 6fbd04b6da0ba22a
+
+## Source of truth
+- PDF: `raw/Manchester School District/83.pdf`
+- Extracted page-delimited text: `cache/extracted_text/manchester_school_district__83__de5d62c9.txt`
+- Text status: `usable`
+
+The PDF and document text are authoritative. A and B are anonymized; do not infer which system produced either.
+
+## Question
+- ID: `discipline_dismissal_002`
+Does the document describe dismissal, termination, discharge, or contract cancellation procedures?
+
+## Candidate A
+- Answer: yes
+- Evidence: "The Board may terminate this contract at any time for one or more of the following reasons: (1) inefficiency or incompetence; (2) insubordination against reasonable rules of the Board; (3) moral misconduct; (4) disability, as shown by competent medical evidence; (5) elimination of the position to which the teacher was appointed, if no other position exists to which the teacher may be appointed, if qualified, or (6) other due and sufficient cause, provided prior to terminating the contract, the Board shall give the teacher a written notice that termination of that teacher's contract is under consideration and upon written request filed by the teacher with the Board within five (5) days after receipt of such notice, the Board shall within the next succeeding five (5) days give the teacher a statement, in writing, of its reasons therefore. Within twenty (20) days after receipt from the Board of written notice that contract termination is under consideration, the teacher may file with the Board a written request for a hearing, which the Board shall hold within fifteen (15) days after receipt of such request. Such hearing shall be public if the teacher so requests or the Board so designates. The teacher shall have the right to appear with counsel of the teacher's choice at such hearing, whether public or private. The Board shall give the teacher its written decision within fifteen (15) days after such hearing."
+- Page: 19
+
+## Candidate B
+- Answer: yes
+- Evidence: The Board may terminate this contract at any time for one or more of the following reasons: (1) inefficiency or incompetence; (2) insubordination against reasonable rules of the Board; (3) moral misconduct; (4) disability, as shown by competent medical evidence; (5) elimination of the position to which the teacher was appointed, if no other position exists to which the teacher may be appointed, if qualified, or (6) other due and sufficient cause, provided prior to terminating the contract, the Board shall give the teacher a written notice that termination of that teacher's contract is under consideration and upon written request filed by the teacher with the Board within five (5) days after receipt of such notice, the Board shall within the next succeeding five (5) days give the teacher a statement, in writing, of its reasons therefore. Within twenty (20) days after receipt from the Board of written notice that contract termination is under consideration, the teacher may file with the Board a written request for a hearing, which the Board shall hold within fifteen (15) days after receipt of such request.
+- Page: 18
+
+## Cited-page excerpts
+### PDF page 17
+MEA 2007-2010
+
+
+
+lottery. Any employee on lay-off shall not be prevented from securing employment during the period
+said employee is on lay-off.
+
+C. 5. Seniority lists within the classifications set forth above shall be established by the
+Administration by February 1 of each year for employees who are not on a continuing contract and
+those lists shall be revised every twelve (12) months. Such lists shall be promptly transmitted to the
+Association. A teacher's position on the seniority list shall remain unchanged during military and
+maternity leave of absence.
+
+C. 6. If a vacancy occurs, a laid-off employee with the highest seniority in that classification shall be
+recalled first. Such notice shall be by registered or certified mail, postage prepaid, to the last address
+given to the Administration by the employee. If a teacher rejects the offer or fails to respond to the
+Superintendent within ten (10) calendar days after receipt of the above notice of recall, said teacher
+will be deemed to have refused the position offered and the Superintendent may strike that teacher's
+name from the various seniority lists and shall then notify the teacher with the next highest seniority.
+
+C. 7.   Seniority shall be broken by:
+
+        a.     Discharge;
+        b.     Voluntary quit;
+        c.     Fails to respond to a notice of recall as specified in the preceding Section 5;
+        d.     Remaining on lay-off for more than twenty-four (24) months.
+
+C. 8. A teacher who is laid off will remain on the recall list for twenty-four (24) months after the
+effective date of said teacher's lay-off unless that teacher:
+
+        a.     Waives recall rights;
+        b.     Resigns;
+        c.     Fails to accept recall to the position that said teacher held immediately prior to layoff or
+               to a substantially equivalent position; or
+        d.     Failure to report to work in a position that said teacher has accepted within thirty (30)
+               days after receipt of the notice of recall.
+
+C. 9. No new teachers shall be employed while there are certified laid-off and available teachers to
+fill the vacancies.
+
+D.      Seniority shall be defined as follows:
+
+        Seniority shall accrue from the first day of permanent employment as set forth in
+Article Nine A. (4). Paragraph 1 above.
+
+E.       If a teacher who is on layoff is offered and accepts a less than full-time position, he/she will
+forfeit his/her right to recall for the remainder of the academic year, but shall remain on the recall list
+for the next school year. Any other less senior teacher who is subsequently hired for a full-time
+position will be informed in writing that his/her position is temporary and subject to the recall rights of
+other teachers for the ensuing academic year.
+
+F.       Laid off teachers will be given first refusal for substitute teaching opportunities, provided they
+notify the Superintendent in writing prior to the first day for students. The school district shall compile
+a list of teachers requesting this benefit and shall rank them by seniority. Teachers shall be contacted
+each day, if applicable, for substitute opportunities by seniority; with the most senior called first. The
+school district may designate an independent agency to administer this program. This benefit is
+
+                                                    16
+
+### PDF page 18
+MEA 2007-2010
+
+
+
+limited to calls made by the school district or its designated agency. Contacts for substitutes made by
+principals and other authorized school personnel are not covered by this provision.
+
+         If a teacher is not called in accordance with this Section F., he/she will be placed at the top of
+the list, regardless of his/her seniority, for the next practicable substitute opportunity. Thereafter,
+he/she shall be called in accordance with the regular list.
+
+
+ARTICLE TEN
+
+TEACHER ASSIGNMENT
+
+A.     All teachers will be given written notice of their salary schedules, building assignments and
+room assignments for the forthcoming year not later than June 30 of the preceding year, which will be
+adhered to, except in unusual circumstances. In the event that changes in such schedules are
+proposed after the last day of school, the Association and all teachers affected will be notified
+promptly, in writing, and upon the request of the teacher and the Association, the changes will be
+promptly reviewed between the Superintendent or the Superintendent's representative and the
+Association.
+
+B.     In order to assure that pupils are taught by teachers working within their areas of competence,
+teachers will not be assigned, except temporarily and for good cause, outside the scope of their
+teaching certificates and/or their major or minor fields of study.
+
+C.    Wherever practicable, changes in grade assignment in the elementary schools and in subject
+assignment in the secondary schools will be voluntary, except in cases of emergency.
+
+D.     A husband and wife will not be disqualified from assignment to or remaining at the same
+school because of their marital status. In case either spouse accepts an administrative position in the
+school or a department head position in the department in which the other spouse teaches, the other
+spouse will be assigned to another school.
+
+E.      Each junior and senior high school shall maintain, whenever necessary, a detention
+hall. Detention hall supervision shall first be offered to teachers. If no teachers apply, then the Board
+or its designee, may assign non-bargaining unit members to perform this duty. If, in the opinion of the
+Principal, there are no qualified teachers or no qualified non-bargaining unit members have applied, if
+opened to them, the Principal shall assign teachers to this duty provided that no teacher shall be
+assigned to conduct the detention hall more than fifty percent (50%) of the time. The Principal shall
+make the final determination among applicants for the detention hall position.
+
+
+ARTICLE ELEVEN
+
+INDIVIDUAL TEACHER CONTRACTS
+
+A.    The Board and the individual teachers will enter into individual contracts as set forth in
+Appendix C attached hereto and incorporated herein by reference.
+
+B. 1. The following terms and conditions shall apply with respect to the employment of each
+teacher.
+
+
+
+                                                    17
+
+### PDF page 19
+MEA 2007-2010
+
+
+
+B. 2. The contract shall be renewed annually, automatically, during the period of said teacher's first
+three (3) years of continuous employment by said Board, unless the teacher has been notified, in
+writing, prior to May 10th that the contract will not be renewed for the following year. If a teacher
+receives a notice of non-renewal set forth in the preceding sentence, the parties agree that the
+teacher shall not be entitled to a statement of reasons relating to any such notice except as may be
+required by law. For each year for which this contract is renewed, the annual salary of the teacher
+shall be in accordance with the provisions of the prevailing Master Agreement between the Board and
+the Association.
+
+B. 3. After three (3) years of continuous employment by said Board, the contract shall continue in
+force from year to year, subject to the following conditions:
+
+       a. It may be terminated by mutual consent at any time.
+
+       b. The teacher may resign by submitting written notice to the Board not later than June 30 of
+       the teacher's intention not to return for the ensuing year.
+
+       c. The Board may terminate this contract at any time for one or more of the following reasons:
+       (1) inefficiency or incompetence; (2) insubordination against reasonable rules of the Board; (3)
+       moral misconduct; (4) disability, as shown by competent medical evidence; (5) elimination of
+       the position to which the teacher was appointed, if no other position exists to which the
+       teacher may be appointed, if qualified, or (6) other due and sufficient cause, provided prior to
+       terminating the contract, the Board shall give the teacher a written notice that termination of
+       that teacher's contract is under consideration and upon written request filed by the teacher
+       with the Board within five (5) days after receipt of such notice, the Board shall within the next
+       succeeding five (5) days give the teacher a statement, in writing, of its reasons therefore.
+       Within twenty (20) days after receipt from the Board of written notice that contract termination
+       is under consideration, the teacher may file with the Board a written request for a hearing,
+       which the Board shall hold within fifteen (15) days after receipt of such request. Such hearing
+       shall be public if the teacher so requests or the Board so designates. The teacher shall have
+       the right to appear with counsel of the teacher's choice at such hearing, whether public or
+       private. The Board shall give the teacher its written decision within fifteen (15) days after such
+       hearing. Nothing herein contained shall deprive the Board of the power to suspend the
+       teacher from duty immediately when serious misconduct is charged, without prejudice to the
+       rights of the teacher as otherwise provided herein.
+
+C.     The contract will automatically terminate upon the termination of the Master Agreement.
+
+D.     Pay will be terminated at the time services are terminated.
+
+
+ARTICLE TWELVE
+
+TEACHING HOURS AND TEACHING LOAD
+
+A. 1. The starting and dismissal times for students will be established by the Board, provided,
+however, that no change in the present schedule will increase the length of the teacher day.
+
+A. 2. a. Teachers must be in their respective classrooms, or in school working on instructionally-
+related tasks, or at a duty station fifteen (15) minutes before the time for admitting students into
+school, said admission time to be determined by the Principal, provided, however, that no change in
+the present schedule will change the length of the teacher day.
+
+                                                  18
+
+### PDF page 20
+MEA 2007-2010
+
+
+
+
+       b. Teachers must remain in the classroom, or in school working on instructionally-related
+tasks, or at a duty station fifteen (15) minutes after the dismissal of students. When students are
+dismissed earlier than the usual time, the teachers shall remain if the Principal has a previously
+planned activity.
+
+       c. Teachers may be required to remain longer after school to assist students in subject matter
+areas on certain days, as determined by the Principal.
+
+        d. Counselors may be required to expend additional time in order to fulfill their professional
+obligations. The high school counselors shall not be required to perform clerical or detention hall
+assignments.
+
+       e. The provisions of Section 2. a. and b. above shall not apply to School Psychologists.
+
+        f. All teachers may be required to attend one (1) evening Open House each school year, the
+length of which shall be in accordance with past practice. The purpose of the Open House is to meet
+with parents and to allow citizens to visit schools and become more aware of the programs offered.
+Subject to the approval of the State Department of Education for release time, elementary school
+teachers may be required to attend one (1) after school parent teacher conference, which shall be
+held to coincide with the issuance of the first student progress report. Elementary school teachers
+shall have an equal amount of time off on the day prior to Thanksgiving Day or the day prior to the
+December holiday break.
+
+        g. Teachers may be required to attend professional activities to be held after the dismissal of
+students which shall be jointly planned and scheduled by the Administration and representatives
+selected by the faculty at each work site. These activities shall not exceed between ten (10) and
+thirteen (13) hours per year. Such activities may include, but are not limited to; staff development
+workshops, curriculum reform, school goals and solving school related problems. These activities
+shall not extend beyond 4 p.m. unless mutually agreed to by those participating.
+
+ A. 3. The Board will use every reasonable effort to provide a substitute teacher whenever a teacher
+is absent. The Board will also use every reasonable effort to ensure that a teacher's Educational
+Assistant will not be used to substitute for another faculty member. The Board will also use every
+effort to provide a substitute for an Elementary Teaching Assistant Principal who is acting Principal.
+
+B. 1. The school calendar for each school year shall be prepared during the previous year by the
+Board, after consultation with the Association, but will not be subject to the grievance procedure. The
+words "beginning of the school year" mean the first day of each school year when attendance of the
+members of the unit is required and the words "close of the school year" mean the last day of each
+school year when attendance of the members of the unit is required. Except in extraordinary
+situations, dates for "make up days" shall be published no later than May 1.
+
+B. 2. Effective on the date of ratification, all newly hired school psychologists, except rehired
+incumbents, shall work no more than one hundred and eighty-three (183) days per year. The work
+year for school psychologists [hired prior to 1997-1998] shall be two hundred and five (205) days.
+The work year for school psychologists [hired between 1999 and 2004] shall be one hundred
+eighty-nine (189) days. For 2004-2007, school psychologists’ salaries will be calculated on a per
+diem basis by dividing the applicable salary as shown on Appendix B by the number of contractual
+teacher workdays per year (183). Prior to the end of the school year, school psychologists will be
+given their schedules for the next school year.
+
+
+                                                  19
+
+## Required review procedure
+1. Check each substantive quote against the PDF/text and its reported PDF page.
+2. Check that the clause applies to the requested teacher/certificated unit and supports the answer, not merely a related topic.
+3. For a `not_discussed` or `no` answer, search the full document before accepting absence. Use:
+   `python3 scripts/contract_search.py --db cache/contract_search_structural.sqlite3 search --document-id manchester_school_district__83__de5d62c9 "<terms>" --limit 10`
+4. Mark yes/no/na independently for status, value, evidence, page, and overall correctness.
+
+## Response JSON
+Write only this JSON shape to:
+`output/fts_experiment/paired_manchester/review_tasks_top8/6fbd04b6da0ba22a.response.json`
+```json
+{
+  "review_id": "6fbd04b6da0ba22a",
+  "a": {
+    "status": "yes|no|na",
+    "value": "yes|no|na",
+    "evidence": "yes|no|na",
+    "page": "yes|no|na",
+    "overall": "yes|no|na"
+  },
+  "b": {
+    "status": "yes|no|na",
+    "value": "yes|no|na",
+    "evidence": "yes|no|na",
+    "page": "yes|no|na",
+    "overall": "yes|no|na"
+  },
+  "reviewer_notes": "short source-grounded explanation"
+}
+```

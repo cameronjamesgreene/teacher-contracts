@@ -1,0 +1,18 @@
+{
+  "review_id": "9173280934ef634a",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "reviewer_notes": "Article One (RECOGNITION) recognizes the Association for \"the following certificated or licensed employees\" and enumerates \"All full-time classroom teachers, including teachers of art, music, physical education, ... Certified Social Workers, and permanent replacements or permanent additions...\"; both quotes are verbatim contiguous text and both answers describe the covered unit correctly. That clause sits on PDF page 5 (confirmed with pdftotext -f 5), whose printed footer reads \"4\" -- printed page = PDF page - 1 through this part of the document. B's page 5 is right; A's page 4 is the printed footer, not the PDF page, so A fails on page only. Minor imprecision in A's summary: the document includes only \"Elementary Teaching Assistant Principals\" and \"Certified Social Workers\" while excluding \"all administrative personnel\" and plain \"social workers,\" but this was not enough to fail the value."
+}

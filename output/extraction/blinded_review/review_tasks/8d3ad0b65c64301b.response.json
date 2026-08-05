@@ -1,0 +1,18 @@
+{
+  "review_id": "8d3ad0b65c64301b",
+  "a": {
+    "status": "no",
+    "value": "no",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "reviewer_notes": "Article Fifteen B.1 on PDF page 25 (printed footer 24) names the instrument: 'Each teacher will be evaluated in accordance with the Evaluation Handbook in effect at the time.' Page 25 also names the 'Interim Assessment' and the 'Professional Assessment Instrument' (Art. Fifteen B.2); no external vendor framework or model is named anywhere ('framework', 'model', 'Danielson', 'rubric', 'portfolio', 'professional growth' return no hits). A's 'not_discussed' is wrong and supplies no name, evidence, or page. B's quote is verbatim and its PDF page 25 is correct - confirmed by splitting the form-feed-delimited text (54 PDF pages, 55 blocks with a trailing empty one) and by pdftotext -f 25."
+}

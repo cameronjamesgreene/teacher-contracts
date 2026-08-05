@@ -1,0 +1,18 @@
+{
+  "review_id": "290d12cc33a2b7dd",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Appendix B carries salary-index add-ons on top of the teacher schedule, including 'Plus.22 Title I Supervisor' and 'Plus.15 ... English Language Learners Coordinator' (PDF pp.42, 43, 44 - repeated above each of the FY'08/FY'09/FY'10 tables). Title I and ELL are exactly the covered areas the codebook lists for this field, and these are bargaining-unit positions paid off Appendix B, so the topic is discussed and A's not_discussed is the wrong status (searched 'bilingual', 'English Language', 'ESL/ELL', 'Title I', 'CTE', 'shortage', 'hard-to-staff', 'differential', 'stipend', 'incentive', 'bonus' document-wide; nothing else qualifies - Article Five's extracurricular indices and detention/summer-school hourly rates are duty pay, not subject differentials). B's quote is verbatim and is the governing text, but the 'Plus' block appears on PDF page 42 (printed footer '41'), not PDF page 41, which is Appendix A's memorandum; footers in this PDF run one behind PDF pages, so the reported page is off by one. Neither record is acceptable as coded data."
+}

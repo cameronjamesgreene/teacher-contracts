@@ -1,0 +1,62 @@
+[
+  {
+    "document_id": "san_bernardino_city_unified_school_district__2016_sbta_sbusd_tentative_agreement_ratified_june_3_201__f8304b2c",
+    "district": "San Bernardino City Unified School District",
+    "engine": "olmocr2-hpc",
+    "expected_pages": 8,
+    "pages": 8,
+    "characters": 17871,
+    "chars_per_page": 2234,
+    "empty_pages": 0
+  },
+  {
+    "document_id": "dayton_public_schools__2019_06_25_amendments_to_dea_collective_bargaining_agre__4ddfbc24",
+    "district": "Dayton Public Schools",
+    "engine": "olmocr2-hpc",
+    "expected_pages": 5,
+    "pages": 5,
+    "characters": 9612,
+    "chars_per_page": 1922,
+    "empty_pages": 0
+  },
+  {
+    "document_id": "sacramento_city_unified_school_district__2023_2025_tentative_agreement__5669c9ea",
+    "district": "Sacramento City Unified School District",
+    "engine": "olmocr2-hpc",
+    "expected_pages": 47,
+    "pages": 47,
+    "characters": 120443,
+    "chars_per_page": 2563,
+    "empty_pages": 0
+  },
+  {
+    "document_id": "fresno_unified_school_district__fta_fresno_teachers_association_cba_2010_2012__743fb3b0",
+    "district": "Fresno Unified School District",
+    "engine": "olmocr2-hpc",
+    "expected_pages": 142,
+    "pages": 142,
+    "characters": 440364,
+    "chars_per_page": 3101,
+    "empty_pages": 0
+  },
+  {
+    "document_id": "new_york_city_department_of_education__nyc_19_22_cba__a2c3d9e5",
+    "district": "New York City Department of Education",
+    "engine": "olmocr2-hpc",
+    "expected_pages": 63,
+    "pages": 63,
+    "characters": 173237,
+    "chars_per_page": 2750,
+    "empty_pages": 0
+  },
+  {
+    "document_id": "pittsburgh_public_schools__pittsburgh_10_15__bdfabcd4",
+    "district": "Pittsburgh Public Schools",
+    "engine": "olmocr2-hpc",
+    "expected_pages": 34,
+    "pages": 34,
+    "characters": 106758,
+    "chars_per_page": 3140,
+    "empty_pages": 0
+  }
+]

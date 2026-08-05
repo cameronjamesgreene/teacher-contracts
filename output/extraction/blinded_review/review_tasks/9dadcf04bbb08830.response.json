@@ -1,0 +1,18 @@
+{
+  "review_id": "9dadcf04bbb08830",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Nine, Teacher Employment, addresses this directly: A.1 'All newly employed or reinstated teachers shall be placed on the proper step of the salary schedule, according to their experience and education' (PDF p.15, footer '14') and B.1 'Teachers with previous teaching experience in the Manchester School District will, upon returning to the system, receive full credit on the salary schedule ... Teachers who have not been engaged in teaching on a full-time basis will, upon returning to the system, be restored to the next position on the salary schedule above that at which they left' (PDF p.16, footer '15'). A's not_discussed is therefore the wrong status and owes evidence and a page it does not supply. B's quote is verbatim and is the governing in-district clause, but it sits on PDF page 16, not the reported page 15 - B reported the printed footer, which runs one behind the PDF page throughout this document - so the record is not acceptable as coded data."
+}

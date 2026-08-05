@@ -1,0 +1,18 @@
+{
+  "review_id": "e0b127de6da5ec38",
+  "a": {
+    "status": "no",
+    "value": "na",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "na",
+    "evidence": "no",
+    "page": "yes",
+    "overall": "no"
+  },
+  "reviewer_notes": "The document has an entire article on the topic: ARTICLE THIRTEEN, INVOLUNTARY TRANSFER, beginning on PDF page 22 (printed footer 21) and running through Section G on PDF page 23, with notice of the reason, an optional meeting with the Superintendent, consideration of area of competence, notice of vacancies and preference, time to visit the new assignment, a fifteen-work-day right to resign, and grievability of procedural failures; the table of contents (PDF p. 3) also lists 'INVOLUNTARY TRANSFER XIII 22'. A's not_discussed is therefore wrong - searches for transfer, involuntar*, reassign, and assignment all land on this article - and its blank evidence/page cannot be excused. B has the right status and cites the correct PDF page for its opening clause, but its evidence is a heavily stitched quote: six ellipsis-joined fragments drawn from Sections A, B, C, D.1, D.2 and G, with the final fragment coming from PDF page 23, so it is not a verbatim passage from the cited page."
+}

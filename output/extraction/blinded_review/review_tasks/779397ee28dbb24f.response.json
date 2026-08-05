@@ -1,0 +1,18 @@
+{
+  "review_id": "779397ee28dbb24f",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "yes",
+    "overall": "yes"
+  },
+  "b": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "Article Twenty One D. on PDF page 31 (printed footer \"30\") defines immediate family as \"spouse, parents, children, brothers, sisters, mother-in-law or father-in-law, or a blood relative or ward residing in the same house\" and adds one day \"to attend the funeral of a relative not listed in the preceding sentence\"; no other passage in the document covers bereavement-eligible relatives. Both candidates list the covered relatives correctly and quote verbatim. A cites the correct PDF page 31; B cites 30, which is the printed footer of that same page, an off-by-one PDF page error, so B fails on page and overall."
+}

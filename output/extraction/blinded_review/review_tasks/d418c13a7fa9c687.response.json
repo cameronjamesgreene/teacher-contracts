@@ -1,0 +1,18 @@
+{
+  "review_id": "d418c13a7fa9c687",
+  "a": {
+    "status": "yes",
+    "value": "yes",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "The layoff provision is Article Nine C (PDF pp. 16-18): C.1 lay off 'based on their seniority', C.2 classifications, C.3 'the teacher laid off shall be the teacher with the least seniority in that classification', C.4 inverse-order layoff with 'lay-off shall be determined by lottery', C.5-C.9 seniority lists, recall, 24-month recall list, and no new hires while laid-off certified teachers are available. A's quoted fragments are verbatim from PDF pages 16-17, but A reports page 15 (that is the printed footer number; footers in this PDF run one behind the PDF page), so the page is wrong. B's answer omits the governing layoff-selection rule (inverse seniority within classification, lottery tiebreak) and substitutes the involuntary-transfer clause Article Thirteen G, which is a transfer provision on PDF page 23; its stitched quote therefore spans PDF 17 and PDF 23 while reporting only page 17. Both records are unacceptable as coded data."
+}

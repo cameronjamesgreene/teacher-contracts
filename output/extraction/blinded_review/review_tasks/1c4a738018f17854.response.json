@@ -1,0 +1,18 @@
+{
+  "review_id": "1c4a738018f17854",
+  "a": {
+    "status": "yes",
+    "value": "no",
+    "evidence": "yes",
+    "page": "no",
+    "overall": "no"
+  },
+  "b": {
+    "status": "no",
+    "value": "no",
+    "evidence": "no",
+    "page": "no",
+    "overall": "no"
+  },
+  "reviewer_notes": "The question asks for all sentences citing state law, and this contract has at least five distinct ones: Article Two A.1 \"managerial policies referred to in RSA 273-A:1, XI\" (PDF p. 6); Article Twenty sick-leave-bank \"as set forth in New Hampshire R.S.A.189: 14-a ... rights under R.S.A. Chapter 189 or any other provisions of the Revised Statutes Annotated\" (PDF p. 30); the parallel Article Twenty-Two E.4 sentence (PDF p. 33); Article Twenty-Five arbitration \"appeal to the New Hampshire Superior Court under the provision of Revised Statutes Annotated, Chapter 542, as amended ... subject to the provisions of New Hampshire Revised Statutes Annotated, Chapter 542\" (PDF p. 38); and Appendix C \"subject to ... the Statutes of the State of New Hampshire\" (PDF p. 45). A's quote is verbatim but captures only the RSA 273-A citation, so the value is materially incomplete, and its page 5 is the printed footer of PDF page 6 (offset of one). B's not_discussed is plainly wrong; searches for \"RSA statute\", \"Revised Statutes Annotated\", \"New Hampshire law\", plus regex sweeps for statute/Chapter/Act/state law over all 54 pages all return hits, so the derived value/evidence/page fields are scored no rather than na because the absence claim is incorrect. Both candidates are wrong."
+}

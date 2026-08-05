@@ -1,0 +1,4 @@
+document_id,district,pdf_pages,questions,substantive,coverage,self_flagged_ungrounded,verbatim,contiguous,on_page,problem_count
+manchester_school_district__83__de5d62c9,Manchester School District,54,106,71,0.6698,0,1.0,1.0,0.9859,1
+anoka_hennepin_school_district__17_19_ta__e39ab993,Anoka–Hennepin School District,4,106,14,0.1321,0,1.0,1.0,1.0,0
+dekalb_county_school_district__dekalb_2015_16_employee_handbook__cd974e7c,DeKalb County School District,33,106,58,0.5472,19,0.6724,0.6724,0.6379,21
