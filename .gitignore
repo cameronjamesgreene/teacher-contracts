@@ -1,5 +1,15 @@
-# GitHub rejects regular Git objects larger than 100 MiB.
-/output/output_v3/Buffalo_contract_1999.pdf
+# Caches and generated artifacts — large, regenerable, machine-specific
+cache/
+output/
+output_v*/
+output_new*/
+logs/
+ocr_test_output/
+archive/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
 
 # Keep local credentials out of version control.
 /scripts/som_api_key.txt
@@ -33,3 +43,14 @@ __pycache__/
 # cache/llm_cache and cache/hybrid_ocr are tracked on main for older work; new
 # entries from this pipeline are not added, to keep the diff reviewable.
 /cache/hybrid_ocr/
+# Secrets
+scripts/som_api_key.txt
+
+# Source PDFs and bulk binaries
+*.pdf
+*.zip
+*.sas7bdat
+
+# Audit workbooks ARE tracked: they are the only surviving record of v1-v10 quality
+!output*/audit_report*.xlsx
+scripts/hydrate_list.txt

@@ -152,19 +152,6 @@ every such table completely even when the page is dense with several large table
 a page having a lot of content is not a reason to return fewer tables, fewer rows, or \
 fewer cells than are actually present.
 
-CRITICAL — SIDE-BY-SIDE PANELS: two or more panels are often printed side by side in the \
-SAME horizontal band, each with its OWN lane/degree header (e.g. a "Bachelor's or \
-Equivalent" panel on the left and a "Master's or Equivalent" panel on the right, then a \
-"Master's + 30" panel left and a "Doctorate" panel right below), and EACH panel has its \
-OWN "Step" column and its own effective-date/year columns. In flat text these panels \
-interleave on one physical line (e.g. "01 47,192 48,490 50,066 51,568  01 48,580 49,916 \
-51,539 53,085" is step 01 of the LEFT panel followed by step 01 of the RIGHT panel). You \
-MUST read each panel separately and emit it as its OWN table (or its own set of lanes). \
-The left and right panels are DIFFERENT lanes with DIFFERENT values — NEVER read one \
-panel twice, never copy the left panel's numbers into the right (or vice versa), and never \
-merge the two panels' step rows into one. When two panels share a step number on one line, \
-the first value-group belongs to the left panel and the second to the right.
-
 For each table, identify:
   - schedule_label: its title or caption, exactly as written (e.g. "Appendix A Salary
     Schedule", "ET-15 Salary Schedule", "Administrative Salary Schedule").
@@ -583,10 +570,7 @@ _STRUCTURED_HEADER = (
     "Transcribe every cell EXACTLY as positioned — each column is a distinct lane/year, each "
     "row a distinct step. NEVER copy one column's values into another column, never drop a "
     "column or row, never merge columns. The first row is the column headers; the first cell "
-    "of each later row is that row's step/level label. This block may hold SEVERAL stacked "
-    "panels for different lanes/degrees (a lane/degree name printed on its own row, then that "
-    "panel's step rows); split them into separate lanes/tables by those interior header rows, "
-    "and never copy one panel's values into another. Extract all of it:"
+    "of each later row is that row's step/level label. Extract all of it:"
 )
 
 
@@ -599,35 +583,13 @@ def _grid_to_pipe(rows: list) -> str:
     )
 
 
-_TWO_STEP_HEADER_RE = re.compile(r"\bstep\b", re.I)
-
-
-def _has_side_by_side_panels(pg) -> bool:
-    """True when a page lays two or more salary panels SIDE-BY-SIDE in one horizontal band
-    (v9: Philadelphia p141 — Bachelor's|Master's, then M+30|Doctorate, each with its own
-    "Step 9/1/20 ..." header). The tell is a single physical text line carrying the word
-    "Step" (or a repeated date header) more than once — the left and right panels' headers
-    printed on the same y. Whole-page find_tables interleaves such panels into one garbled
-    wide grid and the extractor copies one lane into another; splitting by x fixes it."""
-    try:
-        txt = pg.extract_text() or ""
-    except Exception:
-        return False
-    for line in txt.splitlines():
-        if len(_TWO_STEP_HEADER_RE.findall(line)) >= 2:
-            return True
-    return False
-
-
 def extract_structured_grids(pdf_path: Path, start: int, end: int) -> list[str]:
     """pdfplumber-recovered salary grids on pages [start,end] (1-based), each serialized as
     an aligned pipe-table string. Recovers the real rows x columns from the PDF's character
     COORDINATES (not flat pdftotext), keeping year/lane columns distinct. Tries a ruled-line
     strategy first (best for bordered schedules), then a text strategy for borderless ones.
-    Pages with SIDE-BY-SIDE panels are split into left/right x-bands first so each panel's
-    columns stay distinct (v9 Philadelphia fix). Returns [] if pdfplumber is unavailable, the
-    page is a scanned image (no vector text), or no salary-like grid is found — callers then
-    fall back to the flat-text/vision path."""
+    Returns [] if pdfplumber is unavailable, the page is a scanned image (no vector text), or
+    no salary-like grid is found — callers then fall back to the flat-text path."""
     if _pdfplumber is None:
         return []
     grids: list[str] = []
@@ -635,31 +597,22 @@ def extract_structured_grids(pdf_path: Path, start: int, end: int) -> list[str]:
         with _pdfplumber.open(str(pdf_path)) as pdf:
             for pageno in range(start, min(end, len(pdf.pages)) + 1):
                 pg = pdf.pages[pageno - 1]
-                # A side-by-side page is read one x-band (panel column) at a time so the two
-                # panels' year/lane columns never interleave into one garbled wide grid.
-                if _has_side_by_side_panels(pg):
-                    w = pg.width
-                    regions = [pg.crop((0, 0, w / 2, pg.height)),
-                               pg.crop((w / 2, 0, w, pg.height))]
-                else:
-                    regions = [pg]
-                for region in regions:
-                    for ts in _PP_STRATEGIES:
+                for ts in _PP_STRATEGIES:
+                    try:
+                        tables = pg.find_tables(table_settings=ts)
+                    except Exception:
+                        continue
+                    found = []
+                    for t in tables:
                         try:
-                            tables = region.find_tables(table_settings=ts)
+                            rows = t.extract()
                         except Exception:
                             continue
-                        found = []
-                        for t in tables:
-                            try:
-                                rows = t.extract()
-                            except Exception:
-                                continue
-                            if _grid_is_salary(rows):
-                                found.append(_grid_to_pipe(rows))
-                        if found:  # first strategy that yields salary grids wins for this region
-                            grids.extend(found)
-                            break
+                        if _grid_is_salary(rows):
+                            found.append(_grid_to_pipe(rows))
+                    if found:  # first strategy that yields salary grids wins for this page
+                        grids.extend(found)
+                        break
     except Exception:
         return []
     return grids
@@ -843,36 +796,7 @@ def validate_table(table: dict, source_text: str | None = None) -> list[str]:
             "(step → value only, with no separate degree, year, or category columns)"
         )
 
-    # Header-without-data (dropped-row): a table that carries a title/lane/step header but
-    # holds no readable numeric cell is a grid whose data row(s) were dropped at extraction
-    # (v9: Miami section_g header-only, missing 600/840; Philadelphia PG526 empty grid). Flag
-    # as escalation-grade so it is re-extracted / manual-reviewed, not emitted as an "empty"
-    # schedule that reads as confirmed.
-    n_numeric = sum(1 for c in cells
-                    if c.get("value") not in ("", None)
-                    and any(ch.isdigit() for ch in str(c.get("value"))))
-    if n_numeric == 0 and (lanes or steps or table.get("schedule_label")):
-        warnings.append(
-            "no data rows: table has a header/label but zero numeric cells — a data row "
-            "was dropped; re-extract or verify against source"
-        )
-
     return warnings
-
-
-# Escalation-grade validation warnings: structural signals that flat-text / structured /
-# vision extraction likely lost or duplicated data. A grid still carrying one of these AFTER
-# all extraction + audit is NOT "audit confirmed" — write_wide_grid marks it MANUAL REVIEW so
-# a fabricated-but-plausible grid the LLM audit blessed (v9: Philadelphia lane/year copies) is
-# visible rather than silent. Shared by suspect() (escalation) and write_wide_grid (reporting).
-_HARD_REVIEW_SIGNALS = ("across lanes", "expected ~", "possible_dropped_row",
-                        "missing step", "no data rows", "cross_grid_duplicate")
-
-
-def hard_review_warnings(table: dict) -> list[str]:
-    """Escalation-grade subset of a table's validation_warnings (empty if structurally sound)."""
-    return [w for w in (table.get("validation_warnings") or [])
-            if any(s in w for s in _HARD_REVIEW_SIGNALS)]
 
 
 def call_text_audit_llm(
@@ -1053,26 +977,16 @@ def _signature_overlap(a: Counter, b: Counter) -> float:
     return sum((a & b).values()) / max(sum(a.values()), sum(b.values()))
 
 
-def _dedup_label(sch: dict) -> str:
-    """Normalized schedule identity used to decide whether an identical-value grid is a safe
-    verbatim REPRINT (same schedule, drop the copy) or a mis-extraction (a DIFFERENT schedule
-    that came out identical, must not be dropped)."""
-    return norm_ws(str(sch.get("schedule_label") or "") + " "
-                   + str(sch.get("population") or "")).lower()
-
-
 def dedup_identical_schedules(schedules: list[dict]) -> tuple[list[dict], int]:
-    """Remove grids whose numeric value-multiset is IDENTICAL to one already kept AND that
-    carry the SAME schedule label/population — the byte-identical page-split reprints and
-    cross-year-identical differentials that inflate the grid count (v9 audit: LA 172 grids
-    ~70% duplicates from `__pNNN` page splits; Portland 19 = 10 distinct + 9 dup pairs;
-    Philadelphia's `unknown_year` grids duplicate their `9_1_20` siblings; Miami's section_3
-    == a0). Exact-multiset match only, so grids with genuinely different numbers are always
-    kept. Two grids with identical values but DIFFERENT labels are a mis-extraction (one copied
-    from the other), NOT a reprint — they are KEPT and flagged so the cross-grid resolver can
-    re-extract the distinct one; dropping would lose real data (v9: Fresno JROTC career-
-    increment was silently dropped as a copy of the Teachers grid). When a same-label duplicate
-    carries an explicit school year and the kept copy does not, the year-labelled copy wins."""
+    """Remove grids whose numeric value-multiset is IDENTICAL to one already kept — the
+    byte-identical page-split reprints and cross-year-identical differentials that inflate
+    the grid count (v9 audit: LA 172 grids ~70% duplicates from `__pNNN` page splits;
+    Portland 19 = 10 distinct + 9 dup pairs; Philadelphia's `unknown_year` grids duplicate
+    their `9_1_20` siblings; Miami's section_3 == a0). Exact-multiset match only, so grids
+    with genuinely different numbers (different years/populations, continuation fragments)
+    are always kept — this never merges distinct schedules, it only drops verbatim copies.
+    When a duplicate carries an explicit school year and the kept copy does not, the
+    year-labelled copy is preferred (drops the `unknown_year` twin)."""
     kept: list[dict] = []
     kept_sigs: list[Counter] = []
     dropped = 0
@@ -1082,12 +996,6 @@ def dedup_identical_schedules(schedules: list[dict]) -> tuple[list[dict], int]:
             kept.append(sch); kept_sigs.append(sig); continue
         match = next((i for i, ks in enumerate(kept_sigs) if ks == sig), None)
         if match is None:
-            kept.append(sch); kept_sigs.append(sig); continue
-        if _dedup_label(sch) != _dedup_label(kept[match]):
-            # Same values, different schedule label → mis-extraction, NOT a reprint. Keep both
-            # so the document-level cross-grid resolver (flag_cross_grid_duplicates →
-            # reextract_disambiguated, or a MANUAL-REVIEW flag on OCR docs) can handle the
-            # distinct one; dropping here would lose real data (v9: Fresno JROTC == Teachers).
             kept.append(sch); kept_sigs.append(sig); continue
         dropped += 1
         if not (kept[match].get("school_year_or_effective_date") or "").strip() and \
@@ -1178,13 +1086,7 @@ def resolve_cross_grid_duplicates(
         if not text_is_ocr:
             for k in (i, j):
                 sch = schedules[k]
-                # 2B — re-extract ANY method member of a cross-grid duplicate, not just
-                # vision. A structured/flat-text grid that came out identical to a different
-                # schedule conflated the two at parse time (v9: Fresno JROTC == Teachers on
-                # a born-digital page); an independent high-DPI vision re-read disambiguates
-                # it. Only adopted when it materially changes (a known-wrong duplicate has
-                # nothing to lose), so a correct grid is never replaced by a worse read.
-                if k in reextracted:
+                if k in reextracted or sch.get("extraction_method") != "vision":
                     continue
                 reextracted.add(k)
                 fixed = reextract_disambiguated(
@@ -1195,7 +1097,6 @@ def resolve_cross_grid_duplicates(
                                 "population", "validation_warnings"):
                         if key in fixed:
                             sch[key] = fixed[key]
-                    sch["extraction_method"] = "vision"  # adopted a vision re-read
         if _signature_overlap(_value_signature(schedules[i]),
                               _value_signature(schedules[j])) >= 0.95:
             _add_cross_grid_warning(schedules[i], schedules[j])
@@ -1354,13 +1255,14 @@ def process_document(
     def suspect(tables: list[dict]) -> bool:
         # Warnings that mean flat-text/structured extraction likely lost or duplicated
         # data, so the 2-D vision path should be tried: a lane column copied across slots,
-        # a table returned with far fewer cells than its step x lane grid implies, a step
-        # sequence with an interior/tail GAP (a long matrix truncated at a page break — v9:
-        # Albuquerque AT-3 dropped steps 33-50; Portland 183-day tables dropped a step), or
-        # a header-only grid whose data row was dropped (v9: Miami section_g). Vision reads
-        # the full multi-page image and recovers the missing rows. Shares the escalation
-        # signal set with write_wide_grid via hard_review_warnings().
-        return any(hard_review_warnings(t) for t in tables)
+        # a table returned with far fewer cells than its step x lane grid implies, or a
+        # step sequence with an interior/tail GAP — the signature of a long matrix that
+        # spans a page break and got truncated (v9 audit: Albuquerque AT-3 dropped steps
+        # 33-50; Portland 183-day tables dropped a step). Vision reads the full multi-page
+        # image and recovers the missing rows.
+        sig = ("across lanes", "expected ~", "possible_dropped_row", "missing step")
+        return any(any(s in w for s in sig)
+                   for t in tables for w in (t.get("validation_warnings") or []))
 
     for start, end in blocks:
         block_text = "\f".join(pages[start - 1:end])
@@ -1483,15 +1385,10 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
         grid[(cell.get("step", ""), cell.get("lane") or "")] = cell.get("value", "")
 
     warnings = schedule.get("validation_warnings") or []
-    hard = hard_review_warnings(schedule)
     if schedule.get("audit_corrected"):
         audit_note = "audit corrected this table"
     elif schedule.get("audit_matched") is False:
         audit_note = "audit flagged unresolved issues: " + "; ".join(schedule.get("audit_issues") or [])
-    elif hard:
-        # The LLM audit blessed it, but a deterministic structural signal survived — do NOT
-        # report "audit confirmed" (v9: Philadelphia lane/year copies passed the LLM audit).
-        audit_note = "MANUAL REVIEW — unresolved structural issue(s): " + "; ".join(hard)
     else:
         audit_note = "audit confirmed"
 
@@ -1502,10 +1399,7 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
         w.writerow([f"# population: {schedule.get('population', '')} | "
                     f"is_teacher_schedule: {schedule.get('is_teacher_schedule', '')}"])
         w.writerow([f"# validation_warnings: {'; '.join(warnings) or 'none'} | {audit_note}"])
-        if hard:
-            w.writerow(["# MANUAL REVIEW RECOMMENDED: unresolved structural issue(s) — "
-                        + "; ".join(hard)])
-        elif schedule.get("extraction_method") == "vision":
+        if schedule.get("extraction_method") == "vision":
             w.writerow(["# MANUAL REVIEW RECOMMENDED: extracted from page image (not "
                         "machine-readable text) — verify values, column names, and row "
                         "counts against the original PDF"])

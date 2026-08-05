@@ -13,7 +13,6 @@ import hashlib
 import os
 import re
 import subprocess
-import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -24,20 +23,11 @@ from typing import Iterable
 # level deeper than the file itself.
 ROOT = Path(__file__).resolve().parents[2]
 WORK = Path(__file__).resolve().parents[1]
-PDF_ROOT = WORK / "raw"
+PDF_ROOT = ROOT / "nctq_contracts"
 CODEBOOK = WORK / "extraction_elements_reduced.md"
 README = WORK / "readme.md"
 TEXT_DIR = WORK / "cache" / "extracted_text"
 OCR_TEXT_DIR = WORK / "cache" / "ocr_text"
-# Autonomous OCR: extract_text() decides on its own whether a document needs OCR (from the
-# native-text density) and builds the override via hybrid_ocr, so no manual OCR staging is ever
-# needed. AUTO_OCR=0 disables it (fall back to the old behaviour of only reading a pre-built
-# override). A page with fewer than AUTO_OCR_MIN_CHARS non-space chars counts as scanned; OCR
-# fires when at least AUTO_OCR_MIN_SCANNED pages are scanned OR the whole document is.
-AUTO_OCR = os.environ.get("AUTO_OCR", "1") == "1"
-AUTO_OCR_MIN_CHARS = int(os.environ.get("AUTO_OCR_MIN_CHARS", "50"))
-AUTO_OCR_MIN_SCANNED = int(os.environ.get("AUTO_OCR_MIN_SCANNED", "3"))
-AUTO_OCR_WAIT_S = int(os.environ.get("AUTO_OCR_WAIT_S", "4200"))  # concurrent-caller wait cap
 # Output version dir. Override with CONTRACT_OUT_DIR to target a fresh run (e.g.
 # output_v4) without disturbing the previous version's CSVs.
 OUT_DIR = WORK / os.environ.get("CONTRACT_OUT_DIR", "output_v3")
@@ -132,12 +122,6 @@ GENERIC_SYNONYMS = {
     "leave": ["absence", "absences", "days"],
     "evaluation": ["appraisal", "observation", "performance"],
     "teacher": ["unit member", "bargaining unit member", "educator", "instructional employee"],
-    # v9 FN fixes (Drill 1): docs phrase step movement as "increment"/"base-salary adjustment",
-    # and retiree provisions as tax-deferred savings — neither reachable from the old keywords.
-    "increment": ["step increment", "salary adjustment", "base salary adjustment", "annual adjustment"],
-    "retiree": ["pension", "403(b)", "403b", "457", "post-employment", "supplemental retirement",
-                "supplemental pension"],
-    "retirement": ["pension", "403(b)", "403b", "457", "post-employment"],
 }
 
 
@@ -227,80 +211,21 @@ def pdf_page_count(path: Path) -> int | None:
     return int(match.group(1)) if match else None
 
 
-def _scanned_page_count(text: str) -> tuple[int, int]:
-    """(scanned_pages, total_pages) for a form-feed-delimited pdftotext dump. A page with
-    fewer than AUTO_OCR_MIN_CHARS non-space chars is treated as scanned/blank — the same rule
-    hybrid_ocr uses to pick pages to OCR. An empty extraction (pure-image PDF with no text
-    layer) counts as one fully-scanned page so it still triggers OCR."""
-    pages = text.split("\f")          # "" -> [""] (one empty/scanned page), never []
-    scanned = sum(1 for p in pages if len(re.sub(r"\s", "", p)) < AUTO_OCR_MIN_CHARS)
-    return scanned, len(pages)
-
-
-def _autoocr_override(path: Path, text_path: Path, native: str) -> str | None:
-    """Autonomous, race-safe OCR. When the native pdftotext extraction looks scanned, build the
-    OCR override via hybrid_ocr and return it. The build runs ONCE per document even though the
-    three programs (llm/rights/salary) all call extract_text concurrently: an exclusive lockfile
-    elects a single builder; the others wait for its output, and on any failure everyone degrades
-    to the native text. Returns override text, or None to use the native text."""
-    if not AUTO_OCR:
-        return None
-    scanned, total = _scanned_page_count(native)
-    if total == 0 or not (scanned >= AUTO_OCR_MIN_SCANNED or (scanned and scanned == total)):
-        return None  # text-native (or too few scanned pages to bother) — no OCR
-
-    OCR_TEXT_DIR.mkdir(parents=True, exist_ok=True)
-    ocr_path = OCR_TEXT_DIR / text_path.name
-    lock = OCR_TEXT_DIR / (text_path.stem + ".ocr.lock")
-    try:                                   # become the single builder, or fall through as a waiter
-        fd = os.open(str(lock), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
-        os.write(fd, str(os.getpid()).encode()); os.close(fd)
-        builder = True
-    except FileExistsError:
-        builder = False
-
-    if builder:
-        try:
-            district, file_name = path.parent.name, path.name
-            print(f"  [auto-ocr] {file_name}: {scanned}/{total} page(s) scanned — building OCR override…")
-            import hybrid_ocr              # lazy import: avoids a utils<->hybrid_ocr load cycle
-            hybrid_ocr.build(district, file_name, AUTO_OCR_MIN_CHARS)
-        except Exception as exc:
-            print(f"  [auto-ocr] build FAILED for {path.name}: {exc} — using native text")
-        finally:
-            try:
-                lock.unlink()
-            except OSError:
-                pass
-    else:
-        waited = 0                         # another program is building — wait for its output
-        while waited < AUTO_OCR_WAIT_S:
-            if ocr_path.exists() and ocr_path.read_text(encoding="utf-8", errors="ignore").strip():
-                break
-            if not lock.exists():          # builder finished/failed; use whatever exists now
-                break
-            time.sleep(5); waited += 5
-
-    if ocr_path.exists():
-        txt = ocr_path.read_text(encoding="utf-8", errors="ignore")
-        if txt.strip():
-            return txt
-    return None
-
-
 def extract_text(path: Path, text_path: Path) -> str:
     """Return the document's plain text.
 
     Resolution order:
-      1. An OCR override at cache/ocr_text/<name> (same basename as text_path). When present
-         and non-empty it is authoritative -- it exists precisely because pdftotext produced too
-         little usable text for this document. This single hook makes every pipeline that calls
-         extract_text() (llm_extract, rights_score, salary_schedule) consume OCR text with no
-         per-program change.
-      2. The cached pdftotext -layout extraction at text_path (a fresh run when absent).
-      3. AUTONOMOUS OCR: if that native extraction looks scanned, build an OCR override on the
-         spot (hybrid_ocr, race-safe across the concurrent programs) and use it. No manual OCR
-         staging is ever required; a text-native document skips this untouched.
+      1. An OCR override at cache/ocr_text/<name> (same basename as text_path).
+         Written by the HPC OCR workflow (see cache/ocr_documents/
+         README_run_this.md) for scanned / image-only PDFs that pdftotext
+         cannot read. When present and non-empty it is authoritative -- it
+         exists precisely because pdftotext produced too little usable text for
+         this document. This single hook makes every pipeline that calls
+         extract_text() (llm_extract, rights_score, salary_schedule) consume
+         OCR text with no per-program change, and it works even when the source
+         PDF is a 0-byte Dropbox placeholder.
+      2. The cached pdftotext -layout extraction at text_path.
+      3. A fresh pdftotext -layout run (cached to text_path) when neither exists.
     """
     text_path.parent.mkdir(parents=True, exist_ok=True)
     ocr_path = OCR_TEXT_DIR / text_path.name
@@ -310,9 +235,9 @@ def extract_text(path: Path, text_path: Path) -> str:
             return ocr_text
     if not text_path.exists():
         subprocess.run(["pdftotext", "-layout", str(path), str(text_path)], check=False)
-    native = text_path.read_text(encoding="utf-8", errors="ignore") if text_path.exists() else ""
-    override = _autoocr_override(path, text_path, native)
-    return override if override is not None else native
+    if text_path.exists():
+        return text_path.read_text(encoding="utf-8", errors="ignore")
+    return ""
 
 
 def load_documents(sample: list[tuple[str, str]]) -> list[Document]:
@@ -509,20 +434,11 @@ def build_metadata(doc: Document) -> dict[str, str]:
 def terms_from_question(question: Question) -> list[str]:
     raw = " ".join([question.keywords, question.question, question.extract])
     parts: list[str] = []
-    # Keywords are already curated search terms — split on list delimiters but do NOT strip
-    # leading words. The old strip mangled domain phrases ("code of ethics" -> "of ethics",
-    # "state law" -> "law"), weakening the exact-phrase matching recovery/retrieval depend on.
-    for chunk in re.split(r"[,;/()]", question.keywords):
-        chunk = normalize_space(chunk)
-        if len(chunk) >= 3:
-            parts.append(chunk)
-    # Question + extract are prose — strip interrogative/imperative lead-ins only (and NOT
-    # "code"/"state", which are domain nouns here, not sentence starters).
-    for chunk in re.split(r"[,;/()]|\bor\b|\band\b", " ".join([question.question, question.extract])):
+    for chunk in re.split(r"[,;/()]|\bor\b|\band\b", raw):
         chunk = normalize_space(chunk)
         if not chunk:
             continue
-        chunk = re.sub(r"^(does|the|what|how|is|are|extract)\s+", "", chunk, flags=re.I)
+        chunk = re.sub(r"^(does|the|what|how|is|are|extract|code|state|states)\s+", "", chunk, flags=re.I)
         if len(chunk) >= 3:
             parts.append(chunk)
     for key, syns in GENERIC_SYNONYMS.items():
@@ -763,4 +679,5 @@ def answer_question(question: Question, doc: Document, metadata: dict[str, str])
         "confidence": confidence,
         "coder_notes": "Full-text keyword/synonym match; verify manually for publication." if confidence != "high" else "",
     }
+
 

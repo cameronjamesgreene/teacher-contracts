@@ -438,17 +438,7 @@ each clause, identify:
    be paid 1/5 of the rate" — the operative "shall be paid" is affirmative => negation=false).
    Also, "No later than / No fewer than / No more than / No greater than X" is an
    affirmative floor/ceiling, NOT negation.
-6. voice — "active" or "passive". Decide from the OPERATIVE verb only:
-   - PASSIVE = a form of "be"/"get" + a PAST PARTICIPLE, where the grammatical subject
-     RECEIVES the action. A modal and/or negation do NOT change this — "shall be notified",
-     "shall not be employed", "shall not be required", "must be relieved", "may be
-     reassigned", and copular "is not impacted / abrogated / diminished / affected" are ALL
-     passive. Do not call a clause active just because it has "shall"/"will"/"not".
-   - ACTIVE = the subject performs the verb: "the teacher receives", "the Board shall
-     provide", and relative-clause verbs like "an employee who left" / "who will be
-     returning" (the subject does the leaving/returning) are active.
-   - Judge the MAIN clause verb, not a subordinate one; when the main predicate is
-     be+participle, it is passive regardless of surrounding words.
+6. voice — "active" or "passive".
 7. verb_lexical_category — classify the main verb phrase as one of:
    - "obligation_verb": be required, be expected, be compelled, be obliged,
      be obligated, have to, ought to, or a clear paraphrase
@@ -489,16 +479,8 @@ You will receive a JSON array of clauses, each with an "index". For each clause 
 three fields, keyed by that same index:
 
 1. protected_party — which side ULTIMATELY BENEFITS from this clause, regardless of
-   who the grammatical subject is. Binary: "worker" or "management".
-   DO NOT DEFAULT protected_party TO THE ACTING PARTY'S SIDE — that is the most common
-   error. Instead ask WHO THE CLAUSE ACTS UPON OR FOR: the party whose position is
-   strengthened, shielded, or served. When MANAGEMENT is the actor (pays, prorates,
-   provides, assigns, evaluates, notifies) and the effect lands on teachers/employees,
-   protected_party is WORKER, not management (e.g. "the district shall prorate the
-   teacher's salary", "the District shall pay employees for X" — acting_party=management,
-   protected_party=worker). A right or permission a WORKER may exercise (e.g. "a teacher
-   may request assistance") protects the WORKER even though exercising it is the worker's
-   own act. Match protected_party to the beneficiary, not the subject/actor. Then watch for:
+   who the grammatical subject is. Binary: "worker" or "management". Usually matches
+   the acting party's natural beneficiary, but watch for divergence:
    - A management OBLIGATION or PROHIBITION usually protects workers (e.g. "the
      district shall not assign more than 3 hours of duty-free lunch supervision to
      teachers" — acting_party=management, protected_party=worker).
@@ -560,43 +542,6 @@ Return one entry for every input clause, preserving its index.\
 """
 
 
-REVERIFY_SYSTEM_PROMPT = """\
-You are re-checking a SMALL set of already-classified contract clauses that an automated screen
-flagged as error-prone on two specific features. Scrutinize ONLY these and correct them if
-wrong. For each clause you get its verbatim quote plus its current tags. Re-decide, from the
-quote alone:
-
-1. voice — "active" or "passive". PASSIVE = the operative verb is a form of be/get + a PAST
-   PARTICIPLE and the subject RECEIVES the action; a modal and/or "not" do NOT make it active
-   ("shall be notified", "shall not be employed", "shall not be required", "must be relieved",
-   "is not impacted / abrogated / diminished" are ALL passive). ACTIVE = the subject performs
-   the verb ("the teacher receives", "an employee who left / who will be returning", "the Board
-   shall provide").
-2. acting_party — "worker" | "management" | "other" (the party carrying out the verb). On a
-   PASSIVE clause the grammatical subject is the RECIPIENT, not the actor: use the "by <X>"
-   agent if named, else the implicit agent (usually management for duties imposed on the
-   district). An inanimate/impersonal subject ("this Agreement", "Section 5") is "other".
-3. protected_party — "worker" | "management": WHO ULTIMATELY BENEFITS, i.e. whom the clause
-   acts upon or for. DO NOT default this to the acting party. When management is the actor
-   (pays, prorates, provides, assigns, evaluates) and the effect lands on teachers/employees,
-   protected_party is WORKER. A management obligation/prohibition usually protects the worker;
-   a worker obligation/prohibition usually protects management; a right/permission protects
-   whoever holds or exercises it.
-4. llm_judgment — "obligation" | "prohibition" | "permission" | "right" | "other": your own
-   holistic read (a management duty that happens to benefit workers is an "obligation", not a
-   "right").
-
-Return ONLY a valid JSON object, no markdown fences:
-{
-  "reverified": [
-    {"index": 0, "voice": "active|passive", "acting_party": "worker|management|other",
-     "protected_party": "worker|management", "llm_judgment": "..."}
-  ]
-}
-Return one entry for every input clause, preserving its index.\
-"""
-
-
 def call_extract_llm(client, doc_label: str, chunk: str, chunk_index: int, total_chunks: int) -> dict:
     user_str = (
         f"Document: {doc_label}\nChunk {chunk_index} of {total_chunks}.\n\n"
@@ -629,26 +574,6 @@ def call_classify_llm(client, doc_label: str, clauses_payload: list[dict]) -> di
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": CLASSIFY_SYSTEM_PROMPT},
-            {"role": "user", "content": user_str},
-        ],
-    )
-
-
-def call_reverify_llm(client, doc_label: str, clauses_payload: list[dict]) -> dict:
-    """Focused re-verification of flagged clauses' voice / acting_party / protected_party /
-    llm_judgment (reasoning left on)."""
-    user_str = (
-        f"Document: {doc_label}\n\nRe-check each flagged clause below and return corrected "
-        f"voice, acting_party, protected_party, and llm_judgment, keyed by its index.\n\n"
-        f"---CLAUSES---\n{json.dumps(clauses_payload, ensure_ascii=False)}\n---END---"
-    )
-    return create_with_retries(
-        client,
-        model=MODEL,
-        max_tokens=budgeted_max_tokens(REVERIFY_SYSTEM_PROMPT, user_str),
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": REVERIFY_SYSTEM_PROMPT},
             {"role": "user", "content": user_str},
         ],
     )
@@ -765,20 +690,6 @@ def _dedup_by_quote(clauses: list[dict]) -> list[dict]:
     return out
 
 
-def _fallback_protected_party(clause: dict) -> str:
-    """Deterministic protected_party for a clause the classifier dropped (no entry for its
-    index) — better than a blank field. Standard Hohfeld heuristic: an obligation/prohibition
-    protects the party OPPOSITE the actor; a right/permission protects the actor's own side;
-    an inanimate/other actor defaults to the worker as beneficiary."""
-    acting = (clause.get("acting_party") or "").strip().lower()
-    st = (clause.get("statement_type") or "").strip().lower()
-    if acting not in ("worker", "management"):
-        return "worker"
-    if st in ("obligation", "prohibition"):
-        return "management" if acting == "worker" else "worker"
-    return acting
-
-
 def _classify_clauses(client, document_id: str, file_name: str, clauses: list[dict]) -> None:
     """Second LLM pass: assign protected_party / llm_judgment / topic to each already-
     extracted clause via CLASSIFY_SYSTEM_PROMPT, mutating `clauses` in place. Batches
@@ -822,104 +733,9 @@ def _classify_clauses(client, document_id: str, file_name: str, clauses: list[di
                     by_index[idx] = item
         for j, c in enumerate(batch):
             cl = by_index.get(j, {})
-            # No-blank guard: when the classifier drops a clause (returns no entry for its
-            # index — v9: Prince George's c1 had blank judgment + protected_party), fall back
-            # to deterministic values rather than emitting empty fields.
-            c["protected_party"] = cl.get("protected_party") or _fallback_protected_party(c)
-            c["llm_judgment"] = cl.get("llm_judgment") or (c.get("statement_type") or "")
+            c["protected_party"] = cl.get("protected_party") or ""
+            c["llm_judgment"] = cl.get("llm_judgment") or ""
             c["topic"] = cl.get("topic") or ""
-
-
-# 2A — targeted re-verification. A clause is re-checked only when it lands in a v9 error zone,
-# so the paid second pass runs on a small minority of clauses, not all of them.
-_PASSIVE_RISK_RE = re.compile(
-    r"\b(?:shall|will|may|must|should|can|could|might)\s+(?:not\s+)?be\s+\w+ed\b"
-    r"|\b(?:is|are|was|were|been|being)\s+(?:not\s+)?\w+ed\b",
-    re.I,
-)
-
-
-def _needs_reverify(c: dict) -> bool:
-    """Flag a clause for focused re-verification when it hits a v9 error zone:
-    (1) MISSED PASSIVE — a be+past-participle / modal(+not)+be pattern in the quote but voice
-        tagged active (v9: "shall not be employed/required", "is not impacted" read active), or
-    (2) PROTECTED DEFAULTED TO ACTOR — protected_party equals acting_party on an obligation or
-        prohibition, where the beneficiary is usually the OTHER side (v9: management duty tagged
-        protected=management instead of worker)."""
-    quote = c.get("quote", "") or ""
-    voice = (c.get("voice") or "").strip().lower()
-    acting = (c.get("acting_party") or "").strip().lower()
-    protected = (c.get("protected_party") or "").strip().lower()
-    st = (c.get("statement_type") or "").strip().lower()
-    if voice != "passive" and _PASSIVE_RISK_RE.search(quote):
-        return True
-    if protected and protected == acting and acting in ("worker", "management") \
-            and st in ("obligation", "prohibition"):
-        return True
-    return False
-
-
-def _reverify_ambiguous_clauses(
-    client, document_id: str, file_name: str, clauses: list[dict],
-) -> int:
-    """Focused second pass over ONLY the clauses `_needs_reverify` flags. Re-decides voice /
-    acting_party / protected_party / llm_judgment with a targeted prompt and adopts the
-    corrections in place; the downstream classify_and_score then re-derives statement_type and
-    the passive acting-party backstop from the corrected voice. Batched + cached; runs only on
-    the flagged minority so the added cost stays small. Returns the number of clauses changed."""
-    flagged = [(idx, c) for idx, c in enumerate(clauses) if _needs_reverify(c)]
-    if not flagged:
-        return 0
-    batches = [flagged[i:i + CLASSIFY_BATCH_SIZE] for i in range(0, len(flagged), CLASSIFY_BATCH_SIZE)]
-
-    def run_batch(item: tuple[int, list]) -> tuple[int, dict | None]:
-        bi, batch = item
-        cache_path = CACHE_DIR / f"{document_id}__reverify{bi:03d}.json"
-        if cache_path.exists():
-            try:
-                return bi, json.loads(cache_path.read_text(encoding="utf-8"))
-            except Exception:
-                pass
-        payload = [
-            {"index": j, "quote": c.get("quote", ""), "voice": c.get("voice", ""),
-             "acting_party": c.get("acting_party", ""),
-             "protected_party": c.get("protected_party", ""),
-             "statement_type": c.get("statement_type", ""),
-             "llm_judgment": c.get("llm_judgment", "")}
-            for j, (_, c) in enumerate(batch)
-        ]
-        try:
-            raw = call_reverify_llm(client, file_name, payload)
-        except Exception:
-            return bi, None
-        cache_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
-        return bi, raw
-
-    with ThreadPoolExecutor(max_workers=MAX_CONCURRENCY) as pool:
-        results = dict(pool.map(run_batch, enumerate(batches, start=1)))
-
-    changed = 0
-    for bi, batch in enumerate(batches, start=1):
-        raw = results.get(bi)
-        by_index: dict[int, dict] = {}
-        if raw and "error" not in raw:
-            for item in raw.get("reverified", []):
-                if isinstance(item.get("index"), int):
-                    by_index[item["index"]] = item
-        for j, (_, c) in enumerate(batch):
-            rv = by_index.get(j)
-            if not rv:
-                continue
-            touched = False
-            for field in ("voice", "acting_party", "protected_party", "llm_judgment"):
-                val = (rv.get(field) or "").strip()
-                if val and val != (c.get(field) or ""):
-                    c[field] = val
-                    touched = True
-            if touched:
-                changed += 1
-                c["reverified"] = True
-    return changed
 
 
 def process_document(
@@ -994,12 +810,6 @@ def process_document(
 
     # Phase 2 — CLASSIFICATION: reasoning pass adding protected_party/llm_judgment/topic.
     _classify_clauses(client, document_id, file_name, deduped)
-
-    # Phase 2b — targeted re-verification (2A): re-check only the voice/party error-prone
-    # clauses (missed passive, protected_party defaulted to the actor) with a focused prompt.
-    n_rev = _reverify_ambiguous_clauses(client, document_id, file_name, deduped)
-    if n_rev:
-        print(f"      re-verified {n_rev} ambiguous clause(s)")
 
     # Phase 3 — deterministic scoring (modal_strength + statement_type_match) plus a
     # quote-presence guard: mark whether each clause's quote is actually found in the
