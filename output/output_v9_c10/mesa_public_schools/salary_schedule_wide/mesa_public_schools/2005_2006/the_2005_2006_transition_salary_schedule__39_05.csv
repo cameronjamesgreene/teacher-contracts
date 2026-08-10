@@ -1,0 +1,23 @@
+# 39-05.pdf — The 2005-2006 TRANSITION SALARY SCHEDULE (2005-2006)
+# population: Psychologists employed prior to the 1997-98 school year | is_teacher_schedule: False
+# validation_warnings: none | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,1 School Psych. Certificate,2 MA+45,3 MA+60,4 MA+75 PhD/EdD
+1 0.0,44578,45660,46743,47828
+1 0.5,45371,46456,47538,48622
+2 0.0,46166,47249,48333,49416
+2 0.5,47145,48227,49311,50395
+3 0.0,48124,49206,50289,51374
+3 0.5,49103,50185,51267,52352
+4 0.0,50079,51162,52246,53330
+4 0.5,51393,52476,53559,54643
+5 0.0,52705,53788,54869,55954
+5 0.5,54015,55102,56182,57267
+6 0.0,55328,56413,57495,58579
+6 0.5,56640,57725,58809,59892
+7 0.0,57955,59037,60121,61205
+7 0.5,58756,59855,60953,62053
+8 0.0,59559,60669,61785,62898
+Longevity A,,61882,63021,64156
+Longevity B,,63096,64256,65414
+Longevity C,,64309,65492,66672

@@ -1,0 +1,34 @@
+================================================================
+output_v4 VERIFICATION SUMMARY
+================================================================
+
+[Change 2 - llm_extract]  318 log rows, 3 docs
+  real-quote-next-to-missing (THE BUG): 0   (want 0)
+  raw ND/DU/OCR_NEEDED leaks:            0   (want 0)
+    Chicago  substantive 87 / 106
+    Clark    substantive 75 / 106
+    Detroit  substantive 13 / 106
+    Chicago evaluation_* answers:
+      evaluation_procedure_001           = 'yes'
+      evaluation_system_002              = 'REACH evaluation system; CPS Framework f'
+      evaluation_observation_count_003   = '3 observations per cycle, with at least '
+      evaluation_observation_duration_004 = 'Formal: 45 minutes or length of class pe'
+      evaluation_ratings_005             = 'excellent, proficient, developing, unsat'
+      evaluation_student_growth_006      = 'yes'
+      evaluation_improvement_plan_007    = 'not_discussed'
+      evaluation_consequences_008        = 'not_discussed'
+
+[Change 1 - salary_schedule]  25 schedule grid CSVs
+    chicago_public_schools                     11 grids
+    clark_county_school_district               14 grids
+    grids via vision/rotation path: 8
+
+[Change 3 - rights_score]  3 docs, 2658 clause rows
+    Chicago_CPS-CBA-2019-24.pdf    clauses=1700 scored=1633 wr=243.30 mr=29.80 wResp=290.25 mResp=522.90
+    Clark_County_2021-2023_CBA.pdf clauses=932 scored=857 wr=123.40 mr=42.40 wResp=167.05 mResp=174.50
+    22.pdf                         clauses=26 scored=25 wr=7.00 mr=1.60 wResp=4.00 mResp=0.00
+    split fields populated -> protected_party 2658/2658, topic 2658/2658, llm_judgment 2658/2658
+
+================================================================
+VERIFICATION COMPLETE
+================================================================

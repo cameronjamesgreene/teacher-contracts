@@ -1,0 +1,32 @@
+Processing 1 document(s) ...
+[ 1/1] Pittsburgh_10-15.pdf ...
+      1/14 page-block(s) failed extraction/audit (will retry next run)
+      24 schedule(s) found
+      -> bachelors_s_degree__pittsburgh_10_15.csv [audit corrected]
+      -> master_s_degree_master_s_equivalent_bachelor_s_30__pittsburgh_10_15.csv [audit corrected]
+      -> counselors_salary_schedule__pittsburgh_10_15.csv [audit corrected]
+      -> psychologists_salary_schedule__pittsburgh_10_15.csv [audit corrected]
+      -> social_workers_salary_schedule__pittsburgh_10_15.csv [audit corrected]
+      -> social_workers_on_bachelor_s_degree_salary_schedul__pittsburgh_10_15.csv
+      -> social_workers_salary_schedule__pittsburgh_10_15.csv [audit corrected]
+      -> social_workers_on_bachelor_s_degree_salary_schedul__pittsburgh_10_15.csv [audit corrected]
+      -> school_nurse_practitioners_and_dental_hygienists_s__pittsburgh_10_15.csv [audit corrected]
+      -> school_nurse_practitioners_and_dental_hygienists_s__pittsburgh_10_15.csv
+      -> school_to_work_salary_schedule__pittsburgh_10_15.csv
+      -> adjunct_teachers_salary_schedules_and_hourly_rates__pittsburgh_10_15.csv
+      -> sign_language_interpreter_192_day_school_year__pittsburgh_10_15.csv [audit corrected]
+      -> certified_therapy_assistant_cota_physical_therapy__pittsburgh_10_15.csv [audit corrected]
+      -> preschool_salary_schedules__pittsburgh_10_15.csv
+      -> certified_therapy_assistance_cota_physical_therapy__pittsburgh_10_15.csv [audit corrected]
+      -> family_services_specialists_special_services_coord__pittsburgh_10_15.csv
+      -> preschool_teachers_early_childhood_level_ii_salary__pittsburgh_10_15.csv
+      -> preschool_teachers_early_childhood_level_ii_salary__pittsburgh_10_15.csv [audit corrected]
+      -> master_s_degree_master_s_equivalent_bachelor_s_30__pittsburgh_10_15.csv
+      -> preschool_teachers_early_intervention_special_educ__pittsburgh_10_15.csv
+      -> preschool_teachers_early_intervention_special_educ__pittsburgh_10_15.csv [audit corrected]
+      -> preschool_teachers_early_intervention_special_educ__pittsburgh_10_15__p30-31.csv [audit corrected]
+      -> career_ladder_salary_schedule_for_new_teachers_eff__pittsburgh_10_15.csv
+
+24 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v8/salary_schedule_wide
+  14 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

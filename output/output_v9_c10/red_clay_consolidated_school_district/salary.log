@@ -1,0 +1,15 @@
+Processing 1 document(s) ...
+[ 1/1] Red_Clay_2011-2014.pdf ...
+  deduped 3 identical page-split/reprint grid(s)
+      7 schedule(s) found
+      -> appendix_a_local_teacher_salary_schedule__red_clay_2011_2014.csv
+      -> appendix_b_local_teacher_salary_schedule__red_clay_2011_2014.csv
+      -> appendix_c_local_teacher_salary_schedule__red_clay_2011_2014.csv
+      -> appendix_d_extra_pay_for_extra_responsibility_sche__red_clay_2011_2014.csv
+      -> appendix_d_extra_pay_for_extra_responsibility_sche__red_clay_2011_2014__p38-41.csv
+      -> appendix_d_extra_pay_for_extra_responsibility_sche__red_clay_2011_2014__p38-41.csv
+      -> schedule_42__red_clay_2011_2014.csv [audit corrected]
+
+7 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/red_clay_consolidated_school_district/salary_schedule_wide
+  1 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

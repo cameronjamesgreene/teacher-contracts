@@ -1,0 +1,15 @@
+Processing 1 document(s) ...
+[ 1/1] St_Paul_Agreement_teacher.pdf ...
+      2/8 page-block(s) failed extraction/audit (will retry next run)
+      7 schedule(s) found
+      -> longevity_amounts__st_paul_agreement_teacher.csv
+      -> longevity_amounts__st_paul_agreement_teacher.csv [audit corrected]
+      -> additional_daily_teaching_assignments__st_paul_agreement_teacher.csv [audit corrected]
+      -> salary_schedules__st_paul_agreement_teacher.csv
+      -> salary_schedules__st_paul_agreement_teacher.csv
+      -> salary_schedules_continued__st_paul_agreement_teacher.csv
+      -> salary_schedules_continued__st_paul_agreement_teacher.csv
+
+7 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/st_paul_public_schools/salary_schedule_wide
+  2 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

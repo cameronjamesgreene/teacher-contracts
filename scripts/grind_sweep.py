@@ -60,15 +60,17 @@ from dataclasses import dataclass
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from grind_retrieve import (DOCUMENT_ID, MANCHESTER, DocumentContext, load_document,
+from grind_retrieve import (DEFAULT_DOCUMENT_ID, DocumentContext, load_document,
                             document_pages, locate_in_document)
 from som_client import MODEL, budgeted_max_tokens, create_with_retries, get_client
 from utils import WORK, read_codebook
 
 OUT_PATH = WORK / "output" / "extraction" / "results" / "sweep.jsonl"
 
-# One process sweeps one document; set from --document-id before windowing.
-DOC: DocumentContext = MANCHESTER
+# One process sweeps one document; set from --document-id before windowing. None
+# until then, so a code path that reads it too early fails loudly rather than
+# sweeping the default document under another document's name.
+DOC: DocumentContext | None = None
 
 # ── window geometry ───────────────────────────────────────────────────────────────
 # Sized against the 32k window that prompt and output share. A window of ~20k chars
@@ -760,7 +762,7 @@ def public(answers: list[dict]) -> list[dict]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--document-id", default=MANCHESTER.document_id)
+    parser.add_argument("--document-id", default=DEFAULT_DOCUMENT_ID)
     parser.add_argument("--out", type=Path, default=OUT_PATH)
     parser.add_argument("--window-chars", type=int, default=WINDOW_CHARS)
     parser.add_argument("--overlap-pages", type=int, default=OVERLAP_PAGES)
@@ -778,8 +780,7 @@ def main() -> None:
                         help="report window geometry and token budgets, make no calls")
     args = parser.parse_args()
     global DOC
-    DOC = (MANCHESTER if args.document_id == MANCHESTER.document_id
-           else load_document(args.document_id))
+    DOC = load_document(args.document_id)
 
     questions = read_codebook()
     if args.question_limit:

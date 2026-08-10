@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] 92.pdf ...
+      re-verified 109 ambiguous clause(s)
+      1344 clauses extracted, 1226 scored
+
+1344 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/san_antonio_independent_school_district/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/san_antonio_independent_school_district/rights_score_summary.csv
+Document status summary: {'ok': 1}

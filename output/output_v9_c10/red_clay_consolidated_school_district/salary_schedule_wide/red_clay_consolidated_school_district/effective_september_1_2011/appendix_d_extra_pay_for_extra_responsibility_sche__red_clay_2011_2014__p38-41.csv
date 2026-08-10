@@ -1,0 +1,44 @@
+"# Red_Clay_2011-2014.pdf — Appendix D Extra Pay for Extra Responsibility Schedule (Effective September 1, 2011)"
+"# population: Coaches, advisors, managers, coordinators, directors, and other staff with extra responsibility | is_teacher_schedule: False"
+"# validation_warnings: duplicate step_labels: ['Basketball (B & G)', 'Soccer', 'Student Council', 'Wrestling'] | audit confirmed"
+step,0,1,2,3,4
+Football,5035,5276,5521,5561,6002
+Basketball (B & G),1200,1250,1300,1350,1400
+Wrestling,1200,1250,1300,1350,1400
+Baseball,3528,3687,3849,4011,4174
+Hockey,3528,3687,3849,4011,4174
+Lacrosse,3528,3687,3849,4011,4174
+Soccer,1200,1250,1300,1350,1400
+Softball,3528,3687,3849,4011,4174
+Swimming (B&G),3528,3687,3849,4011,4174
+Track (B & G),3528,3687,3849,4011,4174
+Volleyball (B & G),3528,3687,3849,4011,4174
+Cross Country (B&G),1917,1998,2079,2159,2236
+Golf,1917,1998,2079,2159,2236
+Tennis (B&G),1917,1998,2079,2159,
+Student Council,842,867,918,969,1046
+10th Grade,881,922,962,1006,1041
+9th Grade,881,922,962,1006,1041
+Club (8),842,867,918,969,1046
+Swimming Pool,2766,2905,3050,3202,3362
+School Store,1123,1180,1233,1285,1341
+Band Front,1418,1487,1550,1620,1687
+DEPT. CHAIR (BASE) (10),536,561,587,612,638
+Each up to 10,196,,,,
+Athletic,2958,3009,3060,3111,3162
+Intramural Program,1938,1989,2040,2091,3162
+Marching Band,1611,1692,1773,1853,1930
+Choral,1174,1231,1284,1336,1392
+Concert Band,1174,1231,1284,1336,1392
+Dramatics,1174,1231,1284,1336,1392
+Club (6),842,867,918,969,1046
+Newspaper,842,867,918,969,1046
+Student Council,842,867,918,969,1046
+Yearbook,842,867,918,969,1046
+Honor Society,842,867,918,969,1046
+Basketball (B & G),1200,1250,1300,1350,1400
+Field Hockey,1200,1250,1300,1350,1400
+Soccer,1200,1250,1300,1350,1400
+Track,1200,1250,1300,1350,1400
+Volleyball (B&G),1200,1250,1300,1350,1400
+Wrestling,1200,1250,1300,1350,1400

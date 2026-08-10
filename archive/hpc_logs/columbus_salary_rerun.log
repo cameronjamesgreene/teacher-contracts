@@ -1,0 +1,9 @@
+Processing 1 document(s) ...
+[ 1/1] Columbus_Education_Association_2022-2025.pdf ...
+      3 schedule(s) found
+      -> 902_01_effective_august_22_2022__columbus_education_association_2022_2025.csv
+      -> 902_02_effective_at_the_beginning_of_the_2023_2024__columbus_education_association_2022_2025.csv
+      -> 902_03_effective_at_the_beginning_of_the_2024_2025__columbus_education_association_2022_2025.csv
+
+3 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/columbus_city_schools_columbus_education_association_2022_2025/salary_schedule_wide
+Document status summary: {'ok': 1}

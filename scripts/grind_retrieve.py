@@ -92,12 +92,15 @@ def load_document(document_id: str) -> DocumentContext:
     raise KeyError(f"{document_id} is absent from {MANIFEST.name} or lacks usable text")
 
 
-# Retained so the existing variant scripts keep running unchanged.
-DOCUMENT_ID = "manchester_school_district__83__de5d62c9"
-MANCHESTER = DocumentContext(
-    document_id=DOCUMENT_ID,
-    text_path=WORK_ROOT / "cache" / "extracted_text" / f"{DOCUMENT_ID}.txt")
-TEXT_PATH = MANCHESTER.text_path
+# The document the CLIs default to when none is named. It is the only document with
+# a 38-question answer key, so it stays the default for scoring runs — but it is a
+# default *argument value*, never an implicit fallback inside a function. Every
+# function below that needs a document takes it explicitly and will raise if it is
+# not supplied: silently grounding one district's quotes against another district's
+# pages produces plausible, wrong page numbers, which is the worst failure available
+# to this pipeline.
+DEFAULT_DOCUMENT_ID = "manchester_school_district__83__de5d62c9"
+DOCUMENT_ID = DEFAULT_DOCUMENT_ID          # retained: older scripts import this name
 
 
 def norm(text: str) -> str:
@@ -149,8 +152,8 @@ def _has_vectors(doc: DocumentContext) -> bool:
     return row is not None
 
 
-def fused_passages(connection, query: str, budget: int = BUDGET,
-                   doc: DocumentContext = MANCHESTER) -> list[Passage]:
+def fused_passages(connection, query: str, budget: int = BUDGET, *,
+                   doc: DocumentContext) -> list[Passage]:
     """Interleave FTS5 and dense retrieval, then hydrate full passage text.
 
     Interleaving rather than score fusion: the two retrievers fail on different
@@ -182,8 +185,8 @@ def page_label(passage: Passage) -> str:
     return f"{passage.page_start}-{passage.page_end}"
 
 
-def ground(evidence: str, passages: list[Passage],
-           doc: DocumentContext = MANCHESTER) -> Grounding:
+def ground(evidence: str, passages: list[Passage], *,
+           doc: DocumentContext) -> Grounding:
     """Locate a quote in the supplied passages and derive its true PDF page.
 
     Returns the page from the passage that actually contains the quote, ignoring
@@ -212,7 +215,7 @@ def ground(evidence: str, passages: list[Passage],
                      "evidence is not a verbatim span of any supplied passage")
 
 
-def exact_page(evidence: str, doc: DocumentContext = MANCHESTER) -> str:
+def exact_page(evidence: str, doc: DocumentContext) -> str:
     """The single PDF page wholly containing this quote, or "" if it spans a break."""
     quote = norm(evidence)
     if len(quote) < 15:
@@ -408,19 +411,19 @@ def passage_payload(passages: list[Passage]) -> list[dict]:
              "text": passage.text} for passage in passages]
 
 
-def document_pages(doc: DocumentContext = MANCHESTER) -> list[str]:
+def document_pages(doc: DocumentContext) -> list[str]:
     """Form-feed delimited pages; index N-1 is PDF page N. Cached per document."""
     return doc.pages()
 
 
-def locate_in_document(evidence: str, pages: list[str] | None = None,
-                       doc: DocumentContext = MANCHESTER) -> Grounding:
+def locate_in_document(evidence: str, pages: list[str]) -> Grounding:
     """Find a quote anywhere in the document and derive its true PDF page.
 
     Used by the full-document sweep, which reads raw page text rather than indexed
-    passages and so has no passage_id to attach.
+    passages and so has no passage_id to attach. `pages` is required rather than
+    defaulted from a document, so a caller cannot accidentally search one document's
+    quote against another's pages.
     """
-    pages = pages if pages is not None else doc.pages()
     quote = norm(evidence)
     if len(quote) < 15:
         return Grounding(None, "not_applicable", False, False, "evidence too short to verify")
@@ -440,7 +443,7 @@ def locate_in_document(evidence: str, pages: list[str] | None = None,
                      "evidence is not a verbatim span of the document")
 
 
-__all__ = ["DOCUMENT_ID", "MANCHESTER", "BUDGET", "DocumentContext", "corpus",
+__all__ = ["DOCUMENT_ID", "DEFAULT_DOCUMENT_ID", "BUDGET", "DocumentContext", "corpus",
            "load_document", "Grounding", "exact_page", "fused_passages", "ground",
            "realign", "realign_by_claim", "norm_with_map", "dense_ids",
            "SentenceMenu", "sentence_menu",

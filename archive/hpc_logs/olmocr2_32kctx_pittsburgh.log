@@ -1,0 +1,37 @@
+note: 1 documents have no pypdf probe — running olmOCR-2 on them anyway
+running HPC OCR on 1 document(s) via 1 worker(s) × 4 in-flight
+[orch] 1 PDFs to process; workers=1, in-flight=4 per worker (total concurrent: 4)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=allenai/olmOCR-2-7B-1025 VLLM_MAX_MODEL_LEN=32768 VLLM_IMAGE=docker://vllm/vllm-openai:v0.…'
+[serve] {"event":"job_start","host":"c002","job":"1548325","port":57902,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c002 port=57902 api_key=4e130cbcca3cd80d1cfd9c6cebd77919c3770649d0db23a3338c1a85b5ca1fa8
+[tunnel] localhost:39399 -> c002:57902
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"allenai/olmOCR-2-7B-1025","max_model_len":32768,"image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] {"event":"vllm_backgrounded","pid":606909}
+[serve] INFO:    Using cached SIF image
+[serve] INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (478) bind mounts
+[serve] (APIServer pid=606933) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (APIServer pid=606933) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=607162) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (EngineCore pid=607162) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=607162) Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[serve] (EngineCore pid=607162) Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:06<00:18,  6.24s/it]
+[serve] (EngineCore pid=607162) Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:09<00:09,  4.71s/it]
+[serve] (EngineCore pid=607162) Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:13<00:04,  4.36s/it]
+[serve] (EngineCore pid=607162) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:14<00:00,  3.09s/it]
+[serve] (EngineCore pid=607162) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:14<00:00,  3.74s/it]
+[serve] (EngineCore pid=607162) 
+[serve] (APIServer pid=606933) INFO:     Started server process [606933]
+[serve] (APIServer pid=606933) INFO:     Waiting for application startup.
+[serve] (APIServer pid=606933) INFO:     Application startup complete.
+[ready] vLLM serving allenai/olmOCR-2-7B-1025 after 102.4s
+[orch] w0 ready (port 39399 → c002:57902)
+[serve] srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[serve] [2026-07-21T11:48:48.304] error: *** STEP 1548325.0 ON c002 CANCELLED AT 2026-07-21T11:48:48 DUE to SIGNAL Terminated ***
+[serve] {"event":"job_end","rc":143}
+[serve] srun: error: c002: task 0: Exited with exit code 143
+[done] w0 document.pdf → olmocr2.txt  (0pp, 0B, 1278.3s, ERR APIConnectionError: Connection error.; 1/1)
+
+=== SUMMARY === 0 ok / 1 err in 1278.3s (0.0 PDFs/min, 1 worker(s) × 4 in-flight)

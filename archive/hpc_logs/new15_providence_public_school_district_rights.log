@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] 91.pdf ...
+      re-verified 13 ambiguous clause(s)
+      467 clauses extracted, 453 scored
+
+467 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/providence_public_school_district/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/providence_public_school_district/rights_score_summary.csv
+Document status summary: {'ok': 1}

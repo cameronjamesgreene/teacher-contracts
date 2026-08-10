@@ -1,0 +1,19 @@
+"# Baltimore_City_2016-2019.pdf — 2017-18 BTU Career Pathway Salary Schedule Effective July 1, 2017 (July 1, 2017)"
+# population: IEP TEAM ASSOCIATE | is_teacher_schedule: False
+# validation_warnings: label_not_in_source: 'Standard BTU.280' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Professional BTU.281' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Model BTU.282' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed
+step,Standard BTU.280,Professional BTU.281,Model BTU.282
+Interval 1,51399,63594,91727
+Interval 2,52866,66260,93296
+Interval 3,54377,68927,94865
+Interval 4,55935,71593,96434
+Interval 5,57537,74261,98002
+Interval 6,,77136,
+Interval 7,,80116,
+Interval 8,,81685,
+Interval 9,,82736,
+Interval 10,,83786,
+Interval 11,,84837,
+Interval 12,,85889,
+Interval 13,,86940,
+Interval 14,,87990,
+Interval 15,,89042,

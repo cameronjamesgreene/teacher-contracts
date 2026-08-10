@@ -18,19 +18,40 @@ from pathlib import Path
 from typing import Iterable
 
 
-# utils.py lives in contract_coding_CG/scripts/, so WORK (contract_coding_CG)
-# and ROOT (contracts/, the parent containing nctq_contracts) are each one
-# level deeper than the file itself.
+# utils.py lives in <repo>/scripts/, so WORK is the repo root and ROOT its parent.
+# ROOT is retained because document_id hashes are taken over the PDF path relative
+# to it (see load_documents); changing ROOT silently renames every document.
 ROOT = Path(__file__).resolve().parents[2]
 WORK = Path(__file__).resolve().parents[1]
-PDF_ROOT = ROOT / "nctq_contracts"
+# Source PDFs live in the repository, not in a sibling nctq_contracts/ checkout.
+# Do not "simplify" this to a path relative to WORK: the document_id hash is taken
+# over `path.relative_to(ROOT)`, so `<repo>/raw/...` is what makes the ids in
+# output/extraction/corpus_manifest.csv and the answer keys resolve.
+PDF_ROOT = WORK / "raw"
 CODEBOOK = WORK / "extraction_elements_reduced.md"
 README = WORK / "readme.md"
 TEXT_DIR = WORK / "cache" / "extracted_text"
 OCR_TEXT_DIR = WORK / "cache" / "ocr_text"
-# Output version dir. Override with CONTRACT_OUT_DIR to target a fresh run (e.g.
-# output_v4) without disturbing the previous version's CSVs.
-OUT_DIR = WORK / os.environ.get("CONTRACT_OUT_DIR", "output_v3")
+
+
+def _resolve_out_dir(setting: str) -> Path:
+    """Where this run's CSVs go. Override with CONTRACT_OUT_DIR.
+
+    The v1-v11 run directories were consolidated under output/, so a bare version
+    name ("output_v6", or "output_v6/<slug>" as the parallel driver passes) resolves
+    there. A path that already names output/, and an absolute path, are honoured as
+    given so both spellings work.
+    """
+    path = Path(setting)
+    if path.is_absolute():
+        return path
+    if path.parts and path.parts[0] == "output":
+        return WORK / path
+    return WORK / "output" / path
+
+
+CURRENT_VERSION = "v12"
+OUT_DIR = _resolve_out_dir(os.environ.get("CONTRACT_OUT_DIR", f"output_{CURRENT_VERSION}"))
 
 
 MISSING_CODES = {"not_discussed", "discussed_unclear", "not_applicable"}
@@ -89,6 +110,46 @@ STATE_BY_DISTRICT = {
     "Fresno Unified School District": "CA",
     "School District of Palm Beach County": "FL",
     "Garland Independent School District": "TX",
+    # The districts above are the original 40-PDF readme sample. Everything below is
+    # the corpus actually under raw/ (output/extraction/corpus_manifest.csv). Without
+    # these, `state` was "unclear" on 37 of 42 documents in every wide dataset.
+    "Anoka–Hennepin School District": "MN",
+    "Baltimore City Public School System": "MD",
+    "Boston Public Schools": "MA",
+    "Broward County Public Schools": "FL",
+    "Cleveland Metropolitan School District": "OH",
+    "Columbus City Schools": "OH",
+    "Conroe Independent School District": "TX",
+    "Dallas Independent School District": "TX",
+    "Dayton Public Schools": "OH",
+    "DeKalb County School District": "GA",
+    "Denver Public Schools": "CO",
+    "Duval County Public Schools": "FL",
+    "Fort Bend Independent School District": "TX",
+    "Hillsborough County Public Schools": "FL",
+    "Houston Independent School District": "TX",
+    "Jackson Public Schools": "MS",
+    "Jefferson County Public Schools": "KY",
+    "Katy Independent School District": "TX",
+    "Long Beach Unified School District": "CA",
+    "Los Angeles Unified School District": "CA",
+    "Manchester School District": "NH",
+    "Miami–Dade County Public Schools": "FL",
+    "Milwaukee Public Schools": "WI",
+    "New York City Department of Education": "NY",
+    "Oakland Unified School District": "CA",
+    "Orange County Public Schools": "FL",
+    "Pittsburgh Public Schools": "PA",
+    "Portland Public Schools, ME": "ME",
+    "Providence Public School District": "RI",
+    "Rochester City School District": "NY",
+    "Sacramento City Unified School District": "CA",
+    "San Antonio Independent School District": "TX",
+    "San Bernardino City Unified School District": "CA",
+    "School District of Lee County": "FL",
+    "School District of Philadelphia": "PA",
+    "Seattle Public Schools": "WA",
+    "Winston–Salem_Forsyth County Schools": "NC",
 }
 
 
@@ -392,7 +453,10 @@ def find_union_name(district: str, text: str) -> str:
         text[:80000],
     )
     if candidates:
-        return candidates[0]
+        # The \s+ above spans line breaks, so a name wrapped across two lines comes back
+        # with the break inside it ("Manchester\nEducation Association") and lands in the
+        # CSV as a quoted multi-line cell.
+        return normalize_space(candidates[0])
     return known if district not in {"Aldine Independent School District", "Garland Independent School District", "Northside Independent School District", "Birmingham City Schools"} else ""
 
 

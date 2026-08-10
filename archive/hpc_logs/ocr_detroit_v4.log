@@ -1,0 +1,48 @@
+documents: 1
+engines: olmocr2
+stages:  ocr
+HPC:     olmocr2
+
+=== ocr:olmocr2 ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/olmocr2_extract.py --document 70035fed-99db-52d0-8e40-7df345301b44 --documents-root /home/cjg79/contracts/contract_coding_CG/cache/ocr_documents/documents ...
+note: 1 documents have no pypdf probe — running olmOCR-2 on them anyway
+running HPC OCR on 1 document(s) via 1 worker(s) × 8 in-flight
+[orch] 1 PDFs to process; workers=1, in-flight=8 per worker (total concurrent: 8)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=allenai/olmOCR-2-7B-1025 VLLM_MAX_MODEL_LEN=8192 VLLM_IMAGE=docker://vllm/vllm-openai:v0.2…'
+[serve] {"event":"job_start","host":"c005","job":"1521355","port":53770,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c005 port=53770 api_key=b83bcdd635123d5984f09a247d2fdecb4c5642e81382a9629d3448c75536b5cf
+[tunnel] localhost:34577 -> c005:53770
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"allenai/olmOCR-2-7B-1025","max_model_len":8192,"image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] {"event":"vllm_backgrounded","pid":2958504}
+[serve] INFO:    Using cached SIF image
+[serve] INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (478) bind mounts
+[serve] (APIServer pid=2958530) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (APIServer pid=2958530) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=2958600) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (EngineCore pid=2958600) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=2958600) Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[serve] (EngineCore pid=2958600) Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:06<00:18,  6.22s/it]
+[serve] (EngineCore pid=2958600) Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:10<00:09,  4.79s/it]
+[serve] (EngineCore pid=2958600) Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:13<00:04,  4.25s/it]
+[serve] (EngineCore pid=2958600) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:14<00:00,  2.98s/it]
+[serve] (EngineCore pid=2958600) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:14<00:00,  3.66s/it]
+[serve] (EngineCore pid=2958600) 
+[serve] (APIServer pid=2958530) INFO:     Started server process [2958530]
+[serve] (APIServer pid=2958530) INFO:     Waiting for application startup.
+[serve] (APIServer pid=2958530) INFO:     Application startup complete.
+[ready] vLLM serving allenai/olmOCR-2-7B-1025 after 94.1s
+[orch] w0 ready (port 34577 → c005:53770)
+[done] w0 document.pdf → olmocr2.txt  (6pp, 10871B, 44.3s, ok; 1/1)
+
+=== SUMMARY === 1 ok / 0 err in 44.3s (1.4 PDFs/min, 1 worker(s) × 8 in-flight)
+
+HPC backend rc=0; wrote 1/1 (.txt + .json)
+
+manifest: logs/runs/2026-07-19T20-18-02.743536+00-00.jsonl
+coverage on this run's 1 documents:
+  ocr:olmocr2    1/1
+
+all stages OK

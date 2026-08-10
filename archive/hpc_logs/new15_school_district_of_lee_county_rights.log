@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] 102-07.pdf ...
+      re-verified 53 ambiguous clause(s)
+      771 clauses extracted, 727 scored
+
+771 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/school_district_of_lee_county/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/school_district_of_lee_county/rights_score_summary.csv
+Document status summary: {'ok': 1}

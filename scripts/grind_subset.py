@@ -46,9 +46,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import som_client
-from grind_retrieve import (Passage, document_pages, fused_passages, ground,
-                            locate_in_document, norm, open_database, passage_payload)
+from grind_retrieve import (DocumentContext, Passage, document_pages, fused_passages,
+                            ground, load_document, locate_in_document, norm,
+                            open_database, passage_payload)
 from utils import WORK, read_codebook
+
+# One process polishes one document. Bound in main() from the input records, which
+# already carry the document_id, so retrieval, grounding and page derivation all
+# refer to the same document as the answers being enriched.
+DOC: DocumentContext | None = None
 
 DB_PATH = WORK / "cache" / "contract_search_structural.sqlite3"
 # The reconciled ensemble is the pipeline's normal output, so it is the natural input
@@ -133,7 +139,7 @@ def subset_passages(connection, question, depth: int = 0) -> list[Passage]:
     for phrase in SUBSET_FAMILIES.values():
         query = f"{topic} {phrase}".strip()
         try:
-            hits = fused_passages(connection, query,
+            hits = fused_passages(connection, query, doc=DOC,
                                   budget=min(20, FAMILY_BUDGET * (depth + 1)))
         except Exception:
             hits = []                  # one bad family must not fail the answer
@@ -284,7 +290,7 @@ def quote_page(quote: str, fallback: str) -> str:
     """
     global _PAGES
     if not _PAGES:
-        _PAGES = document_pages()
+        _PAGES = document_pages(DOC)
     located = locate_in_document(quote, _PAGES)
     return located.page if located.contiguous and located.page.isdigit() else fallback
 
@@ -303,13 +309,13 @@ def accept(variations: list[dict], answer: dict,
         reason = ""
         if not (subset and rule and quote):
             reason = "incomplete variation"
-        grounding = ground(quote, passages) if not reason else None
+        grounding = ground(quote, passages, doc=DOC) if not reason else None
         snapped = False
         if grounding is not None and not (grounding.verbatim and grounding.contiguous):
             rescued = snap_quote(quote, passages)
             if rescued:
                 quote, snapped = rescued, True
-                grounding = ground(quote, passages)
+                grounding = ground(quote, passages, doc=DOC)
         if not reason and not (grounding.verbatim and grounding.contiguous):
             reason = grounding.error or "not grounded"
         if not reason:
@@ -458,9 +464,26 @@ def main() -> None:
                         help="retrieval depths to try per answer; depth N reads the "
                              "passages ranked below those depth N-1 already rejected")
     parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--document-id",
+                        help="the document these records code; inferred from the input "
+                             "when it names exactly one document")
     args = parser.parse_args()
 
+    global DOC
     records = load_records(args.input)
+    claimed = {record["document_id"] for record in records if record.get("document_id")}
+    document_id = args.document_id or (next(iter(claimed)) if len(claimed) == 1 else "")
+    if not document_id:
+        raise SystemExit(
+            f"cannot tell which document {args.input} codes "
+            f"({sorted(claimed) or 'no document_id in any record'}). "
+            "Polish one document at a time, or pass --document-id.")
+    if claimed - {document_id}:
+        raise SystemExit(f"{args.input} mixes documents ({sorted(claimed)}); one "
+                         f"document per run, or the retrieved passages and the answers "
+                         f"being enriched come from different contracts.")
+    DOC = load_document(document_id)
+
     codebook = {question.qid: question for question in read_codebook()}
     cache_path = args.out.with_suffix(".cache.jsonl")
     cache = load_cache(cache_path) if (args.resume or args.rescore) else {}

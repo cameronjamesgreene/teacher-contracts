@@ -1,0 +1,19 @@
+Processing 3 document(s) ...
+[ 1/3] Chicago_CPS-CBA-2019-24.pdf ...
+      2/1 page-block(s) failed extraction/audit (will retry next run)
+      0 schedule(s) found
+[ 2/3] Clark_County_2021-2023_CBA.pdf ...
+      7 schedule(s) found
+      -> table_three_3_licensed_transitional_salary_schedul__clark_county_2021_2023_cba__p46-46.csv [audit corrected]
+      -> licensed_professional_salary_table__clark_county_2021_2023_cba__p47-47.csv
+      -> longevity_table__clark_county_2021_2023_cba__p47-47.csv
+      -> 37_1_2_senior_high_school_extended_day_pay__clark_county_2021_2023_cba__p66-66.csv
+      -> 37_1_4_elementary_school_extended_day_pay__clark_county_2021_2023_cba__p68-68.csv
+      -> 37_1_5_computation_of_athletic_stipend__clark_county_2021_2023_cba__p68-68.csv [audit corrected]
+      -> 37_1_6_payment_for_directing_intramural_programs__clark_county_2021_2023_cba__p68-68.csv
+[ 3/3] 22.pdf ...
+      0 schedule(s) found
+
+7 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v4/salary_schedule_wide
+  2 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 3}

@@ -54,3 +54,20 @@ scripts/som_api_key.txt
 # Audit workbooks ARE tracked: they are the only surviving record of v1-v10 quality
 !output*/audit_report*.xlsx
 scripts/hydrate_list.txt
+
+# Some paths under the ignored trees above are tracked deliberately, and were added
+# with `git add -f` because git will not descend into an excluded directory (a
+# `!archive/hpc_drivers/**` negation under a blanket `archive/` rule silently does
+# nothing). Once tracked, a file stays tracked, so this list is documentation of intent
+# rather than an active rule — add the same way if you add more:
+#
+#   output/output_v*/contract_coding_v*.xlsx   deliverables; hours of model time, not
+#                                              regenerable from the repo alone
+#   output/output_v8_15docs/, v8_test/, v9_c10/   HPC runs that exist nowhere else
+#   archive/hpc_drivers/                       the only record of how v4-v9 were invoked
+#   archive/hpc_logs/                          run provenance for those versions
+#   archive/v9_ocr/                            the retired OCR stack, at its new path
+#
+# NOT tracked, deliberately: ~/contracts/nctq_contracts on the HPC (4.7 GB, 149
+# districts) and cache/ (657 MB). Both are bulk or regenerable; the PDF corpus is
+# larger than GitHub will sensibly hold and *.pdf is excluded above.

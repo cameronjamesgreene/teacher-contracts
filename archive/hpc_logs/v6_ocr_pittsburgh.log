@@ -1,0 +1,52 @@
+documents: 1
+engines: olmocr2
+stages:  ocr
+HPC:     olmocr2
+
+=== ocr:olmocr2 ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/olmocr2_extract.py --document 0779d079-12e0-50bc-922a-9eef22cb169a --documents-root /gpfs/home/cjg79/contracts/contract_coding_CG/cache/hybrid_ocr/pittsburgh_public_schools__pittsburgh_10_15__75d52cf8/documents ...
+note: 1 documents have no pypdf probe — running olmOCR-2 on them anyway
+running HPC OCR on 1 document(s) via 1 worker(s) × 8 in-flight
+[orch] 1 PDFs to process; workers=1, in-flight=8 per worker (total concurrent: 8)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=allenai/olmOCR-2-7B-1025 VLLM_MAX_MODEL_LEN=8192 VLLM_IMAGE=docker://vllm/vllm-openai:v0.2…'
+[serve] {"event":"job_start","host":"c005","job":"1538593","port":53995,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c005 port=53995 api_key=cbea15fa0b2cd6a534faf78f2fa2ddfa3ae373cc8fafe83f0a8b1a5dcd01e51d
+[tunnel] localhost:33101 -> c005:53995
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"allenai/olmOCR-2-7B-1025","max_model_len":8192,"image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] {"event":"vllm_backgrounded","pid":3580520}
+[serve] INFO:    Using cached SIF image
+[serve] INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (478) bind mounts
+[serve] (APIServer pid=3580543) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (APIServer pid=3580543) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=3580622) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (EngineCore pid=3580622) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=3580622) Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[serve] (EngineCore pid=3580622) Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:07<00:21,  7.15s/it]
+[serve] (EngineCore pid=3580622) Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:11<00:11,  5.59s/it]
+[serve] (EngineCore pid=3580622) Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:15<00:04,  4.93s/it]
+[serve] (EngineCore pid=3580622) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:16<00:00,  3.43s/it]
+[serve] (EngineCore pid=3580622) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:16<00:00,  4.23s/it]
+[serve] (EngineCore pid=3580622) 
+[serve] (APIServer pid=3580543) INFO:     Started server process [3580543]
+[serve] (APIServer pid=3580543) INFO:     Waiting for application startup.
+[serve] (APIServer pid=3580543) INFO:     Application startup complete.
+[ready] vLLM serving allenai/olmOCR-2-7B-1025 after 95.6s
+[orch] w0 ready (port 33101 → c005:53995)
+[done] w0 document.pdf → olmocr2.txt  (34pp, 107578B, 579.2s, ok; 1/1)
+
+=== SUMMARY === 1 ok / 0 err in 579.2s (0.1 PDFs/min, 1 worker(s) × 8 in-flight)
+[serve] srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+
+HPC backend rc=0; wrote 1/1 (.txt + .json)
+
+manifest: logs/runs/2026-07-21T03-12-08.807592+00-00.jsonl
+coverage on this run's 1 documents:
+  ocr:olmocr2    1/1
+
+all stages OK
+Pittsburgh_10-15.pdf: 34 pages — fully scanned (whole-doc OCR)
+  OCR-ing pittsburgh_public_schools__pittsburgh_10_15__75d52cf8__scanned.pdf (34 pages) with olmocr2 ...
+  merged 34 OCR'd page(s) + 0 native page(s) -> pittsburgh_public_schools__pittsburgh_10_15__75d52cf8.txt (82,255 non-space chars)

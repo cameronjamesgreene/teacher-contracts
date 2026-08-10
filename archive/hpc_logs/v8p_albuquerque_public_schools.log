@@ -1,0 +1,12 @@
+Processing 1 document(s) ...
+[ 1/1] ATF-Negotiated-Agreement_2018-19.pdf ...
+      5 schedule(s) found
+      -> 2018_2019_salary_matrix_at_1__atf_negotiated_agreement_2018_19.csv
+      -> appendix_a_2_2018_2019_salary_matrix_at_2__atf_negotiated_agreement_2018_19.csv
+      -> appendix_a_3_2018_2019_salary_matrix_at_3__atf_negotiated_agreement_2018_19.csv
+      -> appendix_a_3_2018_2019_salary_matrix_at_3__atf_negotiated_agreement_2018_19__p75-76.csv [audit corrected]
+      -> appendix_a_5_2018_2019_salary_matrix_a_3_4_educati__atf_negotiated_agreement_2018_19.csv
+
+5 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v8_15docs/salary_schedule_wide
+  1 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

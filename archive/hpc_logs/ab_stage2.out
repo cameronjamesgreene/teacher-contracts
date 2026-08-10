@@ -1,0 +1,24 @@
+
+== pay_salary_schedule_001 [Hillsborough County Pu] sections=7 provision_in_chunks=[1]
+   stage1 per-chunk answers: {1: 'not_discussed', 2: 'not_discussed', 3: 'not_discussed', 4: 'not_discussed', 5: 'None', 6: 'not_discussed', 7: 'not_discussed'}
+   MERGED stage1     : not_discussed
+   Stage-2 @50k (v9) : not_discussed
+   Stage-2 @provision: discussed
+
+== security_seniority_definition_003 [Los Angeles Unified Sc] sections=40 provision_in_chunks=[1, 2, 5]
+   stage1 per-chunk answers: {1: 'not_discussed', 2: 'not_discussed', 3: 'not_discussed', 4: 'not_discussed', 5: 'discussed_unclear', 6: 'discussed_unclear', 7: 'not_discussed', 8: 'discussed_unclear', 9: 'discussed_unclear', 10: 'not_discussed', 11: 'not_discussed', 12: 'None', 13: 'discussed_unclear', 14: 'not_discussed', 15: 'discussed_unclear', 16: 'not_discussed', 17: 'not_discussed', 18: 'discussed_unclear', 19: 'not_discussed', 20: 'not_discussed', 21: 'not_discussed', 22: 'not_discussed', 23: 'not_discussed', 24: 'not_discussed', 25: 'not_discussed', 26: 'not_discussed', 27: 'not_discussed', 28: 'not_discussed', 29: 'not_discussed', 30: 'not_discussed', 31: 'not_discussed', 32: 'not_discussed', 33: 'not_discussed', 34: 'not_discussed', 35: 'not_discussed', 36: 'not_discussed', 37: 'not_discussed', 38: 'not_discussed', 39: 'not_discussed', 40: 'not_discussed'}
+   MERGED stage1     : not_discussed
+   Stage-2 @50k (v9) : not_discussed
+   Stage-2 @provision: not_discussed
+
+== conduct_ethics_002 [Orange County Public S] sections=10 provision_in_chunks=[4]
+   stage1 per-chunk answers: {1: 'not_discussed', 2: 'not_discussed', 3: 'not_discussed', 4: 'not_discussed', 5: 'not_discussed', 6: 'None', 7: 'not_discussed', 8: 'not_discussed', 9: 'not_discussed', 10: 'not_discussed'}
+   MERGED stage1     : not_discussed
+   Stage-2 @50k (v9) : not_discussed
+   Stage-2 @provision: not_discussed
+
+== pay_step_increment_003 [School District of Pal] sections=12 provision_in_chunks=[1, 5, 8]
+   stage1 per-chunk answers: {1: 'not_discussed', 2: 'not_discussed', 3: 'not_discussed', 4: 'not_discussed', 5: 'not_discussed', 6: 'not_discussed', 7: 'not_discussed', 8: 'not_discussed', 9: 'not_discussed', 10: 'not_discussed', 11: 'not_discussed', 12: 'not_discussed'}
+   MERGED stage1     : not_discussed
+   Stage-2 @50k (v9) : not_discussed
+   Stage-2 @provision: ERR:Response truncated before final answer (finish_reason='l

@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] 32.pdf ...
+      re-verified 81 ambiguous clause(s)
+      1451 clauses extracted, 1353 scored
+
+1451 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/houston_independent_school_district/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/houston_independent_school_district/rights_score_summary.csv
+Document status summary: {'ok': 1}

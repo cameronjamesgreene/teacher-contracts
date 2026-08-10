@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] Katy_14-15_employee_handbook.pdf ...
+      re-verified 51 ambiguous clause(s)
+      787 clauses extracted, 666 scored
+
+787 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/katy_independent_school_district/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/katy_independent_school_district/rights_score_summary.csv
+Document status summary: {'ok': 1}

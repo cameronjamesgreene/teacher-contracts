@@ -1,0 +1,19 @@
+Processing 1 document(s) ...
+[ 1/1] 2016_SBTA-SBUSD_Tentative_Agreement__Ratified_June_3_2016.pdf ...
+      no_schedule_heading_found
+
+0 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/san_bernardino_city_unified_school_district/salary_schedule_wide
+Document status summary: {'no_schedule_heading_found': 1}
+Processing 1 document(s) ...
+[ 1/1] 2016_SBTA-SBUSD_Tentative_Agreement__Ratified_June_3_2016.pdf ...
+      7 schedule(s) found
+      -> new_appendix_speech_and_language_pathologists_sala__2016_sbta_sbusd_tentative_agreement_rati.csv
+      -> appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati.csv
+      -> appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati__p5-6.csv
+      -> appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati__p5-6.csv
+      -> appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati__p5-6.csv
+      -> appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati__p5-6.csv
+      -> appendix_c_extra_duty_pay_schedule__2016_sbta_sbusd_tentative_agreement_rati__p5-6.csv
+
+7 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/san_bernardino_city_unified_school_district/salary_schedule_wide
+Document status summary: {'ok': 1}

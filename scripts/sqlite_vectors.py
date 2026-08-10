@@ -57,8 +57,15 @@ def unpack(blob: bytes, dimensions: int = DIMENSIONS):
     return np.frombuffer(blob, dtype="<f4", count=dimensions)
 
 
-def build(db_path: Path = DB, model_name: str = EMBED_MODEL, rebuild: bool = False) -> None:
-    """Embed every passage and store the vectors alongside the passages themselves."""
+def build(db_path: Path = DB, model_name: str = EMBED_MODEL, rebuild: bool = False,
+          document_ids: list[str] | None = None) -> None:
+    """Embed every passage and store the vectors alongside the passages themselves.
+
+    `document_ids` restricts the pass to those documents. Re-OCRing a document
+    replaces its passages (and cascades away their vectors), so this is how a single
+    re-indexed document is caught up without a full-corpus pass — and how a document
+    needed sooner than alphabetical order would reach it can be embedded first.
+    """
     from fastembed import TextEmbedding
     connection = sqlite3.connect(db_path)
     try:
@@ -67,8 +74,15 @@ def build(db_path: Path = DB, model_name: str = EMBED_MODEL, rebuild: bool = Fal
             connection.execute("DELETE FROM passage_vectors")
             connection.commit()
         done = {row[0] for row in connection.execute("SELECT passage_id FROM passage_vectors")}
-        rows = connection.execute(
-            "SELECT passage_id, heading, text FROM passages ORDER BY passage_id").fetchall()
+        if document_ids:
+            placeholders = ",".join("?" for _ in document_ids)
+            rows = connection.execute(
+                f"SELECT passage_id, heading, text FROM passages "
+                f"WHERE document_id IN ({placeholders}) ORDER BY passage_id",
+                document_ids).fetchall()
+        else:
+            rows = connection.execute(
+                "SELECT passage_id, heading, text FROM passages ORDER BY passage_id").fetchall()
         pending = [row for row in rows if row[0] not in done]
         print(f"{len(rows)} passages, {len(pending)} to embed", flush=True)
         if not pending:
@@ -152,16 +166,19 @@ def main() -> None:
     parser.add_argument("--db", type=Path, default=DB)
     parser.add_argument("--rebuild", action="store_true")
     parser.add_argument("--query", help="smoke-test a query instead of building")
-    parser.add_argument("--document-id", default="manchester_school_district__83__de5d62c9")
+    parser.add_argument("--document-id", action="append", dest="document_ids",
+                        help="restrict the build (repeatable), or name the document to "
+                             "search with --query")
     args = parser.parse_args()
     if args.query:
+        document_id = (args.document_ids or ["manchester_school_district__83__de5d62c9"])[0]
         started = time.monotonic()
-        hits = search(args.query, args.document_id, db_path=args.db)
+        hits = search(args.query, document_id, db_path=args.db)
         print(f"{len(hits)} hits in {(time.monotonic() - started) * 1000:.0f}ms")
         for passage_id, score in hits:
             print(f"  {passage_id} {score:.4f}")
         return
-    build(args.db, rebuild=args.rebuild)
+    build(args.db, rebuild=args.rebuild, document_ids=args.document_ids)
 
 
 if __name__ == "__main__":

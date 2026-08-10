@@ -1,0 +1,27 @@
+# Dependencies for the contract-coding pipeline.
+#
+#   uv venv .venv --python 3.13
+#   uv pip install --python .venv/bin/python -r requirements.txt
+#
+# Python 3.13 rather than 3.14: fastembed pulls onnxruntime, which has no 3.14
+# wheels as of this writing. Nothing here needs a GPU or PyTorch.
+
+# ── extraction: the SOM API client and the retrieval stack ──────────────────────
+openai>=1.40                 # OpenAI-compatible client for the SOM endpoint
+pydantic>=2.7                # response schemas
+fastembed>=0.4               # BAAI/bge-small-en-v1.5 via ONNX Runtime, no PyTorch
+numpy>=1.26                  # dense similarity in sqlite_vectors / absence_support
+
+# ── PDFs ────────────────────────────────────────────────────────────────────────
+pypdf>=4.0                   # page counts, rotation, page splitting
+pdfplumber>=0.11             # salary_schedule table geometry
+
+# ── reporting ───────────────────────────────────────────────────────────────────
+openpyxl>=3.1                # audit workbooks
+rapidfuzz>=3.0               # OCR accuracy scoring
+
+# ── macOS only: Apple Vision OCR ────────────────────────────────────────────────
+# The measured figure-accuracy leader on scanned contracts (3/3 verified figures
+# against olmOCR-2's 0/3). Skip on Linux; ocr_scanned.py falls back to the HPC
+# olmOCR-2 path there.
+ocrmac>=1.0 ; sys_platform == "darwin"

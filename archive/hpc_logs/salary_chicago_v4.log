@@ -1,0 +1,20 @@
+Processing 1 document(s) ...
+[ 1/1] Chicago_CPS-CBA-2019-24.pdf ...
+      19/16 page-block(s) failed extraction/audit (will retry next run)
+      13 schedule(s) found
+      -> 1a_208_day_schedule_2019_20_school_year__chicago_cps_cba_2019_24.csv
+      -> 1a_208_day_schedule_2020_21_school_year__chicago_cps_cba_2019_24.csv
+      -> 1a_208_day_schedule_2020_21_school_year__chicago_cps_cba_2019_24__p220-223.csv
+      -> 1a_208_day_schedule_2020_21_school_year__chicago_cps_cba_2019_24__p220-223.csv
+      -> 1b_228_day_schedule_2022_23_school_year__chicago_cps_cba_2019_24.csv
+      -> 1b_228_day_schedule_2023_24_school_year__chicago_cps_cba_2019_24.csv
+      -> 1d_52_week_schedule_2019_20_school_year__chicago_cps_cba_2019_24.csv
+      -> 1d_52_week_schedule_2020_21_school_year__chicago_cps_cba_2019_24.csv
+      -> 1d_52_week_schedule_2020_21_school_year__chicago_cps_cba_2019_24.csv
+      -> 1d_52_week_schedule_2021_22_school_year__chicago_cps_cba_2019_24.csv
+      -> 1d_52_week_schedule_2021_22_school_year__chicago_cps_cba_2019_24__p268-271.csv
+      -> 1d_52_week_schedule_2021_22_school_year__chicago_cps_cba_2019_24__p268-271.csv
+      -> 1d_52_week_schedule_2023_24_school_year__chicago_cps_cba_2019_24.csv
+
+13 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v4/salary_schedule_wide
+Document status summary: {'ok': 1}

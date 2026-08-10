@@ -1,0 +1,6 @@
+=== v6 chain START Mon Jul 20 11:12:07 PM EDT 2026 ===
+[chain] STEP 1/2 OCR Pittsburgh (olmocr2) Mon Jul 20 11:12:07 PM EDT 2026
+[chain] OCR exit rc=0 Mon Jul 20 11:23:31 PM EDT 2026
+[chain] OCR text OK: 109599 chars
+[chain] STEP 2/2 parallel pipeline (3 docs) Mon Jul 20 11:23:31 PM EDT 2026
+=== v6 chain DONE Tue Jul 21 03:31:16 AM EDT 2026 ===

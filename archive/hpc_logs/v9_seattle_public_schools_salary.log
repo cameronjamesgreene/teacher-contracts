@@ -1,0 +1,30 @@
+Processing 1 document(s) ...
+[ 1/1] Seattle_final_CBA_2018-2019.pdf ...
+      8 schedule(s) found
+      -> certificated_substitutes_teaching__seattle_final_cba_2018_2019.csv [audit corrected]
+      -> certificated_substitutes_nurses__seattle_final_cba_2018_2019.csv [audit corrected]
+      -> paraprofessional_substitutes__seattle_final_cba_2018_2019.csv [audit corrected]
+      -> clerical_substitutes__seattle_final_cba_2018_2019.csv [audit corrected]
+      -> classified_substitutes_nurses__seattle_final_cba_2018_2019.csv [audit corrected]
+      -> appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019.csv
+      -> appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019__p150-151.csv
+      -> appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019__p150-151.csv [audit corrected]
+
+8 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/seattle_public_schools/salary_schedule_wide
+  6 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}
+Processing 1 document(s) ...
+[ 1/1] Seattle_final_CBA_2018-2019.pdf ...
+      8 schedule(s) found
+      -> certificated_substitutes_teaching__seattle_final_cba_2018_2019__p146-146.csv [audit corrected]
+      -> certificated_substitutes_nurses__seattle_final_cba_2018_2019__p146-146.csv [audit corrected]
+      -> paraprofessional_substitutes__seattle_final_cba_2018_2019__p146-146.csv [audit corrected]
+      -> clerical_substitutes__seattle_final_cba_2018_2019__p146-146.csv [audit corrected]
+      -> classified_substitutes_nurses__seattle_final_cba_2018_2019__p146-146.csv [audit corrected]
+      -> appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019__p150-151.csv
+      -> appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019__p150-151.csv
+      -> appendix_e_certificated_non_supervisory_special_su__seattle_final_cba_2018_2019__p150-151.csv [audit corrected]
+
+8 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/seattle_public_schools/salary_schedule_wide
+  6 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

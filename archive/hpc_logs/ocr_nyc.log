@@ -1,0 +1,52 @@
+NYC_19-22_CBA.pdf: 63 pages — fully scanned (whole-doc OCR)
+  OCR-ing new_york_city_department_of_education__nyc_19_22_cba__1076ce07__scanned.pdf (63 pages) with olmocr2 ...
+documents: 1
+engines: olmocr2
+stages:  ocr
+HPC:     olmocr2
+
+=== ocr:olmocr2 ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/olmocr2_extract.py --document fc4358ef-9df3-53ff-87a6-24b2271ccddb --documents-root /gpfs/home/cjg79/contracts/contract_coding_CG/cache/hybrid_ocr/new_york_city_department_of_education__nyc_19_22_cba__1076ce07/documents ...
+note: 1 documents have no pypdf probe — running olmOCR-2 on them anyway
+running HPC OCR on 1 document(s) via 1 worker(s) × 8 in-flight
+[orch] 1 PDFs to process; workers=1, in-flight=8 per worker (total concurrent: 8)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=allenai/olmOCR-2-7B-1025 VLLM_MAX_MODEL_LEN=16384 VLLM_IMAGE=docker://vllm/vllm-openai:v0.…'
+[serve] {"event":"job_start","host":"c002","job":"1557324","port":65369,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c002 port=65369 api_key=3a44af26e9d15f3ff65818b1870e692690dd787e0562de85047cccf8f0c09478
+[tunnel] localhost:59309 -> c002:65369
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"allenai/olmOCR-2-7B-1025","max_model_len":16384,"image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] {"event":"vllm_backgrounded","pid":1175076}
+[serve] INFO:    Using cached SIF image
+[serve] INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (478) bind mounts
+[serve] (APIServer pid=1175125) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (APIServer pid=1175125) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=1175391) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (EngineCore pid=1175391) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=1175391) Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[serve] (EngineCore pid=1175391) Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:08<00:25,  8.64s/it]
+[serve] (EngineCore pid=1175391) Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:13<00:13,  6.57s/it]
+[serve] (EngineCore pid=1175391) Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:18<00:05,  5.85s/it]
+[serve] (EngineCore pid=1175391) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:20<00:00,  4.05s/it]
+[serve] (EngineCore pid=1175391) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:20<00:00,  5.01s/it]
+[serve] (EngineCore pid=1175391) 
+[serve] (APIServer pid=1175125) INFO:     Started server process [1175125]
+[serve] (APIServer pid=1175125) INFO:     Waiting for application startup.
+[serve] (APIServer pid=1175125) INFO:     Application startup complete.
+[ready] vLLM serving allenai/olmOCR-2-7B-1025 after 99.0s
+[orch] w0 ready (port 59309 → c002:65369)
+[done] w0 document.pdf → olmocr2.txt  (63pp, 174424B, 395.7s, ok; 1/1)
+
+=== SUMMARY === 1 ok / 0 err in 395.7s (0.2 PDFs/min, 1 worker(s) × 8 in-flight)
+[serve] srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+
+HPC backend rc=0; wrote 1/1 (.txt + .json)
+
+manifest: logs/runs/2026-07-23T23-13-19.373774+00-00.jsonl
+coverage on this run's 1 documents:
+  ocr:olmocr2    1/1
+
+all stages OK
+  merged 63 OCR'd page(s) + 0 native page(s) -> new_york_city_department_of_education__nyc_19_22_cba__1076ce07.txt (145,800 non-space chars)

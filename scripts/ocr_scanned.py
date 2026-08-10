@@ -215,7 +215,11 @@ def main() -> None:
     if not rows:
         raise SystemExit("no matching documents need OCR")
 
-    md_dir = args.md_dir or Path(tempfile.mkdtemp(prefix="ocr-md-"))
+    # Absolute, always. run_client() runs the HPC client with cwd set to the
+    # ocr-examples checkout, so a relative --md-dir resolves against *that* directory
+    # and the markdown lands somewhere the adoption step will never look — while the
+    # run still reports every page [done].
+    md_dir = (args.md_dir or Path(tempfile.mkdtemp(prefix="ocr-md-"))).resolve()
     md_dir.mkdir(parents=True, exist_ok=True)
 
     if args.engine == "apple_vision":

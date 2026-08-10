@@ -1,0 +1,46 @@
+Reading codebook and sample ...
+  106 questions | 12 categories | 23 sub-batches (max 6/batch) | 1 document(s)
+[ 1/1] SD_of_Philadelphia_2021-2024.pdf ...
+      meta batch 1 section 1/18: stage1 ERROR Error code: 503 - {'error': {'code': 'queue_timeout', 'message': 'Timed out waiting for service capacity.', 'param': None, 'type': 'server_error'}}
+Reading codebook and sample ...
+  106 questions | 12 categories | 23 sub-batches (max 6/batch) | 1 document(s)
+[ 1/1] SD_of_Philadelphia_2021-2024.pdf ...
+      meta batch 1: 6 questions done (18 sections)
+      meta batch 2: 3 questions done (18 sections)
+      pay batch 1: 6 questions done (18 sections)
+      pay batch 2: 6 questions done (18 sections)
+      pay batch 3: 5 questions done (18 sections)
+      benefits batch 1 section 14/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      benefits batch 1: 6 questions done (18 sections)
+      benefits batch 2 section 14/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      benefits batch 2: 6 questions done (18 sections)
+      leave batch 1 section 14/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      leave batch 1: 6 questions done (18 sections)
+      leave batch 2 section 14/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      leave batch 2: 6 questions done (18 sections)
+      leave batch 3: 1 question done (18 sections)
+      workload batch 1: 6 questions done (18 sections)
+      workload batch 2: 3 questions done (18 sections)
+      class batch 1 section 16/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      class batch 1: 4 questions done (18 sections)
+      evaluation batch 1 section 12/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      evaluation batch 1 section 13/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      evaluation batch 1: 6 questions done (18 sections)
+      evaluation batch 2 section 12/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      evaluation batch 2: 2 questions done (18 sections)
+      security batch 1 section 13/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      security batch 1 section 15/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      security batch 1: 6 questions done (18 sections)
+      security batch 2: 5 questions done (18 sections)
+      discipline batch 1: 2 questions done (18 sections)
+      conduct batch 1: 6 questions done (18 sections)
+      conduct batch 2: 4 questions done (18 sections)
+      safety batch 1 section 14/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      safety batch 1: 6 questions done (18 sections)
+      safety batch 2: 2 questions done (18 sections)
+      pd batch 1 section 16/18: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      pd batch 1: 3 questions done (18 sections)
+
+Writing outputs ...
+  1 document rows  → /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/school_district_of_philadelphia/llm_main_dataset.csv
+  106 log rows        → /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/school_district_of_philadelphia/llm_coding_log.csv

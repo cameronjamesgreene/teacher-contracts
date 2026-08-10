@@ -1,0 +1,60 @@
+Processing 1 document(s) ...
+[ 1/1] 48.pdf ...
+  [auto-ocr] 48.pdf: 4/273 page(s) scanned — building OCR override…
+48.pdf: 272 pages — HYBRID: 3/272 pages need OCR
+  OCR-ing milwaukee_public_schools__48__57a35de7__scanned.pdf (3 pages) with olmocr2 ...
+documents: 1
+engines: olmocr2
+stages:  ocr
+HPC:     olmocr2
+
+=== ocr:olmocr2 ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/olmocr2_extract.py --document 74547a9e-3128-5053-8ac2-d3c32913c9c0 --documents-root /gpfs/home/cjg79/contracts/contract_coding_CG/cache/hybrid_ocr/milwaukee_public_schools__48__57a35de7/documents ...
+note: 1 documents have no pypdf probe — running olmOCR-2 on them anyway
+running HPC OCR on 1 document(s) via 1 worker(s) × 8 in-flight
+[orch] 1 PDFs to process; workers=1, in-flight=8 per worker (total concurrent: 8)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=allenai/olmOCR-2-7B-1025 VLLM_MAX_MODEL_LEN=16384 VLLM_IMAGE=docker://vllm/vllm-openai:v0.…'
+[serve] {"event":"job_start","host":"c009","job":"1633227","port":51065,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] NVIDIA A100-PCIE-40GB, 40960 MiB
+[serve] VLLM_LISTEN host=c009 port=51065 api_key=8645abe4e934c21c159a3ed58e06818a2e91012c08638fc85ffea68e704059bd
+[tunnel] localhost:43977 -> c009:51065
+[serve] {"event":"vram_detected","mb":40960,"compute_cap":"8.x","max_num_seqs":24,"dtype":"bfloat16","attention_backend":"auto"}
+[serve] {"event":"model_select","model":"allenai/olmOCR-2-7B-1025","max_model_len":16384,"image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] {"event":"vllm_backgrounded","pid":619670}
+[serve] INFO:    Using cached SIF image
+[serve] INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (478) bind mounts
+[serve] (APIServer pid=619692) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (APIServer pid=619692) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=620972) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (EngineCore pid=620972) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=620972) Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[serve] (EngineCore pid=620972) Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:08<00:24,  8.20s/it]
+[serve] (EngineCore pid=620972) Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:16<00:16,  8.24s/it]
+[serve] (EngineCore pid=620972) Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:24<00:08,  8.21s/it]
+[serve] (EngineCore pid=620972) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:27<00:00,  6.13s/it]
+[serve] (EngineCore pid=620972) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:27<00:00,  6.90s/it]
+[serve] (EngineCore pid=620972) 
+[serve] (APIServer pid=619692) INFO:     Started server process [619692]
+[serve] (APIServer pid=619692) INFO:     Waiting for application startup.
+[serve] (APIServer pid=619692) INFO:     Application startup complete.
+[ready] vLLM serving allenai/olmOCR-2-7B-1025 after 106.0s
+[orch] w0 ready (port 43977 → c009:51065)
+[done] w0 document.pdf → olmocr2.txt  (3pp, 273B, 2.5s, ok; 1/1)
+
+=== SUMMARY === 1 ok / 0 err in 2.5s (23.7 PDFs/min, 1 worker(s) × 8 in-flight)
+
+HPC backend rc=0; wrote 1/1 (.txt + .json)
+
+manifest: logs/runs/2026-07-27T08-17-17.727836+00-00.jsonl
+coverage on this run's 1 documents:
+  ocr:olmocr2    1/1
+
+all stages OK
+  merged 3 OCR'd page(s) + 269 native page(s) -> milwaukee_public_schools__48__57a35de7.txt (489,182 non-space chars)
+      re-verified 91 ambiguous clause(s)
+      1887 clauses extracted, 1749 scored
+
+1887 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/milwaukee_public_schools/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/milwaukee_public_schools/rights_score_summary.csv
+Document status summary: {'ok': 1}

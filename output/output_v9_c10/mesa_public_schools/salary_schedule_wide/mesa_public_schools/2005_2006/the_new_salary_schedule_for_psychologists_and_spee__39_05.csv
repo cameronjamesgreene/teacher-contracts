@@ -1,0 +1,11 @@
+# 39-05.pdf — THE NEW SALARY SCHEDULE for Psychologists and Speech/Language Pathologists (2005-2006)
+# population: Psychologists and Speech/Language Pathologists | is_teacher_schedule: False
+# validation_warnings: none | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Psych Certificate MA,MA+45,MA+60,PhD/EdD
+0-2,45301,46560,47188,48447
+3-5,48237,49765,50579,51833
+6-8,51172,52973,53973,55221
+9-11,54107,56180,57367,58608
+12-14,57043,59388,60757,61996
+15+,59980,62597,64149,65385

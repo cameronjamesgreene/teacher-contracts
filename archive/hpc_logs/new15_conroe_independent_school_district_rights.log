@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] 21-22-Employee-Handbook-Accessible-Final.pdf ...
+      re-verified 44 ambiguous clause(s)
+      1101 clauses extracted, 928 scored
+
+1101 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/conroe_independent_school_district/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/conroe_independent_school_district/rights_score_summary.csv
+Document status summary: {'ok': 1}

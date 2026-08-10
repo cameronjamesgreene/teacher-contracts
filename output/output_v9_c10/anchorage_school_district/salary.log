@@ -1,0 +1,12 @@
+Processing 1 document(s) ...
+[ 1/1] 54.pdf ...
+      1/7 page-block(s) failed extraction/audit (will retry next run)
+      4 schedule(s) found
+      -> 105_salary_schedule__54.csv [audit corrected]
+      -> 2008_2009_salary_schedule__54.csv [audit corrected]
+      -> 2009_2010_salary_schedule__54.csv [audit corrected]
+      -> salary_placement_lane_movement_matrix_2006_2007_th__54.csv
+
+4 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/anchorage_school_district/salary_schedule_wide
+  3 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

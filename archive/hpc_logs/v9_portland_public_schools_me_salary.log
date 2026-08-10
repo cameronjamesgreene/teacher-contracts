@@ -1,0 +1,34 @@
+Processing 1 document(s) ...
+[ 1/1] PEA_Contract_2019-2022_(Teachers).pdf ...
+      10 schedule(s) found
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv [audit corrected]
+      -> professional_learning_based_salary_schedule__pea_contract_2019_2022_teachers.csv
+      -> schedule_193_day_experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv
+      -> schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv [audit corrected]
+      -> schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers__p50-50.csv
+      -> schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers.csv
+      -> schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers.csv
+
+10 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/portland_public_schools_me/salary_schedule_wide
+  2 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}
+Processing 1 document(s) ...
+[ 1/1] PEA_Contract_2019-2022_(Teachers).pdf ...
+      10 schedule(s) found
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers__p47-47.csv [audit corrected]
+      -> professional_learning_based_salary_schedule__pea_contract_2019_2022_teachers__p47-47.csv
+      -> schedule_193_day_experience_based_salary_schedule__pea_contract_2019_2022_teachers__p48-48.csv
+      -> schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p48-48.csv
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers__p49-49.csv [audit corrected]
+      -> schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p49-49.csv
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers__p50-50.csv
+      -> schedule_193_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p50-50.csv
+      -> experience_based_salary_schedule__pea_contract_2019_2022_teachers__p51-51.csv
+      -> schedule_183_day_professional_learning_based_salar__pea_contract_2019_2022_teachers__p51-51.csv
+
+10 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/portland_public_schools_me/salary_schedule_wide
+  2 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

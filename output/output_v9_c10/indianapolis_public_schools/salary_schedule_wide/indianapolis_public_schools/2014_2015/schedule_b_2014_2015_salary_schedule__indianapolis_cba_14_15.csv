@@ -1,0 +1,29 @@
+# Indianapolis_CBA_14-15.pdf — SCHEDULE B 2014-2015 Salary Schedule (2014-2015)
+"# population: teachers (employees hired after October 1, 2014) | is_teacher_schedule: True"
+"# validation_warnings: only 1 lane column extracted — verify the source does not have additional columns (e.g. base salary, supplements, total) that were dropped | audit confirmed"
+step,Salary
+1,35684
+2,37166
+3,38648
+4,40134
+5,41620
+6,43106
+7,44588
+8,46069
+9,47549
+10,49036
+11,50519
+12,52004
+13,53489
+14,55339
+15,55339
+16,55339
+17,55339
+18,55339
+19,55339
+20,57253
+21,57253
+22,57253
+23,57253
+24,57253
+25,57702

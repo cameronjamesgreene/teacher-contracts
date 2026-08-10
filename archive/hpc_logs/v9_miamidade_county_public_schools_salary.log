@@ -1,0 +1,25 @@
+Processing 1 document(s) ...
+[ 1/1] UTD_2017-2020_Agreement.pdf ...
+Processing 1 document(s) ...
+[ 1/1] UTD_2017-2020_Agreement.pdf ...
+Processing 1 document(s) ...
+[ 1/1] UTD_2017-2020_Agreement.pdf ...
+      15 schedule(s) found
+      -> article_xvii_paraprofessionals_associate_educators__utd_2017_2020_agreement.csv
+      -> 12_month_250_day_work_year_u1_effective_07_01_2017__utd_2017_2020_agreement.csv
+      -> section_20_d_annual_supplement__utd_2017_2020_agreement.csv
+      -> section_g_community_school_program_supplement__utd_2017_2020_agreement.csv
+      -> miami_dade_county_public_schools_article_xviii_off__utd_2017_2020_agreement.csv
+      -> 12_month_250_day_work_year_u0__utd_2017_2020_agreement.csv
+      -> temporary_instructors_salary_schedule_as__utd_2017_2020_agreement.csv
+      -> temporary_instructors_salary_schedule_as__utd_2017_2020_agreement__p122-122.csv
+      -> alternative_education_stipend__utd_2017_2020_agreement.csv
+      -> section_3_salary_schedule__utd_2017_2020_agreement.csv
+      -> a0_salary_schedule__utd_2017_2020_agreement.csv
+      -> salary_schedule_co_credential_payments__utd_2017_2020_agreement.csv
+      -> salary_schedule_au__utd_2017_2020_agreement.csv
+      -> salary_schedule_at__utd_2017_2020_agreement.csv
+      -> fair_labor_standards_act_flsa_provisions__utd_2017_2020_agreement.csv
+
+15 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/miamidade_county_public_schools/salary_schedule_wide
+Document status summary: {'ok': 1}

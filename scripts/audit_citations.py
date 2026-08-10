@@ -39,7 +39,14 @@ _ELLIPSIS = re.compile(r"\.\.\.|…|\[\.\.\.\]")
 _PAGE_NUM = re.compile(r"\d+")
 
 
-def audit_file(path: Path) -> dict:
+def audit_file(path: Path) -> dict | None:
+    """Audit one result file, or return None if it is not one.
+
+    The extractors checkpoint to `<name>.prog.jsonl` beside their output, so an
+    ordinary `results/*.jsonl` glob picks up progress files that carry no
+    document_id. Aborting the whole batch on one of those made the natural command
+    unusable; the file is skipped and the caller reports it instead.
+    """
     records: list[dict] = []
     document_id = ""
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -49,7 +56,7 @@ def audit_file(path: Path) -> dict:
         document_id = batch.get("document_id") or document_id
         records.extend(batch.get("answers", []))
     if not document_id:
-        raise SystemExit(f"{path} has no document_id")
+        return None
 
     document = load_document(document_id)
     pages = [norm(block) for block in document.pages()]
@@ -118,7 +125,13 @@ def main() -> None:
     args = parser.parse_args()
 
     expected = len(read_codebook())
-    reports = [audit_file(path) for path in args.jsonl]
+    audited = [(path, audit_file(path)) for path in args.jsonl]
+    skipped = [path for path, report in audited if report is None]
+    reports = [report for _, report in audited if report is not None]
+    for path in skipped:
+        print(f"skipping {path.name}: no document_id (a progress/checkpoint file?)")
+    if not reports:
+        raise SystemExit("no auditable result files given")
     print(f"{'district':30s} {'pp':>5s} {'answered':>9s} {'cover':>6s} "
           f"{'verbatim':>9s} {'contig':>7s} {'on_page':>8s} {'unground':>9s}")
     for report in reports:

@@ -1,0 +1,7 @@
+Processing 1 document(s) ...
+[ 1/1] 54.pdf ...
+      958 clauses extracted, 907 scored
+
+958 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/anchorage_school_district/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/anchorage_school_district/rights_score_summary.csv
+Document status summary: {'ok': 1}

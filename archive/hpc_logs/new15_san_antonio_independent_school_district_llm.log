@@ -1,0 +1,86 @@
+Reading codebook and sample ...
+  [auto-ocr] 92.pdf: 6/211 page(s) scanned — building OCR override…
+92.pdf: 210 pages — HYBRID: 5/210 pages need OCR
+  OCR-ing san_antonio_independent_school_district__92__469884d9__scanned.pdf (5 pages) with olmocr2 ...
+documents: 1
+engines: olmocr2
+stages:  ocr
+HPC:     olmocr2
+
+=== ocr:olmocr2 ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/olmocr2_extract.py --document e0dff8cb-fb8a-58ac-ad33-0e0fb4aca774 --documents-root /gpfs/home/cjg79/contracts/contract_coding_CG/cache/hybrid_ocr/san_antonio_independent_school_district__92__469884d9/documents ...
+note: 1 documents have no pypdf probe — running olmOCR-2 on them anyway
+running HPC OCR on 1 document(s) via 1 worker(s) × 8 in-flight
+[orch] 1 PDFs to process; workers=1, in-flight=8 per worker (total concurrent: 8)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=allenai/olmOCR-2-7B-1025 VLLM_MAX_MODEL_LEN=16384 VLLM_IMAGE=docker://vllm/vllm-openai:v0.…'
+[serve] {"event":"job_start","host":"c009","job":"1631568","port":53974,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] NVIDIA A100-PCIE-40GB, 40960 MiB
+[serve] VLLM_LISTEN host=c009 port=53974 api_key=43c0745764a951d3cad51471afe685517bce9e91c330bb06680b94e56cf4dec5
+[tunnel] localhost:59173 -> c009:53974
+[serve] {"event":"vram_detected","mb":40960,"compute_cap":"8.x","max_num_seqs":24,"dtype":"bfloat16","attention_backend":"auto"}
+[serve] {"event":"model_select","model":"allenai/olmOCR-2-7B-1025","max_model_len":16384,"image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] {"event":"vllm_backgrounded","pid":553967}
+[serve] INFO:    Using cached SIF image
+[serve] INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (478) bind mounts
+[serve] (APIServer pid=553987) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (APIServer pid=553987) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=555747) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (EngineCore pid=555747) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=555747) Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[serve] (EngineCore pid=555747) Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:08<00:24,  8.28s/it]
+[serve] (EngineCore pid=555747) Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:16<00:16,  8.33s/it]
+[serve] (EngineCore pid=555747) Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:25<00:08,  8.35s/it]
+[serve] (EngineCore pid=555747) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:27<00:00,  6.22s/it]
+[serve] (EngineCore pid=555747) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:27<00:00,  6.99s/it]
+[serve] (EngineCore pid=555747) 
+[serve] (APIServer pid=553987) INFO:     Started server process [553987]
+[serve] (APIServer pid=553987) INFO:     Waiting for application startup.
+[serve] (APIServer pid=553987) INFO:     Application startup complete.
+[ready] vLLM serving allenai/olmOCR-2-7B-1025 after 107.0s
+[orch] w0 ready (port 59173 → c009:53974)
+[done] w0 document.pdf → olmocr2.txt  (5pp, 259B, 1.2s, ok; 1/1)
+
+=== SUMMARY === 1 ok / 0 err in 1.2s (48.6 PDFs/min, 1 worker(s) × 8 in-flight)
+[serve] srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+
+HPC backend rc=0; wrote 1/1 (.txt + .json)
+
+manifest: logs/runs/2026-07-27T07-28-00.483118+00-00.jsonl
+coverage on this run's 1 documents:
+  ocr:olmocr2    1/1
+
+all stages OK
+  merged 5 OCR'd page(s) + 205 native page(s) -> san_antonio_independent_school_district__92__469884d9.txt (336,419 non-space chars)
+  106 questions | 12 categories | 23 sub-batches (max 6/batch) | 1 document(s)
+[ 1/1] 92.pdf ...
+      meta batch 1: 6 questions done (15 sections)
+      meta batch 2 section 5/15: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      meta batch 2 section 11/15: stage1 ERROR Response truncated before final answer (finish_reason='length'); increase MAX_TOKENS or retry.
+      meta batch 2: 3 questions done (15 sections)
+      pay batch 1: 6 questions done (15 sections)
+      pay batch 2: 6 questions done (15 sections)
+      pay batch 3: 5 questions done (15 sections)
+      benefits batch 1: 6 questions done (15 sections)
+      benefits batch 2: 6 questions done (15 sections)
+      leave batch 1: 6 questions done (15 sections)
+      leave batch 2: 6 questions done (15 sections)
+      leave batch 3: 1 question done (15 sections)
+      workload batch 1: 6 questions done (15 sections)
+      workload batch 2: 3 questions done (15 sections)
+      class batch 1: 4 questions done (15 sections)
+      evaluation batch 1: 6 questions done (15 sections)
+      evaluation batch 2: 2 questions done (15 sections)
+      security batch 1: 6 questions done (15 sections)
+      security batch 2: 5 questions done (15 sections)
+      discipline batch 1: 2 questions done (15 sections)
+      conduct batch 1: 6 questions done (15 sections)
+      conduct batch 2: 4 questions done (15 sections)
+      safety batch 1: 6 questions done (15 sections)
+      safety batch 2: 2 questions done (15 sections)
+      pd batch 1: 3 questions done (15 sections)
+      cross-question reconciliation recovered 5 answer(s)
+
+Writing outputs ...
+  1 document rows  → /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/san_antonio_independent_school_district/llm_main_dataset.csv
+  106 log rows        → /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/san_antonio_independent_school_district/llm_coding_log.csv

@@ -42,7 +42,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from absence_triage import base_rates, exemplar_bank, load_runs
-from grind_retrieve import (MANCHESTER, fused_passages, ground, load_document,
+from grind_retrieve import (fused_passages, ground, load_document,
                             open_database, sentence_menu)
 from grind_score import classify
 from som_client import MODEL, budgeted_max_tokens, create_with_retries, get_client
@@ -103,8 +103,7 @@ def main() -> None:
     bank = exemplar_bank(runs)
     rates = base_rates(runs)
     questions = {question.qid: question for question in read_codebook()}
-    doc = (MANCHESTER if args.target == MANCHESTER.document_id
-           else load_document(args.target))
+    doc = load_document(args.target)
 
     candidates = []
     for qid, answer in runs[args.target].items():

@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] 91.pdf ...
+      2 schedule(s) found
+      -> a_1_teacher_s_basic_salary_schedule__91.csv
+      -> a_1_teacher_s_basic_salary_schedule__91__p65-68.csv
+
+2 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/providence_public_school_district/salary_schedule_wide
+Document status summary: {'ok': 1}

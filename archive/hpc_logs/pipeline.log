@@ -1,0 +1,21 @@
+=== Parallel v6 run started Mon Jul 20 07:41:00 PM EDT 2026 — 3 doc(s), RIGHTS_CONCURRENCY=4 ===
+=== Parallel v6 run started Mon Jul 20 11:23:31 PM EDT 2026 — 3 doc(s), RIGHTS_CONCURRENCY=4 ===
+=== All docs finished (Tue Jul 21 03:31:15 AM EDT 2026, status=0) — merging into output_v6 ===
+Merging 3 doc dir(s) into /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6
+  llm_main_dataset.csv: 3 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/llm_main_dataset.csv
+  llm_coding_log.csv: 318 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/llm_coding_log.csv
+  rights_score_long.csv: 3462 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/rights_score_long.csv
+  rights_score_summary.csv: 3 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/rights_score_summary.csv
+  salary_schedule_wide: copied 34 grid file(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/salary_schedule_wide
+Merge complete.
+=== Parallel v6 run complete Tue Jul 21 03:31:16 AM EDT 2026 ===
+=== Parallel v6 run started Tue Jul 21 12:14:35 PM EDT 2026 — 3 doc(s), RIGHTS_CONCURRENCY=4 ===
+=== All docs finished (Tue Jul 21 04:34:58 PM EDT 2026, status=1) — merging into output_v7 ===
+Merging 3 doc dir(s) into /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7
+  llm_main_dataset.csv: 3 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/llm_main_dataset.csv
+  llm_coding_log.csv: 318 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/llm_coding_log.csv
+  rights_score_long.csv: 4254 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/rights_score_long.csv
+  rights_score_summary.csv: 3 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/rights_score_summary.csv
+  salary_schedule_wide: copied 54 grid file(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/salary_schedule_wide
+Merge complete.
+=== Parallel v6 run complete Tue Jul 21 04:34:58 PM EDT 2026 ===

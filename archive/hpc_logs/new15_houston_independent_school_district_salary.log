@@ -1,0 +1,18 @@
+Processing 1 document(s) ...
+[ 1/1] 32.pdf ...
+      11 schedule(s) found
+      -> appendix_a_1_teacher_salary_schedule_2005_2006__32.csv [audit corrected]
+      -> appendix_a_1_teacher_salary_schedule_2005_2006__32__p409-409.csv [audit corrected]
+      -> appendix_a_1_teacher_salary_schedule_2005_2006__32__p409-409.csv [audit corrected]
+      -> appendix_a_2_teacher_salary_schedule_2005_2006__32.csv
+      -> 11_m_bachelors__32.csv [audit corrected]
+      -> 11_m_masters__32.csv [audit corrected]
+      -> 11_m_doctorate__32.csv [audit corrected]
+      -> appendix_a_4_teacher_salary_schedule_2005_2006__32.csv [audit corrected]
+      -> appendix_a_4_teacher_salary_schedule_2005_2006__32__p412-412.csv [audit corrected]
+      -> appendix_a_4_teacher_salary_schedule_2005_2006__32__p412-412.csv [audit corrected]
+      -> appendix_a_5_teacher_salary_schedule_2005_2006__32.csv
+
+11 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/houston_independent_school_district/salary_schedule_wide
+  9 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

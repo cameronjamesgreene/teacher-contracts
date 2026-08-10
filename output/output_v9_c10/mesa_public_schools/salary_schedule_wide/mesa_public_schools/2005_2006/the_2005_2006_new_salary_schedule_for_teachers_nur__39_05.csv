@@ -1,0 +1,13 @@
+"# 39-05.pdf — The 2005-2006 NEW SALARY SCHEDULE for Teachers, Nurses, OT/PT and Audiologists (2005-2006)"
+"# population: Teachers, Nurses, OT/PT and Audiologists | is_teacher_schedule: True"
+# validation_warnings: none | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,BA,BA+45 MA,MA+45 EdS,MA+60,EdD PhD
+1 0-2,32717,35361,38380,39133,39891
+2 3-5,35234,38356,41651,42534,43412
+3 6-8,37750,41349,44922,45929,46935
+4 9-11,40266,44346,48195,49326,50459
+5 12-14,42784,47338,51467,52724,53983
+6 15-17,45301,50335,54737,56121,57506
+7 18-20,45301,50335,58009,59520,61031
+8 21+,45301,50335,61281,62918,64175

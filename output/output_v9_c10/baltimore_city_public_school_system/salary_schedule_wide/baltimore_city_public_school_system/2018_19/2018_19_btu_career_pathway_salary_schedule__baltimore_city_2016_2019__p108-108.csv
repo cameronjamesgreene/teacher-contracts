@@ -1,0 +1,19 @@
+# Baltimore_City_2016-2019.pdf — 2018-19 BTU Career Pathway Salary Schedule (2018-19)
+# population: BTU Career Pathway | is_teacher_schedule: True
+# validation_warnings: label_not_in_source: 'Standard BTU.270' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Professional BTU.271' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim); label_not_in_source: 'Model BTU.272' — this column label is not found in the page text; header may be garbled/merged (transcribe verbatim) | audit confirmed
+step,Standard BTU.270,Professional BTU.271,Model BTU.272
+1,57119,71358,104210
+2,58832,74471,106042
+3,60596,77586,107875
+4,62415,80699,109706
+5,64286,83815,111537
+6,,87173,
+7,,90651,
+8,,92484,
+9,,93711,
+10,,94938,
+11,,96164,
+12,,97393,
+13,,98620,
+14,,99847,
+15,,101074,

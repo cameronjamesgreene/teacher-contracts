@@ -1,0 +1,4 @@
+=== Parallel v6 run started Mon Jul 20 07:41:00 PM EDT 2026 — 3 doc(s), RIGHTS_CONCURRENCY=4 ===
+[Mon Jul 20 07:41:00 PM EDT 2026] START Boston Public Schools | Boston_2021-24-Collective-Bargaining-Agreement.pdf  (CONTRACT_OUT_DIR=output_v6/boston_public_schools_boston_2021_24_collective_bargaining_agreement)
+[Mon Jul 20 07:41:00 PM EDT 2026] START Duval County Public Schools | Collective_Bargaining_Agreement_2011-2014T_.pdf  (CONTRACT_OUT_DIR=output_v6/duval_county_public_schools_collective_bargaining_agreement_2011_2014t)
+[Mon Jul 20 07:41:00 PM EDT 2026] START Pittsburgh Public Schools | Pittsburgh_10-15.pdf  (CONTRACT_OUT_DIR=output_v6/pittsburgh_public_schools_pittsburgh_10_15)

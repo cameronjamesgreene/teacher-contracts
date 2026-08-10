@@ -24,6 +24,23 @@ MODEL = "Qwen3.6-35B-A3B-FP8"
 MAX_TOKENS = 32000
 MAX_RETRIES = 4
 RETRY_BACKOFF_SECONDS = 5
+# Losing the connection is a different failure class from a bad response, and it needs a
+# far longer patience. The endpoint is reachable only over the Yale VPN, so a dropped
+# tunnel, a laptop sleeping, or a backend restart takes the network away for minutes —
+# while MAX_RETRIES x RETRY_BACKOFF_SECONDS gives up after about 30 seconds. Measured
+# cost of that mismatch: one overnight VPN drop silently voided 41.6% of one document's
+# sweep windows and 19.3% of another's. An errored window returns no hits, so nothing
+# downstream can distinguish "read this and found nothing" from "never read this".
+CONNECTION_RETRIES = 12
+CONNECTION_BACKOFF_SECONDS = 30      # ~6 minutes of outage tolerated before giving up
+# A timeout is NOT the same as a dropped connection, even though openai models it as a
+# subclass of one. A dropped connection fails instantly, so 12 attempts cost ~6 minutes.
+# A timeout costs the client's full request timeout (600s) *per attempt*, so the same 12
+# attempts block a worker for over two hours on a single batch — measured, after this
+# distinction was first missed: batches stalled 1.8, 5.4 and 5.8 hours. Timeouts get a
+# small budget because each retry is expensive, and APITimeoutError must be caught
+# before APIConnectionError or it inherits the wrong one.
+TIMEOUT_RETRIES = 3                  # ~30 min at a 600s request timeout
 
 # ── context-window budgeting ──────────────────────────────────────────────────────
 # The model shares ONE context window (CTX_LIMIT tokens) between the prompt and the
@@ -98,19 +115,41 @@ def create_with_retries(client, **kwargs) -> dict:
     through writing its JSON answer, leaving syntactically incomplete content that
     raises JSONDecodeError. Both are retried with backoff rather than failing the
     chunk outright."""
+    import openai as _openai
     last_exc: Exception | None = None
-    for attempt in range(1, MAX_RETRIES + 1):
+    attempt = 0             # bad or unusable response: the request got through
+    connection_attempt = 0  # no response at all: the network is gone
+    timeout_attempt = 0     # the request hung: each retry costs the full timeout
+    while True:
         try:
             response = client.chat.completions.create(**kwargs)
+        except _openai.APITimeoutError as exc:
+            # MUST precede APIConnectionError — it is a subclass, and inheriting the
+            # connection budget blocks a worker for hours on one batch.
+            last_exc = exc
+            timeout_attempt += 1
+            if timeout_attempt >= TIMEOUT_RETRIES:
+                raise
+            time.sleep(RETRY_BACKOFF_SECONDS * timeout_attempt)
+            continue
+        except _openai.APIConnectionError as exc:
+            # Counted separately and waited out for minutes, not seconds. See
+            # CONNECTION_RETRIES above for why this is worth its own budget.
+            last_exc = exc
+            connection_attempt += 1
+            if connection_attempt >= CONNECTION_RETRIES:
+                raise
+            time.sleep(CONNECTION_BACKOFF_SECONDS)
+            continue
         except Exception as exc:
             last_exc = exc
-            if attempt < MAX_RETRIES:
-                # Rate-limit errors need a much longer pause than transient errors.
-                import openai as _openai
-                wait = 60 if isinstance(exc, _openai.RateLimitError) else RETRY_BACKOFF_SECONDS * attempt
-                time.sleep(wait)
-                continue
-            raise
+            attempt += 1
+            if attempt >= MAX_RETRIES:
+                raise
+            # Rate-limit errors need a much longer pause than transient errors.
+            wait = 60 if isinstance(exc, _openai.RateLimitError) else RETRY_BACKOFF_SECONDS * attempt
+            time.sleep(wait)
+            continue
         choice = response.choices[0]
         message = choice.message
         if message.content is None or choice.finish_reason == "length":
@@ -118,16 +157,17 @@ def create_with_retries(client, **kwargs) -> dict:
                 f"Response truncated before final answer (finish_reason="
                 f"{choice.finish_reason!r}); increase MAX_TOKENS or retry."
             )
-            if attempt < MAX_RETRIES:
-                time.sleep(RETRY_BACKOFF_SECONDS * attempt)
-                continue
-            raise last_exc
+            attempt += 1
+            if attempt >= MAX_RETRIES:
+                raise last_exc
+            time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+            continue
         try:
             return json.loads(_strip_fences(message.content))
         except json.JSONDecodeError as exc:
             last_exc = exc
-            if attempt < MAX_RETRIES:
-                time.sleep(RETRY_BACKOFF_SECONDS * attempt)
-                continue
-            raise
-    raise last_exc  # pragma: no cover — loop always returns or raises above
+            attempt += 1
+            if attempt >= MAX_RETRIES:
+                raise
+            time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+            continue

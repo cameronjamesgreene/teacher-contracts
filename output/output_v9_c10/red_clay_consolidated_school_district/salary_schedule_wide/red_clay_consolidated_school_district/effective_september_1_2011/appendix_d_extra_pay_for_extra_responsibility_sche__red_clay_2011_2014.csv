@@ -1,0 +1,27 @@
+"# Red_Clay_2011-2014.pdf — Appendix D Extra Pay for Extra Responsibility Schedule (Effective September 1, 2011)"
+# population: high school coaches and assistant coaches | is_teacher_schedule: False
+"# validation_warnings: duplicate step_labels: ['Baseball', 'Football', 'Hockey', 'Soccer', 'Softball', 'Wrestling'] | audit confirmed"
+step,0,1,2,3,4
+Football,3724,3909,4086,4268,4449
+Basketball ( B & G),4495,4713,4928,5143,5360
+Wrestling,3324,3483,3645,3807,3970
+Baseball,2516,2635,2758,2878,3003
+Hockey,2516,2635,2758,2878,3003
+Lacrosse,3528,3687,3849,4011,4174
+Soccer,2516,2635,2758,2878,3003
+Softball,2516,2635,2758,2878,3003
+Swimming (B&G),3528,3687,3849,4011,4174
+Track (B & G),3528,3687,3849,4011,4174
+Volleyball (B & G),3528,3687,3849,4011,4174
+Cross Country (B&G),1917,1998,2079,2159,2236
+Golf,1917,1998,2079,2159,2236
+Tennis (B&G),1917,1998,2079,2159,2236
+Winter Track (B&G),1917,1998,2079,2159,2236
+Cheerleading (F&W),1917,1998,2079,2159,2236
+Football,3724,3909,4086,4268,4449
+Basketball,3324,3483,3645,3807,3970
+Wrestling,3324,3483,3645,3807,3970
+Baseball,2516,2635,2758,2878,3003
+Hockey,2516,2635,2758,2878,3003
+Soccer,2516,2635,2758,2878,3003
+Softball,2516,2635,2758,2878,3003

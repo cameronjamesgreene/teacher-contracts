@@ -28,7 +28,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from grind_retrieve import DOCUMENT_ID, document_pages, locate_in_document, norm
+from grind_retrieve import document_pages, load_document, locate_in_document, norm
 from grind_score import classify
 from utils import WORK, read_codebook
 
@@ -36,14 +36,25 @@ _NUMERIC = re.compile(r"\d+(?:\.\d+)?%?")
 _PAGE_NUM = re.compile(r"\d+")
 
 
-def load(path: Path) -> dict[str, dict]:
+def load(path: Path) -> tuple[set[str], dict[str, dict]]:
+    """Answers by question id, plus every document_id the file claims.
+
+    The document is read from the input rather than assumed. Reconciliation
+    re-grounds each quote against the document's pages, so pairing one district's
+    answers with another's pages yields confident, wrong page numbers — the ids are
+    returned so main() can refuse that instead of producing it.
+    """
     answers: dict[str, dict] = {}
+    document_ids: set[str] = set()
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
             continue
-        for answer in json.loads(line).get("answers", []):
+        record = json.loads(line)
+        if record.get("document_id"):
+            document_ids.add(record["document_id"])
+        for answer in record.get("answers", []):
             answers[answer["question_id"]] = answer
-    return answers
+    return document_ids, answers
 
 
 def numeric_tokens(text: str) -> set[str]:
@@ -166,25 +177,43 @@ def main() -> None:
                         metavar="LABEL=PATH", help="in precedence order, best first")
     parser.add_argument("--out", type=Path,
                         default=WORK / "output" / "extraction" / "results" / "reconciled.jsonl")
+    parser.add_argument("--document-id",
+                        help="the document these inputs code; inferred from the inputs "
+                             "when they agree, and required when they do not")
     args = parser.parse_args()
 
     sources: list[tuple[str, dict[str, dict]]] = []
+    claimed: set[str] = set()
     for item in args.input:
         label, _, raw_path = item.partition("=")
         path = Path(raw_path)
         if not path.exists():
             print(f"skipping missing input {label}={path}")
             continue
-        sources.append((label, load(path)))
+        document_ids, answers = load(path)
+        claimed |= document_ids
+        sources.append((label, answers))
     if not sources:
         raise SystemExit("no usable inputs")
 
+    document_id = args.document_id or (next(iter(claimed)) if len(claimed) == 1 else "")
+    if not document_id:
+        raise SystemExit(
+            "cannot tell which document these inputs code "
+            f"({sorted(claimed) or 'no document_id in any record'}). "
+            "Reconcile one document at a time, or pass --document-id.")
+    if claimed - {document_id}:
+        raise SystemExit(f"these inputs mix documents ({sorted(claimed)}); reconciling "
+                         f"them against {document_id}'s pages would misattribute every "
+                         f"page number. Reconcile one document at a time.")
+    doc = load_document(document_id)
+
     question_ids = [question.qid for question in read_codebook()]
-    records = reconcile(sources, question_ids, document_pages())
+    records = reconcile(sources, question_ids, document_pages(doc))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with args.out.open("w", encoding="utf-8") as output:
         for index, record in enumerate(records, start=1):
-            output.write(json.dumps({"document_id": DOCUMENT_ID, "batch": index,
+            output.write(json.dumps({"document_id": document_id, "batch": index,
                                      "answers": [record]}, ensure_ascii=False) + "\n")
     augmented = sum(1 for record in records if "+" in record["coder_notes"])
     substantive = sum(1 for record in records

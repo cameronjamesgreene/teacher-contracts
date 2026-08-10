@@ -1,0 +1,8 @@
+"# Fort_Wayne_Community_Schools_2021-2023.pdf — Salary Range (2019-21, 2021-22, and 2022-23)"
+# population: All teachers | is_teacher_schedule: True
+# validation_warnings: none | audit confirmed
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,Minimum,Maximum
+2019-21 Master Contract (prior to increases),40679.00,71496.00
+2021-22 Salary Schedule,42306.00,74356.00
+2022-23 Salary Schedule,43998.00,77330.00

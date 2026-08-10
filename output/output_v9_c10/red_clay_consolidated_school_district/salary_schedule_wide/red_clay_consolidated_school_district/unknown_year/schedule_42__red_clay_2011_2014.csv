@@ -1,0 +1,23 @@
+# Red_Clay_2011-2014.pdf —  ()
+"# population: extracurricular coaches, team leaders, advisors, and hourly staff | is_teacher_schedule: False"
+# validation_warnings: duplicate step_labels: ['Each Add. Staff Member'] | audit corrected this table
+step,0,1,2,3,4
+Basketball (B & G),1000,1025,1075,1125,1200
+Field Hockey,1000,1025,1075,1125,1200
+Soccer,1000,1025,1075,1125,1200
+Track,1000,1025,1075,1125,1200
+Volleyball (B&G),1000,1025,1075,1125,1200
+Wrestling,1000,1025,1075,1125,1200
+TEAM LEADERS (BASE) (10),536,561,587,612,638
+Each Add. Staff Member,144,,,,
+Club,842,867,918,969,1046
+TEAM LEADERS (BASE) (6),536,561,587,612,638
+Each Add. Staff Member,144,,,,
+String Program,2162,2271,2384,2503,2629
+Athletic - Middle School,3480,3620,3760,3900,4040
+Diving,3528,3687,3849,4011,4174
+TEAM LEADERS (BASE),536,561,587,612,638
+Each Add. Staff Member,144,,,,
+Lead Nurse,1000,1050,1100,1150,1200
+Instructional,27,,,,
+Non-Instructional & Extra Curricular,13.5,,,,

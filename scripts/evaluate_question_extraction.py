@@ -45,6 +45,19 @@ def _all_documents() -> list[tuple[str, str]]:
     ]
 
 
+def _repo_relative(path: Path) -> str:
+    """Paths in the manifest are relative to the repository root.
+
+    An absolute path here bakes one machine's checkout location into the frozen
+    corpus list, and `grind_retrieve.corpus()` then resolves nothing on any other
+    machine. Absolute is still tolerated on read, for manifests written before this.
+    """
+    try:
+        return str(path.resolve().relative_to(WORK))
+    except ValueError:
+        return str(path)
+
+
 def write_manifest(path: Path) -> None:
     """Write source and extracted-text checksums for every locally available PDF."""
     docs = load_documents(_all_documents())
@@ -54,9 +67,9 @@ def write_manifest(path: Path) -> None:
             "document_id": doc.document_id,
             "district": doc.district,
             "file_name": doc.file_name,
-            "source_path": str(doc.path),
+            "source_path": _repo_relative(doc.path),
             "pdf_sha256": _sha256_file(doc.path),
-            "text_path": str(doc.text_path),
+            "text_path": _repo_relative(doc.text_path),
             "text_sha256": hashlib.sha256(doc.text.encode("utf-8")).hexdigest(),
             "pdf_pages": doc.page_count or 0,
             "text_characters": len(doc.text),

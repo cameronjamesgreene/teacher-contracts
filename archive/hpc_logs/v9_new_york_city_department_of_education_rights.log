@@ -1,0 +1,24 @@
+Processing 1 document(s) ...
+[ 1/1] NYC_19-22_CBA.pdf ...
+      (skipped 1/1 empty/appendix chunks)
+      0 clauses extracted, 0 scored
+
+0 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/new_york_city_department_of_education/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/new_york_city_department_of_education/rights_score_summary.csv
+Document status summary: {'ok': 1}
+Processing 1 document(s) ...
+[ 1/1] NYC_19-22_CBA.pdf ...
+      (skipped 1/1 empty/appendix chunks)
+      0 clauses extracted, 0 scored
+
+0 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/new_york_city_department_of_education/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/new_york_city_department_of_education/rights_score_summary.csv
+Document status summary: {'ok': 1}
+Processing 1 document(s) ...
+[ 1/1] NYC_19-22_CBA.pdf ...
+      (skipped 1/1 empty/appendix chunks)
+      0 clauses extracted, 0 scored
+
+0 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/new_york_city_department_of_education/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/new_york_city_department_of_education/rights_score_summary.csv
+Document status summary: {'ok': 1}

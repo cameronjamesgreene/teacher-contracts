@@ -1,0 +1,77 @@
+[Tue Jul 21 12:14:35 PM EDT 2026] START Cleveland Metropolitan School District | Cleveland_Teachers_Union_Contract_2021-2024.pdf  (CONTRACT_OUT_DIR=output_v7/cleveland_metropolitan_school_district_cleveland_teachers_union_contract_2021_20)
+Processing 1 document(s) ...
+[ 1/1] Cleveland_Teachers_Union_Contract_2021-2024.pdf ...
+      30 schedule(s) found
+      -> teacher_s_differentiated_compensation_system_compe__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> per_diem_rate_for_substitute_teachers_inexperience__cleveland_teachers_union_contract_2021_2.csv
+      -> rate_for_substitute_teachers_experienced_sub__cleveland_teachers_union_contract_2021_2.csv
+      -> miscellaneous_rates_of_pay__cleveland_teachers_union_contract_2021_2.csv
+      -> sign_language_educational_interpreters__cleveland_teachers_union_contract_2021_2.csv
+      -> sign_language_educational_interpreters__cleveland_teachers_union_contract_2021_2.csv
+      -> educational_aides_parent_mentors_community_aides_t__cleveland_teachers_union_contract_2021_2.csv
+      -> computer_technicians_instructional_aides_pcias_ot__cleveland_teachers_union_contract_2021_2.csv
+      -> computer_technicians_instructional_aides_pcia_ot_p__cleveland_teachers_union_contract_2021_2.csv
+      -> attendance_specialist_and_attendance_liaisons__cleveland_teachers_union_contract_2021_2.csv
+      -> hourly_rate_instructional_aide_adult_education_ins__cleveland_teachers_union_contract_2021_2.csv
+      -> hourly_rate_educational_aide_child_care_aide_child__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> social_worker_parent_education_counselor_salary_sc__cleveland_teachers_union_contract_2021_2.csv
+      -> hearing_officers_classified_salary_schedule__cleveland_teachers_union_contract_2021_2.csv
+      -> hourly_rate_for_all_substitute_paraprofessionals__cleveland_teachers_union_contract_2021_2.csv
+      -> supplemental_differentiated_stipends_listings__cleveland_teachers_union_contract_2021_2.csv
+      -> supplemental_stipends_listings__cleveland_teachers_union_contract_2021_2.csv
+      -> differential_listings_all_extracurricular_activiti__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> middle_schools__cleveland_teachers_union_contract_2021_2.csv
+      -> additional_duty_stipend_schedule__cleveland_teachers_union_contract_2021_2.csv
+      -> department_head_core_team_leader_subject_area_spec__cleveland_teachers_union_contract_2021_2.csv
+      -> elementary_schools__cleveland_teachers_union_contract_2021_2.csv
+      -> miscellaneous__cleveland_teachers_union_contract_2021_2.csv
+      -> team_leaders_in_pk_k_8_buildings__cleveland_teachers_union_contract_2021_2.csv
+      -> special_education_liaison_esp_liaison_subject_area__cleveland_teachers_union_contract_2021_2.csv
+      -> special_education_liaison_esp_liaison_subject_area__cleveland_teachers_union_contract_2021_2__p170-172.csv
+      -> special_education_enrollment_esp__cleveland_teachers_union_contract_2021_2.csv
+      -> senior_high_school_extracurricular_and_arts_educat__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> pk_k_8_schools_grades_6_8_stipend_positions__cleveland_teachers_union_contract_2021_2.csv
+      -> extramural_schools_program_stipend_positions__cleveland_teachers_union_contract_2021_2.csv
+
+30 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/cleveland_metropolitan_school_district_cleveland_teachers_union_contract_2021_20/salary_schedule_wide
+  4 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}
+Processing 1 document(s) ...
+[ 1/1] Cleveland_Teachers_Union_Contract_2021-2024.pdf ...
+      2243 clauses extracted, 2101 scored
+
+2243 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/cleveland_metropolitan_school_district_cleveland_teachers_union_contract_2021_20/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/cleveland_metropolitan_school_district_cleveland_teachers_union_contract_2021_20/rights_score_summary.csv
+Document status summary: {'ok': 1}
+Reading codebook and sample ...
+  106 questions | 12 categories | 23 sub-batches (max 6/batch) | 1 document(s)
+[ 1/1] Cleveland_Teachers_Union_Contract_2021-2024.pdf ...
+      meta batch 1: 6 questions done (27 sections)
+      meta batch 2: 3 questions done (27 sections)
+      pay batch 1: 6 questions done (27 sections)
+      pay batch 2: 6 questions done (27 sections)
+      pay batch 3: 5 questions done (27 sections)
+      benefits batch 1: 6 questions done (27 sections)
+      benefits batch 2: 6 questions done (27 sections)
+      leave batch 1: 6 questions done (27 sections)
+      leave batch 2: 6 questions done (27 sections)
+      leave batch 3: 1 question done (27 sections)
+      workload batch 1: 6 questions done (27 sections)
+      workload batch 2: 3 questions done (27 sections)
+      class batch 1: 4 questions done (27 sections)
+      evaluation batch 1: 6 questions done (27 sections)
+      evaluation batch 2: 2 questions done (27 sections)
+      security batch 1: 6 questions done (27 sections)
+      security batch 2: 5 questions done (27 sections)
+      discipline batch 1: 2 questions done (27 sections)
+      conduct batch 1: 6 questions done (27 sections)
+      conduct batch 2: 4 questions done (27 sections)
+      safety batch 1: 6 questions done (27 sections)
+      safety batch 2: 2 questions done (27 sections)
+      pd batch 1: 3 questions done (27 sections)
+      cross-question reconciliation recovered 2 answer(s)
+
+Writing outputs ...
+  1 document rows  → /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/cleveland_metropolitan_school_district_cleveland_teachers_union_contract_2021_20/llm_main_dataset.csv
+  106 log rows        → /gpfs/home/cjg79/contracts/contract_coding_CG/output_v7/cleveland_metropolitan_school_district_cleveland_teachers_union_contract_2021_20/llm_coding_log.csv
+[Tue Jul 21 04:34:58 PM EDT 2026] DONE  Cleveland Metropolitan School District | Cleveland_Teachers_Union_Contract_2021-2024.pdf  (status=0)

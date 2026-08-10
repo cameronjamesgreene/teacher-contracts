@@ -1,0 +1,14 @@
+# 54.pdf — SALARY PLACEMENT LANE MOVEMENT MATRIX 2006-2007 THROUGH 2009-2010 (2006-2007 THROUGH 2009-2010)
+# population: Contracted members | is_teacher_schedule: True
+"# validation_warnings: identical values across lanes ['08-09', '09-10'] — one lane column was copied across slots (or a fabricated column duplicates its neighbour) instead of extracting each lane distinctly | audit confirmed"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,06-07,07-08,08-09,09-10
+1,1,0,,
+2,2,1,0,0
+3,3,2,1,1
+4,4,3,2,2
+5,5,4,3,3
+6,6,5,4,4
+7,7,6,5,5
+||,,,,
+Through Step 22,,,,

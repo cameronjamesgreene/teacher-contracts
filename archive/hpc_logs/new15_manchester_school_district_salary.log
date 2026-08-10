@@ -1,0 +1,13 @@
+Processing 1 document(s) ...
+[ 1/1] 83.pdf ...
+Processing 1 document(s) ...
+[ 1/1] 83.pdf ...
+      1/4 page-block(s) failed extraction/audit (will retry next run)
+      3 schedule(s) found
+      -> fy_08_teacher_salary_schedule__83.csv
+      -> fy_10_teacher_salary_schedule_9_1_09__83.csv [audit corrected]
+      -> fy_10_teacher_salary_schedule_9_1_09__83.csv
+
+3 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/manchester_school_district/salary_schedule_wide
+  1 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

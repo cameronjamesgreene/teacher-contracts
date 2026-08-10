@@ -1,0 +1,42 @@
+Processing 3 document(s) ...
+[ 1/3] Denver_2022-2025-CBA-Final.pdf ...
+      4 schedule(s) found
+      -> salary_schedule__denver_2022_2025_cba_final.csv
+      -> dcta_cte_protech_instructor_salary_schedule__denver_2022_2025_cba_final.csv
+      -> dcta_cte_protech_instructor_salary_schedule__denver_2022_2025_cba_final.csv
+      -> dcta_esli_salary_schedule__denver_2022_2025_cba_final.csv
+[ 2/3] Baltimore_City_Public_Schools_2021-2023.pdf ...
+      20 schedule(s) found
+      -> g_new_hire_salary_placement__baltimore_city_public_schools_2021_2023.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023.csv [audit corrected]
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p72-72.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p73-73.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p74-74.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p75-75.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p77-77.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p78-78.csv
+      -> 2021_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p79-79.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p81-81.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p82-82.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p83-83.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p84-84.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p85-85.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p86-86.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p87-87.csv
+      -> 2022_btu_career_pathway_salary_schedule__baltimore_city_public_schools_2021_2023__p88-89.csv
+      -> addendum_ii__baltimore_city_public_schools_2021_2023.csv
+[ 3/3] Broward_Teachers_U_Contract_2011_2014.pdf ...
+      7 schedule(s) found
+      -> appendix_e_teachers_salary_schedule__broward_teachers_u_contract_2011_2014.csv
+      -> advanced_degree_stipends__broward_teachers_u_contract_2011_2014.csv
+      -> supplementary_pay_schedule_appendix_f_2011_2012__broward_teachers_u_contract_2011_2014.csv
+      -> teachers_supplementary_pay_schedule_appendix_f_201__broward_teachers_u_contract_2011_2014.csv
+      -> teachers_supplementary_pay_schedule_appendix_f__broward_teachers_u_contract_2011_2014.csv [audit corrected]
+      -> supplementary_pay_schedule_appendix_f_2011_2012__broward_teachers_u_contract_2011_2014__p181-181.csv
+      -> supplementary_pay_schedule_appendix_f_2011_2012__broward_teachers_u_contract_2011_2014__p182-182.csv
+
+31 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v5/salary_schedule_wide
+  2 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 3}

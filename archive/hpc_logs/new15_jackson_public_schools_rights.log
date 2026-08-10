@@ -1,0 +1,8 @@
+Processing 1 document(s) ...
+[ 1/1] Jackson_BP_(2).pdf ...
+      re-verified 191 ambiguous clause(s)
+      2748 clauses extracted, 2479 scored
+
+2748 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/jackson_public_schools/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/jackson_public_schools/rights_score_summary.csv
+Document status summary: {'ok': 1}

@@ -1,0 +1,13 @@
+Processing 1 document(s) ...
+[ 1/1] 102-07.pdf ...
+      7 schedule(s) found
+      -> 2009_10_instructional_salary_schedule__102_07.csv
+      -> activities_clubs__102_07.csv
+      -> arts__102_07.csv
+      -> athletics_high_school__102_07.csv
+      -> athletics__102_07.csv
+      -> athletics__102_07__p74-75.csv
+      -> special_instructional__102_07.csv
+
+7 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/school_district_of_lee_county/salary_schedule_wide
+Document status summary: {'ok': 1}

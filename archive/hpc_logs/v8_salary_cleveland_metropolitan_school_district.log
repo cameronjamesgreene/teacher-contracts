@@ -1,0 +1,43 @@
+Processing 1 document(s) ...
+[ 1/1] Cleveland_Teachers_Union_Contract_2021-2024.pdf ...
+      36 schedule(s) found
+      -> teacher_s_differentiated_compensation_system__cleveland_teachers_union_contract_2021_2.csv
+      -> per_diem_rate_for_substitute_teachers__cleveland_teachers_union_contract_2021_2.csv
+      -> teacher_s_differentiated_compensation_system_compe__cleveland_teachers_union_contract_2021_2.csv
+      -> per_diem_rate_for_substitute_teachers__cleveland_teachers_union_contract_2021_2.csv
+      -> teacher_s_differentiated_compensation_system__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> teacher_s_differentiated_compensation_system__cleveland_teachers_union_contract_2021_2__p158-161.csv
+      -> per_diem_rate_for_substitute_teachers__cleveland_teachers_union_contract_2021_2__p158-161.csv [audit corrected]
+      -> appendix_a_compensation_schedules_teacher_s_differ__cleveland_teachers_union_contract_2021_2.csv
+      -> per_diem_rate_for_substitute_teachers__cleveland_teachers_union_contract_2021_2.csv
+      -> teacher_s_differentiated_compensation_system__cleveland_teachers_union_contract_2021_2__p158-161.csv [audit corrected]
+      -> per_diem_rate_for_substitute_teachers__cleveland_teachers_union_contract_2021_2__p158-161.csv
+      -> teacher_s_differentiated_compensation_system__cleveland_teachers_union_contract_2021_2__p158-161.csv
+      -> appendix_a__cleveland_teachers_union_contract_2021_2.csv
+      -> attendance_specialist_attendance_liaison_class_5_3__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> classified_paraprofessional_salary_schedule__cleveland_teachers_union_contract_2021_2.csv
+      -> attendance_specialist_attendance_liaisons_salary_s__cleveland_teachers_union_contract_2021_2.csv
+      -> salary_schedule__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> step_18_36_salary_schedule__cleveland_teachers_union_contract_2021_2.csv
+      -> salary_schedule__cleveland_teachers_union_contract_2021_2.csv
+      -> substitute_salary_schedule__cleveland_teachers_union_contract_2021_2.csv [audit corrected]
+      -> per_hour_day_to_day_experienced_sub__cleveland_teachers_union_contract_2021_2.csv
+      -> stipend_42_3594_4_americas__cleveland_teachers_union_contract_2021_2.csv
+      -> stipend__cleveland_teachers_union_contract_2021_2.csv
+      -> differential_listings_all_extracurricular_activiti__cleveland_teachers_union_contract_2021_2.csv
+      -> middle_k_8_schools__cleveland_teachers_union_contract_2021_2.csv
+      -> senior_high_and_middle_school_positions__cleveland_teachers_union_contract_2021_2.csv
+      -> department_head_core_team_leader_subject_area_spec__cleveland_teachers_union_contract_2021_2.csv
+      -> elementary_schools__cleveland_teachers_union_contract_2021_2.csv
+      -> miscellaneous__cleveland_teachers_union_contract_2021_2.csv
+      -> team_leaders_in_pk_k_8_buildings__cleveland_teachers_union_contract_2021_2.csv
+      -> special_education_liaison_esp_liaison_subject_area__cleveland_teachers_union_contract_2021_2.csv
+      -> special_education_liaison_esp_liaison_subject_area__cleveland_teachers_union_contract_2021_2__p170-172.csv
+      -> special_education_enrollment_esp__cleveland_teachers_union_contract_2021_2.csv
+      -> senior_high_school_extracurricular_and_arts_educat__cleveland_teachers_union_contract_2021_2.csv
+      -> pk_k_8_schools_grades_6_8_stipend_positions__cleveland_teachers_union_contract_2021_2.csv
+      -> extramural_schools_program_stipend_positions__cleveland_teachers_union_contract_2021_2.csv
+
+36 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v8/salary_schedule_wide
+  6 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

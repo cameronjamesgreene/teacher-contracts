@@ -1,0 +1,7 @@
+Processing 1 document(s) ...
+[ 1/1] St_Paul_Agreement_teacher.pdf ...
+      604 clauses extracted, 566 scored
+
+604 clause rows    -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/st_paul_public_schools/rights_score_long.csv
+1 document rows -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/st_paul_public_schools/rights_score_summary.csv
+Document status summary: {'ok': 1}

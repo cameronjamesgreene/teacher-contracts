@@ -11,12 +11,30 @@ endpoint.
 
 ```sh
 uv venv .venv --python 3.13
-uv pip install --python .venv/bin/python openai pydantic fastembed
+uv pip install --python .venv/bin/python -r requirements.txt
 export SOM_HPC_LLM_API_KEY=...        # or scripts/som_api_key.txt
 ```
 
 `fastembed` runs `BAAI/bge-small-en-v1.5` through ONNX Runtime, so there is no PyTorch
-dependency (~183 MB venv in total).
+dependency (~238 MB venv in total). Python 3.13, not 3.14: onnxruntime has no 3.14 wheels.
+
+## Check the corpus first
+
+Extracted text is not in the repository — it is gitignored and regenerable — so a fresh
+checkout has PDFs and no text. Everything downstream is derived from that text, so
+verify it before building anything on it:
+
+```sh
+.venv/bin/python scripts/verify_corpus.py --extract
+```
+
+This recomputes each PDF's and each text's sha256 against
+`output/extraction/corpus_manifest.csv` and reports one of `ok`, `needs_ocr` (no text
+layer — expected for the scans) or `mismatch` (the text differs from what the answer
+keys were built against, so results are not comparable).
+
+Documents reported `needs_ocr` are handled by `scripts/run_ocr.py`; see
+`docs/ocr_scanned_documents.md`.
 
 ## Build the index
 
@@ -40,30 +58,57 @@ Sanity check:
 ## Run the extraction
 
 Two extractors are run and then reconciled, because they fail on different questions.
+For the corpus, or for more than one document, use the driver:
+
+```sh
+.venv/bin/python scripts/run_extraction.py --all
+```
+
+It runs sweep → verify → reconcile → citation audit per document into
+`output/extraction/results/<document_id>/`, skips stages whose output already exists
+(so an interrupted run resumes by re-running the same command), and bounds concurrency
+against the endpoint's ~24-32 in-flight ceiling. Note that cost tracks the *absence
+rate*, not length: a 4-page tentative agreement took 18.5 minutes because 92 of its
+106 questions hit the absence-verification path.
+
+The stages individually, for one document:
 
 ```sh
 DOC=manchester_school_district__83__de5d62c9
+R=output/extraction/results/$DOC
 
 # A: full-document sweep — reads every page in overlapping windows, ~33 calls
-.venv/bin/python scripts/grind_sweep.py  --out output/extraction/results/sweep.jsonl
+.venv/bin/python scripts/grind_sweep.py  --document-id $DOC --out $R/sweep.jsonl
 
 # B: per-question retrieval with absence verification — best single extractor, ~254 calls
-.venv/bin/python scripts/grind_verify.py --out output/extraction/results/verify.jsonl
+.venv/bin/python scripts/grind_verify.py --document-id $DOC --out $R/verify.jsonl
 
 # reconcile (deterministic, no model calls)
 .venv/bin/python scripts/grind_reconcile.py \
-    --input B=output/extraction/results/verify.jsonl \
-    --input A=output/extraction/results/sweep.jsonl \
-    --out output/extraction/results/ensemble.jsonl
+    --input B=$R/verify.jsonl --input A=$R/sweep.jsonl --out $R/ensemble.jsonl
 
 # optional completeness polish: adds grounded subset variations, never removes anything
-.venv/bin/python scripts/grind_subset.py \
-    --input output/extraction/results/ensemble.jsonl \
-    --out output/extraction/results/final.jsonl
+.venv/bin/python scripts/grind_subset.py --input $R/ensemble.jsonl --out $R/final.jsonl
 ```
+
+Every stage takes `--document-id`, and reconcile/subset infer it from their input when
+it names one document. None of them will ground a quote against a document you did not
+name — the retrieval and grounding functions have no default document, because when
+they did, a forgotten argument silently derived page numbers from the wrong contract.
 
 Both extractors support `--resume`, and `--scored-only` (verify) or `--gold-only`
 restricts to the 38 questions covered by the answer key for fast iteration.
+
+## Hand the answers to the rest of the project
+
+```sh
+.venv/bin/python scripts/grind_to_dataset.py output/extraction/results/*/ensemble.jsonl
+```
+
+This writes `llm_main_dataset.csv` (wide) and `llm_coding_log.csv` (long) into
+`utils.OUT_DIR`, with the same 436-column schema `llm_extract.py` produces — so
+`salary_schedule.py` and the audit workbooks consume the grind pipeline's output
+without knowing it changed. Set `CONTRACT_OUT_DIR` to choose the run directory.
 
 ## Score it
 
@@ -110,6 +155,10 @@ failure. See `docs/extraction_results.md`.
 
 ```
 scripts/
+  verify_corpus.py      PDF/text checksums against the frozen manifest — run this first
+  run_ocr.py            OCR driver: engines -> arbitration -> adoption -> manifest
+  run_extraction.py     corpus driver: sweep -> verify -> reconcile -> audit, per document
+  grind_to_dataset.py   JSONL -> the wide/long CSV pair the v9 programs read
   contract_search.py    page-aware FTS5 passage index and BM25 search
   sqlite_vectors.py     dense embeddings in the same SQLite file + brute-force search
   grind_retrieve.py     shared layer: fused retrieval, grounding, page derivation

@@ -1,0 +1,54 @@
+# 39-05.pdf — Article 36 -- Salary Schedule for Extra Factor ()
+"# population: Arizona Interscholastic Association and Related Activities (Coaches, Trainers, etc.) | is_teacher_schedule: False"
+"# validation_warnings: no lane columns extracted — verify this is truly a single-column table (step → value only, with no separate degree, year, or category columns) | audit corrected this table"
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,value
+Head Football Coach (1),1
+Head Basketball Coach (2),2
+Certified Athletic Trainer or Trainer with 15 years experience (1),1
+Head Swimming Coach (2),2
+Head Wrestling Coach (1),1
+Head Track Coach (2),2
+Head Baseball Coach (1),1
+Head Softball Coach (1),1
+Head Soccer Coach (2),2
+Head Volleyball Coach (1B & 1G),
+Assistant Certified Trainer (1),1
+Senior High Weight Training (1),1
+Senior High Spiritline (1),1
+Senior High Pom Pon (1),1
+Senior High Cheerleader – Varsity and J.V. (1),1
+Senior High Academic Team Sponsor (1),1
+Head Tennis Coach (2),2
+Head Badminton Coach (1),1
+Varsity Football Assistants (2),2
+Head J.V. Football (1),1
+Head Junior Football (1),1
+Head Freshman Football (1),1
+Assistant High School Weight Training (1),1
+Head J.V. Basketball (2),2
+Head Freshman Basketball (2),2
+Coordinator of Sports for the Disabled (1),1
+Senior High Assistant Spiritline (1),1
+Head Frosh Spiritline Coach – First Semester (1),1
+Head Frosh Spiritline Coach – Second Semester (1),1
+Head Golf Coach (2),2
+"Head Diving Coach (2) -- If one person coaches both boys and girls at the high school level, they will receive 1.5 of the stipend.",2
+"Head Cross Country Coach (2) -- If one person coaches both boys and girls the high school level, they will receive 1.5 of the stipend.",2
+Head Frosh Wrestling Coach (1),1
+Head Frosh Track Coach (2),2
+Head Frosh Baseball Coach (1),1
+Asst. Wrestling Coach (J.V.) (1),1
+Asst. Track Coach (2B & 2G) (4),4
+Asst. Baseball Coach (J.V.) (1),1
+Asst. J.V. Football Coach (1),1
+Asst. Jr. Football Coach (1),1
+Asst. Volleyball Coach (J.V.)(1B & 1G) (2),2
+Asst. Softball Coach (J.V.)(1),1
+Asst. Speech & Debate (1),1
+Asst. Academic Team Coach (1),1
+Trainer with less than 15 years experience,
+Frosh Softball Coach (1),1
+Assistant Frosh Football Coach (1),1
+Frosh Volleyball Coach (1),1
+Frosh Tennis Coach (2),2

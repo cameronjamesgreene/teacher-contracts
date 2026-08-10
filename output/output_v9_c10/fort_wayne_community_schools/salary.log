@@ -1,0 +1,11 @@
+Processing 1 document(s) ...
+[ 1/1] Fort_Wayne_Community_Schools_2021-2023.pdf ...
+  deduped 3 identical page-split/reprint grid(s)
+      4 schedule(s) found
+      -> teacher_starting_salaries__fort_wayne_community_schools_2021_2023.csv
+      -> salary_range__fort_wayne_community_schools_2021_2023.csv
+      -> appendix_a_salary_schedule__fort_wayne_community_schools_2021_2023.csv
+      -> appendix_b_cocurricular_and_athletic_positions__fort_wayne_community_schools_2021_2023.csv
+
+4 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/fort_wayne_community_schools/salary_schedule_wide
+Document status summary: {'ok': 1}

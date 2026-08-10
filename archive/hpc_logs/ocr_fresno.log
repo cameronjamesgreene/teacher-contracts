@@ -1,0 +1,52 @@
+FTA-Fresno-Teachers-Association_CBA_2010-2012.pdf: 142 pages — fully scanned (whole-doc OCR)
+  OCR-ing fresno_unified_school_district__fta_fresno_teachers_association_cba_2010_2012__6e67ecb0__scanned.pdf (142 pages) with olmocr2 ...
+documents: 1
+engines: olmocr2
+stages:  ocr
+HPC:     olmocr2
+
+=== ocr:olmocr2 ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/olmocr2_extract.py --document 81b4157d-c6c6-5043-81ff-588c1d71790d --documents-root /gpfs/home/cjg79/contracts/contract_coding_CG/cache/hybrid_ocr/fresno_unified_school_district__fta_fresno_teachers_association_cba_2010_2012__6e67ecb0/documents ...
+note: 1 documents have no pypdf probe — running olmOCR-2 on them anyway
+running HPC OCR on 1 document(s) via 1 worker(s) × 8 in-flight
+[orch] 1 PDFs to process; workers=1, in-flight=8 per worker (total concurrent: 8)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=allenai/olmOCR-2-7B-1025 VLLM_MAX_MODEL_LEN=16384 VLLM_IMAGE=docker://vllm/vllm-openai:v0.…'
+[serve] {"event":"job_start","host":"c002","job":"1557325","port":62573,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c002 port=62573 api_key=f4ca1071c6622389e74c16575c80b482b7470c144b15312054410a25a4212b72
+[tunnel] localhost:44831 -> c002:62573
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"allenai/olmOCR-2-7B-1025","max_model_len":16384,"image":"docker://vllm/vllm-openai:v0.23.0"}
+[serve] {"event":"vllm_backgrounded","pid":1175075}
+[serve] INFO:    Using cached SIF image
+[serve] INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (478) bind mounts
+[serve] (APIServer pid=1175124) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (APIServer pid=1175124) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=1175398) Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[serve] (EngineCore pid=1175398) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[serve] (EngineCore pid=1175398) Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[serve] (EngineCore pid=1175398) Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:08<00:26,  8.90s/it]
+[serve] (EngineCore pid=1175398) Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:14<00:13,  6.67s/it]
+[serve] (EngineCore pid=1175398) Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:19<00:05,  5.91s/it]
+[serve] (EngineCore pid=1175398) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:20<00:00,  4.08s/it]
+[serve] (EngineCore pid=1175398) Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:20<00:00,  5.07s/it]
+[serve] (EngineCore pid=1175398) 
+[serve] (APIServer pid=1175124) INFO:     Started server process [1175124]
+[serve] (APIServer pid=1175124) INFO:     Waiting for application startup.
+[serve] (APIServer pid=1175124) INFO:     Application startup complete.
+[ready] vLLM serving allenai/olmOCR-2-7B-1025 after 101.0s
+[orch] w0 ready (port 44831 → c002:62573)
+[done] w0 document.pdf → olmocr2.txt  (142pp, 503512B, 1311.8s, ok; 1/1)
+
+=== SUMMARY === 1 ok / 0 err in 1311.8s (0.0 PDFs/min, 1 worker(s) × 8 in-flight)
+[serve] srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+
+HPC backend rc=0; wrote 1/1 (.txt + .json)
+
+manifest: logs/runs/2026-07-23T23-13-18.278841+00-00.jsonl
+coverage on this run's 1 documents:
+  ocr:olmocr2    1/1
+
+all stages OK
+  merged 142 OCR'd page(s) + 0 native page(s) -> fresno_unified_school_district__fta_fresno_teachers_association_cba_2010_2012__6e67ecb0.txt (435,379 non-space chars)

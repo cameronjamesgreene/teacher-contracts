@@ -1,0 +1,33 @@
+Reading codebook and sample ...
+  106 questions | 12 categories | 23 sub-batches (max 6/batch) | 1 document(s)
+[ 1/1] Seattle_final_CBA_2018-2019.pdf ...
+Reading codebook and sample ...
+  106 questions | 12 categories | 23 sub-batches (max 6/batch) | 1 document(s)
+[ 1/1] Seattle_final_CBA_2018-2019.pdf ...
+      meta batch 1: 6 questions done (18 sections)
+      meta batch 2: 3 questions done (18 sections)
+      pay batch 1: 6 questions done (18 sections)
+      pay batch 2: 6 questions done (18 sections)
+      pay batch 3: 5 questions done (18 sections)
+      benefits batch 1: 6 questions done (18 sections)
+      benefits batch 2: 6 questions done (18 sections)
+      leave batch 1: 6 questions done (18 sections)
+      leave batch 2: 6 questions done (18 sections)
+      leave batch 3: 1 question done (18 sections)
+      workload batch 1: 6 questions done (18 sections)
+      workload batch 2: 3 questions done (18 sections)
+      class batch 1: 4 questions done (18 sections)
+      evaluation batch 1: 6 questions done (18 sections)
+      evaluation batch 2: 2 questions done (18 sections)
+      security batch 1: 6 questions done (18 sections)
+      security batch 2: 5 questions done (18 sections)
+      discipline batch 1: 2 questions done (18 sections)
+      conduct batch 1: 6 questions done (18 sections)
+      conduct batch 2: 4 questions done (18 sections)
+      safety batch 1: 6 questions done (18 sections)
+      safety batch 2: 2 questions done (18 sections)
+      pd batch 1: 3 questions done (18 sections)
+
+Writing outputs ...
+  1 document rows  → /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/seattle_public_schools/llm_main_dataset.csv
+  106 log rows        → /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9/seattle_public_schools/llm_coding_log.csv

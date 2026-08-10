@@ -1,0 +1,35 @@
+Processing 1 document(s) ...
+[ 1/1] Baltimore_City_2016-2019.pdf ...
+  deduped 49 identical page-split/reprint grid(s)
+      2/11 page-block(s) failed extraction/audit (will retry next run)
+      27 schedule(s) found
+      -> 2016_17_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2017_18_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2018_19_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2016_17_btu_career_pathway_salary_schedule__baltimore_city_2016_2019.csv
+      -> 2017_18_btu_career_pathway_salary_schedule__baltimore_city_2016_2019.csv
+      -> 2018_19_btu_career_pathway_salary_schedule__baltimore_city_2016_2019.csv
+      -> 2016_17_btu_career_pathway_salary_schedule__baltimore_city_2016_2019.csv
+      -> 2017_18_btu_career_pathway_salary_schedule__baltimore_city_2016_2019.csv
+      -> 2018_19_btu_career_pathway_salary_schedule__baltimore_city_2016_2019.csv
+      -> 2016_17_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2017_18_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2018_19_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2016_17_btu_career_pathway_salary_schedule__baltimore_city_2016_2019__p105-105.csv
+      -> 2017_18_btu_career_pathway_salary_schedule__baltimore_city_2016_2019__p105-105.csv
+      -> 2018_19_btu_career_pathway_salary_schedule__baltimore_city_2016_2019__p105-105.csv
+      -> 2016_17_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019__p106-106.csv
+      -> 2017_18_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019__p106-106.csv
+      -> 2018_19_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019__p106-106.csv
+      -> 2016_17_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2017_18_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2018_19_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019.csv
+      -> 2016_17_btu_career_pathway_salary_schedule__baltimore_city_2016_2019__p108-108.csv
+      -> 2017_18_btu_career_pathway_salary_schedule__baltimore_city_2016_2019__p108-108.csv
+      -> 2018_19_btu_career_pathway_salary_schedule__baltimore_city_2016_2019__p108-108.csv
+      -> 2016_17_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019__p109-110.csv
+      -> 2017_18_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019__p109-110.csv
+      -> 2018_19_btu_career_pathway_salary_schedule_effecti__baltimore_city_2016_2019__p109-110.csv
+
+27 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v9_c10/baltimore_city_public_school_system/salary_schedule_wide
+Document status summary: {'ok': 1}

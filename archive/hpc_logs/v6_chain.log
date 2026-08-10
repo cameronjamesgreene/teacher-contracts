@@ -1,0 +1,22 @@
+=== v6 chain START Mon Jul 20 11:12:07 PM EDT 2026 ===
+[chain] STEP 1/2 OCR Pittsburgh (olmocr2) Mon Jul 20 11:12:07 PM EDT 2026
+[chain] OCR exit rc=0 Mon Jul 20 11:23:31 PM EDT 2026
+[chain] OCR text OK: 109599 chars
+[chain] STEP 2/2 parallel pipeline (3 docs) Mon Jul 20 11:23:31 PM EDT 2026
+=== Parallel v6 run started Mon Jul 20 11:23:31 PM EDT 2026 — 3 doc(s), RIGHTS_CONCURRENCY=4 ===
+[Mon Jul 20 11:23:31 PM EDT 2026] START Boston Public Schools | Boston_2021-24-Collective-Bargaining-Agreement.pdf  (CONTRACT_OUT_DIR=output_v6/boston_public_schools_boston_2021_24_collective_bargaining_agreement)
+[Mon Jul 20 11:23:31 PM EDT 2026] START Duval County Public Schools | Collective_Bargaining_Agreement_2011-2014T_.pdf  (CONTRACT_OUT_DIR=output_v6/duval_county_public_schools_collective_bargaining_agreement_2011_2014t)
+[Mon Jul 20 11:23:31 PM EDT 2026] START Pittsburgh Public Schools | Pittsburgh_10-15.pdf  (CONTRACT_OUT_DIR=output_v6/pittsburgh_public_schools_pittsburgh_10_15)
+[Tue Jul 21 12:59:31 AM EDT 2026] DONE  Duval County Public Schools | Collective_Bargaining_Agreement_2011-2014T_.pdf  (status=0)
+[Tue Jul 21 02:39:53 AM EDT 2026] DONE  Pittsburgh Public Schools | Pittsburgh_10-15.pdf  (status=0)
+[Tue Jul 21 03:31:15 AM EDT 2026] DONE  Boston Public Schools | Boston_2021-24-Collective-Bargaining-Agreement.pdf  (status=0)
+=== All docs finished (Tue Jul 21 03:31:15 AM EDT 2026, status=0) — merging into output_v6 ===
+Merging 3 doc dir(s) into /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6
+  llm_main_dataset.csv: 3 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/llm_main_dataset.csv
+  llm_coding_log.csv: 318 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/llm_coding_log.csv
+  rights_score_long.csv: 3462 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/rights_score_long.csv
+  rights_score_summary.csv: 3 rows from 3 doc dir(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/rights_score_summary.csv
+  salary_schedule_wide: copied 34 grid file(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v6/salary_schedule_wide
+Merge complete.
+=== Parallel v6 run complete Tue Jul 21 03:31:16 AM EDT 2026 ===
+=== v6 chain DONE Tue Jul 21 03:31:16 AM EDT 2026 ===

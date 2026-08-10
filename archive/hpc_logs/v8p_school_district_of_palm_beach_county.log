@@ -1,0 +1,12 @@
+Processing 1 document(s) ...
+[ 1/1] Palm_Beach_CTA-July-2017-June-2020-CBA-Successor.pdf ...
+      5 schedule(s) found
+      -> annual_glades_supplement__palm_beach_cta_july_2017_june_2020_cba_s.csv
+      -> appendix_a_open_range_grandfathered_and_performanc__palm_beach_cta_july_2017_june_2020_cba_s.csv
+      -> national_certificate_supplements__palm_beach_cta_july_2017_june_2020_cba_s.csv
+      -> new_hire_salary_placement_schedule__palm_beach_cta_july_2017_june_2020_cba_s.csv
+      -> appendix_b_supplements__palm_beach_cta_july_2017_june_2020_cba_s.csv [audit corrected]
+
+5 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_v8_15docs/salary_schedule_wide
+  1 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

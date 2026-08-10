@@ -61,7 +61,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from contract_search import Passage, read_passages
-from grind_retrieve import (DOCUMENT_ID, MANCHESTER, DocumentContext, load_document,
+from grind_retrieve import (DEFAULT_DOCUMENT_ID, DocumentContext, load_document,
                             document_pages, fused_passages, ground,
                             open_database, passage_payload)
 # Dense retrieval goes through the shared layer, which reads embeddings from the
@@ -78,7 +78,7 @@ GOLD_PATH = WORK / "output" / "extraction" / "answer_gold.csv"
 
 # One process codes one document. Set from --document-id before any coding begins, so
 # retrieval, page derivation and the emitted document_id cannot disagree.
-DOC: DocumentContext = MANCHESTER
+DOC: DocumentContext | None = None
 ANSWERS_PER_LINE = 10
 
 PASS1_BUDGET = 10          # measured best-performing depth for the fused retriever
@@ -365,7 +365,7 @@ def verify(raw: dict, passages: list[Passage], page_blocks: list[str],
     if not evidence:
         attempt.grounding_error = "answer carries no evidence"
         return attempt
-    grounding = ground(evidence, passages)
+    grounding = ground(evidence, passages, doc=DOC)
     attempt.grounding_error = grounding.error
     if not (grounding.verbatim and grounding.contiguous):
         return attempt
@@ -836,7 +836,7 @@ def enrich(client, connection, question: Question, passages: list[Passage],
         return attempt
     for item in additions:
         quote = str(item["quote"]).strip()
-        if not ground(quote, combined).verbatim and not realign(quote, combined):
+        if not ground(quote, combined, doc=DOC).verbatim and not realign(quote, combined):
             # One unlocatable addition and the whole revision is discarded.
             return attempt
     revised = verify({"answer": reply.get("answer") or attempt.answer,
@@ -1017,7 +1017,7 @@ def write_output(records: list[dict], out_path: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--document-id", default=MANCHESTER.document_id)
+    parser.add_argument("--document-id", default=DEFAULT_DOCUMENT_ID)
     parser.add_argument("--out", type=Path, default=OUT_PATH)
     parser.add_argument("--progress", type=Path, default=PROGRESS_PATH)
     parser.add_argument("--resume", action="store_true",
@@ -1036,8 +1036,7 @@ def main() -> None:
                              "(measured worse: it drifts the page off the governing clause)")
     args = parser.parse_args()
     global DOC
-    DOC = (MANCHESTER if args.document_id == MANCHESTER.document_id
-           else load_document(args.document_id))
+    DOC = load_document(args.document_id)
 
     questions = read_codebook()
     if args.scored_only:

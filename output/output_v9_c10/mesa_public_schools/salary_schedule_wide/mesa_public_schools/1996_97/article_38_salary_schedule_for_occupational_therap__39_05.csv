@@ -1,0 +1,20 @@
+"# 39-05.pdf — Article 38 -- Salary Schedule for Occupational Therapists, Physical Therapists, and Audiologists (1996-97)"
+"# population: Occupational Therapists, Physical Therapists, and Audiologists | is_teacher_schedule: False"
+"# validation_warnings: none | audit flagged unresolved issues: Fabrication of data: The proposed table contains specific salary values (e.g., 50680, 52975) that are not present on the source page (Page 41). Page 41 ends with the header 'Article 38 -- Salary Schedule for Occupational Therapists, Physical Therapists, and Audiologists' and the page footer 'Page 41 of 58'.; The actual table data appears to be located on Page 42 (the lookahead page), which is not provided in the primary source images for verification, or the extraction incorrectly placed the entire table on Page 41.; The extraction claims 'continues_on_lookahead_page: true' but includes the entire 15x7 grid on the current page, whereas the source shows the table has not yet started."
+"# MANUAL REVIEW RECOMMENDED: extracted from page image (not machine-readable text) — verify values, column names, and row counts against the original PDF"
+step,BA + 30,MA,BA + 60,MA + 30,BA + 90,MA + 60,Doctorate
+Line 1,50680,52975,55270,57565,59860,62155,64450
+Line 2,51680,53975,56270,58565,60860,63155,65450
+Line 3,52680,54975,57270,59565,61860,64155,66450
+Line 4,53680,55975,58270,60565,62860,65155,67450
+Line 5,54680,56975,59270,61565,63860,66155,68450
+Line 6,55680,57975,60270,62565,64860,67155,69450
+Line 7,56680,58975,61270,63565,65860,68155,70450
+Line 8,57680,59975,62270,64565,66860,69155,71450
+Line 9,58680,60975,63270,65565,67860,70155,72450
+Line 10,59680,61975,64270,66565,68860,71155,73450
+Line 11,60680,62975,65270,67565,69860,72155,74450
+Line 12,61680,63975,66270,68565,70860,73155,75450
+Line 13,62680,64975,67270,69565,71860,74155,76450
+Line 14,63680,65975,68270,70565,72860,75155,77450
+Line 15,64680,66975,69270,71565,73860,76155,78450

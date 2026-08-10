@@ -1,0 +1,54 @@
+Processing 1 document(s) ...
+[ 1/1] 33.pdf ...
+  deduped 10 identical page-split/reprint grid(s)
+      46 schedule(s) found
+      -> 2005_2006_texas_state_minimum_salary_schedule__33.csv
+      -> salary_schedule_teacher_positions__33.csv
+      -> salary_schedule_teacher_positions__33__p670-671.csv
+      -> salary_schedule_teacher_positions__33__p670-671.csv
+      -> salary_schedule_related_instructional_personnel_ba__33.csv
+      -> salary_schedule_related_instructional_personnel_ma__33.csv
+      -> doctorate_degree__33.csv
+      -> bachelor_s_degree__33.csv
+      -> master_s_degree__33.csv
+      -> master_s_degree__33__p675-675.csv
+      -> doctorate_degree__33.csv
+      -> professional_support_employees_187_day_speech_ther__33.csv
+      -> professional_support_employees_187_day_speech_ther__33__p676-676.csv
+      -> professional_support_employees_187_day_speech_ther__33__p676-676.csv
+      -> salary_schedule_for_campus_leadership_central_and__33.csv [audit corrected]
+      -> salary_schedule_for_campus_leadership_central_and__33__p681-681.csv [audit corrected]
+      -> salary_schedule_for_campus_leadership_central_and__33__p682-682.csv
+      -> length_of_contract_226_days__33.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33.csv
+      -> length_of_contract_215_days__33.csv
+      -> length_of_contract_226_days__33__p683-683.csv
+      -> length_of_contract_226_days__33__p683-683.csv
+      -> length_of_contract_217_days__33.csv
+      -> length_of_contract_215_days__33__p683-683.csv
+      -> length_of_contract_207_days__33.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33__p683-683.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33__p683-683.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33__p683-683.csv
+      -> length_of_contract_226_days__33__p683-683.csv
+      -> length_of_contract_207_days__33__p683-683.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33__p684-684.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33__p684-684.csv
+      -> salary_schedule__33.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33.csv
+      -> salary_schedule_campus_leadership_central_and_tech__33__p684-684.csv
+      -> salary_schedule_for_support_staff__33.csv
+      -> salary_schedule_for_support_staff__33.csv
+      -> salary_schedule_for_support_staff__33__p688-688.csv
+      -> salary_schedule_support_staff__33.csv [audit corrected]
+      -> salary_schedule_support_staff_continued__33.csv
+      -> salary_schedule_support_staff_continued__33.csv
+      -> salary_schedule_support_staff_continued__33__p692-692.csv
+      -> graphics__33.csv
+      -> service_center__33.csv
+      -> food_services__33.csv
+
+46 schedule grid(s) -> /gpfs/home/cjg79/contracts/contract_coding_CG/output_new15/dallas_independent_school_district/salary_schedule_wide
+  3 corrected by audit, 0 flagged with unresolved issues
+Document status summary: {'ok': 1}

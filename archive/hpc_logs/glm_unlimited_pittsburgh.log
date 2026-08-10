@@ -1,0 +1,420 @@
+documents: 1
+engines: glm,unlimited_ocr
+stages:  ocr
+HPC:     glm,unlimited_ocr
+
+=== ocr:glm ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/glm_ocr_extract.py --document fc7a9e0d-4f66-5d06-8d16-68c9350be5cc --documents-root /home/cjg79/contracts/contract_coding_CG/cache/ocr_documents/documents ...
+Downloading pypdfium2 (3.5MiB)
+ Downloaded pypdfium2
+Installed 1 package in 21ms
+running GLM-OCR on HPC for 1 document(s): 4 worker(s) × 16 in-flight; model=zai-org/GLM-OCR
+[orch] 1 PDFs to process; workers=4, in-flight=16 per worker (total concurrent: 64)
+[orch] launching worker w0…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=zai-org/GLM-OCR VLLM_MAX_MODEL_LEN=65536 VLLM_IMAGE=docker://vllm/vllm-openai:nightly VLLM…'
+[orch] launching worker w1…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=zai-org/GLM-OCR VLLM_MAX_MODEL_LEN=65536 VLLM_IMAGE=docker://vllm/vllm-openai:nightly VLLM…'
+[orch] launching worker w2…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=zai-org/GLM-OCR VLLM_MAX_MODEL_LEN=65536 VLLM_IMAGE=docker://vllm/vllm-openai:nightly VLLM…'
+[orch] launching worker w3…
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=zai-org/GLM-OCR VLLM_MAX_MODEL_LEN=65536 VLLM_IMAGE=docker://vllm/vllm-openai:nightly VLLM…'
+[serve] {"event":"job_start","host":"c002","job":"1542568","port":63556,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:nightly"}
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c002 port=63556 api_key=a2a1b1e4ee0452221078c23c98ab0a5ed3a9204cbcfdc9c66888f7d682f4de54
+[tunnel] localhost:36761 -> c002:63556
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"zai-org/GLM-OCR","max_model_len":65536,"image":"docker://vllm/vllm-openai:nightly"}
+[serve] {"event":"mrope_patch_applied","src":"/gpfs/home/cjg79/ocr-examples/hpc/patches/vllm-pr42765/mrope.py","dst":"/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/rotary_embedding/mrope.py"}
+[serve] {"event":"vllm_backgrounded","pid":521592}
+[serve] {"event":"job_start","host":"c001","job":"1542566","port":57640,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:nightly"}
+[serve] {"event":"job_start","host":"c001","job":"1542565","port":54223,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:nightly"}
+[serve] {"event":"job_start","host":"c001","job":"1542567","port":59040,"backend":"vllm-apptainer","image":"docker://vllm/vllm-openai:nightly"}
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c001 port=59040 api_key=5fb7936157dbb847885f65f7b482f8550662ef9349c69eb8cde7e5118c4e5c41
+[tunnel] localhost:40455 -> c001:59040
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] Quadro RTX 8000, 46080 MiB
+[serve] VLLM_LISTEN host=c001 port=57640 api_key=aa9f31f5e88179acb31790f40bd1b5298e7d8046ac0e9560e3e5dd91f04fecdc
+[tunnel] localhost:54179 -> c001:57640
+[serve] VLLM_LISTEN host=c001 port=54223 api_key=2e62217cee107c2030ae6d94a1526ba62cdd43d72e293a68c501d454c2997da1
+[tunnel] localhost:51511 -> c001:54223
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"zai-org/GLM-OCR","max_model_len":65536,"image":"docker://vllm/vllm-openai:nightly"}
+[serve] {"event":"mrope_patch_applied","src":"/gpfs/home/cjg79/ocr-examples/hpc/patches/vllm-pr42765/mrope.py","dst":"/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/rotary_embedding/mrope.py"}
+[serve] {"event":"vllm_backgrounded","pid":2089130}
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"zai-org/GLM-OCR","max_model_len":65536,"image":"docker://vllm/vllm-openai:nightly"}
+[serve] {"event":"mrope_patch_applied","src":"/gpfs/home/cjg79/ocr-examples/hpc/patches/vllm-pr42765/mrope.py","dst":"/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/rotary_embedding/mrope.py"}
+[serve] {"event":"vllm_backgrounded","pid":2089143}
+[serve] {"event":"vram_detected","mb":46080,"compute_cap":"7.x","max_num_seqs":4,"dtype":"float16","attention_backend":"TRITON_ATTN"}
+[serve] {"event":"model_select","model":"zai-org/GLM-OCR","max_model_len":65536,"image":"docker://vllm/vllm-openai:nightly"}
+[serve] {"event":"mrope_patch_applied","src":"/gpfs/home/cjg79/ocr-examples/hpc/patches/vllm-pr42765/mrope.py","dst":"/usr/local/lib/python3.12/dist-packages/vllm/model_executor/layers/rotary_embedding/mrope.py"}
+[serve] {"event":"vllm_backgrounded","pid":2089144}
+[serve] INFO:    Converting OCI blobs to SIF format
+[serve] INFO:    Starting build...
+[serve] INFO:    Converting OCI blobs to SIF format
+[serve] INFO:    Converting OCI blobs to SIF format
+[serve] INFO:    Converting OCI blobs to SIF format
+[serve] INFO:    Starting build...
+[serve] INFO:    Starting build...
+[serve] INFO:    Starting build...
+[serve] Getting image source signatures
+[serve] Copying blob sha256:fbd16fd326b80bea83e103499d239c8b67ad07dd873c420931f8a8fe8b20cd5b
+[serve] Copying blob sha256:2cf9fba20a140514a62685ab7fa7ff09d7318516ef05c7977f971c43dc0858db
+[serve] Copying blob sha256:31e49ca9b3e8ab302ea74020bb081a06bcc5c70b47fab3d98840859ba4ce5514
+[serve] Copying blob sha256:0e0a2c237a999a7fa40dfdf77e0f8d5810bbc041b4012e71593f89081fc10709
+[serve] Copying blob sha256:526d5438c009ab7178af1646fed10ff6f47a73f5a1ae7b9f49e63e4ade7e3ae6
+[serve] Copying blob sha256:828c1365039a657352c737a62d13e1932951b5658eb6bd9b9096ea9b73562453
+[serve] Copying blob sha256:cd5b8a5d8fc763fefb66fb4bfaaeeb4204a4c64831e454d276e8a1dcd378c472
+[serve] Copying blob sha256:425e0568f5667ff85c841f6452abd9ae288f4f10f21bb33c6c65ecb94a9e5760
+[serve] Copying blob sha256:21d7632d3d4ea4c8e663dda7bec6e0145921b49a606e0ea93d7f0db8ec619789
+[serve] Copying blob sha256:502ca46333ca4951e5e42aa2c2ae4e4fb37a73a08428a758224e4f8a2489b584
+[serve] Copying blob sha256:cdf2744809004c3419c04edac64eabf1ca61473058211ba16a9b00f0cf649f23
+[serve] Getting image source signatures
+[serve] Copying blob sha256:fbd16fd326b80bea83e103499d239c8b67ad07dd873c420931f8a8fe8b20cd5b
+[serve] Copying blob sha256:2cf9fba20a140514a62685ab7fa7ff09d7318516ef05c7977f971c43dc0858db
+[serve] Copying blob sha256:31e49ca9b3e8ab302ea74020bb081a06bcc5c70b47fab3d98840859ba4ce5514
+[serve] Copying blob sha256:526d5438c009ab7178af1646fed10ff6f47a73f5a1ae7b9f49e63e4ade7e3ae6
+[serve] Copying blob sha256:0e0a2c237a999a7fa40dfdf77e0f8d5810bbc041b4012e71593f89081fc10709
+[serve] Copying blob sha256:828c1365039a657352c737a62d13e1932951b5658eb6bd9b9096ea9b73562453
+[serve] Getting image source signatures
+[serve] Copying blob sha256:21d7632d3d4ea4c8e663dda7bec6e0145921b49a606e0ea93d7f0db8ec619789
+[serve] Copying blob sha256:fbd16fd326b80bea83e103499d239c8b67ad07dd873c420931f8a8fe8b20cd5b
+[serve] Copying blob sha256:425e0568f5667ff85c841f6452abd9ae288f4f10f21bb33c6c65ecb94a9e5760
+[serve] Copying blob sha256:cd5b8a5d8fc763fefb66fb4bfaaeeb4204a4c64831e454d276e8a1dcd378c472
+[serve] Copying blob sha256:502ca46333ca4951e5e42aa2c2ae4e4fb37a73a08428a758224e4f8a2489b584
+[serve] Copying blob sha256:2cf9fba20a140514a62685ab7fa7ff09d7318516ef05c7977f971c43dc0858db
+[serve] Copying blob sha256:526d5438c009ab7178af1646fed10ff6f47a73f5a1ae7b9f49e63e4ade7e3ae6
+[serve] Copying blob sha256:0e0a2c237a999a7fa40dfdf77e0f8d5810bbc041b4012e71593f89081fc10709
+[serve] Copying blob sha256:828c1365039a657352c737a62d13e1932951b5658eb6bd9b9096ea9b73562453
+[serve] Copying blob sha256:31e49ca9b3e8ab302ea74020bb081a06bcc5c70b47fab3d98840859ba4ce5514
+[serve] Copying blob sha256:cdf2744809004c3419c04edac64eabf1ca61473058211ba16a9b00f0cf649f23
+[serve] Copying blob sha256:21d7632d3d4ea4c8e663dda7bec6e0145921b49a606e0ea93d7f0db8ec619789
+[serve] Copying blob sha256:cd5b8a5d8fc763fefb66fb4bfaaeeb4204a4c64831e454d276e8a1dcd378c472
+[serve] Copying blob sha256:425e0568f5667ff85c841f6452abd9ae288f4f10f21bb33c6c65ecb94a9e5760
+[serve] Copying blob sha256:502ca46333ca4951e5e42aa2c2ae4e4fb37a73a08428a758224e4f8a2489b584
+[serve] Copying blob sha256:cdf2744809004c3419c04edac64eabf1ca61473058211ba16a9b00f0cf649f23
+[serve] Getting image source signatures
+[serve] Copying blob sha256:fbd16fd326b80bea83e103499d239c8b67ad07dd873c420931f8a8fe8b20cd5b
+[serve] Copying blob sha256:2cf9fba20a140514a62685ab7fa7ff09d7318516ef05c7977f971c43dc0858db
+[serve] Copying blob sha256:0e0a2c237a999a7fa40dfdf77e0f8d5810bbc041b4012e71593f89081fc10709
+[serve] Copying blob sha256:526d5438c009ab7178af1646fed10ff6f47a73f5a1ae7b9f49e63e4ade7e3ae6
+[serve] Copying blob sha256:31e49ca9b3e8ab302ea74020bb081a06bcc5c70b47fab3d98840859ba4ce5514
+[serve] Copying blob sha256:828c1365039a657352c737a62d13e1932951b5658eb6bd9b9096ea9b73562453
+[serve] Copying blob sha256:21d7632d3d4ea4c8e663dda7bec6e0145921b49a606e0ea93d7f0db8ec619789
+[serve] Copying blob sha256:cd5b8a5d8fc763fefb66fb4bfaaeeb4204a4c64831e454d276e8a1dcd378c472
+[serve] Copying blob sha256:425e0568f5667ff85c841f6452abd9ae288f4f10f21bb33c6c65ecb94a9e5760
+[serve] Copying blob sha256:502ca46333ca4951e5e42aa2c2ae4e4fb37a73a08428a758224e4f8a2489b584
+[serve] Copying blob sha256:cdf2744809004c3419c04edac64eabf1ca61473058211ba16a9b00f0cf649f23
+[serve] panic: page 7 already freed
+[serve] 
+[serve] goroutine 172 [running]:
+[serve] go.etcd.io/bbolt.(*freelist).free(0xc00041c280, 0x13d, 0x15550c3e5000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/freelist.go:175 +0x2be
+[serve] go.etcd.io/bbolt.(*node).spill(0xc0001fa150)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:359 +0x20e
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc0008aa0c0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:570 +0x34e
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc0008aa080)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc0008aa040)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc0003b0018)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Tx).Commit(0xc0003b0000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/tx.go:160 +0xe5
+[serve] go.etcd.io/bbolt.(*DB).Update(0xc00067ecd0?, 0xc00064f3f0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/db.go:748 +0xca
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).update(0xc00065ac90, 0xc00064f3f0)
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:148 +0xf1
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).RecordKnownLocation(0x55555721af38?, {0x55555721ef08?, 0x555557dd4b80?}, {{0xc00004fbc0?, 0x555557220e38?}}, {0xc00051e6e0?, 0x555556c7c3dc?}, {{0xc00042ac40?, 0xc0003a19d0?}})
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:257 +0x90
+[serve] github.com/containers/image/v5/docker.(*dockerClient).getBlob(0xc0005aaa00, {0x555557220e38, 0xc000196410}, {{0x55555721af38?, 0xc0000b5a40?}}, {{0xc00051e6e0, 0x47}, 0x68, {0x0, 0x0, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_client.go:901 +0x2dc
+[serve] github.com/containers/image/v5/docker.(*dockerImageSource).GetBlob(0x555555f8a365?, {0x555557220e38?, 0xc000196410?}, {{0xc00051e6e0, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_image_src.go:388 +0x87
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer.func3(0xc0002cfec0, 0x0?, {{0xc00051e6e0, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, {0xc000559800, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1244 +0x1ab
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer(0xc0002cfec0, {0x555557220e38, 0xc000196410}, {{0xc00051e6e0, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1282 +0x8d8
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func1(0x5, {{0xc00051e6e0, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, {0xc000559800, 0x31}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:942 +0x392
+[serve] created by github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func2 in goroutine 1
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:979 +0x14a
+[serve] {"event":"job_end","rc":2}
+[serve] srun: error: c001: task 0: Exited with exit code 2
+[serve] Copying blob sha256:38111ff12d82170a09d519461fd66f32b2c7280a529378ca50feef7e066fd16e
+[serve] Copying blob sha256:0b03f8b2d69d36a4f2e17c6d5fbd3ebc3beddee477fbf130e9bf33a7c9fba978
+[serve] Copying blob sha256:0b03f8b2d69d36a4f2e17c6d5fbd3ebc3beddee477fbf130e9bf33a7c9fba978
+[serve] Copying blob sha256:221970b951c9c92d2ec07294548bfba70b234a0bfd800aa0d40daa0dd011a111
+[serve] Copying blob sha256:b0cedc2541629dbe0aee8e2a14d2355b13585d78a9a2baf146e0893829c1a764
+[serve] Copying blob sha256:eaaa93e46c7a373a634e5b2a54467c9de4dcb215fb37f455d78efa26c23d3aae
+[serve] Copying blob sha256:8ed4fd4e68889cfd68e5f2194ec43bfcaedd39b0ff1c8c7f7f213ac1744a3c03
+[serve] Copying blob sha256:acb8c73040d0dfada46caa83df94cc9c7d5fabf516c4e3a2b466e08295c561e8
+[serve] panic: page 3 already freed
+[serve] 
+[serve] goroutine 422 [running]:
+[serve] go.etcd.io/bbolt.(*freelist).free(0xc0006df700, 0x156, 0x15550c3df000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/freelist.go:175 +0x2be
+[serve] go.etcd.io/bbolt.(*node).spill(0xc0001fbab0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:359 +0x20e
+[serve] go.etcd.io/bbolt.(*node).spill(0xc0001fba40)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:346 +0x9b
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc00052ef40)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:570 +0x34e
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc00052ef00)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc00052eec0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000914398)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Tx).Commit(0xc000914380)
+[serve] 	go.etcd.io/bbolt@v1.3.6/tx.go:160 +0xe5
+[serve] go.etcd.io/bbolt.(*DB).Update(0xc00004a910?, 0xc0007d33f0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/db.go:748 +0xca
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).update(0xc00006afa0, 0xc0007d33f0)
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:148 +0xf1
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).RecordKnownLocation(0x55555721af38?, {0x55555721ef08?, 0x555557dd4b80?}, {{0xc0008998c0?, 0x555557220e38?}}, {0xc000541b30?, 0x555556c7c3dc?}, {{0xc0003ded20?, 0xc0007aa770?}})
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:257 +0x90
+[serve] github.com/containers/image/v5/docker.(*dockerClient).getBlob(0xc0003aec80, {0x555557220e38, 0xc000526000}, {{0x55555721af38?, 0xc0000b5da0?}}, {{0xc000541b30, 0x47}, 0x381, {0x0, 0x0, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_client.go:901 +0x2dc
+[serve] github.com/containers/image/v5/docker.(*dockerImageSource).GetBlob(0x555555f8a365?, {0x555557220e38?, 0xc000526000?}, {{0xc000541b30, 0x47}, 0x381, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_image_src.go:388 +0x87
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer.func3(0xc00079a7c0, 0x0?, {{0xc000541b30, 0x47}, 0x381, {0x0, 0x0, 0x0}, 0x0, {0xc000534b00, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1244 +0x1ab
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer(0xc00079a7c0, {0x555557220e38, 0xc000526000}, {{0xc000541b30, 0x47}, 0x381, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1282 +0x8d8
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func1(0x12, {{0xc000541b30, 0x47}, 0x381, {0x0, 0x0, 0x0}, 0x0, {0xc000534b00, 0x31}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:942 +0x392
+[serve] created by github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func2 in goroutine 1
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:979 +0x14a
+[serve] {"event":"job_end","rc":2}
+[serve] srun: error: c002: task 0: Exited with exit code 2
+[serve] panic: page 3 already freed
+[serve] 
+[serve] goroutine 149 [running]:
+[serve] go.etcd.io/bbolt.(*freelist).free(0xc0007baa80, 0x144, 0x15550c3e1000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/freelist.go:175 +0x2be
+[serve] go.etcd.io/bbolt.(*node).spill(0xc000480e70)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:359 +0x20e
+[serve] go.etcd.io/bbolt.(*node).spill(0xc000480d20)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:346 +0x9b
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000718d00)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:570 +0x34e
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000718cc0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000718c80)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000560018)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Tx).Commit(0xc000560000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/tx.go:160 +0xe5
+[serve] go.etcd.io/bbolt.(*DB).Update(0xc00004a370?, 0xc00048f3f0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/db.go:748 +0xca
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).update(0xc000502810, 0xc00048f3f0)
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:148 +0xf1
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).RecordKnownLocation(0x55555721af38?, {0x55555721ef08?, 0x555557dd4b80?}, {{0xc0004aa030?, 0x555557220e38?}}, {0xc0006a6e60?, 0x555556c7c3dc?}, {{0xc0003fd700?, 0xc000425180?}})
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:257 +0x90
+[serve] github.com/containers/image/v5/docker.(*dockerClient).getBlob(0xc0004e2f00, {0x555557220e38, 0xc0004d40f0}, {{0x55555721af38?, 0xc0002b7520?}}, {{0xc0006a6e60, 0x47}, 0x68, {0x0, 0x0, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_client.go:901 +0x2dc
+[serve] github.com/containers/image/v5/docker.(*dockerImageSource).GetBlob(0x555555f8a365?, {0x555557220e38?, 0xc0004d40f0?}, {{0xc0006a6e60, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_image_src.go:388 +0x87
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer.func3(0xc0004871c0, 0x0?, {{0xc0006a6e60, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, {0xc000998840, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1244 +0x1ab
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer(0xc0004871c0, {0x555557220e38, 0xc0004d40f0}, {{0xc0006a6e60, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1282 +0x8d8
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func1(0x5, {{0xc0006a6e60, 0x47}, 0x68, {0x0, 0x0, 0x0}, 0x0, {0xc000998840, 0x31}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:942 +0x392
+[serve] created by github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func2 in goroutine 1
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:979 +0x14a
+[serve] {"event":"job_end","rc":2}
+[serve] srun: error: c001: task 0: Exited with exit code 2
+[serve] panic: page 3 already freed
+[serve] 
+[serve] goroutine 170 [running]:
+[serve] go.etcd.io/bbolt.(*freelist).free(0xc000114300, 0x148, 0x15550d0fb000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/freelist.go:175 +0x2be
+[serve] go.etcd.io/bbolt.(*node).spill(0xc000200620)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:359 +0x20e
+[serve] go.etcd.io/bbolt.(*node).spill(0xc0002005b0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:346 +0x9b
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc00083a300)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:570 +0x34e
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc00083a2c0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc00083a280)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc0001260f8)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Tx).Commit(0xc0001260e0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/tx.go:160 +0xe5
+[serve] go.etcd.io/bbolt.(*DB).Update(0xc00088c910?, 0xc0006e73f0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/db.go:748 +0xca
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).update(0xc000458f10, 0xc0006e73f0)
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:148 +0xf1
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).RecordKnownLocation(0x55555721af38?, {0x55555721ef08?, 0x555557dd4b80?}, {{0xc0005e5710?, 0x555557220e38?}}, {0xc000624e60?, 0x555556c7c3dc?}, {{0xc000403980?, 0xc000399e30?}})
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:257 +0x90
+[serve] github.com/containers/image/v5/docker.(*dockerClient).getBlob(0xc000643180, {0x555557220e38, 0xc0003d40f0}, {{0x55555721af38?, 0xc0003d8fc0?}}, {{0xc000624e60, 0x47}, 0xd850e63, {0x0, 0x0, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_client.go:901 +0x2dc
+[serve] github.com/containers/image/v5/docker.(*dockerImageSource).GetBlob(0x555555f8a365?, {0x555557220e38?, 0xc0003d40f0?}, {{0xc000624e60, 0x47}, 0xd850e63, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_image_src.go:388 +0x87
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer.func3(0xc0001348c0, 0x0?, {{0xc000624e60, 0x47}, 0xd850e63, {0x0, 0x0, 0x0}, 0x0, {0xc0005aa300, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1244 +0x1ab
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer(0xc0001348c0, {0x555557220e38, 0xc0003d40f0}, {{0xc000624e60, 0x47}, 0xd850e63, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1282 +0x8d8
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func1(0x7, {{0xc000624e60, 0x47}, 0xd850e63, {0x0, 0x0, 0x0}, 0x0, {0xc0005aa300, 0x31}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:942 +0x392
+[serve] created by github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func2 in goroutine 1
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:979 +0x14a
+[serve] {"event":"job_end","rc":2}
+[serve] srun: error: c001: task 0: Exited with exit code 2
+[orch] worker launch failure: RuntimeError("vLLM didn't become ready within 1800s")
+[orch] worker launch failure: RuntimeError("vLLM didn't become ready within 1800s")
+[orch] worker launch failure: RuntimeError("vLLM didn't become ready within 1800s")
+[orch] worker launch failure: RuntimeError("vLLM didn't become ready within 1800s")
+[orch] NO workers came up; aborting
+
+HPC backend rc=2; wrote 0/1 (.txt + .json)
+
+=== ocr:unlimited_ocr ===
+$ uv run --script /gpfs/home/cjg79/ocr-examples/scripts/unlimited_ocr_extract.py --document fc7a9e0d-4f66-5d06-8d16-68c9350be5cc --documents-root /home/cjg79/contracts/contract_coding_CG/cache/ocr_documents/documents ...
+running Unlimited-OCR on HPC for 1 document(s): 2 worker(s) × 8 in-flight; model=baidu/Unlimited-OCR
+Downloading openai (1.6MiB)
+ Downloaded openai
+Installed 19 packages in 215ms
+[orch] 1 PDFs to process; workers=2, in-flight=8 per worker; image_mode=gundam
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=baidu/Unlimited-OCR VLLM_MAX_MODEL_LEN=32768 VLLM_IMAGE=docker://lmsysorg/sglang:dev-cu12 …'
+[serve] launching: ssh ... 'cd ocr-examples && VLLM_MODEL=baidu/Unlimited-OCR VLLM_MAX_MODEL_LEN=32768 VLLM_IMAGE=docker://lmsysorg/sglang:dev-cu12 …'
+[serve] {"event":"job_start","host":"c016","job":"1542584","port":31973,"backend":"sglang-apptainer","image":"docker://lmsysorg/sglang:dev-cu12"}
+[serve] NVIDIA A100 80GB PCIe, 81920 MiB
+[serve] VLLM_LISTEN host=c016 port=31973 api_key=675c0ed4e2f8f01936e69fc9939007bcabf167c6d5b3e7f1fce9d225bf4ed921
+[tunnel] localhost:54525 -> c016:31973
+[serve] {"event":"model_select","model":"baidu/Unlimited-OCR","served_model":"Unlimited-OCR","max_model_len":32768,"image":"docker://lmsysorg/sglang:dev-cu12","tp":1,"engine":"sglang","compute_cap":"8.x","kv_dtype":"bf16","mem_fraction":0.8,"max_running":16,"chunked_prefill":4096,"max_prefill":8192}
+[serve] {"event":"installing_deps","deps":"https://github.com/baidu/Unlimited-OCR/raw/refs/heads/main/wheel/sglang-0.0.0.dev11416+g92e8bb79e-py3-none-any.whl kernels==0.11.7","tool":"uv"}
+[serve] {"event":"job_start","host":"c016","job":"1542585","port":37419,"backend":"sglang-apptainer","image":"docker://lmsysorg/sglang:dev-cu12"}
+[serve] NVIDIA A100 80GB PCIe, 81920 MiB
+[serve] VLLM_LISTEN host=c016 port=37419 api_key=302810c351626ce7ecc59d8553c29aaacb2ab6953420d7689a5835df8513f663
+[tunnel] localhost:45193 -> c016:37419
+[serve] {"event":"model_select","model":"baidu/Unlimited-OCR","served_model":"Unlimited-OCR","max_model_len":32768,"image":"docker://lmsysorg/sglang:dev-cu12","tp":1,"engine":"sglang","compute_cap":"8.x","kv_dtype":"bf16","mem_fraction":0.8,"max_running":16,"chunked_prefill":4096,"max_prefill":8192}
+[serve] {"event":"installing_deps","deps":"https://github.com/baidu/Unlimited-OCR/raw/refs/heads/main/wheel/sglang-0.0.0.dev11416+g92e8bb79e-py3-none-any.whl kernels==0.11.7","tool":"uv"}
+[serve] INFO:    Converting OCI blobs to SIF format
+[serve] INFO:    Converting OCI blobs to SIF format
+[serve] INFO:    Starting build...
+[serve] INFO:    Starting build...
+[serve] Getting image source signatures
+[serve] Copying blob sha256:15a17189b2df6f2a5b84716dd422741e91bec18d40f6cd72f7dea007a02d45aa
+[serve] Copying blob sha256:644e9b20358325501941bab7efe2465969b1101fd546be263fc7c2d12d2d8c6c
+[serve] Copying blob sha256:32f112e3802cadcab3543160f4d2aa607b3cc1c62140d57b4f5441384f40e927
+[serve] Copying blob sha256:6e8af4fd0a071982e528b634ba99dec2474c21147f99748be708f36e10e3f4c2
+[serve] Copying blob sha256:02559cd4bc8db240554ff3a4e38df5909d4745846b3e3a4df865d102f0a6d0d9
+[serve] Copying blob sha256:2cd52cbb1ebefad9b697ee1c60a7ba7ce8293404a1ad596fd257efdf0e9ec8d6
+[serve] Getting image source signatures
+[serve] Copying blob sha256:15a17189b2df6f2a5b84716dd422741e91bec18d40f6cd72f7dea007a02d45aa
+[serve] Copying blob sha256:644e9b20358325501941bab7efe2465969b1101fd546be263fc7c2d12d2d8c6c
+[serve] Copying blob sha256:2cd52cbb1ebefad9b697ee1c60a7ba7ce8293404a1ad596fd257efdf0e9ec8d6
+[serve] Copying blob sha256:6e8af4fd0a071982e528b634ba99dec2474c21147f99748be708f36e10e3f4c2
+[serve] Copying blob sha256:32f112e3802cadcab3543160f4d2aa607b3cc1c62140d57b4f5441384f40e927
+[serve] Copying blob sha256:02559cd4bc8db240554ff3a4e38df5909d4745846b3e3a4df865d102f0a6d0d9
+[serve] Copying blob sha256:02cb0e091e334f5f0b222d9bc044d174ed386f1b30d3959d0e79ed725eb9cb15
+[serve] Copying blob sha256:9c3d619183d2383e5d618638762511e6711c112a9e8f7e50031f94b839b2c25e
+[serve] Copying blob sha256:02cb0e091e334f5f0b222d9bc044d174ed386f1b30d3959d0e79ed725eb9cb15
+[serve] Copying blob sha256:9c3d619183d2383e5d618638762511e6711c112a9e8f7e50031f94b839b2c25e
+[serve] Copying blob sha256:7f7602a82106bfe07dabfc1cd3799c2b0ee0f1314f4cb28535f7f1b7c00fbec4
+[serve] Copying blob sha256:5a2aba542b08b08acc6ca580eb15aec763e088eed8c62eb5528e0490078951c6
+[serve] Copying blob sha256:6cb9b761b8771e76ec5ff0e90e9165ee60d170c20a9e153b52cef78de6ca15d4
+[serve] panic: page 3 already freed
+[serve] 
+[serve] goroutine 203 [running]:
+[serve] go.etcd.io/bbolt.(*freelist).free(0xc000998180, 0x172, 0x15550c1e1000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/freelist.go:175 +0x2be
+[serve] go.etcd.io/bbolt.(*node).spill(0xc0002560e0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:359 +0x20e
+[serve] go.etcd.io/bbolt.(*node).spill(0xc000256070)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:346 +0x9b
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000076a40)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:570 +0x34e
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000076a00)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc0000769c0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000438018)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Tx).Commit(0xc000438000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/tx.go:160 +0xe5
+[serve] go.etcd.io/bbolt.(*DB).Update(0xc00004cb40?, 0xc0005d13f0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/db.go:748 +0xca
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).update(0xc0003324c0, 0xc0005d13f0)
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:148 +0xf1
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).RecordKnownLocation(0x55555721af38?, {0x55555721ef08?, 0x555557dd4b80?}, {{0xc00016e630?, 0x555557220e38?}}, {0xc000200cd0?, 0x555556c7c3dc?}, {{0xc0009aa760?, 0xc0008247e0?}})
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:257 +0x90
+[serve] github.com/containers/image/v5/docker.(*dockerClient).getBlob(0xc0002a6780, {0x555557220e38, 0xc0001e4500}, {{0x55555721af38?, 0xc00040e540?}}, {{0xc000200cd0, 0x47}, 0x693, {0x0, 0x0, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_client.go:901 +0x2dc
+[serve] github.com/containers/image/v5/docker.(*dockerImageSource).GetBlob(0x555555f8a365?, {0x555557220e38?, 0xc0001e4500?}, {{0xc000200cd0, 0x47}, 0x693, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_image_src.go:388 +0x87
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer.func3(0xc0001cdb80, 0x0?, {{0xc000200cd0, 0x47}, 0x693, {0x0, 0x0, 0x0}, 0x0, {0xc00024a780, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1244 +0x1ab
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer(0xc0001cdb80, {0x555557220e38, 0xc0001e4500}, {{0xc000200cd0, 0x47}, 0x693, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1282 +0x8d8
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func1(0x7, {{0xc000200cd0, 0x47}, 0x693, {0x0, 0x0, 0x0}, 0x0, {0xc00024a780, 0x2b}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:942 +0x392
+[serve] created by github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func2 in goroutine 1
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:979 +0x14a
+[serve] {"event":"uv_install_failed","rc":2}
+[serve] srun: error: c016: task 0: Exited with exit code 2
+[serve] Copying blob sha256:bc94a9448b8da7df4edefb8b643b52c0e240a2a3bd97a09b2a45a214fad0cc85
+[serve] Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+[serve] Copying blob sha256:0f3ccaea934f658190284f195bf7030aaa9ab3759412a0b60da1513ae25f8d3c
+[serve] Copying blob sha256:4b1229cf8bb15b4750bd3cd6c1b8980fb1a0dbdb3813dac017ad1010176e6b10
+[serve] Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+[serve] Copying blob sha256:87f2f934502f05699e246bd13e880988fc3ef027a5ca51127b1cebf3bb97092e
+[serve] Copying blob sha256:8198b6840ab188949f4f2986629223daeacba7396adfbdf3f38e5fb9555a8d52
+[serve] panic: page 3 already freed
+[serve] 
+[serve] goroutine 592 [running]:
+[serve] go.etcd.io/bbolt.(*freelist).free(0xc00048ec00, 0x183, 0x15550c1df000)
+[serve] 	go.etcd.io/bbolt@v1.3.6/freelist.go:175 +0x2be
+[serve] go.etcd.io/bbolt.(*node).spill(0xc0001f1730)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:359 +0x20e
+[serve] go.etcd.io/bbolt.(*node).spill(0xc0001f1650)
+[serve] 	go.etcd.io/bbolt@v1.3.6/node.go:346 +0x9b
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000792f40)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:570 +0x34e
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000792f00)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc000792ec0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Bucket).spill(0xc0002ee638)
+[serve] 	go.etcd.io/bbolt@v1.3.6/bucket.go:537 +0x105
+[serve] go.etcd.io/bbolt.(*Tx).Commit(0xc0002ee620)
+[serve] 	go.etcd.io/bbolt@v1.3.6/tx.go:160 +0xe5
+[serve] go.etcd.io/bbolt.(*DB).Update(0xc000534730?, 0xc0005933f0)
+[serve] 	go.etcd.io/bbolt@v1.3.6/db.go:748 +0xca
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).update(0xc000353810, 0xc0005933f0)
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:148 +0xf1
+[serve] github.com/containers/image/v5/pkg/blobinfocache/boltdb.(*cache).RecordKnownLocation(0x55555721af38?, {0x55555721ef08?, 0x555557dd4b80?}, {{0xc00056c2d0?, 0x555557220e38?}}, {0xc000535270?, 0x555556c7c3dc?}, {{0xc0003ee0e0?, 0xc0006a5f80?}})
+[serve] 	github.com/containers/image/v5@v5.22.0/pkg/blobinfocache/boltdb/boltdb.go:257 +0x90
+[serve] github.com/containers/image/v5/docker.(*dockerClient).getBlob(0xc00018ba40, {0x555557220e38, 0xc000188000}, {{0x55555721af38?, 0xc000623580?}}, {{0xc000535270, 0x47}, 0xba, {0x0, 0x0, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_client.go:901 +0x2dc
+[serve] github.com/containers/image/v5/docker.(*dockerImageSource).GetBlob(0x555555f8a365?, {0x555557220e38?, 0xc000188000?}, {{0xc000535270, 0x47}, 0xba, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/docker/docker_image_src.go:388 +0x87
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer.func3(0xc000077600, 0x0?, {{0xc000535270, 0x47}, 0xba, {0x0, 0x0, 0x0}, 0x0, {0xc0005ba000, ...}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1244 +0x1ab
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayer(0xc000077600, {0x555557220e38, 0xc000188000}, {{0xc000535270, 0x47}, 0xba, {0x0, 0x0, 0x0}, 0x0, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:1282 +0x8d8
+[serve] github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func1(0x11, {{0xc000535270, 0x47}, 0xba, {0x0, 0x0, 0x0}, 0x0, {0xc0005ba000, 0x2b}, ...}, ...)
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:942 +0x392
+[serve] created by github.com/containers/image/v5/copy.(*imageCopier).copyLayers.func2 in goroutine 1
+[serve] 	github.com/containers/image/v5@v5.22.0/copy/copy.go:979 +0x14a
+[serve] {"event":"uv_install_failed","rc":2}
+[serve] srun: error: c016: task 0: Exited with exit code 2
+[orch] worker launch failure: RuntimeError('SGLang serve process exited before health check (rc=2)')
+[orch] worker launch failure: RuntimeError('SGLang serve process exited before health check (rc=2)')
+[orch] NO workers came up; aborting
+
+HPC backend rc=2; wrote 0/1 (.txt + .json)
+
+manifest: logs/runs/2026-07-21T14-13-57.851034+00-00.jsonl
+coverage on this run's 1 documents:
+  ocr:docling    1/1
+
+FAILED stages: ocr:glm, ocr:unlimited_ocr

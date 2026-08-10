@@ -1,0 +1,13 @@
+v9 pipeline | 10 docs | CONCURRENCY=10 | RIGHTS_CONCURRENCY=3 | ~50 in flight
+  [ 172.6m] done: fort_wayne_community_schools  (1/10)
+  [ 174.0m] done: indianapolis_public_schools  (2/10)
+  [ 187.6m] done: burlington_school_district  (3/10)
+  [ 197.4m] done: baltimore_city_public_school_system  (4/10)
+  [ 197.4m] done: mesa_public_schools  (5/10)
+  [ 197.7m] done: red_clay_consolidated_school_district  (6/10)
+  [ 199.3m] done: anchorage_school_district  (7/10)
+  [ 205.5m] done: st_paul_public_schools  (8/10)
+  [ 207.8m] done: omaha_public_schools  (9/10)
+  [ 256.7m] done: cypressfairbanks_independent_school_district  (10/10)
+
+ALL DONE 10 docs in 256.7 min (25.7 min/doc amortized)
