@@ -91,6 +91,15 @@ try:  # optional: recovers real table structure from born-digital PDFs (see extr
 except Exception:  # bare venvs without pdfplumber fall back to the flat-text path
     _pdfplumber = None
 
+# Line-buffer stdout. A document takes tens of minutes and most progress lines here do
+# not pass flush=True, so when output is redirected to a log — which is how every long
+# run is invoked — the file stays empty and a working run is indistinguishable from a
+# hung one. Observed on Albuquerque: 12 minutes in, four blocks extracted, log 0 bytes.
+try:
+    sys.stdout.reconfigure(line_buffering=True)
+except AttributeError:                      # not a stream that supports it
+    pass
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from utils import OCR_TEXT_DIR, OUT_DIR, PDF_ROOT, ROOT, TEXT_DIR, WORK, extract_text, norm_ws, slugify
 from som_client import MAX_TOKENS, MODEL, create_with_retries, get_client
@@ -104,6 +113,12 @@ WIDE_DIR = OUT_DIR / "salary_schedule_wide"
 # many pages so no extraction call is handed dozens of pages. Override with
 # SALARY_MAX_BLOCK_PAGES.
 MAX_BLOCK_PAGES = int(os.environ.get("SALARY_MAX_BLOCK_PAGES", "4"))
+# Locate schedule blocks from the PDF's own geometry (scripts/salary_segment.py) rather
+# than the heading regex + density rule. The density rule cannot tell a table that
+# continues across a page break from a new table starting on a dense page; the column
+# layout and step sequence can, and need no model. A document with no vector text — every
+# scanned one — falls back to the heuristics, so this cannot lose a document that worked.
+USE_SEGMENTER = os.environ.get("SALARY_SEGMENTER", "1") == "1"
 # DPI for rasterizing pages on the vision path. Higher DPI separates the columns of
 # dense side-by-side multi-lane salary tables more cleanly. Override with SALARY_DPI.
 SALARY_RENDER_DPI = int(os.environ.get("SALARY_DPI", "220"))
@@ -485,16 +500,29 @@ def image_to_data_url(path: Path) -> str:
 
 # ── LLM calls ────────────────────────────────────────────────────────────────────
 
-def _page_framing(start: int, end: int, lookahead_page: int | None) -> str:
+def _page_framing(start: int, end: int, lookahead_page: int | None,
+                  expected_cells: int = 0) -> str:
     framing = f"Primary page range (yours to extract): {start}-{end}."
     if lookahead_page:
         framing += (
             f" Lookahead page (context only, see system instructions): {lookahead_page}."
         )
+    if expected_cells:
+        # Counted from the PDF's own word positions, independently of the model. Stating
+        # it turns "transcribe this table" into a task with a checkable target: the
+        # recorded failure is silently dropping rows or a whole lane, and a model that
+        # knows how many values the page holds is far less likely to stop early.
+        framing += (
+            f"\nThe page geometry contains about {expected_cells} numeric cells in this"
+            f" range. Extract the WHOLE table: if your grid has far fewer cells than"
+            f" that, you have dropped rows or a column — go back and include them."
+            f" If the range genuinely holds several separate tables, return each one."
+        )
     return framing
 
 
-def call_text_llm(client, doc_label: str, text: str, start: int, end: int) -> dict:
+def call_text_llm(client, doc_label: str, text: str, start: int, end: int,
+                  expected_cells: int = 0) -> dict:
     return create_with_retries(
         client,
         model=MODEL,
@@ -503,7 +531,7 @@ def call_text_llm(client, doc_label: str, text: str, start: int, end: int) -> di
         messages=[
             {"role": "system", "content": SCHEDULE_SYSTEM_PROMPT},
             {"role": "user", "content": (
-                f"Document: {doc_label}\n{_page_framing(start, end, None)}\n\n"
+                f"Document: {doc_label}\n{_page_framing(start, end, None, expected_cells)}\n\n"
                 f"---PAGE TEXT---\n{text}\n---END---"
             )},
         ],
@@ -1165,7 +1193,7 @@ def flag_cross_grid_contamination(schedules: list[dict]) -> None:
 
 def _extract_block_via_segments(
     client, file_name: str, document_id: str, pdf_path: Path, pages: list[str],
-    segments: list[str], method: str, start: int, end: int,
+    segments: list[str], method: str, start: int, end: int, expected_cells: int = 0,
 ) -> tuple[list[dict], int]:
     """Extract one salary block from TEXT segments (flat-text or pdfplumber-structured):
     extract+audit each segment, then — if a MULTI-page block comes back empty (dense-table
@@ -1184,7 +1212,8 @@ def _extract_block_via_segments(
         )
         tables, failed = _extract_and_audit(
             cache_path, method,
-            lambda seg=segment: call_text_llm(client, file_name, seg, start, end),
+            lambda seg=segment: call_text_llm(client, file_name, seg, start, end,
+                                              expected_cells),
             lambda hinted, seg=segment: call_text_audit_llm(client, file_name, seg, start, end, hinted),
             source_text=segment,
         )
@@ -1231,13 +1260,57 @@ def process_document(
     # sourced grids get the anti-fabrication / garble checks and skip vision re-extraction.
     text_is_ocr = (OCR_TEXT_DIR / f"{document_id}.txt").exists()
 
-    heading_pages = find_heading_pages(pages)
-    if not heading_pages:
-        heading_pages = [p for p in parse_page_hints(page_hint) if 1 <= p <= len(pages)]
-    if not heading_pages:
-        return [], "no_schedule_heading_found", 0, 0
+    blocks: list[tuple[int, int]] = []
+    geometry: dict[tuple[int, int], int] = {}     # block -> cells the PDF says to expect
+    region_ends: set[int] = set()                 # pages where a table genuinely ends
+    if USE_SEGMENTER:
+        # Geometry first. The PDF's own column positions and step sequence decide where
+        # each table starts and ends; a model is asked only about joins the geometry
+        # cannot settle. Falls through to the density heuristics when the document has
+        # no vector text (every scanned document) or pdfplumber is unavailable.
+        from salary_segment import (blocks_from_regions, fingerprint_document, segment,
+                                    split_region)
+        fingerprints = fingerprint_document(pdf_path)
+        regions = segment(fingerprints) if fingerprints else []
+        # One call per genuinely ambiguous page break, not per page. A split produces
+        # two regions — truncating instead would delete every page after the cut.
+        resolved: list[dict] = []
+        for region in list(regions):
+            if region.confident or not region.joins:
+                resolved.append(region)
+                continue
+            from salary_navigate import adjudicate_join
+            parts = [region]
+            for join in region.joins:
+                before, after = join["before"], join["after"]
+                same, why = adjudicate_join(client, pages[before - 1], pages[after - 1])
+                print(f"    join p{before}->p{after}: "
+                      f"{'same table' if same else 'separate' if same is False else 'undecided'}"
+                      f" ({why or join['reason']})", flush=True)
+                if same is False:
+                    parts = [p for part in parts
+                             for p in split_region(part, before, fingerprints)]
+            resolved.extend(parts)
+        regions = sorted(resolved, key=lambda r: r.start)
+        if regions:
+            blocks = blocks_from_regions(regions, MAX_BLOCK_PAGES)
+            region_ends = {region.end for region in regions}
+            for region in regions:
+                for block in blocks_from_regions([region], MAX_BLOCK_PAGES):
+                    geometry[block] = region.expected_cells
+            print(f"    segmenter: {len(regions)} region(s) -> {len(blocks)} block(s) "
+                  f"{[f'{s}-{e}' for s, e in blocks]}", flush=True)
+        else:
+            print("    segmenter: no vector-text tables found; using heuristics",
+                  flush=True)
 
-    blocks = group_schedule_blocks(pages, heading_pages)
+    if not blocks:
+        heading_pages = find_heading_pages(pages)
+        if not heading_pages:
+            heading_pages = [p for p in parse_page_hints(page_hint) if 1 <= p <= len(pages)]
+        if not heading_pages:
+            return [], "no_schedule_heading_found", 0, 0
+        blocks = group_schedule_blocks(pages, heading_pages)
     schedules: list[dict] = []
     blocks_failed = 0
     CACHE_DIR.mkdir(exist_ok=True)
@@ -1267,6 +1340,14 @@ def process_document(
     for start, end in blocks:
         block_text = "\f".join(pages[start - 1:end])
         lookahead_page = end + 1 if end + 1 <= len(pages) else None
+        # The lookahead exists because a heading-based block could stop mid-table. When
+        # the segmenter derived this block, the region boundary already IS the end of
+        # the table, so the next page is a different schedule — showing it to the vision
+        # call is not context, it is an invitation to transcribe the wrong page. That is
+        # exactly what happened on Manchester 43-43. Only keep a lookahead when the next
+        # page is inside the same region.
+        if region_ends and end in region_ends:
+            lookahead_page = None
         has_pdf = pdf_path.stat().st_size > 0
 
         # Choose this salary block's PRIMARY read:
@@ -1295,7 +1376,8 @@ def process_document(
             ]
             method = "structured"
             block_tables, nf = _extract_block_via_segments(
-                client, file_name, document_id, pdf_path, pages, segments, method, start, end)
+                client, file_name, document_id, pdf_path, pages, segments, method, start, end,
+                geometry.get((start, end), 0))
             blocks_failed += nf
         elif has_pdf:
             vcache = CACHE_DIR / f"{document_id}__{start}-{end}__vision.json"
@@ -1314,7 +1396,8 @@ def process_document(
             segments = split_into_subtasks(block_text)
             method = "text"
             block_tables, nf = _extract_block_via_segments(
-                client, file_name, document_id, pdf_path, pages, segments, method, start, end)
+                client, file_name, document_id, pdf_path, pages, segments, method, start, end,
+                geometry.get((start, end), 0))
             blocks_failed += nf
 
         # Safety net: a STRUCTURED or TEXT grid that still looks broken — a lane column copied
@@ -1335,6 +1418,25 @@ def process_document(
                     block_tables, method = vtables, "vision"
 
         if block_tables:
+            # A grid the model actually read off the lookahead page is RE-ATTRIBUTED to
+            # that page, not discarded. Dropping it was the first fix and it is too
+            # blunt: on an OCR'd document where the vision call reads the following page
+            # every time, dropping leaves nothing at all — Pittsburgh produced 9
+            # extracted blocks and 0 grids. Re-attribution keeps the data and fixes the
+            # provenance, and the duplicate that appears when that page is processed as
+            # its own block is exactly what dedup_identical_schedules already handles.
+            lookahead_text = pages[lookahead_page - 1] if lookahead_page else ""
+            moved = 0
+            for table in block_tables:
+                if misattributed_to_lookahead(table, block_text, lookahead_text):
+                    table["page_start"] = table["page_end"] = lookahead_page
+                    table.setdefault("validation_warnings", []).append(
+                        f"re-attributed to page {lookahead_page}: its values are on that "
+                        f"page, not on {start}-{end}")
+                    moved += 1
+            if moved:
+                print(f"      re-attributed {moved} grid(s) from pages {start}-{end} to "
+                      f"page {lookahead_page} (that is where their values are)", flush=True)
             collect(block_tables, method, start, end)
 
     # Drop verbatim duplicate grids (byte-identical page-split reprints / cross-year-
@@ -1359,6 +1461,38 @@ def process_document(
 
 
 # ── output writers ───────────────────────────────────────────────────────────────
+
+_GRID_FIGURE = re.compile(r"\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d{4,}(?:\.\d+)?")
+
+
+def _figures_in(text: str) -> set[str]:
+    return {m.replace(",", "").split(".")[0] for m in _GRID_FIGURE.findall(text or "")}
+
+
+def misattributed_to_lookahead(table: dict, block_text: str, lookahead_text: str) -> bool:
+    """True when a table's values live on the lookahead page, not on its own block.
+
+    The vision call is shown the block's pages AND the following page, with the latter
+    labelled context-only. The model does not always respect that: on Manchester block
+    43-43 it transcribed page 44's schedule and returned it as page 43's. Nothing
+    downstream could tell — the grid was internally consistent — and the *real* page-44
+    grid was then discarded as a duplicate of it, so an entire annual schedule (FY'09)
+    disappeared from the output with no warning.
+
+    Cheap to detect, because the block's own text is right there. Deliberately
+    conservative: a genuine continuation spans both pages and must not be rejected, so
+    this fires only when almost nothing matches the block and most of it matches the
+    lookahead.
+    """
+    values = {str(c.get("value", "")).replace(",", "").replace("$", "").split(".")[0]
+              for c in table.get("cells", [])}
+    values = {v for v in values if v.isdigit() and len(v) >= 4}
+    if len(values) < 5 or not lookahead_text:
+        return False
+    here = len(values & _figures_in(block_text)) / len(values)
+    there = len(values & _figures_in(lookahead_text)) / len(values)
+    return here < 0.20 and there > 0.60
+
 
 def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
     """Writes to output/salary_schedule_wide/<district>/<school year>/<schedule>.csv —
@@ -1396,6 +1530,12 @@ def write_wide_grid(file_name: str, district: str, schedule: dict) -> Path:
         w = csv.writer(f)
         w.writerow([f"# {file_name} — {schedule.get('schedule_label', '')} "
                     f"({schedule.get('school_year_or_effective_date', '')})"])
+        # Page provenance on EVERY grid, not only on the ones that collided and got a
+        # __pN-M filename. Without it a grid cannot be checked against its source page,
+        # which makes mechanical verification of the values impossible — the same
+        # reason the question pipeline derives every citation's page in the host.
+        w.writerow([f"# pages: {schedule.get('page_start', '')}-{schedule.get('page_end', '')} "
+                    f"| extraction_method: {schedule.get('extraction_method', 'text')}"])
         w.writerow([f"# population: {schedule.get('population', '')} | "
                     f"is_teacher_schedule: {schedule.get('is_teacher_schedule', '')}"])
         w.writerow([f"# validation_warnings: {'; '.join(warnings) or 'none'} | {audit_note}"])

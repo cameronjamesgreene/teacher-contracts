@@ -193,6 +193,30 @@ ARTICLE_RE = re.compile(
     r"^\s*ARTICLE\s+([IVXLC0-9]+|(?:%s))\b" % _ARTICLE_ORDINAL, re.M | re.I)
 
 
+_GRID_MONEY = re.compile(r"\d{1,3}(?:,\d{3})+(?:\.\d\d)?|\b\d{4,}(?:\.\d\d)?\b")
+
+
+def is_dense_grid(page: str) -> bool:
+    """A page whose lines are mostly rows of figures — a matrix, not sentences.
+
+    Appendices are skipped here because they are usually salary tables, and a table has
+    no clauses to classify. But an appendix is not automatically a table: Albuquerque's
+    Appendix E is prose about credential differentials, cross-referencing Article 6.D,
+    and blanking it dropped real entitlement language on the assumption that "Appendix"
+    means "grid".
+
+    That mattered more once `salary_segment` began excluding small prose tables from the
+    salary program on the grounds that the sentence programs read them better — if this
+    filter also dropped them, they would be read by neither. So the test is what the page
+    *is*, not what it is called.
+    """
+    lines = [line for line in page.splitlines() if line.strip()]
+    if len(lines) < 5:
+        return False
+    rows = sum(1 for line in lines if len(_GRID_MONEY.findall(line)) >= 3)
+    return rows / len(lines) >= 0.5
+
+
 def exclude_appendices(pages: list[str]) -> list[str]:
     kept: list[str] = []
     in_appendix = False
@@ -201,7 +225,7 @@ def exclude_appendices(pages: list[str]) -> list[str]:
             in_appendix = True
         elif ARTICLE_RE.search(page):
             in_appendix = False
-        kept.append("" if in_appendix else page)
+        kept.append("" if (in_appendix and is_dense_grid(page)) else page)
     # Safety backstop: this is a coarse heuristic. If it would blank more than 60% of
     # the document text it has clearly misfired (e.g. an "Appendix A" line in the table
     # of contents tripped it and no recognized ARTICLE heading reset it — Broward 2011).
