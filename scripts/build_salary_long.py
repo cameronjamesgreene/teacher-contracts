@@ -143,7 +143,7 @@ def rows_from_legacy(path: Path, pdf: Path) -> list[dict]:
             out.append(PayCell(
                 document_id="", district=district_of(pdf), state="",
                 source_pdf=pdf.name, page_start=page_start, page_end=page_end,
-                grid_id=f"{pdf.stem[:24]}_p{page_start}_legacy",
+                grid_id=f"{pdf.stem[:20]}_p{page_start}_{path.stem[:28]}",
                 extraction_method=f"legacy_{meta.get('extraction_method', 'vision')}",
                 cell_verified=False, cell_agreement=None,
                 schedule_title=title, employee_group="", is_teacher=False,

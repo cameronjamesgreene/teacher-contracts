@@ -59,6 +59,26 @@ from utils import WORK
 # hourly grid as entirely wrong.
 MONEY = re.compile(r"^\$?\d{1,3}(?:,\d{3})+(?:\.\d\d)?$|^\$?\d{4,}(?:\.\d\d)?$"
                    r"|^\$?\d{1,3}\.\d\d$")
+
+
+def money_in(cell: str) -> str | None:
+    """The money token inside a cell, ignoring stray glyphs that share it.
+
+    `MONEY` is anchored, so it matches only a cell that is *nothing but* an amount. Apple
+    Vision returns one observation per text LINE, not per word, so a salary arrives as
+    `'37,120 \u2192'` or `'$ 38,655 !'` and is discarded whole. Measured on the three densest
+    Pittsburgh pages: 24/130, 45/195 and 19/118 observations matched anchored, against
+    91, 135 and 90 money tokens actually present - roughly 74% of the figures thrown away.
+
+    `salary_geometry.money_in` fixed exactly this for the vector path; this is the same
+    fix for the reference path, which had not adopted it.
+    """
+    for token in (cell or "").split():
+        if MONEY.match(token):
+            return token
+    return None
+
+
 COLUMN_TOLERANCE = 14      # points; wider than the segmenter's, to survive OCR jitter
 ROW_TOLERANCE = 6
 AUDIT_DPI = 300            # above the extraction path's 220, to split dense columns
@@ -118,9 +138,10 @@ def reconstruct_from_geometry(pdf: Path, page_start: int, page_end: int) -> list
                     return []
                 offset = (number - page_start) * 10_000     # keep pages vertically apart
                 for word in words:
-                    if MONEY.match(word["text"].strip()):
+                    token = money_in(word["text"])
+                    if token:
                         boxes.append(((word["x0"] + word["x1"]) / 2,
-                                      word["top"] + offset, word["text"]))
+                                      word["top"] + offset, token))
     except Exception:
         return []
     return _grid_from_boxes(boxes)
@@ -152,8 +173,8 @@ def reconstruct_from_vision(pdf: Path, page_start: int, page_end: int) -> list[l
             except Exception:
                 continue
             for text, _confidence, box in found:
-                token = text.strip()
-                if not MONEY.match(token):
+                token = money_in(text)
+                if token is None:
                     continue
                 # ocrmac boxes are (x, y, w, h) normalised with y measured from the
                 # bottom; flip so that "smaller is higher" matches the geometry path.
@@ -200,9 +221,9 @@ def cell_agreement(extracted: list[list[str]], reference: list[list[str]]) -> tu
     # A duplicated or transposed COLUMN changes the row's internal sequence and is still
     # caught - UTLA p339, which copies the annual figure over the monthly one, scores ~0.5
     # here rather than passing.
-    rows = [[v for v in row if v and MONEY.match(v)] for row in extracted]
+    rows = [[v for v in row if v and money_in(v)] for row in extracted]
     rows = [r for r in rows if r]
-    refs = [[v for v in row if v and MONEY.match(v)] for row in reference]
+    refs = [[v for v in row if v and money_in(v)] for row in reference]
     total = sum(len(r) for r in rows)
     if not total or not refs:
         return (0.0, 0, total)
@@ -247,8 +268,7 @@ def extracted_grid(path: Path) -> list[list[str]]:
     return out
 
 
-def verify(grid_csv: Path, pdf: Path, page_start: int, page_end: int,
-           scanned: bool) -> dict:
+def verify(grid_csv: Path, pdf: Path, page_start: int, page_end: int) -> dict:
     extracted = extracted_grid(grid_csv)
     # Geometry first, ALWAYS, falling back to OCR only when the page yields no vector
     # words. `scanned` is a per-DOCUMENT flag, but scanning is a per-PAGE property: a
@@ -291,10 +311,9 @@ def main() -> None:
     parser.add_argument("--grid", type=Path, required=True)
     parser.add_argument("--pdf", type=Path, required=True)
     parser.add_argument("--pages", required=True, help="N or N-M")
-    parser.add_argument("--scanned", action="store_true")
     args = parser.parse_args()
     start, _, end = args.pages.partition("-")
-    result = verify(args.grid, args.pdf, int(start), int(end or start), args.scanned)
+    result = verify(args.grid, args.pdf, int(start), int(end or start))
     for key, value in result.items():
         print(f"  {key}: {value}")
 

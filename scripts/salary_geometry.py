@@ -46,6 +46,7 @@ COLUMN_TOLERANCE = 12       # points; columns closer than this are one column
 ROW_TOLERANCE = 4           # points; words within this vertical distance share a row
 BAND_GAP = 2.2              # a vertical gap this many median line-heights ends a table
 MIN_ROWS, MIN_COLS = 3, 2   # below this it is prose, not a schedule
+TITLE_CHARS = 260           # keep this much of a wrapped title box
 
 
 @dataclass
@@ -278,6 +279,7 @@ def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[
         groups: list[str] = []
         header_cells: list[str] = []
         current_group = ""
+        heading_run = False
         for index, (_, label, cells, money) in enumerate(scanned):
             if index == header_at:
                 header_cells = cells
@@ -289,8 +291,21 @@ def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[
                     # Philadelphia p157 stacks six pay-grade groups inside one band, each
                     # introduced by "Pay Grade 29"; without this the rows are six
                     # indistinguishable repetitions of steps 01-06.
-                    current_group = text
+                    #
+                    # CONSECUTIVE heading lines are one title, not a sequence of them. A
+                    # title box wraps: Albuquerque p72 reads "APPENDIX A.1 / 2018-2019
+                    # Salary Matrix AT-1 / Licensure Level 1 Teachers & Librarians and
+                    # Career Pathway Level 1 Counselors, Nurses, Social Workers &
+                    # Interpreters". Overwriting left only "Interpreters", and the labeller
+                    # dutifully called a teacher schedule an interpreter schedule.
+                    joined = f"{current_group} {text}".strip() if heading_run else text
+                    # Keep the TAIL. Accumulating without a bound swallows the page
+                    # preamble when no band gap separates it from the table, and the lines
+                    # that identify a schedule are the ones printed directly above it.
+                    current_group = joined[-TITLE_CHARS:] if len(joined) > TITLE_CHARS else joined
+                    heading_run = True
                 continue
+            heading_run = False
             body.append([label] + cells)
             groups.append(current_group)
         if len(body) < MIN_ROWS:

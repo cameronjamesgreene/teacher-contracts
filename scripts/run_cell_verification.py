@@ -76,8 +76,7 @@ def main() -> None:
             continue
         start, _, end = pages.partition("-")
         try:
-            result = verify(Path(paths[0]), pdf, int(start), int(end or start),
-                            manifest.get(row["pdf"], "") in scans)
+            result = verify(Path(paths[0]), pdf, int(start), int(end or start))
         except Exception as error:
             out.append({"key": row["key"], "verdict": "unverifiable",
                         "audit_note": f"verification failed: {type(error).__name__}"})
