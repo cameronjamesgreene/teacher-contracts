@@ -60,6 +60,36 @@ class Word:
         return (self.x0 + self.x1) / 2
 
 
+def money_in(cell: str) -> str | None:
+    """The money token inside a cell, ignoring stray glyphs that share its column.
+
+    `MONEY` is anchored, so it only matches a cell that is *nothing but* an amount.
+    Rochester p146 prints a `!` rule glyph between columns and sets `$` as a detached
+    token, so a cell assembles as `"$ 37,410 !"` and the anchored match fails — which
+    dropped all 178 of that page's cells and the page with them. Matching per token
+    inside the cell recovers every one, and needs no tuned distance constant: a cap
+    tight enough to exclude the `$` (16.9pt away) works, but degrades to 91 cells at
+    18pt and to 0 at 36pt, so it is the wrong lever.
+    """
+    for token in (cell or "").split():
+        if MONEY.match(token):
+            return token
+    return None
+
+
+# A bare 4-digit year is shaped exactly like a salary, and `MONEY` cannot tell them
+# apart. Left alone it invents columns: Milwaukee p184's "2005"/"2006" produce two
+# spurious centres, and corpus-wide 453 cells carry an "amount" between 1900 and 2100,
+# 429 of them labelled as salary. Years are excluded from COLUMN DETECTION only — a
+# genuine four-digit salary in that range is vanishingly rare, and excluding it from
+# the column vote costs nothing because its neighbours define the same column.
+_YEARISH = re.compile(r"^\$?(19|20)\d{2}$")
+
+
+def is_year(token: str) -> bool:
+    return bool(_YEARISH.match((token or "").strip()))
+
+
 @dataclass
 class Table:
     page_start: int
@@ -72,7 +102,7 @@ class Table:
 
     @property
     def money_cells(self) -> int:
-        return sum(1 for r in self.rows for c in r[1:] if c and MONEY.match(c))
+        return sum(1 for r in self.rows for c in r[1:] if money_in(c))
 
 
 def page_words(page) -> list[Word]:
@@ -126,7 +156,8 @@ def split_bands(lines: list[list[Word]]) -> list[list[list[Word]]]:
 
 def column_centres(lines: list[list[Word]]) -> list[float]:
     """Column x-centres, clustered from the money tokens that define the grid."""
-    xs = sorted(w.cx for line in lines for w in line if MONEY.match(w.text))
+    xs = sorted(w.cx for line in lines for w in line
+                if MONEY.match(w.text) and not is_year(w.text))
     if not xs:
         return []
     centres, cluster = [], [xs[0]]
@@ -155,7 +186,7 @@ def _panel_bounds(centres: list[float], band: list[list[Word]]) -> list[tuple[in
     if len(centres) < 4:
         return [(0, len(centres))]
     money_lines = [line for line in band
-                   if sum(1 for w in line if MONEY.match(w.text)) >= 2]
+                   if sum(1 for w in line if MONEY.match(w.text) and not is_year(w.text)) >= 2]
     if not money_lines:
         return [(0, len(centres))]
     cuts = []
@@ -209,29 +240,43 @@ def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[
 
     out: list[Table] = []
     for lo, hi in panels:
+        scanned = [(line, *assign(line, lo, hi)) for line in band]
+        scanned = [(line, label, cells, sum(1 for c in cells if money_in(c)))
+                   for line, label, cells in scanned]
+
+        # The header is the LAST money-free line before the first data row.
+        #
+        # A "pick the money-free line with the most column coverage, wherever it sits"
+        # rule was tried and reverted. Measured corpus-wide it looked like a clear win —
+        # better on 339 of 623 panels, worse on none, mean coverage 0.584 -> 0.924 — but
+        # coverage is a proxy, and maximising it selects PROSE. A full-width sentence
+        # spans every column by construction, so Albuquerque p72 took its header from the
+        # preamble ("are one-year | documents | that reflect | placement only.") and UTLA
+        # p339 took its from a footer, both displacing a correct header. The proxy improved
+        # while the answer got worse, on pages whose ground truth is established by eye.
+        first_data = next((i for i, (_, _, _, money) in enumerate(scanned) if money), None)
+        header_at = None
+        if first_data is not None:
+            for index in range(first_data - 1, -1, -1):
+                if scanned[index][3] == 0 and sum(1 for c in scanned[index][2] if c) >= 1:
+                    header_at = index
+                    break
+
         body: list[list[str]] = []
         groups: list[str] = []
         header_cells: list[str] = []
         current_group = ""
-        for line in band:
-            label, cells = assign(line, lo, hi)
-            money = sum(1 for c in cells if c and MONEY.match(c))
+        for index, (_, label, cells, money) in enumerate(scanned):
+            if index == header_at:
+                header_cells = cells
+                continue
             if money == 0:
                 text = " ".join(p for p in [label, *cells] if p).strip()
-                if not body:
-                    # Pre-table line: the last one is the header, titles above it become
-                    # the opening group label.
-                    if any(cells):
-                        if header_cells:
-                            current_group = " ".join(header_cells).strip()
-                        header_cells = cells
-                    elif text:
-                        current_group = text
-                elif text:
-                    # A text-only line BETWEEN data rows is a sub-heading for what
-                    # follows. Philadelphia p157 stacks six pay-grade groups inside one
-                    # band, each introduced by "Pay Grade 29"; without this the rows are
-                    # six indistinguishable repetitions of steps 01-06.
+                if text:
+                    # Any other text-only line is a sub-heading for the rows that follow.
+                    # Philadelphia p157 stacks six pay-grade groups inside one band, each
+                    # introduced by "Pay Grade 29"; without this the rows are six
+                    # indistinguishable repetitions of steps 01-06.
                     current_group = text
                 continue
             body.append([label] + cells)
@@ -250,7 +295,7 @@ def tables_on_page(page, page_number: int) -> list[Table]:
     words = page_words(page)
     if not words:
         return []
-    if sum(1 for w in words if MONEY.match(w.text)) < 6:
+    if sum(1 for w in words if MONEY.match(w.text) and not is_year(w.text)) < 6:
         return []
     out: list[Table] = []
     for band in split_bands(group_rows(words)):

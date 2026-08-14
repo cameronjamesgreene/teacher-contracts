@@ -21,7 +21,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from salary_geometry import MONEY, Table, page_words, tables_on_page
+from salary_geometry import MONEY, Table, is_year, money_in, page_words, tables_on_page
 from salary_schema import (PayCell, classify_value, days_from_prose, infer_lane_type,
                            parse_effective_date, parse_lane, parse_step)
 from utils import OUT_DIR, PDF_ROOT
@@ -30,11 +30,17 @@ FIELDS = [f for f in PayCell.__dataclass_fields__]
 
 
 def money_value(cell: str) -> float | None:
-    text = (cell or "").replace("$", "").replace(",", "").strip()
-    if not MONEY.match((cell or "").strip()):
+    """The amount in a cell, tolerating stray glyphs that share its column.
+
+    Rochester p146 assembles cells as `"$ 37,410 !"` because it prints a rule glyph and a
+    detached currency sign; an anchored match on the whole cell drops all 178 of that
+    page's values. `money_in` matches per token instead.
+    """
+    token = money_in(cell)
+    if token is None:
         return None
     try:
-        return float(text)
+        return float(token.replace("$", "").replace(",", ""))
     except ValueError:
         return None
 
@@ -61,6 +67,11 @@ def rows_from_table(table: Table, pdf: Path, page_text: str) -> list[dict]:
                 continue
             lane = table.header[column] if column < len(table.header) else ""
             kind_of_value, basis_hint = classify_value(lane, composite)
+            # A bare year in a data cell is a stray header token, not pay. 429 such cells
+            # were previously emitted as `value_kind="salary"`, so a wage regression that
+            # filtered on salary would have ingested them as $2,006 salaries.
+            if is_year(money_in(cell) or ""):
+                kind_of_value = "unknown"
             degree, credits = parse_lane(lane)
             out.append(PayCell(
                 document_id="", district=district_of(pdf), state="",
