@@ -105,21 +105,33 @@ class Table:
         return sum(1 for r in self.rows for c in r[1:] if money_in(c))
 
 
-def page_words(page) -> list[Word]:
-    """Every word on the page, or [] if its coordinates are not trustworthy.
+def page_word_state(page) -> tuple[list[Word], str]:
+    """(words, reason) where reason is "ok", "no_words", or "untrusted_coords".
 
-    The guard matters: on Cleveland — the only such document in 42 — pdfplumber reports
-    word tops as low as -152 on a 655pt page, and the values do not match what poppler
-    renders. Coordinates that describe something other than the printed page must not be
-    used for extraction any more than for audit.
+    The two failure modes need telling apart, because they call for different remedies.
+    A page with NO WORDS is a scan, and the remedy is an engine that reads images. A page
+    with UNTRUSTED COORDS has a text layer that lies: on Cleveland — the only such document
+    in 42 — pdfplumber reports word tops as low as -152 on a 655pt page, and the values do
+    not match what poppler renders.
+
+    Collapsing both to `[]` hid the difference, and left Cleveland quietly emitting 17
+    cells where the legacy image-reading path finds 1,353.
     """
     try:
         raw = page.extract_words()
     except Exception:
-        return []
+        return ([], "no_words")
+    if not raw:
+        return ([], "no_words")
     if any(w["top"] < -1 or w["top"] > page.height + 1 for w in raw):
-        return []
-    return [Word(w["x0"], w["x1"], w["top"], w["text"].strip()) for w in raw if w["text"].strip()]
+        return ([], "untrusted_coords")
+    return ([Word(w["x0"], w["x1"], w["top"], w["text"].strip())
+             for w in raw if w["text"].strip()], "ok")
+
+
+def page_words(page) -> list[Word]:
+    """Every word on the page, or [] when its coordinates are not trustworthy."""
+    return page_word_state(page)[0]
 
 
 def group_rows(words: list[Word]) -> list[list[Word]]:
