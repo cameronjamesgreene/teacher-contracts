@@ -147,6 +147,23 @@ def reconstruct_from_geometry(pdf: Path, page_start: int, page_end: int) -> list
     return _grid_from_boxes(boxes)
 
 
+def _mostly_rotated(observations) -> bool:
+    """True when the page's text is printed sideways.
+
+    Pittsburgh's salary pages are landscape tables imaged onto portrait pages: 123 of 130
+    observations on p16 are taller than wide. Vision reads the glyphs correctly, but a
+    printed ROW then runs vertically down the image, so keying rows on y and columns on x
+    is simply the wrong axis - which is why the legacy-vision rows scored a median 0.184.
+    Refusing is honest; scoring them produces a disagreement that says nothing about the
+    extraction.
+    """
+    boxes = [b for _, _, b in observations]
+    if len(boxes) < 12:
+        return False
+    tall = sum(1 for _, _, w, h in boxes if h > w)
+    return tall >= 0.6 * len(boxes)
+
+
 def reconstruct_from_vision(pdf: Path, page_start: int, page_end: int) -> list[list[str]]:
     """The printed matrix, re-read from a high-DPI render with Apple Vision.
 
@@ -172,14 +189,25 @@ def reconstruct_from_vision(pdf: Path, page_start: int, page_end: int) -> list[l
                 found = ocrmac.OCR(str(image), recognition_level="accurate").recognize()
             except Exception:
                 continue
+            # Vision returns one observation per text LINE, and a line of a salary table
+            # holds every value in that row. Taking one token per observation (which is
+            # what `money_in` does) threw away all but the first, so a byte-perfect
+            # Albuquerque p72 scored 0.857 instead of 1.000 and Philadelphia p157 scored
+            # 0.705. Every money token in the line is emitted, with its x interpolated
+            # across the line's box by character offset - the tokens are set in a
+            # monospaced grid, so offset is a good proxy for position.
+            if _mostly_rotated(found):
+                return []          # see _mostly_rotated: y-keyed clustering cannot work
             for text, _confidence, box in found:
-                token = money_in(text)
-                if token is None:
-                    continue
-                # ocrmac boxes are (x, y, w, h) normalised with y measured from the
-                # bottom; flip so that "smaller is higher" matches the geometry path.
                 x, y, w, h = box
-                boxes.append(((x + w / 2) * 1000, (1 - y - h) * 1000 + index * 10_000, token))
+                span = len(text) or 1
+                for token in text.split():
+                    if not MONEY.match(token):
+                        continue
+                    at = text.find(token)
+                    centre = (at + len(token) / 2) / span
+                    boxes.append(((x + w * centre) * 1000,
+                                  (1 - y - h) * 1000 + index * 10_000, token))
     return _grid_from_boxes(boxes)
 
 

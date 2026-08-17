@@ -47,6 +47,8 @@ ROW_TOLERANCE = 4           # points; words within this vertical distance share 
 BAND_GAP = 2.2              # a vertical gap this many median line-heights ends a table
 MIN_ROWS, MIN_COLS = 3, 2   # below this it is prose, not a schedule
 TITLE_CHARS = 260           # keep this much of a wrapped title box
+MIN_CELLS_PER_ROW = 1.5     # below this the block is a vertical list, not a grid
+MAX_HEADING_WORDS = 25      # a generous cap: the density gate is what rejects prose
 
 
 @dataclass
@@ -97,7 +99,9 @@ class Table:
     page_end: int
     header: list[str]
     rows: list[list[str]]              # row[0] is the label, row[1:] align to header[1:]
-    groups: list[str] = field(default_factory=list)   # sub-heading in force for each row
+    title: str = ""                    # the heading that delimits THIS table
+    block: int = 1                     # position of this block within its panel
+    low_density: bool = False          # one amount per row: stipend list OR prose artefact
     method: str = "geometry_vector"
     note: str = ""
 
@@ -222,6 +226,28 @@ def _panel_bounds(centres: list[float], band: list[list[Word]]) -> list[tuple[in
     return [b for b in bounds if b[1] - b[0] >= 2] or [(0, len(centres))]
 
 
+def _is_heading(text: str) -> bool:
+    """Does this money-free line head a table, or is it body prose?
+
+    Nothing previously distinguished the two, so on prose-heavy pages every paragraph
+    became a title. Measured on real pages, headings are short and unterminated
+    ("Pay Grade 29", "Masters (MA) - Hourly Rate", "Bachelors (BA) - Hourly Rate") while
+    body lines run 11-17 words and often close a sentence ("1.) Teacher Leaders shall be
+    elected by the constituents they are...").
+
+    The cap is deliberately generous. A tight one (10 words) did reject ATF p28's prose,
+    but it also rejected Albuquerque p72's real title - "Licensure Level 1 Teachers &
+    Librarians and Career Pathway Level 1 Counselors, Nurses, Social Workers &
+    Interpreters" is 17 words - and that title is the only thing identifying the schedule's
+    population. MIN_CELLS_PER_ROW is the load-bearing prose defence: p28 now yields no
+    table at all, so this test never has to judge its paragraphs.
+    """
+    text = (text or "").strip()
+    if not text:
+        return False
+    return len(text.split()) <= MAX_HEADING_WORDS and not text.endswith(".")
+
+
 def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[Table]:
     """One band of lines -> one table, or two when the band holds side-by-side panels."""
     centres = column_centres(band)
@@ -252,7 +278,7 @@ def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[
         return (" ".join(label_parts).strip(), cells)
 
     out: list[Table] = []
-    for lo, hi in panels:
+    for panel_no, (lo, hi) in enumerate(panels, start=1):
         scanned = [(line, *assign(line, lo, hi)) for line in band]
         scanned = [(line, label, cells, sum(1 for c in cells if money_in(c)))
                    for line, label, cells in scanned]
@@ -275,10 +301,22 @@ def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[
                     header_at = index
                     break
 
-        body: list[list[str]] = []
-        groups: list[str] = []
+        # Split the panel into HEADING-DELIMITED BLOCKS, one Table each.
+        #
+        # A band is not one table. 17_19_ta_ p2 prints "Bachelors (BA) - Hourly Rate" and
+        # "Masters (MA) - Hourly Rate" one after the other over the same three columns, so
+        # no y-gap separates them and they arrived as a single Table. Philadelphia p157 does
+        # the same thing twelve times over ("Pay Grade 27", "Pay Grade 29", ...). Those two
+        # pages are structurally identical - repeated blocks under distinct headings sharing
+        # one column layout - so a heading is what ends a table, not a blank line.
+        #
+        # Carrying the heading as a per-row column instead (the old `groups`) meant every
+        # consumer read `members[0]` and silently kept the first block's identity for all of
+        # them: 252 of 411 grid_ids ended up with more than one title, and the labeller
+        # stamped one block's employee_group onto another's cells.
+        blocks: list[tuple[str, list[list[str]]]] = []
         header_cells: list[str] = []
-        current_group = ""
+        pending_title = ""
         heading_run = False
         for index, (_, label, cells, money) in enumerate(scanned):
             if index == header_at:
@@ -286,34 +324,64 @@ def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[
                 continue
             if money == 0:
                 text = " ".join(p for p in [label, *cells] if p).strip()
-                if text:
-                    # Any other text-only line is a sub-heading for the rows that follow.
-                    # Philadelphia p157 stacks six pay-grade groups inside one band, each
-                    # introduced by "Pay Grade 29"; without this the rows are six
-                    # indistinguishable repetitions of steps 01-06.
-                    #
-                    # CONSECUTIVE heading lines are one title, not a sequence of them. A
-                    # title box wraps: Albuquerque p72 reads "APPENDIX A.1 / 2018-2019
-                    # Salary Matrix AT-1 / Licensure Level 1 Teachers & Librarians and
-                    # Career Pathway Level 1 Counselors, Nurses, Social Workers &
-                    # Interpreters". Overwriting left only "Interpreters", and the labeller
-                    # dutifully called a teacher schedule an interpreter schedule.
-                    joined = f"{current_group} {text}".strip() if heading_run else text
-                    # Keep the TAIL. Accumulating without a bound swallows the page
-                    # preamble when no band gap separates it from the table, and the lines
-                    # that identify a schedule are the ones printed directly above it.
-                    current_group = joined[-TITLE_CHARS:] if len(joined) > TITLE_CHARS else joined
+                if _is_heading(text):
+                    # Consecutive heading lines are ONE wrapped title box, not a sequence.
+                    # Albuquerque p72 reads "APPENDIX A.1 / 2018-2019 Salary Matrix AT-1 /
+                    # Licensure Level 1 Teachers & Librarians and ... & Interpreters";
+                    # overwriting left only "Interpreters" and the labeller called a teacher
+                    # schedule an interpreter schedule. The tail is kept because the lines
+                    # nearest the table are the ones that identify it.
+                    joined = f"{pending_title} {text}".strip() if heading_run else text
+                    pending_title = joined[-TITLE_CHARS:] if len(joined) > TITLE_CHARS else joined
                     heading_run = True
                 continue
-            heading_run = False
-            body.append([label] + cells)
-            groups.append(current_group)
-        if len(body) < MIN_ROWS:
-            continue
+            if heading_run or not blocks:
+                blocks.append((pending_title, []))     # a heading starts a new table
+                heading_run = False
+            blocks[-1][1].append([label] + cells)
+
+        # A block too small to be a schedule is FOLDED BACK into the one above it, never
+        # dropped. Some pages interleave a short text line between every data row - 48.pdf
+        # p184 has 17 money rows against 21 heading-like lines - so splitting on every
+        # heading fragments one real table into single-row blocks. Dropping those cost that
+        # document 1,728 of its 1,796 cells.
+        #
+        # Genuine multi-block pages are unaffected because their blocks are big enough to
+        # stand on their own: Philadelphia's pay grades run 6 rows each and 17_19_ta_'s
+        # hourly schedules run 8.
+        merged: list[tuple[str, list[list[str]]]] = []
+        for title, body in blocks:
+            if merged and len(body) < MIN_ROWS:
+                merged[-1][1].extend(body)
+            else:
+                merged.append((title, body))
+        blocks = merged
+
         header = ["step"] + (header_cells if header_cells else [""] * (hi - lo))
-        table = Table(page_start, page_end, header, body, groups=groups,
-                      note="" if len(panels) == 1 else f"side-by-side panel {len(out) + 1}")
-        if table.money_cells >= 4:
+        for position, (title, body) in enumerate(blocks, start=1):
+            if len(body) < MIN_ROWS:
+                continue
+            table = Table(page_start, page_end, header, body, title=title,
+                          note="" if len(panels) == 1 else f"panel {panel_no}",
+                          block=position)
+            if table.money_cells < 4:
+                continue
+            # FLAGGED, NOT DROPPED. One amount per printed row is the signature of two very
+            # different things and no test I tried separates them:
+            #
+            #   real  - an extra-duty schedule. 102-07 p74 lists "Athletic/Activities
+            #           Director $4,000", "Baseball $2,205". Genuine supplemental pay.
+            #   junk  - a prose page whose scattered figures got clustered into a grid
+            #           (ATF p28, p86).
+            #
+            # Density, plausible-pay magnitude and row-label length all score these two
+            # identically, so a hard gate that rejects the second also destroys the first -
+            # measured at 1,074 cells including every stipend schedule in 102-07. Keeping
+            # the row and flagging it follows what `value_kind` already does for "Total
+            # Increase": the data survives and the consumer filters.
+            filled = sum(1 for row in body if any(c for c in row[1:]))
+            if filled and table.money_cells / filled < MIN_CELLS_PER_ROW:
+                table.low_density = True
             out.append(table)
     return out
 

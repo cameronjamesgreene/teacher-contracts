@@ -117,7 +117,8 @@ def legacy_files_for(pdf_name: str) -> list[Path]:
     return sorted(seen.values())
 
 
-def rows_from_legacy(path: Path, pdf: Path) -> list[dict]:
+def rows_from_legacy(path: Path, pdf: Path,
+                     table_index: int, tables_on_page: int) -> list[dict]:
     """One legacy wide CSV -> PayCell rows, through the same deterministic parsers."""
     meta = _legacy_header(path)
     body = _legacy_body(path)
@@ -128,7 +129,7 @@ def rows_from_legacy(path: Path, pdf: Path) -> list[dict]:
     page_end = int(end) if end.strip().isdigit() else page_start
     title = meta.get("title", "")
     out: list[dict] = []
-    for row in body[1:]:
+    for index, row in enumerate(body[1:], start=1):
         step_raw = str(row[0]).strip()
         kind, number = parse_step(step_raw)
         for column, cell in enumerate(row[1:], start=1):
@@ -143,7 +144,9 @@ def rows_from_legacy(path: Path, pdf: Path) -> list[dict]:
             out.append(PayCell(
                 document_id="", district=district_of(pdf), state="",
                 source_pdf=pdf.name, page_start=page_start, page_end=page_end,
-                grid_id=f"{pdf.stem[:20]}_p{page_start}_{path.stem[:28]}",
+                grid_id=f"{pdf.stem[:24]}_p{page_start}_t{table_index:02d}",
+                table_index=table_index, tables_on_page=tables_on_page,
+                row_index=index,
                 extraction_method=f"legacy_{meta.get('extraction_method', 'vision')}",
                 cell_verified=False, cell_agreement=None,
                 schedule_title=title, employee_group="", is_teacher=False,
@@ -158,18 +161,24 @@ def rows_from_legacy(path: Path, pdf: Path) -> list[dict]:
     return out
 
 
-def rows_from_table(table: Table, pdf: Path, page_text: str) -> list[dict]:
-    days = days_from_prose(page_text, " ".join(table.groups[:1]) if table.groups else "")
+def rows_from_table(table: Table, pdf: Path, page_text: str,
+                    table_index: int, tables_on_page: int) -> list[dict]:
+    days = days_from_prose(page_text, table.title)
     out: list[dict] = []
-    for index, row in enumerate(table.rows):
+    for index, row in enumerate(table.rows, start=1):
         step_raw = row[0]
-        group = table.groups[index] if index < len(table.groups) else ""
+        group = table.title
         # Classify the step from the STEP LABEL ALONE. Folding the sub-heading in first
         # ("Pay Grade 29" + "01") sent 55% of the corpus to `class_code`, because the
         # heading's words dominate the pattern match. The heading is identity, not step -
         # it belongs in schedule_title, where a consumer can still group on it.
         kind, number = parse_step(step_raw)
-        composite = f"{group} {step_raw}".strip() if group else step_raw
+        # `step_raw` is the row's OWN label and nothing else. Prefixing the sub-heading
+        # onto it was tolerable while headings were short ("Pay Grade 27 01") and became
+        # unusable once wrapped title boxes were joined: Albuquerque's step column read
+        # "Salary figures presented on the following matrices..." on every row. The
+        # heading is identity and already lives in `schedule_title`.
+        composite = step_raw
         for column, cell in enumerate(row[1:], start=1):
             amount = money_value(cell)
             if amount is None:
@@ -185,7 +194,9 @@ def rows_from_table(table: Table, pdf: Path, page_text: str) -> list[dict]:
             out.append(PayCell(
                 document_id="", district=district_of(pdf), state="",
                 source_pdf=pdf.name, page_start=table.page_start, page_end=table.page_end,
-                grid_id=f"{pdf.stem[:24]}_p{table.page_start}_{table.note or 'main'}",
+                grid_id=f"{pdf.stem[:24]}_p{table.page_start}_t{table_index:02d}",
+                table_index=table_index, tables_on_page=tables_on_page,
+                row_index=index,
                 extraction_method=table.method, cell_verified=False, cell_agreement=None,
                 schedule_title=group, employee_group="", is_teacher=False,
                 contract_year_start=None, contract_year_end=None,
@@ -194,7 +205,8 @@ def rows_from_table(table: Table, pdf: Path, page_text: str) -> list[dict]:
                 education_credits=credits, step_raw=composite, step_kind=kind,
                 step_number=number, amount=amount,
                 pay_basis=basis_hint or "", value_kind=kind_of_value,
-                days_per_year=days, notes=table.note).as_row())
+                days_per_year=days, low_density=table.low_density,
+                notes=table.note).as_row())
     return out
 
 
@@ -228,8 +240,9 @@ def main() -> None:
                     if not tables:
                         continue
                     text = page.extract_text() or ""
-                    for table in tables:
-                        rows.extend(rows_from_table(table, pdf, text))
+                    for position, table in enumerate(tables, start=1):
+                        rows.extend(rows_from_table(table, pdf, text,
+                                                    position, len(tables)))
                         found += 1
         except Exception as error:
             stats[f"document_error_{type(error).__name__}"] += 1
@@ -247,9 +260,16 @@ def main() -> None:
                 if untrusted and found:
                     del rows[before:]          # discard the untrustworthy partial read
                     found = 0
+                # Number legacy tables WITHIN their page, not across the document, so
+                # `tables_on_page` means what it says and `table_index` matches the
+                # geometry path's convention.
+                by_page: dict[str, list[Path]] = {}
                 for path in legacy:
-                    rows.extend(rows_from_legacy(path, pdf))
-                    found += 1
+                    by_page.setdefault(_legacy_header(path).get("pages", ""), []).append(path)
+                for group in by_page.values():
+                    for position, path in enumerate(group, start=1):
+                        rows.extend(rows_from_legacy(path, pdf, position, len(group)))
+                        found += 1
                 source = "legacy"
                 stats["documents_from_legacy"] += 1
 

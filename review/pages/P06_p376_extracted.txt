@@ -1,0 +1,27 @@
+P06   Final_2014-2017_UTLA_Collective_Bargaining_Agreement.pdf   page 376
+title          : over the 2% increase effective July 1, 2015. This table applies only to employees who hold a Bachelo
+employee_group : (not labelled - SOM endpoint was down)
+cells          : 484
+Vision agree   : 0.933
+
+step                              
+----------------------------------
+20 C Basis                  55,260
+                          8,165.16
+(Minimum) B Basis           59,865
+A Basis                     97,982
+21 C Basis                  57,683
+(+ 14 points) B Basi        62,490
+22 C Basis                  60,678
+(+ 28 points) B Basi        65,735
+23 C Basis                  63,900
+(+ 42 points) B Basi        69,225
+24 C Basis                  67,014
+(+ 56 points) B Basi        72,599
+25 C Basis                  70,188
+(+ 70 points) B Basi        76,037
+26 C Basis                  73,315
+(+ 84 points) B Basi        79,424
+27 C Basis                  76,549
+(+ 98 points) B Basi        82,928
+(continued) C Basis         77,921

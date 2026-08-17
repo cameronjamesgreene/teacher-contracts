@@ -1,0 +1,30 @@
+P17   SD_of_Philadelphia_2021-2024.pdf   page 148
+title          : High School Athletic Coach Salaries
+employee_group : (not labelled - SOM endpoint was down)
+cells          : 148
+Vision agree   : 0.0
+
+step                        9/1/20      9/1/21      9/1/22      9/1/23
+----------------------------------------------------------------------
+Badminton Coach              2,952       2,952       2,952       3,040
+Baseball Head Coach          6,173       6,173       6,173       6,359
+First Assistant              4,427       4,427       4,427       4,559
+Second Assistant             3,222       3,222       3,222       3,319
+Basketball Head Coac         7,089       7,089       7,089       7,302
+Cheerleading Coach F         2,952       2,952       2,952       3,040
+Cheerleading Coach W         2,952       2,952       2,952       3,040
+Cross Country Head C         4,427       4,427       4,427       4,559
+Field Hockey Head Co         6,173       6,173       6,173       6,359
+Football Head Coach          8,266       8,266       8,266       8,514
+Third Assistant              4,396       4,396       4,396       4,528
+Fourth Assistant             4,396       4,396       4,396       4,528
+Fifth Assistant              4,396       4,396       4,396       4,528
+Golf Coach                   2,952       2,952       2,952       3,040
+Lacrosse Head Coach          6,173       6,173       6,173       6,359
+Soccer Head Coach            6,173       6,173       6,173       6,359
+Softball Head Coach          6,173       6,173       6,173       6,359
+Swimming Coach               4,427       4,427       4,427       4,559
+Tennis Coach                 4,427       4,427       4,427       4,559
+Track and Field Head         6,173       6,173       6,173       6,359
+Volleyball Head Coac         6,173       6,173       6,173       6,359
+Wrestling Head Coach         6,173       6,173       6,173       6,359

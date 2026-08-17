@@ -1,0 +1,10 @@
+P03   33.pdf   page 680
+title          : 5
+employee_group : (not labelled - SOM endpoint was down)
+cells          : 76
+Vision agree   : 0.105
+
+step                     CONTINUED            
+----------------------------------------------
+                             4,370      60,600
+4                            4,325            

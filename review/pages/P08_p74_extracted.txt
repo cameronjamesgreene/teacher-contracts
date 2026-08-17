@@ -1,0 +1,20 @@
+P08   ATF-Negotiated-Agreement_2018-19.pdf   page 74
+title          : (none)
+employee_group : (not labelled - SOM endpoint was down)
+cells          : 84
+Vision agree   : 0.143
+
+step                              
+----------------------------------
+39                          61,220
+40                          61,320
+41                          61,420
+42                          62,620
+43                          64,120
+44                          65,620
+45                          67,120
+46                          68,620
+47                          70,120
+48                          71,620
+49                          73,120
+50                          74,620

@@ -75,7 +75,14 @@ class PayCell:
     page_start: int
     page_end: int
     grid_id: str
-    extraction_method: str          # geometry_vector | geometry_ocr | vision_fallback
+    # A page routinely holds several distinct schedules. These make that visible instead of
+    # leaving a consumer to infer it: `grid_id` alone once collided for stacked tables, so
+    # 252 of 411 ids carried more than one schedule title and the labeller stamped one
+    # table's employee_group onto another's cells.
+    table_index: int                # which table on the page, 1-based, top to bottom
+    tables_on_page: int             # how many the page holds
+    row_index: int                  # position within this table, so emission order survives
+    extraction_method: str          # geometry_vector | legacy_vision | legacy_structured
     cell_verified: bool             # agreed with an independent reading of the page
     cell_agreement: float | None
 
@@ -102,6 +109,11 @@ class PayCell:
     value_kind: str                 # VALUE_KINDS
     days_per_year: int | None       # from page prose ("Matrices AT-1...: 184 days")
     fte: float | None = None
+    # True when the table carries one amount per row. That is either a genuine extra-duty
+    # schedule ("Baseball  $2,205") or a prose page mis-clustered into a grid, and no
+    # measurable property separates them - so the row is kept and marked rather than
+    # dropped. Filter on it if you want dense salary matrices only.
+    low_density: bool = False
     notes: str = ""
 
     def as_row(self) -> dict:
