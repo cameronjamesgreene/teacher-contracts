@@ -1,0 +1,427 @@
+#!/usr/bin/env python3
+"""Rebuild salary tables from PDF word coordinates — headers, labels and all.
+
+## Why this is not `verify_salary_grids.reconstruct_from_geometry`
+
+That routine keeps only money tokens, because auditing only needs to compare numbers.
+Extraction needs the column headers ("BA+45", "9/1/21") and the row labels ("Step 3",
+"20 D E basis") too, since those carry the economics. This module keeps every word and
+returns a full matrix.
+
+## Why geometry rather than the model
+
+`salary_schedule.py` already calls `extract_structured_grids()`, which recovers the true
+matrix from `pdfplumber.find_tables()` — and then serialises it to a pipe-table and asks
+the model to retype it. 28,241 numeric cells round-trip through Qwen that way, and UTLA
+p339 shows the cost: the host had the right matrix, the emitted grid duplicated the annual
+column over the monthly one and pulled `20 D / B basis` from row 33D.
+
+`find_tables()` is also a brittle gate. It needs ruled lines or fixed tolerances, and when
+it fails the current fallback is not better geometry but a rendered page image: 66 of 91
+vision-path pages are born-digital, including UTLA p327, where `find_tables()` returns 0
+tables and the clustering here returns a 34x5 matrix.
+
+## The two layouts that break naive clustering
+
+**Stacked** — Cleveland p162 prints three schedules down one page. Clustering the whole
+page pools them, so row *i* of one table is not row *i* of the reconstruction.
+
+**Side-by-side** — Philadelphia p157 prints twelve pay grades in two columns, so a single
+printed LINE carries a row of Pay Grade 27 and a row of Pay Grade 28.
+
+Both are handled by splitting into regions before building a matrix: y-gaps separate
+stacked tables, and a repeated header token sequence separates side-by-side panels.
+"""
+
+from __future__ import annotations
+
+import re
+import statistics
+from dataclasses import dataclass, field
+from pathlib import Path
+
+MONEY = re.compile(r"^\$?\d{1,3}(?:,\d{3})+(?:\.\d\d)?$|^\$?\d{4,}(?:\.\d\d)?$"
+                   r"|^\$?\d{1,3}\.\d\d$")
+COLUMN_TOLERANCE = 12       # points; columns closer than this are one column
+ROW_TOLERANCE = 4           # points; words within this vertical distance share a row
+BAND_GAP = 2.2              # a vertical gap this many median line-heights ends a table
+MIN_ROWS, MIN_COLS = 3, 2   # below this it is prose, not a schedule
+TITLE_CHARS = 260           # keep this much of a wrapped title box
+MIN_CELLS_PER_ROW = 1.5     # below this the block is a vertical list, not a grid
+MAX_HEADING_WORDS = 25      # a generous cap: the density gate is what rejects prose
+
+
+@dataclass
+class Word:
+    x0: float
+    x1: float
+    top: float
+    text: str
+
+    @property
+    def cx(self) -> float:
+        return (self.x0 + self.x1) / 2
+
+
+def money_in(cell: str) -> str | None:
+    """The money token inside a cell, ignoring stray glyphs that share its column.
+
+    `MONEY` is anchored, so it only matches a cell that is *nothing but* an amount.
+    Rochester p146 prints a `!` rule glyph between columns and sets `$` as a detached
+    token, so a cell assembles as `"$ 37,410 !"` and the anchored match fails — which
+    dropped all 178 of that page's cells and the page with them. Matching per token
+    inside the cell recovers every one, and needs no tuned distance constant: a cap
+    tight enough to exclude the `$` (16.9pt away) works, but degrades to 91 cells at
+    18pt and to 0 at 36pt, so it is the wrong lever.
+    """
+    for token in (cell or "").split():
+        if MONEY.match(token):
+            return token
+    return None
+
+
+# A bare 4-digit year is shaped exactly like a salary, and `MONEY` cannot tell them
+# apart. Left alone it invents columns: Milwaukee p184's "2005"/"2006" produce two
+# spurious centres, and corpus-wide 453 cells carry an "amount" between 1900 and 2100,
+# 429 of them labelled as salary. Years are excluded from COLUMN DETECTION only — a
+# genuine four-digit salary in that range is vanishingly rare, and excluding it from
+# the column vote costs nothing because its neighbours define the same column.
+_YEARISH = re.compile(r"^\$?(19|20)\d{2}$")
+
+
+def is_year(token: str) -> bool:
+    return bool(_YEARISH.match((token or "").strip()))
+
+
+@dataclass
+class Table:
+    page_start: int
+    page_end: int
+    header: list[str]
+    rows: list[list[str]]              # row[0] is the label, row[1:] align to header[1:]
+    title: str = ""                    # the heading that delimits THIS table
+    block: int = 1                     # position of this block within its panel
+    low_density: bool = False          # one amount per row: stipend list OR prose artefact
+    method: str = "geometry_vector"
+    note: str = ""
+
+    @property
+    def money_cells(self) -> int:
+        return sum(1 for r in self.rows for c in r[1:] if money_in(c))
+
+
+def page_word_state(page) -> tuple[list[Word], str]:
+    """(words, reason) where reason is "ok", "no_words", or "untrusted_coords".
+
+    The two failure modes need telling apart, because they call for different remedies.
+    A page with NO WORDS is a scan, and the remedy is an engine that reads images. A page
+    with UNTRUSTED COORDS has a text layer that lies: on Cleveland — the only such document
+    in 42 — pdfplumber reports word tops as low as -152 on a 655pt page, and the values do
+    not match what poppler renders.
+
+    Collapsing both to `[]` hid the difference, and left Cleveland quietly emitting 17
+    cells where the legacy image-reading path finds 1,353.
+    """
+    try:
+        raw = page.extract_words()
+    except Exception:
+        return ([], "no_words")
+    if not raw:
+        return ([], "no_words")
+    if any(w["top"] < -1 or w["top"] > page.height + 1 for w in raw):
+        return ([], "untrusted_coords")
+    return ([Word(w["x0"], w["x1"], w["top"], w["text"].strip())
+             for w in raw if w["text"].strip()], "ok")
+
+
+def page_words(page) -> list[Word]:
+    """Every word on the page, or [] when its coordinates are not trustworthy."""
+    return page_word_state(page)[0]
+
+
+def group_rows(words: list[Word]) -> list[list[Word]]:
+    """Words clustered into printed lines, each sorted left to right."""
+    lines: list[list[Word]] = []
+    for word in sorted(words, key=lambda w: (w.top, w.x0)):
+        if lines and abs(word.top - lines[-1][0].top) <= ROW_TOLERANCE:
+            lines[-1].append(word)
+        else:
+            lines.append([word])
+    return [sorted(line, key=lambda w: w.x0) for line in lines]
+
+
+def split_bands(lines: list[list[Word]]) -> list[list[list[Word]]]:
+    """Split lines into vertically separated bands — one per stacked table.
+
+    A band ends at a vertical gap much larger than the page's normal line spacing, which
+    is what sits between Cleveland p162's three schedules and their titles.
+    """
+    if not lines:
+        return []
+    gaps = [lines[i + 1][0].top - lines[i][0].top for i in range(len(lines) - 1)]
+    typical = statistics.median([g for g in gaps if g > 0]) if any(g > 0 for g in gaps) else 12
+    bands, current = [], [lines[0]]
+    for index, line in enumerate(lines[1:], start=1):
+        if line[0].top - lines[index - 1][0].top > typical * BAND_GAP:
+            bands.append(current)
+            current = [line]
+        else:
+            current.append(line)
+    bands.append(current)
+    return bands
+
+
+def column_centres(lines: list[list[Word]]) -> list[float]:
+    """Column x-centres, clustered from the money tokens that define the grid."""
+    xs = sorted(w.cx for line in lines for w in line
+                if MONEY.match(w.text) and not is_year(w.text))
+    if not xs:
+        return []
+    centres, cluster = [], [xs[0]]
+    for x in xs[1:]:
+        if x - cluster[-1] <= COLUMN_TOLERANCE:
+            cluster.append(x)
+        else:
+            centres.append(sum(cluster) / len(cluster))
+            cluster = [x]
+    centres.append(sum(cluster) / len(cluster))
+    return centres
+
+
+def _panel_bounds(centres: list[float], band: list[list[Word]]) -> list[tuple[int, int]]:
+    """Column index ranges, one per side-by-side panel.
+
+    A panel boundary is a gap between money columns that REPEATEDLY CONTAINS non-money
+    text — because that is where the next panel prints its own row labels. Philadelphia
+    p157 puts twelve pay grades in two columns, and the second panel's step numbers
+    ("01", "02", ...) sit in the gap; without this they are absorbed into the last column
+    of panel 1 as "51,189 01".
+
+    Width alone is not a usable signal: that gap is 54pt against a 33pt median, a ratio of
+    1.6 that an ordinary wide column also reaches. Occupancy by label text is specific.
+    """
+    if len(centres) < 4:
+        return [(0, len(centres))]
+    money_lines = [line for line in band
+                   if sum(1 for w in line if MONEY.match(w.text) and not is_year(w.text)) >= 2]
+    if not money_lines:
+        return [(0, len(centres))]
+    cuts = []
+    for index in range(len(centres) - 1):
+        lo, hi = centres[index] + COLUMN_TOLERANCE, centres[index + 1] - COLUMN_TOLERANCE
+        if hi <= lo:
+            continue
+        occupied = sum(1 for line in money_lines
+                       if any(lo < w.cx < hi and not MONEY.match(w.text) for w in line))
+        if occupied >= 0.5 * len(money_lines):
+            cuts.append(index + 1)
+    if not cuts:
+        return [(0, len(centres))]
+    bounds, start = [], 0
+    for cut in cuts:
+        if cut - start >= 2:
+            bounds.append((start, cut))
+            start = cut
+    bounds.append((start, len(centres)))
+    return [b for b in bounds if b[1] - b[0] >= 2] or [(0, len(centres))]
+
+
+def _is_heading(text: str) -> bool:
+    """Does this money-free line head a table, or is it body prose?
+
+    Nothing previously distinguished the two, so on prose-heavy pages every paragraph
+    became a title. Measured on real pages, headings are short and unterminated
+    ("Pay Grade 29", "Masters (MA) - Hourly Rate", "Bachelors (BA) - Hourly Rate") while
+    body lines run 11-17 words and often close a sentence ("1.) Teacher Leaders shall be
+    elected by the constituents they are...").
+
+    The cap is deliberately generous. A tight one (10 words) did reject ATF p28's prose,
+    but it also rejected Albuquerque p72's real title - "Licensure Level 1 Teachers &
+    Librarians and Career Pathway Level 1 Counselors, Nurses, Social Workers &
+    Interpreters" is 17 words - and that title is the only thing identifying the schedule's
+    population. MIN_CELLS_PER_ROW is the load-bearing prose defence: p28 now yields no
+    table at all, so this test never has to judge its paragraphs.
+    """
+    text = (text or "").strip()
+    if not text:
+        return False
+    return len(text.split()) <= MAX_HEADING_WORDS and not text.endswith(".")
+
+
+def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[Table]:
+    """One band of lines -> one table, or two when the band holds side-by-side panels."""
+    centres = column_centres(band)
+    if len(centres) < MIN_COLS:
+        return []
+
+    panels = _panel_bounds(centres, band)
+
+    def assign(line: list[Word], lo: int, hi: int) -> tuple[str, list[str]]:
+        """(row label, cells) for one panel's column range.
+
+        The label is the text sitting to the LEFT of this panel's first money column and
+        right of the previous panel's last — which is exactly where a side-by-side layout
+        prints the second panel's step number.
+        """
+        left_edge = centres[lo] - COLUMN_TOLERANCE
+        right_edge = centres[hi - 1] + COLUMN_TOLERANCE
+        prior = centres[lo - 1] + COLUMN_TOLERANCE if lo > 0 else float("-inf")
+        label_parts, cells = [], [""] * (hi - lo)
+        for word in line:
+            if prior < word.cx < left_edge:
+                label_parts.append(word.text)
+                continue
+            if not (left_edge <= word.cx <= right_edge):
+                continue
+            index = min(range(lo, hi), key=lambda i: abs(centres[i] - word.cx)) - lo
+            cells[index] = (cells[index] + " " + word.text).strip() if cells[index] else word.text
+        return (" ".join(label_parts).strip(), cells)
+
+    out: list[Table] = []
+    for panel_no, (lo, hi) in enumerate(panels, start=1):
+        scanned = [(line, *assign(line, lo, hi)) for line in band]
+        scanned = [(line, label, cells, sum(1 for c in cells if money_in(c)))
+                   for line, label, cells in scanned]
+
+        # The header is the LAST money-free line before the first data row.
+        #
+        # A "pick the money-free line with the most column coverage, wherever it sits"
+        # rule was tried and reverted. Measured corpus-wide it looked like a clear win —
+        # better on 339 of 623 panels, worse on none, mean coverage 0.584 -> 0.924 — but
+        # coverage is a proxy, and maximising it selects PROSE. A full-width sentence
+        # spans every column by construction, so Albuquerque p72 took its header from the
+        # preamble ("are one-year | documents | that reflect | placement only.") and UTLA
+        # p339 took its from a footer, both displacing a correct header. The proxy improved
+        # while the answer got worse, on pages whose ground truth is established by eye.
+        # Where the DATA starts needs a stricter test than "this line has a number in it".
+        # A prose line above the table routinely carries one - UTLA p376 opens with
+        # "...2015-2016 rates reflect an increase of 2%...", whose "2015-2016" matches the
+        # money pattern - and a single stray figure was enough to make that paragraph the
+        # first data row. The header search then looked for lines BEFORE index 0, found
+        # none, and the table shipped with an empty header even though
+        # "(Req. Pts.)** 1 2 * 3 4 5 6 7 8 9 10" was sitting right above the numbers.
+        #
+        # A real data row in a grid of two or more money columns carries at least two
+        # amounts. Rows are still KEPT on one (a sparse row is still a row); this stricter
+        # count only decides where to stop looking for the header.
+        first_data = next((i for i, (_, _, cells, _) in enumerate(scanned)
+                           if sum(1 for c in cells
+                                  if money_in(c) and not is_year(money_in(c))) >= 2), None)
+        header_at = None
+        if first_data is not None:
+            for index in range(first_data - 1, -1, -1):
+                if scanned[index][3] == 0 and sum(1 for c in scanned[index][2] if c) >= 1:
+                    header_at = index
+                    break
+
+        # Split the panel into HEADING-DELIMITED BLOCKS, one Table each.
+        #
+        # A band is not one table. 17_19_ta_ p2 prints "Bachelors (BA) - Hourly Rate" and
+        # "Masters (MA) - Hourly Rate" one after the other over the same three columns, so
+        # no y-gap separates them and they arrived as a single Table. Philadelphia p157 does
+        # the same thing twelve times over ("Pay Grade 27", "Pay Grade 29", ...). Those two
+        # pages are structurally identical - repeated blocks under distinct headings sharing
+        # one column layout - so a heading is what ends a table, not a blank line.
+        #
+        # Carrying the heading as a per-row column instead (the old `groups`) meant every
+        # consumer read `members[0]` and silently kept the first block's identity for all of
+        # them: 252 of 411 grid_ids ended up with more than one title, and the labeller
+        # stamped one block's employee_group onto another's cells.
+        blocks: list[tuple[str, list[list[str]]]] = []
+        header_cells: list[str] = []
+        pending_title = ""
+        heading_run = False
+        for index, (_, label, cells, money) in enumerate(scanned):
+            if index == header_at:
+                header_cells = cells
+                continue
+            if money == 0:
+                text = " ".join(p for p in [label, *cells] if p).strip()
+                if _is_heading(text):
+                    # Consecutive heading lines are ONE wrapped title box, not a sequence.
+                    # Albuquerque p72 reads "APPENDIX A.1 / 2018-2019 Salary Matrix AT-1 /
+                    # Licensure Level 1 Teachers & Librarians and ... & Interpreters";
+                    # overwriting left only "Interpreters" and the labeller called a teacher
+                    # schedule an interpreter schedule. The tail is kept because the lines
+                    # nearest the table are the ones that identify it.
+                    joined = f"{pending_title} {text}".strip() if heading_run else text
+                    pending_title = joined[-TITLE_CHARS:] if len(joined) > TITLE_CHARS else joined
+                    heading_run = True
+                continue
+            if heading_run or not blocks:
+                blocks.append((pending_title, []))     # a heading starts a new table
+                heading_run = False
+            blocks[-1][1].append([label] + cells)
+
+        # A block too small to be a schedule is FOLDED BACK into the one above it, never
+        # dropped. Some pages interleave a short text line between every data row - 48.pdf
+        # p184 has 17 money rows against 21 heading-like lines - so splitting on every
+        # heading fragments one real table into single-row blocks. Dropping those cost that
+        # document 1,728 of its 1,796 cells.
+        #
+        # Genuine multi-block pages are unaffected because their blocks are big enough to
+        # stand on their own: Philadelphia's pay grades run 6 rows each and 17_19_ta_'s
+        # hourly schedules run 8.
+        merged: list[tuple[str, list[list[str]]]] = []
+        for title, body in blocks:
+            if merged and len(body) < MIN_ROWS:
+                merged[-1][1].extend(body)
+            else:
+                merged.append((title, body))
+        blocks = merged
+
+        header = ["step"] + (header_cells if header_cells else [""] * (hi - lo))
+        for position, (title, body) in enumerate(blocks, start=1):
+            if len(body) < MIN_ROWS:
+                continue
+            table = Table(page_start, page_end, header, body, title=title,
+                          note="" if len(panels) == 1 else f"panel {panel_no}",
+                          block=position)
+            if table.money_cells < 4:
+                continue
+            # FLAGGED, NOT DROPPED. One amount per printed row is the signature of two very
+            # different things and no test I tried separates them:
+            #
+            #   real  - an extra-duty schedule. 102-07 p74 lists "Athletic/Activities
+            #           Director $4,000", "Baseball $2,205". Genuine supplemental pay.
+            #   junk  - a prose page whose scattered figures got clustered into a grid
+            #           (ATF p28, p86).
+            #
+            # Density, plausible-pay magnitude and row-label length all score these two
+            # identically, so a hard gate that rejects the second also destroys the first -
+            # measured at 1,074 cells including every stipend schedule in 102-07. Keeping
+            # the row and flagging it follows what `value_kind` already does for "Total
+            # Increase": the data survives and the consumer filters.
+            filled = sum(1 for row in body if any(c for c in row[1:]))
+            if filled and table.money_cells / filled < MIN_CELLS_PER_ROW:
+                table.low_density = True
+            out.append(table)
+    return out
+
+
+def tables_on_page(page, page_number: int) -> list[Table]:
+    words = page_words(page)
+    if not words:
+        return []
+    if sum(1 for w in words if MONEY.match(w.text) and not is_year(w.text)) < 6:
+        return []
+    out: list[Table] = []
+    for band in split_bands(group_rows(words)):
+        out.extend(build_table(band, page_number, page_number))
+    return out
+
+
+def tables_in_document(pdf: Path) -> list[Table]:
+    """Every salary-shaped table in the document, located purely by geometry."""
+    try:
+        import pdfplumber
+    except ImportError:
+        return []
+    found: list[Table] = []
+    try:
+        with pdfplumber.open(str(pdf)) as document:
+            for number, page in enumerate(document.pages, start=1):
+                found.extend(tables_on_page(page, number))
+    except Exception:
+        return found
+    return found
