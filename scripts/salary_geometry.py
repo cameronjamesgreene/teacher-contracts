@@ -293,7 +293,20 @@ def build_table(band: list[list[Word]], page_start: int, page_end: int) -> list[
         # preamble ("are one-year | documents | that reflect | placement only.") and UTLA
         # p339 took its from a footer, both displacing a correct header. The proxy improved
         # while the answer got worse, on pages whose ground truth is established by eye.
-        first_data = next((i for i, (_, _, _, money) in enumerate(scanned) if money), None)
+        # Where the DATA starts needs a stricter test than "this line has a number in it".
+        # A prose line above the table routinely carries one - UTLA p376 opens with
+        # "...2015-2016 rates reflect an increase of 2%...", whose "2015-2016" matches the
+        # money pattern - and a single stray figure was enough to make that paragraph the
+        # first data row. The header search then looked for lines BEFORE index 0, found
+        # none, and the table shipped with an empty header even though
+        # "(Req. Pts.)** 1 2 * 3 4 5 6 7 8 9 10" was sitting right above the numbers.
+        #
+        # A real data row in a grid of two or more money columns carries at least two
+        # amounts. Rows are still KEPT on one (a sparse row is still a row); this stricter
+        # count only decides where to stop looking for the header.
+        first_data = next((i for i, (_, _, cells, _) in enumerate(scanned)
+                           if sum(1 for c in cells
+                                  if money_in(c) and not is_year(money_in(c))) >= 2), None)
         header_at = None
         if first_data is not None:
             for index in range(first_data - 1, -1, -1):
